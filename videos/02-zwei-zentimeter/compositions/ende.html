@@ -68,14 +68,14 @@
   <script>
     const tl = gsap.timeline({ paused: true });
 
-    tl.fromTo("#en-du", {x:0}, {x:220, duration:2.78, ease:"power1.inOut"}, 0.1);
-    tl.set("#en-du .m-n", {opacity:0}, 3.076);
-    tl.set("#en-du .m-s", {opacity:1}, 3.076);
-    tl.fromTo("#en-world", {x:0}, {x:6, duration:0.05, yoyo:true, repeat:47, ease:"none"}, 3.076);
-    tl.fromTo("#en-robot", {x:0}, {x:700, duration:3.91, ease:"power1.in"}, 3.6180000000000003);
-    tl.fromTo("#en-led", {opacity:1}, {opacity:0.2, duration:0.25, yoyo:true, repeat:15}, 3.918);
-    tl.fromTo("#en-dark", {opacity:0}, {opacity:0.55, duration:3.91, ease:"power2.in"}, 3.918);
-    tl.fromTo("#en-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 3.918);
+    tl.fromTo("#en-du", {x:0}, {x:220, duration:4.88, ease:"power1.inOut"}, 0.1);
+    tl.set("#en-du .m-n", {opacity:0}, 5.181);
+    tl.set("#en-du .m-s", {opacity:1}, 5.181);
+    tl.fromTo("#en-world", {x:0}, {x:6, duration:0.05, yoyo:true, repeat:53, ease:"none"}, 5.181);
+    tl.fromTo("#en-robot", {x:0}, {x:700, duration:4.21, ease:"power1.in"}, 6.063000000000001);
+    tl.fromTo("#en-led", {opacity:1}, {opacity:0.2, duration:0.25, yoyo:true, repeat:16}, 6.363);
+    tl.fromTo("#en-dark", {opacity:0}, {opacity:0.55, duration:4.21, ease:"power2.in"}, 6.363);
+    tl.fromTo("#en-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 6.363);
 
     window.__timelines["ende"] = tl;
   </script>

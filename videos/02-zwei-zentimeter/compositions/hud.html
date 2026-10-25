@@ -9,36 +9,36 @@
   padding:6px 14px; border:2px solid; border-radius:8px; background:rgba(14,21,36,0.85); }
 </style>
   <div id="root" data-composition-id="hud" data-width="1080" data-height="1920" data-layout-allow-overlap>
-        <div id="hud-l0" class="clip lab" data-start="0" data-duration="3.575" data-track-index="1"><span>TAG 1 · 07:12</span></div>
-    <div id="hud-l1" class="clip lab" data-start="3.575" data-duration="7.238" data-track-index="1"><span>TAG 1 · 07:12</span></div>
-    <div id="hud-l2" class="clip lab" data-start="10.813" data-duration="7.958" data-track-index="1"><span>REGEL 1 · FALLEN</span></div>
-    <div id="hud-l3" class="clip lab" data-start="18.771" data-duration="6.778" data-track-index="1"><span>REGEL 2 · WASSER</span></div>
-    <div id="hud-l4" class="clip lab" data-start="25.549" data-duration="7.343" data-track-index="1"><span>REGEL 3 · KÄLTE</span></div>
-    <div id="hud-l5" class="clip lab" data-start="32.892" data-duration="4.941" data-track-index="1"><span>REGEL 4 · SPINNE</span></div>
-    <div id="hud-l6" class="clip lab" data-start="37.833" data-duration="6.558" data-track-index="1"><span>REGEL 5 · STIMME</span></div>
-    <div id="hud-l7" class="clip lab" data-start="44.391" data-duration="7.588" data-track-index="1"><span>TAG 1 · 07:58</span></div>
-    <div id="hud-l8" class="clip lab" data-start="51.979" data-duration="7.831" data-track-index="1"><span>TAG 1 · 08:00</span></div>
-        <div id="hud-c0" class="clip chk" data-start="15.848" data-duration="36.131" data-track-index="2" style="top:288px"><span style="color:#F5B83D;border-color:#F5B83D">1 · FALLEN</span></div>
-    <div id="hud-c1" class="clip chk" data-start="24.501" data-duration="27.478" data-track-index="2" style="top:338px"><span style="color:#F5B83D;border-color:#F5B83D">2 · WASSER</span></div>
-    <div id="hud-c2" class="clip chk" data-start="31.742" data-duration="20.237" data-track-index="2" style="top:388px"><span style="color:#F5B83D;border-color:#F5B83D">3 · KÄLTE</span></div>
-    <div id="hud-c3" class="clip chk" data-start="37.256" data-duration="14.723" data-track-index="2" style="top:438px"><span style="color:#F5B83D;border-color:#F5B83D">4 · SPINNE</span></div>
-    <div id="hud-c4" class="clip chk" data-start="43.6" data-duration="8.379" data-track-index="2" style="top:488px"><span style="color:#F5B83D;border-color:#F5B83D">5 · STIMME</span></div>
+        <div id="hud-l0" class="clip lab" data-start="0" data-duration="4.031" data-track-index="1"><span>TAG 1 · 07:12</span></div>
+    <div id="hud-l1" class="clip lab" data-start="4.031" data-duration="8.362" data-track-index="1"><span>TAG 1 · 07:12</span></div>
+    <div id="hud-l2" class="clip lab" data-start="12.393" data-duration="8.979" data-track-index="1"><span>REGEL 1 · FALLEN</span></div>
+    <div id="hud-l3" class="clip lab" data-start="21.372" data-duration="8.259" data-track-index="1"><span>REGEL 2 · WASSER</span></div>
+    <div id="hud-l4" class="clip lab" data-start="29.631" data-duration="8.817" data-track-index="1"><span>REGEL 3 · KÄLTE</span></div>
+    <div id="hud-l5" class="clip lab" data-start="38.448" data-duration="5.648" data-track-index="1"><span>REGEL 4 · SPINNE</span></div>
+    <div id="hud-l6" class="clip lab" data-start="44.096" data-duration="8" data-track-index="1"><span>REGEL 5 · STIMME</span></div>
+    <div id="hud-l7" class="clip lab" data-start="52.096" data-duration="9.262" data-track-index="1"><span>TAG 1 · 07:58</span></div>
+    <div id="hud-l8" class="clip lab" data-start="61.358" data-duration="10.572" data-track-index="1"><span>TAG 1 · 08:00</span></div>
+        <div id="hud-c0" class="clip chk" data-start="18.55" data-duration="42.808" data-track-index="2" style="top:288px"><span style="color:#F5B83D;border-color:#F5B83D">1 · FALLEN</span></div>
+    <div id="hud-c1" class="clip chk" data-start="28.584" data-duration="32.774" data-track-index="2" style="top:338px"><span style="color:#F5B83D;border-color:#F5B83D">2 · WASSER</span></div>
+    <div id="hud-c2" class="clip chk" data-start="37.458" data-duration="23.9" data-track-index="2" style="top:388px"><span style="color:#F5B83D;border-color:#F5B83D">3 · KÄLTE</span></div>
+    <div id="hud-c3" class="clip chk" data-start="43.785" data-duration="17.573" data-track-index="2" style="top:438px"><span style="color:#F5B83D;border-color:#F5B83D">4 · SPINNE</span></div>
+    <div id="hud-c4" class="clip chk" data-start="51.192" data-duration="10.166" data-track-index="2" style="top:488px"><span style="color:#F5B83D;border-color:#F5B83D">5 · STIMME</span></div>
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-    tl.fromTo("#hud-l1 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},3.575);
-    tl.fromTo("#hud-l2 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},10.813);
-    tl.fromTo("#hud-l3 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},18.771);
-    tl.fromTo("#hud-l4 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},25.549);
-    tl.fromTo("#hud-l5 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},32.892);
-    tl.fromTo("#hud-l6 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},37.833);
-    tl.fromTo("#hud-l7 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},44.391);
-    tl.fromTo("#hud-l8 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},51.979);
-    tl.fromTo("#hud-c0 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},15.848);
-    tl.fromTo("#hud-c1 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},24.501);
-    tl.fromTo("#hud-c2 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},31.742);
-    tl.fromTo("#hud-c3 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},37.256);
-    tl.fromTo("#hud-c4 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},43.6);
+    tl.fromTo("#hud-l1 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},4.031);
+    tl.fromTo("#hud-l2 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},12.393);
+    tl.fromTo("#hud-l3 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},21.372);
+    tl.fromTo("#hud-l4 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},29.631);
+    tl.fromTo("#hud-l5 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},38.448);
+    tl.fromTo("#hud-l6 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},44.096);
+    tl.fromTo("#hud-l7 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},52.096);
+    tl.fromTo("#hud-l8 span",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.18,ease:"power4.out"},61.358);
+    tl.fromTo("#hud-c0 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},18.55);
+    tl.fromTo("#hud-c1 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},28.584);
+    tl.fromTo("#hud-c2 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},37.458);
+    tl.fromTo("#hud-c3 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},43.785);
+    tl.fromTo("#hud-c4 span",{x:-30,opacity:0},{x:0,opacity:1,duration:0.35,ease:"expo.out"},51.192);
     window.__timelines["hud"] = tl;
   </script>
 </template>

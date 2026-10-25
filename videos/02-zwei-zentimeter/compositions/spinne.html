@@ -63,16 +63,16 @@
   <script>
     const tl = gsap.timeline({ paused: true });
     tl.fromTo("#sp-rt div", {scale:1.25, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 0.02);
-    tl.to("#sp-rt div", {opacity:0, y:-40, filter:"blur(8px)", duration:0.22, ease:"power2.in"}, 0.782);
+    tl.to("#sp-rt div", {opacity:0, y:-40, filter:"blur(8px)", duration:0.22, ease:"power2.in"}, 1.3599999999999999);
 
-    tl.fromTo("#sp-world", {opacity:0}, {opacity:1, duration:0.3}, 0.782);
-    tl.fromTo("#sc", {y:-30, opacity:0}, {y:0, opacity:1, duration:0.4, ease:"expo.out"}, 0.882);
-    tl.fromTo("#sp-spider", {y:-500}, {y:0, duration:1.2, ease:"power2.out"}, 0.982);
+    tl.fromTo("#sp-world", {opacity:0}, {opacity:1, duration:0.3}, 1.3599999999999999);
+    tl.fromTo("#sc", {y:-30, opacity:0}, {y:0, opacity:1, duration:0.4, ease:"expo.out"}, 1.46);
+    tl.fromTo("#sp-spider", {y:-500}, {y:0, duration:1.2, ease:"power2.out"}, 1.5599999999999998);
     tl.fromTo(".sp-leg", {rotation:0}, {rotation:4, duration:0.3, yoyo:true, repeat:9, ease:"sine.inOut", stagger:0.05,
-      transformOrigin:"0px 0px"}, 1.182);
-    tl.to("#sp-spider", {scale:1.12, x:-60, duration:0.25, ease:"power3.out"}, 3.964);
-    tl.fromTo("#sp-du", {x:0}, {x:-90, duration:0.25, ease:"power3.out"}, 3.964);
-    tl.fromTo("#sp-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 3.234);
+      transformOrigin:"0px 0px"}, 1.7599999999999998);
+    tl.to("#sp-spider", {scale:1.12, x:-60, duration:0.25, ease:"power3.out"}, 4.937);
+    tl.fromTo("#sp-du", {x:0}, {x:-90, duration:0.25, ease:"power3.out"}, 4.937);
+    tl.fromTo("#sp-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 4.181);
 
     window.__timelines["spinne"] = tl;
   </script>

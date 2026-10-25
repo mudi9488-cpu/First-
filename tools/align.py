@@ -25,7 +25,7 @@ SILENCE_MIN = 0.12
 MISS_STRONG = 3.0   # Satzende (. ? ! :) ohne Pause
 MISS_WEAK = 0.4     # Komma ohne Pause
 GAP_UNUSED = 2.0    # Pause, die keinem Zeilenende zugeordnet ist (Atmer mitten im Satz)
-GAP_ODD = 1.0       # Pause an einem Zeilenende ohne Satzzeichen
+GAP_ODD = 0.3       # Pause an einem Zeilenende ohne Satzzeichen
 
 
 def silences(path):
@@ -55,7 +55,7 @@ def main(project: Path, audio: Path):
     kind = []  # Art des Zeilenendes
     for s in say:
         c = s.rstrip()[-1]
-        kind.append("strong" if c in ".?!:" else "weak" if c in ",;" else "none")
+        kind.append("strong" if c in ".?!:…" else "weak" if c in ",;" else "none")
 
     sil, dur = silences(audio)
     head = sil[0][1] if sil and sil[0][0] < 0.05 else 0.0

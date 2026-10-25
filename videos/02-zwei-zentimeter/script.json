@@ -161,7 +161,10 @@
       "label": "TAG 1 · 07:58",
       "lines": [
         {
-          "show": "Aber dann merkst du"
+          "show": "Aber …"
+        },
+        {
+          "show": "dann merkst du"
         },
         {
           "show": "etwas {y:Seltsames}."

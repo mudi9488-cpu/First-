@@ -60,17 +60,17 @@
   <script>
     const tl = gsap.timeline({ paused: true });
     tl.fromTo("#wa-rt div", {scale:1.25, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 0.02);
-    tl.to("#wa-rt div", {opacity:0, y:-40, filter:"blur(8px)", duration:0.22, ease:"power2.in"}, 0.8190000000000001);
+    tl.to("#wa-rt div", {opacity:0, y:-40, filter:"blur(8px)", duration:0.22, ease:"power2.in"}, 1.3239999999999998);
 
-    tl.fromTo("#wa-world", {opacity:0}, {opacity:1, duration:0.3}, 0.8190000000000001);
-    tl.fromTo("#wc", {y:-30, opacity:0}, {y:0, opacity:1, duration:0.4, ease:"expo.out"}, 0.919);
+    tl.fromTo("#wa-world", {opacity:0}, {opacity:1, duration:0.3}, 1.3239999999999998);
+    tl.fromTo("#wc", {y:-30, opacity:0}, {y:0, opacity:1, duration:0.4, ease:"expo.out"}, 1.424);
     tl.fromTo("#wa-drop", {scaleY:0.9}, {scaleY:1.04, duration:0.6, yoyo:true, repeat:9, ease:"sine.inOut", transformOrigin:"50% 100%"}, 0);
-    tl.fromTo("#wa-du", {x:0}, {x:250, duration:2.45, ease:"power1.inOut"}, 1.119);
-    tl.to("#wa-du", {x:300, duration:0.25, ease:"power3.in"}, 3.571);
-    tl.set("#wa-du .m-n", {opacity:0}, 3.821);
-    tl.set("#wa-du .m-s", {opacity:1}, 3.821);
-    tl.fromTo("#wa-du svg", {x:0}, {x:-14, duration:0.08, yoyo:true, repeat:17, ease:"sine.inOut"}, 4.83);
-    tl.fromTo("#wa-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 3.871);
+    tl.fromTo("#wa-du", {x:0}, {x:250, duration:2.97, ease:"power1.inOut"}, 1.6239999999999999);
+    tl.to("#wa-du", {x:300, duration:0.25, ease:"power3.in"}, 4.594);
+    tl.set("#wa-du .m-n", {opacity:0}, 4.844);
+    tl.set("#wa-du .m-s", {opacity:1}, 4.844);
+    tl.fromTo("#wa-du svg", {x:0}, {x:-14, duration:0.08, yoyo:true, repeat:17, ease:"sine.inOut"}, 6.312);
+    tl.fromTo("#wa-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 4.894);
 
     window.__timelines["wasser"] = tl;
   </script>

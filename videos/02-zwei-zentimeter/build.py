@@ -383,8 +383,8 @@ def scene_stark():
       {du("sk-du", 540, 1110, h=240)}
     </div>
     {hud_card("kc2", "Du hebst", "1", unit="× dein Gewicht", color=C["green"], top=290)}
-    {pill("sk-p", "SUPERSTARK", C['green'], 520, "font-size:56px")}"""
-    lift, x25, sup = w("stark", 2, 1), w("stark", 3, 1), w("stark", 5, 2)
+    <div class="pill" id="sk-p" style="left:618px;top:960px;background:{C['green']};color:#0A0F1C;font-size:48px">SUPERSTARK</div>"""
+    lift, x25, sup = w("stark", 3, 1), w("stark", 4, 1), w("stark", 6, 2)
     js = f"""
     tl.fromTo("#kc2", {{y:-30, opacity:0}}, {{y:0, opacity:1, duration:0.4, ease:"expo.out"}}, 0.2);
     tl.fromTo("#sk-du", {{x:-300}}, {{x:0, duration:{lift - 0.4:.2f}, ease:"power1.inOut"}}, 0.2);
@@ -463,8 +463,8 @@ SFX = [
     (wa("stimme", 3, 1), "glitch-3.mp3", 0.2),
     (wa("stimme", 4, 2) + 0.25, "impact-bass-1.mp3", 0.5),
     (S["stark"] - 0.15, "whoosh.mp3", 0.5),
-    (wa("stark", 2, 1), "whoosh-short.mp3", 0.4),
-    (wa("stark", 5, 2), "sparkle.mp3", 0.5),
+    (wa("stark", 3, 1), "whoosh-short.mp3", 0.4),
+    (wa("stark", 6, 2), "sparkle.mp3", 0.5),
     (S["ende"] - 0.15, "whoosh-short.mp3", 0.5),
     (wa("ende", 2, 3) - 0.3, "riser.mp3", 0.25),
     (wa("ende", 3, 1), "error.mp3", 0.4),

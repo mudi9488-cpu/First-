@@ -68,22 +68,22 @@
   <script>
     const tl = gsap.timeline({ paused: true });
     tl.fromTo("#st-rt div", {scale:1.25, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 0.02);
-    tl.to("#st-rt div", {opacity:0, y:-40, filter:"blur(8px)", duration:0.22, ease:"power2.in"}, 0.787);
+    tl.to("#st-rt div", {opacity:0, y:-40, filter:"blur(8px)", duration:0.22, ease:"power2.in"}, 1.398);
 
-    tl.fromTo("#st-world", {opacity:0}, {opacity:1, duration:0.3}, 0.787);
-    tl.fromTo("#vc", {y:-30, opacity:0}, {y:0, opacity:1, duration:0.4, ease:"expo.out"}, 0.887);
-    tl.set("#st-du .m-n", {opacity:0}, 1.087);
-    tl.set("#st-du .m-s", {opacity:1}, 1.087);
-    tl.set("#st-du .a-d", {opacity:0}, 1.087);
-    tl.set("#st-du .a-u", {opacity:1}, 1.087);
-    tl.fromTo(".st-r", {opacity:0}, {opacity:1, duration:0.15, stagger:0.12, yoyo:true, repeat:5}, 1.087);
-    tl.set("#vc-lo", {opacity:0}, 3.574);
-    tl.set("#vc-hi", {opacity:1}, 3.574);
-    tl.to("#vc-hi", {scaleY:0.15, duration:0.4, ease:"power2.in", transformOrigin:"50% 50%"}, 4.222);
-    tl.to("#st-rings", {scale:0.4, opacity:0.3, duration:0.4, transformOrigin:"0% 50%"}, 4.222);
-    tl.fromTo("#st-shoe", {y:0, x:0}, {y:1130, x:-120, duration:0.6, ease:"power3.in"}, 4.9670000000000005);
-    tl.to("#st-shoe", {y:-300, x:-700, duration:0.9, ease:"power2.inOut"}, 5.867);
-    tl.fromTo("#st-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 5.267);
+    tl.fromTo("#st-world", {opacity:0}, {opacity:1, duration:0.3}, 1.398);
+    tl.fromTo("#vc", {y:-30, opacity:0}, {y:0, opacity:1, duration:0.4, ease:"expo.out"}, 1.498);
+    tl.set("#st-du .m-n", {opacity:0}, 1.698);
+    tl.set("#st-du .m-s", {opacity:1}, 1.698);
+    tl.set("#st-du .a-d", {opacity:0}, 1.698);
+    tl.set("#st-du .a-u", {opacity:1}, 1.698);
+    tl.fromTo(".st-r", {opacity:0}, {opacity:1, duration:0.15, stagger:0.12, yoyo:true, repeat:5}, 1.698);
+    tl.set("#vc-lo", {opacity:0}, 4.865);
+    tl.set("#vc-hi", {opacity:1}, 4.865);
+    tl.to("#vc-hi", {scaleY:0.15, duration:0.4, ease:"power2.in", transformOrigin:"50% 50%"}, 5.549);
+    tl.to("#st-rings", {scale:0.4, opacity:0.3, duration:0.4, transformOrigin:"0% 50%"}, 5.549);
+    tl.fromTo("#st-shoe", {y:0, x:0}, {y:1130, x:-120, duration:0.6, ease:"power3.in"}, 6.296);
+    tl.to("#st-shoe", {y:-300, x:-700, duration:0.9, ease:"power2.inOut"}, 7.196);
+    tl.fromTo("#st-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 6.596);
 
     window.__timelines["stimme"] = tl;
   </script>

@@ -1,1173 +1,1186 @@
 {
- "duration": 58.41,
+ "duration": 70.53,
+ "source": "voice-elevenlabs-helmut.mp3",
  "beats": [
   {
    "id": "hook",
    "label": "TAG 1 · 07:12",
-   "start": 0.15,
    "lines": [
     {
      "show": "Du wachst auf.",
-     "start": 0.15,
-     "end": 0.795,
+     "start": 0.0,
+     "end": 1.28,
      "words": [
       {
        "text": "Du",
-       "start": 0.15,
-       "end": 0.296
+       "start": 0.0,
+       "end": 0.289
       },
       {
        "text": "wachst",
-       "start": 0.296,
-       "end": 0.607
+       "start": 0.289,
+       "end": 0.908
       },
       {
        "text": "auf.",
-       "start": 0.607,
-       "end": 0.795
+       "start": 0.908,
+       "end": 1.28
       }
      ]
     },
     {
      "show": "Und alles um dich herum",
-     "start": 1.095,
-     "end": 2.203,
+     "start": 1.758,
+     "end": 2.942,
      "words": [
       {
        "text": "Und",
-       "start": 1.095,
-       "end": 1.283
+       "start": 1.758,
+       "end": 1.959
       },
       {
        "text": "alles",
-       "start": 1.283,
-       "end": 1.555
+       "start": 1.959,
+       "end": 2.25
       },
       {
        "text": "um",
-       "start": 1.555,
-       "end": 1.701
+       "start": 2.25,
+       "end": 2.406
       },
       {
        "text": "dich",
-       "start": 1.701,
-       "end": 1.931
+       "start": 2.406,
+       "end": 2.652
       },
       {
        "text": "herum",
-       "start": 1.931,
-       "end": 2.203
+       "start": 2.652,
+       "end": 2.942
       }
      ]
     },
     {
      "show": "ist {r:riesig}.",
-     "start": 2.263,
-     "end": 2.875,
+     "start": 2.942,
+     "end": 3.494,
      "words": [
       {
        "text": "ist",
-       "start": 2.263,
-       "end": 2.493
+       "start": 2.942,
+       "end": 3.149
       },
       {
        "text": "riesig.",
-       "start": 2.493,
-       "end": 2.875
+       "start": 3.149,
+       "end": 3.494
       }
      ]
     }
    ],
-   "end": 3.175
+   "start": 0.0,
+   "end": 3.494
   },
   {
    "id": "groesse",
    "label": "TAG 1 · 07:12",
-   "start": 3.575,
    "lines": [
     {
      "show": "Du bist nur noch",
-     "start": 3.575,
-     "end": 4.267,
+     "start": 4.031,
+     "end": 4.81,
      "words": [
       {
        "text": "Du",
-       "start": 3.575,
-       "end": 3.703
+       "start": 4.031,
+       "end": 4.175
       },
       {
        "text": "bist",
-       "start": 3.703,
-       "end": 3.903
+       "start": 4.175,
+       "end": 4.4
       },
       {
        "text": "nur",
-       "start": 3.903,
-       "end": 4.067
+       "start": 4.4,
+       "end": 4.585
       },
       {
        "text": "noch",
-       "start": 4.067,
-       "end": 4.267
+       "start": 4.585,
+       "end": 4.81
       }
      ]
     },
     {
      "show": "{y:zwei Zentimeter} groß.",
-     "start": 4.327,
-     "end": 5.642,
+     "start": 5.065,
+     "end": 6.424,
      "words": [
       {
        "text": "zwei",
-       "start": 4.327,
-       "end": 4.648
+       "start": 5.065,
+       "end": 5.397
       },
       {
        "text": "Zentimeter",
-       "start": 4.648,
-       "end": 5.321
+       "start": 5.397,
+       "end": 6.091
       },
       {
        "text": "groß.",
-       "start": 5.321,
-       "end": 5.642
+       "start": 6.091,
+       "end": 6.424
       }
      ]
     },
     {
      "show": "So groß wie",
-     "start": 5.942,
-     "end": 6.737,
+     "start": 6.904,
+     "end": 7.545,
      "words": [
       {
        "text": "So",
-       "start": 5.942,
-       "end": 6.148
+       "start": 6.904,
+       "end": 7.07
       },
       {
        "text": "groß",
-       "start": 6.148,
-       "end": 6.472
+       "start": 7.07,
+       "end": 7.331
       },
       {
        "text": "wie",
-       "start": 6.472,
-       "end": 6.737
+       "start": 7.331,
+       "end": 7.545
       }
      ]
     },
     {
      "show": "ein {y:Gummibärchen}.",
-     "start": 6.797,
-     "end": 7.742,
+     "start": 7.545,
+     "end": 8.552,
      "words": [
       {
        "text": "ein",
-       "start": 6.797,
-       "end": 7.033
+       "start": 7.545,
+       "end": 7.797
       },
       {
        "text": "Gummibärchen.",
-       "start": 7.033,
-       "end": 7.742
+       "start": 7.797,
+       "end": 8.552
       }
      ]
     },
     {
      "show": "Dein Bett?",
-     "start": 8.042,
-     "end": 8.575,
+     "start": 9.121,
+     "end": 9.576,
      "words": [
       {
        "text": "Dein",
-       "start": 8.042,
-       "end": 8.308
+       "start": 9.121,
+       "end": 9.348
       },
       {
        "text": "Bett?",
-       "start": 8.308,
-       "end": 8.575
+       "start": 9.348,
+       "end": 9.576
       }
      ]
     },
     {
      "show": "So hoch wie ein {y:Hochhaus}.",
-     "start": 8.875,
-     "end": 10.113,
+     "start": 10.242,
+     "end": 11.86,
      "words": [
       {
        "text": "So",
-       "start": 8.875,
-       "end": 9.033
+       "start": 10.242,
+       "end": 10.448
       },
       {
        "text": "hoch",
-       "start": 9.033,
-       "end": 9.28
+       "start": 10.448,
+       "end": 10.771
       },
       {
        "text": "wie",
-       "start": 9.28,
-       "end": 9.483
+       "start": 10.771,
+       "end": 11.036
       },
       {
        "text": "ein",
-       "start": 9.483,
-       "end": 9.685
+       "start": 11.036,
+       "end": 11.301
       },
       {
        "text": "Hochhaus.",
-       "start": 9.685,
-       "end": 10.113
+       "start": 11.301,
+       "end": 11.86
       }
      ]
     }
    ],
-   "end": 10.413
+   "start": 4.031,
+   "end": 11.86
   },
   {
    "id": "fallen",
    "label": "REGEL 1 · FALLEN",
-   "start": 10.813,
    "lines": [
     {
      "show": "{y:Regel eins}:",
-     "start": 10.813,
-     "end": 11.544,
+     "start": 12.393,
+     "end": 13.238,
      "words": [
       {
        "text": "Regel",
-       "start": 10.813,
-       "end": 11.209
+       "start": 12.393,
+       "end": 12.851
       },
       {
        "text": "eins:",
-       "start": 11.209,
-       "end": 11.544
+       "start": 12.851,
+       "end": 13.238
       }
      ]
     },
     {
      "show": "Hab keine Angst",
-     "start": 11.704,
-     "end": 12.636,
+     "start": 13.784,
+     "end": 14.61,
      "words": [
       {
        "text": "Hab",
-       "start": 11.704,
-       "end": 11.944
+       "start": 13.784,
+       "end": 13.996
       },
       {
        "text": "keine",
-       "start": 11.944,
-       "end": 12.29
+       "start": 13.996,
+       "end": 14.303
       },
       {
        "text": "Angst",
-       "start": 12.29,
-       "end": 12.636
+       "start": 14.303,
+       "end": 14.61
       }
      ]
     },
     {
      "show": "vor der {r:Tiefe}.",
-     "start": 12.696,
-     "end": 13.544,
+     "start": 14.61,
+     "end": 15.435,
      "words": [
       {
        "text": "vor",
-       "start": 12.696,
-       "end": 12.942
+       "start": 14.61,
+       "end": 14.849
       },
       {
        "text": "der",
-       "start": 12.942,
-       "end": 13.189
+       "start": 14.849,
+       "end": 15.089
       },
       {
        "text": "Tiefe.",
-       "start": 13.189,
-       "end": 13.544
+       "start": 15.089,
+       "end": 15.435
       }
      ]
     },
     {
      "show": "Du springst vom Bett",
-     "start": 13.844,
-     "end": 14.736,
+     "start": 15.79,
+     "end": 17.15,
      "words": [
       {
        "text": "Du",
-       "start": 13.844,
-       "end": 13.98
+       "start": 15.79,
+       "end": 15.997
       },
       {
        "text": "springst",
-       "start": 13.98,
-       "end": 14.348
+       "start": 15.997,
+       "end": 16.558
       },
       {
        "text": "vom",
-       "start": 14.348,
-       "end": 14.522
+       "start": 16.558,
+       "end": 16.825
       },
       {
        "text": "Bett",
-       "start": 14.522,
-       "end": 14.736
+       "start": 16.825,
+       "end": 17.15
       }
      ]
     },
     {
      "show": "und landest {g:unverletzt}.",
-     "start": 14.796,
-     "end": 16.026,
+     "start": 17.335,
+     "end": 18.872,
      "words": [
       {
        "text": "und",
-       "start": 14.796,
-       "end": 15.021
+       "start": 17.335,
+       "end": 17.617
       },
       {
        "text": "landest",
-       "start": 15.021,
-       "end": 15.448
+       "start": 17.617,
+       "end": 18.15
       },
       {
        "text": "unverletzt.",
-       "start": 15.448,
-       "end": 16.026
+       "start": 18.15,
+       "end": 18.872
       }
      ]
     },
     {
      "show": "Kleine Körper",
-     "start": 16.326,
-     "end": 17.156,
+     "start": 19.353,
+     "end": 20.141,
      "words": [
       {
        "text": "Kleine",
-       "start": 16.326,
-       "end": 16.741
+       "start": 19.353,
+       "end": 19.747
       },
       {
        "text": "Körper",
-       "start": 16.741,
-       "end": 17.156
+       "start": 19.747,
+       "end": 20.141
       }
      ]
     },
     {
      "show": "fallen {g:langsam}.",
-     "start": 17.216,
-     "end": 18.071,
+     "start": 20.141,
+     "end": 20.929,
      "words": [
       {
        "text": "fallen",
-       "start": 17.216,
-       "end": 17.617
+       "start": 20.141,
+       "end": 20.51
       },
       {
        "text": "langsam.",
-       "start": 17.617,
-       "end": 18.071
+       "start": 20.51,
+       "end": 20.929
       }
      ]
     }
    ],
-   "end": 18.371
+   "start": 12.393,
+   "end": 20.929
   },
   {
    "id": "wasser",
    "label": "REGEL 2 · WASSER",
-   "start": 18.771,
    "lines": [
     {
      "show": "{y:Regel zwei}:",
-     "start": 18.771,
-     "end": 19.53,
+     "start": 21.372,
+     "end": 22.186,
      "words": [
       {
        "text": "Regel",
-       "start": 18.771,
-       "end": 19.182
+       "start": 21.372,
+       "end": 21.813
       },
       {
        "text": "zwei:",
-       "start": 19.182,
-       "end": 19.53
+       "start": 21.813,
+       "end": 22.186
       }
      ]
     },
     {
      "show": "Fass {r:kein Wasser} an.",
-     "start": 19.69,
-     "end": 20.828,
+     "start": 22.796,
+     "end": 24.184,
      "words": [
       {
        "text": "Fass",
-       "start": 19.69,
-       "end": 19.975
+       "start": 22.796,
+       "end": 23.143
       },
       {
        "text": "kein",
-       "start": 19.975,
-       "end": 20.259
+       "start": 23.143,
+       "end": 23.49
       },
       {
        "text": "Wasser",
-       "start": 20.259,
-       "end": 20.647
+       "start": 23.49,
+       "end": 23.963
       },
       {
        "text": "an.",
-       "start": 20.647,
-       "end": 20.828
+       "start": 23.963,
+       "end": 24.184
       }
      ]
     },
     {
      "show": "Ein einziger Tropfen",
-     "start": 21.128,
-     "end": 22.282,
+     "start": 24.696,
+     "end": 25.966,
      "words": [
       {
        "text": "Ein",
-       "start": 21.128,
-       "end": 21.359
+       "start": 24.696,
+       "end": 24.95
       },
       {
        "text": "einziger",
-       "start": 21.359,
-       "end": 21.846
+       "start": 24.95,
+       "end": 25.486
       },
       {
        "text": "Tropfen",
-       "start": 21.846,
-       "end": 22.282
+       "start": 25.486,
+       "end": 25.966
       }
      ]
     },
     {
      "show": "klebt an dir wie {r:Kleber}.",
-     "start": 22.342,
-     "end": 23.493,
+     "start": 25.966,
+     "end": 27.236,
      "words": [
       {
        "text": "klebt",
-       "start": 22.342,
-       "end": 22.625
+       "start": 25.966,
+       "end": 26.277
       },
       {
        "text": "an",
-       "start": 22.625,
-       "end": 22.777
+       "start": 26.277,
+       "end": 26.445
       },
       {
        "text": "dir",
-       "start": 22.777,
-       "end": 22.972
+       "start": 26.445,
+       "end": 26.661
       },
       {
        "text": "wie",
-       "start": 22.972,
-       "end": 23.167
+       "start": 26.661,
+       "end": 26.876
       },
       {
        "text": "Kleber.",
-       "start": 23.167,
-       "end": 23.493
+       "start": 26.876,
+       "end": 27.236
       }
      ]
     },
     {
      "show": "Du kommst {r:nicht mehr} raus.",
-     "start": 23.793,
-     "end": 24.849,
+     "start": 27.767,
+     "end": 29.107,
      "words": [
       {
        "text": "Du",
-       "start": 23.793,
-       "end": 23.923
+       "start": 27.767,
+       "end": 27.931
       },
       {
        "text": "kommst",
-       "start": 23.923,
-       "end": 24.201
+       "start": 27.931,
+       "end": 28.284
       },
       {
        "text": "nicht",
-       "start": 24.201,
-       "end": 24.441
+       "start": 28.284,
+       "end": 28.589
       },
       {
        "text": "mehr",
-       "start": 24.441,
-       "end": 24.645
+       "start": 28.589,
+       "end": 28.848
       },
       {
        "text": "raus.",
-       "start": 24.645,
-       "end": 24.849
+       "start": 28.848,
+       "end": 29.107
       }
      ]
     }
    ],
-   "end": 25.149
+   "start": 21.372,
+   "end": 29.107
   },
   {
    "id": "kaelte",
    "label": "REGEL 3 · KÄLTE",
-   "start": 25.549,
    "lines": [
     {
      "show": "{y:Regel drei}:",
-     "start": 25.549,
-     "end": 26.145,
+     "start": 29.631,
+     "end": 30.431,
      "words": [
       {
        "text": "Regel",
-       "start": 25.549,
-       "end": 25.872
+       "start": 29.631,
+       "end": 30.065
       },
       {
        "text": "drei:",
-       "start": 25.872,
-       "end": 26.145
+       "start": 30.065,
+       "end": 30.431
       }
      ]
     },
     {
      "show": "Bleib {y:warm}.",
-     "start": 26.305,
-     "end": 27.002,
+     "start": 31.099,
+     "end": 31.802,
      "words": [
       {
        "text": "Bleib",
-       "start": 26.305,
-       "end": 26.682
+       "start": 31.099,
+       "end": 31.479
       },
       {
        "text": "warm.",
-       "start": 26.682,
-       "end": 27.002
+       "start": 31.479,
+       "end": 31.802
       }
      ]
     },
     {
      "show": "Dein kleiner Körper",
-     "start": 27.302,
-     "end": 28.218,
+     "start": 32.325,
+     "end": 33.482,
      "words": [
       {
        "text": "Dein",
-       "start": 27.302,
-       "end": 27.536
+       "start": 32.325,
+       "end": 32.621
       },
       {
        "text": "kleiner",
-       "start": 27.536,
-       "end": 27.898
+       "start": 32.621,
+       "end": 33.079
       },
       {
        "text": "Körper",
-       "start": 27.898,
-       "end": 28.218
+       "start": 33.079,
+       "end": 33.482
       }
      ]
     },
     {
      "show": "verliert Wärme",
-     "start": 28.278,
-     "end": 29.156,
+     "start": 33.482,
+     "end": 34.429,
      "words": [
       {
        "text": "verliert",
-       "start": 28.278,
-       "end": 28.799
+       "start": 33.482,
+       "end": 34.044
       },
       {
        "text": "Wärme",
-       "start": 28.799,
-       "end": 29.156
+       "start": 34.044,
+       "end": 34.429
       }
      ]
     },
     {
      "show": "{r:extrem schnell}.",
-     "start": 29.216,
-     "end": 29.943,
+     "start": 34.429,
+     "end": 35.165,
      "words": [
       {
        "text": "extrem",
-       "start": 29.216,
-       "end": 29.557
+       "start": 34.429,
+       "end": 34.774
       },
       {
        "text": "schnell.",
-       "start": 29.557,
-       "end": 29.943
+       "start": 34.774,
+       "end": 35.165
       }
      ]
     },
     {
      "show": "Ein {y:Krümel}",
-     "start": 30.243,
-     "end": 30.902,
+     "start": 35.52,
+     "end": 36.279,
      "words": [
       {
        "text": "Ein",
-       "start": 30.243,
-       "end": 30.49
+       "start": 35.52,
+       "end": 35.805
       },
       {
        "text": "Krümel",
-       "start": 30.49,
-       "end": 30.902
+       "start": 35.805,
+       "end": 36.279
       }
      ]
     },
     {
      "show": "ist jetzt eine Mahlzeit.",
-     "start": 30.962,
-     "end": 32.192,
+     "start": 36.542,
+     "end": 37.985,
      "words": [
       {
        "text": "ist",
-       "start": 30.962,
-       "end": 31.175
+       "start": 36.542,
+       "end": 36.792
       },
       {
        "text": "jetzt",
-       "start": 31.175,
-       "end": 31.482
+       "start": 36.792,
+       "end": 37.153
       },
       {
        "text": "eine",
-       "start": 31.482,
-       "end": 31.742
+       "start": 37.153,
+       "end": 37.458
       },
       {
        "text": "Mahlzeit.",
-       "start": 31.742,
-       "end": 32.192
+       "start": 37.458,
+       "end": 37.985
       }
      ]
     }
    ],
-   "end": 32.492
+   "start": 29.631,
+   "end": 37.985
   },
   {
    "id": "spinne",
    "label": "REGEL 4 · SPINNE",
-   "start": 32.892,
    "lines": [
     {
      "show": "{y:Regel vier}:",
-     "start": 32.892,
-     "end": 33.614,
+     "start": 38.448,
+     "end": 39.337,
      "words": [
       {
        "text": "Regel",
-       "start": 32.892,
-       "end": 33.283
+       "start": 38.448,
+       "end": 38.93
       },
       {
        "text": "vier:",
-       "start": 33.283,
-       "end": 33.614
+       "start": 38.93,
+       "end": 39.337
       }
      ]
     },
     {
      "show": "Die Spinne in der Ecke?",
-     "start": 33.774,
-     "end": 34.776,
+     "start": 39.908,
+     "end": 41.122,
      "words": [
       {
        "text": "Die",
-       "start": 33.774,
-       "end": 33.951
+       "start": 39.908,
+       "end": 40.123
       },
       {
        "text": "Spinne",
-       "start": 33.951,
-       "end": 34.246
+       "start": 40.123,
+       "end": 40.479
       },
       {
        "text": "in",
-       "start": 34.246,
-       "end": 34.383
+       "start": 40.479,
+       "end": 40.646
       },
       {
        "text": "der",
-       "start": 34.383,
-       "end": 34.56
+       "start": 40.646,
+       "end": 40.86
       },
       {
        "text": "Ecke?",
-       "start": 34.56,
-       "end": 34.776
+       "start": 40.86,
+       "end": 41.122
       }
      ]
     },
     {
      "show": "Für dich ist sie",
-     "start": 35.076,
-     "end": 35.89,
+     "start": 41.598,
+     "end": 42.447,
      "words": [
       {
        "text": "Für",
-       "start": 35.076,
-       "end": 35.269
+       "start": 41.598,
+       "end": 41.799
       },
       {
        "text": "dich",
-       "start": 35.269,
-       "end": 35.505
+       "start": 41.799,
+       "end": 42.045
       },
       {
        "text": "ist",
-       "start": 35.505,
-       "end": 35.698
+       "start": 42.045,
+       "end": 42.246
       },
       {
        "text": "sie",
-       "start": 35.698,
-       "end": 35.89
+       "start": 42.246,
+       "end": 42.447
       }
      ]
     },
     {
      "show": "so groß wie ein {r:Auto}.",
-     "start": 35.95,
-     "end": 37.133,
+     "start": 42.447,
+     "end": 43.672,
      "words": [
       {
        "text": "so",
-       "start": 35.95,
-       "end": 36.126
+       "start": 42.447,
+       "end": 42.629
       },
       {
        "text": "groß",
-       "start": 36.126,
-       "end": 36.403
+       "start": 42.629,
+       "end": 42.916
       },
       {
        "text": "wie",
-       "start": 36.403,
-       "end": 36.63
+       "start": 42.916,
+       "end": 43.151
       },
       {
        "text": "ein",
-       "start": 36.63,
-       "end": 36.856
+       "start": 43.151,
+       "end": 43.385
       },
       {
        "text": "Auto.",
-       "start": 36.856,
-       "end": 37.133
+       "start": 43.385,
+       "end": 43.672
       }
      ]
     }
    ],
-   "end": 37.433
+   "start": 38.448,
+   "end": 43.672
   },
   {
    "id": "stimme",
    "label": "REGEL 5 · STIMME",
-   "start": 37.833,
    "lines": [
     {
      "show": "{y:Regel fünf}:",
-     "start": 37.833,
-     "end": 38.56,
+     "start": 44.096,
+     "end": 45.044,
      "words": [
       {
        "text": "Regel",
-       "start": 37.833,
-       "end": 38.227
+       "start": 44.096,
+       "end": 44.609
       },
       {
        "text": "fünf:",
-       "start": 38.227,
-       "end": 38.56
+       "start": 44.609,
+       "end": 45.044
       }
      ]
     },
     {
      "show": "Ruf nicht um Hilfe.",
-     "start": 38.72,
-     "end": 39.704,
+     "start": 45.594,
+     "end": 46.886,
      "words": [
       {
        "text": "Ruf",
-       "start": 38.72,
-       "end": 38.931
+       "start": 45.594,
+       "end": 45.871
       },
       {
        "text": "nicht",
-       "start": 38.931,
-       "end": 39.235
+       "start": 45.871,
+       "end": 46.271
       },
       {
        "text": "um",
-       "start": 39.235,
-       "end": 39.399
+       "start": 46.271,
+       "end": 46.486
       },
       {
        "text": "Hilfe.",
-       "start": 39.399,
-       "end": 39.704
+       "start": 46.486,
+       "end": 46.886
       }
      ]
     },
     {
      "show": "Deine Stimme ist jetzt",
-     "start": 40.004,
-     "end": 41.12,
+     "start": 47.103,
+     "end": 48.721,
      "words": [
       {
        "text": "Deine",
-       "start": 40.004,
-       "end": 40.294
+       "start": 47.103,
+       "end": 47.524
       },
       {
        "text": "Stimme",
-       "start": 40.294,
-       "end": 40.629
+       "start": 47.524,
+       "end": 48.009
       },
       {
        "text": "ist",
-       "start": 40.629,
-       "end": 40.83
+       "start": 48.009,
+       "end": 48.301
       },
       {
        "text": "jetzt",
-       "start": 40.83,
-       "end": 41.12
+       "start": 48.301,
+       "end": 48.721
       }
      ]
     },
     {
      "show": "so {r:hoch} und {r:leise},",
-     "start": 41.18,
-     "end": 42.477,
+     "start": 48.721,
+     "end": 50.09,
      "words": [
       {
        "text": "so",
-       "start": 41.18,
-       "end": 41.407
+       "start": 48.721,
+       "end": 48.961
       },
       {
        "text": "hoch",
-       "start": 41.407,
-       "end": 41.764
+       "start": 48.961,
+       "end": 49.337
       },
       {
        "text": "und",
-       "start": 41.764,
-       "end": 42.055
+       "start": 49.337,
+       "end": 49.645
       },
       {
        "text": "leise,",
-       "start": 42.055,
-       "end": 42.477
+       "start": 49.645,
+       "end": 50.09
       }
      ]
     },
     {
      "show": "dass dich {r:niemand} hört.",
-     "start": 42.637,
-     "end": 43.691,
+     "start": 50.09,
+     "end": 51.459,
      "words": [
       {
        "text": "dass",
-       "start": 42.637,
-       "end": 42.869
+       "start": 50.09,
+       "end": 50.391
       },
       {
        "text": "dich",
-       "start": 42.869,
-       "end": 43.1
+       "start": 50.391,
+       "end": 50.692
       },
       {
        "text": "niemand",
-       "start": 43.1,
-       "end": 43.459
+       "start": 50.692,
+       "end": 51.158
       },
       {
        "text": "hört.",
-       "start": 43.459,
-       "end": 43.691
+       "start": 51.158,
+       "end": 51.459
       }
      ]
     }
    ],
-   "end": 43.991
+   "start": 44.096,
+   "end": 51.459
   },
   {
    "id": "stark",
    "label": "TAG 1 · 07:58",
-   "start": 44.391,
    "lines": [
     {
-     "show": "Aber dann merkst du",
-     "start": 44.391,
-     "end": 45.164,
+     "show": "Aber …",
+     "start": 52.096,
+     "end": 52.707,
      "words": [
       {
        "text": "Aber",
-       "start": 44.391,
-       "end": 44.584
+       "start": 52.096,
+       "end": 52.576
       },
       {
+       "text": "…",
+       "start": 52.576,
+       "end": 52.707
+      }
+     ]
+    },
+    {
+     "show": "dann merkst du",
+     "start": 53.033,
+     "end": 53.695,
+     "words": [
+      {
        "text": "dann",
-       "start": 44.584,
-       "end": 44.777
+       "start": 53.033,
+       "end": 53.254
       },
       {
        "text": "merkst",
-       "start": 44.777,
-       "end": 45.041
+       "start": 53.254,
+       "end": 53.555
       },
       {
        "text": "du",
-       "start": 45.041,
-       "end": 45.164
+       "start": 53.555,
+       "end": 53.695
       }
      ]
     },
     {
      "show": "etwas {y:Seltsames}.",
-     "start": 45.224,
-     "end": 46.232,
+     "start": 53.695,
+     "end": 54.736,
      "words": [
       {
        "text": "etwas",
-       "start": 45.224,
-       "end": 45.609
+       "start": 53.695,
+       "end": 54.093
       },
       {
        "text": "Seltsames.",
-       "start": 45.609,
-       "end": 46.232
+       "start": 54.093,
+       "end": 54.736
       }
      ]
     },
     {
      "show": "Du hebst einen Zuckerwürfel.",
-     "start": 46.532,
-     "end": 47.703,
+     "start": 55.153,
+     "end": 56.639,
      "words": [
       {
        "text": "Du",
-       "start": 46.532,
-       "end": 46.669
+       "start": 55.153,
+       "end": 55.326
       },
       {
        "text": "hebst",
-       "start": 46.669,
-       "end": 46.922
+       "start": 55.326,
+       "end": 55.648
       },
       {
        "text": "einen",
-       "start": 46.922,
-       "end": 47.176
+       "start": 55.648,
+       "end": 55.97
       },
       {
        "text": "Zuckerwürfel.",
-       "start": 47.176,
-       "end": 47.703
+       "start": 55.97,
+       "end": 56.639
       }
      ]
     },
     {
      "show": "Das {g:25-Fache}",
-     "start": 48.003,
-     "end": 49.26,
+     "start": 57.068,
+     "end": 58.637,
      "words": [
       {
        "text": "Das",
-       "start": 48.003,
-       "end": 48.438
+       "start": 57.068,
+       "end": 57.611
       },
       {
        "text": "25-Fache",
-       "start": 48.438,
-       "end": 49.26
+       "start": 57.611,
+       "end": 58.637
       }
      ]
     },
     {
      "show": "deines Gewichts.",
-     "start": 49.32,
-     "end": 50.099,
+     "start": 58.637,
+     "end": 59.578,
      "words": [
       {
        "text": "deines",
-       "start": 49.32,
-       "end": 49.664
+       "start": 58.637,
+       "end": 59.052
       },
       {
        "text": "Gewichts.",
-       "start": 49.664,
-       "end": 50.099
+       "start": 59.052,
+       "end": 59.578
       }
      ]
     },
     {
      "show": "Du bist {g:superstark}.",
-     "start": 50.399,
-     "end": 51.279,
+     "start": 59.913,
+     "end": 61.193,
      "words": [
       {
        "text": "Du",
-       "start": 50.399,
-       "end": 50.549
+       "start": 59.913,
+       "end": 60.132
       },
       {
        "text": "bist",
-       "start": 50.549,
-       "end": 50.785
+       "start": 60.132,
+       "end": 60.475
       },
       {
        "text": "superstark.",
-       "start": 50.785,
-       "end": 51.279
+       "start": 60.475,
+       "end": 61.193
       }
      ]
     }
    ],
-   "end": 51.579
+   "start": 52.096,
+   "end": 61.193
   },
   {
    "id": "ende",
    "label": "TAG 1 · 08:00",
-   "start": 51.979,
    "lines": [
     {
      "show": "Du gehst Richtung Tür.",
-     "start": 51.979,
-     "end": 52.884,
+     "start": 61.358,
+     "end": 62.914,
      "words": [
       {
        "text": "Du",
-       "start": 51.979,
-       "end": 52.111
+       "start": 61.358,
+       "end": 61.585
       },
       {
        "text": "gehst",
-       "start": 52.111,
-       "end": 52.356
+       "start": 61.585,
+       "end": 62.006
       },
       {
        "text": "Richtung",
-       "start": 52.356,
-       "end": 52.715
+       "start": 62.006,
+       "end": 62.622
       },
       {
        "text": "Tür.",
-       "start": 52.715,
-       "end": 52.884
+       "start": 62.622,
+       "end": 62.914
       }
      ]
     },
     {
      "show": "Und genau in diesem Moment",
-     "start": 53.184,
-     "end": 54.449,
+     "start": 63.314,
+     "end": 65.389,
      "words": [
       {
        "text": "Und",
-       "start": 53.184,
-       "end": 53.377
+       "start": 63.314,
+       "end": 63.63
       },
       {
        "text": "genau",
-       "start": 53.377,
-       "end": 53.656
+       "start": 63.63,
+       "end": 64.088
       },
       {
        "text": "in",
-       "start": 53.656,
-       "end": 53.806
+       "start": 64.088,
+       "end": 64.334
       },
       {
        "text": "diesem",
-       "start": 53.806,
-       "end": 54.128
+       "start": 64.334,
+       "end": 64.862
       },
       {
        "text": "Moment",
-       "start": 54.128,
-       "end": 54.449
+       "start": 64.862,
+       "end": 65.389
       }
      ]
     },
     {
      "show": "hörst du ein {r:Summen}.",
-     "start": 54.509,
-     "end": 55.337,
+     "start": 65.727,
+     "end": 66.958,
      "words": [
       {
        "text": "hörst",
-       "start": 54.509,
-       "end": 54.754
+       "start": 65.727,
+       "end": 66.091
       },
       {
        "text": "du",
-       "start": 54.754,
-       "end": 54.886
+       "start": 66.091,
+       "end": 66.287
       },
       {
        "text": "ein",
-       "start": 54.886,
-       "end": 55.055
+       "start": 66.287,
+       "end": 66.539
       },
       {
        "text": "Summen.",
-       "start": 55.055,
-       "end": 55.337
+       "start": 66.539,
+       "end": 66.958
       }
      ]
     },
     {
      "show": "Der {r:Saugroboter}",
-     "start": 55.637,
-     "end": 56.618,
+     "start": 67.436,
+     "end": 68.511,
      "words": [
       {
        "text": "Der",
-       "start": 55.637,
-       "end": 55.897
+       "start": 67.436,
+       "end": 67.721
       },
       {
        "text": "Saugroboter",
-       "start": 55.897,
-       "end": 56.618
+       "start": 67.721,
+       "end": 68.511
       }
      ]
     },
     {
      "show": "ist angegangen.",
-     "start": 56.678,
-     "end": 57.51,
+     "start": 69.004,
+     "end": 70.132,
      "words": [
       {
        "text": "ist",
-       "start": 56.678,
-       "end": 56.912
+       "start": 69.004,
+       "end": 69.322
       },
       {
        "text": "angegangen.",
-       "start": 56.912,
-       "end": 57.51
+       "start": 69.322,
+       "end": 70.132
       }
      ]
     }
    ],
-   "end": 57.81
+   "start": 61.358,
+   "end": 70.132
   }
  ]
 }
