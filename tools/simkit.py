@@ -134,7 +134,7 @@ def hud_html(timings, checklist, total, check_end=None):
     for j, (t, text, col) in enumerate(checklist):
         iid = f"hud-c{j}"
         items.append(f'<div id="{iid}" class="clip chk" data-start="{fmt(t)}" data-duration="{fmt(check_end - t)}" '
-                     f'data-track-index="2" style="top:{288 + j * 58}px"><span style="color:{col};border-color:{col}">{text}</span></div>')
+                     f'data-track-index="2" style="top:{288 + j * 50}px"><span style="color:{col};border-color:{col}">{text}</span></div>')
         js.append(f'    tl.fromTo("#{iid} span",{{x:-30,opacity:0}},{{x:0,opacity:1,duration:0.35,ease:"expo.out"}},{fmt(t)});')
     css = f"""
 #root {{ position:absolute; inset:0; }}

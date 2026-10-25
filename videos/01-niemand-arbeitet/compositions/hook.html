@@ -48,15 +48,15 @@
   <script>
     const tl = gsap.timeline({ paused: true });
 
-    tl.set("#hk-t1", {opacity:0}, 1.62);
-    tl.set("#hk-t2", {opacity:1}, 1.62);
+    tl.set("#hk-t1", {opacity:0}, 1.569);
+    tl.set("#hk-t2", {opacity:1}, 1.569);
     tl.fromTo("#hk-body", {rotation:0}, {rotation:4, duration:0.05, ease:"sine.inOut", yoyo:true, repeat:15,
-      transformOrigin:"50% 80%"}, 1.62);
+      transformOrigin:"50% 80%"}, 1.569);
     tl.fromTo(["#hk-ringL","#hk-ringR"], {opacity:0, scale:0.8}, {opacity:1, scale:1.08, duration:0.16,
-      ease:"power2.out", yoyo:true, repeat:5, transformOrigin:"50% 50%"}, 1.62);
+      ease:"power2.out", yoyo:true, repeat:5, transformOrigin:"50% 50%"}, 1.569);
 
-    tl.fromTo("#hk-cw", {scale:1}, {scale:1.06, duration:3.4939999999999998, ease:"power1.inOut"}, 0);
-    tl.to("#hk-title", {opacity:0, filter:"blur(8px)", duration:0.2, ease:"power2.in"}, 3.444);
+    tl.fromTo("#hk-cw", {scale:1}, {scale:1.06, duration:3.5109999999999997, ease:"power1.inOut"}, 0);
+    tl.to("#hk-title", {opacity:0, filter:"blur(8px)", duration:0.2, ease:"power2.in"}, 3.461);
 
     window.__timelines["hook"] = tl;
   </script>

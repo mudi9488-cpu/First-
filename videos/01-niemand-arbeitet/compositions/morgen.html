@@ -1,0 +1,52 @@
+<template>
+  <style>
+
+#root { position:absolute; inset:0; overflow:hidden; font-family:'Inter',sans-serif; color:#fff; }
+.bg { position:absolute; inset:0; background:radial-gradient(ellipse 90% 60% at 50% 42%, #18223A 0%, #0E1524 70%); }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:0.12em; text-transform:uppercase; }
+.hudcard { position:absolute; left:50%; width:620px; margin-left:-310px; top:300px; padding:22px 32px 24px;
+  background:#121A2B; border:3px solid #2A3652; border-radius:22px; text-align:left; }
+.hudcard .lab { font-family:'JetBrains Mono',monospace; font-size:28px; letter-spacing:0.14em; color:#8A94A6; font-weight:700; text-transform:uppercase; }
+.hudcard .val { font-family:'Inter',sans-serif; font-weight:900; font-size:84px; line-height:1.05;
+  font-variant-numeric:tabular-nums; margin-top:6px; }
+.hudcard .unit { font-size:40px; color:#8A94A6; font-weight:700; margin-left:10px; }
+.bar { height:16px; border-radius:8px; background:#232D45; margin-top:14px; overflow:hidden; }
+.bar > i { display:block; height:100%; width:100%; border-radius:8px; transform-origin:left center; }
+.pill { position:absolute; font-family:'Inter',sans-serif; font-weight:900; font-size:34px; padding:10px 26px;
+  border-radius:999px; text-transform:uppercase; letter-spacing:0.02em; white-space:nowrap; }
+
+
+.phone { position:absolute; left:290px; top:400px; width:500px; height:740px; background:#0A0F1C; border:12px solid #2A3652;
+  border-radius:64px; overflow:hidden; }
+.phone .notch { position:absolute; left:170px; top:14px; width:136px; height:30px; border-radius:15px; background:#2A3652; }
+.phone .scr { position:absolute; inset:0; padding:70px 26px 26px; }
+.phone .clock { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:30px; color:#8A94A6; text-align:center; }
+.note { position:relative; margin-top:18px; background:#18223A; border:3px solid #2A3652; border-radius:22px; padding:16px 20px; }
+.note .app { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px; letter-spacing:0.08em; color:#8A94A6; }
+.note .msg { font-weight:800; font-size:34px; margin-top:4px; }
+.note .tag { position:absolute; right:16px; top:14px; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px;
+  padding:2px 12px; border-radius:8px; color:#0A0F1C; background:#3DDC84; }
+
+  </style>
+  <div id="root" data-composition-id="morgen" data-width="1080" data-height="1920">
+    <div class="bg"></div>
+
+    <div class="phone" id="mg-ph"><div class="notch"></div><div class="scr">
+      <div class="clock">07:30</div><div class="note" id="mg-wk"><div class="app">WECKER</div><div class="msg">Ausgeschaltet</div><div class="tag">AUS</div></div><div class="note" id="mg-mt"><div class="app">KALENDER</div><div class="msg">Meeting 09:00</div><div class="tag">ABGESAGT</div></div><div class="note" id="mg-st"><div class="app">NAVI</div><div class="msg">Arbeitsweg</div><div class="tag">0 KM STAU</div></div>
+      <div class="note" id="mg-sun" style="border-color:#3DDC84;text-align:center">
+        <div class="msg" style="font-size:44px;color:#3DDC84">URLAUBS-MODUS</div></div>
+    </div></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#mg-ph", {y:260, opacity:0}, {y:0, opacity:1, duration:0.6, ease:"expo.out"}, 0);
+    tl.fromTo("#mg-wk", {y:-40, opacity:0}, {y:0, opacity:1, duration:0.35, ease:"expo.out"}, 0.512);
+    tl.fromTo("#mg-wk .tag", {scale:1.6, opacity:0}, {scale:1, opacity:1, duration:0.2, ease:"back.out(2)"}, 0.762);
+    tl.fromTo("#mg-mt", {y:-40, opacity:0}, {y:0, opacity:1, duration:0.35, ease:"expo.out"}, 2.771);
+    tl.fromTo("#mg-mt .tag", {scale:1.6, opacity:0}, {scale:1, opacity:1, duration:0.2, ease:"back.out(2)"}, 3.021);
+    tl.fromTo("#mg-st", {y:-40, opacity:0}, {y:0, opacity:1, duration:0.35, ease:"expo.out"}, 3.861);
+    tl.fromTo("#mg-st .tag", {scale:1.6, opacity:0}, {scale:1, opacity:1, duration:0.2, ease:"back.out(2)"}, 4.111000000000001);
+    tl.fromTo("#mg-sun", {scale:0.8, opacity:0}, {scale:1, opacity:1, duration:0.3, ease:"back.out(2)"}, 1.781);
+    window.__timelines["morgen"] = tl;
+  </script>
+</template>

@@ -12,9 +12,8 @@ sys.path.insert(0, str(HERE.parent.parent / "tools"))
 from simkit import C, scene_html, hud_card, js_count, load_timings, write_project, rng, fmt  # noqa: E402
 
 SFX_ROOT = "/root/.claude/plugins/cache/hyperframes/hyperframes/0.8.197/skills/media-use/audio/assets/sfx"
-TOTAL = 30.0
-
 T = load_timings(HERE)
+TOTAL = round(T["duration"] + 1.3, 2)  # kurzer Halt am Ende für den Loop
 B = {b["id"]: b for b in T["beats"]}
 ORDER = [b["id"] for b in T["beats"]]
 S = {bid: (0.0 if i == 0 else B[bid]["start"]) for i, bid in enumerate(ORDER)}
@@ -255,6 +254,11 @@ def scene_himmel():
       <g id="hm-stars">{stars}</g>
       <circle id="hm-moon" cx="830" cy="600" r="56" fill="#F4F1E6"/>
     </svg>
+    <svg data-layout-allow-overflow viewBox="0 0 1080 1920" width="1080" height="1920" style="position:absolute;left:0;top:0;z-index:2">
+      <g id="hm-birds" fill="none" stroke="#F4F1E6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        {''.join(f'<path class="hm-b" transform="translate({x},{y})" d="M -34 -6 Q -16 -24 0 0 Q 16 -24 34 -6"/>' for x, y in ((0, 620), (90, 560), (150, 690), (230, 600), (320, 660)))}
+      </g>
+    </svg>
     <div id="hm-smog" style="position:absolute;inset:0;background:linear-gradient(180deg,#3B3631 0%,#5A4E40 70%,#6E5C45 100%)"></div>
     <svg data-layout-allow-overflow viewBox="0 0 1080 1920" width="1080" height="1920" style="position:absolute;left:0;top:0">
       {blds}<rect x="0" y="1130" width="1080" height="790" fill="#0B101D"/>
@@ -277,6 +281,8 @@ def scene_himmel():
     tl.set("#hc-a", {{opacity:0}}, {k});
     tl.fromTo("#hc-b", {{opacity:0, scale:1.3}}, {{opacity:1, scale:1, duration:0.25, ease:"expo.out", transformOrigin:"0% 50%"}}, {k});
     tl.fromTo("#hc", {{borderColor:"{C['line']}"}}, {{borderColor:"{C['green']}", duration:0.15}}, {k});
+    tl.fromTo("#hm-birds", {{x:-420, y:60}}, {{x:860, y:-40, duration:2.2, ease:"none"}}, {w('himmel', 3, 2) - 0.4});
+    tl.fromTo(".hm-b", {{scaleY:1}}, {{scaleY:-0.6, duration:0.16, yoyo:true, repeat:13, ease:"sine.inOut", stagger:0.05}}, {w('himmel', 3, 2) - 0.4});
 """
     return scene_html("himmel", "", body, js)
 
@@ -317,7 +323,8 @@ def scene_essen():
     </svg>
     <div id="es-stamp" style="position:absolute;left:0;right:0;top:760px;text-align:center">
       <span style="display:inline-block;font-weight:900;font-size:96px;color:{C['red']};border:10px solid {C['red']};border-radius:18px;
-        padding:6px 30px;background:rgba(14,21,36,0.75);transform:rotate(-8deg)">AUSVERKAUFT</span></div>
+        padding:6px 30px;background:rgba(14,21,36,0.75)">AUSVERKAUFT</span></div>
+    <div class="pill" id="es-pill" style="left:0;right:0;margin:0 auto;width:max-content;top:990px;background:{C['red']}">Keine Lieferung</div>
     """
     a, b = 0.15, w("essen", 1, 3)
     js = js_count("ec-num", 100, 0, a, b - a, ease="power1.in")
@@ -325,7 +332,8 @@ def scene_essen():
     tl.fromTo(".it > g", {{y:0, opacity:1}}, {{y:-50, opacity:0, duration:0.15, ease:"power2.in", stagger:{(b - a - 0.15) / len(items):.4f}}}, {a});
     tl.fromTo("#ec-bar", {{scaleX:1}}, {{scaleX:0, duration:{b - a}, ease:"power1.in"}}, {a});
     tl.to("#ec-num", {{color:"{C['red']}", duration:0.1}}, {b});
-    tl.fromTo("#es-stamp span", {{scale:2.2, opacity:0}}, {{scale:1, opacity:1, duration:0.22, ease:"expo.out"}}, {b});
+    tl.fromTo("#es-stamp span", {{scale:2.2, rotation:-8, opacity:0}}, {{scale:1, rotation:-8, opacity:1, duration:0.22, ease:"expo.out"}}, {b});
+    tl.fromTo("#es-pill", {{scale:1.4, opacity:0}}, {{scale:1, opacity:1, duration:0.25, ease:"expo.out"}}, {w("essen", 2, 1)});
 """
     return scene_html("essen", "", body, js)
 
@@ -350,7 +358,7 @@ def scene_wasser():
       <rect x="280" y="1010" width="580" height="28" rx="14" fill="#E3E8F1"/>
     </svg>
     """
-    k = w("wasser", 1, 2)
+    k = w("wasser", 2, 1)
     js = js_count("wa-num", 3.0, 0.0, 0.2, k + 0.2, decimals=1, ease="power2.in")
     js += f"""
     tl.fromTo("#wa-bar", {{scaleX:1}}, {{scaleX:0, duration:{k + 0.2}, ease:"power2.in"}}, 0.2);
@@ -365,44 +373,290 @@ def scene_wasser():
     return scene_html("wasser", "", body, js)
 
 
+# ------------------------------------------------------------------ Handy (Urlaub + Notruf)
+
+PHONE_CSS = f"""
+.phone {{ position:absolute; left:290px; top:400px; width:500px; height:740px; background:#0A0F1C; border:12px solid #2A3652;
+  border-radius:64px; overflow:hidden; }}
+.phone .notch {{ position:absolute; left:170px; top:14px; width:136px; height:30px; border-radius:15px; background:#2A3652; }}
+.phone .scr {{ position:absolute; inset:0; padding:70px 26px 26px; }}
+.phone .clock {{ font-family:'JetBrains Mono',monospace; font-weight:700; font-size:30px; color:{C['mute']}; text-align:center; }}
+.note {{ position:relative; margin-top:18px; background:#18223A; border:3px solid {C['line']}; border-radius:22px; padding:16px 20px; }}
+.note .app {{ font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px; letter-spacing:0.08em; color:{C['mute']}; }}
+.note .msg {{ font-weight:800; font-size:34px; margin-top:4px; }}
+.note .tag {{ position:absolute; right:16px; top:14px; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px;
+  padding:2px 12px; border-radius:8px; color:#0A0F1C; background:{C['green']}; }}
+"""
+
+
+def scene_morgen():
+    notes = [("wk", "WECKER", "Ausgeschaltet", "AUS", w("morgen", 0, 2)),
+             ("mt", "KALENDER", "Meeting 09:00", "ABGESAGT", w("morgen", 2, 1)),
+             ("st", "NAVI", "Arbeitsweg", "0 KM STAU", w("morgen", 3, 1))]
+    nh = "".join(f'<div class="note" id="mg-{i}"><div class="app">{a}</div><div class="msg">{m}</div>'
+                 f'<div class="tag">{t}</div></div>' for i, a, m, t, _ in notes)
+    body = f"""
+    <div class="phone" id="mg-ph"><div class="notch"></div><div class="scr">
+      <div class="clock">07:30</div>{nh}
+      <div class="note" id="mg-sun" style="border-color:{C['green']};text-align:center">
+        <div class="msg" style="font-size:44px;color:{C['green']}">URLAUBS-MODUS</div></div>
+    </div></div>"""
+    js = [f'    tl.fromTo("#mg-ph", {{y:260, opacity:0}}, {{y:0, opacity:1, duration:0.6, ease:"expo.out"}}, 0);']
+    for i, _, _, _, at in notes:
+        js.append(f'    tl.fromTo("#mg-{i}", {{y:-40, opacity:0}}, {{y:0, opacity:1, duration:0.35, ease:"expo.out"}}, {at});')
+        js.append(f'    tl.fromTo("#mg-{i} .tag", {{scale:1.6, opacity:0}}, {{scale:1, opacity:1, duration:0.2, ease:"back.out(2)"}}, {at + 0.25});')
+    js.append(f'    tl.fromTo("#mg-sun", {{scale:0.8, opacity:0}}, {{scale:1, opacity:1, duration:0.3, ease:"back.out(2)"}}, {w("morgen", 1, 3)});')
+    return scene_html("morgen", PHONE_CSS, body, "\n".join(js))
+
+
+def scene_notruf():
+    css = PHONE_CSS + f"""
+.call {{ text-align:center; padding-top:40px; }}
+.call .who {{ font-family:'JetBrains Mono',monospace; font-weight:700; font-size:32px; letter-spacing:0.14em; color:{C['red']}; }}
+.call .num {{ font-weight:900; font-size:150px; line-height:1.1; }}
+.call .st {{ position:relative; height:60px; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:34px; color:{C['mute']}; }}
+.call .st span {{ position:absolute; left:0; right:0; }}
+.call .tm {{ font-family:'JetBrains Mono',monospace; font-weight:700; font-size:44px; margin-top:24px; font-variant-numeric:tabular-nums; }}
+.hang {{ position:absolute; left:50%; bottom:60px; width:130px; height:130px; margin-left:-65px; border-radius:50%; background:{C['red']}; }}
+.hang i {{ position:absolute; left:30px; top:52px; width:70px; height:26px; border-radius:13px; background:#fff; }}
+.ring {{ position:absolute; left:540px; top:770px; width:10px; height:10px; border-radius:50%; border:6px solid {C['red']}; opacity:0; }}
+"""
+    rings = "".join(f'<div class="ring" id="nr-r{i}"></div>' for i in range(4))
+    body = f"""{rings}
+    <div class="phone" id="nr-ph"><div class="notch"></div><div class="scr call">
+      <div class="who">Notruf</div><div class="num">112</div>
+      <div class="st"><span id="nr-s0">Wählt …</span><span id="nr-s1" style="opacity:0">Klingelt …</span>
+        <span id="nr-s2" style="opacity:0;color:{C['red']}">KEINE ANTWORT</span></div>
+      <div class="tm"><span id="nr-tm">00:00</span></div>
+      <div class="hang"><i></i></div>
+    </div></div>"""
+    k1, k2, n = w("notruf", 2, 1), w("notruf", 3, 1), w("notruf", 4, 0)
+    end = E["notruf"] - S["notruf"]
+    js = f"""
+    tl.fromTo("#nr-ph", {{scale:0.85, opacity:0}}, {{scale:1, opacity:1, duration:0.5, ease:"expo.out"}}, 0);
+    (function(){{ const o={{v:0}}; const el=document.getElementById("nr-tm");
+      tl.fromTo(o,{{v:0}},{{v:{end - 1.2:.2f},duration:{end - 1.2:.2f},ease:"none",onUpdate:()=>{{const s=Math.floor(o.v*6); el.textContent="00:"+String(Math.min(s,59)).padStart(2,"0");}}}},1.2); }})();
+    tl.set("#nr-s0", {{opacity:0}}, {k1 - 0.1});
+    tl.set("#nr-s1", {{opacity:1}}, {k1 - 0.1});
+    tl.set("#nr-s1", {{opacity:0}}, {n});
+    tl.fromTo("#nr-s2", {{opacity:0, scale:1.4}}, {{opacity:1, scale:1, duration:0.25, ease:"expo.out"}}, {n});
+    tl.to("#nr-tm", {{color:"{C['red']}", duration:0.1}}, {n});
+"""
+    for i, t in enumerate((k1, k1 + 0.35, k2, k2 + 0.35)):
+        js += f'    tl.fromTo("#nr-r{i}", {{scale:1, opacity:0.9}}, {{scale:90, opacity:0, duration:0.9, ease:"power2.out"}}, {t:.3f});\n'
+    return scene_html("notruf", css, body, js)
+
+
+# ------------------------------------------------------------------ Internet + Akku
+
+def scene_netz():
+    css = f"""
+#nz-wifi {{ position:absolute; left:290px; top:400px; }}
+#nz-x {{ position:absolute; left:0; right:0; top:560px; text-align:center; }}
+#nz-x span {{ display:inline-block; font-weight:900; font-size:64px; color:#fff; background:{C['red']}; padding:6px 28px; border-radius:16px; }}
+#nz-bat {{ position:absolute; left:220px; top:760px; width:600px; height:260px; border:14px solid #E6E9F0; border-radius:40px; padding:16px; }}
+#nz-bat:after {{ content:""; position:absolute; right:-44px; top:72px; width:30px; height:90px; border-radius:0 14px 14px 0; background:#E6E9F0; }}
+#nz-fill {{ width:100%; height:100%; border-radius:22px; background:{C['green']}; transform-origin:left center; }}
+#nz-pct {{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-weight:900; font-size:110px;
+  color:#fff; -webkit-text-stroke:10px #0A0F1C; paint-order:stroke fill; font-variant-numeric:tabular-nums; }}
+"""
+    arcs = "".join(f'<path class="nz-a" d="M {250 - r} {300 - r * 0.15} Q 250 {300 - r * 1.25} {250 + r} {300 - r * 0.15}" />'
+                   for r in (200, 140, 80))
+    body = f"""
+    <svg id="nz-wifi" viewBox="0 0 500 340" width="500" height="340">
+      <g fill="none" stroke="{C['teal']}" stroke-width="30" stroke-linecap="round">{arcs}</g>
+      <circle id="nz-dot" cx="250" cy="290" r="30" fill="{C['teal']}"/>
+    </svg>
+    <div id="nz-x"><span>KEIN NETZ</span></div>
+    <div id="nz-bat"><div id="nz-fill"></div><div id="nz-pct"><span id="nz-num">100</span>%</div></div>"""
+    i0, a, p = w("netz", 1, 2), w("netz", 2, 1), w("netz", 3, 0)
+    js = f"""
+    tl.fromTo("#nz-wifi", {{scale:0.8, opacity:0}}, {{scale:1, opacity:1, duration:0.5, ease:"expo.out"}}, 0);
+    tl.fromTo("#nz-bat", {{y:80, opacity:0}}, {{y:0, opacity:1, duration:0.5, ease:"expo.out"}}, 0.15);
+    tl.fromTo(".nz-a", {{opacity:1}}, {{opacity:0.12, duration:0.12, ease:"none", stagger:0.18}}, {i0 - 0.4});
+    tl.to(["#nz-dot", ".nz-a"], {{fill:"{C['red']}", stroke:"{C['red']}", duration:0.1}}, {i0});
+    tl.fromTo("#nz-x span", {{scale:1.6, opacity:0}}, {{scale:1, opacity:1, duration:0.25, ease:"expo.out"}}, {i0 + 0.05});
+    tl.fromTo("#nz-fill", {{scaleX:1, backgroundColor:"{C['green']}"}}, {{scaleX:0.12, backgroundColor:"{C['red']}", duration:{p - 0.4:.2f},
+      ease:"power2.inOut"}}, 0.4);
+"""
+    js += js_count("nz-num", 100, 12, 0.4, p - 0.4, ease="power2.inOut")
+    js += f'    tl.fromTo("#nz-bat", {{borderColor:"#E6E9F0"}}, {{borderColor:"{C["red"]}", duration:0.1}}, {p});\n'
+    return scene_html("netz", css, body, js)
+
+
+# ------------------------------------------------------------------ Müll
+
+def scene_muell():
+    r = rng(21)
+    bags = []
+    rows = [(9, 1110), (7, 1040), (5, 970), (3, 900), (1, 840)]
+    for n, y in rows:
+        for i in range(n):
+            x = 540 + (i - (n - 1) / 2) * 92 + r.randint(-12, 12)
+            col = r.choice(["#2C3A2E", "#3A4436", "#262D3D", "#34405C"])
+            rot = r.randint(-14, 14)
+            bags.append(f'<g class="mu-bag" transform="translate({x:.0f},{y}) rotate({rot})"><g>'
+                        f'<path d="M -50 0 Q -56 -70 -18 -82 L -8 -100 L 8 -100 L 18 -82 Q 56 -70 50 0 Z" fill="{col}"/>'
+                        f'<path d="M -14 -100 L 0 -116 L 14 -100" stroke="{col}" stroke-width="8" fill="none"/></g></g>')
+    flies = "".join(f'<circle class="mu-fly" cx="{r.randint(330, 750)}" cy="{r.randint(700, 860)}" r="6" fill="#0A0F1C"/>' for _ in range(9))
+    stink = "".join(f'<path class="mu-st" d="M {x} 820 q 20 -30 0 -60 q -20 -30 0 -60 q 20 -30 0 -60" stroke="{C["green"]}" stroke-width="9" fill="none" stroke-linecap="round" opacity="0"/>'
+                    for x in (430, 540, 650))
+    body = hud_card("mc", "Tage ohne Müllabfuhr", "0", color=C["gold"], top=290) + f"""
+    <svg data-layout-allow-overflow viewBox="0 0 1080 1920" width="1080" height="1920" style="position:absolute;left:0;top:0">
+      <rect x="0" y="1100" width="1080" height="820" fill="#151C2C"/>
+      <rect x="0" y="1100" width="1080" height="12" fill="#2A3652"/>
+      <g transform="translate(110,1110)"><rect x="0" y="-240" width="150" height="240" rx="14" fill="{C['teal']}" opacity="0.8"/>
+        <rect x="-10" y="-262" width="170" height="30" rx="10" fill="{C['teal']}"/></g>
+      {''.join(bags)}
+      {stink}
+      <g id="mu-flies">{flies}</g>
+    </svg>"""
+    st = w("muell", 2, 2)
+    js = js_count("mc-num", 0, 14, 0.2, 1.8, ease="power1.inOut")
+    js += f"""
+    tl.fromTo(".mu-bag > g", {{y:-700, opacity:1}}, {{y:0, opacity:1, duration:0.45, ease:"bounce.out", stagger:0.06}}, 0.1);
+    tl.fromTo(".mu-st", {{opacity:0, y:20}}, {{opacity:0.9, y:-30, duration:0.6, ease:"power2.out", stagger:0.12}}, {st - 0.2});
+    tl.fromTo(".mu-fly", {{opacity:0}}, {{opacity:1, duration:0.1, stagger:0.04}}, {st - 0.3});
+    tl.fromTo(".mu-fly", {{x:0, y:0}}, {{x:40, y:-25, duration:0.18, yoyo:true, repeat:9, ease:"sine.inOut", stagger:0.03}}, {st - 0.3});
+"""
+    return scene_html("muell", "", body, js)
+
+
+# ------------------------------------------------------------------ Geld
+
+def scene_geld():
+    body = hud_card("gc", "Wert deines Geldes", "100", unit="€", color=C["green"], top=290) + f"""
+    <div id="gd-note" style="position:absolute;left:110px;top:580px;width:860px;height:430px;border-radius:26px;
+      background:#6FAE73;border:8px solid #4E8C55;overflow:hidden">
+      <div style="position:absolute;left:-60px;top:-60px;width:360px;height:360px;border-radius:50%;background:#83C287"></div>
+      <div style="position:absolute;right:40px;top:30px;font-weight:900;font-size:150px;color:#E9F5E6">100</div>
+      <div style="position:absolute;left:46px;bottom:30px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:44px;letter-spacing:0.3em;color:#E9F5E6">EURO</div>
+      <div style="position:absolute;left:330px;top:120px;width:200px;height:200px;border-radius:50%;border:10px solid #E9F5E6;opacity:0.5"></div>
+      <div id="gd-grey" style="position:absolute;inset:0;background:#3B4254;opacity:0"></div>
+    </div>
+    <div id="gd-stamp" style="position:absolute;left:0;right:0;top:720px;text-align:center">
+      <span style="display:inline-block;font-weight:900;font-size:110px;color:{C['red']};border:10px solid {C['red']};border-radius:18px;
+        padding:6px 30px;background:rgba(14,21,36,0.8)">WERTLOS</span></div>"""
+    n, k = w("geld", 1, 2), w("geld", 2, 5)
+    js = js_count("gc-num", 100, 0, n - 0.3, 0.9, ease="power3.in")
+    js += f"""
+    tl.fromTo("#gd-note", {{y:120, rotation:4, opacity:0}}, {{y:0, rotation:-3, opacity:1, duration:0.6, ease:"expo.out"}}, 0);
+    tl.to("#gc-num", {{color:"{C['red']}", duration:0.1}}, {n + 0.6});
+    tl.fromTo("#gd-grey", {{opacity:0}}, {{opacity:0.7, duration:0.6, ease:"power2.inOut"}}, {n - 0.2});
+    tl.to("#gd-note", {{scale:0.86, rotation:-9, duration:0.6, ease:"power2.inOut"}}, {n - 0.2});
+    tl.fromTo("#gd-stamp span", {{scale:2.2, rotation:-8, opacity:0}}, {{scale:1, rotation:-8, opacity:1, duration:0.22, ease:"expo.out"}}, {k});
+"""
+    return scene_html("geld", "", body, js)
+
+
+# ------------------------------------------------------------------ Wende: einer steht auf
+
+def person(pid, x, col):
+    """Strichfigur im Stil von Referenz A, Füße auf y=1110."""
+    return (f'<div id="{pid}" style="position:absolute;left:{x - 40}px;top:770px;width:80px;height:340px;z-index:2">'
+            f'<div class="pp" style="position:absolute;inset:0">'
+            f'<div style="position:absolute;left:26px;top:230px;width:26px;height:110px;border-radius:13px;background:{col}"></div>'
+            f'<div style="position:absolute;left:44px;top:230px;width:26px;height:110px;border-radius:13px;background:{col};opacity:0.75"></div>'
+            f'<div style="position:absolute;left:14px;top:90px;width:64px;height:150px;border-radius:30px;background:{col}"></div>'
+            f'<div style="position:absolute;left:6px;top:8px;width:80px;height:80px;border-radius:50%;background:#F4F1E6"></div>'
+            f'</div></div>')
+
+
+def scene_wende():
+    blds, wins, nwin = skyline("wd")
+    body = hud_card("dc", "Menschen bei der Arbeit", "0", color=C["green"], top=290) + f"""
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,#0B1530 0%,#1A2550 60%,#3A3560 100%)"></div>
+    <svg data-layout-allow-overflow viewBox="0 0 1080 1920" width="1080" height="1920" style="position:absolute;left:0;top:0">
+      {blds}<g id="wd-wins">{wins}</g>
+      <rect x="0" y="1110" width="1080" height="810" fill="#0B101D"/>
+    </svg>
+    {person("wd-p1", 400, C['teal'])}
+    {person("wd-p2", 700, C['coral'])}"""
+    e, g, nx = w("wende", 1, 0), w("wende", 3, 3), w("wende", 4, 2)
+    end = E["wende"] - S["wende"]
+    js = f"""
+    tl.fromTo("#wd-p1 .pp", {{rotation:-90, opacity:0.6}}, {{rotation:0, opacity:1, duration:0.6, ease:"back.out(1.4)",
+      transformOrigin:"50% 100%"}}, {e - 0.1});
+    tl.fromTo("#wd-p1", {{x:0}}, {{x:160, duration:{g - e - 0.4:.2f}, ease:"power1.inOut"}}, {e + 0.6});
+    tl.fromTo("#wd-p2 .pp", {{rotation:90, opacity:0}}, {{rotation:0, opacity:1, duration:0.6, ease:"back.out(1.4)",
+      transformOrigin:"50% 100%"}}, {nx - 0.2});
+    tl.fromTo(".wd-win", {{opacity:0}}, {{opacity:1, duration:0.05, stagger:{1.2 / nwin:.4f}, ease:"none"}}, {nx});
+    tl.fromTo("#dc", {{borderColor:"{C['line']}"}}, {{borderColor:"{C['green']}", duration:0.15}}, {e + 0.3});
+    (function(){{ const el=document.getElementById("dc-num"); const o={{t:0}};
+      const f=(n)=>String(n).replace(/\\B(?=(\\d{{3}})+(?!\\d))/g,".");
+      tl.fromTo(o,{{t:0}},{{t:{end:.3f},duration:{end:.3f},ease:"none",onUpdate:()=>{{
+        const t=o.t; let n=0;
+        if (t>={e + 0.3:.3f}) n=1;
+        if (t>={nx:.3f}) n=2;
+        if (t>={nx + 0.3:.3f}) {{ const p=Math.min(1,(t-{nx + 0.3:.3f})/{end - nx - 0.4:.3f}); n=Math.max(2,Math.round(48213*p*p*p)); }}
+        el.textContent=f(n); }}}},0); }})();
+"""
+    return scene_html("wende", ".hudcard { z-index:3; }", body, js)
+
+
 # ------------------------------------------------------------------ zusammensetzen
 
 SCENES = [
-    ("hook", scene_hook()), ("welt", scene_welt()), ("verkehr", scene_verkehr()), ("strom", scene_strom()),
-    ("essen", scene_essen()), ("wasser", scene_wasser()), ("himmel", scene_himmel()), ("loop", scene_loop()),
+    ("hook", scene_hook()), ("welt", scene_welt()), ("morgen", scene_morgen()), ("verkehr", scene_verkehr()),
+    ("notruf", scene_notruf()), ("strom", scene_strom()), ("netz", scene_netz()), ("essen", scene_essen()),
+    ("wasser", scene_wasser()), ("muell", scene_muell()), ("geld", scene_geld()), ("himmel", scene_himmel()),
+    ("wende", scene_wende()), ("loop", scene_loop()),
 ]
 
 SFX = [
     (wa("hook", 1, 1), "ping.mp3", 0.5),
     (S["welt"] - 0.15, "whoosh-short.mp3", 0.5),
     (wa("welt", 2, 2) + 0.2, "glitch-1.mp3", 0.25),
-    (S["verkehr"] - 0.15, "whoosh.mp3", 0.5),
+    (S["morgen"] - 0.15, "whoosh.mp3", 0.5),
+    (wa("morgen", 0, 2) + 0.25, "pop.mp3", 0.4),
+    (wa("morgen", 1, 3), "notification.mp3", 0.35),
+    (wa("morgen", 2, 1) + 0.25, "pop.mp3", 0.4),
+    (wa("morgen", 3, 1) + 0.25, "pop.mp3", 0.4),
+    (S["verkehr"] - 0.15, "whoosh-short.mp3", 0.5),
     (wa("verkehr", 1, 1) + 0.1, "pop.mp3", 0.5),
     (wa("verkehr", 2, 1) + 0.1, "pop.mp3", 0.5),
     (wa("verkehr", 2, 1) + 0.35, "click-soft.mp3", 0.5),
     (wa("verkehr", 3, 1) + 0.1, "pop.mp3", 0.5),
+    (S["notruf"] - 0.15, "whoosh.mp3", 0.5),
+    (wa("notruf", 2, 1), "ping.mp3", 0.45),
+    (wa("notruf", 3, 1), "ping.mp3", 0.45),
+    (wa("notruf", 4, 0), "error.mp3", 0.45),
     (S["strom"] - 0.15, "whoosh-short.mp3", 0.5),
     (wa("strom", 1, 2) + 0.05, "impact-bass-1.mp3", 0.6),
-    (S["essen"] - 0.15, "whoosh.mp3", 0.5),
+    (S["netz"] - 0.15, "whoosh.mp3", 0.5),
+    (wa("netz", 1, 2), "glitch-2.mp3", 0.25),
+    (wa("netz", 3, 0), "click-soft.mp3", 0.5),
+    (S["essen"] - 0.15, "whoosh-short.mp3", 0.5),
     (wa("essen", 1, 3), "impact-bass-2.mp3", 0.6),
-    (S["wasser"] - 0.15, "whoosh-short.mp3", 0.5),
-    (wa("wasser", 1, 2) + 0.85, "click-soft.mp3", 0.4),
+    (wa("essen", 2, 1), "pop.mp3", 0.45),
+    (S["wasser"] - 0.15, "whoosh.mp3", 0.5),
+    (wa("wasser", 2, 1) + 0.85, "click-soft.mp3", 0.4),
+    (S["muell"] - 0.15, "whoosh-short.mp3", 0.5),
+    (S["muell"] + 0.3, "pop.mp3", 0.35),
+    (S["muell"] + 0.9, "pop.mp3", 0.35),
+    (S["geld"] - 0.15, "whoosh.mp3", 0.5),
+    (wa("geld", 2, 5), "impact-bass-2.mp3", 0.55),
     (S["himmel"] - 0.2, "whoosh-cinematic.mp3", 0.35),
     (wa("himmel", 2, 3), "sparkle.mp3", 0.5),
+    (S["wende"] - 0.15, "whoosh-short.mp3", 0.5),
+    (wa("wende", 3, 3), "chime.mp3", 0.35),
     (S["loop"] - 0.15, "whoosh.mp3", 0.5),
     (wa("loop", 2, 1), "ping.mp3", 0.5),
 ]
 
 CHECKLIST = [
     (wa("verkehr", 3, 1) + 0.3, "✕ VERKEHR", C["red"]),
+    (wa("notruf", 4, 0) + 0.3, "✕ NOTRUF", C["red"]),
     (wa("strom", 1, 2) + 0.1, "✕ STROM", C["red"]),
+    (wa("netz", 1, 2) + 0.3, "✕ INTERNET", C["red"]),
     (wa("essen", 1, 3) + 0.1, "✕ ESSEN", C["red"]),
-    (wa("wasser", 1, 2) + 0.2, "✕ WASSER", C["red"]),
+    (wa("wasser", 2, 1) + 0.2, "✕ WASSER", C["red"]),
+    (wa("geld", 1, 2) + 0.3, "✕ GELD", C["red"]),
     (wa("himmel", 2, 3) + 0.1, "✓ LUFT", C["green"]),
 ]
 
 if __name__ == "__main__":
     write_project(HERE, "Was wäre, wenn niemand mehr arbeiten geht?",
                   [(sid, S[sid], E[sid], html) for sid, html in SCENES],
-                  SFX, CHECKLIST, TOTAL, sfx_root=SFX_ROOT, check_end=S["loop"])
-    print("ok:", ", ".join(f"{sid} {fmt(S[sid])}-{fmt(E[sid])}" for sid, _ in SCENES))
+                  SFX, CHECKLIST, TOTAL, sfx_root=SFX_ROOT, check_end=S["wende"])
+    print("ok:", ", ".join(f"{sid} {fmt(S[sid])}-{fmt(E[sid])}" for sid, _ in SCENES), "| total", TOTAL)

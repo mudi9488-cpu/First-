@@ -1,7 +1,7 @@
 {
   "title": "Was wäre, wenn niemand mehr arbeiten geht?",
   "voice": "thorsten-low",
-  "length_scale": 1.0,
+  "length_scale": 1.08,
   "beats": [
     {
       "id": "hook",
@@ -22,13 +22,34 @@
       ]
     },
     {
+      "id": "morgen",
+      "label": "TAG 1 · 07:30",
+      "lines": [
+        { "show": "Am Anfang fühlt sich" },
+        { "show": "das an wie {g:Urlaub}." },
+        { "show": "Kein {g:Meeting}." },
+        { "show": "Kein {g:Stau}." }
+      ]
+    },
+    {
       "id": "verkehr",
       "label": "TAG 1 · 08:00",
       "lines": [
-        { "show": "Um acht fährt" },
+        { "show": "Doch um acht fährt" },
         { "show": "{r:kein Bus}," },
         { "show": "{r:keine Bahn}," },
         { "show": "{r:kein Flugzeug}." }
+      ]
+    },
+    {
+      "id": "notruf",
+      "label": "TAG 1 · 12:00",
+      "lines": [
+        { "show": "Mittags ruft jemand" },
+        { "show": "den {r:Notruf}." },
+        { "show": "Es klingelt." },
+        { "show": "Und klingelt." },
+        { "show": "{r:Niemand} geht ran." }
       ]
     },
     {
@@ -42,19 +63,49 @@
       ]
     },
     {
+      "id": "netz",
+      "label": "TAG 2 · INTERNET",
+      "lines": [
+        { "show": "Ohne Strom" },
+        { "show": "stirbt das {r:Internet}." },
+        { "show": "Dein Akku:" },
+        { "show": "{r:12 Prozent}.", "say": "zwölf Prozent." }
+      ]
+    },
+    {
       "id": "essen",
       "label": "TAG 3 · SUPERMARKT",
       "lines": [
         { "show": "Nach {y:drei Tagen}" },
-        { "show": "sind die Regale {r:leer}." }
+        { "show": "sind die Regale {r:leer}." },
+        { "show": "Kein Lkw liefert nach." }
       ]
     },
     {
       "id": "wasser",
       "label": "TAG 7 · WASSERWERK",
       "lines": [
-        { "show": "Aus dem Hahn" },
-        { "show": "kommt {r:kein Wasser} mehr." }
+        { "show": "Nach einer {y:Woche}" },
+        { "show": "kommt aus dem Hahn" },
+        { "show": "{r:kein Wasser} mehr." }
+      ]
+    },
+    {
+      "id": "muell",
+      "label": "TAG 14 · STRASSE",
+      "lines": [
+        { "show": "Der {y:Müll} stapelt sich" },
+        { "show": "auf den Straßen." },
+        { "show": "Und es {r:stinkt}." }
+      ]
+    },
+    {
+      "id": "geld",
+      "label": "TAG 20 · BANK",
+      "lines": [
+        { "show": "Und dein {y:Geld}?" },
+        { "show": "Ist plötzlich {r:nichts} mehr wert." },
+        { "show": "Es gibt ja nichts zu kaufen." }
       ]
     },
     {
@@ -63,12 +114,24 @@
       "lines": [
         { "show": "Aber dann passiert" },
         { "show": "etwas {y:Seltsames}:" },
-        { "show": "Der Himmel wird {g:klar}." }
+        { "show": "Der Himmel wird {g:klar}." },
+        { "show": "Und die {g:Tiere} kommen zurück." }
+      ]
+    },
+    {
+      "id": "wende",
+      "label": "TAG 31 · 06:00",
+      "lines": [
+        { "show": "Irgendwann steht" },
+        { "show": "{y:einer} wieder auf." },
+        { "show": "Nicht für Geld." },
+        { "show": "Sondern weil er {g:gebraucht} wird." },
+        { "show": "Dann der {y:Nächste}." }
       ]
     },
     {
       "id": "loop",
-      "label": "TAG 31 · 06:59",
+      "label": "TAG 32 · 06:59",
       "lines": [
         { "show": "Und am nächsten Morgen" },
         { "show": "klingelt {y:wieder}" },
