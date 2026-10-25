@@ -33,14 +33,14 @@
     const tl = gsap.timeline({ paused: true });
     (function(){ const o={v:100}; const el=document.getElementById("sc-num");
       const f=(v)=>{ let s=v.toFixed(0); let [a,b]=s.split("."); a=a.replace(/\B(?=(\d{3})+(?!\d))/g,"."); return b?a+","+b:a; };
-      tl.fromTo(o,{v:100},{v:0,duration:0.7030000000000001,ease:"power3.in",onUpdate:()=>{el.textContent=f(o.v);}},0.9930000000000001); })();
+      tl.fromTo(o,{v:100},{v:0,duration:0.6860000000000002,ease:"power3.in",onUpdate:()=>{el.textContent=f(o.v);}},0.978); })();
 
     tl.fromTo("#st-city", {y:60}, {y:0, duration:1.2, ease:"expo.out"}, 0);
-    tl.fromTo(".st-win", {opacity:1}, {opacity:0, duration:0.06, ease:"none", stagger:0.0034}, 1.193);
-    tl.fromTo("#sc-bar", {scaleX:1}, {scaleX:0, duration:0.7030000000000001, ease:"power3.in"}, 0.9930000000000001);
-    tl.to("#sc-num", {color:"#FF4D5E", duration:0.1}, 1.6960000000000002);
-    tl.fromTo("#st-dark", {opacity:0}, {opacity:0.35, duration:0.25, ease:"power2.out"}, 1.6460000000000001);
-    tl.fromTo("#st-pill", {scale:1.4, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 2.11);
+    tl.fromTo(".st-win", {opacity:1}, {opacity:0, duration:0.06, ease:"none", stagger:0.0033}, 1.178);
+    tl.fromTo("#sc-bar", {scaleX:1}, {scaleX:0, duration:0.6860000000000002, ease:"power3.in"}, 0.978);
+    tl.to("#sc-num", {color:"#FF4D5E", duration:0.1}, 1.6640000000000001);
+    tl.fromTo("#st-dark", {opacity:0}, {opacity:0.35, duration:0.25, ease:"power2.out"}, 1.614);
+    tl.fromTo("#st-pill", {scale:1.4, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 2.125);
 
     window.__timelines["strom"] = tl;
   </script>

@@ -1,1239 +1,1240 @@
 {
- "duration": 63.196,
+ "duration": 65.96,
+ "source": "voice-elevenlabs-helmut.mp3",
  "beats": [
   {
    "id": "hook",
    "label": "TAG 0 · 06:59",
-   "start": 0.15,
    "lines": [
     {
      "show": "Was wäre, wenn",
-     "start": 0.15,
-     "end": 1.189,
+     "start": 0.0,
+     "end": 0.89,
      "words": [
       {
        "text": "Was",
-       "start": 0.15,
-       "end": 0.452
+       "start": 0.0,
+       "end": 0.258
       },
       {
        "text": "wäre,",
-       "start": 0.452,
-       "end": 0.82
+       "start": 0.258,
+       "end": 0.574
       },
       {
        "text": "wenn",
-       "start": 0.82,
-       "end": 1.189
+       "start": 0.574,
+       "end": 0.89
       }
      ]
     },
     {
      "show": "morgen {y:niemand} mehr",
-     "start": 1.249,
-     "end": 2.168,
+     "start": 0.89,
+     "end": 1.977,
      "words": [
       {
        "text": "morgen",
-       "start": 1.249,
-       "end": 1.569
+       "start": 0.89,
+       "end": 1.269
       },
       {
        "text": "niemand",
-       "start": 1.569,
-       "end": 1.933
+       "start": 1.269,
+       "end": 1.699
       },
       {
        "text": "mehr",
-       "start": 1.933,
-       "end": 2.168
+       "start": 1.699,
+       "end": 1.977
       }
      ]
     },
     {
      "show": "{r:arbeiten} geht?",
-     "start": 2.228,
-     "end": 3.011,
+     "start": 1.977,
+     "end": 2.866,
      "words": [
       {
        "text": "arbeiten",
-       "start": 2.228,
-       "end": 2.724
+       "start": 1.977,
+       "end": 2.54
       },
       {
        "text": "geht?",
-       "start": 2.724,
-       "end": 3.011
+       "start": 2.54,
+       "end": 2.866
       }
      ]
     }
    ],
-   "end": 3.311
+   "start": 0.0,
+   "end": 2.866
   },
   {
    "id": "welt",
    "label": "TAG 1 · 07:00",
-   "start": 3.711,
    "lines": [
     {
      "show": "Kein einziger Mensch.",
-     "start": 3.711,
-     "end": 4.838,
+     "start": 3.301,
+     "end": 4.699,
      "words": [
       {
        "text": "Kein",
-       "start": 3.711,
-       "end": 3.986
+       "start": 3.301,
+       "end": 3.643
       },
       {
        "text": "einziger",
-       "start": 3.986,
-       "end": 4.462
+       "start": 3.643,
+       "end": 4.233
       },
       {
        "text": "Mensch.",
-       "start": 4.462,
-       "end": 4.838
+       "start": 4.233,
+       "end": 4.699
       }
      ]
     },
     {
      "show": "{y:3,6 Milliarden}",
-     "start": 5.138,
-     "end": 6.436,
+     "start": 5.158,
+     "end": 6.614,
      "words": [
       {
        "text": "3,6",
-       "start": 5.138,
-       "end": 5.441
+       "start": 5.158,
+       "end": 5.498
       },
       {
        "text": "Milliarden",
-       "start": 5.441,
-       "end": 6.436
+       "start": 5.498,
+       "end": 6.614
       }
      ]
     },
     {
      "show": "bleiben einfach {y:liegen}.",
-     "start": 6.496,
-     "end": 7.58,
+     "start": 6.614,
+     "end": 8.022,
      "words": [
       {
        "text": "bleiben",
-       "start": 6.496,
-       "end": 6.872
+       "start": 6.614,
+       "end": 7.103
       },
       {
        "text": "einfach",
-       "start": 6.872,
-       "end": 7.248
+       "start": 7.103,
+       "end": 7.591
       },
       {
        "text": "liegen.",
-       "start": 7.248,
-       "end": 7.58
+       "start": 7.591,
+       "end": 8.022
       }
      ]
     }
    ],
-   "end": 7.88
+   "start": 3.301,
+   "end": 8.022
   },
   {
    "id": "morgen",
    "label": "TAG 1 · 07:30",
-   "start": 8.28,
    "lines": [
     {
      "show": "Am Anfang fühlt sich",
-     "start": 8.28,
-     "end": 9.35,
+     "start": 8.608,
+     "end": 9.637,
      "words": [
       {
        "text": "Am",
-       "start": 8.28,
-       "end": 8.443
+       "start": 8.608,
+       "end": 8.765
       },
       {
        "text": "Anfang",
-       "start": 8.443,
-       "end": 8.792
+       "start": 8.765,
+       "end": 9.1
       },
       {
        "text": "fühlt",
-       "start": 8.792,
-       "end": 9.094
+       "start": 9.1,
+       "end": 9.391
       },
       {
        "text": "sich",
-       "start": 9.094,
-       "end": 9.35
+       "start": 9.391,
+       "end": 9.637
       }
      ]
     },
     {
      "show": "das an wie {g:Urlaub}.",
-     "start": 9.41,
-     "end": 10.451,
+     "start": 9.637,
+     "end": 10.665,
      "words": [
       {
        "text": "das",
-       "start": 9.41,
-       "end": 9.644
+       "start": 9.637,
+       "end": 9.868
       },
       {
        "text": "an",
-       "start": 9.644,
-       "end": 9.827
+       "start": 9.868,
+       "end": 10.048
       },
       {
        "text": "wie",
-       "start": 9.827,
-       "end": 10.061
+       "start": 10.048,
+       "end": 10.279
       },
       {
        "text": "Urlaub.",
-       "start": 10.061,
-       "end": 10.451
+       "start": 10.279,
+       "end": 10.665
       }
      ]
     },
     {
      "show": "Kein {g:Meeting}.",
-     "start": 10.751,
-     "end": 11.514,
+     "start": 11.023,
+     "end": 11.807,
      "words": [
       {
        "text": "Kein",
-       "start": 10.751,
-       "end": 11.051
+       "start": 11.023,
+       "end": 11.331
       },
       {
        "text": "Meeting.",
-       "start": 11.051,
-       "end": 11.514
+       "start": 11.331,
+       "end": 11.807
       }
      ]
     },
     {
      "show": "Kein {g:Stau}.",
-     "start": 11.814,
-     "end": 12.468,
+     "start": 12.073,
+     "end": 12.792,
      "words": [
       {
        "text": "Kein",
-       "start": 11.814,
-       "end": 12.141
+       "start": 12.073,
+       "end": 12.432
       },
       {
        "text": "Stau.",
-       "start": 12.141,
-       "end": 12.468
+       "start": 12.432,
+       "end": 12.792
       }
      ]
     }
    ],
-   "end": 12.768
+   "start": 8.608,
+   "end": 12.792
   },
   {
    "id": "verkehr",
    "label": "TAG 1 · 08:00",
-   "start": 13.168,
    "lines": [
     {
      "show": "Doch um acht fährt",
-     "start": 13.168,
-     "end": 14.043,
+     "start": 13.365,
+     "end": 14.532,
      "words": [
       {
        "text": "Doch",
-       "start": 13.168,
-       "end": 13.397
+       "start": 13.365,
+       "end": 13.671
       },
       {
        "text": "um",
-       "start": 13.397,
-       "end": 13.543
+       "start": 13.671,
+       "end": 13.865
       },
       {
        "text": "acht",
-       "start": 13.543,
-       "end": 13.772
+       "start": 13.865,
+       "end": 14.171
       },
       {
        "text": "fährt",
-       "start": 13.772,
-       "end": 14.043
+       "start": 14.171,
+       "end": 14.532
       }
      ]
     },
     {
      "show": "{r:kein Bus},",
-     "start": 14.103,
-     "end": 14.706,
+     "start": 14.532,
+     "end": 15.18,
      "words": [
       {
        "text": "kein",
-       "start": 14.103,
-       "end": 14.434
+       "start": 14.532,
+       "end": 14.888
       },
       {
        "text": "Bus,",
-       "start": 14.434,
-       "end": 14.706
+       "start": 14.888,
+       "end": 15.18
       }
      ]
     },
     {
      "show": "{r:keine Bahn},",
-     "start": 14.866,
-     "end": 15.513,
+     "start": 15.422,
+     "end": 16.126,
      "words": [
       {
        "text": "keine",
-       "start": 14.866,
-       "end": 15.217
+       "start": 15.422,
+       "end": 15.803
       },
       {
        "text": "Bahn,",
-       "start": 15.217,
-       "end": 15.513
+       "start": 15.803,
+       "end": 16.126
       }
      ]
     },
     {
      "show": "{r:kein Flugzeug}.",
-     "start": 15.673,
-     "end": 16.477,
+     "start": 16.426,
+     "end": 17.309,
      "words": [
       {
        "text": "kein",
-       "start": 15.673,
-       "end": 15.968
+       "start": 16.426,
+       "end": 16.749
       },
       {
        "text": "Flugzeug.",
-       "start": 15.968,
-       "end": 16.477
+       "start": 16.749,
+       "end": 17.309
       }
      ]
     }
    ],
-   "end": 16.777
+   "start": 13.365,
+   "end": 17.309
   },
   {
    "id": "notruf",
    "label": "TAG 1 · 12:00",
-   "start": 17.177,
    "lines": [
     {
      "show": "Mittags ruft jemand",
-     "start": 17.177,
-     "end": 18.226,
+     "start": 17.834,
+     "end": 18.933,
      "words": [
       {
        "text": "Mittags",
-       "start": 17.177,
-       "end": 17.591
+       "start": 17.834,
+       "end": 18.269
       },
       {
        "text": "ruft",
-       "start": 17.591,
-       "end": 17.86
+       "start": 18.269,
+       "end": 18.55
       },
       {
        "text": "jemand",
-       "start": 17.86,
-       "end": 18.226
+       "start": 18.55,
+       "end": 18.933
       }
      ]
     },
     {
      "show": "den {r:Notruf}.",
-     "start": 18.286,
-     "end": 18.834,
+     "start": 18.933,
+     "end": 19.633,
      "words": [
       {
        "text": "den",
-       "start": 18.286,
-       "end": 18.492
+       "start": 18.933,
+       "end": 19.196
       },
       {
        "text": "Notruf.",
-       "start": 18.492,
-       "end": 18.834
+       "start": 19.196,
+       "end": 19.633
       }
      ]
     },
     {
      "show": "Es klingelt.",
-     "start": 19.134,
-     "end": 19.796,
+     "start": 20.064,
+     "end": 20.713,
      "words": [
       {
        "text": "Es",
-       "start": 19.134,
-       "end": 19.313
+       "start": 20.064,
+       "end": 20.239
       },
       {
        "text": "klingelt.",
-       "start": 19.313,
-       "end": 19.796
+       "start": 20.239,
+       "end": 20.713
       }
      ]
     },
     {
      "show": "Und klingelt.",
-     "start": 20.096,
-     "end": 20.686,
+     "start": 21.128,
+     "end": 22.254,
      "words": [
       {
        "text": "Und",
-       "start": 20.096,
-       "end": 20.286
+       "start": 21.128,
+       "end": 21.49
       },
       {
        "text": "klingelt.",
-       "start": 20.286,
-       "end": 20.686
+       "start": 21.49,
+       "end": 22.254
       }
      ]
     },
     {
      "show": "{r:Niemand} geht ran.",
-     "start": 20.986,
-     "end": 22.057,
+     "start": 22.705,
+     "end": 23.689,
      "words": [
       {
        "text": "Niemand",
-       "start": 20.986,
-       "end": 21.478
+       "start": 22.705,
+       "end": 23.157
       },
       {
        "text": "geht",
-       "start": 21.478,
-       "end": 21.797
+       "start": 23.157,
+       "end": 23.45
       },
       {
        "text": "ran.",
-       "start": 21.797,
-       "end": 22.057
+       "start": 23.45,
+       "end": 23.689
       }
      ]
     }
    ],
-   "end": 22.357
+   "start": 17.834,
+   "end": 23.689
   },
   {
    "id": "strom",
    "label": "TAG 1 · 18:00",
-   "start": 22.757,
    "lines": [
     {
      "show": "Am Abend gehen",
-     "start": 22.757,
-     "end": 23.677,
+     "start": 24.198,
+     "end": 25.171,
      "words": [
       {
        "text": "Am",
-       "start": 22.757,
-       "end": 22.952
+       "start": 24.198,
+       "end": 24.405
       },
       {
        "text": "Abend",
-       "start": 22.952,
-       "end": 23.315
+       "start": 24.405,
+       "end": 24.788
       },
       {
        "text": "gehen",
-       "start": 23.315,
-       "end": 23.677
+       "start": 24.788,
+       "end": 25.171
       }
      ]
     },
     {
      "show": "die {y:Lichter} aus.",
-     "start": 23.737,
-     "end": 24.567,
+     "start": 25.171,
+     "end": 25.967,
      "words": [
       {
        "text": "die",
-       "start": 23.737,
-       "end": 23.95
+       "start": 25.171,
+       "end": 25.376
       },
       {
        "text": "Lichter",
-       "start": 23.95,
-       "end": 24.353
+       "start": 25.376,
+       "end": 25.762
       },
       {
        "text": "aus.",
-       "start": 24.353,
-       "end": 24.567
+       "start": 25.762,
+       "end": 25.967
       }
      ]
     },
     {
      "show": "Kraftwerke laufen",
-     "start": 24.867,
-     "end": 25.808,
+     "start": 26.323,
+     "end": 27.304,
      "words": [
       {
        "text": "Kraftwerke",
-       "start": 24.867,
-       "end": 25.436
+       "start": 26.323,
+       "end": 26.917
       },
       {
        "text": "laufen",
-       "start": 25.436,
-       "end": 25.808
+       "start": 26.917,
+       "end": 27.304
       }
      ]
     },
     {
      "show": "nicht von {r:allein}.",
-     "start": 25.868,
-     "end": 26.791,
+     "start": 27.304,
+     "end": 28.105,
      "words": [
       {
        "text": "nicht",
-       "start": 25.868,
-       "end": 26.192
+       "start": 27.304,
+       "end": 27.585
       },
       {
        "text": "von",
-       "start": 26.192,
-       "end": 26.416
+       "start": 27.585,
+       "end": 27.78
       },
       {
        "text": "allein.",
-       "start": 26.416,
-       "end": 26.791
+       "start": 27.78,
+       "end": 28.105
       }
      ]
     }
    ],
-   "end": 27.091
+   "start": 24.198,
+   "end": 28.105
   },
   {
    "id": "netz",
    "label": "TAG 2 · INTERNET",
-   "start": 27.491,
    "lines": [
     {
      "show": "Ohne Strom",
-     "start": 27.491,
-     "end": 28.136,
+     "start": 28.547,
+     "end": 29.342,
      "words": [
       {
        "text": "Ohne",
-       "start": 27.491,
-       "end": 27.786
+       "start": 28.547,
+       "end": 28.911
       },
       {
        "text": "Strom",
-       "start": 27.786,
-       "end": 28.136
+       "start": 28.911,
+       "end": 29.342
       }
      ]
     },
     {
      "show": "stirbt das {r:Internet}.",
-     "start": 28.196,
-     "end": 29.283,
+     "start": 29.342,
+     "end": 30.591,
      "words": [
       {
        "text": "stirbt",
-       "start": 28.196,
-       "end": 28.575
+       "start": 29.342,
+       "end": 29.778
       },
       {
        "text": "das",
-       "start": 28.575,
-       "end": 28.803
+       "start": 29.778,
+       "end": 30.039
       },
       {
        "text": "Internet.",
-       "start": 28.803,
-       "end": 29.283
+       "start": 30.039,
+       "end": 30.591
       }
      ]
     },
     {
      "show": "Dein Akku:",
-     "start": 29.583,
-     "end": 30.164,
+     "start": 31.069,
+     "end": 31.651,
      "words": [
       {
        "text": "Dein",
-       "start": 29.583,
-       "end": 29.873
+       "start": 31.069,
+       "end": 31.36
       },
       {
        "text": "Akku:",
-       "start": 29.873,
-       "end": 30.164
+       "start": 31.36,
+       "end": 31.651
       }
      ]
     },
     {
      "show": "{r:12 Prozent}.",
-     "start": 30.324,
-     "end": 31.233,
+     "start": 31.955,
+     "end": 32.862,
      "words": [
       {
        "text": "12",
-       "start": 30.324,
-       "end": 30.589
+       "start": 31.955,
+       "end": 32.219
       },
       {
        "text": "Prozent.",
-       "start": 30.589,
-       "end": 31.233
+       "start": 32.219,
+       "end": 32.862
       }
      ]
     }
    ],
-   "end": 31.533
+   "start": 28.547,
+   "end": 32.862
   },
   {
    "id": "essen",
    "label": "TAG 3 · SUPERMARKT",
-   "start": 31.933,
    "lines": [
     {
      "show": "Nach {y:drei Tagen}",
-     "start": 31.933,
-     "end": 32.875,
+     "start": 33.35,
+     "end": 34.19,
      "words": [
       {
        "text": "Nach",
-       "start": 31.933,
-       "end": 32.229
+       "start": 33.35,
+       "end": 33.614
       },
       {
        "text": "drei",
-       "start": 32.229,
-       "end": 32.525
+       "start": 33.614,
+       "end": 33.878
       },
       {
        "text": "Tagen",
-       "start": 32.525,
-       "end": 32.875
+       "start": 33.878,
+       "end": 34.19
       }
      ]
     },
     {
      "show": "sind die Regale {r:leer}.",
-     "start": 32.935,
-     "end": 33.97,
+     "start": 34.19,
+     "end": 35.404,
      "words": [
       {
        "text": "sind",
-       "start": 32.935,
-       "end": 33.183
+       "start": 34.19,
+       "end": 34.48
       },
       {
        "text": "die",
-       "start": 33.183,
-       "end": 33.385
+       "start": 34.48,
+       "end": 34.718
       },
       {
        "text": "Regale",
-       "start": 33.385,
-       "end": 33.722
+       "start": 34.718,
+       "end": 35.113
       },
       {
        "text": "leer.",
-       "start": 33.722,
-       "end": 33.97
+       "start": 35.113,
+       "end": 35.404
       }
      ]
     },
     {
      "show": "Kein Lkw liefert nach.",
-     "start": 34.27,
-     "end": 35.698,
+     "start": 35.83,
+     "end": 37.687,
      "words": [
       {
        "text": "Kein",
-       "start": 34.27,
-       "end": 34.597
+       "start": 35.83,
+       "end": 36.255
       },
       {
        "text": "Lkw",
-       "start": 34.597,
-       "end": 34.865
+       "start": 36.255,
+       "end": 36.603
       },
       {
        "text": "liefert",
-       "start": 34.865,
-       "end": 35.371
+       "start": 36.603,
+       "end": 37.261
       },
       {
        "text": "nach.",
-       "start": 35.371,
-       "end": 35.698
+       "start": 37.261,
+       "end": 37.687
       }
      ]
     }
    ],
-   "end": 35.998
+   "start": 33.35,
+   "end": 37.687
   },
   {
    "id": "wasser",
    "label": "TAG 7 · WASSERWERK",
-   "start": 36.398,
    "lines": [
     {
      "show": "Nach einer {y:Woche}",
-     "start": 36.398,
-     "end": 37.233,
+     "start": 38.22,
+     "end": 39.267,
      "words": [
       {
        "text": "Nach",
-       "start": 36.398,
-       "end": 36.646
+       "start": 38.22,
+       "end": 38.532
       },
       {
        "text": "einer",
-       "start": 36.646,
-       "end": 36.94
+       "start": 38.532,
+       "end": 38.899
       },
       {
        "text": "Woche",
-       "start": 36.94,
-       "end": 37.233
+       "start": 38.899,
+       "end": 39.267
       }
      ]
     },
     {
      "show": "kommt aus dem Hahn",
-     "start": 37.293,
-     "end": 38.146,
+     "start": 39.267,
+     "end": 40.123,
      "words": [
       {
        "text": "kommt",
-       "start": 37.293,
-       "end": 37.557
+       "start": 39.267,
+       "end": 39.532
       },
       {
        "text": "aus",
-       "start": 37.557,
-       "end": 37.74
+       "start": 39.532,
+       "end": 39.715
       },
       {
        "text": "dem",
-       "start": 37.74,
-       "end": 37.922
+       "start": 39.715,
+       "end": 39.899
       },
       {
        "text": "Hahn",
-       "start": 37.922,
-       "end": 38.146
+       "start": 39.899,
+       "end": 40.123
       }
      ]
     },
     {
      "show": "{r:kein Wasser} mehr.",
-     "start": 38.206,
-     "end": 39.03,
+     "start": 40.123,
+     "end": 40.98,
      "words": [
       {
        "text": "kein",
-       "start": 38.206,
-       "end": 38.451
+       "start": 40.123,
+       "end": 40.378
       },
       {
        "text": "Wasser",
-       "start": 38.451,
-       "end": 38.785
+       "start": 40.378,
+       "end": 40.725
       },
       {
        "text": "mehr.",
-       "start": 38.785,
-       "end": 39.03
+       "start": 40.725,
+       "end": 40.98
       }
      ]
     }
    ],
-   "end": 39.33
+   "start": 38.22,
+   "end": 40.98
   },
   {
    "id": "muell",
    "label": "TAG 14 · STRASSE",
-   "start": 39.73,
    "lines": [
     {
      "show": "Der {y:Müll} stapelt sich",
-     "start": 39.73,
-     "end": 40.729,
+     "start": 41.389,
+     "end": 42.477,
      "words": [
       {
        "text": "Der",
-       "start": 39.73,
-       "end": 39.918
+       "start": 41.389,
+       "end": 41.593
       },
       {
        "text": "Müll",
-       "start": 39.918,
-       "end": 40.146
+       "start": 41.593,
+       "end": 41.842
       },
       {
        "text": "stapelt",
-       "start": 40.146,
-       "end": 40.5
+       "start": 41.842,
+       "end": 42.227
       },
       {
        "text": "sich",
-       "start": 40.5,
-       "end": 40.729
+       "start": 42.227,
+       "end": 42.477
       }
      ]
     },
     {
      "show": "auf den Straßen.",
-     "start": 40.789,
-     "end": 41.621,
+     "start": 42.477,
+     "end": 43.367,
      "words": [
       {
        "text": "auf",
-       "start": 40.789,
-       "end": 41.003
+       "start": 42.477,
+       "end": 42.706
       },
       {
        "text": "den",
-       "start": 41.003,
-       "end": 41.217
+       "start": 42.706,
+       "end": 42.934
       },
       {
        "text": "Straßen.",
-       "start": 41.217,
-       "end": 41.621
+       "start": 42.934,
+       "end": 43.367
       }
      ]
     },
     {
      "show": "Und es {r:stinkt}.",
-     "start": 41.921,
-     "end": 42.679,
+     "start": 43.769,
+     "end": 44.767,
      "words": [
       {
        "text": "Und",
-       "start": 41.921,
-       "end": 42.141
+       "start": 43.769,
+       "end": 44.059
       },
       {
        "text": "es",
-       "start": 42.141,
-       "end": 42.312
+       "start": 44.059,
+       "end": 44.284
       },
       {
        "text": "stinkt.",
-       "start": 42.312,
-       "end": 42.679
+       "start": 44.284,
+       "end": 44.767
       }
      ]
     }
    ],
-   "end": 42.979
+   "start": 41.389,
+   "end": 44.767
   },
   {
    "id": "geld",
    "label": "TAG 20 · BANK",
-   "start": 43.379,
    "lines": [
     {
      "show": "Und dein {y:Geld}?",
-     "start": 43.379,
-     "end": 44.089,
+     "start": 45.263,
+     "end": 45.96,
      "words": [
       {
        "text": "Und",
-       "start": 43.379,
-       "end": 43.585
+       "start": 45.263,
+       "end": 45.465
       },
       {
        "text": "dein",
-       "start": 43.585,
-       "end": 43.837
+       "start": 45.465,
+       "end": 45.713
       },
       {
        "text": "Geld?",
-       "start": 43.837,
-       "end": 44.089
+       "start": 45.713,
+       "end": 45.96
       }
      ]
     },
     {
      "show": "Ist plötzlich {r:nichts} mehr wert.",
-     "start": 44.389,
-     "end": 45.695,
+     "start": 46.413,
+     "end": 47.904,
      "words": [
       {
        "text": "Ist",
-       "start": 44.389,
-       "end": 44.564
+       "start": 46.413,
+       "end": 46.613
       },
       {
        "text": "plötzlich",
-       "start": 44.564,
-       "end": 44.974
+       "start": 46.613,
+       "end": 47.081
       },
       {
        "text": "nichts",
-       "start": 44.974,
-       "end": 45.266
+       "start": 47.081,
+       "end": 47.414
       },
       {
        "text": "mehr",
-       "start": 45.266,
-       "end": 45.48
+       "start": 47.414,
+       "end": 47.659
       },
       {
        "text": "wert.",
-       "start": 45.48,
-       "end": 45.695
+       "start": 47.659,
+       "end": 47.904
       }
      ]
     },
     {
      "show": "Es gibt ja nichts zu kaufen.",
-     "start": 45.995,
-     "end": 47.253,
+     "start": 48.297,
+     "end": 49.53,
      "words": [
       {
        "text": "Es",
-       "start": 45.995,
-       "end": 46.137
+       "start": 48.297,
+       "end": 48.437
       },
       {
        "text": "gibt",
-       "start": 46.137,
-       "end": 46.36
+       "start": 48.437,
+       "end": 48.655
       },
       {
        "text": "ja",
-       "start": 46.36,
-       "end": 46.502
+       "start": 48.655,
+       "end": 48.794
       },
       {
        "text": "nichts",
-       "start": 46.502,
-       "end": 46.806
+       "start": 48.794,
+       "end": 49.092
       },
       {
        "text": "zu",
-       "start": 46.806,
-       "end": 46.948
+       "start": 49.092,
+       "end": 49.231
       },
       {
        "text": "kaufen.",
-       "start": 46.948,
-       "end": 47.253
+       "start": 49.231,
+       "end": 49.53
       }
      ]
     }
    ],
-   "end": 47.553
+   "start": 45.263,
+   "end": 49.53
   },
   {
    "id": "himmel",
    "label": "TAG 30 · STADT",
-   "start": 47.953,
    "lines": [
     {
      "show": "Aber dann passiert",
-     "start": 47.953,
-     "end": 49.018,
+     "start": 50.112,
+     "end": 51.121,
      "words": [
       {
        "text": "Aber",
-       "start": 47.953,
-       "end": 48.239
+       "start": 50.112,
+       "end": 50.382
       },
       {
        "text": "dann",
-       "start": 48.239,
-       "end": 48.524
+       "start": 50.382,
+       "end": 50.653
       },
       {
        "text": "passiert",
-       "start": 48.524,
-       "end": 49.018
+       "start": 50.653,
+       "end": 51.121
       }
      ]
     },
     {
      "show": "etwas {y:Seltsames}:",
-     "start": 49.078,
-     "end": 50.069,
+     "start": 51.121,
+     "end": 52.13,
      "words": [
       {
        "text": "etwas",
-       "start": 49.078,
-       "end": 49.457
+       "start": 51.121,
+       "end": 51.507
       },
       {
        "text": "Seltsames:",
-       "start": 49.457,
-       "end": 50.069
+       "start": 51.507,
+       "end": 52.13
       }
      ]
     },
     {
      "show": "Der Himmel wird {g:klar}.",
-     "start": 50.229,
-     "end": 51.239,
+     "start": 52.615,
+     "end": 53.766,
      "words": [
       {
        "text": "Der",
-       "start": 50.229,
-       "end": 50.426
+       "start": 52.615,
+       "end": 52.84
       },
       {
        "text": "Himmel",
-       "start": 50.426,
-       "end": 50.756
+       "start": 52.84,
+       "end": 53.215
       },
       {
        "text": "wird",
-       "start": 50.756,
-       "end": 50.998
+       "start": 53.215,
+       "end": 53.491
       },
       {
        "text": "klar.",
-       "start": 50.998,
-       "end": 51.239
+       "start": 53.491,
+       "end": 53.766
       }
      ]
     },
     {
      "show": "Und die {g:Tiere} kommen zurück.",
-     "start": 51.539,
-     "end": 52.901,
+     "start": 54.187,
+     "end": 55.652,
      "words": [
       {
        "text": "Und",
-       "start": 51.539,
-       "end": 51.74
+       "start": 54.187,
+       "end": 54.403
       },
       {
        "text": "die",
-       "start": 51.74,
-       "end": 51.941
+       "start": 54.403,
+       "end": 54.619
       },
       {
        "text": "Tiere",
-       "start": 51.941,
-       "end": 52.231
+       "start": 54.619,
+       "end": 54.932
       },
       {
        "text": "kommen",
-       "start": 52.231,
-       "end": 52.566
+       "start": 54.932,
+       "end": 55.292
       },
       {
        "text": "zurück.",
-       "start": 52.566,
-       "end": 52.901
+       "start": 55.292,
+       "end": 55.652
       }
      ]
     }
    ],
-   "end": 53.201
+   "start": 50.112,
+   "end": 55.652
   },
   {
    "id": "wende",
    "label": "TAG 31 · 06:00",
-   "start": 53.601,
    "lines": [
     {
      "show": "Irgendwann steht",
-     "start": 53.601,
-     "end": 54.426,
+     "start": 56.131,
+     "end": 57.018,
      "words": [
       {
        "text": "Irgendwann",
-       "start": 53.601,
-       "end": 54.128
+       "start": 56.131,
+       "end": 56.697
       },
       {
        "text": "steht",
-       "start": 54.128,
-       "end": 54.426
+       "start": 56.697,
+       "end": 57.018
       }
      ]
     },
     {
      "show": "{y:einer} wieder auf.",
-     "start": 54.486,
-     "end": 55.212,
+     "start": 57.018,
+     "end": 58.102,
      "words": [
       {
        "text": "einer",
-       "start": 54.486,
-       "end": 54.741
+       "start": 57.018,
+       "end": 57.398
       },
       {
        "text": "wieder",
-       "start": 54.741,
-       "end": 55.035
+       "start": 57.398,
+       "end": 57.838
       },
       {
        "text": "auf.",
-       "start": 55.035,
-       "end": 55.212
+       "start": 57.838,
+       "end": 58.102
       }
      ]
     },
     {
      "show": "Nicht für Geld.",
-     "start": 55.512,
-     "end": 56.248,
+     "start": 58.484,
+     "end": 59.292,
      "words": [
       {
        "text": "Nicht",
-       "start": 55.512,
-       "end": 55.802
+       "start": 58.484,
+       "end": 58.802
       },
       {
        "text": "für",
-       "start": 55.802,
-       "end": 56.002
+       "start": 58.802,
+       "end": 59.023
       },
       {
        "text": "Geld.",
-       "start": 56.002,
-       "end": 56.248
+       "start": 59.023,
+       "end": 59.292
       }
      ]
     },
     {
      "show": "Sondern weil er {g:gebraucht} wird.",
-     "start": 56.548,
-     "end": 57.947,
+     "start": 59.686,
+     "end": 61.229,
      "words": [
       {
        "text": "Sondern",
-       "start": 56.548,
-       "end": 56.903
+       "start": 59.686,
+       "end": 60.077
       },
       {
        "text": "weil",
-       "start": 56.903,
-       "end": 57.133
+       "start": 60.077,
+       "end": 60.331
       },
       {
        "text": "er",
-       "start": 57.133,
-       "end": 57.279
+       "start": 60.331,
+       "end": 60.492
       },
       {
        "text": "gebraucht",
-       "start": 57.279,
-       "end": 57.717
+       "start": 60.492,
+       "end": 60.976
       },
       {
        "text": "wird.",
-       "start": 57.717,
-       "end": 57.947
+       "start": 60.976,
+       "end": 61.229
       }
      ]
     },
     {
      "show": "Dann der {y:Nächste}.",
-     "start": 58.247,
-     "end": 58.979,
+     "start": 61.718,
+     "end": 62.619,
      "words": [
       {
        "text": "Dann",
-       "start": 58.247,
-       "end": 58.465
+       "start": 61.718,
+       "end": 61.986
       },
       {
        "text": "der",
-       "start": 58.465,
-       "end": 58.643
+       "start": 61.986,
+       "end": 62.205
       },
       {
        "text": "Nächste.",
-       "start": 58.643,
-       "end": 58.979
+       "start": 62.205,
+       "end": 62.619
       }
      ]
     }
    ],
-   "end": 59.279
+   "start": 56.131,
+   "end": 62.619
   },
   {
    "id": "loop",
    "label": "TAG 32 · 06:59",
-   "start": 59.679,
    "lines": [
     {
      "show": "Und am nächsten Morgen",
-     "start": 59.679,
-     "end": 60.796,
+     "start": 63.096,
+     "end": 64.279,
      "words": [
       {
        "text": "Und",
-       "start": 59.679,
-       "end": 59.88
+       "start": 63.096,
+       "end": 63.309
       },
       {
        "text": "am",
-       "start": 59.88,
-       "end": 60.037
+       "start": 63.309,
+       "end": 63.475
       },
       {
        "text": "nächsten",
-       "start": 60.037,
-       "end": 60.461
+       "start": 63.475,
+       "end": 63.924
       },
       {
        "text": "Morgen",
-       "start": 60.461,
-       "end": 60.796
+       "start": 63.924,
+       "end": 64.279
       }
      ]
     },
     {
      "show": "klingelt {y:wieder}",
-     "start": 60.856,
-     "end": 61.651,
+     "start": 64.279,
+     "end": 65.097,
      "words": [
       {
        "text": "klingelt",
-       "start": 60.856,
-       "end": 61.3
+       "start": 64.279,
+       "end": 64.736
       },
       {
        "text": "wieder",
-       "start": 61.3,
-       "end": 61.651
+       "start": 64.736,
+       "end": 65.097
       }
      ]
     },
     {
      "show": "dein {r:Wecker}.",
-     "start": 61.711,
-     "end": 62.296,
+     "start": 65.097,
+     "end": 65.734,
      "words": [
       {
        "text": "dein",
-       "start": 61.711,
-       "end": 61.959
+       "start": 65.097,
+       "end": 65.367
       },
       {
        "text": "Wecker.",
-       "start": 61.959,
-       "end": 62.296
+       "start": 65.367,
+       "end": 65.734
       }
      ]
     }
    ],
-   "end": 62.596
+   "start": 63.096,
+   "end": 65.734
   }
  ]
 }

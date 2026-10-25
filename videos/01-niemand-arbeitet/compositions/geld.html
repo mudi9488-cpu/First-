@@ -36,13 +36,13 @@
     const tl = gsap.timeline({ paused: true });
     (function(){ const o={v:100}; const el=document.getElementById("gc-num");
       const f=(v)=>{ let s=v.toFixed(0); let [a,b]=s.split("."); a=a.replace(/\B(?=(\d{3})+(?!\d))/g,"."); return b?a+","+b:a; };
-      tl.fromTo(o,{v:100},{v:0,duration:0.9,ease:"power3.in",onUpdate:()=>{el.textContent=f(o.v);}},1.295); })();
+      tl.fromTo(o,{v:100},{v:0,duration:0.9,ease:"power3.in",onUpdate:()=>{el.textContent=f(o.v);}},1.518); })();
 
     tl.fromTo("#gd-note", {y:120, rotation:4, opacity:0}, {y:0, rotation:-3, opacity:1, duration:0.6, ease:"expo.out"}, 0);
-    tl.to("#gc-num", {color:"#FF4D5E", duration:0.1}, 2.195);
-    tl.fromTo("#gd-grey", {opacity:0}, {opacity:0.7, duration:0.6, ease:"power2.inOut"}, 1.395);
-    tl.to("#gd-note", {scale:0.86, rotation:-9, duration:0.6, ease:"power2.inOut"}, 1.395);
-    tl.fromTo("#gd-stamp span", {scale:2.2, rotation:-8, opacity:0}, {scale:1, rotation:-8, opacity:1, duration:0.22, ease:"expo.out"}, 3.569);
+    tl.to("#gc-num", {color:"#FF4D5E", duration:0.1}, 2.418);
+    tl.fromTo("#gd-grey", {opacity:0}, {opacity:0.7, duration:0.6, ease:"power2.inOut"}, 1.618);
+    tl.to("#gd-note", {scale:0.86, rotation:-9, duration:0.6, ease:"power2.inOut"}, 1.618);
+    tl.fromTo("#gd-stamp span", {scale:2.2, rotation:-8, opacity:0}, {scale:1, rotation:-8, opacity:1, duration:0.22, ease:"expo.out"}, 3.968);
 
     window.__timelines["geld"] = tl;
   </script>

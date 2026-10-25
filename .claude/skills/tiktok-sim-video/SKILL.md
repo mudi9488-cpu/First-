@@ -45,7 +45,12 @@ Projektordner: `videos/<nr>-<slug>/` (vorhandenes Video `videos/01-niemand-arbei
 2. **Stimme**: `python3 tools/tts.py videos/<projekt>` → `assets/voice.wav` + `assets/timings.json`
    (Piper, Stimme „thorsten-low“, wird beim ersten Lauf von GitHub geladen; braucht `pip install piper-tts`).
    Länge über `length_scale` in `script.json` steuern (1.0 normal, 0.9 schneller).
-   Hat der Creator eine eigene Aufnahme, diese als `assets/voice.wav` nutzen und `timings.json` daraus erzeugen.
+   **Eigene Aufnahme / ElevenLabs (bevorzugt):** Datei nach `assets/source/` kopieren und
+   `python3 tools/align.py videos/<projekt> videos/<projekt>/assets/source/<datei>.mp3` ausführen.
+   Das Tool ordnet die Pausen der Aufnahme den Satzzeichen im Skript zu (ohne Spracherkennung) und schreibt
+   `voice.wav` + `timings.json`; die Ausgabe Zeile für Zeile auf Plausibilität prüfen (Silbenrate ~4 /s).
+   Dem Creator dafür den Sprechertext geben: eine Zeile pro Beat, kurze Pause zwischen den Sätzen.
+   Danach `build.py` – alle Szenen, Zähler, Soundeffekte und Untertitel folgen automatisch dem Sprechtempo.
 3. **Szenen** in `build.py` schreiben (Vorlage kopieren). Baukasten `tools/simkit.py`:
    `scene_html`, `hud_card` (Datenkarte mit Zähler/Balken), `js_count` (Live-Zähler),
    `write_project` (erzeugt index.html, HUD-Label + Checkliste, Karaoke-Untertitel, Audio-Spuren).
@@ -59,7 +64,8 @@ Projektordner: `videos/<nr>-<slug>/` (vorhandenes Video `videos/01-niemand-arbei
 ## Bekannte Grenzen der Umgebung
 
 - Die Microsoft/Edge-Stimmen und Hugging-Face-Modelle sind im Netzwerk gesperrt → Piper „thorsten-low“
-  (Qualität „low“). Bessere Option: Creator spricht selbst ein oder liefert eine Datei (z. B. ElevenLabs).
+  (Qualität „low“) nur als Platzhalter. Standard: der Creator liefert eine ElevenLabs-Datei
+  (bisher genutzt: Stimme „Helmut – Distinctive and Authentic“), die mit `tools/align.py` eingebaut wird.
 - Keine Musik-Quelle ohne HeyGen-Login → Video wird mit Stimme + Soundeffekten geliefert; Musik/Trend-Sound
   in der TikTok-App drunterlegen (leise, ~10–15 %).
 - GSAP liegt lokal in `tools/vendor/` (CDN gesperrt); `write_project` kopiert es nach `assets/`.

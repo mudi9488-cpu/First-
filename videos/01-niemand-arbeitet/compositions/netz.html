@@ -41,15 +41,15 @@
 
     tl.fromTo("#nz-wifi", {scale:0.8, opacity:0}, {scale:1, opacity:1, duration:0.5, ease:"expo.out"}, 0);
     tl.fromTo("#nz-bat", {y:80, opacity:0}, {y:0, opacity:1, duration:0.5, ease:"expo.out"}, 0.15);
-    tl.fromTo(".nz-a", {opacity:1}, {opacity:0.12, duration:0.12, ease:"none", stagger:0.18}, 0.912);
-    tl.to(["#nz-dot", ".nz-a"], {fill:"#FF4D5E", stroke:"#FF4D5E", duration:0.1}, 1.312);
-    tl.fromTo("#nz-x span", {scale:1.6, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 1.362);
-    tl.fromTo("#nz-fill", {scaleX:1, backgroundColor:"#3DDC84"}, {scaleX:0.12, backgroundColor:"#FF4D5E", duration:2.43,
+    tl.fromTo(".nz-a", {opacity:1}, {opacity:0.12, duration:0.12, ease:"none", stagger:0.18}, 1.092);
+    tl.to(["#nz-dot", ".nz-a"], {fill:"#FF4D5E", stroke:"#FF4D5E", duration:0.1}, 1.492);
+    tl.fromTo("#nz-x span", {scale:1.6, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 1.542);
+    tl.fromTo("#nz-fill", {scaleX:1, backgroundColor:"#3DDC84"}, {scaleX:0.12, backgroundColor:"#FF4D5E", duration:3.01,
       ease:"power2.inOut"}, 0.4);
     (function(){ const o={v:100}; const el=document.getElementById("nz-num");
       const f=(v)=>{ let s=v.toFixed(0); let [a,b]=s.split("."); a=a.replace(/\B(?=(\d{3})+(?!\d))/g,"."); return b?a+","+b:a; };
-      tl.fromTo(o,{v:100},{v:12,duration:2.4330000000000003,ease:"power2.inOut",onUpdate:()=>{el.textContent=f(o.v);}},0.4); })();
-    tl.fromTo("#nz-bat", {borderColor:"#E6E9F0"}, {borderColor:"#FF4D5E", duration:0.1}, 2.833);
+      tl.fromTo(o,{v:100},{v:12,duration:3.008,ease:"power2.inOut",onUpdate:()=>{el.textContent=f(o.v);}},0.4); })();
+    tl.fromTo("#nz-bat", {borderColor:"#E6E9F0"}, {borderColor:"#FF4D5E", duration:0.1}, 3.408);
 
     window.__timelines["netz"] = tl;
   </script>

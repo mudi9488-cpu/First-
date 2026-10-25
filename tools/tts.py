@@ -16,7 +16,6 @@ import wave
 from pathlib import Path
 
 import numpy as np
-from piper import PiperVoice, SynthesisConfig
 
 VOICES_DIR = Path.home() / ".cache" / "piper-voices"
 VOICE_URL = "https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-{name}.tar.gz"
@@ -34,7 +33,8 @@ def plain(show: str) -> str:
     return re.sub(r"\{\w:([^}]*)\}", r"\1", show)
 
 
-def load_voice(name: str) -> PiperVoice:
+def load_voice(name: str):
+    from piper import PiperVoice
     d = VOICES_DIR / name
     model = d / f"de-{name}.onnx"
     if not model.exists():
@@ -68,6 +68,7 @@ def word_times(text: str, start: float, end: float):
 
 def main(project: Path):
     script = json.loads((project / "script.json").read_text())
+    from piper import SynthesisConfig
     voice = load_voice(script.get("voice", "thorsten-low"))
     sr = voice.config.sample_rate
     cfg = SynthesisConfig(length_scale=script.get("length_scale", 0.9))

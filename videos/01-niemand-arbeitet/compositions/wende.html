@@ -32,19 +32,19 @@
     const tl = gsap.timeline({ paused: true });
 
     tl.fromTo("#wd-p1 .pp", {rotation:-90, opacity:0.6}, {rotation:0, opacity:1, duration:0.6, ease:"back.out(1.4)",
-      transformOrigin:"50% 100%"}, 0.785);
-    tl.fromTo("#wd-p1", {x:0}, {x:160, duration:2.39, ease:"power1.inOut"}, 1.4849999999999999);
+      transformOrigin:"50% 100%"}, 0.787);
+    tl.fromTo("#wd-p1", {x:0}, {x:160, duration:3.07, ease:"power1.inOut"}, 1.487);
     tl.fromTo("#wd-p2 .pp", {rotation:90, opacity:0}, {rotation:0, opacity:1, duration:0.6, ease:"back.out(1.4)",
-      transformOrigin:"50% 100%"}, 4.842);
-    tl.fromTo(".wd-win", {opacity:0}, {opacity:1, duration:0.05, stagger:0.0082, ease:"none"}, 5.042);
-    tl.fromTo("#dc", {borderColor:"#2A3652"}, {borderColor:"#3DDC84", duration:0.15}, 1.185);
+      transformOrigin:"50% 100%"}, 5.874);
+    tl.fromTo(".wd-win", {opacity:0}, {opacity:1, duration:0.05, stagger:0.0082, ease:"none"}, 6.074);
+    tl.fromTo("#dc", {borderColor:"#2A3652"}, {borderColor:"#3DDC84", duration:0.15}, 1.187);
     (function(){ const el=document.getElementById("dc-num"); const o={t:0};
       const f=(n)=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,".");
-      tl.fromTo(o,{t:0},{t:6.078,duration:6.078,ease:"none",onUpdate:()=>{
+      tl.fromTo(o,{t:0},{t:6.965,duration:6.965,ease:"none",onUpdate:()=>{
         const t=o.t; let n=0;
-        if (t>=1.185) n=1;
-        if (t>=5.042) n=2;
-        if (t>=5.342) { const p=Math.min(1,(t-5.342)/0.636); n=Math.max(2,Math.round(48213*p*p*p)); }
+        if (t>=1.187) n=1;
+        if (t>=6.074) n=2;
+        if (t>=6.374) { const p=Math.min(1,(t-6.374)/0.491); n=Math.max(2,Math.round(48213*p*p*p)); }
         el.textContent=f(n); }},0); })();
 
     window.__timelines["wende"] = tl;

@@ -13,7 +13,7 @@ from simkit import C, scene_html, hud_card, js_count, load_timings, write_projec
 
 SFX_ROOT = "/root/.claude/plugins/cache/hyperframes/hyperframes/0.8.197/skills/media-use/audio/assets/sfx"
 T = load_timings(HERE)
-TOTAL = round(T["duration"] + 1.3, 2)  # kurzer Halt am Ende für den Loop
+TOTAL = round(T["duration"] + 1.6, 2)  # kurzer Halt am Ende für den Loop
 B = {b["id"]: b for b in T["beats"]}
 ORDER = [b["id"] for b in T["beats"]]
 S = {bid: (0.0 if i == 0 else B[bid]["start"]) for i, bid in enumerate(ORDER)}
@@ -98,7 +98,7 @@ def scene_loop():
     js += f"""
     tl.fromTo("#{p}-cw", {{scale:1.12, opacity:0}}, {{scale:1, opacity:1, duration:0.5, ease:"expo.out"}}, 0);
     tl.fromTo("#{p}-title div", {{opacity:0, filter:"blur(8px)"}}, {{opacity:1, filter:"blur(0px)", duration:0.15,
-      stagger:0.08, ease:"power4.out"}}, {at + 0.75});
+      stagger:0.08, ease:"power4.out"}}, {at + 0.4});
 """
     return scene_html("loop", TITLE_CSS, body, js)
 
