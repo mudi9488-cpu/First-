@@ -1,0 +1,572 @@
+{
+ "duration": 28.878,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "TAG 0 · 06:59",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "Was wäre, wenn",
+     "start": 0.15,
+     "end": 1.233,
+     "words": [
+      {
+       "text": "Was",
+       "start": 0.15,
+       "end": 0.465
+      },
+      {
+       "text": "wäre,",
+       "start": 0.465,
+       "end": 0.849
+      },
+      {
+       "text": "wenn",
+       "start": 0.849,
+       "end": 1.233
+      }
+     ]
+    },
+    {
+     "show": "morgen {y:niemand} mehr",
+     "start": 1.293,
+     "end": 2.23,
+     "words": [
+      {
+       "text": "morgen",
+       "start": 1.293,
+       "end": 1.62
+      },
+      {
+       "text": "niemand",
+       "start": 1.62,
+       "end": 1.99
+      },
+      {
+       "text": "mehr",
+       "start": 1.99,
+       "end": 2.23
+      }
+     ]
+    },
+    {
+     "show": "{r:arbeiten} geht?",
+     "start": 2.29,
+     "end": 2.994,
+     "words": [
+      {
+       "text": "arbeiten",
+       "start": 2.29,
+       "end": 2.736
+      },
+      {
+       "text": "geht?",
+       "start": 2.736,
+       "end": 2.994
+      }
+     ]
+    }
+   ],
+   "end": 3.294
+  },
+  {
+   "id": "welt",
+   "label": "TAG 1 · 07:00",
+   "start": 3.694,
+   "lines": [
+    {
+     "show": "Kein einziger Mensch.",
+     "start": 3.694,
+     "end": 4.776,
+     "words": [
+      {
+       "text": "Kein",
+       "start": 3.694,
+       "end": 3.958
+      },
+      {
+       "text": "einziger",
+       "start": 3.958,
+       "end": 4.415
+      },
+      {
+       "text": "Mensch.",
+       "start": 4.415,
+       "end": 4.776
+      }
+     ]
+    },
+    {
+     "show": "{y:3,6 Milliarden}",
+     "start": 5.076,
+     "end": 6.398,
+     "words": [
+      {
+       "text": "3,6",
+       "start": 5.076,
+       "end": 5.385
+      },
+      {
+       "text": "Milliarden",
+       "start": 5.385,
+       "end": 6.398
+      }
+     ]
+    },
+    {
+     "show": "bleiben einfach {y:liegen}.",
+     "start": 6.458,
+     "end": 7.51,
+     "words": [
+      {
+       "text": "bleiben",
+       "start": 6.458,
+       "end": 6.823
+      },
+      {
+       "text": "einfach",
+       "start": 6.823,
+       "end": 7.188
+      },
+      {
+       "text": "liegen.",
+       "start": 7.188,
+       "end": 7.51
+      }
+     ]
+    }
+   ],
+   "end": 7.81
+  },
+  {
+   "id": "verkehr",
+   "label": "TAG 1 · 08:00",
+   "start": 8.21,
+   "lines": [
+    {
+     "show": "Um acht fährt",
+     "start": 8.21,
+     "end": 8.954,
+     "words": [
+      {
+       "text": "Um",
+       "start": 8.21,
+       "end": 8.378
+      },
+      {
+       "text": "acht",
+       "start": 8.378,
+       "end": 8.642
+      },
+      {
+       "text": "fährt",
+       "start": 8.642,
+       "end": 8.954
+      }
+     ]
+    },
+    {
+     "show": "{r:kein Bus},",
+     "start": 9.014,
+     "end": 9.552,
+     "words": [
+      {
+       "text": "kein",
+       "start": 9.014,
+       "end": 9.31
+      },
+      {
+       "text": "Bus,",
+       "start": 9.31,
+       "end": 9.552
+      }
+     ]
+    },
+    {
+     "show": "{r:keine Bahn},",
+     "start": 9.712,
+     "end": 10.359,
+     "words": [
+      {
+       "text": "keine",
+       "start": 9.712,
+       "end": 10.062
+      },
+      {
+       "text": "Bahn,",
+       "start": 10.062,
+       "end": 10.359
+      }
+     ]
+    },
+    {
+     "show": "{r:kein Flugzeug}.",
+     "start": 10.519,
+     "end": 11.265,
+     "words": [
+      {
+       "text": "kein",
+       "start": 10.519,
+       "end": 10.793
+      },
+      {
+       "text": "Flugzeug.",
+       "start": 10.793,
+       "end": 11.265
+      }
+     ]
+    }
+   ],
+   "end": 11.565
+  },
+  {
+   "id": "strom",
+   "label": "TAG 1 · 18:00",
+   "start": 11.965,
+   "lines": [
+    {
+     "show": "Am Abend gehen",
+     "start": 11.965,
+     "end": 12.805,
+     "words": [
+      {
+       "text": "Am",
+       "start": 11.965,
+       "end": 12.143
+      },
+      {
+       "text": "Abend",
+       "start": 12.143,
+       "end": 12.474
+      },
+      {
+       "text": "gehen",
+       "start": 12.474,
+       "end": 12.805
+      }
+     ]
+    },
+    {
+     "show": "die {y:Lichter} aus.",
+     "start": 12.865,
+     "end": 13.621,
+     "words": [
+      {
+       "text": "die",
+       "start": 12.865,
+       "end": 13.06
+      },
+      {
+       "text": "Lichter",
+       "start": 13.06,
+       "end": 13.427
+      },
+      {
+       "text": "aus.",
+       "start": 13.427,
+       "end": 13.621
+      }
+     ]
+    },
+    {
+     "show": "Kraftwerke laufen",
+     "start": 13.921,
+     "end": 14.842,
+     "words": [
+      {
+       "text": "Kraftwerke",
+       "start": 13.921,
+       "end": 14.479
+      },
+      {
+       "text": "laufen",
+       "start": 14.479,
+       "end": 14.842
+      }
+     ]
+    },
+    {
+     "show": "nicht von {r:allein}.",
+     "start": 14.902,
+     "end": 15.693,
+     "words": [
+      {
+       "text": "nicht",
+       "start": 14.902,
+       "end": 15.18
+      },
+      {
+       "text": "von",
+       "start": 15.18,
+       "end": 15.372
+      },
+      {
+       "text": "allein.",
+       "start": 15.372,
+       "end": 15.693
+      }
+     ]
+    }
+   ],
+   "end": 15.993
+  },
+  {
+   "id": "essen",
+   "label": "TAG 3 · SUPERMARKT",
+   "start": 16.393,
+   "lines": [
+    {
+     "show": "Nach {y:drei Tagen}",
+     "start": 16.393,
+     "end": 17.297,
+     "words": [
+      {
+       "text": "Nach",
+       "start": 16.393,
+       "end": 16.677
+      },
+      {
+       "text": "drei",
+       "start": 16.677,
+       "end": 16.961
+      },
+      {
+       "text": "Tagen",
+       "start": 16.961,
+       "end": 17.297
+      }
+     ]
+    },
+    {
+     "show": "sind die Regale {r:leer}.",
+     "start": 17.357,
+     "end": 18.423,
+     "words": [
+      {
+       "text": "sind",
+       "start": 17.357,
+       "end": 17.611
+      },
+      {
+       "text": "die",
+       "start": 17.611,
+       "end": 17.82
+      },
+      {
+       "text": "Regale",
+       "start": 17.82,
+       "end": 18.168
+      },
+      {
+       "text": "leer.",
+       "start": 18.168,
+       "end": 18.423
+      }
+     ]
+    }
+   ],
+   "end": 18.723
+  },
+  {
+   "id": "wasser",
+   "label": "TAG 7 · WASSERWERK",
+   "start": 19.123,
+   "lines": [
+    {
+     "show": "Aus dem Hahn",
+     "start": 19.123,
+     "end": 19.783,
+     "words": [
+      {
+       "text": "Aus",
+       "start": 19.123,
+       "end": 19.328
+      },
+      {
+       "text": "dem",
+       "start": 19.328,
+       "end": 19.532
+      },
+      {
+       "text": "Hahn",
+       "start": 19.532,
+       "end": 19.783
+      }
+     ]
+    },
+    {
+     "show": "kommt {r:kein Wasser} mehr.",
+     "start": 19.843,
+     "end": 20.85,
+     "words": [
+      {
+       "text": "kommt",
+       "start": 19.843,
+       "end": 20.105
+      },
+      {
+       "text": "kein",
+       "start": 20.105,
+       "end": 20.327
+      },
+      {
+       "text": "Wasser",
+       "start": 20.327,
+       "end": 20.629
+      },
+      {
+       "text": "mehr.",
+       "start": 20.629,
+       "end": 20.85
+      }
+     ]
+    }
+   ],
+   "end": 21.15
+  },
+  {
+   "id": "himmel",
+   "label": "TAG 30 · STADT",
+   "start": 21.55,
+   "lines": [
+    {
+     "show": "Aber dann passiert",
+     "start": 21.55,
+     "end": 22.504,
+     "words": [
+      {
+       "text": "Aber",
+       "start": 21.55,
+       "end": 21.806
+      },
+      {
+       "text": "dann",
+       "start": 21.806,
+       "end": 22.062
+      },
+      {
+       "text": "passiert",
+       "start": 22.062,
+       "end": 22.504
+      }
+     ]
+    },
+    {
+     "show": "etwas {y:Seltsames}:",
+     "start": 22.564,
+     "end": 23.514,
+     "words": [
+      {
+       "text": "etwas",
+       "start": 22.564,
+       "end": 22.927
+      },
+      {
+       "text": "Seltsames:",
+       "start": 22.927,
+       "end": 23.514
+      }
+     ]
+    },
+    {
+     "show": "Der Himmel wird {g:klar}.",
+     "start": 23.674,
+     "end": 24.621,
+     "words": [
+      {
+       "text": "Der",
+       "start": 23.674,
+       "end": 23.859
+      },
+      {
+       "text": "Himmel",
+       "start": 23.859,
+       "end": 24.168
+      },
+      {
+       "text": "wird",
+       "start": 24.168,
+       "end": 24.395
+      },
+      {
+       "text": "klar.",
+       "start": 24.395,
+       "end": 24.621
+      }
+     ]
+    }
+   ],
+   "end": 24.921
+  },
+  {
+   "id": "loop",
+   "label": "TAG 31 · 06:59",
+   "start": 25.321,
+   "lines": [
+    {
+     "show": "Und am nächsten Morgen",
+     "start": 25.321,
+     "end": 26.449,
+     "words": [
+      {
+       "text": "Und",
+       "start": 25.321,
+       "end": 25.524
+      },
+      {
+       "text": "am",
+       "start": 25.524,
+       "end": 25.682
+      },
+      {
+       "text": "nächsten",
+       "start": 25.682,
+       "end": 26.111
+      },
+      {
+       "text": "Morgen",
+       "start": 26.111,
+       "end": 26.449
+      }
+     ]
+    },
+    {
+     "show": "klingelt {y:wieder}",
+     "start": 26.509,
+     "end": 27.36,
+     "words": [
+      {
+       "text": "klingelt",
+       "start": 26.509,
+       "end": 26.985
+      },
+      {
+       "text": "wieder",
+       "start": 26.985,
+       "end": 27.36
+      }
+     ]
+    },
+    {
+     "show": "dein {r:Wecker}.",
+     "start": 27.42,
+     "end": 27.978,
+     "words": [
+      {
+       "text": "dein",
+       "start": 27.42,
+       "end": 27.656
+      },
+      {
+       "text": "Wecker.",
+       "start": 27.656,
+       "end": 27.978
+      }
+     ]
+    }
+   ],
+   "end": 28.278
+  }
+ ]
+}

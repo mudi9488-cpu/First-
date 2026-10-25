@@ -1,0 +1,63 @@
+<template>
+  <style>
+
+#root { position:absolute; inset:0; overflow:hidden; font-family:'Inter',sans-serif; color:#fff; }
+.bg { position:absolute; inset:0; background:radial-gradient(ellipse 90% 60% at 50% 42%, #18223A 0%, #0E1524 70%); }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:0.12em; text-transform:uppercase; }
+.hudcard { position:absolute; left:50%; width:620px; margin-left:-310px; top:300px; padding:22px 32px 24px;
+  background:#121A2B; border:3px solid #2A3652; border-radius:22px; text-align:left; }
+.hudcard .lab { font-family:'JetBrains Mono',monospace; font-size:28px; letter-spacing:0.14em; color:#8A94A6; font-weight:700; text-transform:uppercase; }
+.hudcard .val { font-family:'Inter',sans-serif; font-weight:900; font-size:84px; line-height:1.05;
+  font-variant-numeric:tabular-nums; margin-top:6px; }
+.hudcard .unit { font-size:40px; color:#8A94A6; font-weight:700; margin-left:10px; }
+.bar { height:16px; border-radius:8px; background:#232D45; margin-top:14px; overflow:hidden; }
+.bar > i { display:block; height:100%; width:100%; border-radius:8px; transform-origin:left center; }
+.pill { position:absolute; font-family:'Inter',sans-serif; font-weight:900; font-size:34px; padding:10px 26px;
+  border-radius:999px; text-transform:uppercase; letter-spacing:0.02em; white-space:nowrap; }
+
+
+.title { position:absolute; left:60px; right:60px; top:300px; text-align:center; }
+.title div { font-weight:900; text-transform:uppercase; line-height:1.0; letter-spacing:-0.01em; }
+.title .t1 { font-size:56px; color:#8A94A6; }
+.title .t2 { font-size:104px; color:#F5B83D; }
+.title .t3 { font-size:104px; color:#FF4D5E; }
+.clockwrap { position:absolute; left:220px; top:660px; width:640px; height:460px; }
+
+  </style>
+  <div id="root" data-composition-id="hook" data-width="1080" data-height="1920">
+    <div class="bg"></div>
+<div class="title" id="hk-title"><div class="t1">Was wäre, wenn</div><div class="t2">niemand mehr</div><div class="t3">arbeiten geht?</div></div><div class="clockwrap" id="hk-cw">
+    <svg id="hk-clock" class="clock" viewBox="0 0 640 460" width="640" height="460">
+      <g id="hk-ringL" stroke="#F5B83D" stroke-width="12" stroke-linecap="round" fill="none" opacity="0">
+        <path d="M 52 160 Q 22 230 52 300"/><path d="M 14 130 Q -24 230 14 330"/></g>
+      <g id="hk-ringR" stroke="#F5B83D" stroke-width="12" stroke-linecap="round" fill="none" opacity="0">
+        <path d="M 588 160 Q 618 230 588 300"/><path d="M 626 130 Q 664 230 626 330"/></g>
+      <g id="hk-body">
+        <rect x="270" y="58" width="100" height="34" rx="12" fill="#F5B83D"/>
+        <rect x="90" y="84" width="460" height="290" rx="64" fill="#1E2740" stroke="#34415F" stroke-width="8"/>
+        <rect x="130" y="132" width="380" height="190" rx="26" fill="#070B14"/>
+        <text id="hk-t1" x="320" y="270" text-anchor="middle" font-family="JetBrains Mono" font-weight="700"
+          font-size="128" fill="#FF4D5E">06:59</text>
+        <text id="hk-t2" x="320" y="270" text-anchor="middle" font-family="JetBrains Mono" font-weight="700"
+          font-size="128" fill="#FF4D5E" opacity="0">07:00</text>
+        <rect x="140" y="368" width="70" height="30" rx="10" fill="#2A3652"/>
+        <rect x="430" y="368" width="70" height="30" rx="10" fill="#2A3652"/>
+      </g>
+    </svg></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    tl.set("#hk-t1", {opacity:0}, 1.62);
+    tl.set("#hk-t2", {opacity:1}, 1.62);
+    tl.fromTo("#hk-body", {rotation:0}, {rotation:4, duration:0.05, ease:"sine.inOut", yoyo:true, repeat:15,
+      transformOrigin:"50% 80%"}, 1.62);
+    tl.fromTo(["#hk-ringL","#hk-ringR"], {opacity:0, scale:0.8}, {opacity:1, scale:1.08, duration:0.16,
+      ease:"power2.out", yoyo:true, repeat:5, transformOrigin:"50% 50%"}, 1.62);
+
+    tl.fromTo("#hk-cw", {scale:1}, {scale:1.06, duration:3.4939999999999998, ease:"power1.inOut"}, 0);
+    tl.to("#hk-title", {opacity:0, filter:"blur(8px)", duration:0.2, ease:"power2.in"}, 3.444);
+
+    window.__timelines["hook"] = tl;
+  </script>
+</template>

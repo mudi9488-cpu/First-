@@ -1,0 +1,79 @@
+{
+  "title": "Was wäre, wenn niemand mehr arbeiten geht?",
+  "voice": "thorsten-low",
+  "length_scale": 1.0,
+  "beats": [
+    {
+      "id": "hook",
+      "label": "TAG 0 · 06:59",
+      "lines": [
+        { "show": "Was wäre, wenn" },
+        { "show": "morgen {y:niemand} mehr" },
+        { "show": "{r:arbeiten} geht?" }
+      ]
+    },
+    {
+      "id": "welt",
+      "label": "TAG 1 · 07:00",
+      "lines": [
+        { "show": "Kein einziger Mensch." },
+        { "show": "{y:3,6 Milliarden}", "say": "Drei Komma sechs Milliarden" },
+        { "show": "bleiben einfach {y:liegen}." }
+      ]
+    },
+    {
+      "id": "verkehr",
+      "label": "TAG 1 · 08:00",
+      "lines": [
+        { "show": "Um acht fährt" },
+        { "show": "{r:kein Bus}," },
+        { "show": "{r:keine Bahn}," },
+        { "show": "{r:kein Flugzeug}." }
+      ]
+    },
+    {
+      "id": "strom",
+      "label": "TAG 1 · 18:00",
+      "lines": [
+        { "show": "Am Abend gehen" },
+        { "show": "die {y:Lichter} aus." },
+        { "show": "Kraftwerke laufen" },
+        { "show": "nicht von {r:allein}." }
+      ]
+    },
+    {
+      "id": "essen",
+      "label": "TAG 3 · SUPERMARKT",
+      "lines": [
+        { "show": "Nach {y:drei Tagen}" },
+        { "show": "sind die Regale {r:leer}." }
+      ]
+    },
+    {
+      "id": "wasser",
+      "label": "TAG 7 · WASSERWERK",
+      "lines": [
+        { "show": "Aus dem Hahn" },
+        { "show": "kommt {r:kein Wasser} mehr." }
+      ]
+    },
+    {
+      "id": "himmel",
+      "label": "TAG 30 · STADT",
+      "lines": [
+        { "show": "Aber dann passiert" },
+        { "show": "etwas {y:Seltsames}:" },
+        { "show": "Der Himmel wird {g:klar}." }
+      ]
+    },
+    {
+      "id": "loop",
+      "label": "TAG 31 · 06:59",
+      "lines": [
+        { "show": "Und am nächsten Morgen" },
+        { "show": "klingelt {y:wieder}" },
+        { "show": "dein {r:Wecker}." }
+      ]
+    }
+  ]
+}

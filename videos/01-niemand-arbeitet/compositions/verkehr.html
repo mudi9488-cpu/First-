@@ -1,0 +1,56 @@
+<template>
+  <style>
+
+#root { position:absolute; inset:0; overflow:hidden; font-family:'Inter',sans-serif; color:#fff; }
+.bg { position:absolute; inset:0; background:radial-gradient(ellipse 90% 60% at 50% 42%, #18223A 0%, #0E1524 70%); }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:0.12em; text-transform:uppercase; }
+.hudcard { position:absolute; left:50%; width:620px; margin-left:-310px; top:300px; padding:22px 32px 24px;
+  background:#121A2B; border:3px solid #2A3652; border-radius:22px; text-align:left; }
+.hudcard .lab { font-family:'JetBrains Mono',monospace; font-size:28px; letter-spacing:0.14em; color:#8A94A6; font-weight:700; text-transform:uppercase; }
+.hudcard .val { font-family:'Inter',sans-serif; font-weight:900; font-size:84px; line-height:1.05;
+  font-variant-numeric:tabular-nums; margin-top:6px; }
+.hudcard .unit { font-size:40px; color:#8A94A6; font-weight:700; margin-left:10px; }
+.bar { height:16px; border-radius:8px; background:#232D45; margin-top:14px; overflow:hidden; }
+.bar > i { display:block; height:100%; width:100%; border-radius:8px; transform-origin:left center; }
+.pill { position:absolute; font-family:'Inter',sans-serif; font-weight:900; font-size:34px; padding:10px 26px;
+  border-radius:999px; text-transform:uppercase; letter-spacing:0.02em; white-space:nowrap; }
+
+
+#vb { position:absolute; left:50px; width:980px; top:400px; background:#0A0F1C; border:4px solid #2A3652; border-radius:28px; overflow:hidden; }
+#vb .hd { display:flex; justify-content:space-between; padding:28px 36px; background:#141C2E; border-bottom:4px solid #2A3652;
+  font-family:'JetBrains Mono',monospace; font-weight:700; font-size:36px; letter-spacing:0.14em; }
+.row { position:relative; display:flex; align-items:center; height:150px; padding:0 30px; border-bottom:3px solid #1A2338; }
+.row:last-child { border-bottom:none; }
+.row .fl { position:absolute; inset:0; background:#FF4D5E; opacity:0; }
+.row .tm { position:relative; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:38px; width:150px; }
+.row .ln { position:relative; font-weight:900; font-size:30px; color:#0A0F1C; padding:8px 14px; border-radius:10px; width:150px; text-align:center; }
+.row .ds { position:relative; font-weight:700; font-size:40px; margin-left:26px; flex:1; }
+.row .st { position:relative; width:250px; height:64px; perspective:400px; }
+.row .st span { position:absolute; right:0; top:0; height:64px; line-height:64px; font-family:'JetBrains Mono',monospace; font-weight:700;
+  font-size:30px; letter-spacing:0.06em; padding:0 16px; border-radius:10px; white-space:nowrap; }
+.row .ok { color:#3DDC84; }
+.row .no { color:#fff; background:#FF4D5E; opacity:0; }
+
+  </style>
+  <div id="root" data-composition-id="verkehr" data-width="1080" data-height="1920">
+    <div class="bg"></div>
+<div id="vb"><div class="hd"><span style="color:#F5B83D">ABFAHRT</span><span>08:00</span></div><div class="row" id="vr0"><div class="fl"></div><div class="tm">08:00</div><div class="ln" style="background:#3CC6BE">BUS 42</div><div class="ds">Hauptbahnhof</div><div class="st"><span class="ok">PÜNKTLICH</span><span class="no">FÄLLT AUS</span></div></div><div class="row" id="vr1"><div class="fl"></div><div class="tm">08:02</div><div class="ln" style="background:#3DDC84">S1</div><div class="ds">Flughafen</div><div class="st"><span class="ok">PÜNKTLICH</span><span class="no">FÄLLT AUS</span></div></div><div class="row" id="vr2"><div class="fl"></div><div class="tm">08:04</div><div class="ln" style="background:#DDE3EE">ICE 573</div><div class="ds">Berlin Hbf</div><div class="st"><span class="ok">PÜNKTLICH</span><span class="no">FÄLLT AUS</span></div></div><div class="row" id="vr3"><div class="fl"></div><div class="tm">08:10</div><div class="ln" style="background:#4F7CFF">LH 400</div><div class="ds">New York</div><div class="st"><span class="ok">PÜNKTLICH</span><span class="no">FÄLLT AUS</span></div></div></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#vb", {y:120, opacity:0}, {y:0, opacity:1, duration:0.5, ease:"expo.out"}, 0);
+    tl.fromTo("#vr0 .ok", {rotationX:0, opacity:1}, {rotationX:90, opacity:0, duration:0.1, ease:"power2.in"}, 1.1);
+    tl.fromTo("#vr0 .no", {rotationX:-90, opacity:0}, {rotationX:0, opacity:1, duration:0.2, ease:"expo.out"}, 1.2000000000000002);
+    tl.fromTo("#vr0 .fl", {opacity:0.45}, {opacity:0, duration:0.4, ease:"power2.out"}, 1.2000000000000002);
+    tl.fromTo("#vr1 .ok", {rotationX:0, opacity:1}, {rotationX:90, opacity:0, duration:0.1, ease:"power2.in"}, 1.852);
+    tl.fromTo("#vr1 .no", {rotationX:-90, opacity:0}, {rotationX:0, opacity:1, duration:0.2, ease:"expo.out"}, 1.9520000000000002);
+    tl.fromTo("#vr1 .fl", {opacity:0.45}, {opacity:0, duration:0.4, ease:"power2.out"}, 1.9520000000000002);
+    tl.fromTo("#vr2 .ok", {rotationX:0, opacity:1}, {rotationX:90, opacity:0, duration:0.1, ease:"power2.in"}, 2.1020000000000003);
+    tl.fromTo("#vr2 .no", {rotationX:-90, opacity:0}, {rotationX:0, opacity:1, duration:0.2, ease:"expo.out"}, 2.2020000000000004);
+    tl.fromTo("#vr2 .fl", {opacity:0.45}, {opacity:0, duration:0.4, ease:"power2.out"}, 2.2020000000000004);
+    tl.fromTo("#vr3 .ok", {rotationX:0, opacity:1}, {rotationX:90, opacity:0, duration:0.1, ease:"power2.in"}, 2.583);
+    tl.fromTo("#vr3 .no", {rotationX:-90, opacity:0}, {rotationX:0, opacity:1, duration:0.2, ease:"expo.out"}, 2.6830000000000003);
+    tl.fromTo("#vr3 .fl", {opacity:0.45}, {opacity:0, duration:0.4, ease:"power2.out"}, 2.6830000000000003);
+    window.__timelines["verkehr"] = tl;
+  </script>
+</template>

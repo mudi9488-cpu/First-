@@ -19,7 +19,7 @@ Abgeleitet aus 3 Referenzvideos (alle 576×1024, 9:16, 30 fps, 77–112 s, mit V
 4. **Twist:** Erwartung wird gebrochen („Rennen ist besser?“ → „31 mL > 14 mL – Rennen schlechter?“ → Gleichstand → Geher wird doch nasser).
 5. **Auflösung / Fazit:** Endstand-Karte, „Unterm Strich“-Vergleich, Prozentzahl.
 6. **Cliffhanger bzw. Loop:** Letzter Satz endet offen („Drei leise Schläge.“) oder der Anfangstitel kommt zurück (C), damit das Video loopt.
-7. **Outro:** ~2 s TikTok-Logo + Suchleiste mit @Handle.
+7. *(Das TikTok-Logo mit Suchleiste am Ende und das Wasserzeichen in den Referenzen fügt TikTok beim Download selbst hinzu – nicht nachbauen.)*
 
 ## Visuelle Sprache
 
@@ -62,4 +62,3 @@ Abgeleitet aus 3 Referenzvideos (alle 576×1024, 9:16, 30 fps, 77–112 s, mit V
 ## Technische Specs für die Produktion
 - 1080×1920 (9:16), 30 fps, H.264 + AAC, 60–110 s.
 - Safe-Zones: oben ~8 %, unten ~20 % und rechts ~15 % frei halten (TikTok-UI), Captions bei ~65–70 % Höhe.
-- Outro mit Logo + @Handle (2 s).
