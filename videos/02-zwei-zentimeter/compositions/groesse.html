@@ -1,0 +1,110 @@
+<template>
+  <style>
+
+#root { position:absolute; inset:0; overflow:hidden; font-family:'Inter',sans-serif; color:#fff; }
+.bg { position:absolute; inset:0; background:radial-gradient(ellipse 90% 60% at 50% 42%, #18223A 0%, #0E1524 70%); }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:0.12em; text-transform:uppercase; }
+.hudcard { position:absolute; left:50%; width:620px; margin-left:-310px; top:300px; padding:22px 32px 24px;
+  background:#121A2B; border:3px solid #2A3652; border-radius:22px; text-align:left; }
+.hudcard .lab { font-family:'JetBrains Mono',monospace; font-size:28px; letter-spacing:0.14em; color:#8A94A6; font-weight:700; text-transform:uppercase; }
+.hudcard .val { font-family:'Inter',sans-serif; font-weight:900; font-size:84px; line-height:1.05;
+  font-variant-numeric:tabular-nums; margin-top:6px; }
+.hudcard .unit { font-size:40px; color:#8A94A6; font-weight:700; margin-left:10px; }
+.bar { height:16px; border-radius:8px; background:#232D45; margin-top:14px; overflow:hidden; }
+.bar > i { display:block; height:100%; width:100%; border-radius:8px; transform-origin:left center; }
+.pill { position:absolute; font-family:'Inter',sans-serif; font-weight:900; font-size:34px; padding:10px 26px;
+  border-radius:999px; text-transform:uppercase; letter-spacing:0.02em; white-space:nowrap; }
+
+
+.du-tag span { display:inline-block; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px; letter-spacing:0.14em;
+  color:#F5B83D; border:3px solid #F5B83D; border-radius:10px; padding:2px 14px; background:rgba(14,21,36,0.85); }
+.pill { z-index:4; }
+.hudcard { z-index:4; }
+.rt { position:absolute; left:0; right:0; top:560px; text-align:center; z-index:5; }
+.rt div { display:inline-block; font-weight:900; font-size:150px; color:#F5B83D; line-height:1; padding-bottom:16px;
+  border-bottom:10px solid #F5B83D; }
+
+  </style>
+  <div id="root" data-composition-id="groesse" data-width="1080" data-height="1920">
+    <div class="bg"></div>
+<div class="hudcard" id="gc" style="top:290px;width:560px;margin-left:-280px"><div class="lab">Deine Größe</div><div class="val" style="color:#F5B83D;font-size:72px"><span id="gc-num">180</span><span class="unit">cm</span></div></div>
+    <div style="position:absolute;left:0;right:0;top:1110px;bottom:0;background:#3A2B22"></div><div style="position:absolute;left:0;right:0;top:1110px;height:10px;background:#5A4434"></div>
+    <div id="gr-a" style="position:absolute;inset:0">
+      <svg id="gr-ruler" viewBox="0 0 140 720" width="140" height="720" style="position:absolute;left:140px;top:400px">
+        <rect x="0" y="0" width="140" height="720" rx="10" fill="#F5B83D"/><g transform="translate(0,20)"><rect x="0" y="0" width="60" height="5" fill="#3B2A10"/><rect x="0" y="34" width="34" height="5" fill="#3B2A10"/><rect x="0" y="68" width="34" height="5" fill="#3B2A10"/><rect x="0" y="102" width="34" height="5" fill="#3B2A10"/><rect x="0" y="136" width="34" height="5" fill="#3B2A10"/><rect x="0" y="170" width="60" height="5" fill="#3B2A10"/><rect x="0" y="204" width="34" height="5" fill="#3B2A10"/><rect x="0" y="238" width="34" height="5" fill="#3B2A10"/><rect x="0" y="272" width="34" height="5" fill="#3B2A10"/><rect x="0" y="306" width="34" height="5" fill="#3B2A10"/><rect x="0" y="340" width="60" height="5" fill="#3B2A10"/><rect x="0" y="374" width="34" height="5" fill="#3B2A10"/><rect x="0" y="408" width="34" height="5" fill="#3B2A10"/><rect x="0" y="442" width="34" height="5" fill="#3B2A10"/><rect x="0" y="476" width="34" height="5" fill="#3B2A10"/><rect x="0" y="510" width="60" height="5" fill="#3B2A10"/><rect x="0" y="544" width="34" height="5" fill="#3B2A10"/><rect x="0" y="578" width="34" height="5" fill="#3B2A10"/><rect x="0" y="612" width="34" height="5" fill="#3B2A10"/><rect x="0" y="646" width="34" height="5" fill="#3B2A10"/><rect x="0" y="680" width="60" height="5" fill="#3B2A10"/><text x="70" y="14" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#3B2A10">2</text><text x="70" y="354" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#3B2A10">1</text></g>
+      </svg>
+      <div id="gr-du" class="du" style="position:absolute;left:335px;top:770px;width:170px;height:340px">
+      <svg viewBox="0 0 200 400" width="170" height="340" style="overflow:visible">
+        <g class="a-d" opacity="1"><rect x="16" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="282" r="16" fill="#F2C9A0"/><circle cx="168" cy="282" r="16" fill="#F2C9A0"/></g>
+        <g class="a-u" opacity="0"><rect x="16" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="58" r="16" fill="#F2C9A0"/><circle cx="168" cy="58" r="16" fill="#F2C9A0"/></g>
+        <rect x="56" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="108" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="48" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="104" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="38" y="158" width="124" height="134" rx="42" fill="#3CC6BE"/>
+        <circle cx="100" cy="94" r="70" fill="#F2C9A0"/>
+        <path d="M 28 98 Q 26 18 100 20 Q 174 18 172 98 Q 156 52 100 56 Q 46 52 28 98 Z" fill="#5B3A29"/>
+        <circle cx="76" cy="100" r="8" fill="#1A1A1A"/><circle cx="124" cy="100" r="8" fill="#1A1A1A"/>
+        <path class="m-n" opacity="1" d="M 84 130 Q 100 140 116 130" stroke="#1A1A1A" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <ellipse class="m-s" opacity="0" cx="100" cy="134" rx="12" ry="15" fill="#1A1A1A"/>
+      </svg></div>
+      <svg id="gr-bear" viewBox="0 0 240 340" width="240" height="340" style="position:absolute;left:640px;top:770px">
+        <g fill="#FF4D5E" opacity="0.88">
+          <circle cx="120" cy="80" r="70"/><circle cx="62" cy="26" r="28"/><circle cx="178" cy="26" r="28"/>
+          <ellipse cx="120" cy="220" rx="96" ry="110"/><ellipse cx="36" cy="190" rx="34" ry="48"/><ellipse cx="204" cy="190" rx="34" ry="48"/>
+          <ellipse cx="70" cy="318" rx="44" ry="30"/><ellipse cx="170" cy="318" rx="44" ry="30"/></g>
+        <ellipse cx="88" cy="60" rx="18" ry="26" fill="#fff" opacity="0.35"/>
+      </svg>
+    </div>
+    <div id="gr-b" style="position:absolute;inset:0;opacity:0">
+      <svg viewBox="0 0 1080 1920" width="1080" height="1920" style="position:absolute;left:0;top:0">
+        <rect x="300" y="-40" width="560" height="980" fill="#6B5DC0"/>
+        <rect x="300" y="900" width="560" height="60" fill="#5C4FA8"/>
+        <rect x="330" y="960" width="70" height="150" fill="#7A5638"/><rect x="760" y="960" width="70" height="150" fill="#7A5638"/>
+        <g stroke="#F5B83D" stroke-width="6"><line x1="230" y1="500" x2="230" y2="1100"/><line x1="200" y1="1100" x2="260" y2="1100"/>
+          <path d="M 210 530 L 230 500 L 250 530" fill="none"/></g>
+      </svg>
+      <div id="gr-du2" class="du" style="position:absolute;left:542px;top:1040px;width:35px;height:70px">
+      <svg viewBox="0 0 200 400" width="35" height="70" style="overflow:visible">
+        <g class="a-d" opacity="1"><rect x="16" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="282" r="16" fill="#F2C9A0"/><circle cx="168" cy="282" r="16" fill="#F2C9A0"/></g>
+        <g class="a-u" opacity="0"><rect x="16" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="58" r="16" fill="#F2C9A0"/><circle cx="168" cy="58" r="16" fill="#F2C9A0"/></g>
+        <rect x="56" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="108" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="48" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="104" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="38" y="158" width="124" height="134" rx="42" fill="#3CC6BE"/>
+        <circle cx="100" cy="94" r="70" fill="#F2C9A0"/>
+        <path d="M 28 98 Q 26 18 100 20 Q 174 18 172 98 Q 156 52 100 56 Q 46 52 28 98 Z" fill="#5B3A29"/>
+        <circle cx="76" cy="100" r="8" fill="#1A1A1A"/><circle cx="124" cy="100" r="8" fill="#1A1A1A"/>
+        <path class="m-n" opacity="1" d="M 84 130 Q 100 140 116 130" stroke="#1A1A1A" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <ellipse class="m-s" opacity="0" cx="100" cy="134" rx="12" ry="15" fill="#1A1A1A"/>
+      </svg></div>
+      <div class="pill" id="gr-p" style="left:0;right:0;margin:0 auto;width:max-content;top:560px;background:#F5B83D;color:#0A0F1C;">FÜR DICH: 45 m · 15 STOCKWERKE</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    (function(){ const o={v:180}; const el=document.getElementById("gc-num");
+      const f=(v)=>{ let s=v.toFixed(0); let [a,b]=s.split("."); a=a.replace(/\B(?=(\d{3})+(?!\d))/g,"."); return b?a+","+b:a; };
+      tl.fromTo(o,{v:180},{v:2,duration:1.294,ease:"power3.in",onUpdate:()=>{el.textContent=f(o.v);}},0.752); })();
+
+    tl.fromTo("#gr-ruler", {y:80, opacity:0}, {y:0, opacity:1, duration:0.5, ease:"expo.out"}, 0.1);
+    tl.fromTo("#gr-du", {scale:1}, {scale:0.33, duration:1.294, ease:"power3.in", transformOrigin:"50% 100%"}, 0.752);
+    tl.to("#gc-num", {color:"#FF4D5E", duration:0.1}, 2.046);
+    tl.fromTo("#gr-bear", {y:-500, opacity:0}, {y:0, opacity:1, duration:0.5, ease:"bounce.out"}, 3.3080000000000003);
+    tl.to("#gr-a", {opacity:0, duration:0.2}, 4.367);
+    tl.fromTo("#gr-b", {opacity:0}, {opacity:1, duration:0.2}, 4.367);
+    tl.fromTo("#gr-b svg", {y:200}, {y:0, duration:0.8, ease:"expo.out"}, 4.367);
+    tl.fromTo("#gr-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 4.967);
+
+    window.__timelines["groesse"] = tl;
+  </script>
+</template>

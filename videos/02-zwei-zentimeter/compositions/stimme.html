@@ -1,0 +1,90 @@
+<template>
+  <style>
+
+#root { position:absolute; inset:0; overflow:hidden; font-family:'Inter',sans-serif; color:#fff; }
+.bg { position:absolute; inset:0; background:radial-gradient(ellipse 90% 60% at 50% 42%, #18223A 0%, #0E1524 70%); }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:0.12em; text-transform:uppercase; }
+.hudcard { position:absolute; left:50%; width:620px; margin-left:-310px; top:300px; padding:22px 32px 24px;
+  background:#121A2B; border:3px solid #2A3652; border-radius:22px; text-align:left; }
+.hudcard .lab { font-family:'JetBrains Mono',monospace; font-size:28px; letter-spacing:0.14em; color:#8A94A6; font-weight:700; text-transform:uppercase; }
+.hudcard .val { font-family:'Inter',sans-serif; font-weight:900; font-size:84px; line-height:1.05;
+  font-variant-numeric:tabular-nums; margin-top:6px; }
+.hudcard .unit { font-size:40px; color:#8A94A6; font-weight:700; margin-left:10px; }
+.bar { height:16px; border-radius:8px; background:#232D45; margin-top:14px; overflow:hidden; }
+.bar > i { display:block; height:100%; width:100%; border-radius:8px; transform-origin:left center; }
+.pill { position:absolute; font-family:'Inter',sans-serif; font-weight:900; font-size:34px; padding:10px 26px;
+  border-radius:999px; text-transform:uppercase; letter-spacing:0.02em; white-space:nowrap; }
+
+
+.du-tag span { display:inline-block; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px; letter-spacing:0.14em;
+  color:#F5B83D; border:3px solid #F5B83D; border-radius:10px; padding:2px 14px; background:rgba(14,21,36,0.85); }
+.pill { z-index:4; }
+.hudcard { z-index:4; }
+.rt { position:absolute; left:0; right:0; top:560px; text-align:center; z-index:5; }
+.rt div { display:inline-block; font-weight:900; font-size:150px; color:#F5B83D; line-height:1; padding-bottom:16px;
+  border-bottom:10px solid #F5B83D; }
+
+  </style>
+  <div id="root" data-composition-id="stimme" data-width="1080" data-height="1920">
+    <div class="bg"></div>
+<div class="rt" id="st-rt"><div>REGEL 5</div></div>
+    <div style="position:absolute;left:0;right:0;top:1110px;bottom:0;background:#3A2B22"></div><div style="position:absolute;left:0;right:0;top:1110px;height:10px;background:#5A4434"></div>
+    <div id="st-world" style="position:absolute;inset:0">
+      <div id="st-shoe" style="position:absolute;left:420px;top:-480px;width:760px;height:420px">
+        <svg viewBox="0 0 760 420" width="760" height="420"><path d="M 40 300 Q 20 120 200 100 L 560 60 Q 740 60 740 260 L 740 340 L 40 340 Z" fill="#E6E9F0"/>
+          <rect x="30" y="330" width="720" height="70" rx="30" fill="#2A2F3A"/><path d="M 200 140 L 420 120" stroke="#B8C0D0" stroke-width="16"/></svg></div>
+      <div id="st-du" class="du" style="position:absolute;left:260px;top:830px;width:140px;height:280px"><div class="du-tag" style="position:absolute;left:0;right:0;top:-58px;text-align:center"><span>DU</span></div>
+      <svg viewBox="0 0 200 400" width="140" height="280" style="overflow:visible">
+        <g class="a-d" opacity="1"><rect x="16" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="282" r="16" fill="#F2C9A0"/><circle cx="168" cy="282" r="16" fill="#F2C9A0"/></g>
+        <g class="a-u" opacity="0"><rect x="16" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="58" r="16" fill="#F2C9A0"/><circle cx="168" cy="58" r="16" fill="#F2C9A0"/></g>
+        <rect x="56" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="108" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="48" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="104" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="38" y="158" width="124" height="134" rx="42" fill="#3CC6BE"/>
+        <circle cx="100" cy="94" r="70" fill="#F2C9A0"/>
+        <path d="M 28 98 Q 26 18 100 20 Q 174 18 172 98 Q 156 52 100 56 Q 46 52 28 98 Z" fill="#5B3A29"/>
+        <circle cx="76" cy="100" r="8" fill="#1A1A1A"/><circle cx="124" cy="100" r="8" fill="#1A1A1A"/>
+        <path class="m-n" opacity="1" d="M 84 130 Q 100 140 116 130" stroke="#1A1A1A" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <ellipse class="m-s" opacity="0" cx="100" cy="134" rx="12" ry="15" fill="#1A1A1A"/>
+      </svg></div>
+      <svg id="st-rings" viewBox="0 0 400 400" width="400" height="400" style="position:absolute;left:330px;top:720px" fill="none" stroke="#F5B83D" stroke-width="8" stroke-linecap="round">
+        <path class="st-r" d="M 60 120 Q 110 200 60 280"/><path class="st-r" d="M 120 80 Q 190 200 120 320"/><path class="st-r" d="M 180 40 Q 270 200 180 360"/>
+      </svg>
+    </div>
+    <div class="hudcard" id="vc" style="top:290px;width:560px;margin-left:-280px">
+      <div class="lab">Deine Stimme</div>
+      <svg viewBox="0 0 480 80" width="480" height="80" style="display:block;margin-top:10px">
+        <polyline id="vc-lo" points="0,40.0 4,44.7 8,49.3 12,53.6 16,57.6 20,61.2 24,64.3 28,66.7 32,68.5 36,69.6 40,70.0 44,69.6 48,68.5 52,66.7 56,64.3 60,61.2 64,57.6 68,53.6 72,49.3 76,44.7 80,40.0 84,35.3 88,30.7 92,26.4 96,22.4 100,18.8 104,15.7 108,13.3 112,11.5 116,10.4 120,10.0 124,10.4 128,11.5 132,13.3 136,15.7 140,18.8 144,22.4 148,26.4 152,30.7 156,35.3 160,40.0 164,44.7 168,49.3 172,53.6 176,57.6 180,61.2 184,64.3 188,66.7 192,68.5 196,69.6 200,70.0 204,69.6 208,68.5 212,66.7 216,64.3 220,61.2 224,57.6 228,53.6 232,49.3 236,44.7 240,40.0 244,35.3 248,30.7 252,26.4 256,22.4 260,18.8 264,15.7 268,13.3 272,11.5 276,10.4 280,10.0 284,10.4 288,11.5 292,13.3 296,15.7 300,18.8 304,22.4 308,26.4 312,30.7 316,35.3 320,40.0 324,44.7 328,49.3 332,53.6 336,57.6 340,61.2 344,64.3 348,66.7 352,68.5 356,69.6 360,70.0 364,69.6 368,68.5 372,66.7 376,64.3 380,61.2 384,57.6 388,53.6 392,49.3 396,44.7 400,40.0 404,35.3 408,30.7 412,26.4 416,22.4 420,18.8 424,15.7 428,13.3 432,11.5 436,10.4 440,10.0 444,10.4 448,11.5 452,13.3 456,15.7 460,18.8 464,22.4 468,26.4 472,30.7 476,35.3 480,40.0" fill="none" stroke="#F5B83D" stroke-width="5"/>
+        <polyline id="vc-hi" points="0,40.0 4,67.4 8,62.3 12,30.7 16,10.2 20,25.0 24,57.6 28,69.3 32,46.2 36,15.7 40,14.0 44,43.1 48,68.5 52,60.1 56,27.8 60,10.0 64,27.8 68,60.1 72,68.5 76,43.2 80,14.0 84,15.7 88,46.2 92,69.3 96,57.7 100,25.0 104,10.2 108,30.7 112,62.3 116,67.4 120,40.0 124,12.6 128,17.7 132,49.2 136,69.8 140,55.0 144,22.4 148,10.6 152,33.7 156,64.2 160,66.0 164,36.9 168,11.5 172,19.9 176,52.2 180,70.0 184,52.2 188,20.0 192,11.5 196,36.8 200,66.0 204,64.3 208,33.8 212,10.7 216,22.3 220,55.0 224,69.8 228,49.3 232,17.7 236,12.6 240,39.9 244,67.4 248,62.3 252,30.8 256,10.2 260,24.9 264,57.6 268,69.4 272,46.3 276,15.8 280,14.0 284,43.1 288,68.5 292,60.1 296,27.9 300,10.0 304,27.7 308,60.0 312,68.6 316,43.2 320,14.1 324,15.7 328,46.2 332,69.3 336,57.7 340,25.1 344,10.2 348,30.6 352,62.2 356,67.4 360,40.1 364,12.6 368,17.6 372,49.2 376,69.8 380,55.1 384,22.4 388,10.6 392,33.7 396,64.2 400,66.0 404,37.0 408,11.5 412,19.8 416,52.1 420,70.0 424,52.3 428,20.0 432,11.4 436,36.8 440,65.9 444,64.3 448,33.9 452,10.7 456,22.3 460,54.9 464,69.8 468,49.4 472,17.8 476,12.5 480,39.9" fill="none" stroke="#FF4D5E" stroke-width="4" opacity="0"/>
+      </svg>
+    </div>
+    <div class="pill" id="st-p" style="left:0;right:0;margin:0 auto;width:max-content;top:520px;background:#FF4D5E;color:#0A0F1C;color:#fff">NIEMAND HÖRT DICH</div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#st-rt div", {scale:1.25, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 0.02);
+    tl.to("#st-rt div", {opacity:0, y:-40, filter:"blur(8px)", duration:0.22, ease:"power2.in"}, 0.787);
+
+    tl.fromTo("#st-world", {opacity:0}, {opacity:1, duration:0.3}, 0.787);
+    tl.fromTo("#vc", {y:-30, opacity:0}, {y:0, opacity:1, duration:0.4, ease:"expo.out"}, 0.887);
+    tl.set("#st-du .m-n", {opacity:0}, 1.087);
+    tl.set("#st-du .m-s", {opacity:1}, 1.087);
+    tl.set("#st-du .a-d", {opacity:0}, 1.087);
+    tl.set("#st-du .a-u", {opacity:1}, 1.087);
+    tl.fromTo(".st-r", {opacity:0}, {opacity:1, duration:0.15, stagger:0.12, yoyo:true, repeat:5}, 1.087);
+    tl.set("#vc-lo", {opacity:0}, 3.574);
+    tl.set("#vc-hi", {opacity:1}, 3.574);
+    tl.to("#vc-hi", {scaleY:0.15, duration:0.4, ease:"power2.in", transformOrigin:"50% 50%"}, 4.222);
+    tl.to("#st-rings", {scale:0.4, opacity:0.3, duration:0.4, transformOrigin:"0% 50%"}, 4.222);
+    tl.fromTo("#st-shoe", {y:0, x:0}, {y:1130, x:-120, duration:0.6, ease:"power3.in"}, 4.9670000000000005);
+    tl.to("#st-shoe", {y:-300, x:-700, duration:0.9, ease:"power2.inOut"}, 5.867);
+    tl.fromTo("#st-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 5.267);
+
+    window.__timelines["stimme"] = tl;
+  </script>
+</template>

@@ -1,0 +1,79 @@
+<template>
+  <style>
+
+#root { position:absolute; inset:0; overflow:hidden; font-family:'Inter',sans-serif; color:#fff; }
+.bg { position:absolute; inset:0; background:radial-gradient(ellipse 90% 60% at 50% 42%, #18223A 0%, #0E1524 70%); }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:0.12em; text-transform:uppercase; }
+.hudcard { position:absolute; left:50%; width:620px; margin-left:-310px; top:300px; padding:22px 32px 24px;
+  background:#121A2B; border:3px solid #2A3652; border-radius:22px; text-align:left; }
+.hudcard .lab { font-family:'JetBrains Mono',monospace; font-size:28px; letter-spacing:0.14em; color:#8A94A6; font-weight:700; text-transform:uppercase; }
+.hudcard .val { font-family:'Inter',sans-serif; font-weight:900; font-size:84px; line-height:1.05;
+  font-variant-numeric:tabular-nums; margin-top:6px; }
+.hudcard .unit { font-size:40px; color:#8A94A6; font-weight:700; margin-left:10px; }
+.bar { height:16px; border-radius:8px; background:#232D45; margin-top:14px; overflow:hidden; }
+.bar > i { display:block; height:100%; width:100%; border-radius:8px; transform-origin:left center; }
+.pill { position:absolute; font-family:'Inter',sans-serif; font-weight:900; font-size:34px; padding:10px 26px;
+  border-radius:999px; text-transform:uppercase; letter-spacing:0.02em; white-space:nowrap; }
+
+
+.du-tag span { display:inline-block; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px; letter-spacing:0.14em;
+  color:#F5B83D; border:3px solid #F5B83D; border-radius:10px; padding:2px 14px; background:rgba(14,21,36,0.85); }
+.pill { z-index:4; }
+.hudcard { z-index:4; }
+.rt { position:absolute; left:0; right:0; top:560px; text-align:center; z-index:5; }
+.rt div { display:inline-block; font-weight:900; font-size:150px; color:#F5B83D; line-height:1; padding-bottom:16px;
+  border-bottom:10px solid #F5B83D; }
+
+  </style>
+  <div id="root" data-composition-id="spinne" data-width="1080" data-height="1920">
+    <div class="bg"></div>
+<div class="rt" id="sp-rt"><div>REGEL 4</div></div>
+    <div style="position:absolute;left:0;right:0;top:1110px;bottom:0;background:#3A2B22"></div><div style="position:absolute;left:0;right:0;top:1110px;height:10px;background:#5A4434"></div>
+    <div id="sp-world" style="position:absolute;inset:0">
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 70% 40%,#1E2238 0%,#0A0D16 80%)"></div>
+      <div id="sp-spider" style="position:absolute;left:400px;top:420px;width:600px;height:600px">
+        <svg viewBox="-350 -350 700 700" width="600" height="600" style="overflow:visible">
+          <g><path class="sp-leg" d="M 0 0 Q -140 -260 -260 -220" stroke="#0B0F18" stroke-width="26" fill="none" stroke-linecap="round"/><path class="sp-leg" d="M 0 0 Q -200 -160 -330 -60" stroke="#0B0F18" stroke-width="26" fill="none" stroke-linecap="round"/><path class="sp-leg" d="M 0 0 Q -220 -20 -330 120" stroke="#0B0F18" stroke-width="26" fill="none" stroke-linecap="round"/><path class="sp-leg" d="M 0 0 Q -170 140 -260 300" stroke="#0B0F18" stroke-width="26" fill="none" stroke-linecap="round"/><path class="sp-leg" d="M 0 0 Q 140 -260 260 -220" stroke="#0B0F18" stroke-width="26" fill="none" stroke-linecap="round"/><path class="sp-leg" d="M 0 0 Q 200 -160 330 -60" stroke="#0B0F18" stroke-width="26" fill="none" stroke-linecap="round"/><path class="sp-leg" d="M 0 0 Q 220 -20 330 120" stroke="#0B0F18" stroke-width="26" fill="none" stroke-linecap="round"/><path class="sp-leg" d="M 0 0 Q 170 140 260 300" stroke="#0B0F18" stroke-width="26" fill="none" stroke-linecap="round"/></g>
+          <ellipse cx="0" cy="110" rx="150" ry="180" fill="#151A26"/><circle cx="0" cy="-90" r="110" fill="#1B2130"/>
+          <g fill="#FF4D5E"><circle cx="-40" cy="-110" r="18"/><circle cx="40" cy="-110" r="18"/><circle cx="-80" cy="-80" r="10"/><circle cx="80" cy="-80" r="10"/></g>
+        </svg></div>
+      <div id="sp-du" class="du" style="position:absolute;left:160px;top:870px;width:120px;height:240px"><div class="du-tag" style="position:absolute;left:0;right:0;top:-58px;text-align:center"><span>DU</span></div>
+      <svg viewBox="0 0 200 400" width="120" height="240" style="overflow:visible">
+        <g class="a-d" opacity="1"><rect x="16" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="282" r="16" fill="#F2C9A0"/><circle cx="168" cy="282" r="16" fill="#F2C9A0"/></g>
+        <g class="a-u" opacity="0"><rect x="16" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="58" r="16" fill="#F2C9A0"/><circle cx="168" cy="58" r="16" fill="#F2C9A0"/></g>
+        <rect x="56" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="108" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="48" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="104" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="38" y="158" width="124" height="134" rx="42" fill="#3CC6BE"/>
+        <circle cx="100" cy="94" r="70" fill="#F2C9A0"/>
+        <path d="M 28 98 Q 26 18 100 20 Q 174 18 172 98 Q 156 52 100 56 Q 46 52 28 98 Z" fill="#5B3A29"/>
+        <circle cx="76" cy="100" r="8" fill="#1A1A1A"/><circle cx="124" cy="100" r="8" fill="#1A1A1A"/>
+        <path class="m-n" opacity="0" d="M 84 130 Q 100 140 116 130" stroke="#1A1A1A" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <ellipse class="m-s" opacity="1" cx="100" cy="134" rx="12" ry="15" fill="#1A1A1A"/>
+      </svg></div>
+    </div>
+    <div class="hudcard" id="sc" style="top:290px;width:560px;margin-left:-280px"><div class="lab">Spinne für dich</div><div class="val" style="color:#FF4D5E;font-size:72px"><span id="sc-num">6</span><span class="unit">Meter</span></div></div>
+    <div class="pill" id="sp-p" style="left:0;right:0;margin:0 auto;width:max-content;top:520px;background:#FF4D5E;color:#0A0F1C;color:#fff">SO GROSS WIE EIN AUTO</div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#sp-rt div", {scale:1.25, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 0.02);
+    tl.to("#sp-rt div", {opacity:0, y:-40, filter:"blur(8px)", duration:0.22, ease:"power2.in"}, 0.782);
+
+    tl.fromTo("#sp-world", {opacity:0}, {opacity:1, duration:0.3}, 0.782);
+    tl.fromTo("#sc", {y:-30, opacity:0}, {y:0, opacity:1, duration:0.4, ease:"expo.out"}, 0.882);
+    tl.fromTo("#sp-spider", {y:-500}, {y:0, duration:1.2, ease:"power2.out"}, 0.982);
+    tl.fromTo(".sp-leg", {rotation:0}, {rotation:4, duration:0.3, yoyo:true, repeat:9, ease:"sine.inOut", stagger:0.05,
+      transformOrigin:"0px 0px"}, 1.182);
+    tl.to("#sp-spider", {scale:1.12, x:-60, duration:0.25, ease:"power3.out"}, 3.964);
+    tl.fromTo("#sp-du", {x:0}, {x:-90, duration:0.25, ease:"power3.out"}, 3.964);
+    tl.fromTo("#sp-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 3.234);
+
+    window.__timelines["spinne"] = tl;
+  </script>
+</template>

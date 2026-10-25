@@ -1,0 +1,206 @@
+{
+  "title": "Du wachst auf – und bist nur noch 2 cm groß",
+  "voice": "thorsten-low",
+  "length_scale": 1.05,
+  "beats": [
+    {
+      "id": "hook",
+      "label": "TAG 1 · 07:12",
+      "lines": [
+        {
+          "show": "Du wachst auf."
+        },
+        {
+          "show": "Und alles um dich herum"
+        },
+        {
+          "show": "ist {r:riesig}."
+        }
+      ]
+    },
+    {
+      "id": "groesse",
+      "label": "TAG 1 · 07:12",
+      "lines": [
+        {
+          "show": "Du bist nur noch"
+        },
+        {
+          "show": "{y:zwei Zentimeter} groß."
+        },
+        {
+          "show": "So groß wie"
+        },
+        {
+          "show": "ein {y:Gummibärchen}."
+        },
+        {
+          "show": "Dein Bett?"
+        },
+        {
+          "show": "So hoch wie ein {y:Hochhaus}."
+        }
+      ]
+    },
+    {
+      "id": "fallen",
+      "label": "REGEL 1 · FALLEN",
+      "lines": [
+        {
+          "show": "{y:Regel eins}:"
+        },
+        {
+          "show": "Hab keine Angst"
+        },
+        {
+          "show": "vor der {r:Tiefe}."
+        },
+        {
+          "show": "Du springst vom Bett"
+        },
+        {
+          "show": "und landest {g:unverletzt}."
+        },
+        {
+          "show": "Kleine Körper"
+        },
+        {
+          "show": "fallen {g:langsam}."
+        }
+      ]
+    },
+    {
+      "id": "wasser",
+      "label": "REGEL 2 · WASSER",
+      "lines": [
+        {
+          "show": "{y:Regel zwei}:"
+        },
+        {
+          "show": "Fass {r:kein Wasser} an."
+        },
+        {
+          "show": "Ein einziger Tropfen"
+        },
+        {
+          "show": "klebt an dir wie {r:Kleber}."
+        },
+        {
+          "show": "Du kommst {r:nicht mehr} raus."
+        }
+      ]
+    },
+    {
+      "id": "kaelte",
+      "label": "REGEL 3 · KÄLTE",
+      "lines": [
+        {
+          "show": "{y:Regel drei}:"
+        },
+        {
+          "show": "Bleib {y:warm}."
+        },
+        {
+          "show": "Dein kleiner Körper"
+        },
+        {
+          "show": "verliert Wärme"
+        },
+        {
+          "show": "{r:extrem schnell}."
+        },
+        {
+          "show": "Ein {y:Krümel}"
+        },
+        {
+          "show": "ist jetzt eine Mahlzeit."
+        }
+      ]
+    },
+    {
+      "id": "spinne",
+      "label": "REGEL 4 · SPINNE",
+      "lines": [
+        {
+          "show": "{y:Regel vier}:"
+        },
+        {
+          "show": "Die Spinne in der Ecke?"
+        },
+        {
+          "show": "Für dich ist sie"
+        },
+        {
+          "show": "so groß wie ein {r:Auto}."
+        }
+      ]
+    },
+    {
+      "id": "stimme",
+      "label": "REGEL 5 · STIMME",
+      "lines": [
+        {
+          "show": "{y:Regel fünf}:"
+        },
+        {
+          "show": "Ruf nicht um Hilfe."
+        },
+        {
+          "show": "Deine Stimme ist jetzt"
+        },
+        {
+          "show": "so {r:hoch} und {r:leise},"
+        },
+        {
+          "show": "dass dich {r:niemand} hört."
+        }
+      ]
+    },
+    {
+      "id": "stark",
+      "label": "TAG 1 · 07:58",
+      "lines": [
+        {
+          "show": "Aber dann merkst du"
+        },
+        {
+          "show": "etwas {y:Seltsames}."
+        },
+        {
+          "show": "Du hebst einen Zuckerwürfel."
+        },
+        {
+          "show": "Das {g:25-Fache}",
+          "say": "Das Fünfundzwanzigfache"
+        },
+        {
+          "show": "deines Gewichts."
+        },
+        {
+          "show": "Du bist {g:superstark}."
+        }
+      ]
+    },
+    {
+      "id": "ende",
+      "label": "TAG 1 · 08:00",
+      "lines": [
+        {
+          "show": "Du gehst Richtung Tür."
+        },
+        {
+          "show": "Und genau in diesem Moment"
+        },
+        {
+          "show": "hörst du ein {r:Summen}."
+        },
+        {
+          "show": "Der {r:Saugroboter}"
+        },
+        {
+          "show": "ist angegangen."
+        }
+      ]
+    }
+  ]
+}

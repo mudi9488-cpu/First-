@@ -1,0 +1,82 @@
+<template>
+  <style>
+
+#root { position:absolute; inset:0; overflow:hidden; font-family:'Inter',sans-serif; color:#fff; }
+.bg { position:absolute; inset:0; background:radial-gradient(ellipse 90% 60% at 50% 42%, #18223A 0%, #0E1524 70%); }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:0.12em; text-transform:uppercase; }
+.hudcard { position:absolute; left:50%; width:620px; margin-left:-310px; top:300px; padding:22px 32px 24px;
+  background:#121A2B; border:3px solid #2A3652; border-radius:22px; text-align:left; }
+.hudcard .lab { font-family:'JetBrains Mono',monospace; font-size:28px; letter-spacing:0.14em; color:#8A94A6; font-weight:700; text-transform:uppercase; }
+.hudcard .val { font-family:'Inter',sans-serif; font-weight:900; font-size:84px; line-height:1.05;
+  font-variant-numeric:tabular-nums; margin-top:6px; }
+.hudcard .unit { font-size:40px; color:#8A94A6; font-weight:700; margin-left:10px; }
+.bar { height:16px; border-radius:8px; background:#232D45; margin-top:14px; overflow:hidden; }
+.bar > i { display:block; height:100%; width:100%; border-radius:8px; transform-origin:left center; }
+.pill { position:absolute; font-family:'Inter',sans-serif; font-weight:900; font-size:34px; padding:10px 26px;
+  border-radius:999px; text-transform:uppercase; letter-spacing:0.02em; white-space:nowrap; }
+
+
+.du-tag span { display:inline-block; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px; letter-spacing:0.14em;
+  color:#F5B83D; border:3px solid #F5B83D; border-radius:10px; padding:2px 14px; background:rgba(14,21,36,0.85); }
+.pill { z-index:4; }
+.hudcard { z-index:4; }
+.rt { position:absolute; left:0; right:0; top:560px; text-align:center; z-index:5; }
+.rt div { display:inline-block; font-weight:900; font-size:150px; color:#F5B83D; line-height:1; padding-bottom:16px;
+  border-bottom:10px solid #F5B83D; }
+
+  </style>
+  <div id="root" data-composition-id="ende" data-width="1080" data-height="1920">
+    <div class="bg"></div>
+
+    <div style="position:absolute;left:0;right:0;top:1110px;bottom:0;background:#3A2B22"></div><div style="position:absolute;left:0;right:0;top:1110px;height:10px;background:#5A4434"></div>
+    <div id="en-world" style="position:absolute;inset:0">
+      <svg viewBox="0 0 1080 1920" width="1080" height="1920" style="position:absolute;left:0;top:0">
+        <rect x="760" y="-40" width="420" height="1150" fill="#6E4B32"/>
+        <rect x="760" y="1096" width="420" height="14" fill="#F5C451" opacity="0.8"/>
+        <circle cx="800" cy="560" r="20" fill="#F5B83D"/>
+      </svg>
+      <div id="en-du" class="du" style="position:absolute;left:235px;top:850px;width:130px;height:260px"><div class="du-tag" style="position:absolute;left:0;right:0;top:-58px;text-align:center"><span>DU</span></div>
+      <svg viewBox="0 0 200 400" width="130" height="260" style="overflow:visible">
+        <g class="a-d" opacity="1"><rect x="16" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="168" width="32" height="112" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="282" r="16" fill="#F2C9A0"/><circle cx="168" cy="282" r="16" fill="#F2C9A0"/></g>
+        <g class="a-u" opacity="0"><rect x="16" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <rect x="152" y="60" width="32" height="120" rx="16" fill="#2FA79F"/>
+          <circle cx="32" cy="58" r="16" fill="#F2C9A0"/><circle cx="168" cy="58" r="16" fill="#F2C9A0"/></g>
+        <rect x="56" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="108" y="270" width="36" height="112" rx="10" fill="#2B3A67"/>
+        <rect x="48" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="104" y="374" width="48" height="26" rx="10" fill="#F4F1E6"/>
+        <rect x="38" y="158" width="124" height="134" rx="42" fill="#3CC6BE"/>
+        <circle cx="100" cy="94" r="70" fill="#F2C9A0"/>
+        <path d="M 28 98 Q 26 18 100 20 Q 174 18 172 98 Q 156 52 100 56 Q 46 52 28 98 Z" fill="#5B3A29"/>
+        <circle cx="76" cy="100" r="8" fill="#1A1A1A"/><circle cx="124" cy="100" r="8" fill="#1A1A1A"/>
+        <path class="m-n" opacity="1" d="M 84 130 Q 100 140 116 130" stroke="#1A1A1A" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <ellipse class="m-s" opacity="0" cx="100" cy="134" rx="12" ry="15" fill="#1A1A1A"/>
+      </svg></div>
+      <div id="en-robot" data-layout-ignore style="position:absolute;left:-1000px;top:900px;width:1000px;height:300px">
+        <svg viewBox="0 0 1000 300" width="1000" height="300">
+          <ellipse cx="500" cy="210" rx="500" ry="90" fill="#0B0F18"/>
+          <rect x="0" y="40" width="1000" height="170" rx="85" fill="#2A2F3A"/>
+          <ellipse cx="500" cy="40" rx="500" ry="70" fill="#3A404D"/>
+          <circle id="en-led" cx="760" cy="40" r="22" fill="#FF4D5E"/>
+        </svg></div>
+      <div id="en-dark" style="position:absolute;inset:0;background:#000;opacity:0"></div>
+    </div>
+    <div class="pill" id="en-p" style="left:0;right:0;margin:0 auto;width:max-content;top:520px;background:#FF4D5E;color:#0A0F1C;color:#fff">REINIGUNG GESTARTET · 08:00</div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    tl.fromTo("#en-du", {x:0}, {x:220, duration:2.78, ease:"power1.inOut"}, 0.1);
+    tl.set("#en-du .m-n", {opacity:0}, 3.076);
+    tl.set("#en-du .m-s", {opacity:1}, 3.076);
+    tl.fromTo("#en-world", {x:0}, {x:6, duration:0.05, yoyo:true, repeat:47, ease:"none"}, 3.076);
+    tl.fromTo("#en-robot", {x:0}, {x:700, duration:3.91, ease:"power1.in"}, 3.6180000000000003);
+    tl.fromTo("#en-led", {opacity:1}, {opacity:0.2, duration:0.25, yoyo:true, repeat:15}, 3.918);
+    tl.fromTo("#en-dark", {opacity:0}, {opacity:0.55, duration:3.91, ease:"power2.in"}, 3.918);
+    tl.fromTo("#en-p", {scale:1.5, opacity:0}, {scale:1, opacity:1, duration:0.25, ease:"expo.out"}, 3.918);
+
+    window.__timelines["ende"] = tl;
+  </script>
+</template>
