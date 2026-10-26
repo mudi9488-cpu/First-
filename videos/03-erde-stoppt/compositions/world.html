@@ -1,0 +1,300 @@
+<template>
+  <style>
+    #root { position:absolute; inset:0; background:#000; }
+    #w-canvas { position:absolute; left:0; top:0; width:1080px; height:1920px; }
+  </style>
+  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="48.14">
+    <canvas id="w-canvas" width="1080" height="1920"></canvas>
+  </div>
+  <script>
+
+const K = {"stop": 12.842, "turn": 16.056, "roofs": 26.688, "space": 34.06, "globe": 35.26, "restart": 40.573, "back": 40.907, "yank": 43.429, "end": 45.344};
+window.__hf = window.__hf || {}; window.__hf.buildReady = window.__hf.buildReady || {};
+window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THREE) => {
+  const W = 1080, H = 1920, DUR = 48.14;
+  const canvas = document.getElementById("w-canvas");
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
+  renderer.setPixelRatio(1); renderer.setSize(W, H, false);
+  renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+  function mulberry(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+  const R = mulberry(7);
+  const rr = (a, b) => a + (b - a) * R();
+  const pick = (arr) => arr[Math.floor(R() * arr.length)];
+  const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+  const ease = (x) => { x = clamp(x, 0, 1); return x * x * (3 - 2 * x); };
+  const easeIn3 = (x) => { x = clamp(x, 0, 1); return x * x * x; };
+
+  // ---------------- Stadt
+  const city = new THREE.Scene();
+  const SKY = new THREE.Color("#9FB0C8"), BLACK = new THREE.Color("#000000");
+  const lineMat = new THREE.LineBasicMaterial({ color: 0xDCE6FF, transparent: true, opacity: 0.9, fog: true });
+  const blackMat = new THREE.MeshBasicMaterial({ color: 0x000000, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 1 });
+  const solids = [];
+  function solid(geo, color, x, y, z, parent) {
+    const mat = new THREE.MeshLambertMaterial({ color });
+    const m = new THREE.Mesh(geo, mat);
+    m.position.set(x, y, z); m.castShadow = true; m.receiveShadow = true;
+    const e = new THREE.LineSegments(new THREE.EdgesGeometry(geo, 25), lineMat); e.visible = false; m.add(e);
+    (parent || city).add(m); solids.push({ m, e, mat }); return m;
+  }
+  const box = (w, h, d) => new THREE.BoxGeometry(w, h, d);
+  function roofGeo(w, h, d) {  // Satteldach (Prisma)
+    const s = new THREE.Shape(); s.moveTo(-d / 2, 0); s.lineTo(d / 2, 0); s.lineTo(0, h); s.lineTo(-d / 2, 0);
+    const g = new THREE.ExtrudeGeometry(s, { depth: w, bevelEnabled: false }); g.translate(0, 0, -w / 2); g.rotateY(Math.PI / 2); return g;
+  }
+
+  // Boden
+  const ground = solid(new THREE.BoxGeometry(4600, 1, 600), "#8E8A80", 2000, -0.5, 0);
+  solid(new THREE.BoxGeometry(110, 0.2, 90), "#BDB4A4", 0, 0.05, 0);              // Platz-Pflaster
+  for (let i = -5; i <= 5; i++) solid(new THREE.BoxGeometry(0.3, 0.22, 90), "#A99F8E", i * 10, 0.06, 0);
+
+  // Neues Rathaus (Nordseite) mit Turm
+  const RH = "#6F6A63";
+  solid(box(90, 28, 18), RH, 0, 14, -55);
+  for (let i = -4; i <= 4; i++) solid(new THREE.ConeGeometry(2.2, 7, 4), RH, i * 10, 31.5, -47);
+  solid(box(11, 78, 11), "#66615A", 8, 39, -50);
+  solid(new THREE.ConeGeometry(7, 18, 4), "#3F5A55", 8, 87, -50);
+  solid(box(13, 3, 13), "#5D5852", 8, 70, -50);
+  // Häuser West/Süd/Ost um den Platz
+  const pastel = ["#D8C3A5", "#C9A27E", "#E6D8B8", "#B7C4C8", "#D9B8A0", "#E9E1C9", "#C7B49A"];
+  const dyn = [];
+  function house(x, z, w, d, h, ry) {
+    const g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = ry || 0; city.add(g);
+    solid(box(w, h, d), pick(pastel), 0, h / 2, 0, g);
+    const roof = solid(roofGeo(w, rr(5, 8), d), "#8C4B3A", 0, h, 0, g);
+    return { g, roof, h };
+  }
+  for (let i = 0; i < 6; i++) house(-45 + i * 18, 55, 17, 16, rr(16, 24));
+  for (let i = 0; i < 4; i++) house(-68, -30 + i * 20, 18, 16, rr(16, 22), Math.PI / 2);
+  // Straße „Tal“ nach Osten: zwei Häuserzeilen
+  const streetRoofs = [];
+  for (const side of [-1, 1]) {
+    let x = 62;
+    while (x < 2300) {
+      const w = rr(14, 26), h = rr(14, 34);
+      const hs = house(x + w / 2, side * rr(19, 22) - side * 0 + side * 8, w, 14, h);
+      streetRoofs.push({ roof: hs.roof, base: hs.roof.position.clone(), gx: x + w / 2, gz: hs.g.position.z, h: hs.h, s: R() });
+      x += w + rr(0.5, 3);
+    }
+  }
+  // Mariensäule
+  solid(box(5, 3, 5), "#9C978E", 0, 1.5, 0);
+  solid(new THREE.CylinderGeometry(0.7, 0.8, 14, 8), "#C9C2B4", 0, 10, 0);
+  const madonna = solid(new THREE.ConeGeometry(0.9, 2.6, 6), "#D4AF37", 0, 18.3, 0);
+  // Bäume, Laternen, Bänke (bleiben liegen → werden am Ende zurückgerissen)
+  const leftovers = [];
+  function tree(x, z) {
+    const g = new THREE.Group(); g.position.set(x, 0, z); city.add(g);
+    solid(new THREE.CylinderGeometry(0.3, 0.4, 3, 6), "#6B4B33", 0, 1.5, 0, g);
+    solid(new THREE.IcosahedronGeometry(rr(2.2, 3), 0), pick(["#4F7A3A", "#5C8A42", "#46703A"]), 0, 4.6, 0, g);
+    leftovers.push({ g, base: g.position.clone(), s: R() }); return g;
+  }
+  for (let i = 0; i < 7; i++) tree(-48 + i * 16, 40);
+  for (let i = 0; i < 5; i++) { const g = new THREE.Group(); g.position.set(-40 + i * 20, 0, -30); city.add(g);
+    solid(new THREE.CylinderGeometry(0.12, 0.12, 5, 6), "#2E3338", 0, 2.5, 0, g); solid(box(0.7, 0.5, 0.7), "#F2E2A0", 0, 5.2, 0, g);
+    leftovers.push({ g, base: g.position.clone(), s: R() }); }
+  for (let i = 0; i < 6; i++) { const g = new THREE.Group(); g.position.set(-35 + i * 14, 0, 28); city.add(g);
+    solid(box(3, 0.25, 0.9), "#7A5638", 0, 0.9, 0, g); solid(box(3, 0.9, 0.2), "#7A5638", 0, 1.4, -0.35, g);
+    leftovers.push({ g, base: g.position.clone(), s: R() }); }
+
+  // Menschen (Block-Figuren wie in der Referenz) und Autos
+  const shirts = ["#E6E1D3", "#2F4C8F", "#C9B037", "#B03A2E", "#3C8D6E", "#E8E8E8", "#8A5A9E", "#D97B29"];
+  function person(x, z, ry) {
+    const g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = ry; city.add(g);
+    const pants = pick(["#2B3448", "#3D3A36", "#4A5A78"]);
+    solid(box(0.28, 0.9, 0.28), pants, -0.16, 0.45, 0, g); solid(box(0.28, 0.9, 0.28), pants, 0.16, 0.45, 0, g);
+    solid(box(0.62, 0.75, 0.34), pick(shirts), 0, 1.28, 0, g);
+    solid(box(0.34, 0.36, 0.34), pick(["#E8C39E", "#C68E62", "#8D5A3B", "#F1D2B4"]), 0, 1.86, 0, g);
+    return g;
+  }
+  for (let i = 0; i < 46; i++) {
+    const x = rr(-45, 50), z = rr(-35, 38);
+    if (Math.abs(x) < 4 && Math.abs(z) < 4) continue;
+    dyn.push({ g: person(x, z, rr(0, 6.28)), kind: "p", s: R() });
+  }
+  function car(x, z) {
+    const g = new THREE.Group(); g.position.set(x, 0, z); city.add(g);
+    const c = pick(["#B03A2E", "#2F4C8F", "#E8E8E8", "#2E3338", "#C9B037"]);
+    solid(box(4.2, 1.0, 1.8), c, 0, 0.75, 0, g); solid(box(2.2, 0.8, 1.6), c, -0.2, 1.65, 0, g);
+    return g;
+  }
+  // ein paar Menschen direkt vor dir: sie fliegen sichtbar neben dir her
+  for (const [x, z] of [[-18, 16], [-11, 14], [-6, 19], [-15, 9], [-3, 12], [-20, 21], [-9, 6], [-1, 17]])
+    dyn.push({ g: person(x, z, rr(0, 6.28)), kind: "p", s: R() });
+  for (let i = 0; i < 14; i++) dyn.push({ g: car(rr(65, 700), pick([-4, 4])), kind: "c", s: R() });
+
+  // Licht (Abenddämmerung)
+  city.add(new THREE.HemisphereLight(0xCFDCF2, 0x5B5248, 0.9));
+  const sun = new THREE.DirectionalLight(0xFFE2C0, 1.6);
+  sun.position.set(-80, 120, 90); sun.castShadow = true;
+  sun.shadow.mapSize.set(2048, 2048);
+  Object.assign(sun.shadow.camera, { left: -110, right: 110, top: 110, bottom: -110, near: 10, far: 400 });
+  city.add(sun); city.add(sun.target);
+  city.fog = new THREE.Fog(SKY, 180, 900);
+
+  // Bodenraster (nur im Drahtgitter-Modus) – zeigt, wie schnell der Boden unter dir wegzieht
+  const gp = [];
+  for (let z = -150; z <= 150; z += 10) gp.push(new THREE.Vector3(-300, 0.05, z), new THREE.Vector3(2600, 0.05, z));
+  for (let x = -300; x <= 2600; x += 10) gp.push(new THREE.Vector3(x, 0.05, -150), new THREE.Vector3(x, 0.05, 150));
+  const groundGrid = new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(gp),
+    new THREE.LineBasicMaterial({ color: 0x5A6A8C, transparent: true, opacity: 0.55, fog: true }));
+  city.add(groundGrid);
+
+  // Sterne + Windstreifen (nur im Drahtgitter-Modus)
+  const starGeo = new THREE.BufferGeometry(); const sp = [];
+  for (let i = 0; i < 1800; i++) { const a = rr(0, 6.28), b = rr(-0.2, 1.2), r = 1500;
+    sp.push(Math.cos(a) * Math.cos(b) * r, Math.sin(b) * r + 50, Math.sin(a) * Math.cos(b) * r); }
+  starGeo.setAttribute("position", new THREE.Float32BufferAttribute(sp, 3));
+  const stars = new THREE.Points(starGeo, new THREE.PointsMaterial({ color: 0xFFFFFF, size: 2.2, sizeAttenuation: false, fog: false }));
+  city.add(stars);
+  const NW = 700, windBase = [];
+  const windGeo = new THREE.BufferGeometry(); const windPos = new Float32Array(NW * 6);
+  for (let i = 0; i < NW; i++) windBase.push([rr(0, 400), rr(0.3, 40), rr(-60, 60), rr(2, 9), rr(0.6, 1.4)]);
+  windGeo.setAttribute("position", new THREE.BufferAttribute(windPos, 3));
+  const wind = new THREE.LineSegments(windGeo, new THREE.LineBasicMaterial({ color: 0xBFD3FF, transparent: true, opacity: 0.55, fog: true }));
+  wind.frustumCulled = false; city.add(wind);
+
+  // ---------------- Globus
+  const globe = new THREE.Scene(); globe.background = BLACK;
+  const earth = new THREE.Group(); globe.add(earth);
+  const RAD = 100;
+  const toV = (lon, lat, r) => { const a = THREE.MathUtils.degToRad(lon), b = THREE.MathUtils.degToRad(lat);
+    return new THREE.Vector3(r * Math.cos(b) * Math.sin(a), r * Math.sin(b), r * Math.cos(b) * Math.cos(a)); };
+  earth.add(new THREE.Mesh(new THREE.SphereGeometry(RAD * 0.995, 48, 32), new THREE.MeshBasicMaterial({ color: 0x02040A })));
+  const grid = [];
+  for (let lat = -75; lat <= 75; lat += 15) for (let lon = -180; lon < 180; lon += 4) grid.push(toV(lon, lat, RAD), toV(lon + 4, lat, RAD));
+  for (let lon = -180; lon < 180; lon += 15) for (let lat = -88; lat < 88; lat += 4) grid.push(toV(lon, lat, RAD), toV(lon, lat + 4, RAD));
+  earth.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(grid), new THREE.LineBasicMaterial({ color: 0x2A3A66 })));
+  const CONT = [[[-10, 36], [-9, 43], [-2, 48], [2, 51], [8, 54], [12, 56], [20, 60], [30, 60], [40, 66], [60, 68], [80, 73], [100, 77], [140, 72], [170, 66], [160, 58], [140, 50], [130, 40], [122, 30], [110, 20], [105, 10], [100, 2], [95, 15], [80, 8], [72, 20], [60, 25], [50, 30], [35, 32], [28, 36], [20, 38], [12, 38], [5, 43], [-5, 36]], [[-17, 21], [-10, 30], [10, 37], [32, 31], [43, 12], [51, 11], [40, -10], [35, -25], [20, -35], [12, -18], [9, 0], [-8, 5], [-17, 14]], [[-165, 65], [-140, 70], [-100, 72], [-80, 70], [-65, 60], [-55, 50], [-70, 43], [-80, 30], [-97, 26], [-105, 20], [-90, 15], [-80, 8], [-95, 16], [-110, 24], [-118, 33], [-125, 48], [-140, 60]], [[-80, 8], [-60, 10], [-35, -6], [-40, -22], [-55, -35], [-68, -55], [-75, -40], [-71, -18], [-81, -5]], [[114, -22], [130, -12], [142, -11], [153, -28], [145, -38], [130, -32], [115, -34]]];
+  const coast = [];
+  for (const c of CONT) for (let i = 0; i < c.length; i++) { const a = c[i], b = c[(i + 1) % c.length];
+    for (let k = 0; k < 6; k++) coast.push(toV(a[0] + (b[0] - a[0]) * k / 6, a[1] + (b[1] - a[1]) * k / 6, RAD * 1.002),
+      toV(a[0] + (b[0] - a[0]) * (k + 1) / 6, a[1] + (b[1] - a[1]) * (k + 1) / 6, RAD * 1.002)); }
+  const coastMat = new THREE.LineBasicMaterial({ color: 0xE8F0FF });
+  earth.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(coast), coastMat));
+  const muc = new THREE.Mesh(new THREE.SphereGeometry(1.6, 12, 8), new THREE.MeshBasicMaterial({ color: 0xFF4D5E }));
+  muc.position.copy(toV(11.6, 48.1, RAD * 1.01)); earth.add(muc);
+  // Ozean-Welle: helle Front, die nach Osten über den Globus läuft
+  const NWAVE = 3, waveGeo = new THREE.BufferGeometry(), wavePos = new Float32Array(NWAVE * 70 * 6);
+  waveGeo.setAttribute("position", new THREE.BufferAttribute(wavePos, 3));
+  const wave = new THREE.LineSegments(waveGeo, new THREE.LineBasicMaterial({ color: 0x7FC4FF, transparent: true, opacity: 0.95 }));
+  wave.frustumCulled = false; earth.add(wave);
+  const gstars = new THREE.Points(starGeo, new THREE.PointsMaterial({ color: 0xFFFFFF, size: 2, sizeAttenuation: false }));
+  globe.add(gstars);
+
+  const cam = new THREE.PerspectiveCamera(62, W / H, 0.1, 5000);
+  const gcam = new THREE.PerspectiveCamera(40, W / H, 1, 5000);
+  const look = new THREE.Vector3();
+
+  function setWire(on) {
+    for (const s of solids) { s.m.material = on ? blackMat : s.mat; s.e.visible = on; s.m.castShadow = !on; }
+    city.background = on ? BLACK : SKY; city.fog.color.copy(on ? BLACK : SKY);
+    city.fog.near = on ? 60 : 180; city.fog.far = on ? 520 : 900;
+    stars.visible = on; wind.visible = on; renderer.shadowMap.enabled = !on; groundGrid.visible = on;
+  }
+
+  // Kamerapfad
+  const P0 = new THREE.Vector3(-4, 26, 40), L0 = new THREE.Vector3(6, 30, -50);
+  const P1 = new THREE.Vector3(-14, 1.7, 26), L1 = new THREE.Vector3(6, 14, -50);
+  const V = 42;   // sichtbare Fluggeschwindigkeit (Meter pro Echtzeit-Sekunde)
+  function flyX(s) { return s < 1.5 ? V * s * s / 3 : V * (s - 0.75); }   // sanft anfahren
+
+  function render(t) {
+    const stop = t >= K.stop, s = t - K.stop;
+    // Rückkehr auf den Platz am Ende: alle Objekte an Ausgangsposition, liegen gebliebene Dinge fliegen nach Westen
+    const back = t >= K.back;
+    if (t >= K.globe && !back) {
+      // ---------- Globus
+      const g = t - K.globe;
+      gcam.position.set(0, 60, 330 - 40 * ease(g / 3)); gcam.lookAt(0, 20, 0);
+      const spin = t < K.restart ? 0 : (t - K.restart) * 0.9;
+      earth.rotation.y = THREE.MathUtils.degToRad(-11.6) - spin; earth.rotation.x = THREE.MathUtils.degToRad(30);
+      let p = 0;
+      for (let k = 0; k < NWAVE; k++) {
+        const lon0 = 11.6 + g * 22 + k * 3;
+        for (let i = 0; i < 70; i++) {
+          const la = -70 + i * 2, a = toV(lon0 + Math.sin(i * 0.7) * 2, la, RAD * 1.01), b = toV(lon0 + Math.sin((i + 1) * 0.7) * 2, la + 2, RAD * 1.01);
+          wavePos.set([a.x, a.y, a.z, b.x, b.y, b.z], p); p += 6;
+        }
+      }
+      waveGeo.attributes.position.needsUpdate = true;
+      wave.material.opacity = t < K.restart ? 0.95 : Math.max(0, 0.95 - (t - K.restart) * 2);
+      renderer.shadowMap.enabled = false;
+      renderer.render(globe, gcam); return;
+    }
+
+    setWire(stop && !(t >= K.end + 10));
+    // Ausgangslage
+    for (const d of dyn) { d.g.position.copy(d.base || (d.base = d.g.position.clone())); d.g.rotation.set(0, d.ry ?? (d.ry = d.g.rotation.y), 0); }
+    for (const r of streetRoofs) { r.roof.position.copy(r.base); r.roof.rotation.set(0, 0, 0); }
+    for (const o of leftovers) { o.g.position.copy(o.base); o.g.rotation.set(0, 0, 0); }
+
+    if (!stop) {
+      // ---------- Vor dem Stopp: ruhiger Platz, Kamerafahrt auf Augenhöhe
+      const k = ease(t / (K.stop - 1.5));
+      cam.position.lerpVectors(P0, P1, k); look.lerpVectors(L0, L1, k); cam.fov = 62;
+    } else if (!back) {
+      // ---------- Stopp: du (die Kamera) und alles Lose fliegt mit ~310 m/s nach Osten (zeitlich gedehnt)
+      const x = flyX(s);
+      const turn = ease((t - K.turn + 0.6) / 2.2);
+      const up = t < K.space ? 0 : easeIn3((t - K.space) / 1.6);
+      cam.position.set(P1.x + x, P1.y + 2.5 * ease(s / 3) + up * 1800, P1.z * (1 - ease((s - 0.8) / 2.6)) + Math.sin(s * 9) * 0.06);
+      const yaw = -Math.PI / 2 * (1 - turn);       // erst Richtung Rathaus (Norden), dann nach Osten
+      look.set(cam.position.x + Math.cos(yaw) * 50, cam.position.y + 6 - up * 60, cam.position.z + Math.sin(yaw) * 50);
+      cam.fov = 62 + 10 * ease(s / 2);
+      for (const d of dyn) {
+        const v = 0.86 + d.s * 0.22, lift = d.kind === "p" ? 1.2 : 0.6;
+        d.g.position.x = d.base.x + flyX(s) * v;
+        d.g.position.y = Math.max(0, lift * s * (0.4 + d.s)) ;
+        d.g.rotation.set(s * (0.6 + d.s) * 0.7, d.ry + s * 0.5, s * (d.s - 0.5) * 1.4);
+      }
+      const ts = t - K.roofs;
+      for (const r of streetRoofs) {
+        if (ts > 0 && Math.abs(cam.position.x - r.gx) < 160) {
+          const f = clamp((ts) * (0.6 + r.s), 0, 6);
+          r.roof.position.x = r.base.x + f * 9 * (0.6 + r.s);
+          r.roof.position.y = r.base.y + f * f * 1.6;
+          r.roof.rotation.set(f * 0.5 * (r.s - 0.5), f * 0.3, f * 0.4);
+        }
+      }
+      // Windstreifen rund um die Kamera, schneller als du
+      for (let i = 0; i < NW; i++) {
+        const [ox, oy, oz, len, sp] = windBase[i];
+        const px = cam.position.x - 120 + ((ox + s * 70 * sp) % 400);
+        const py = cam.position.y - 6 + oy, pz = cam.position.z + oz;
+        windPos.set([px, py, pz, px + len, py, pz], i * 6);
+      }
+      windGeo.attributes.position.needsUpdate = true;
+    } else {
+      // ---------- Zurück: Erde dreht wieder, Liegengebliebenes wird nach Westen gerissen
+      const b = t - K.back, y = t - K.yank;
+      cam.position.set(P1.x, P1.y + 1.5, P1.z + 6); look.set(P1.x + 6, 10, -50); cam.fov = 66;
+      for (const d of dyn) d.g.visible = false;
+      for (const o of leftovers) {
+        if (y > 0) { const f = y * (0.8 + o.s);
+          o.g.position.x = o.base.x - f * f * 18; o.g.position.y = f * 1.4; o.g.rotation.set(0, f * 0.6, f * 1.1 * (o.s + 0.3)); }
+      }
+      for (let i = 0; i < NW; i++) {
+        const [ox, oy, oz, len, sp] = windBase[i];
+        const px = cam.position.x + 160 - ((ox + b * 90 * sp) % 400);
+        windPos.set([px, oy, cam.position.z - 70 + oz, px - len * 1.6, oy, cam.position.z - 70 + oz], i * 6);
+      }
+      windGeo.attributes.position.needsUpdate = true;
+      wind.visible = y > -0.4;
+    }
+    if (!back) for (const d of dyn) d.g.visible = true;
+    cam.updateProjectionMatrix(); cam.lookAt(look);
+    renderer.render(city, cam);
+  }
+
+  const state = { t: 0 };
+  const tl = gsap.timeline({ paused: true });
+  tl.to(state, { t: DUR, duration: DUR, ease: "none", onUpdate: () => render(state.t) }, 0);
+  window.__timelines["world"] = tl;
+  render(0);
+}).catch((e) => { console.error("world build failed", e); throw e; });
+
+  </script>
+</template>

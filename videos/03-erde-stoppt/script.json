@@ -1,0 +1,120 @@
+{
+  "title": "Was wäre, wenn die Erde 5 Sekunden lang stoppt?",
+  "voice": "thorsten-low",
+  "length_scale": 1.05,
+  "beats": [
+    {
+      "id": "hook",
+      "label": "",
+      "lines": [
+        {
+          "show": "Was wäre, wenn die Erde"
+        },
+        {
+          "show": "fünf Sekunden lang aufhört, sich zu drehen?"
+        }
+      ]
+    },
+    {
+      "id": "platz",
+      "label": "",
+      "lines": [
+        {
+          "show": "Du stehst auf dem Marienplatz in München."
+        },
+        {
+          "show": "Hier dreht sich die Erde mit über 1.000 km/h.",
+          "say": "Hier dreht sich die Erde mit über tausend Kilometern pro Stunde."
+        },
+        {
+          "show": "Du merkst davon nichts."
+        },
+        {
+          "show": "Bis sie plötzlich stoppt."
+        }
+      ]
+    },
+    {
+      "id": "stopp",
+      "label": "",
+      "lines": [
+        {
+          "show": "Der Boden steht still."
+        },
+        {
+          "show": "Aber du nicht."
+        },
+        {
+          "show": "Du fliegst weiter nach Osten."
+        },
+        {
+          "show": "Mit 310 Metern pro Sekunde.",
+          "say": "Mit dreihundertzehn Metern pro Sekunde."
+        },
+        {
+          "show": "Fast so schnell wie der Schall."
+        }
+      ]
+    },
+    {
+      "id": "sturm",
+      "label": "",
+      "lines": [
+        {
+          "show": "Die Luft fliegt mit."
+        },
+        {
+          "show": "Ein Sturm, dreimal stärker als jeder Hurrikan."
+        },
+        {
+          "show": "Autos, Dächer, Menschen."
+        },
+        {
+          "show": "Alles, was nicht fest verankert ist."
+        }
+      ]
+    },
+    {
+      "id": "weit",
+      "label": "",
+      "lines": [
+        {
+          "show": "In fünf Sekunden"
+        },
+        {
+          "show": "fliegst du anderthalb Kilometer weit."
+        }
+      ]
+    },
+    {
+      "id": "ozean",
+      "label": "",
+      "lines": [
+        {
+          "show": "Und die Ozeane?"
+        },
+        {
+          "show": "Die schwappen einfach weiter."
+        },
+        {
+          "show": "Über jede Küste der Welt."
+        }
+      ]
+    },
+    {
+      "id": "zurueck",
+      "label": "",
+      "lines": [
+        {
+          "show": "Dann dreht sie sich wieder."
+        },
+        {
+          "show": "Und alles, was liegen geblieben ist,"
+        },
+        {
+          "show": "wird in die andere Richtung gerissen."
+        }
+      ]
+    }
+  ]
+}

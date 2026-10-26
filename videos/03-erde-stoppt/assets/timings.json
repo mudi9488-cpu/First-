@@ -1,0 +1,802 @@
+{
+ "duration": 45.544,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "Was wäre, wenn die Erde",
+     "start": 0.15,
+     "end": 1.606,
+     "words": [
+      {
+       "text": "Was",
+       "start": 0.15,
+       "end": 0.407
+      },
+      {
+       "text": "wäre,",
+       "start": 0.407,
+       "end": 0.721
+      },
+      {
+       "text": "wenn",
+       "start": 0.721,
+       "end": 1.035
+      },
+      {
+       "text": "die",
+       "start": 1.035,
+       "end": 1.292
+      },
+      {
+       "text": "Erde",
+       "start": 1.292,
+       "end": 1.606
+      }
+     ]
+    },
+    {
+     "show": "fünf Sekunden lang aufhört, sich zu drehen?",
+     "start": 1.666,
+     "end": 4.146,
+     "words": [
+      {
+       "text": "fünf",
+       "start": 1.666,
+       "end": 1.966
+      },
+      {
+       "text": "Sekunden",
+       "start": 1.966,
+       "end": 2.484
+      },
+      {
+       "text": "lang",
+       "start": 2.484,
+       "end": 2.784
+      },
+      {
+       "text": "aufhört,",
+       "start": 2.784,
+       "end": 3.247
+      },
+      {
+       "text": "sich",
+       "start": 3.247,
+       "end": 3.547
+      },
+      {
+       "text": "zu",
+       "start": 3.547,
+       "end": 3.737
+      },
+      {
+       "text": "drehen?",
+       "start": 3.737,
+       "end": 4.146
+      }
+     ]
+    }
+   ],
+   "end": 4.446
+  },
+  {
+   "id": "platz",
+   "label": "",
+   "start": 4.846,
+   "lines": [
+    {
+     "show": "Du stehst auf dem Marienplatz in München.",
+     "start": 4.846,
+     "end": 6.86,
+     "words": [
+      {
+       "text": "Du",
+       "start": 4.846,
+       "end": 5.005
+      },
+      {
+       "text": "stehst",
+       "start": 5.005,
+       "end": 5.344
+      },
+      {
+       "text": "auf",
+       "start": 5.344,
+       "end": 5.548
+      },
+      {
+       "text": "dem",
+       "start": 5.548,
+       "end": 5.751
+      },
+      {
+       "text": "Marienplatz",
+       "start": 5.751,
+       "end": 6.317
+      },
+      {
+       "text": "in",
+       "start": 6.317,
+       "end": 6.476
+      },
+      {
+       "text": "München.",
+       "start": 6.476,
+       "end": 6.86
+      }
+     ]
+    },
+    {
+     "show": "Hier dreht sich die Erde mit über 1.000 km/h.",
+     "start": 7.16,
+     "end": 10.489,
+     "words": [
+      {
+       "text": "Hier",
+       "start": 7.16,
+       "end": 7.546
+      },
+      {
+       "text": "dreht",
+       "start": 7.546,
+       "end": 8.001
+      },
+      {
+       "text": "sich",
+       "start": 8.001,
+       "end": 8.387
+      },
+      {
+       "text": "die",
+       "start": 8.387,
+       "end": 8.702
+      },
+      {
+       "text": "Erde",
+       "start": 8.702,
+       "end": 9.087
+      },
+      {
+       "text": "mit",
+       "start": 9.087,
+       "end": 9.403
+      },
+      {
+       "text": "über",
+       "start": 9.403,
+       "end": 9.788
+      },
+      {
+       "text": "1.000",
+       "start": 9.788,
+       "end": 10.174
+      },
+      {
+       "text": "km/h.",
+       "start": 10.174,
+       "end": 10.489
+      }
+     ]
+    },
+    {
+     "show": "Du merkst davon nichts.",
+     "start": 10.789,
+     "end": 11.783,
+     "words": [
+      {
+       "text": "Du",
+       "start": 10.789,
+       "end": 10.928
+      },
+      {
+       "text": "merkst",
+       "start": 10.928,
+       "end": 11.226
+      },
+      {
+       "text": "davon",
+       "start": 11.226,
+       "end": 11.485
+      },
+      {
+       "text": "nichts.",
+       "start": 11.485,
+       "end": 11.783
+      }
+     ]
+    },
+    {
+     "show": "Bis sie plötzlich stoppt.",
+     "start": 12.083,
+     "end": 13.135,
+     "words": [
+      {
+       "text": "Bis",
+       "start": 12.083,
+       "end": 12.258
+      },
+      {
+       "text": "sie",
+       "start": 12.258,
+       "end": 12.433
+      },
+      {
+       "text": "plötzlich",
+       "start": 12.433,
+       "end": 12.842
+      },
+      {
+       "text": "stoppt.",
+       "start": 12.842,
+       "end": 13.135
+      }
+     ]
+    }
+   ],
+   "end": 13.435
+  },
+  {
+   "id": "stopp",
+   "label": "",
+   "start": 13.835,
+   "lines": [
+    {
+     "show": "Der Boden steht still.",
+     "start": 13.835,
+     "end": 14.811,
+     "words": [
+      {
+       "text": "Der",
+       "start": 13.835,
+       "end": 14.018
+      },
+      {
+       "text": "Boden",
+       "start": 14.018,
+       "end": 14.282
+      },
+      {
+       "text": "steht",
+       "start": 14.282,
+       "end": 14.546
+      },
+      {
+       "text": "still.",
+       "start": 14.546,
+       "end": 14.811
+      }
+     ]
+    },
+    {
+     "show": "Aber du nicht.",
+     "start": 15.111,
+     "end": 15.756,
+     "words": [
+      {
+       "text": "Aber",
+       "start": 15.111,
+       "end": 15.34
+      },
+      {
+       "text": "du",
+       "start": 15.34,
+       "end": 15.485
+      },
+      {
+       "text": "nicht.",
+       "start": 15.485,
+       "end": 15.756
+      }
+     ]
+    },
+    {
+     "show": "Du fliegst weiter nach Osten.",
+     "start": 16.056,
+     "end": 17.448,
+     "words": [
+      {
+       "text": "Du",
+       "start": 16.056,
+       "end": 16.21
+      },
+      {
+       "text": "fliegst",
+       "start": 16.21,
+       "end": 16.586
+      },
+      {
+       "text": "weiter",
+       "start": 16.586,
+       "end": 16.917
+      },
+      {
+       "text": "nach",
+       "start": 16.917,
+       "end": 17.16
+      },
+      {
+       "text": "Osten.",
+       "start": 17.16,
+       "end": 17.448
+      }
+     ]
+    },
+    {
+     "show": "Mit 310 Metern pro Sekunde.",
+     "start": 17.748,
+     "end": 19.738,
+     "words": [
+      {
+       "text": "Mit",
+       "start": 17.748,
+       "end": 18.051
+      },
+      {
+       "text": "310",
+       "start": 18.051,
+       "end": 18.355
+      },
+      {
+       "text": "Metern",
+       "start": 18.355,
+       "end": 18.861
+      },
+      {
+       "text": "pro",
+       "start": 18.861,
+       "end": 19.164
+      },
+      {
+       "text": "Sekunde.",
+       "start": 19.164,
+       "end": 19.738
+      }
+     ]
+    },
+    {
+     "show": "Fast so schnell wie der Schall.",
+     "start": 20.038,
+     "end": 21.365,
+     "words": [
+      {
+       "text": "Fast",
+       "start": 20.038,
+       "end": 20.253
+      },
+      {
+       "text": "so",
+       "start": 20.253,
+       "end": 20.389
+      },
+      {
+       "text": "schnell",
+       "start": 20.389,
+       "end": 20.721
+      },
+      {
+       "text": "wie",
+       "start": 20.721,
+       "end": 20.897
+      },
+      {
+       "text": "der",
+       "start": 20.897,
+       "end": 21.072
+      },
+      {
+       "text": "Schall.",
+       "start": 21.072,
+       "end": 21.365
+      }
+     ]
+    }
+   ],
+   "end": 21.665
+  },
+  {
+   "id": "sturm",
+   "label": "",
+   "start": 22.065,
+   "lines": [
+    {
+     "show": "Die Luft fliegt mit.",
+     "start": 22.065,
+     "end": 22.969,
+     "words": [
+      {
+       "text": "Die",
+       "start": 22.065,
+       "end": 22.25
+      },
+      {
+       "text": "Luft",
+       "start": 22.25,
+       "end": 22.476
+      },
+      {
+       "text": "fliegt",
+       "start": 22.476,
+       "end": 22.784
+      },
+      {
+       "text": "mit.",
+       "start": 22.784,
+       "end": 22.969
+      }
+     ]
+    },
+    {
+     "show": "Ein Sturm, dreimal stärker als jeder Hurrikan.",
+     "start": 23.269,
+     "end": 25.825,
+     "words": [
+      {
+       "text": "Ein",
+       "start": 23.269,
+       "end": 23.506
+      },
+      {
+       "text": "Sturm,",
+       "start": 23.506,
+       "end": 23.848
+      },
+      {
+       "text": "dreimal",
+       "start": 23.848,
+       "end": 24.296
+      },
+      {
+       "text": "stärker",
+       "start": 24.296,
+       "end": 24.745
+      },
+      {
+       "text": "als",
+       "start": 24.745,
+       "end": 24.982
+      },
+      {
+       "text": "jeder",
+       "start": 24.982,
+       "end": 25.324
+      },
+      {
+       "text": "Hurrikan.",
+       "start": 25.324,
+       "end": 25.825
+      }
+     ]
+    },
+    {
+     "show": "Autos, Dächer, Menschen.",
+     "start": 26.125,
+     "end": 28.162,
+     "words": [
+      {
+       "text": "Autos,",
+       "start": 26.125,
+       "end": 26.688
+      },
+      {
+       "text": "Dächer,",
+       "start": 26.688,
+       "end": 27.338
+      },
+      {
+       "text": "Menschen.",
+       "start": 27.338,
+       "end": 28.162
+      }
+     ]
+    },
+    {
+     "show": "Alles, was nicht fest verankert ist.",
+     "start": 28.462,
+     "end": 30.379,
+     "words": [
+      {
+       "text": "Alles,",
+       "start": 28.462,
+       "end": 28.79
+      },
+      {
+       "text": "was",
+       "start": 28.79,
+       "end": 29.017
+      },
+      {
+       "text": "nicht",
+       "start": 29.017,
+       "end": 29.345
+      },
+      {
+       "text": "fest",
+       "start": 29.345,
+       "end": 29.622
+      },
+      {
+       "text": "verankert",
+       "start": 29.622,
+       "end": 30.152
+      },
+      {
+       "text": "ist.",
+       "start": 30.152,
+       "end": 30.379
+      }
+     ]
+    }
+   ],
+   "end": 30.679
+  },
+  {
+   "id": "weit",
+   "label": "",
+   "start": 31.079,
+   "lines": [
+    {
+     "show": "In fünf Sekunden",
+     "start": 31.079,
+     "end": 32.104,
+     "words": [
+      {
+       "text": "In",
+       "start": 31.079,
+       "end": 31.273
+      },
+      {
+       "text": "fünf",
+       "start": 31.273,
+       "end": 31.578
+      },
+      {
+       "text": "Sekunden",
+       "start": 31.578,
+       "end": 32.104
+      }
+     ]
+    },
+    {
+     "show": "fliegst du anderthalb Kilometer weit.",
+     "start": 32.164,
+     "end": 34.06,
+     "words": [
+      {
+       "text": "fliegst",
+       "start": 32.164,
+       "end": 32.572
+      },
+      {
+       "text": "du",
+       "start": 32.572,
+       "end": 32.74
+      },
+      {
+       "text": "anderthalb",
+       "start": 32.74,
+       "end": 33.292
+      },
+      {
+       "text": "Kilometer",
+       "start": 33.292,
+       "end": 33.796
+      },
+      {
+       "text": "weit.",
+       "start": 33.796,
+       "end": 34.06
+      }
+     ]
+    }
+   ],
+   "end": 34.36
+  },
+  {
+   "id": "ozean",
+   "label": "",
+   "start": 34.76,
+   "lines": [
+    {
+     "show": "Und die Ozeane?",
+     "start": 34.76,
+     "end": 35.778,
+     "words": [
+      {
+       "text": "Und",
+       "start": 34.76,
+       "end": 35.037
+      },
+      {
+       "text": "die",
+       "start": 35.037,
+       "end": 35.315
+      },
+      {
+       "text": "Ozeane?",
+       "start": 35.315,
+       "end": 35.778
+      }
+     ]
+    },
+    {
+     "show": "Die schwappen einfach weiter.",
+     "start": 36.078,
+     "end": 37.442,
+     "words": [
+      {
+       "text": "Die",
+       "start": 36.078,
+       "end": 36.276
+      },
+      {
+       "text": "schwappen",
+       "start": 36.276,
+       "end": 36.738
+      },
+      {
+       "text": "einfach",
+       "start": 36.738,
+       "end": 37.112
+      },
+      {
+       "text": "weiter.",
+       "start": 37.112,
+       "end": 37.442
+      }
+     ]
+    },
+    {
+     "show": "Über jede Küste der Welt.",
+     "start": 37.742,
+     "end": 39.039,
+     "words": [
+      {
+       "text": "Über",
+       "start": 37.742,
+       "end": 38.002
+      },
+      {
+       "text": "jede",
+       "start": 38.002,
+       "end": 38.261
+      },
+      {
+       "text": "Küste",
+       "start": 38.261,
+       "end": 38.567
+      },
+      {
+       "text": "der",
+       "start": 38.567,
+       "end": 38.779
+      },
+      {
+       "text": "Welt.",
+       "start": 38.779,
+       "end": 39.039
+      }
+     ]
+    }
+   ],
+   "end": 39.339
+  },
+  {
+   "id": "zurueck",
+   "label": "",
+   "start": 39.739,
+   "lines": [
+    {
+     "show": "Dann dreht sie sich wieder.",
+     "start": 39.739,
+     "end": 40.857,
+     "words": [
+      {
+       "text": "Dann",
+       "start": 39.739,
+       "end": 39.947
+      },
+      {
+       "text": "dreht",
+       "start": 39.947,
+       "end": 40.194
+      },
+      {
+       "text": "sie",
+       "start": 40.194,
+       "end": 40.364
+      },
+      {
+       "text": "sich",
+       "start": 40.364,
+       "end": 40.573
+      },
+      {
+       "text": "wieder.",
+       "start": 40.573,
+       "end": 40.857
+      }
+     ]
+    },
+    {
+     "show": "Und alles, was liegen geblieben ist,",
+     "start": 41.157,
+     "end": 42.916,
+     "words": [
+      {
+       "text": "Und",
+       "start": 41.157,
+       "end": 41.366
+      },
+      {
+       "text": "alles,",
+       "start": 41.366,
+       "end": 41.666
+      },
+      {
+       "text": "was",
+       "start": 41.666,
+       "end": 41.875
+      },
+      {
+       "text": "liegen",
+       "start": 41.875,
+       "end": 42.222
+      },
+      {
+       "text": "geblieben",
+       "start": 42.222,
+       "end": 42.708
+      },
+      {
+       "text": "ist,",
+       "start": 42.708,
+       "end": 42.916
+      }
+     ]
+    },
+    {
+     "show": "wird in die andere Richtung gerissen.",
+     "start": 43.076,
+     "end": 44.644,
+     "words": [
+      {
+       "text": "wird",
+       "start": 43.076,
+       "end": 43.292
+      },
+      {
+       "text": "in",
+       "start": 43.292,
+       "end": 43.429
+      },
+      {
+       "text": "die",
+       "start": 43.429,
+       "end": 43.605
+      },
+      {
+       "text": "andere",
+       "start": 43.605,
+       "end": 43.899
+      },
+      {
+       "text": "Richtung",
+       "start": 43.899,
+       "end": 44.271
+      },
+      {
+       "text": "gerissen.",
+       "start": 44.271,
+       "end": 44.644
+      }
+     ]
+    }
+   ],
+   "end": 44.944
+  }
+ ]
+}
