@@ -3,15 +3,15 @@
     #root { position:absolute; inset:0; background:#000; }
     #w-canvas { position:absolute; left:0; top:0; width:1080px; height:1920px; }
   </style>
-  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="48.14">
+  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="54.95">
     <canvas id="w-canvas" width="1080" height="1920"></canvas>
   </div>
   <script>
 
-const K = {"stop": 12.842, "turn": 16.056, "roofs": 26.688, "space": 34.06, "globe": 35.26, "restart": 40.573, "back": 40.907, "yank": 43.429, "end": 45.344};
+const K = {"stop": 14.442, "turn": 18.248, "roofs": 31.361, "space": 38.08, "globe": 39.28, "restart": 46.441, "back": 46.924, "yank": 49.962, "end": 52.146};
 window.__hf = window.__hf || {}; window.__hf.buildReady = window.__hf.buildReady || {};
 window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THREE) => {
-  const W = 1080, H = 1920, DUR = 48.14;
+  const W = 1080, H = 1920, DUR = 54.95;
   const canvas = document.getElementById("w-canvas");
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
   renderer.setPixelRatio(1); renderer.setSize(W, H, false);
@@ -238,9 +238,9 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     } else if (!back) {
       // ---------- Stopp: du (die Kamera) und alles Lose fliegt mit ~310 m/s nach Osten (zeitlich gedehnt)
       const x = flyX(s);
-      const turn = ease((t - K.turn + 0.6) / 2.2);
+      const turn = ease((s - 0.5) / 2.0);
       const up = t < K.space ? 0 : easeIn3((t - K.space) / 1.6);
-      cam.position.set(P1.x + x, P1.y + 2.5 * ease(s / 3) + up * 1800, P1.z * (1 - ease((s - 0.8) / 2.6)) + Math.sin(s * 9) * 0.06);
+      cam.position.set(P1.x + x, P1.y + 2.5 * ease(s / 3) + up * 1800, P1.z * (1 - ease((s - 0.2) / 1.8)) + Math.sin(s * 9) * 0.06);
       const yaw = -Math.PI / 2 * (1 - turn);       // erst Richtung Rathaus (Norden), dann nach Osten
       look.set(cam.position.x + Math.cos(yaw) * 50, cam.position.y + 6 - up * 60, cam.position.z + Math.sin(yaw) * 50);
       cam.fov = 62 + 10 * ease(s / 2);

@@ -28,7 +28,7 @@ def wa(bid, li, wi=0):
 
 
 K = {
-    "stop": wa("platz", 3, 3),                 # „stoppt“
+    "stop": round(B["platz"]["lines"][3]["end"] - 0.1, 3),   # das „t“ von „stoppt“ (Zeilenende)
     "turn": wa("stopp", 2, 0),                 # Kamera dreht nach Osten
     "roofs": wa("sturm", 2, 1),                # „Dächer“
     "space": round(B["ozean"]["start"] - 0.7, 3),
@@ -273,9 +273,9 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     } else if (!back) {
       // ---------- Stopp: du (die Kamera) und alles Lose fliegt mit ~310 m/s nach Osten (zeitlich gedehnt)
       const x = flyX(s);
-      const turn = ease((t - K.turn + 0.6) / 2.2);
+      const turn = ease((s - 0.5) / 2.0);
       const up = t < K.space ? 0 : easeIn3((t - K.space) / 1.6);
-      cam.position.set(P1.x + x, P1.y + 2.5 * ease(s / 3) + up * 1800, P1.z * (1 - ease((s - 0.8) / 2.6)) + Math.sin(s * 9) * 0.06);
+      cam.position.set(P1.x + x, P1.y + 2.5 * ease(s / 3) + up * 1800, P1.z * (1 - ease((s - 0.2) / 1.8)) + Math.sin(s * 9) * 0.06);
       const yaw = -Math.PI / 2 * (1 - turn);       // erst Richtung Rathaus (Norden), dann nach Osten
       look.set(cam.position.x + Math.cos(yaw) * 50, cam.position.y + 6 - up * 60, cam.position.z + Math.sin(yaw) * 50);
       cam.fov = 62 + 10 * ease(s / 2);
