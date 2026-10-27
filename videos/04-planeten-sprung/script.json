@@ -3,49 +3,185 @@
   "voice": "thorsten-low",
   "length_scale": 1.05,
   "beats": [
-    { "id": "hook", "label": "", "lines": [
-      { "show": "Was wäre, wenn du auf jedem Planeten" },
-      { "show": "einmal {y:hochspringst}?" } ] },
-    { "id": "setup", "label": "", "lines": [
-      { "show": "Gleicher Sprung." },
-      { "show": "Gleiche Kraft." },
-      { "show": "Nur die {y:Schwerkraft} ist anders." },
-      { "show": "Drei. Zwei. {y:Eins}." } ] },
-    { "id": "jupiter", "label": "", "lines": [
-      { "show": "Auf dem {r:Jupiter}:" },
-      { "show": "gerade mal {r:20 Zentimeter}.", "say": "gerade mal zwanzig Zentimeter." },
-      { "show": "Du bist sofort wieder unten." } ] },
-    { "id": "erde", "label": "", "lines": [
-      { "show": "Auf der {t:Erde}:" },
-      { "show": "{t:50 Zentimeter}.", "say": "fünfzig Zentimeter." },
-      { "show": "Nicht mal eine Sekunde in der Luft." } ] },
-    { "id": "mars", "label": "", "lines": [
-      { "show": "Auf dem {r:Mars}:" },
-      { "show": "{y:1,3 Meter}.", "say": "eins Komma drei Meter." },
-      { "show": "Fast zwei Sekunden." } ] },
-    { "id": "mond", "label": "", "lines": [
-      { "show": "Und auf dem {y:Mond}?" },
-      { "show": "{g:3 Meter} hoch.", "say": "drei Meter hoch." },
-      { "show": "Fast {g:4 Sekunden} in der Luft.", "say": "Fast vier Sekunden in der Luft." } ] },
-    { "id": "hoeher", "label": "", "lines": [
-      { "show": "Aber es geht {y:noch höher}." } ] },
-    { "id": "pluto", "label": "", "lines": [
-      { "show": "Auf {y:Pluto}:" },
-      { "show": "{g:8 Meter}.", "say": "acht Meter." },
-      { "show": "Zehn Sekunden Flug." } ] },
-    { "id": "ceres", "label": "", "lines": [
-      { "show": "Auf dem Zwergplaneten {y:Ceres}:" },
-      { "show": "{g:17 Meter}.", "say": "siebzehn Meter." },
-      { "show": "So hoch wie ein Haus mit {y:sechs Stockwerken}." } ] },
-    { "id": "bennu", "label": "", "lines": [
-      { "show": "Und auf dem Asteroiden {r:Bennu}?" },
-      { "show": "Du springst ab …" },
-      { "show": "und kommst {r:nie wieder} zurück." } ] },
-    { "id": "warum", "label": "", "lines": [
-      { "show": "Dein Sprung ist schneller" },
-      { "show": "als seine {r:Fluchtgeschwindigkeit}." } ] },
-    { "id": "frage", "label": "", "lines": [
-      { "show": "Auf welchem Planeten" },
-      { "show": "würdest {y:du} springen?" } ] }
+    {
+      "id": "hook",
+      "label": "",
+      "lines": [
+        {
+          "show": "Was wäre, wenn du auf jedem Planeten"
+        },
+        {
+          "show": "einmal {y:hochspringst}?"
+        }
+      ]
+    },
+    {
+      "id": "setup",
+      "label": "",
+      "lines": [
+        {
+          "show": "Gleicher Sprung."
+        },
+        {
+          "show": "Gleiche Kraft."
+        },
+        {
+          "show": "Nur die {y:Schwerkraft} ist anders."
+        },
+        {
+          "show": "Drei."
+        },
+        {
+          "show": "Zwei. {y:Eins}.",
+          "start_hint": 9.81
+        }
+      ]
+    },
+    {
+      "id": "jupiter",
+      "label": "",
+      "lines": [
+        {
+          "show": "Auf dem {r:Jupiter}:"
+        },
+        {
+          "show": "gerade mal {r:20 Zentimeter}.",
+          "say": "gerade mal zwanzig Zentimeter."
+        },
+        {
+          "show": "Du bist sofort wieder unten."
+        }
+      ]
+    },
+    {
+      "id": "erde",
+      "label": "",
+      "lines": [
+        {
+          "show": "Auf der {t:Erde}:"
+        },
+        {
+          "show": "{t:50 Zentimeter}.",
+          "say": "fünfzig Zentimeter."
+        },
+        {
+          "show": "Nicht mal eine Sekunde in der Luft."
+        }
+      ]
+    },
+    {
+      "id": "mars",
+      "label": "",
+      "lines": [
+        {
+          "show": "Auf dem {r:Mars}:"
+        },
+        {
+          "show": "{y:1,3 Meter}.",
+          "say": "eins Komma drei Meter."
+        },
+        {
+          "show": "Fast zwei Sekunden."
+        }
+      ]
+    },
+    {
+      "id": "mond",
+      "label": "",
+      "lines": [
+        {
+          "show": "Und auf dem {y:Mond}?"
+        },
+        {
+          "show": "{g:3 Meter} hoch.",
+          "say": "drei Meter hoch."
+        },
+        {
+          "show": "Fast {g:4 Sekunden} in der Luft.",
+          "say": "Fast vier Sekunden in der Luft."
+        }
+      ]
+    },
+    {
+      "id": "hoeher",
+      "label": "",
+      "lines": [
+        {
+          "show": "Aber es geht {y:noch höher}."
+        }
+      ]
+    },
+    {
+      "id": "pluto",
+      "label": "",
+      "lines": [
+        {
+          "show": "Auf {y:Pluto}:"
+        },
+        {
+          "show": "{g:8 Meter}.",
+          "say": "acht Meter."
+        },
+        {
+          "show": "Zehn Sekunden Flug."
+        }
+      ]
+    },
+    {
+      "id": "ceres",
+      "label": "",
+      "lines": [
+        {
+          "show": "Auf dem Zwergplaneten {y:Ceres}:"
+        },
+        {
+          "show": "{g:17 Meter}.",
+          "say": "siebzehn Meter."
+        },
+        {
+          "show": "So hoch wie ein Haus mit {y:sechs Stockwerken}."
+        }
+      ]
+    },
+    {
+      "id": "bennu",
+      "label": "",
+      "lines": [
+        {
+          "show": "Und auf dem Asteroiden {r:Bennu}?"
+        },
+        {
+          "show": "Du springst ab …"
+        },
+        {
+          "show": "und kommst {r:nie wieder} zurück."
+        }
+      ]
+    },
+    {
+      "id": "warum",
+      "label": "",
+      "lines": [
+        {
+          "show": "Dein Sprung ist schneller"
+        },
+        {
+          "show": "als seine {r:Fluchtgeschwindigkeit}."
+        }
+      ]
+    },
+    {
+      "id": "frage",
+      "label": "",
+      "lines": [
+        {
+          "show": "Auf welchem Planeten"
+        },
+        {
+          "show": "würdest {y:du} springen?",
+          "start_hint": 54.47
+        }
+      ]
+    }
   ]
 }

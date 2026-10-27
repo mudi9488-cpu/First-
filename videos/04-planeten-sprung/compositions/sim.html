@@ -179,7 +179,7 @@
   <script>
     const tl = gsap.timeline({ paused: true });
 
-    const K = {"jump1": 9.604000000000001, "a1": [[9.604000000000001, 0], [13.775, 0.25268995180904924], [18.231, 0.638550856814101], [23.143, 1.6884592736782562], [27.63, 3.866780188485389]], "switch": 28.53, "jump2": 29.738, "a2": [[29.738, 0], [33.114999999999995, 10.103522427977952], [38.738, 22.372085376236893]], "focus": [[10.404, "ju"], [15.358, "er"], [19.78, "ma"], [24.143, "mo"], [28.53, ""], [30.288, "pl"], [34.015, "ce"], [39.738, "be"], [47.76, ""]], "warum": 44.461, "bennu_pill": 42.919, "end": 47.66, "v": 3.132091952673165}, V = K.v;
+    const K = {"jump1": 10.198, "a1": [[10.198, 0], [16.1, 0.25268995180904924], [20.874, 0.638550856814101], [26.447, 1.6884592736782562], [31.574, 3.866780188485389]], "switch": 32.339, "jump2": 33.787, "a2": [[33.787, 0], [37.361999999999995, 10.103522427977952], [43.559000000000005, 22.372085376236893]], "focus": [[10.96, "ju"], [17.421, "er"], [22.203, "ma"], [27.134, "mo"], [32.339, ""], [34.008, "pl"], [38.028, "ce"], [44.528, "be"], [53.502, ""]], "warum": 49.93, "bennu_pill": 48.533, "end": 53.402, "v": 3.132091952673165}, V = K.v;
     const L1 = [["ju", "Jupiter", 24.79, "#D9A066"], ["er", "Erde", 9.81, "#4F9BE8"], ["ma", "Mars", 3.71, "#C1502E"], ["mo", "Mond", 1.62, "#B8BCC6"]], L2 = [["mo2", "Mond", 1.62, "#B8BCC6"], ["pl", "Pluto", 0.62, "#C9B7A0"], ["ce", "Ceres", 0.28, "#8A8F99"], ["be", "Bennu", 0.0, "#6E6A64"]];
     const GROUND = 1110, S1 = 125.0, S2 = 30.0;
     const interp = (a, t, extend) => {
@@ -223,18 +223,18 @@
                                      : (t < K.jump2 ? "BEREIT" : "ZEITRAFFER");
     }
     const st = { t: 0 };
-    tl.to(st, { t: 52.63, duration: 52.63, ease: "none", onUpdate: () => render(st.t) }, 0);
+    tl.to(st, { t: 58.45, duration: 58.45, ease: "none", onUpdate: () => render(st.t) }, 0);
     render(0);
 
-    tl.fromTo("#p1", {opacity:1}, {opacity:0, duration:0.4, ease:"power2.in"}, 28.53);
-    tl.fromTo("#p2", {opacity:0}, {opacity:1, duration:0.5, ease:"power2.out"}, 28.880000000000003);
-    tl.fromTo("#cmp", {opacity:0, scale:1.3}, {opacity:1, scale:1, duration:0.3, ease:"expo.out", svgOrigin:"540 640"}, 44.461);
-    tl.to("#cmp", {opacity:0, duration:0.2}, 47.66);
-    tl.fromTo("#bennu-pill", {opacity:0, scale:1.5}, {opacity:1, scale:1, duration:0.25, ease:"expo.out", svgOrigin:"915.0 520"}, 42.919);
-    tl.to("#bennu-pill", {opacity:0, duration:0.2}, 44.461);
-    tl.fromTo("#lanes", {opacity:1}, {opacity:0.15, duration:0.4}, 47.66);
-    tl.fromTo("#endcard", {opacity:0, y:40}, {opacity:1, y:0, duration:0.5, ease:"expo.out"}, 47.76);
-    tl.fromTo(".erow", {opacity:0, x:-30}, {opacity:1, x:0, duration:0.3, stagger:0.12, ease:"expo.out"}, 48.01);
+    tl.fromTo("#p1", {opacity:1}, {opacity:0, duration:0.4, ease:"power2.in"}, 32.339);
+    tl.fromTo("#p2", {opacity:0}, {opacity:1, duration:0.5, ease:"power2.out"}, 32.689);
+    tl.fromTo("#cmp", {opacity:0, scale:1.3}, {opacity:1, scale:1, duration:0.3, ease:"expo.out", svgOrigin:"540 640"}, 49.93);
+    tl.to("#cmp", {opacity:0, duration:0.2}, 53.402);
+    tl.fromTo("#bennu-pill", {opacity:0, scale:1.5}, {opacity:1, scale:1, duration:0.25, ease:"expo.out", svgOrigin:"915.0 520"}, 48.533);
+    tl.to("#bennu-pill", {opacity:0, duration:0.2}, 49.93);
+    tl.fromTo("#lanes", {opacity:1}, {opacity:0.15, duration:0.4}, 53.402);
+    tl.fromTo("#endcard", {opacity:0, y:40}, {opacity:1, y:0, duration:0.5, ease:"expo.out"}, 53.502);
+    tl.fromTo(".erow", {opacity:0, x:-30}, {opacity:1, x:0, duration:0.3, stagger:0.12, ease:"expo.out"}, 53.752);
 
     window.__timelines["sim"] = tl;
   </script>

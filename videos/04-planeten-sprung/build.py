@@ -36,9 +36,9 @@ PHASE1 = [("ju", "Jupiter", 24.79, "#D9A066"), ("er", "Erde", 9.81, "#4F9BE8"), 
 PHASE2 = [("mo2", "Mond", 1.62, "#B8BCC6"), ("pl", "Pluto", 0.62, "#C9B7A0"), ("ce", "Ceres", 0.28, "#8A8F99"), ("be", "Bennu", 0.0, "#6E6A64")]
 
 K = {
-    "jump1": lend("setup", 3) - 0.1,
+    "jump1": lend("setup", 4) - 0.1,
     # Zeitlupe: Sim-Zeit landet genau, wenn der Sprecher davon erzählt
-    "a1": [[lend("setup", 3) - 0.1, 0], [wa("jupiter", 2, 2), 2 * V / 24.79], [wa("erde", 2, 3), 2 * V / 9.81],
+    "a1": [[lend("setup", 4) - 0.1, 0], [wa("jupiter", 2, 2), 2 * V / 24.79], [wa("erde", 2, 3), 2 * V / 9.81],
            [lend("mars", 2) - 0.3, 2 * V / 3.71], [lend("mond", 2) - 0.2, 2 * V / 1.62]],
     "switch": B["hoeher"]["start"],
     "jump2": lend("hoeher", 0) + 0.15,
@@ -252,7 +252,7 @@ def title_html():
 
 
 SFX = [
-    (wa("setup", 3, 0), "click-soft.mp3", 0.5), (wa("setup", 3, 1), "click-soft.mp3", 0.5),
+    (wa("setup", 3, 0), "click-soft.mp3", 0.5), (wa("setup", 4, 0), "click-soft.mp3", 0.5),
     (K["jump1"] - 0.05, "whoosh-short.mp3", 0.5),
     (K["a1"][1][0], "pop.mp3", 0.45), (K["a1"][2][0], "pop.mp3", 0.45), (K["a1"][3][0], "pop.mp3", 0.45), (K["a1"][4][0], "pop.mp3", 0.45),
     (K["switch"] - 0.1, "whoosh-cinematic.mp3", 0.35),

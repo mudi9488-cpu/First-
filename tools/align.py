@@ -130,6 +130,14 @@ def main(project: Path, audio: Path):
             ends[k] = en
             t = en
 
+    # Handkorrektur: "start_hint" (Sekunden) im Skript erzwingt den Anfang einer Zeile – für Grenzen ohne hörbare Pause
+    for k, (_, l) in enumerate(lines):
+        if "start_hint" in l:
+            h = float(l["start_hint"])
+            starts[k] = h
+            if k > 0:
+                ends[k - 1] = min(ends[k - 1], h - 0.03)
+
     beats_out, li = [], 0
     for b in script["beats"]:
         bo = {"id": b["id"], "label": b["label"], "lines": []}
