@@ -162,7 +162,7 @@ def hud_html(timings, checklist, total, check_end=None):
 
 # ---------------------------------------------------------------- Karaoke-Untertitel
 
-def captions_html(timings, total, top=1150):
+def captions_html(timings, total, top=1150, upper=True, size=84):
     """Eine Zeile = eine Gruppe. Kommende Wörter grau, gesprochene weiß,
     {y:..}-markierte Wörter werden beim Sprechen farbig (Stil Referenz B)."""
     lines = [l for b in timings["beats"] for l in b["lines"]]
@@ -191,7 +191,7 @@ def captions_html(timings, total, top=1150):
     css = f"""
 #root {{ position:absolute; inset:0; }}
 .grp {{ position:absolute; left:60px; right:60px; top:{top}px; text-align:center; overflow:visible; }}
-.in {{ font-family:'Inter',sans-serif; font-weight:900; font-size:84px; line-height:1.02; text-transform:uppercase;
+.in {{ font-family:'Inter',sans-serif; font-weight:900; font-size:{size}px; line-height:1.02; text-transform:{'uppercase' if upper else 'none'};
   letter-spacing:-0.01em; -webkit-text-stroke:14px #000; paint-order:stroke fill;
   text-shadow:0 6px 0 #000, 0 0 30px rgba(0,0,0,0.6); }}
 .w {{ color:{C['dim']}; }}

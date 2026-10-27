@@ -1,0 +1,16 @@
+<template>
+  <style>#root { position:absolute; inset:0; }
+    #tt { position:absolute; left:40px; right:40px; top:330px; font-family:'Inter',sans-serif; text-align:center; background:rgba(11,17,32,0.92); border-radius:28px; padding:34px 20px; }
+    #tt .a { font-weight:900; font-size:86px; line-height:1.0; }
+    #tt .b { font-weight:900; font-size:52px; color:#8A94A6; margin-top:18px; }</style>
+  <div id="root" data-composition-id="title" data-width="1080" data-height="1920">
+    <div id="tt"><div class="a"><span style="color:#D9A066">JUPITER</span> <span style="color:#8A94A6;font-size:52px">vs</span> <span style="color:#4F9BE8">ERDE</span><br>
+      <span style="color:#C1502E">MARS</span> <span style="color:#8A94A6;font-size:52px">vs</span> <span style="color:#B8BCC6">MOND</span></div>
+      <div class="b">WIE HOCH SPRINGST DU?</div></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#tt", {opacity:1}, {opacity:0, scale:0.96, duration:0.3, ease:"power2.in"}, 3.9170000000000003);
+    window.__timelines["title"] = tl;
+  </script>
+</template>

@@ -1,0 +1,241 @@
+<template>
+  <style>
+    #root { position:absolute; inset:0; background:radial-gradient(ellipse 90% 60% at 50% 40%, #18223A 0%, #0B1120 75%); }
+    #tmbox { position:absolute; left:0; right:0; top:176px; text-align:center; }
+    #tm { display:inline-block; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:64px; color:#fff; background:#121A2B;
+      border:3px solid #2A3652; border-radius:18px; padding:4px 26px; font-variant-numeric:tabular-nums; }
+    #tm-mode { display:block; width:max-content; margin:10px auto 0; font-family:'Inter',sans-serif; font-weight:900; font-size:28px;
+      letter-spacing:0.1em; color:#0A0F1C; background:#E6E9F0; border-radius:999px; padding:4px 18px; }
+  </style>
+  <div id="root" data-composition-id="sim" data-width="1080" data-height="1920" data-layout-allow-overlap>
+    <svg viewBox="0 0 1080 1920" width="1080" height="1920" style="position:absolute;left:0;top:0" data-layout-allow-overflow>
+      <g><circle cx="948" cy="764" r="2" fill="#fff" opacity="0.25"/><circle cx="381" cy="13" r="2" fill="#fff" opacity="0.6"/><circle cx="949" cy="165" r="2" fill="#fff" opacity="0.6"/><circle cx="83" cy="776" r="1.5" fill="#fff" opacity="0.6"/><circle cx="925" cy="865" r="1.5" fill="#fff" opacity="0.25"/><circle cx="487" cy="105" r="1.5" fill="#fff" opacity="0.25"/><circle cx="1036" cy="129" r="2.5" fill="#fff" opacity="0.4"/><circle cx="208" cy="596" r="1.5" fill="#fff" opacity="0.6"/><circle cx="459" cy="863" r="1.5" fill="#fff" opacity="0.4"/><circle cx="429" cy="812" r="2" fill="#fff" opacity="0.4"/><circle cx="88" cy="408" r="2.5" fill="#fff" opacity="0.25"/><circle cx="842" cy="112" r="2" fill="#fff" opacity="0.4"/><circle cx="284" cy="48" r="1.5" fill="#fff" opacity="0.4"/><circle cx="229" cy="7" r="1.5" fill="#fff" opacity="0.6"/><circle cx="404" cy="415" r="2" fill="#fff" opacity="0.25"/><circle cx="171" cy="272" r="2.5" fill="#fff" opacity="0.25"/><circle cx="1025" cy="173" r="2.5" fill="#fff" opacity="0.4"/><circle cx="405" cy="860" r="1.5" fill="#fff" opacity="0.4"/><circle cx="393" cy="191" r="2.5" fill="#fff" opacity="0.6"/><circle cx="297" cy="353" r="2.5" fill="#fff" opacity="0.6"/><circle cx="84" cy="110" r="2" fill="#fff" opacity="0.6"/><circle cx="305" cy="549" r="2.5" fill="#fff" opacity="0.6"/><circle cx="70" cy="248" r="2.5" fill="#fff" opacity="0.4"/><circle cx="484" cy="331" r="2.5" fill="#fff" opacity="0.6"/><circle cx="88" cy="749" r="2.5" fill="#fff" opacity="0.6"/><circle cx="177" cy="711" r="1.5" fill="#fff" opacity="0.6"/><circle cx="748" cy="924" r="1.5" fill="#fff" opacity="0.4"/><circle cx="407" cy="37" r="2" fill="#fff" opacity="0.6"/><circle cx="673" cy="1" r="2" fill="#fff" opacity="0.25"/><circle cx="437" cy="454" r="2" fill="#fff" opacity="0.4"/><circle cx="665" cy="181" r="2" fill="#fff" opacity="0.6"/><circle cx="583" cy="211" r="2.5" fill="#fff" opacity="0.25"/><circle cx="52" cy="781" r="2.5" fill="#fff" opacity="0.4"/><circle cx="1018" cy="708" r="2.5" fill="#fff" opacity="0.25"/><circle cx="135" cy="870" r="2.5" fill="#fff" opacity="0.25"/><circle cx="196" cy="821" r="2.5" fill="#fff" opacity="0.4"/><circle cx="756" cy="284" r="2.5" fill="#fff" opacity="0.4"/><circle cx="350" cy="530" r="1.5" fill="#fff" opacity="0.25"/><circle cx="353" cy="538" r="1.5" fill="#fff" opacity="0.25"/><circle cx="303" cy="24" r="1.5" fill="#fff" opacity="0.25"/><circle cx="922" cy="427" r="2" fill="#fff" opacity="0.4"/><circle cx="30" cy="726" r="2" fill="#fff" opacity="0.25"/><circle cx="984" cy="568" r="1.5" fill="#fff" opacity="0.25"/><circle cx="606" cy="241" r="1.5" fill="#fff" opacity="0.4"/><circle cx="924" cy="291" r="2.5" fill="#fff" opacity="0.6"/><circle cx="784" cy="346" r="2.5" fill="#fff" opacity="0.6"/><circle cx="561" cy="1012" r="2" fill="#fff" opacity="0.25"/><circle cx="99" cy="566" r="2.5" fill="#fff" opacity="0.25"/><circle cx="354" cy="172" r="1.5" fill="#fff" opacity="0.25"/><circle cx="26" cy="415" r="1.5" fill="#fff" opacity="0.4"/><circle cx="935" cy="795" r="1.5" fill="#fff" opacity="0.25"/><circle cx="987" cy="537" r="2.5" fill="#fff" opacity="0.25"/><circle cx="58" cy="892" r="2.5" fill="#fff" opacity="0.4"/><circle cx="1072" cy="1079" r="2.5" fill="#fff" opacity="0.6"/><circle cx="134" cy="615" r="1.5" fill="#fff" opacity="0.6"/><circle cx="459" cy="281" r="1.5" fill="#fff" opacity="0.25"/><circle cx="1006" cy="928" r="1.5" fill="#fff" opacity="0.4"/><circle cx="108" cy="59" r="2" fill="#fff" opacity="0.25"/><circle cx="939" cy="473" r="2" fill="#fff" opacity="0.6"/><circle cx="1015" cy="497" r="1.5" fill="#fff" opacity="0.6"/><circle cx="173" cy="96" r="2.5" fill="#fff" opacity="0.4"/><circle cx="832" cy="141" r="1.5" fill="#fff" opacity="0.25"/><circle cx="69" cy="371" r="1.5" fill="#fff" opacity="0.25"/><circle cx="61" cy="726" r="2.5" fill="#fff" opacity="0.4"/><circle cx="972" cy="53" r="2.5" fill="#fff" opacity="0.25"/><circle cx="683" cy="173" r="2" fill="#fff" opacity="0.25"/><circle cx="949" cy="919" r="2.5" fill="#fff" opacity="0.25"/><circle cx="790" cy="979" r="1.5" fill="#fff" opacity="0.25"/><circle cx="714" cy="473" r="2" fill="#fff" opacity="0.25"/><circle cx="393" cy="452" r="1.5" fill="#fff" opacity="0.25"/><circle cx="107" cy="245" r="1.5" fill="#fff" opacity="0.6"/><circle cx="169" cy="762" r="1.5" fill="#fff" opacity="0.6"/><circle cx="48" cy="957" r="2.5" fill="#fff" opacity="0.6"/><circle cx="410" cy="756" r="2.5" fill="#fff" opacity="0.25"/><circle cx="483" cy="11" r="2" fill="#fff" opacity="0.6"/><circle cx="404" cy="31" r="2" fill="#fff" opacity="0.4"/><circle cx="45" cy="211" r="2.5" fill="#fff" opacity="0.4"/><circle cx="118" cy="514" r="2" fill="#fff" opacity="0.4"/><circle cx="451" cy="120" r="2.5" fill="#fff" opacity="0.4"/><circle cx="270" cy="614" r="1.5" fill="#fff" opacity="0.25"/><circle cx="723" cy="825" r="1.5" fill="#fff" opacity="0.4"/><circle cx="193" cy="60" r="2" fill="#fff" opacity="0.4"/><circle cx="506" cy="853" r="2.5" fill="#fff" opacity="0.4"/><circle cx="1007" cy="710" r="2" fill="#fff" opacity="0.4"/><circle cx="427" cy="160" r="2" fill="#fff" opacity="0.4"/><circle cx="945" cy="955" r="2.5" fill="#fff" opacity="0.6"/><circle cx="933" cy="900" r="2" fill="#fff" opacity="0.25"/><circle cx="674" cy="823" r="1.5" fill="#fff" opacity="0.4"/><circle cx="188" cy="349" r="2" fill="#fff" opacity="0.6"/><circle cx="55" cy="386" r="1.5" fill="#fff" opacity="0.6"/><circle cx="746" cy="281" r="2.5" fill="#fff" opacity="0.25"/><circle cx="691" cy="915" r="2.5" fill="#fff" opacity="0.6"/><circle cx="788" cy="432" r="2.5" fill="#fff" opacity="0.6"/><circle cx="686" cy="155" r="1.5" fill="#fff" opacity="0.6"/><circle cx="863" cy="963" r="1.5" fill="#fff" opacity="0.6"/><circle cx="662" cy="1052" r="2.5" fill="#fff" opacity="0.25"/><circle cx="948" cy="6" r="2" fill="#fff" opacity="0.6"/><circle cx="420" cy="146" r="1.5" fill="#fff" opacity="0.25"/><circle cx="644" cy="86" r="1.5" fill="#fff" opacity="0.25"/><circle cx="672" cy="334" r="2.5" fill="#fff" opacity="0.25"/><circle cx="1043" cy="826" r="2.5" fill="#fff" opacity="0.4"/><circle cx="797" cy="1036" r="1.5" fill="#fff" opacity="0.6"/><circle cx="731" cy="735" r="2" fill="#fff" opacity="0.25"/><circle cx="656" cy="788" r="2.5" fill="#fff" opacity="0.25"/><circle cx="364" cy="351" r="1.5" fill="#fff" opacity="0.4"/><circle cx="41" cy="570" r="2" fill="#fff" opacity="0.6"/><circle cx="874" cy="191" r="2" fill="#fff" opacity="0.4"/><circle cx="294" cy="1058" r="2" fill="#fff" opacity="0.4"/><circle cx="475" cy="366" r="2" fill="#fff" opacity="0.25"/><circle cx="711" cy="104" r="2.5" fill="#fff" opacity="0.4"/><circle cx="705" cy="53" r="2.5" fill="#fff" opacity="0.25"/><circle cx="197" cy="928" r="1.5" fill="#fff" opacity="0.4"/><circle cx="431" cy="275" r="2" fill="#fff" opacity="0.25"/><circle cx="1055" cy="415" r="2.5" fill="#fff" opacity="0.6"/><circle cx="866" cy="20" r="2.5" fill="#fff" opacity="0.25"/><circle cx="726" cy="1016" r="2" fill="#fff" opacity="0.25"/><circle cx="762" cy="816" r="2" fill="#fff" opacity="0.4"/><circle cx="390" cy="202" r="1.5" fill="#fff" opacity="0.6"/><circle cx="173" cy="726" r="2" fill="#fff" opacity="0.25"/><circle cx="961" cy="1076" r="1.5" fill="#fff" opacity="0.6"/><circle cx="24" cy="687" r="2.5" fill="#fff" opacity="0.25"/><circle cx="354" cy="57" r="1.5" fill="#fff" opacity="0.6"/><circle cx="410" cy="693" r="2" fill="#fff" opacity="0.6"/><circle cx="265" cy="676" r="2" fill="#fff" opacity="0.4"/><circle cx="73" cy="156" r="2" fill="#fff" opacity="0.25"/><circle cx="929" cy="950" r="2.5" fill="#fff" opacity="0.25"/><circle cx="643" cy="354" r="1.5" fill="#fff" opacity="0.6"/><circle cx="408" cy="1071" r="2.5" fill="#fff" opacity="0.4"/><circle cx="1027" cy="311" r="2" fill="#fff" opacity="0.25"/><circle cx="812" cy="287" r="2" fill="#fff" opacity="0.4"/><circle cx="986" cy="370" r="2.5" fill="#fff" opacity="0.6"/><circle cx="193" cy="1049" r="2" fill="#fff" opacity="0.6"/><circle cx="534" cy="519" r="2" fill="#fff" opacity="0.6"/><circle cx="710" cy="1099" r="1.5" fill="#fff" opacity="0.25"/><circle cx="120" cy="1082" r="2" fill="#fff" opacity="0.4"/><circle cx="211" cy="422" r="1.5" fill="#fff" opacity="0.25"/><circle cx="951" cy="252" r="2" fill="#fff" opacity="0.4"/><circle cx="604" cy="461" r="1.5" fill="#fff" opacity="0.25"/><circle cx="849" cy="556" r="2" fill="#fff" opacity="0.6"/><circle cx="713" cy="661" r="2.5" fill="#fff" opacity="0.25"/></g>
+      <rect x="0" y="1136" width="1080" height="810" fill="#0A0E18"/>
+      <g id="lanes" data-layout-ignore>
+        <g id="p1"><g id="p1-ruler"><line x1="96" x2="96" y1="1110" y2="547.5" stroke="#5B6478" stroke-width="3"/><line x1="84" x2="104" y1="1110.0" y2="1110.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="1120.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">0</text><line x1="84" x2="104" y1="1047.5" y2="1047.5" stroke="#5B6478" stroke-width="3"/><text x="78" y="1057.5" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">0,5</text><line x1="84" x2="104" y1="985.0" y2="985.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="995.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">1</text><line x1="84" x2="104" y1="922.5" y2="922.5" stroke="#5B6478" stroke-width="3"/><text x="78" y="932.5" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">1,5</text><line x1="84" x2="104" y1="860.0" y2="860.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="870.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">2</text><line x1="84" x2="104" y1="797.5" y2="797.5" stroke="#5B6478" stroke-width="3"/><text x="78" y="807.5" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">2,5</text><line x1="84" x2="104" y1="735.0" y2="735.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="745.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">3</text><line x1="84" x2="104" y1="672.5" y2="672.5" stroke="#5B6478" stroke-width="3"/><text x="78" y="682.5" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">3,5</text><line x1="84" x2="104" y1="610.0" y2="610.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="620.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">4</text><line x1="84" x2="104" y1="547.5" y2="547.5" stroke="#5B6478" stroke-width="3"/><text x="78" y="557.5" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">4,5</text><text x="30" y="1170" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">m</text></g>
+      <g id="ju-lane">
+        <rect x="116" y="350" width="218" height="760" rx="18" fill="#FFFFFF" opacity="0.03"/>
+        <circle cx="152" cy="402" r="26" fill="#D9A066"/>
+        <text x="188" y="397" font-family="Inter" font-weight="800" font-size="32" fill="#fff">Jupiter</text>
+        <text x="188" y="430" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">g 24,79</text>
+        <rect x="116" y="1110" width="218" height="26" rx="6" fill="#D9A066"/>
+        <line id="ju-peak" x1="124" x2="326" y1="1085.3" y2="1085.3" stroke="#F5B83D" stroke-width="4" stroke-dasharray="10 10" opacity="0"/>
+        <g id="ju-fig" transform="translate(225.0,1110)"><g transform="scale(0.8929)">
+          <g class="armsdown"><rect x="-38" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="24" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <g class="armsup" opacity="0"><rect x="-40" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="26" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <rect x="-22" y="-205" width="44" height="112" rx="22" fill="#3CC6BE"/>
+          <rect x="-20" y="-100" width="16" height="100" rx="8" fill="#3CC6BE"/><rect x="4" y="-100" width="16" height="100" rx="8" fill="#2FA79F"/>
+          <circle cx="0" cy="-232" r="27" fill="#F4F1E6"/></g></g>
+        <text id="ju-h" x="225.0" y="840" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#fff">0,00 m</text>
+        <g id="ju-done" opacity="0">
+          <rect x="133.0" y="1050" width="184" height="44" rx="22" fill="#3DDC84"/>
+          <text x="225.0" y="1081" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#0A0F1C">0,25 s</text></g>
+      </g>
+      <g id="er-lane">
+        <rect x="346" y="350" width="218" height="760" rx="18" fill="#FFFFFF" opacity="0.03"/>
+        <circle cx="382" cy="402" r="26" fill="#4F9BE8"/>
+        <text x="418" y="397" font-family="Inter" font-weight="800" font-size="32" fill="#fff">Erde</text>
+        <text x="418" y="430" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">g 9,81</text>
+        <rect x="346" y="1110" width="218" height="26" rx="6" fill="#4F9BE8"/>
+        <line id="er-peak" x1="354" x2="556" y1="1047.5" y2="1047.5" stroke="#F5B83D" stroke-width="4" stroke-dasharray="10 10" opacity="0"/>
+        <g id="er-fig" transform="translate(455.0,1110)"><g transform="scale(0.8929)">
+          <g class="armsdown"><rect x="-38" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="24" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <g class="armsup" opacity="0"><rect x="-40" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="26" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <rect x="-22" y="-205" width="44" height="112" rx="22" fill="#3CC6BE"/>
+          <rect x="-20" y="-100" width="16" height="100" rx="8" fill="#3CC6BE"/><rect x="4" y="-100" width="16" height="100" rx="8" fill="#2FA79F"/>
+          <circle cx="0" cy="-232" r="27" fill="#F4F1E6"/></g></g>
+        <text id="er-h" x="455.0" y="840" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#fff">0,00 m</text>
+        <g id="er-done" opacity="0">
+          <rect x="363.0" y="1050" width="184" height="44" rx="22" fill="#3DDC84"/>
+          <text x="455.0" y="1081" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#0A0F1C">0,64 s</text></g>
+      </g>
+      <g id="ma-lane">
+        <rect x="576" y="350" width="218" height="760" rx="18" fill="#FFFFFF" opacity="0.03"/>
+        <circle cx="612" cy="402" r="26" fill="#C1502E"/>
+        <text x="648" y="397" font-family="Inter" font-weight="800" font-size="32" fill="#fff">Mars</text>
+        <text x="648" y="430" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">g 3,71</text>
+        <rect x="576" y="1110" width="218" height="26" rx="6" fill="#C1502E"/>
+        <line id="ma-peak" x1="584" x2="786" y1="944.7" y2="944.7" stroke="#F5B83D" stroke-width="4" stroke-dasharray="10 10" opacity="0"/>
+        <g id="ma-fig" transform="translate(685.0,1110)"><g transform="scale(0.8929)">
+          <g class="armsdown"><rect x="-38" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="24" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <g class="armsup" opacity="0"><rect x="-40" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="26" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <rect x="-22" y="-205" width="44" height="112" rx="22" fill="#3CC6BE"/>
+          <rect x="-20" y="-100" width="16" height="100" rx="8" fill="#3CC6BE"/><rect x="4" y="-100" width="16" height="100" rx="8" fill="#2FA79F"/>
+          <circle cx="0" cy="-232" r="27" fill="#F4F1E6"/></g></g>
+        <text id="ma-h" x="685.0" y="840" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#fff">0,00 m</text>
+        <g id="ma-done" opacity="0">
+          <rect x="593.0" y="1050" width="184" height="44" rx="22" fill="#3DDC84"/>
+          <text x="685.0" y="1081" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#0A0F1C">1,69 s</text></g>
+      </g>
+      <g id="mo-lane">
+        <rect x="806" y="350" width="218" height="760" rx="18" fill="#FFFFFF" opacity="0.03"/>
+        <circle cx="842" cy="402" r="26" fill="#B8BCC6"/>
+        <text x="878" y="397" font-family="Inter" font-weight="800" font-size="32" fill="#fff">Mond</text>
+        <text x="878" y="430" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">g 1,62</text>
+        <rect x="806" y="1110" width="218" height="26" rx="6" fill="#B8BCC6"/>
+        <line id="mo-peak" x1="814" x2="1016" y1="731.5" y2="731.5" stroke="#F5B83D" stroke-width="4" stroke-dasharray="10 10" opacity="0"/>
+        <g id="mo-fig" transform="translate(915.0,1110)"><g transform="scale(0.8929)">
+          <g class="armsdown"><rect x="-38" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="24" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <g class="armsup" opacity="0"><rect x="-40" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="26" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <rect x="-22" y="-205" width="44" height="112" rx="22" fill="#3CC6BE"/>
+          <rect x="-20" y="-100" width="16" height="100" rx="8" fill="#3CC6BE"/><rect x="4" y="-100" width="16" height="100" rx="8" fill="#2FA79F"/>
+          <circle cx="0" cy="-232" r="27" fill="#F4F1E6"/></g></g>
+        <text id="mo-h" x="915.0" y="840" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#fff">0,00 m</text>
+        <g id="mo-done" opacity="0">
+          <rect x="823.0" y="1050" width="184" height="44" rx="22" fill="#3DDC84"/>
+          <text x="915.0" y="1081" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#0A0F1C">3,87 s</text></g>
+      </g></g>
+        <g id="p2" opacity="0"><g id="p2-zoom"><g id="p2-ruler"><line x1="96" x2="96" y1="1110" y2="510.0" stroke="#5B6478" stroke-width="3"/><line x1="84" x2="104" y1="1110.0" y2="1110.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="1120.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">0</text><line x1="84" x2="104" y1="960.0" y2="960.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="970.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">5</text><line x1="84" x2="104" y1="810.0" y2="810.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="820.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">10</text><line x1="84" x2="104" y1="660.0" y2="660.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="670.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">15</text><line x1="84" x2="104" y1="510.0" y2="510.0" stroke="#5B6478" stroke-width="3"/><text x="78" y="520.0" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">20</text><text x="30" y="1170" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#5B6478">m</text></g></g>
+      <g id="mo2-lane">
+        <rect x="116" y="350" width="218" height="760" rx="18" fill="#FFFFFF" opacity="0.03"/>
+        <circle cx="152" cy="402" r="26" fill="#B8BCC6"/>
+        <text x="188" y="397" font-family="Inter" font-weight="800" font-size="32" fill="#fff">Mond</text>
+        <text x="188" y="430" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">g 1,62</text>
+        <rect x="116" y="1110" width="218" height="26" rx="6" fill="#B8BCC6"/>
+        <line id="mo2-peak" x1="124" x2="326" y1="1019.2" y2="1019.2" stroke="#F5B83D" stroke-width="4" stroke-dasharray="10 10" opacity="0"/>
+        <g id="mo2-fig" transform="translate(225.0,1110)"><g transform="scale(0.2143)">
+          <g class="armsdown"><rect x="-38" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="24" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <g class="armsup" opacity="0"><rect x="-40" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="26" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <rect x="-22" y="-205" width="44" height="112" rx="22" fill="#3CC6BE"/>
+          <rect x="-20" y="-100" width="16" height="100" rx="8" fill="#3CC6BE"/><rect x="4" y="-100" width="16" height="100" rx="8" fill="#2FA79F"/>
+          <circle cx="0" cy="-232" r="27" fill="#F4F1E6"/></g></g>
+        <text id="mo2-h" x="225.0" y="1030" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#fff">0,00 m</text>
+        <g id="mo2-done" opacity="0">
+          <rect x="133.0" y="1050" width="184" height="44" rx="22" fill="#3DDC84"/>
+          <text x="225.0" y="1081" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#0A0F1C">3,87 s</text></g>
+      </g>
+      <g id="pl-lane">
+        <rect x="346" y="350" width="218" height="760" rx="18" fill="#FFFFFF" opacity="0.03"/>
+        <circle cx="382" cy="402" r="26" fill="#C9B7A0"/>
+        <text x="418" y="397" font-family="Inter" font-weight="800" font-size="32" fill="#fff">Pluto</text>
+        <text x="418" y="430" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">g 0,62</text>
+        <rect x="346" y="1110" width="218" height="26" rx="6" fill="#C9B7A0"/>
+        <line id="pl-peak" x1="354" x2="556" y1="872.7" y2="872.7" stroke="#F5B83D" stroke-width="4" stroke-dasharray="10 10" opacity="0"/>
+        <g id="pl-fig" transform="translate(455.0,1110)"><g transform="scale(0.2143)">
+          <g class="armsdown"><rect x="-38" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="24" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <g class="armsup" opacity="0"><rect x="-40" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="26" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <rect x="-22" y="-205" width="44" height="112" rx="22" fill="#3CC6BE"/>
+          <rect x="-20" y="-100" width="16" height="100" rx="8" fill="#3CC6BE"/><rect x="4" y="-100" width="16" height="100" rx="8" fill="#2FA79F"/>
+          <circle cx="0" cy="-232" r="27" fill="#F4F1E6"/></g></g>
+        <text id="pl-h" x="455.0" y="1030" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#fff">0,00 m</text>
+        <g id="pl-done" opacity="0">
+          <rect x="363.0" y="1050" width="184" height="44" rx="22" fill="#3DDC84"/>
+          <text x="455.0" y="1081" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#0A0F1C">10,10 s</text></g>
+      </g>
+      <g id="ce-lane">
+        <rect x="576" y="350" width="218" height="760" rx="18" fill="#FFFFFF" opacity="0.03"/>
+        <circle cx="612" cy="402" r="26" fill="#8A8F99"/>
+        <text x="648" y="397" font-family="Inter" font-weight="800" font-size="32" fill="#fff">Ceres</text>
+        <text x="648" y="430" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">g 0,28</text>
+        <rect x="576" y="1110" width="218" height="26" rx="6" fill="#8A8F99"/>
+        <line id="ce-peak" x1="584" x2="786" y1="584.5" y2="584.5" stroke="#F5B83D" stroke-width="4" stroke-dasharray="10 10" opacity="0"/>
+        <g id="ce-fig" transform="translate(685.0,1110)"><g transform="scale(0.2143)">
+          <g class="armsdown"><rect x="-38" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="24" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <g class="armsup" opacity="0"><rect x="-40" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="26" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <rect x="-22" y="-205" width="44" height="112" rx="22" fill="#3CC6BE"/>
+          <rect x="-20" y="-100" width="16" height="100" rx="8" fill="#3CC6BE"/><rect x="4" y="-100" width="16" height="100" rx="8" fill="#2FA79F"/>
+          <circle cx="0" cy="-232" r="27" fill="#F4F1E6"/></g></g>
+        <text id="ce-h" x="685.0" y="1030" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#fff">0,00 m</text>
+        <g id="ce-done" opacity="0">
+          <rect x="593.0" y="1050" width="184" height="44" rx="22" fill="#3DDC84"/>
+          <text x="685.0" y="1081" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#0A0F1C">22,37 s</text></g>
+      </g>
+      <g id="be-lane">
+        <rect x="806" y="350" width="218" height="760" rx="18" fill="#FFFFFF" opacity="0.03"/>
+        <circle cx="842" cy="402" r="26" fill="#6E6A64"/>
+        <text x="878" y="397" font-family="Inter" font-weight="800" font-size="32" fill="#fff">Bennu</text>
+        <text x="878" y="430" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">g ≈ 0</text>
+        <rect x="806" y="1110" width="218" height="26" rx="6" fill="#6E6A64"/>
+        <line id="be-peak" x1="814" x2="1016" y1="-100.0" y2="-100.0" stroke="#F5B83D" stroke-width="4" stroke-dasharray="10 10" opacity="0"/>
+        <g id="be-fig" transform="translate(915.0,1110)"><g transform="scale(0.2143)">
+          <g class="armsdown"><rect x="-38" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="24" y="-200" width="14" height="92" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <g class="armsup" opacity="0"><rect x="-40" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/><rect x="26" y="-292" width="14" height="96" rx="7" fill="#3CC6BE" opacity="0.8"/></g>
+          <rect x="-22" y="-205" width="44" height="112" rx="22" fill="#3CC6BE"/>
+          <rect x="-20" y="-100" width="16" height="100" rx="8" fill="#3CC6BE"/><rect x="4" y="-100" width="16" height="100" rx="8" fill="#2FA79F"/>
+          <circle cx="0" cy="-232" r="27" fill="#F4F1E6"/></g></g>
+        <text id="be-h" x="915.0" y="1030" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#fff">0,00 m</text>
+        <g id="be-done" opacity="0">
+          <rect x="823.0" y="1050" width="184" height="44" rx="22" fill="#3DDC84"/>
+          <text x="915.0" y="1081" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#0A0F1C"></text></g>
+      </g></g>
+      </g>
+      <g id="bennu-pill" opacity="0"><rect x="803.0" y="490" width="224" height="88" rx="22" fill="#FF4D5E"/>
+        <text x="915.0" y="527" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#fff">KOMMT NIE</text>
+        <text x="915.0" y="562" text-anchor="middle" font-family="Inter" font-weight="900" font-size="28" fill="#fff">ZURÜCK</text></g>
+      <g id="cmp" opacity="0">
+        <rect x="110" y="520" width="860" height="250" rx="26" fill="#121A2B" stroke="#FF4D5E" stroke-width="4"/>
+        <text x="540" y="578" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">DEIN SPRUNG   vs   BENNU-FLUCHT</text>
+        <text x="540" y="672" text-anchor="middle" font-family="Inter" font-weight="900" font-size="80" fill="#fff">3,1 <tspan fill="#FF4D5E">&gt;</tspan> 0,2</text>
+        <text x="540" y="730" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#8A94A6">METER PRO SEKUNDE</text>
+      </g>
+      <g id="endcard" opacity="0">
+        <rect x="150" y="440" width="780" height="640" rx="26" fill="#121A2B" stroke="#2A3652" stroke-width="4"/>
+        <text x="540" y="505" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#8A94A6" letter-spacing="6">ENDSTAND · SPRUNGHÖHE</text>
+        <g class="erow"><circle cx="210" cy="580" r="16" fill="#D9A066"/><text x="240" y="590" font-family="Inter" font-weight="800" font-size="34" fill="#fff">Jupiter</text><rect x="420" y="564" width="27" height="30" rx="8" fill="#D9A066" opacity="0.9"/><text x="880" y="590" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="34" fill="#fff">0,20 m</text></g><g class="erow"><circle cx="210" cy="650" r="16" fill="#4F9BE8"/><text x="240" y="660" font-family="Inter" font-weight="800" font-size="34" fill="#fff">Erde</text><rect x="420" y="634" width="31" height="30" rx="8" fill="#4F9BE8" opacity="0.9"/><text x="880" y="660" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="34" fill="#fff">0,50 m</text></g><g class="erow"><circle cx="210" cy="720" r="16" fill="#C1502E"/><text x="240" y="730" font-family="Inter" font-weight="800" font-size="34" fill="#fff">Mars</text><rect x="420" y="704" width="43" height="30" rx="8" fill="#C1502E" opacity="0.9"/><text x="880" y="730" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="34" fill="#fff">1,32 m</text></g><g class="erow"><circle cx="210" cy="790" r="16" fill="#B8BCC6"/><text x="240" y="800" font-family="Inter" font-weight="800" font-size="34" fill="#fff">Mond</text><rect x="420" y="774" width="67" height="30" rx="8" fill="#B8BCC6" opacity="0.9"/><text x="880" y="800" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="34" fill="#fff">3,03 m</text></g><g class="erow"><circle cx="210" cy="860" r="16" fill="#C9B7A0"/><text x="240" y="870" font-family="Inter" font-weight="800" font-size="34" fill="#fff">Pluto</text><rect x="420" y="844" width="137" height="30" rx="8" fill="#C9B7A0" opacity="0.9"/><text x="880" y="870" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="34" fill="#fff">7,91 m</text></g><g class="erow"><circle cx="210" cy="930" r="16" fill="#8A8F99"/><text x="240" y="940" font-family="Inter" font-weight="800" font-size="34" fill="#fff">Ceres</text><rect x="420" y="914" width="274" height="30" rx="8" fill="#8A8F99" opacity="0.9"/><text x="880" y="940" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="34" fill="#fff">17,50 m</text></g><g class="erow"><circle cx="210" cy="1000" r="16" fill="#FF4D5E"/><text x="240" y="1010" font-family="Inter" font-weight="800" font-size="34" fill="#fff">Bennu</text><rect x="420" y="984" width="274" height="30" rx="8" fill="#FF4D5E" opacity="0.35"/><text x="880" y="1010" text-anchor="end" font-family="JetBrains Mono" font-weight="700" font-size="34" fill="#FF4D5E">∞</text></g>
+      </g>
+    </svg>
+    <div id="tmbox"><span id="tm">0:00.00</span><span id="tm-mode">BEREIT</span></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    const K = {"jump1": 9.604000000000001, "a1": [[9.604000000000001, 0], [13.775, 0.25268995180904924], [18.231, 0.638550856814101], [23.143, 1.6884592736782562], [27.63, 3.866780188485389]], "switch": 28.53, "jump2": 29.738, "a2": [[29.738, 0], [33.114999999999995, 10.103522427977952], [38.738, 22.372085376236893]], "focus": [[10.404, "ju"], [15.358, "er"], [19.78, "ma"], [24.143, "mo"], [28.53, ""], [30.288, "pl"], [34.015, "ce"], [39.738, "be"], [47.76, ""]], "warum": 44.461, "bennu_pill": 42.919, "end": 47.66, "v": 3.132091952673165}, V = K.v;
+    const L1 = [["ju", "Jupiter", 24.79, "#D9A066"], ["er", "Erde", 9.81, "#4F9BE8"], ["ma", "Mars", 3.71, "#C1502E"], ["mo", "Mond", 1.62, "#B8BCC6"]], L2 = [["mo2", "Mond", 1.62, "#B8BCC6"], ["pl", "Pluto", 0.62, "#C9B7A0"], ["ce", "Ceres", 0.28, "#8A8F99"], ["be", "Bennu", 0.0, "#6E6A64"]];
+    const GROUND = 1110, S1 = 125.0, S2 = 30.0;
+    const interp = (a, t, extend) => {
+      if (t <= a[0][0]) return 0;
+      for (let i = 1; i < a.length; i++) if (t <= a[i][0]) {
+        const [t0, v0] = a[i - 1], [t1, v1] = a[i]; return v0 + (v1 - v0) * (t - t0) / (t1 - t0); }
+      const [t0, v0] = a[a.length - 2], [t1, v1] = a[a.length - 1];
+      return extend ? v1 + (v1 - v0) / (t1 - t0) * (t - t1) : v1;
+    };
+    const height = (tau, g) => g ? Math.max(0, V * tau - g * tau * tau / 2) : V * tau;
+    const num = (x, d) => x.toFixed(d).replace(".", ",");
+    const $ = (id) => document.getElementById(id);
+    function lane(l, tau, scale, cx) {
+      const h = height(tau, l[2]), tf = l[2] ? 2 * V / l[2] : Infinity, landed = tau >= tf, air = tau > 0 && !landed;
+      const fig = $(l[0] + "-fig");
+      let yy = GROUND - h * scale;
+      fig.setAttribute("transform", `translate(${cx},${yy})`);
+      fig.querySelector(".armsup").setAttribute("opacity", air ? 1 : 0);
+      fig.querySelector(".armsdown").setAttribute("opacity", air ? 0 : 1);
+      const ht = $(l[0] + "-h"), f = scale / 140;
+      let ty = yy - 280 * f - 20;
+      let label = num(h, h < 10 ? 2 : 1) + " m";
+      if (ty < 480) { ty = 480; label = "↑ " + label; }
+      ht.setAttribute("y", ty); ht.textContent = label;
+      const peakPassed = l[2] && tau >= V / l[2];
+      $(l[0] + "-peak").setAttribute("opacity", peakPassed ? 0.9 : 0);
+      $(l[0] + "-done").setAttribute("opacity", landed ? 1 : 0);
+    }
+    function render(t) {
+      const p2 = t >= K.switch;
+      const tau1 = interp(K.a1, t, false), tau2 = interp(K.a2, t, true);
+      L1.forEach((l, i) => lane(l, tau1, S1, 110 + i * 230 + 230 / 2));
+      L2.forEach((l, i) => lane(l, tau2, S2, 110 + i * 230 + 230 / 2));
+      // Fokus: aktive Bahn hell, andere gedimmt
+      let focus = "";
+      for (const [ft, id] of K.focus) if (t >= ft) focus = id;
+      for (const l of L1.concat(L2)) $(l[0] + "-lane").setAttribute("opacity", !focus || focus === l[0] ? 1 : 0.32);
+      const tau = p2 ? tau2 : tau1;
+      $("tm").textContent = "0:" + (tau < 10 ? "0" : "") + num(tau, 2).replace(",", ".");
+      $("tm-mode").textContent = !p2 ? (t < K.jump1 ? "BEREIT" : (tau1 >= K.a1[K.a1.length - 1][1] ? "ALLE GELANDET" : "ZEITLUPE"))
+                                     : (t < K.jump2 ? "BEREIT" : "ZEITRAFFER");
+    }
+    const st = { t: 0 };
+    tl.to(st, { t: 52.63, duration: 52.63, ease: "none", onUpdate: () => render(st.t) }, 0);
+    render(0);
+
+    tl.fromTo("#p1", {opacity:1}, {opacity:0, duration:0.4, ease:"power2.in"}, 28.53);
+    tl.fromTo("#p2", {opacity:0}, {opacity:1, duration:0.5, ease:"power2.out"}, 28.880000000000003);
+    tl.fromTo("#cmp", {opacity:0, scale:1.3}, {opacity:1, scale:1, duration:0.3, ease:"expo.out", svgOrigin:"540 640"}, 44.461);
+    tl.to("#cmp", {opacity:0, duration:0.2}, 47.66);
+    tl.fromTo("#bennu-pill", {opacity:0, scale:1.5}, {opacity:1, scale:1, duration:0.25, ease:"expo.out", svgOrigin:"915.0 520"}, 42.919);
+    tl.to("#bennu-pill", {opacity:0, duration:0.2}, 44.461);
+    tl.fromTo("#lanes", {opacity:1}, {opacity:0.15, duration:0.4}, 47.66);
+    tl.fromTo("#endcard", {opacity:0, y:40}, {opacity:1, y:0, duration:0.5, ease:"expo.out"}, 47.76);
+    tl.fromTo(".erow", {opacity:0, x:-30}, {opacity:1, x:0, duration:0.3, stagger:0.12, ease:"expo.out"}, 48.01);
+
+    window.__timelines["sim"] = tl;
+  </script>
+</template>

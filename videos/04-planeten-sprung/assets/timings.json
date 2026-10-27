@@ -1,0 +1,920 @@
+{
+ "duration": 50.832,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "Was wäre, wenn du auf jedem Planeten",
+     "start": 0.15,
+     "end": 2.119,
+     "words": [
+      {
+       "text": "Was",
+       "start": 0.15,
+       "end": 0.374
+      },
+      {
+       "text": "wäre,",
+       "start": 0.374,
+       "end": 0.648
+      },
+      {
+       "text": "wenn",
+       "start": 0.648,
+       "end": 0.923
+      },
+      {
+       "text": "du",
+       "start": 0.923,
+       "end": 1.097
+      },
+      {
+       "text": "auf",
+       "start": 1.097,
+       "end": 1.321
+      },
+      {
+       "text": "jedem",
+       "start": 1.321,
+       "end": 1.645
+      },
+      {
+       "text": "Planeten",
+       "start": 1.645,
+       "end": 2.119
+      }
+     ]
+    },
+    {
+     "show": "einmal {y:hochspringst}?",
+     "start": 2.179,
+     "end": 3.317,
+     "words": [
+      {
+       "text": "einmal",
+       "start": 2.179,
+       "end": 2.585
+      },
+      {
+       "text": "hochspringst?",
+       "start": 2.585,
+       "end": 3.317
+      }
+     ]
+    }
+   ],
+   "end": 3.617
+  },
+  {
+   "id": "setup",
+   "label": "",
+   "start": 4.017,
+   "lines": [
+    {
+     "show": "Gleicher Sprung.",
+     "start": 4.017,
+     "end": 4.82,
+     "words": [
+      {
+       "text": "Gleicher",
+       "start": 4.017,
+       "end": 4.466
+      },
+      {
+       "text": "Sprung.",
+       "start": 4.466,
+       "end": 4.819
+      }
+     ]
+    },
+    {
+     "show": "Gleiche Kraft.",
+     "start": 5.12,
+     "end": 5.921,
+     "words": [
+      {
+       "text": "Gleiche",
+       "start": 5.12,
+       "end": 5.574
+      },
+      {
+       "text": "Kraft.",
+       "start": 5.574,
+       "end": 5.921
+      }
+     ]
+    },
+    {
+     "show": "Nur die {y:Schwerkraft} ist anders.",
+     "start": 6.221,
+     "end": 7.692,
+     "words": [
+      {
+       "text": "Nur",
+       "start": 6.221,
+       "end": 6.418
+      },
+      {
+       "text": "die",
+       "start": 6.418,
+       "end": 6.616
+      },
+      {
+       "text": "Schwerkraft",
+       "start": 6.616,
+       "end": 7.165
+      },
+      {
+       "text": "ist",
+       "start": 7.165,
+       "end": 7.363
+      },
+      {
+       "text": "anders.",
+       "start": 7.363,
+       "end": 7.692
+      }
+     ]
+    },
+    {
+     "show": "Drei. Zwei. {y:Eins}.",
+     "start": 7.992,
+     "end": 9.704,
+     "words": [
+      {
+       "text": "Drei.",
+       "start": 7.992,
+       "end": 8.563
+      },
+      {
+       "text": "Zwei.",
+       "start": 8.563,
+       "end": 9.133
+      },
+      {
+       "text": "Eins.",
+       "start": 9.133,
+       "end": 9.704
+      }
+     ]
+    }
+   ],
+   "end": 10.004
+  },
+  {
+   "id": "jupiter",
+   "label": "",
+   "start": 10.404,
+   "lines": [
+    {
+     "show": "Auf dem {r:Jupiter}:",
+     "start": 10.404,
+     "end": 11.251,
+     "words": [
+      {
+       "text": "Auf",
+       "start": 10.404,
+       "end": 10.621
+      },
+      {
+       "text": "dem",
+       "start": 10.621,
+       "end": 10.839
+      },
+      {
+       "text": "Jupiter:",
+       "start": 10.839,
+       "end": 11.251
+      }
+     ]
+    },
+    {
+     "show": "gerade mal {r:20 Zentimeter}.",
+     "start": 11.411,
+     "end": 13.105,
+     "words": [
+      {
+       "text": "gerade",
+       "start": 11.411,
+       "end": 11.881
+      },
+      {
+       "text": "mal",
+       "start": 11.881,
+       "end": 12.164
+      },
+      {
+       "text": "20",
+       "start": 12.164,
+       "end": 12.384
+      },
+      {
+       "text": "Zentimeter.",
+       "start": 12.384,
+       "end": 13.105
+      }
+     ]
+    },
+    {
+     "show": "Du bist sofort wieder unten.",
+     "start": 13.405,
+     "end": 14.658,
+     "words": [
+      {
+       "text": "Du",
+       "start": 13.405,
+       "end": 13.549
+      },
+      {
+       "text": "bist",
+       "start": 13.549,
+       "end": 13.775
+      },
+      {
+       "text": "sofort",
+       "start": 13.775,
+       "end": 14.083
+      },
+      {
+       "text": "wieder",
+       "start": 14.083,
+       "end": 14.391
+      },
+      {
+       "text": "unten.",
+       "start": 14.391,
+       "end": 14.658
+      }
+     ]
+    }
+   ],
+   "end": 14.958
+  },
+  {
+   "id": "erde",
+   "label": "",
+   "start": 15.358,
+   "lines": [
+    {
+     "show": "Auf der {t:Erde}:",
+     "start": 15.358,
+     "end": 15.941,
+     "words": [
+      {
+       "text": "Auf",
+       "start": 15.358,
+       "end": 15.539
+      },
+      {
+       "text": "der",
+       "start": 15.539,
+       "end": 15.72
+      },
+      {
+       "text": "Erde:",
+       "start": 15.72,
+       "end": 15.941
+      }
+     ]
+    },
+    {
+     "show": "{t:50 Zentimeter}.",
+     "start": 16.101,
+     "end": 17.294,
+     "words": [
+      {
+       "text": "50",
+       "start": 16.101,
+       "end": 16.379
+      },
+      {
+       "text": "Zentimeter.",
+       "start": 16.379,
+       "end": 17.294
+      }
+     ]
+    },
+    {
+     "show": "Nicht mal eine Sekunde in der Luft.",
+     "start": 17.594,
+     "end": 19.08,
+     "words": [
+      {
+       "text": "Nicht",
+       "start": 17.594,
+       "end": 17.845
+      },
+      {
+       "text": "mal",
+       "start": 17.845,
+       "end": 18.018
+      },
+      {
+       "text": "eine",
+       "start": 18.018,
+       "end": 18.231
+      },
+      {
+       "text": "Sekunde",
+       "start": 18.231,
+       "end": 18.559
+      },
+      {
+       "text": "in",
+       "start": 18.559,
+       "end": 18.694
+      },
+      {
+       "text": "der",
+       "start": 18.694,
+       "end": 18.868
+      },
+      {
+       "text": "Luft.",
+       "start": 18.868,
+       "end": 19.08
+      }
+     ]
+    }
+   ],
+   "end": 19.38
+  },
+  {
+   "id": "mars",
+   "label": "",
+   "start": 19.78,
+   "lines": [
+    {
+     "show": "Auf dem {r:Mars}:",
+     "start": 19.78,
+     "end": 20.46,
+     "words": [
+      {
+       "text": "Auf",
+       "start": 19.78,
+       "end": 19.991
+      },
+      {
+       "text": "dem",
+       "start": 19.991,
+       "end": 20.202
+      },
+      {
+       "text": "Mars:",
+       "start": 20.202,
+       "end": 20.46
+      }
+     ]
+    },
+    {
+     "show": "{y:1,3 Meter}.",
+     "start": 20.62,
+     "end": 21.788,
+     "words": [
+      {
+       "text": "1,3",
+       "start": 20.62,
+       "end": 21.029
+      },
+      {
+       "text": "Meter.",
+       "start": 21.029,
+       "end": 21.788
+      }
+     ]
+    },
+    {
+     "show": "Fast zwei Sekunden.",
+     "start": 22.088,
+     "end": 23.443,
+     "words": [
+      {
+       "text": "Fast",
+       "start": 22.088,
+       "end": 22.451
+      },
+      {
+       "text": "zwei",
+       "start": 22.451,
+       "end": 22.815
+      },
+      {
+       "text": "Sekunden.",
+       "start": 22.815,
+       "end": 23.443
+      }
+     ]
+    }
+   ],
+   "end": 23.743
+  },
+  {
+   "id": "mond",
+   "label": "",
+   "start": 24.143,
+   "lines": [
+    {
+     "show": "Und auf dem {y:Mond}?",
+     "start": 24.143,
+     "end": 24.891,
+     "words": [
+      {
+       "text": "Und",
+       "start": 24.143,
+       "end": 24.32
+      },
+      {
+       "text": "auf",
+       "start": 24.32,
+       "end": 24.497
+      },
+      {
+       "text": "dem",
+       "start": 24.497,
+       "end": 24.674
+      },
+      {
+       "text": "Mond?",
+       "start": 24.674,
+       "end": 24.891
+      }
+     ]
+    },
+    {
+     "show": "{g:3 Meter} hoch.",
+     "start": 25.191,
+     "end": 25.977,
+     "words": [
+      {
+       "text": "3",
+       "start": 25.191,
+       "end": 25.326
+      },
+      {
+       "text": "Meter",
+       "start": 25.326,
+       "end": 25.679
+      },
+      {
+       "text": "hoch.",
+       "start": 25.679,
+       "end": 25.977
+      }
+     ]
+    },
+    {
+     "show": "Fast {g:4 Sekunden} in der Luft.",
+     "start": 26.277,
+     "end": 27.83,
+     "words": [
+      {
+       "text": "Fast",
+       "start": 26.277,
+       "end": 26.553
+      },
+      {
+       "text": "4",
+       "start": 26.553,
+       "end": 26.678
+      },
+      {
+       "text": "Sekunden",
+       "start": 26.678,
+       "end": 27.154
+      },
+      {
+       "text": "in",
+       "start": 27.154,
+       "end": 27.329
+      },
+      {
+       "text": "der",
+       "start": 27.329,
+       "end": 27.554
+      },
+      {
+       "text": "Luft.",
+       "start": 27.554,
+       "end": 27.83
+      }
+     ]
+    }
+   ],
+   "end": 28.13
+  },
+  {
+   "id": "hoeher",
+   "label": "",
+   "start": 28.53,
+   "lines": [
+    {
+     "show": "Aber es geht {y:noch höher}.",
+     "start": 28.53,
+     "end": 29.588,
+     "words": [
+      {
+       "text": "Aber",
+       "start": 28.53,
+       "end": 28.75
+      },
+      {
+       "text": "es",
+       "start": 28.75,
+       "end": 28.889
+      },
+      {
+       "text": "geht",
+       "start": 28.889,
+       "end": 29.109
+      },
+      {
+       "text": "noch",
+       "start": 29.109,
+       "end": 29.328
+      },
+      {
+       "text": "höher.",
+       "start": 29.328,
+       "end": 29.588
+      }
+     ]
+    }
+   ],
+   "end": 29.888
+  },
+  {
+   "id": "pluto",
+   "label": "",
+   "start": 30.288,
+   "lines": [
+    {
+     "show": "Auf {y:Pluto}:",
+     "start": 30.288,
+     "end": 30.986,
+     "words": [
+      {
+       "text": "Auf",
+       "start": 30.288,
+       "end": 30.573
+      },
+      {
+       "text": "Pluto:",
+       "start": 30.573,
+       "end": 30.986
+      }
+     ]
+    },
+    {
+     "show": "{g:8 Meter}.",
+     "start": 31.146,
+     "end": 31.825,
+     "words": [
+      {
+       "text": "8",
+       "start": 31.146,
+       "end": 31.334
+      },
+      {
+       "text": "Meter.",
+       "start": 31.334,
+       "end": 31.825
+      }
+     ]
+    },
+    {
+     "show": "Zehn Sekunden Flug.",
+     "start": 32.125,
+     "end": 33.315,
+     "words": [
+      {
+       "text": "Zehn",
+       "start": 32.125,
+       "end": 32.444
+      },
+      {
+       "text": "Sekunden",
+       "start": 32.444,
+       "end": 32.996
+      },
+      {
+       "text": "Flug.",
+       "start": 32.996,
+       "end": 33.315
+      }
+     ]
+    }
+   ],
+   "end": 33.615
+  },
+  {
+   "id": "ceres",
+   "label": "",
+   "start": 34.015,
+   "lines": [
+    {
+     "show": "Auf dem Zwergplaneten {y:Ceres}:",
+     "start": 34.015,
+     "end": 35.703,
+     "words": [
+      {
+       "text": "Auf",
+       "start": 34.015,
+       "end": 34.268
+      },
+      {
+       "text": "dem",
+       "start": 34.268,
+       "end": 34.521
+      },
+      {
+       "text": "Zwergplaneten",
+       "start": 34.521,
+       "end": 35.337
+      },
+      {
+       "text": "Ceres:",
+       "start": 35.337,
+       "end": 35.703
+      }
+     ]
+    },
+    {
+     "show": "{g:17 Meter}.",
+     "start": 35.863,
+     "end": 36.627,
+     "words": [
+      {
+       "text": "17",
+       "start": 35.863,
+       "end": 36.13
+      },
+      {
+       "text": "Meter.",
+       "start": 36.13,
+       "end": 36.627
+      }
+     ]
+    },
+    {
+     "show": "So hoch wie ein Haus mit {y:sechs Stockwerken}.",
+     "start": 36.927,
+     "end": 39.038,
+     "words": [
+      {
+       "text": "So",
+       "start": 36.927,
+       "end": 37.084
+      },
+      {
+       "text": "hoch",
+       "start": 37.084,
+       "end": 37.331
+      },
+      {
+       "text": "wie",
+       "start": 37.331,
+       "end": 37.533
+      },
+      {
+       "text": "ein",
+       "start": 37.533,
+       "end": 37.736
+      },
+      {
+       "text": "Haus",
+       "start": 37.736,
+       "end": 37.983
+      },
+      {
+       "text": "mit",
+       "start": 37.983,
+       "end": 38.185
+      },
+      {
+       "text": "sechs",
+       "start": 38.185,
+       "end": 38.477
+      },
+      {
+       "text": "Stockwerken.",
+       "start": 38.477,
+       "end": 39.038
+      }
+     ]
+    }
+   ],
+   "end": 39.338
+  },
+  {
+   "id": "bennu",
+   "label": "",
+   "start": 39.738,
+   "lines": [
+    {
+     "show": "Und auf dem Asteroiden {r:Bennu}?",
+     "start": 39.738,
+     "end": 41.349,
+     "words": [
+      {
+       "text": "Und",
+       "start": 39.738,
+       "end": 39.968
+      },
+      {
+       "text": "auf",
+       "start": 39.968,
+       "end": 40.198
+      },
+      {
+       "text": "dem",
+       "start": 40.198,
+       "end": 40.429
+      },
+      {
+       "text": "Asteroiden",
+       "start": 40.429,
+       "end": 41.017
+      },
+      {
+       "text": "Bennu?",
+       "start": 41.017,
+       "end": 41.349
+      }
+     ]
+    },
+    {
+     "show": "Du springst ab …",
+     "start": 41.649,
+     "end": 42.34,
+     "words": [
+      {
+       "text": "Du",
+       "start": 41.649,
+       "end": 41.784
+      },
+      {
+       "text": "springst",
+       "start": 41.784,
+       "end": 42.148
+      },
+      {
+       "text": "ab",
+       "start": 42.148,
+       "end": 42.283
+      },
+      {
+       "text": "…",
+       "start": 42.283,
+       "end": 42.34
+      }
+     ]
+    },
+    {
+     "show": "und kommst {r:nie wieder} zurück.",
+     "start": 42.4,
+     "end": 43.761,
+     "words": [
+      {
+       "text": "und",
+       "start": 42.4,
+       "end": 42.595
+      },
+      {
+       "text": "kommst",
+       "start": 42.595,
+       "end": 42.919
+      },
+      {
+       "text": "nie",
+       "start": 42.919,
+       "end": 43.113
+      },
+      {
+       "text": "wieder",
+       "start": 43.113,
+       "end": 43.437
+      },
+      {
+       "text": "zurück.",
+       "start": 43.437,
+       "end": 43.761
+      }
+     ]
+    }
+   ],
+   "end": 44.061
+  },
+  {
+   "id": "warum",
+   "label": "",
+   "start": 44.461,
+   "lines": [
+    {
+     "show": "Dein Sprung ist schneller",
+     "start": 44.461,
+     "end": 45.506,
+     "words": [
+      {
+       "text": "Dein",
+       "start": 44.461,
+       "end": 44.666
+      },
+      {
+       "text": "Sprung",
+       "start": 44.666,
+       "end": 44.946
+      },
+      {
+       "text": "ist",
+       "start": 44.946,
+       "end": 45.114
+      },
+      {
+       "text": "schneller",
+       "start": 45.114,
+       "end": 45.506
+      }
+     ]
+    },
+    {
+     "show": "als seine {r:Fluchtgeschwindigkeit}.",
+     "start": 45.566,
+     "end": 47.06,
+     "words": [
+      {
+       "text": "als",
+       "start": 45.566,
+       "end": 45.767
+      },
+      {
+       "text": "seine",
+       "start": 45.767,
+       "end": 46.057
+      },
+      {
+       "text": "Fluchtgeschwindigkeit.",
+       "start": 46.057,
+       "end": 47.06
+      }
+     ]
+    }
+   ],
+   "end": 47.36
+  },
+  {
+   "id": "frage",
+   "label": "",
+   "start": 47.76,
+   "lines": [
+    {
+     "show": "Auf welchem Planeten",
+     "start": 47.76,
+     "end": 48.975,
+     "words": [
+      {
+       "text": "Auf",
+       "start": 47.76,
+       "end": 48.003
+      },
+      {
+       "text": "welchem",
+       "start": 48.003,
+       "end": 48.462
+      },
+      {
+       "text": "Planeten",
+       "start": 48.462,
+       "end": 48.975
+      }
+     ]
+    },
+    {
+     "show": "würdest {y:du} springen?",
+     "start": 49.035,
+     "end": 49.932,
+     "words": [
+      {
+       "text": "würdest",
+       "start": 49.035,
+       "end": 49.39
+      },
+      {
+       "text": "du",
+       "start": 49.39,
+       "end": 49.536
+      },
+      {
+       "text": "springen?",
+       "start": 49.536,
+       "end": 49.932
+      }
+     ]
+    }
+   ],
+   "end": 50.232
+  }
+ ]
+}
