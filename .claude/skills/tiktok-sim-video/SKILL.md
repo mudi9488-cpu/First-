@@ -61,6 +61,26 @@ Projektordner: `videos/<nr>-<slug>/` (vorhandenes Video `videos/01-niemand-arbei
 6. `render -o renders/<slug>.mp4`, Lautheit prüfen (`ffmpeg … ebur128`, Ziel −16 bis −14 LUFS).
 7. Committen und dem Creator das MP4 schicken.
 
+## Aktuelle Nische (seit Okt. 2026): hilfreiche 3D-Bauanleitungen / Aufklärung
+
+Die „Was wäre, wenn“-Videos liefen schlecht – der Creator will jetzt **Themen, die Menschen weiterhelfen oder aufklären**,
+im Stil der Garten-Querschnitt-Referenz („Glückwunsch, du hast … gebaut“). Vorlage: `videos/05-hochbeet/`.
+
+- **Look:** realistisch wirkende Three.js-Welt (sonniger Garten, Haus, Baum, Wolken, weiche Schatten,
+  ACES-Tonemapping); alle Oberflächen als prozedurale Canvas-Texturen (Rasen, Holz, Rinde, Laub, Kompost, Erde).
+  **Boden im Querschnitt**: Schnittkante zur Kamera mit Erdschichten und Steinen – das Markenzeichen.
+- **Ablauf:** Schritt für Schritt bauen – jedes Teil fällt/wächst einzeln ins Bild, harte Kameraschnitte zwischen
+  den Schritten (`SHOTS` mit Start, Position von→nach, Ziel, FOV). Kameras weit genug weg (Hochformat: ~4–6 m bei
+  einem 2-m-Objekt), damit Objekt, Garten und Querschnitt gleichzeitig zu sehen sind.
+- **Untertitel:** **ein Wort pro Untertitel**, groß, fett, schwarze Kontur, mittig im unteren Drittel (y≈1290);
+  `{y:}`-Wörter gelb, `{r:}` rot, `{g:}` grün.
+- **Schwebende 3D-Beschriftungen** (`LABELS`): HTML, jeden Frame auf 3D-Punkte projiziert („ÄSTE · 30 CM“,
+  „WÜHLMAUS“, „NIE UNTEN! ✕“), Pop-in. Schicht-Beschriftungen direkt auf die Schicht im Querschnitt setzen.
+- **Dramaturgie:** Hook mit häufigem Fehler („Die meisten … Großer Fehler.“) → richtiger Aufbau Schritt für Schritt
+  mit Zahlen → Tipps → „Glückwunsch, du hast … gebaut“.
+- **Fakten:** nur gesichertes Wissen, Zahlen als gängige Richtwerte formulieren.
+- Render ohne GPU ist langsam (~10–15 min für 60 s): mit `run_in_background` rendern.
+
 ## Bekannte Grenzen der Umgebung
 
 - Die Microsoft/Edge-Stimmen und Hugging-Face-Modelle sind im Netzwerk gesperrt → Piper „thorsten-low“
