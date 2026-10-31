@@ -18,7 +18,7 @@ from pathlib import Path
 import numpy as np
 
 VOICES_DIR = Path.home() / ".cache" / "piper-voices"
-VOICE_URL = "https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-{name}.tar.gz"
+VOICE_URL = "https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-{name}.tar.gz"
 
 LEAD_IN = 0.15        # Stille vor dem ersten Wort
 GAP_LINE = 0.06       # zwischen Zeilen ohne Satzzeichen
@@ -35,12 +35,14 @@ def plain(show: str) -> str:
 
 def load_voice(name: str):
     from piper import PiperVoice
+    # „thorsten-low“ (alt, deutsch) oder voller Name mit Sprache, z. B. „en-us-ryan-medium“
+    full = name if name.count("-") >= 2 else f"de-{name}"
     d = VOICES_DIR / name
-    model = d / f"de-{name}.onnx"
+    model = d / f"{full}.onnx"
     if not model.exists():
         d.mkdir(parents=True, exist_ok=True)
         tgz = d / "voice.tar.gz"
-        urllib.request.urlretrieve(VOICE_URL.format(name=name), tgz)
+        urllib.request.urlretrieve(VOICE_URL.format(name=full), tgz)
         subprocess.run(["tar", "xzf", str(tgz), "-C", str(d)], check=True)
     return PiperVoice.load(str(model))
 

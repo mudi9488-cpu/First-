@@ -1,0 +1,1042 @@
+{
+ "duration": 52.052,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "You want your own {g:vegetables}.",
+     "start": 0.15,
+     "end": 1.52,
+     "words": [
+      {
+       "text": "You",
+       "start": 0.15,
+       "end": 0.346
+      },
+      {
+       "text": "want",
+       "start": 0.346,
+       "end": 0.585
+      },
+      {
+       "text": "your",
+       "start": 0.585,
+       "end": 0.824
+      },
+      {
+       "text": "own",
+       "start": 0.824,
+       "end": 1.02
+      },
+      {
+       "text": "vegetables.",
+       "start": 1.02,
+       "end": 1.52
+      }
+     ]
+    }
+   ],
+   "end": 1.82
+  },
+  {
+   "id": "dig",
+   "label": "",
+   "start": 2.22,
+   "lines": [
+    {
+     "show": "So you dig a patch",
+     "start": 2.22,
+     "end": 3.276,
+     "words": [
+      {
+       "text": "So",
+       "start": 2.22,
+       "end": 2.392
+      },
+      {
+       "text": "you",
+       "start": 2.392,
+       "end": 2.613
+      },
+      {
+       "text": "dig",
+       "start": 2.613,
+       "end": 2.834
+      },
+      {
+       "text": "a",
+       "start": 2.834,
+       "end": 2.957
+      },
+      {
+       "text": "patch",
+       "start": 2.957,
+       "end": 3.276
+      }
+     ]
+    },
+    {
+     "show": "and fill it with {y:soil}.",
+     "start": 3.336,
+     "end": 4.532,
+     "words": [
+      {
+       "text": "and",
+       "start": 3.336,
+       "end": 3.556
+      },
+      {
+       "text": "fill",
+       "start": 3.556,
+       "end": 3.825
+      },
+      {
+       "text": "it",
+       "start": 3.825,
+       "end": 3.995
+      },
+      {
+       "text": "with",
+       "start": 3.995,
+       "end": 4.264
+      },
+      {
+       "text": "soil.",
+       "start": 4.264,
+       "end": 4.532
+      }
+     ]
+    }
+   ],
+   "end": 4.832
+  },
+  {
+   "id": "rain",
+   "label": "",
+   "start": 5.232,
+   "lines": [
+    {
+     "show": "Then it rains.",
+     "start": 5.232,
+     "end": 5.987,
+     "words": [
+      {
+       "text": "Then",
+       "start": 5.232,
+       "end": 5.5
+      },
+      {
+       "text": "it",
+       "start": 5.5,
+       "end": 5.67
+      },
+      {
+       "text": "rains.",
+       "start": 5.67,
+       "end": 5.987
+      }
+     ]
+    },
+    {
+     "show": "{r:Mud}.",
+     "start": 6.287,
+     "end": 6.519,
+     "words": [
+      {
+       "text": "Mud.",
+       "start": 6.287,
+       "end": 6.519
+      }
+     ]
+    }
+   ],
+   "end": 6.819
+  },
+  {
+   "id": "frame",
+   "label": "",
+   "start": 7.219,
+   "lines": [
+    {
+     "show": "So you build a wooden {y:frame}.",
+     "start": 7.219,
+     "end": 8.612,
+     "words": [
+      {
+       "text": "So",
+       "start": 7.219,
+       "end": 7.376
+      },
+      {
+       "text": "you",
+       "start": 7.376,
+       "end": 7.579
+      },
+      {
+       "text": "build",
+       "start": 7.579,
+       "end": 7.871
+      },
+      {
+       "text": "a",
+       "start": 7.871,
+       "end": 7.983
+      },
+      {
+       "text": "wooden",
+       "start": 7.983,
+       "end": 8.32
+      },
+      {
+       "text": "frame.",
+       "start": 8.32,
+       "end": 8.612
+      }
+     ]
+    }
+   ],
+   "end": 8.912
+  },
+  {
+   "id": "bend",
+   "label": "",
+   "start": 9.312,
+   "lines": [
+    {
+     "show": "But you have to bend all the way down.",
+     "start": 9.312,
+     "end": 10.982,
+     "words": [
+      {
+       "text": "But",
+       "start": 9.312,
+       "end": 9.489
+      },
+      {
+       "text": "you",
+       "start": 9.489,
+       "end": 9.666
+      },
+      {
+       "text": "have",
+       "start": 9.666,
+       "end": 9.882
+      },
+      {
+       "text": "to",
+       "start": 9.882,
+       "end": 10.019
+      },
+      {
+       "text": "bend",
+       "start": 10.019,
+       "end": 10.235
+      },
+      {
+       "text": "all",
+       "start": 10.235,
+       "end": 10.412
+      },
+      {
+       "text": "the",
+       "start": 10.412,
+       "end": 10.589
+      },
+      {
+       "text": "way",
+       "start": 10.589,
+       "end": 10.766
+      },
+      {
+       "text": "down.",
+       "start": 10.766,
+       "end": 10.982
+      }
+     ]
+    },
+    {
+     "show": "Your {r:back} hurts.",
+     "start": 11.282,
+     "end": 12.234,
+     "words": [
+      {
+       "text": "Your",
+       "start": 11.282,
+       "end": 11.581
+      },
+      {
+       "text": "back",
+       "start": 11.581,
+       "end": 11.88
+      },
+      {
+       "text": "hurts.",
+       "start": 11.88,
+       "end": 12.234
+      }
+     ]
+    }
+   ],
+   "end": 12.534
+  },
+  {
+   "id": "tall",
+   "label": "",
+   "start": 12.934,
+   "lines": [
+    {
+     "show": "So you make it {y:90 centimeters} tall.",
+     "start": 12.934,
+     "end": 14.826,
+     "words": [
+      {
+       "text": "So",
+       "start": 12.934,
+       "end": 13.106
+      },
+      {
+       "text": "you",
+       "start": 13.106,
+       "end": 13.327
+      },
+      {
+       "text": "make",
+       "start": 13.327,
+       "end": 13.597
+      },
+      {
+       "text": "it",
+       "start": 13.597,
+       "end": 13.769
+      },
+      {
+       "text": "90",
+       "start": 13.769,
+       "end": 13.941
+      },
+      {
+       "text": "centimeters",
+       "start": 13.941,
+       "end": 14.556
+      },
+      {
+       "text": "tall.",
+       "start": 14.556,
+       "end": 14.826
+      }
+     ]
+    }
+   ],
+   "end": 15.126
+  },
+  {
+   "id": "voles",
+   "label": "",
+   "start": 15.526,
+   "lines": [
+    {
+     "show": "Now {r:voles} eat your carrots",
+     "start": 15.526,
+     "end": 16.942,
+     "words": [
+      {
+       "text": "Now",
+       "start": 15.526,
+       "end": 15.742
+      },
+      {
+       "text": "voles",
+       "start": 15.742,
+       "end": 16.054
+      },
+      {
+       "text": "eat",
+       "start": 16.054,
+       "end": 16.27
+      },
+      {
+       "text": "your",
+       "start": 16.27,
+       "end": 16.534
+      },
+      {
+       "text": "carrots",
+       "start": 16.534,
+       "end": 16.942
+      }
+     ]
+    },
+    {
+     "show": "from below.",
+     "start": 17.002,
+     "end": 17.868,
+     "words": [
+      {
+       "text": "from",
+       "start": 17.002,
+       "end": 17.399
+      },
+      {
+       "text": "below.",
+       "start": 17.399,
+       "end": 17.868
+      }
+     ]
+    }
+   ],
+   "end": 18.168
+  },
+  {
+   "id": "mesh",
+   "label": "",
+   "start": 18.568,
+   "lines": [
+    {
+     "show": "So you lay {y:wire mesh} on the bottom.",
+     "start": 18.568,
+     "end": 20.333,
+     "words": [
+      {
+       "text": "So",
+       "start": 18.568,
+       "end": 18.727
+      },
+      {
+       "text": "you",
+       "start": 18.727,
+       "end": 18.93
+      },
+      {
+       "text": "lay",
+       "start": 18.93,
+       "end": 19.134
+      },
+      {
+       "text": "wire",
+       "start": 19.134,
+       "end": 19.383
+      },
+      {
+       "text": "mesh",
+       "start": 19.383,
+       "end": 19.632
+      },
+      {
+       "text": "on",
+       "start": 19.632,
+       "end": 19.79
+      },
+      {
+       "text": "the",
+       "start": 19.79,
+       "end": 19.994
+      },
+      {
+       "text": "bottom.",
+       "start": 19.994,
+       "end": 20.333
+      }
+     ]
+    }
+   ],
+   "end": 20.633
+  },
+  {
+   "id": "rot",
+   "label": "",
+   "start": 21.033,
+   "lines": [
+    {
+     "show": "The wet soil makes the wood {r:rot}.",
+     "start": 21.033,
+     "end": 22.833,
+     "words": [
+      {
+       "text": "The",
+       "start": 21.033,
+       "end": 21.261
+      },
+      {
+       "text": "wet",
+       "start": 21.261,
+       "end": 21.489
+      },
+      {
+       "text": "soil",
+       "start": 21.489,
+       "end": 21.768
+      },
+      {
+       "text": "makes",
+       "start": 21.768,
+       "end": 22.098
+      },
+      {
+       "text": "the",
+       "start": 22.098,
+       "end": 22.326
+      },
+      {
+       "text": "wood",
+       "start": 22.326,
+       "end": 22.605
+      },
+      {
+       "text": "rot.",
+       "start": 22.605,
+       "end": 22.833
+      }
+     ]
+    },
+    {
+     "show": "So you line the walls with {y:foil}.",
+     "start": 23.133,
+     "end": 24.944,
+     "words": [
+      {
+       "text": "So",
+       "start": 23.133,
+       "end": 23.311
+      },
+      {
+       "text": "you",
+       "start": 23.311,
+       "end": 23.541
+      },
+      {
+       "text": "line",
+       "start": 23.541,
+       "end": 23.821
+      },
+      {
+       "text": "the",
+       "start": 23.821,
+       "end": 24.051
+      },
+      {
+       "text": "walls",
+       "start": 24.051,
+       "end": 24.383
+      },
+      {
+       "text": "with",
+       "start": 24.383,
+       "end": 24.663
+      },
+      {
+       "text": "foil.",
+       "start": 24.663,
+       "end": 24.944
+      }
+     ]
+    }
+   ],
+   "end": 25.244
+  },
+  {
+   "id": "bottom",
+   "label": "",
+   "start": 25.644,
+   "lines": [
+    {
+     "show": "But never the {r:bottom}.",
+     "start": 25.644,
+     "end": 26.526,
+     "words": [
+      {
+       "text": "But",
+       "start": 25.644,
+       "end": 25.817
+      },
+      {
+       "text": "never",
+       "start": 25.817,
+       "end": 26.066
+      },
+      {
+       "text": "the",
+       "start": 26.066,
+       "end": 26.239
+      },
+      {
+       "text": "bottom.",
+       "start": 26.239,
+       "end": 26.526
+      }
+     ]
+    },
+    {
+     "show": "Or the water can't drain.",
+     "start": 26.826,
+     "end": 28.301,
+     "words": [
+      {
+       "text": "Or",
+       "start": 26.826,
+       "end": 27.021
+      },
+      {
+       "text": "the",
+       "start": 27.021,
+       "end": 27.271
+      },
+      {
+       "text": "water",
+       "start": 27.271,
+       "end": 27.633
+      },
+      {
+       "text": "can't",
+       "start": 27.633,
+       "end": 27.939
+      },
+      {
+       "text": "drain.",
+       "start": 27.939,
+       "end": 28.301
+      }
+     ]
+    }
+   ],
+   "end": 28.601
+  },
+  {
+   "id": "layers",
+   "label": "",
+   "start": 29.001,
+   "lines": [
+    {
+     "show": "So you fill it in {y:layers}.",
+     "start": 29.001,
+     "end": 30.475,
+     "words": [
+      {
+       "text": "So",
+       "start": 29.001,
+       "end": 29.185
+      },
+      {
+       "text": "you",
+       "start": 29.185,
+       "end": 29.422
+      },
+      {
+       "text": "fill",
+       "start": 29.422,
+       "end": 29.712
+      },
+      {
+       "text": "it",
+       "start": 29.712,
+       "end": 29.896
+      },
+      {
+       "text": "in",
+       "start": 29.896,
+       "end": 30.08
+      },
+      {
+       "text": "layers.",
+       "start": 30.08,
+       "end": 30.475
+      }
+     ]
+    },
+    {
+     "show": "{y:Branches} first,",
+     "start": 30.775,
+     "end": 31.477,
+     "words": [
+      {
+       "text": "Branches",
+       "start": 30.775,
+       "end": 31.192
+      },
+      {
+       "text": "first,",
+       "start": 31.192,
+       "end": 31.477
+      }
+     ]
+    },
+    {
+     "show": "so water runs off.",
+     "start": 31.637,
+     "end": 32.891,
+     "words": [
+      {
+       "text": "so",
+       "start": 31.637,
+       "end": 31.856
+      },
+      {
+       "text": "water",
+       "start": 31.856,
+       "end": 32.264
+      },
+      {
+       "text": "runs",
+       "start": 32.264,
+       "end": 32.609
+      },
+      {
+       "text": "off.",
+       "start": 32.609,
+       "end": 32.891
+      }
+     ]
+    },
+    {
+     "show": "Then {y:leaves}.",
+     "start": 33.191,
+     "end": 33.946,
+     "words": [
+      {
+       "text": "Then",
+       "start": 33.191,
+       "end": 33.511
+      },
+      {
+       "text": "leaves.",
+       "start": 33.511,
+       "end": 33.946
+      }
+     ]
+    },
+    {
+     "show": "Then {y:compost}.",
+     "start": 34.246,
+     "end": 35.037,
+     "words": [
+      {
+       "text": "Then",
+       "start": 34.246,
+       "end": 34.557
+      },
+      {
+       "text": "compost.",
+       "start": 34.557,
+       "end": 35.037
+      }
+     ]
+    },
+    {
+     "show": "It rots and {r:heats} the bed from below.",
+     "start": 35.337,
+     "end": 37.355,
+     "words": [
+      {
+       "text": "It",
+       "start": 35.337,
+       "end": 35.51
+      },
+      {
+       "text": "rots",
+       "start": 35.51,
+       "end": 35.78
+      },
+      {
+       "text": "and",
+       "start": 35.78,
+       "end": 36.002
+      },
+      {
+       "text": "heats",
+       "start": 36.002,
+       "end": 36.321
+      },
+      {
+       "text": "the",
+       "start": 36.321,
+       "end": 36.543
+      },
+      {
+       "text": "bed",
+       "start": 36.543,
+       "end": 36.764
+      },
+      {
+       "text": "from",
+       "start": 36.764,
+       "end": 37.035
+      },
+      {
+       "text": "below.",
+       "start": 37.035,
+       "end": 37.355
+      }
+     ]
+    },
+    {
+     "show": "And on top: fine {y:soil}.",
+     "start": 37.655,
+     "end": 39.094,
+     "words": [
+      {
+       "text": "And",
+       "start": 37.655,
+       "end": 37.93
+      },
+      {
+       "text": "on",
+       "start": 37.93,
+       "end": 38.145
+      },
+      {
+       "text": "top:",
+       "start": 38.145,
+       "end": 38.42
+      },
+      {
+       "text": "fine",
+       "start": 38.42,
+       "end": 38.757
+      },
+      {
+       "text": "soil.",
+       "start": 38.757,
+       "end": 39.094
+      }
+     ]
+    }
+   ],
+   "end": 39.394
+  },
+  {
+   "id": "grow",
+   "label": "",
+   "start": 39.794,
+   "lines": [
+    {
+     "show": "Your plants start {g:earlier}",
+     "start": 39.794,
+     "end": 40.978,
+     "words": [
+      {
+       "text": "Your",
+       "start": 39.794,
+       "end": 40.027
+      },
+      {
+       "text": "plants",
+       "start": 40.027,
+       "end": 40.344
+      },
+      {
+       "text": "start",
+       "start": 40.344,
+       "end": 40.619
+      },
+      {
+       "text": "earlier",
+       "start": 40.619,
+       "end": 40.978
+      }
+     ]
+    },
+    {
+     "show": "and grow like crazy.",
+     "start": 41.038,
+     "end": 42.42,
+     "words": [
+      {
+       "text": "and",
+       "start": 41.038,
+       "end": 41.321
+      },
+      {
+       "text": "grow",
+       "start": 41.321,
+       "end": 41.666
+      },
+      {
+       "text": "like",
+       "start": 41.666,
+       "end": 42.012
+      },
+      {
+       "text": "crazy.",
+       "start": 42.012,
+       "end": 42.42
+      }
+     ]
+    }
+   ],
+   "end": 42.72
+  },
+  {
+   "id": "sink",
+   "label": "",
+   "start": 43.12,
+   "lines": [
+    {
+     "show": "Every year, it {r:sinks} a little.",
+     "start": 43.12,
+     "end": 44.757,
+     "words": [
+      {
+       "text": "Every",
+       "start": 43.12,
+       "end": 43.452
+      },
+      {
+       "text": "year,",
+       "start": 43.452,
+       "end": 43.734
+      },
+      {
+       "text": "it",
+       "start": 43.734,
+       "end": 43.913
+      },
+      {
+       "text": "sinks",
+       "start": 43.913,
+       "end": 44.245
+      },
+      {
+       "text": "a",
+       "start": 44.245,
+       "end": 44.373
+      },
+      {
+       "text": "little.",
+       "start": 44.373,
+       "end": 44.757
+      }
+     ]
+    },
+    {
+     "show": "So you top it up with {y:compost}.",
+     "start": 45.057,
+     "end": 46.494,
+     "words": [
+      {
+       "text": "So",
+       "start": 45.057,
+       "end": 45.207
+      },
+      {
+       "text": "you",
+       "start": 45.207,
+       "end": 45.4
+      },
+      {
+       "text": "top",
+       "start": 45.4,
+       "end": 45.593
+      },
+      {
+       "text": "it",
+       "start": 45.593,
+       "end": 45.743
+      },
+      {
+       "text": "up",
+       "start": 45.743,
+       "end": 45.893
+      },
+      {
+       "text": "with",
+       "start": 45.893,
+       "end": 46.129
+      },
+      {
+       "text": "compost.",
+       "start": 46.129,
+       "end": 46.494
+      }
+     ]
+    }
+   ],
+   "end": 46.794
+  },
+  {
+   "id": "end",
+   "label": "",
+   "start": 47.194,
+   "lines": [
+    {
+     "show": "{y:Congratulations}.",
+     "start": 47.194,
+     "end": 48.331,
+     "words": [
+      {
+       "text": "Congratulations.",
+       "start": 47.194,
+       "end": 48.331
+      }
+     ]
+    },
+    {
+     "show": "You built a raised bed",
+     "start": 48.631,
+     "end": 49.85,
+     "words": [
+      {
+       "text": "You",
+       "start": 48.631,
+       "end": 48.846
+      },
+      {
+       "text": "built",
+       "start": 48.846,
+       "end": 49.156
+      },
+      {
+       "text": "a",
+       "start": 49.156,
+       "end": 49.276
+      },
+      {
+       "text": "raised",
+       "start": 49.276,
+       "end": 49.635
+      },
+      {
+       "text": "bed",
+       "start": 49.635,
+       "end": 49.85
+      }
+     ]
+    },
+    {
+     "show": "that feeds you for {g:years}.",
+     "start": 49.91,
+     "end": 51.152,
+     "words": [
+      {
+       "text": "that",
+       "start": 49.91,
+       "end": 50.158
+      },
+      {
+       "text": "feeds",
+       "start": 50.158,
+       "end": 50.452
+      },
+      {
+       "text": "you",
+       "start": 50.452,
+       "end": 50.655
+      },
+      {
+       "text": "for",
+       "start": 50.655,
+       "end": 50.858
+      },
+      {
+       "text": "years.",
+       "start": 50.858,
+       "end": 51.152
+      }
+     ]
+    }
+   ],
+   "end": 51.452
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "How to build a raised bed the right way",
+  "voice": "en-us-ryan-medium",
+  "length_scale": 1.0,
+  "beats": [
+    { "id": "want", "label": "", "lines": [
+      { "show": "You want your own {g:vegetables}." } ] },
+    { "id": "dig", "label": "", "lines": [
+      { "show": "So you dig a patch" },
+      { "show": "and fill it with {y:soil}." } ] },
+    { "id": "rain", "label": "", "lines": [
+      { "show": "Then it rains." },
+      { "show": "{r:Mud}." } ] },
+    { "id": "frame", "label": "", "lines": [
+      { "show": "So you build a wooden {y:frame}." } ] },
+    { "id": "bend", "label": "", "lines": [
+      { "show": "But you have to bend all the way down." },
+      { "show": "Your {r:back} hurts." } ] },
+    { "id": "tall", "label": "", "lines": [
+      { "show": "So you make it {y:90 centimeters} tall.", "say": "So you make it ninety centimeters tall." } ] },
+    { "id": "voles", "label": "", "lines": [
+      { "show": "Now {r:voles} eat your carrots" },
+      { "show": "from below." } ] },
+    { "id": "mesh", "label": "", "lines": [
+      { "show": "So you lay {y:wire mesh} on the bottom." } ] },
+    { "id": "rot", "label": "", "lines": [
+      { "show": "The wet soil makes the wood {r:rot}." },
+      { "show": "So you line the walls with {y:foil}." } ] },
+    { "id": "bottom", "label": "", "lines": [
+      { "show": "But never the {r:bottom}." },
+      { "show": "Or the water can't drain." } ] },
+    { "id": "layers", "label": "", "lines": [
+      { "show": "So you fill it in {y:layers}." },
+      { "show": "{y:Branches} first," },
+      { "show": "so water runs off." },
+      { "show": "Then {y:leaves}." },
+      { "show": "Then {y:compost}." },
+      { "show": "It rots and {r:heats} the bed from below." },
+      { "show": "And on top: fine {y:soil}." } ] },
+    { "id": "grow", "label": "", "lines": [
+      { "show": "Your plants start {g:earlier}" },
+      { "show": "and grow like crazy." } ] },
+    { "id": "sink", "label": "", "lines": [
+      { "show": "Every year, it {r:sinks} a little." },
+      { "show": "So you top it up with {y:compost}." } ] },
+    { "id": "end", "label": "", "lines": [
+      { "show": "{y:Congratulations}." },
+      { "show": "You built a raised bed" },
+      { "show": "that feeds you for {g:years}." } ] }
+  ]
+}
