@@ -2,3 +2,5 @@
 node_modules/
 __pycache__/
 szenario-projekt.zip
+videos/*/renders/work-*/
+videos/*/renders/.*hf-transaction*
