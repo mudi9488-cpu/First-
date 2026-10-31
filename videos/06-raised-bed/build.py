@@ -355,7 +355,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     const dk = ease((t - K.dig_w) / Math.max(0.3, K.soil1 - K.dig_w + 0.4));
     patch.visible = dk > 0.001; patch.scale.x = Math.max(0.001, dk);
     const muddy = t >= K.mud - 0.3;
-    patchMat.color.set(muddy && t < K.tall ? 0xB09A8A : 0xFFFFFF); patchMat.roughness = muddy && t < K.frame ? 0.25 : 0.9;
+    patchMat.color.set(0xFFFFFF); patchMat.emissive.set(muddy && t < K.frame ? 0x4A3626 : 0x000000); patchMat.roughness = muddy && t < K.frame ? 0.25 : 0.9;
     puddles.forEach((p, i) => { const k = ease((t - K.mud + 0.3 - i * 0.15) / 0.5); p.visible = t < K.frame && k > 0.01; p.scale.setScalar(Math.max(0.01, k)); });
     // Rahmen: erst niedrig (2 Bretter), dann auf 90 cm (5 Bretter)
     for (const b of boards) {
