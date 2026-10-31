@@ -1,0 +1,57 @@
+{
+  "title": "So füllst du ein Hochbeet richtig",
+  "voice": "thorsten-low",
+  "length_scale": 1.0,
+  "beats": [
+    { "id": "hook", "label": "", "lines": [
+      { "show": "Die meisten füllen ihr Hochbeet einfach mit {y:Erde}." },
+      { "show": "{r:Großer} Fehler." } ] },
+    { "id": "plan", "label": "", "lines": [
+      { "show": "Richtig sind {y:vier} Schichten." },
+      { "show": "Und jede hat einen {y:Job}." } ] },
+    { "id": "platz", "label": "", "lines": [
+      { "show": "Zuerst der Platz:" },
+      { "show": "volle {y:Sonne}," },
+      { "show": "am besten von {y:Nord} nach {y:Süd} ausgerichtet." } ] },
+    { "id": "rahmen", "label": "", "lines": [
+      { "show": "Der Rahmen:" },
+      { "show": "{y:achtzig} bis neunzig Zentimeter hoch." },
+      { "show": "Dann musst du dich nicht {y:bücken}." } ] },
+    { "id": "gitter", "label": "", "lines": [
+      { "show": "Ganz unten:" },
+      { "show": "ein engmaschiges {y:Gitter}." },
+      { "show": "Sonst fressen {r:Wühlmäuse}" },
+      { "show": "deine Ernte von unten." } ] },
+    { "id": "folie", "label": "", "lines": [
+      { "show": "An die Innenwände kommt {y:Folie}." },
+      { "show": "Sie schützt das Holz vor {y:Fäulnis}." },
+      { "show": "Aber {r:nie} unten drauf." },
+      { "show": "Sonst staut sich das {r:Wasser}." } ] },
+    { "id": "aeste", "label": "", "lines": [
+      { "show": "Schicht eins:" },
+      { "show": "grobe {y:Äste} und Zweige." },
+      { "show": "Etwa {y:dreißig} Zentimeter." },
+      { "show": "Damit Wasser {y:abfließen} kann." } ] },
+    { "id": "laub", "label": "", "lines": [
+      { "show": "Schicht zwei:" },
+      { "show": "{y:Laub} oder umgedrehte {y:Grassoden}." } ] },
+    { "id": "kompost", "label": "", "lines": [
+      { "show": "Schicht drei:" },
+      { "show": "grober {y:Kompost}." },
+      { "show": "Er verrottet und gibt {r:Wärme} ab." },
+      { "show": "Deine Pflanzen wachsen {y:früher}." } ] },
+    { "id": "erde", "label": "", "lines": [
+      { "show": "Ganz oben:" },
+      { "show": "{y:zwanzig} Zentimeter feine Pflanzerde." } ] },
+    { "id": "pflanzen", "label": "", "lines": [
+      { "show": "Im ersten Jahr steckt das Beet voller {y:Nährstoffe}." },
+      { "show": "Perfekt für {g:Tomaten}, {g:Zucchini} und {g:Kohl}." } ] },
+    { "id": "nachfuellen", "label": "", "lines": [
+      { "show": "Jedes Jahr sackt die Füllung ein Stück ab." },
+      { "show": "Einfach oben {y:Kompost} nachfüllen." } ] },
+    { "id": "ende", "label": "", "lines": [
+      { "show": "{y:Glückwunsch}." },
+      { "show": "Du hast ein Hochbeet gebaut," },
+      { "show": "das dir jahrelang {g:Gemüse} schenkt." } ] }
+  ]
+}

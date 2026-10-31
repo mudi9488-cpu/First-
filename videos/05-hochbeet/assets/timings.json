@@ -1,0 +1,1128 @@
+{
+ "duration": 63.103,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "Die meisten füllen ihr Hochbeet einfach mit {y:Erde}.",
+     "start": 0.15,
+     "end": 2.385,
+     "words": [
+      {
+       "text": "Die",
+       "start": 0.15,
+       "end": 0.34
+      },
+      {
+       "text": "meisten",
+       "start": 0.34,
+       "end": 0.698
+      },
+      {
+       "text": "füllen",
+       "start": 0.698,
+       "end": 1.015
+      },
+      {
+       "text": "ihr",
+       "start": 1.015,
+       "end": 1.204
+      },
+      {
+       "text": "Hochbeet",
+       "start": 1.204,
+       "end": 1.605
+      },
+      {
+       "text": "einfach",
+       "start": 1.605,
+       "end": 1.964
+      },
+      {
+       "text": "mit",
+       "start": 1.964,
+       "end": 2.153
+      },
+      {
+       "text": "Erde.",
+       "start": 2.153,
+       "end": 2.385
+      }
+     ]
+    },
+    {
+     "show": "{r:Großer} Fehler.",
+     "start": 2.685,
+     "end": 3.466,
+     "words": [
+      {
+       "text": "Großer",
+       "start": 2.685,
+       "end": 3.076
+      },
+      {
+       "text": "Fehler.",
+       "start": 3.076,
+       "end": 3.466
+      }
+     ]
+    }
+   ],
+   "end": 3.766
+  },
+  {
+   "id": "plan",
+   "label": "",
+   "start": 4.167,
+   "lines": [
+    {
+     "show": "Richtig sind {y:vier} Schichten.",
+     "start": 4.167,
+     "end": 5.445,
+     "words": [
+      {
+       "text": "Richtig",
+       "start": 4.167,
+       "end": 4.529
+      },
+      {
+       "text": "sind",
+       "start": 4.529,
+       "end": 4.763
+      },
+      {
+       "text": "vier",
+       "start": 4.763,
+       "end": 4.998
+      },
+      {
+       "text": "Schichten.",
+       "start": 4.998,
+       "end": 5.445
+      }
+     ]
+    },
+    {
+     "show": "Und jede hat einen {y:Job}.",
+     "start": 5.745,
+     "end": 6.778,
+     "words": [
+      {
+       "text": "Und",
+       "start": 5.745,
+       "end": 5.927
+      },
+      {
+       "text": "jede",
+       "start": 5.927,
+       "end": 6.15
+      },
+      {
+       "text": "hat",
+       "start": 6.15,
+       "end": 6.333
+      },
+      {
+       "text": "einen",
+       "start": 6.333,
+       "end": 6.596
+      },
+      {
+       "text": "Job.",
+       "start": 6.596,
+       "end": 6.778
+      }
+     ]
+    }
+   ],
+   "end": 7.078
+  },
+  {
+   "id": "platz",
+   "label": "",
+   "start": 7.478,
+   "lines": [
+    {
+     "show": "Zuerst der Platz:",
+     "start": 7.478,
+     "end": 8.479,
+     "words": [
+      {
+       "text": "Zuerst",
+       "start": 7.478,
+       "end": 7.884
+      },
+      {
+       "text": "der",
+       "start": 7.884,
+       "end": 8.127
+      },
+      {
+       "text": "Platz:",
+       "start": 8.127,
+       "end": 8.479
+      }
+     ]
+    },
+    {
+     "show": "volle {y:Sonne},",
+     "start": 8.639,
+     "end": 9.351,
+     "words": [
+      {
+       "text": "volle",
+       "start": 8.639,
+       "end": 8.995
+      },
+      {
+       "text": "Sonne,",
+       "start": 8.995,
+       "end": 9.351
+      }
+     ]
+    },
+    {
+     "show": "am besten von {y:Nord} nach {y:Süd} ausgerichtet.",
+     "start": 9.511,
+     "end": 11.485,
+     "words": [
+      {
+       "text": "am",
+       "start": 9.511,
+       "end": 9.666
+      },
+      {
+       "text": "besten",
+       "start": 9.666,
+       "end": 9.999
+      },
+      {
+       "text": "von",
+       "start": 9.999,
+       "end": 10.198
+      },
+      {
+       "text": "Nord",
+       "start": 10.198,
+       "end": 10.442
+      },
+      {
+       "text": "nach",
+       "start": 10.442,
+       "end": 10.686
+      },
+      {
+       "text": "Süd",
+       "start": 10.686,
+       "end": 10.886
+      },
+      {
+       "text": "ausgerichtet.",
+       "start": 10.886,
+       "end": 11.485
+      }
+     ]
+    }
+   ],
+   "end": 11.785
+  },
+  {
+   "id": "rahmen",
+   "label": "",
+   "start": 12.185,
+   "lines": [
+    {
+     "show": "Der Rahmen:",
+     "start": 12.185,
+     "end": 12.718,
+     "words": [
+      {
+       "text": "Der",
+       "start": 12.185,
+       "end": 12.385
+      },
+      {
+       "text": "Rahmen:",
+       "start": 12.385,
+       "end": 12.718
+      }
+     ]
+    },
+    {
+     "show": "{y:achtzig} bis neunzig Zentimeter hoch.",
+     "start": 12.878,
+     "end": 14.691,
+     "words": [
+      {
+       "text": "achtzig",
+       "start": 12.878,
+       "end": 13.278
+      },
+      {
+       "text": "bis",
+       "start": 13.278,
+       "end": 13.49
+      },
+      {
+       "text": "neunzig",
+       "start": 13.49,
+       "end": 13.891
+      },
+      {
+       "text": "Zentimeter",
+       "start": 13.891,
+       "end": 14.432
+      },
+      {
+       "text": "hoch.",
+       "start": 14.432,
+       "end": 14.691
+      }
+     ]
+    },
+    {
+     "show": "Dann musst du dich nicht {y:bücken}.",
+     "start": 14.991,
+     "end": 16.048,
+     "words": [
+      {
+       "text": "Dann",
+       "start": 14.991,
+       "end": 15.157
+      },
+      {
+       "text": "musst",
+       "start": 15.157,
+       "end": 15.354
+      },
+      {
+       "text": "du",
+       "start": 15.354,
+       "end": 15.459
+      },
+      {
+       "text": "dich",
+       "start": 15.459,
+       "end": 15.625
+      },
+      {
+       "text": "nicht",
+       "start": 15.625,
+       "end": 15.822
+      },
+      {
+       "text": "bücken.",
+       "start": 15.822,
+       "end": 16.048
+      }
+     ]
+    }
+   ],
+   "end": 16.348
+  },
+  {
+   "id": "gitter",
+   "label": "",
+   "start": 16.748,
+   "lines": [
+    {
+     "show": "Ganz unten:",
+     "start": 16.748,
+     "end": 17.472,
+     "words": [
+      {
+       "text": "Ganz",
+       "start": 16.748,
+       "end": 17.08
+      },
+      {
+       "text": "unten:",
+       "start": 17.08,
+       "end": 17.472
+      }
+     ]
+    },
+    {
+     "show": "ein engmaschiges {y:Gitter}.",
+     "start": 17.632,
+     "end": 18.743,
+     "words": [
+      {
+       "text": "ein",
+       "start": 17.632,
+       "end": 17.828
+      },
+      {
+       "text": "engmaschiges",
+       "start": 17.828,
+       "end": 18.416
+      },
+      {
+       "text": "Gitter.",
+       "start": 18.416,
+       "end": 18.743
+      }
+     ]
+    },
+    {
+     "show": "Sonst fressen {r:Wühlmäuse}",
+     "start": 19.043,
+     "end": 20.323,
+     "words": [
+      {
+       "text": "Sonst",
+       "start": 19.043,
+       "end": 19.369
+      },
+      {
+       "text": "fressen",
+       "start": 19.369,
+       "end": 19.796
+      },
+      {
+       "text": "Wühlmäuse",
+       "start": 19.796,
+       "end": 20.323
+      }
+     ]
+    },
+    {
+     "show": "deine Ernte von unten.",
+     "start": 20.383,
+     "end": 21.568,
+     "words": [
+      {
+       "text": "deine",
+       "start": 20.383,
+       "end": 20.704
+      },
+      {
+       "text": "Ernte",
+       "start": 20.704,
+       "end": 21.025
+      },
+      {
+       "text": "von",
+       "start": 21.025,
+       "end": 21.247
+      },
+      {
+       "text": "unten.",
+       "start": 21.247,
+       "end": 21.568
+      }
+     ]
+    }
+   ],
+   "end": 21.868
+  },
+  {
+   "id": "folie",
+   "label": "",
+   "start": 22.268,
+   "lines": [
+    {
+     "show": "An die Innenwände kommt {y:Folie}.",
+     "start": 22.268,
+     "end": 23.654,
+     "words": [
+      {
+       "text": "An",
+       "start": 22.268,
+       "end": 22.417
+      },
+      {
+       "text": "die",
+       "start": 22.417,
+       "end": 22.609
+      },
+      {
+       "text": "Innenwände",
+       "start": 22.609,
+       "end": 23.1
+      },
+      {
+       "text": "kommt",
+       "start": 23.1,
+       "end": 23.377
+      },
+      {
+       "text": "Folie.",
+       "start": 23.377,
+       "end": 23.654
+      }
+     ]
+    },
+    {
+     "show": "Sie schützt das Holz vor {y:Fäulnis}.",
+     "start": 23.954,
+     "end": 25.457,
+     "words": [
+      {
+       "text": "Sie",
+       "start": 23.954,
+       "end": 24.142
+      },
+      {
+       "text": "schützt",
+       "start": 24.142,
+       "end": 24.497
+      },
+      {
+       "text": "das",
+       "start": 24.497,
+       "end": 24.685
+      },
+      {
+       "text": "Holz",
+       "start": 24.685,
+       "end": 24.915
+      },
+      {
+       "text": "vor",
+       "start": 24.915,
+       "end": 25.103
+      },
+      {
+       "text": "Fäulnis.",
+       "start": 25.103,
+       "end": 25.458
+      }
+     ]
+    },
+    {
+     "show": "Aber {r:nie} unten drauf.",
+     "start": 25.758,
+     "end": 26.968,
+     "words": [
+      {
+       "text": "Aber",
+       "start": 25.758,
+       "end": 26.047
+      },
+      {
+       "text": "nie",
+       "start": 26.047,
+       "end": 26.284
+      },
+      {
+       "text": "unten",
+       "start": 26.284,
+       "end": 26.626
+      },
+      {
+       "text": "drauf.",
+       "start": 26.626,
+       "end": 26.968
+      }
+     ]
+    },
+    {
+     "show": "Sonst staut sich das {r:Wasser}.",
+     "start": 27.268,
+     "end": 28.52,
+     "words": [
+      {
+       "text": "Sonst",
+       "start": 27.268,
+       "end": 27.535
+      },
+      {
+       "text": "staut",
+       "start": 27.535,
+       "end": 27.802
+      },
+      {
+       "text": "sich",
+       "start": 27.802,
+       "end": 28.028
+      },
+      {
+       "text": "das",
+       "start": 28.028,
+       "end": 28.212
+      },
+      {
+       "text": "Wasser.",
+       "start": 28.212,
+       "end": 28.52
+      }
+     ]
+    }
+   ],
+   "end": 28.82
+  },
+  {
+   "id": "aeste",
+   "label": "",
+   "start": 29.22,
+   "lines": [
+    {
+     "show": "Schicht eins:",
+     "start": 29.22,
+     "end": 29.995,
+     "words": [
+      {
+       "text": "Schicht",
+       "start": 29.22,
+       "end": 29.69
+      },
+      {
+       "text": "eins:",
+       "start": 29.69,
+       "end": 29.995
+      }
+     ]
+    },
+    {
+     "show": "grobe {y:Äste} und Zweige.",
+     "start": 30.155,
+     "end": 31.45,
+     "words": [
+      {
+       "text": "grobe",
+       "start": 30.155,
+       "end": 30.506
+      },
+      {
+       "text": "Äste",
+       "start": 30.506,
+       "end": 30.802
+      },
+      {
+       "text": "und",
+       "start": 30.802,
+       "end": 31.045
+      },
+      {
+       "text": "Zweige.",
+       "start": 31.045,
+       "end": 31.45
+      }
+     ]
+    },
+    {
+     "show": "Etwa {y:dreißig} Zentimeter.",
+     "start": 31.75,
+     "end": 33.084,
+     "words": [
+      {
+       "text": "Etwa",
+       "start": 31.75,
+       "end": 32.038
+      },
+      {
+       "text": "dreißig",
+       "start": 32.038,
+       "end": 32.483
+      },
+      {
+       "text": "Zentimeter.",
+       "start": 32.483,
+       "end": 33.084
+      }
+     ]
+    },
+    {
+     "show": "Damit Wasser {y:abfließen} kann.",
+     "start": 33.384,
+     "end": 34.737,
+     "words": [
+      {
+       "text": "Damit",
+       "start": 33.384,
+       "end": 33.677
+      },
+      {
+       "text": "Wasser",
+       "start": 33.677,
+       "end": 34.016
+      },
+      {
+       "text": "abfließen",
+       "start": 34.016,
+       "end": 34.489
+      },
+      {
+       "text": "kann.",
+       "start": 34.489,
+       "end": 34.737
+      }
+     ]
+    }
+   ],
+   "end": 35.037
+  },
+  {
+   "id": "laub",
+   "label": "",
+   "start": 35.437,
+   "lines": [
+    {
+     "show": "Schicht zwei:",
+     "start": 35.437,
+     "end": 36.137,
+     "words": [
+      {
+       "text": "Schicht",
+       "start": 35.437,
+       "end": 35.862
+      },
+      {
+       "text": "zwei:",
+       "start": 35.862,
+       "end": 36.137
+      }
+     ]
+    },
+    {
+     "show": "{y:Laub} oder umgedrehte {y:Grassoden}.",
+     "start": 36.297,
+     "end": 38.001,
+     "words": [
+      {
+       "text": "Laub",
+       "start": 36.297,
+       "end": 36.581
+      },
+      {
+       "text": "oder",
+       "start": 36.581,
+       "end": 36.865
+      },
+      {
+       "text": "umgedrehte",
+       "start": 36.865,
+       "end": 37.459
+      },
+      {
+       "text": "Grassoden.",
+       "start": 37.459,
+       "end": 38.001
+      }
+     ]
+    }
+   ],
+   "end": 38.301
+  },
+  {
+   "id": "kompost",
+   "label": "",
+   "start": 38.701,
+   "lines": [
+    {
+     "show": "Schicht drei:",
+     "start": 38.701,
+     "end": 39.337,
+     "words": [
+      {
+       "text": "Schicht",
+       "start": 38.701,
+       "end": 39.087
+      },
+      {
+       "text": "drei:",
+       "start": 39.087,
+       "end": 39.337
+      }
+     ]
+    },
+    {
+     "show": "grober {y:Kompost}.",
+     "start": 39.497,
+     "end": 40.414,
+     "words": [
+      {
+       "text": "grober",
+       "start": 39.497,
+       "end": 39.927
+      },
+      {
+       "text": "Kompost.",
+       "start": 39.927,
+       "end": 40.414
+      }
+     ]
+    },
+    {
+     "show": "Er verrottet und gibt {r:Wärme} ab.",
+     "start": 40.714,
+     "end": 42.23,
+     "words": [
+      {
+       "text": "Er",
+       "start": 40.714,
+       "end": 40.87
+      },
+      {
+       "text": "verrottet",
+       "start": 40.87,
+       "end": 41.338
+      },
+      {
+       "text": "und",
+       "start": 41.338,
+       "end": 41.539
+      },
+      {
+       "text": "gibt",
+       "start": 41.539,
+       "end": 41.784
+      },
+      {
+       "text": "Wärme",
+       "start": 41.784,
+       "end": 42.074
+      },
+      {
+       "text": "ab.",
+       "start": 42.074,
+       "end": 42.23
+      }
+     ]
+    },
+    {
+     "show": "Deine Pflanzen wachsen {y:früher}.",
+     "start": 42.53,
+     "end": 43.916,
+     "words": [
+      {
+       "text": "Deine",
+       "start": 42.53,
+       "end": 42.812
+      },
+      {
+       "text": "Pflanzen",
+       "start": 42.812,
+       "end": 43.223
+      },
+      {
+       "text": "wachsen",
+       "start": 43.223,
+       "end": 43.591
+      },
+      {
+       "text": "früher.",
+       "start": 43.591,
+       "end": 43.916
+      }
+     ]
+    }
+   ],
+   "end": 44.216
+  },
+  {
+   "id": "erde",
+   "label": "",
+   "start": 44.616,
+   "lines": [
+    {
+     "show": "Ganz oben:",
+     "start": 44.616,
+     "end": 45.209,
+     "words": [
+      {
+       "text": "Ganz",
+       "start": 44.616,
+       "end": 44.913
+      },
+      {
+       "text": "oben:",
+       "start": 44.913,
+       "end": 45.209
+      }
+     ]
+    },
+    {
+     "show": "{y:zwanzig} Zentimeter feine Pflanzerde.",
+     "start": 45.369,
+     "end": 47.427,
+     "words": [
+      {
+       "text": "zwanzig",
+       "start": 45.369,
+       "end": 45.83
+      },
+      {
+       "text": "Zentimeter",
+       "start": 45.83,
+       "end": 46.452
+      },
+      {
+       "text": "feine",
+       "start": 46.452,
+       "end": 46.804
+      },
+      {
+       "text": "Pflanzerde.",
+       "start": 46.804,
+       "end": 47.427
+      }
+     ]
+    }
+   ],
+   "end": 47.727
+  },
+  {
+   "id": "pflanzen",
+   "label": "",
+   "start": 48.127,
+   "lines": [
+    {
+     "show": "Im ersten Jahr steckt das Beet voller {y:Nährstoffe}.",
+     "start": 48.127,
+     "end": 50.503,
+     "words": [
+      {
+       "text": "Im",
+       "start": 48.127,
+       "end": 48.284
+      },
+      {
+       "text": "ersten",
+       "start": 48.284,
+       "end": 48.62
+      },
+      {
+       "text": "Jahr",
+       "start": 48.62,
+       "end": 48.867
+      },
+      {
+       "text": "steckt",
+       "start": 48.867,
+       "end": 49.203
+      },
+      {
+       "text": "das",
+       "start": 49.203,
+       "end": 49.405
+      },
+      {
+       "text": "Beet",
+       "start": 49.405,
+       "end": 49.651
+      },
+      {
+       "text": "voller",
+       "start": 49.651,
+       "end": 49.988
+      },
+      {
+       "text": "Nährstoffe.",
+       "start": 49.988,
+       "end": 50.503
+      }
+     ]
+    },
+    {
+     "show": "Perfekt für {g:Tomaten}, {g:Zucchini} und {g:Kohl}.",
+     "start": 50.803,
+     "end": 53.03,
+     "words": [
+      {
+       "text": "Perfekt",
+       "start": 50.803,
+       "end": 51.265
+      },
+      {
+       "text": "für",
+       "start": 51.265,
+       "end": 51.509
+      },
+      {
+       "text": "Tomaten,",
+       "start": 51.509,
+       "end": 51.971
+      },
+      {
+       "text": "Zucchini",
+       "start": 51.971,
+       "end": 52.487
+      },
+      {
+       "text": "und",
+       "start": 52.487,
+       "end": 52.731
+      },
+      {
+       "text": "Kohl.",
+       "start": 52.731,
+       "end": 53.03
+      }
+     ]
+    }
+   ],
+   "end": 53.33
+  },
+  {
+   "id": "nachfuellen",
+   "label": "",
+   "start": 53.73,
+   "lines": [
+    {
+     "show": "Jedes Jahr sackt die Füllung ein Stück ab.",
+     "start": 53.73,
+     "end": 55.52,
+     "words": [
+      {
+       "text": "Jedes",
+       "start": 53.73,
+       "end": 53.983
+      },
+      {
+       "text": "Jahr",
+       "start": 53.983,
+       "end": 54.197
+      },
+      {
+       "text": "sackt",
+       "start": 54.197,
+       "end": 54.45
+      },
+      {
+       "text": "die",
+       "start": 54.45,
+       "end": 54.625
+      },
+      {
+       "text": "Füllung",
+       "start": 54.625,
+       "end": 54.956
+      },
+      {
+       "text": "ein",
+       "start": 54.956,
+       "end": 55.131
+      },
+      {
+       "text": "Stück",
+       "start": 55.131,
+       "end": 55.384
+      },
+      {
+       "text": "ab.",
+       "start": 55.384,
+       "end": 55.52
+      }
+     ]
+    },
+    {
+     "show": "Einfach oben {y:Kompost} nachfüllen.",
+     "start": 55.82,
+     "end": 57.581,
+     "words": [
+      {
+       "text": "Einfach",
+       "start": 55.82,
+       "end": 56.261
+      },
+      {
+       "text": "oben",
+       "start": 56.261,
+       "end": 56.545
+      },
+      {
+       "text": "Kompost",
+       "start": 56.545,
+       "end": 56.986
+      },
+      {
+       "text": "nachfüllen.",
+       "start": 56.986,
+       "end": 57.581
+      }
+     ]
+    }
+   ],
+   "end": 57.881
+  },
+  {
+   "id": "ende",
+   "label": "",
+   "start": 58.281,
+   "lines": [
+    {
+     "show": "{y:Glückwunsch}.",
+     "start": 58.281,
+     "end": 58.925,
+     "words": [
+      {
+       "text": "Glückwunsch.",
+       "start": 58.281,
+       "end": 58.925
+      }
+     ]
+    },
+    {
+     "show": "Du hast ein Hochbeet gebaut,",
+     "start": 59.225,
+     "end": 60.455,
+     "words": [
+      {
+       "text": "Du",
+       "start": 59.225,
+       "end": 59.366
+      },
+      {
+       "text": "hast",
+       "start": 59.366,
+       "end": 59.588
+      },
+      {
+       "text": "ein",
+       "start": 59.588,
+       "end": 59.77
+      },
+      {
+       "text": "Hochbeet",
+       "start": 59.77,
+       "end": 60.153
+      },
+      {
+       "text": "gebaut,",
+       "start": 60.153,
+       "end": 60.455
+      }
+     ]
+    },
+    {
+     "show": "das dir jahrelang {g:Gemüse} schenkt.",
+     "start": 60.615,
+     "end": 62.203,
+     "words": [
+      {
+       "text": "das",
+       "start": 60.615,
+       "end": 60.817
+      },
+      {
+       "text": "dir",
+       "start": 60.817,
+       "end": 61.018
+      },
+      {
+       "text": "jahrelang",
+       "start": 61.018,
+       "end": 61.487
+      },
+      {
+       "text": "Gemüse",
+       "start": 61.487,
+       "end": 61.823
+      },
+      {
+       "text": "schenkt.",
+       "start": 61.823,
+       "end": 62.203
+      }
+     ]
+    }
+   ],
+   "end": 62.503
+  }
+ ]
+}
