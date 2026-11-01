@@ -1,0 +1,43 @@
+{
+  "title": "Why your basement gets moldy – and how to stop it",
+  "voice": "en-us-ryan-medium",
+  "length_scale": 1.0,
+  "beats": [
+    { "id": "want", "label": "", "lines": [
+      { "show": "You want to use your {g:basement}." } ] },
+    { "id": "boxes", "label": "", "lines": [
+      { "show": "So you store your {y:boxes} down there." },
+      { "show": "Weeks later, it smells like {r:mold}." } ] },
+    { "id": "rain", "label": "", "lines": [
+      { "show": "Every time it rains," },
+      { "show": "your downspout dumps the water right at the {r:wall}." } ] },
+    { "id": "extend", "label": "", "lines": [
+      { "show": "So you add an {y:extension}" },
+      { "show": "that carries it {y:two meters} away." } ] },
+    { "id": "slope", "label": "", "lines": [
+      { "show": "But the ground {r:slopes} toward the house." },
+      { "show": "So you {y:regrade} it to slope away." } ] },
+    { "id": "seal", "label": "", "lines": [
+      { "show": "Water still {r:seeps} through the wall." },
+      { "show": "So you {y:seal} it from the outside" },
+      { "show": "and lay a {y:drain} at the bottom." } ] },
+    { "id": "summer", "label": "", "lines": [
+      { "show": "Then summer comes." },
+      { "show": "You open the window to {r:air} it out." },
+      { "show": "Warm, humid air hits the cold walls" },
+      { "show": "and turns into {r:water}." } ] },
+    { "id": "cool", "label": "", "lines": [
+      { "show": "So you only air out when it's {y:cool} outside." } ] },
+    { "id": "dehum", "label": "", "lines": [
+      { "show": "And a {y:dehumidifier} keeps it" },
+      { "show": "below {y:60 percent}.", "say": "below sixty percent." } ] },
+    { "id": "gap", "label": "", "lines": [
+      { "show": "But your boxes {r:touch} the wall." },
+      { "show": "No air, more mold." },
+      { "show": "So you leave a {y:gap}." } ] },
+    { "id": "end", "label": "", "lines": [
+      { "show": "{y:Congratulations}." },
+      { "show": "You built a basement" },
+      { "show": "that stays {g:dry}." } ] }
+  ]
+}

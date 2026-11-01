@@ -1,0 +1,352 @@
+<template>
+  <style>
+    #root { position:absolute; inset:0; background:#8DB9EA; }
+    #w-canvas { position:absolute; left:0; top:0; width:1080px; height:1920px; }
+    .lab { position:absolute; display:none; transform:translate(-50%,-50%); white-space:nowrap; }
+    .lab span { display:inline-block; font-family:'Inter',sans-serif; font-weight:900; font-size:52px; letter-spacing:0.01em;
+      -webkit-text-stroke:10px #1A1208; paint-order:stroke fill; text-shadow:0 4px 10px rgba(0,0,0,0.35); }
+  </style>
+  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="49.38" data-layout-allow-overlap>
+    <canvas id="w-canvas" width="1080" height="1920"></canvas>
+    <div id="l-base" class="lab"><span style="color:#7CE07C">BASEMENT</span></div><div id="l-boxes" class="lab"><span style="color:#FFD23F">BOXES</span></div><div id="l-mold" class="lab"><span style="color:#FF4D4D">MOLD!</span></div><div id="l-rain" class="lab"><span style="color:#6FC3FF">RAIN</span></div><div id="l-wall" class="lab"><span style="color:#FF4D4D">WATER AT THE WALL!</span></div><div id="l-ext" class="lab"><span style="color:#FFD23F">EXTENSION</span></div><div id="l-2m" class="lab"><span style="color:#FFD23F">2 M AWAY</span></div><div id="l-slope" class="lab"><span style="color:#FF4D4D">SLOPES TO THE HOUSE ✕</span></div><div id="l-regrade" class="lab"><span style="color:#FFD23F">SLOPE AWAY ✓</span></div><div id="l-seeps" class="lab"><span style="color:#FF4D4D">SEEPS THROUGH!</span></div><div id="l-seal" class="lab"><span style="color:#FFD23F">SEAL OUTSIDE</span></div><div id="l-drain" class="lab"><span style="color:#FFD23F">DRAIN</span></div><div id="l-window" class="lab"><span style="color:#FFFFFF">WINDOW OPEN</span></div><div id="l-humid" class="lab"><span style="color:#FF9F43">WARM HUMID AIR</span></div><div id="l-cond" class="lab"><span style="color:#FF4D4D">CONDENSATION!</span></div><div id="l-cool" class="lab"><span style="color:#FFD23F">AIR OUT WHEN COOL</span></div><div id="l-dehum" class="lab"><span style="color:#FFD23F">DEHUMIDIFIER</span></div><div id="l-pct" class="lab"><span style="color:#6FC3FF">BELOW 60 %</span></div><div id="l-touch" class="lab"><span style="color:#FF4D4D">NO AIR!</span></div><div id="l-gap" class="lab"><span style="color:#FFD23F">GAP ✓</span></div><div id="l-congrats" class="lab"><span style="color:#FFD23F">CONGRATULATIONS!</span></div>
+  </div>
+  <script>
+
+const K = {"want": 0.0, "boxes": 2.162, "rain": 6.767, "extend": 11.075, "slope": 14.691, "seal": 19.128, "summer": 25.109, "cool": 32.507, "dehum": 35.54, "gap": 38.982, "end": 44.061, "basement_w": 1.084, "boxes_w": 3.03, "mold": 5.763, "rains": 7.618, "downspout": 8.365, "wall_w": 10.145, "extension": 11.86, "meters": 13.213, "slopes": 15.39, "regrade": 17.16, "seeps": 19.755, "seal_w": 21.649, "drain": 23.509, "summer_w": 25.434, "window": 27.148, "air_w": 27.595, "humid": 28.701, "water_w": 31.452, "cool_w": 34.138, "dehum_w": 35.887, "pct": 37.521, "touch": 39.69, "mold2": 41.683, "gap_w": 43.156, "congrats": 44.061, "dry_w": 47.224}, SHOTS = [[0.0, [5.0, 3.0, 11.5], [3.8, 2.4, 10.2], [0, 0.6, -1.2], 50], [2.162, [0.5, -0.5, 5.0], [0.1, -0.6, 4.4], [0, -0.8, -1.6], 50], [6.767, [3.8, 1.6, 8.2], [3.3, 1.3, 7.4], [1.5, 0.3, -1.2], 50], [11.075, [3.1, 0.5, 5.6], [2.8, 0.4, 5.1], [2.5, -0.3, -0.6], 50], [14.691, [3.6, 1.7, 5.4], [3.2, 1.5, 4.9], [2.7, -0.1, -1.0], 50], [19.128, [2.0, -0.8, 4.6], [1.7, -0.9, 4.1], [1.7, -1.1, -0.2], 50], [25.109, [-0.7, -0.2, 5.0], [-0.3, -0.35, 4.4], [0, -0.6, -2.0], 50], [32.507, [0.6, -0.4, 4.8], [0.25, -0.5, 4.3], [0, -0.6, -2.0], 50], [35.54, [-0.7, -0.8, 3.7], [-0.45, -0.95, 3.2], [-0.8, -1.4, -1.2], 50], [38.982, [1.9, -0.6, 3.9], [1.5, -0.75, 3.3], [0.7, -1.2, -2.6], 50], [44.061, null, null, [0, 0.5, -1.4], 50]], LABELS = [["l-base", "BASEMENT", "g", 0.0, -0.9, -1.5, 1.084, 2.162], ["l-boxes", "BOXES", "y", 0.8, -0.6, -3.0, 3.03, 5.763], ["l-mold", "MOLD!", "r", -1.0, -0.9, -3.4, 5.763, 6.767], ["l-rain", "RAIN", "b", 2.2, 2.6, 0.2, 7.618, 8.965], ["l-wall", "WATER AT THE WALL!", "r", 2.2, 0.6, 0.3, 8.965, 11.86], ["l-ext", "EXTENSION", "y", 2.8, 0.5, 0.2, 11.86, 13.213], ["l-2m", "2 M AWAY", "y", 3.0, 0.5, 0.2, 13.213, 14.691], ["l-slope", "SLOPES TO THE HOUSE \u2715", "r", 3.0, 0.7, 0.0, 15.39, 17.16], ["l-regrade", "SLOPE AWAY \u2713", "y", 3.0, 0.7, 0.0, 17.16, 19.128], ["l-seeps", "SEEPS THROUGH!", "r", 1.75, -0.5, 0.5, 19.755, 21.649], ["l-seal", "SEAL OUTSIDE", "y", 1.9, -0.3, 0.5, 21.649, 23.509], ["l-drain", "DRAIN", "y", 2.15, -1.75, 0.5, 23.509, 25.109], ["l-window", "WINDOW OPEN", "w", 0.0, 0.75, -3.4, 27.148, 28.701], ["l-humid", "WARM HUMID AIR", "o", 0.0, 0.2, -2.6, 28.701, 31.452], ["l-cond", "CONDENSATION!", "r", 0.0, -0.7, -3.4, 31.452, 32.507], ["l-cool", "AIR OUT WHEN COOL", "y", 0.0, 0.2, -2.6, 34.138, 35.54], ["l-dehum", "DEHUMIDIFIER", "y", -0.95, -1.0, -1.1, 35.887, 37.521], ["l-pct", "BELOW 60 %", "b", -0.95, -1.0, -1.1, 37.521, 38.982], ["l-touch", "NO AIR!", "r", 0.8, -0.3, -3.3, 39.69, 43.156], ["l-gap", "GAP \u2713", "y", 0.8, -0.3, -3.3, 43.156, 44.061], ["l-congrats", "CONGRATULATIONS!", "y", 0.0, 5.6, -1.5, 44.061, 49.38]], DUR = 49.38;
+window.__hf = window.__hf || {}; window.__hf.buildReady = window.__hf.buildReady || {};
+window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THREE) => {
+  const W = 1080, H = 1920;
+  const canvas = document.getElementById("w-canvas");
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
+  renderer.setPixelRatio(1); renderer.setSize(W, H, false);
+  renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  renderer.outputColorSpace = THREE.SRGBColorSpace;
+  renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+
+  function mulberry(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+  const R = mulberry(11);
+  const rr = (a, b) => a + (b - a) * R();
+  const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+  const ease = (x) => { x = clamp(x, 0, 1); return x * x * (3 - 2 * x); };
+  const outBack = (x) => { x = clamp(x, 0, 1); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+
+  // ---------- prozedurale Texturen
+  function tex(w, h, seed, draw, rep) {
+    const c = document.createElement("canvas"); c.width = w; c.height = h;
+    const g = c.getContext("2d"); const r = mulberry(seed); draw(g, r, w, h);
+    const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+    t.wrapS = t.wrapT = THREE.RepeatWrapping; if (rep) t.repeat.set(rep[0], rep[1]); t.anisotropy = 4; return t;
+  }
+  const speck = (g, r, w, h, n, cols, s0, s1) => { for (let i = 0; i < n; i++) { g.fillStyle = cols[Math.floor(r() * cols.length)];
+    const s = s0 + r() * (s1 - s0); g.beginPath(); g.ellipse(r() * w, r() * h, s, s * (0.5 + r() * 0.6), r() * 3, 0, 6.3); g.fill(); } };
+  const grassT = tex(512, 512, 1, (g, r, w, h) => { g.fillStyle = "#4E7F2E"; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 9000; i++) { const x = r() * w, y = r() * h, l = 6 + r() * 12;
+      g.strokeStyle = ["#3F6E25", "#5E9238", "#6FA444", "#4A7A2B", "#7DB04E"][Math.floor(r() * 5)]; g.lineWidth = 1.4;
+      g.beginPath(); g.moveTo(x, y); g.lineTo(x + (r() - 0.5) * 4, y - l); g.stroke(); } }, [24, 24]);
+  const cutT = tex(1024, 256, 2, (g, r, w, h) => {
+    g.fillStyle = "#9A5A2C"; g.fillRect(0, 0, w, h);
+    speck(g, r, w, h, 2600, ["#8A4F25", "#A8663A", "#7E4620", "#B3713F"], 1, 4);
+    g.fillStyle = "#4A3020"; g.fillRect(0, 0, w, h * 0.12);
+    speck(g, r, w, h * 0.12, 900, ["#3A2618", "#5A3B28", "#2E1F14"], 1, 3);
+    g.fillStyle = "#5C7F33"; g.fillRect(0, 0, w, h * 0.018);
+    for (let i = 0; i < 26; i++) { const x = r() * w, y = h * (0.22 + r() * 0.72), s = 6 + r() * 16;
+      g.fillStyle = ["#8C8279", "#9E958C", "#7A716A"][Math.floor(r() * 3)]; g.beginPath(); g.ellipse(x, y, s * 1.3, s, r() * 3, 0, 6.3); g.fill();
+      g.fillStyle = "rgba(255,255,255,0.18)"; g.beginPath(); g.ellipse(x - s * 0.3, y - s * 0.3, s * 0.5, s * 0.3, 0, 0, 6.3); g.fill(); } });
+  const woodT = tex(256, 64, 3, (g, r, w, h) => { g.fillStyle = "#9C6A3C"; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 40; i++) { g.strokeStyle = ["#86592F", "#B07C49", "#7A4F28"][Math.floor(r() * 3)]; g.lineWidth = 1 + r() * 2;
+      const y = r() * h; g.beginPath(); g.moveTo(0, y); g.bezierCurveTo(w * 0.3, y + (r() - 0.5) * 8, w * 0.7, y + (r() - 0.5) * 8, w, y); g.stroke(); }
+    g.fillStyle = "rgba(60,35,15,0.5)"; g.fillRect(0, h - 3, w, 3); }, [1, 1]);
+  const barkT = tex(128, 128, 4, (g, r, w, h) => { g.fillStyle = "#6B4A2F"; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 200; i++) { g.fillStyle = ["#5A3D25", "#7B5838", "#4C331F"][Math.floor(r() * 3)]; g.fillRect(r() * w, r() * h, 2 + r() * 3, 8 + r() * 20); } }, [1, 1]);
+  const twigT = tex(512, 256, 12, (g, r, w, h) => { g.fillStyle = "#3A2A1C"; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 260; i++) { const x = r() * w, y = r() * h, s = 3 + r() * 9;
+      g.fillStyle = ["#6B4A2F", "#7B5838", "#5A3D25"][Math.floor(r() * 3)]; g.beginPath(); g.ellipse(x, y, s, s * 0.8, 0, 0, 6.3); g.fill();
+      g.fillStyle = "#C9A06A"; g.beginPath(); g.ellipse(x, y, s * 0.6, s * 0.45, 0, 0, 6.3); g.fill(); }
+    for (let i = 0; i < 90; i++) { g.strokeStyle = "#6B4A2F"; g.lineWidth = 4; const x = r() * w, y = r() * h;
+      g.beginPath(); g.moveTo(x, y); g.lineTo(x + 30 + r() * 40, y + (r() - 0.5) * 14); g.stroke(); } }, [2, 1]);
+  const leafT = tex(512, 256, 5, (g, r, w, h) => { g.fillStyle = "#7A5A2A"; g.fillRect(0, 0, w, h);
+    speck(g, r, w, h, 1400, ["#C0732A", "#A65A1F", "#D9A13A", "#8D6E2B", "#6E7A2C", "#B4472A"], 4, 11); }, [2, 1]);
+  const compT = tex(512, 256, 6, (g, r, w, h) => { g.fillStyle = "#3D2A1C"; g.fillRect(0, 0, w, h);
+    speck(g, r, w, h, 1800, ["#2C1E14", "#55392A", "#4A3322", "#6B4A2C"], 2, 7);
+    for (let i = 0; i < 160; i++) { g.strokeStyle = ["#A27A3C", "#7E6233"][Math.floor(r() * 2)]; g.lineWidth = 1.5;
+      const x = r() * w, y = r() * h; g.beginPath(); g.moveTo(x, y); g.lineTo(x + (r() - 0.5) * 20, y + (r() - 0.5) * 8); g.stroke(); } }, [2, 1]);
+  const soilT = tex(512, 256, 7, (g, r, w, h) => { g.fillStyle = "#2F2219"; g.fillRect(0, 0, w, h);
+    speck(g, r, w, h, 3000, ["#251A12", "#3B2B1F", "#463324", "#1E150F"], 1, 3); }, [2, 1]);
+  const gravelT = tex(512, 512, 8, (g, r, w, h) => { g.fillStyle = "#B8A58A"; g.fillRect(0, 0, w, h);
+    speck(g, r, w, h, 5000, ["#A8957A", "#C8B79C", "#9C8A70", "#D4C6AE"], 1, 4); }, [10, 10]);
+  const roofT = tex(256, 256, 9, (g, r, w, h) => { g.fillStyle = "#A8432F"; g.fillRect(0, 0, w, h);
+    for (let y = 0; y < h; y += 16) { g.fillStyle = "rgba(0,0,0,0.18)"; g.fillRect(0, y, w, 3);
+      for (let x = (y / 16) % 2 * 12; x < w; x += 24) { g.fillStyle = "rgba(0,0,0,0.1)"; g.fillRect(x, y, 2, 16); } } }, [4, 4]);
+  const meshT = tex(256, 256, 10, (g, r, w, h) => { g.clearRect(0, 0, w, h); g.strokeStyle = "#C9CED6"; g.lineWidth = 3;
+    for (let i = 0; i <= w; i += 16) { g.beginPath(); g.moveTo(i, 0); g.lineTo(i, h); g.stroke(); g.beginPath(); g.moveTo(0, i); g.lineTo(w, i); g.stroke(); } }, [6, 3]);
+  const skyT = tex(16, 512, 11, (g, r, w, h) => { const gr = g.createLinearGradient(0, 0, 0, h);
+    gr.addColorStop(0, "#3F7FD1"); gr.addColorStop(0.55, "#8DB9EA"); gr.addColorStop(1, "#DCEBF7"); g.fillStyle = gr; g.fillRect(0, 0, w, h); });
+  const subT = tex(256, 256, 31, (g, r, w, h) => { g.fillStyle = "#A8693A"; g.fillRect(0, 0, w, h);
+    speck(g, r, w, h, 1400, ["#96592E", "#B9794A", "#8A4F25"], 1, 4); }, [2, 2]);
+  const concT = tex(256, 256, 21, (g, r, w, h) => { g.fillStyle = "#B9B6B0"; g.fillRect(0, 0, w, h);
+    speck(g, r, w, h, 1600, ["#A9A6A0", "#C6C3BD", "#9E9B95", "#D0CDC8"], 1, 3);
+    g.strokeStyle = "rgba(0,0,0,0.08)"; g.lineWidth = 2; for (let y = 0; y < h; y += 64) { g.beginPath(); g.moveTo(0, y); g.lineTo(w, y); g.stroke(); } }, [3, 3]);
+  const secT = tex(256, 256, 22, (g, r, w, h) => { g.fillStyle = "#8E8B86"; g.fillRect(0, 0, w, h);
+    speck(g, r, w, h, 900, ["#7C7974", "#A19E99", "#6E6B66"], 1, 3); }, [1, 1]);
+  const cardT = tex(128, 128, 23, (g, r, w, h) => { g.fillStyle = "#C49A6C"; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 30; i++) { g.fillStyle = "rgba(120,80,40,0.12)"; g.fillRect(0, r() * h, w, 1); }
+    g.fillStyle = "#D9BC8C"; g.fillRect(w * 0.44, 0, w * 0.12, h); g.strokeStyle = "#8A6440"; g.lineWidth = 3; g.strokeRect(1, 1, w - 2, h - 2); }, [1, 1]);
+  const moldT = (() => { const c = document.createElement("canvas"); c.width = c.height = 256; const g = c.getContext("2d"); const r = mulberry(24);
+    for (let k = 0; k < 9; k++) { const cx = 40 + r() * 176, cy = 40 + r() * 176, rad = 18 + r() * 40;
+      for (let i = 0; i < 90; i++) { const a = r() * 6.3, d = Math.pow(r(), 0.7) * rad;
+        g.fillStyle = ["rgba(28,40,22,0.85)", "rgba(15,20,12,0.9)", "rgba(60,72,40,0.7)", "rgba(40,45,30,0.8)"][Math.floor(r() * 4)];
+        g.beginPath(); g.arc(cx + Math.cos(a) * d, cy + Math.sin(a) * d, 2 + r() * 6, 0, 6.3); g.fill(); } }
+    const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t; })();
+
+  const std = (o) => new THREE.MeshStandardMaterial(Object.assign({ roughness: 0.9, metalness: 0 }, o));
+  const scene = new THREE.Scene();
+  scene.background = skyT;
+  scene.fog = new THREE.Fog(0xCFE2F3, 30, 90);
+  const add = (m, cast = true, recv = true) => { m.castShadow = cast; m.receiveShadow = recv; scene.add(m); return m; };
+  const boxAt = (x0, x1, y0, y1, z0, z1, mat, cast = true) => { const m = add(new THREE.Mesh(new THREE.BoxGeometry(x1 - x0, y1 - y0, z1 - z0), mat), cast, true);
+    m.position.set((x0 + x1) / 2, (y0 + y1) / 2, (z0 + z1) / 2); return m; };
+
+  // ---------- Garten mit Querschnitt (Schnittkante bei z = 0.5), Loch für den Keller
+  const groundTop = std({ map: grassT });
+  const groundBlock = (x0, x1, y0, y1, z0, z1, frontMap) => { const m = [groundTop, groundTop, groundTop, groundTop, std({ map: frontMap }), groundTop];
+    const b = add(new THREE.Mesh(new THREE.BoxGeometry(x1 - x0, y1 - y0, z1 - z0), m), false, true); b.position.set((x0 + x1) / 2, (y0 + y1) / 2, (z0 + z1) / 2); return b; };
+  const cutRep = (w) => { const t = cutT.clone(); t.needsUpdate = true; t.repeat.set(w / 4, 1); return t; };
+  const XW = 1.82, ZB = -3.72;
+  groundBlock(-30, -XW, -3.4, 0, -19.5, 0.5, cutRep(28.2));
+  groundBlock(XW, 30, -3.4, 0, -19.5, 0.5, cutRep(28.2));
+  groundBlock(-XW, XW, -3.4, 0, -19.5, ZB, cutRep(3.6));
+  { const t = subT.clone(); t.needsUpdate = true; t.repeat.set(2, 0.6); groundBlock(-XW, XW, -3.4, -2.3, ZB, 0.5, t); }
+  // Haus, Baum, Hecke, Wolken
+  const house = new THREE.Group(); house.position.set(-5.5, 0, -14); house.rotation.y = 0.25; scene.add(house);
+  { const wall = std({ color: 0xF2EFEA }), win = std({ color: 0x2C3440, roughness: 0.3 });
+    const body = new THREE.Mesh(new THREE.BoxGeometry(9, 5.6, 7), wall); body.position.y = 2.8; body.castShadow = body.receiveShadow = true; house.add(body);
+    const s = new THREE.Shape(); s.moveTo(-3.9, 0); s.lineTo(3.9, 0); s.lineTo(0, 3.2); s.lineTo(-3.9, 0);
+    const rg = new THREE.ExtrudeGeometry(s, { depth: 9.6, bevelEnabled: false }); rg.translate(0, 0, -4.8); rg.rotateY(Math.PI / 2);
+    const roof = new THREE.Mesh(rg, std({ map: roofT })); roof.position.y = 5.6; roof.castShadow = true; house.add(roof);
+    for (const [x, y] of [[-3, 1.3], [0, 1.3], [3, 1.3], [-3, 4], [0, 4], [3, 4]]) {
+      const w = new THREE.Mesh(new THREE.BoxGeometry(x === 0 && y < 2 ? 1.6 : 1.3, x === 0 && y < 2 ? 2.2 : 1.4, 0.1), win); w.position.set(x, y, 3.51); house.add(w); }
+    const ch = new THREE.Mesh(new THREE.BoxGeometry(0.7, 2, 0.7), std({ color: 0x5A4A42 })); ch.position.set(2.2, 7.3, -1); house.add(ch); }
+  const house2 = house.clone(); house2.position.set(7, 0, -18); house2.rotation.y = -0.2; scene.add(house2);
+  function tree(x, z, s) { const g = new THREE.Group(); g.position.set(x, 0, z); g.scale.setScalar(s); scene.add(g);
+    const tr = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.28, 3, 8), std({ map: barkT })); tr.position.y = 1.5; tr.castShadow = true; g.add(tr);
+    for (let i = 0; i < 6; i++) { const b = new THREE.Mesh(new THREE.IcosahedronGeometry(rr(0.9, 1.4), 1), std({ color: [0x4F7A33, 0x5C8A3A, 0x46702F][i % 3], flatShading: true }));
+      b.position.set(rr(-0.9, 0.9), 3.4 + rr(-0.3, 0.9), rr(-0.9, 0.9)); b.castShadow = true; g.add(b); } return g; }
+  tree(-3.2, -5.5, 1.1); tree(4.2, -7.5, 1.3); tree(-9, -10, 1.4);
+  for (let i = 0; i < 18; i++) { const hd = new THREE.Mesh(new THREE.IcosahedronGeometry(0.7, 1), std({ color: 0x3E6A2B, flatShading: true }));
+    hd.position.set(-12 + i * 1.4, 0.5, -9); hd.scale.set(1.2, 0.9, 0.8); hd.castShadow = true; scene.add(hd); }
+  for (const [x, y, z, s] of [[-14, 16, -40, 3], [6, 19, -45, 4], [18, 15, -38, 2.6], [-2, 22, -50, 3.5]]) {
+    const cl = new THREE.Group(); cl.position.set(x, y, z); scene.add(cl);
+    for (let i = 0; i < 7; i++) { const p = new THREE.Mesh(new THREE.SphereGeometry(s * rr(0.5, 0.9), 16, 12), new THREE.MeshBasicMaterial({ color: 0xFFFFFF, fog: false }));
+      p.position.set(rr(-1.6, 1.6) * s, rr(-0.2, 0.5) * s, rr(-0.5, 0.5) * s); cl.add(p); } }
+
+  // Licht
+  scene.add(new THREE.HemisphereLight(0xD8E8FF, 0x6B5A40, 0.75));
+  const sun = new THREE.DirectionalLight(0xFFF1D8, 2.6); sun.position.set(-6, 10, 7); sun.castShadow = true;
+  sun.shadow.mapSize.set(2048, 2048); Object.assign(sun.shadow.camera, { left: -8, right: 8, top: 8, bottom: -8, near: 1, far: 40 });
+  sun.shadow.bias = -0.0004; scene.add(sun); scene.add(sun.target);
+  const sunBall = new THREE.Mesh(new THREE.SphereGeometry(1.4, 24, 16), new THREE.MeshBasicMaterial({ color: 0xFFF3B0, fog: false })); scene.add(sunBall);
+  const floorG = add(new THREE.Mesh(new THREE.BoxGeometry(60, 0.2, 30), std({ map: gravelT })), false, true); floorG.position.set(0, -3.5, 15.5);
+
+  // ---------- Keller (innen x ±1.6, z -3.5..0.5, Boden -2.0, Decke 0.6) + Haus darüber
+  const conc = std({ map: concT, roughness: 0.95 });
+  const csec = std({ map: secT });
+  const cm = [conc, conc, conc, conc, csec, conc];
+  const cbox = (x0, x1, y0, y1, z0, z1) => { const m = add(new THREE.Mesh(new THREE.BoxGeometry(x1 - x0, y1 - y0, z1 - z0), cm), true, true);
+    m.position.set((x0 + x1) / 2, (y0 + y1) / 2, (z0 + z1) / 2); return m; };
+  cbox(-XW, -1.6, -2.3, 0.6, ZB, 0.5); cbox(1.6, XW, -2.3, 0.6, ZB, 0.5);          // Seitenwände
+  cbox(-1.6, 1.6, -2.3, 0.1, ZB, -3.5); cbox(-1.6, 1.6, 0.5, 0.6, ZB, -3.5);        // Rückwand unter/über dem Fenster
+  cbox(-1.6, -0.45, 0.1, 0.5, ZB, -3.5); cbox(0.45, 1.6, 0.1, 0.5, ZB, -3.5);
+  cbox(-XW, XW, -2.3, -2.0, ZB, 0.5);                                              // Bodenplatte
+  cbox(-XW - 0.1, XW + 0.1, 0.6, 0.82, ZB - 0.1, 0.5);                             // Decke
+  const bulbL = new THREE.PointLight(0xFFE2B0, 5, 0, 2); bulbL.position.set(0, 0.25, -1.6); scene.add(bulbL);
+  const bulb = add(new THREE.Mesh(new THREE.SphereGeometry(0.06, 12, 8), new THREE.MeshBasicMaterial({ color: 0xFFF2C8 })), false, false); bulb.position.set(0, 0.42, -1.6);
+  // Kellerfenster (klappt nach innen)
+  const winPivot = new THREE.Group(); winPivot.position.set(0, 0.5, -3.55); scene.add(winPivot);
+  { const frame = std({ color: 0xF4F4F2 });
+    const glass = new THREE.Mesh(new THREE.BoxGeometry(0.86, 0.38, 0.02), new THREE.MeshStandardMaterial({ color: 0x9CC8E8, roughness: 0.05, transparent: true, opacity: 0.45 }));
+    glass.position.y = -0.2; winPivot.add(glass);
+    for (const [w, h, x, y] of [[0.9, 0.04, 0, -0.01], [0.9, 0.04, 0, -0.39], [0.04, 0.4, -0.43, -0.2], [0.04, 0.4, 0.43, -0.2]]) {
+      const f = new THREE.Mesh(new THREE.BoxGeometry(w, h, 0.05), frame); f.position.set(x, y, 0); winPivot.add(f); } }
+  // Haus
+  const wallM = std({ color: 0xF2EFEA }), winM = std({ color: 0x2C3440, roughness: 0.3 });
+  const hb = boxAt(-XW, XW, 0.82, 3.5, ZB, 0.5, wallM);
+  for (const [x, y, w, h] of [[-0.95, 2.2, 0.9, 1.0], [0.95, 2.2, 0.9, 1.0]]) { const wd = add(new THREE.Mesh(new THREE.BoxGeometry(w, h, 0.06), winM), false, false); wd.position.set(x, y, 0.52); }
+  { const s = new THREE.Shape(); s.moveTo(-2.25, 0); s.lineTo(2.25, 0); s.lineTo(0, 1.5); s.lineTo(-2.25, 0);
+    const rg = new THREE.ExtrudeGeometry(s, { depth: 4.7, bevelEnabled: false }); rg.translate(0, 0, -4.7 / 2 - 1.61);
+    const roof = add(new THREE.Mesh(rg, std({ map: roofT }))); roof.position.y = 3.5; }
+  // Dachrinne + Fallrohr rechts, Verlängerung
+  const pipeM = std({ color: 0x8C8F94, metalness: 0.5, roughness: 0.4 });
+  const gutter = add(new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 4.6, 10), pipeM)); gutter.rotation.x = Math.PI / 2; gutter.position.set(2.28, 3.48, -1.61);
+  const dsp = add(new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 3.3, 10), pipeM)); dsp.position.set(2.0, 1.85, 0.2);
+  const elbow = add(new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 0.25, 10), pipeM)); elbow.rotation.z = Math.PI / 2 - 0.5; elbow.position.set(2.1, 0.17, 0.2);
+  const ext = add(new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.055, 1, 10), pipeM)); ext.rotation.z = Math.PI / 2;
+  const EXT_END = 3.85;
+  // Gefälle-Keil rechts (hoch an der Wand, flach nach außen) + Pfeile
+  const wedge = (() => { const s = new THREE.Shape(); s.moveTo(XW, 0); s.lineTo(XW + 2.6, 0); s.lineTo(XW, 0.22); s.lineTo(XW, 0);
+    const g = new THREE.ExtrudeGeometry(s, { depth: 4.2, bevelEnabled: false }); g.translate(0, 0, ZB);
+    return add(new THREE.Mesh(g, [std({ map: subT }), groundTop]), false, true); })();
+  const arrows = [];
+  for (let i = 0; i < 3; i++) { const a = new THREE.Group(); const m = new THREE.MeshBasicMaterial({ color: 0xFF4D4D });
+    const sh = new THREE.Mesh(new THREE.BoxGeometry(0.7, 0.02, 0.07), m); a.add(sh);
+    const hd = new THREE.Mesh(new THREE.ConeGeometry(0.11, 0.24, 3), m); hd.rotation.z = Math.PI / 2; hd.position.x = -0.45; a.add(hd);
+    a.position.set(3.0, 0.05, -0.4 - i * 1.0); a.userData.m = m; scene.add(a); arrows.push(a); }
+  // Abdichtung + Drainage (beide Seiten)
+  const memb = [-1, 1].map((s) => { const m = add(new THREE.Mesh(new THREE.BoxGeometry(0.06, 2.3, 4.24), std({ color: 0x151515, roughness: 0.4 })), false, false);
+    m.position.set(s * (XW + 0.03), -1.15, ZB + 2.12 + 0.005); return m; });
+  const gravelSec = [-1, 1].map((s) => { const m = add(new THREE.Mesh(new THREE.PlaneGeometry(0.5, 0.42), std({ map: gravelT, color: 0xCFC3AE })), false, false);
+    m.position.set(s * (XW + 0.31), -2.1, 0.506); return m; });
+  const pipeSec = [-1, 1].map((s) => { const g = new THREE.Group(); g.position.set(s * (XW + 0.31), -2.15, 0.508); scene.add(g);
+    const o = new THREE.Mesh(new THREE.CircleGeometry(0.1, 24), new THREE.MeshBasicMaterial({ color: 0x2B2B2B })); g.add(o);
+    const i2 = new THREE.Mesh(new THREE.CircleGeometry(0.075, 24), new THREE.MeshBasicMaterial({ color: 0x3E8EDB })); i2.position.z = 0.001; g.add(i2); return g; });
+  const drainPipes = [-1, 1].map((s) => { const m = add(new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.1, 4.2, 14), std({ color: 0x2B2B2B })), false, false);
+    m.rotation.x = Math.PI / 2; m.position.set(s * (XW + 0.31), -2.15, ZB + 2.1); return m; });
+  // Nasse Erde am Schnitt, feuchter Fleck innen
+  const wetSec = add(new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ color: 0x1E1610, transparent: true, opacity: 0.55 })), false, false); wetSec.position.z = 0.504;
+  const damp = add(new THREE.Mesh(new THREE.PlaneGeometry(2.6, 1.6), new THREE.MeshBasicMaterial({ color: 0x4A4E52, transparent: true, opacity: 0 })), false, false);
+  damp.rotation.y = -Math.PI / 2; damp.position.set(1.595, -1.15, -1.4);
+  const puddle = add(new THREE.Mesh(new THREE.CircleGeometry(0.4, 28), new THREE.MeshStandardMaterial({ color: 0x4A8ED0, roughness: 0.1, transparent: true, opacity: 0.8 })), false, false);
+  puddle.rotation.x = -Math.PI / 2;
+  // Schimmel (a = Wände, b = hinter den Kisten)
+  const molds = [[-1.15, -1.45, -3.495, 1.0, 1.0, 0, "a"], [-0.7, 0.32, -3.495, 1.0, 0.45, 0, "a"], [1.595, 0.15, -2.2, 1.2, 0.7, -Math.PI / 2, "a"],
+    [-1.595, -1.6, -2.6, 1.1, 0.8, Math.PI / 2, "a"], [0.8, -1.05, -3.495, 1.9, 1.8, 0, "b"]].map(([x, y, z, w, h, ry, k]) => {
+    const m = add(new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ map: moldT, transparent: true, opacity: 0, depthWrite: false })), false, false);
+    m.position.set(x, y, z); m.rotation.y = ry; m.userData.k = k; return m; });
+  // Kisten an der Rückwand
+  const cardM = std({ map: cardT, roughness: 0.95 });
+  const boxes = [[0.5, 0, 0.55], [0.5, 1, 0.5], [1.1, 0, 0.55], [1.1, 1, 0.5], [1.1, 2, 0.42], [-0.05, 0, 0.4]].map(([x, lvl, s], i) => {
+    const b = add(new THREE.Mesh(new THREE.BoxGeometry(s, s * 0.85, s), cardM)); const ys = [0, 0.47, 0.9][lvl];
+    b.userData = { x, y: -2.0 + ys + s * 0.425, z: -3.5 + s / 2 + 0.005, d: i * 0.12 }; return b; });
+  // Kondenswasser
+  const cdrops = [];
+  for (let i = 0; i < 70; i++) { const d = add(new THREE.Mesh(new THREE.SphereGeometry(rr(0.015, 0.028), 8, 6), new THREE.MeshStandardMaterial({ color: 0x8FC8F2, roughness: 0.05, metalness: 0.1 })), false, false);
+    if (i < 45) d.position.set(rr(-1.5, 1.5), rr(-1.9, 0.0), -3.49); else d.position.set(-1.59, rr(-1.9, 0.3), rr(-3.3, 0.2));
+    d.userData.o = R(); cdrops.push(d); }
+  // Luft-Partikel (warm herein / kühl hinein+hinaus / Luft hinter den Kisten)
+  const puffs = [];
+  for (let i = 0; i < 46; i++) { const p = add(new THREE.Mesh(new THREE.SphereGeometry(rr(0.05, 0.09), 10, 8), new THREE.MeshBasicMaterial({ color: 0xFF9F43, transparent: true, opacity: 0.6, depthWrite: false })), false, false);
+    p.userData = { o: R(), tx: rr(-1.5, 1.5), ty: rr(-1.8, 0.3), tz: rr(-3.4, -0.5) }; puffs.push(p); }
+  // Wasser durch die Wand / an der Abdichtung hinunter
+  const seepDrops = [];
+  for (let i = 0; i < 26; i++) { const d = add(new THREE.Mesh(new THREE.SphereGeometry(0.035, 10, 8), new THREE.MeshStandardMaterial({ color: 0x3E8EDB, roughness: 0.1 })), false, false);
+    d.userData = { o: R(), y: rr(-1.9, -0.2) }; seepDrops.push(d); }
+  // Regen + Fallrohr-Wasser
+  const NR = 420, rainBase = [], rainPos = new Float32Array(NR * 6);
+  for (let i = 0; i < NR; i++) rainBase.push([rr(-4, 6), rr(-6, 2), rr(0, 1), rr(0.9, 1.3)]);
+  const rainGeo = new THREE.BufferGeometry(); rainGeo.setAttribute("position", new THREE.BufferAttribute(rainPos, 3));
+  const rainL = new THREE.LineSegments(rainGeo, new THREE.LineBasicMaterial({ color: 0xBFD8F0, transparent: true, opacity: 0.6 })); rainL.frustumCulled = false; scene.add(rainL);
+  const spout = [];
+  for (let i = 0; i < 22; i++) { const d = add(new THREE.Mesh(new THREE.SphereGeometry(0.03, 8, 6), new THREE.MeshStandardMaterial({ color: 0x5AA8F0, roughness: 0.1 })), false, false); d.userData.o = i / 22; spout.push(d); }
+  // Luftentfeuchter
+  const dehum = new THREE.Group(); dehum.position.set(-0.95, -2.0, -1.1); scene.add(dehum);
+  { const body = new THREE.Mesh(new THREE.BoxGeometry(0.4, 0.62, 0.3), std({ color: 0xF5F6F8, roughness: 0.5 })); body.position.y = 0.31; body.castShadow = true; dehum.add(body);
+    const gr = new THREE.Mesh(new THREE.BoxGeometry(0.3, 0.22, 0.01), std({ color: 0x9AA3AD })); gr.position.set(0, 0.46, 0.155); dehum.add(gr);
+    const disp = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.06, 0.01), new THREE.MeshBasicMaterial({ color: 0x5CE1E6 })); disp.position.set(0, 0.2, 0.156); dehum.add(disp);
+    const tank = new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.12, 0.01), std({ color: 0x6FA8D8, transparent: true, opacity: 0.8 })); tank.position.set(0, 0.07, 0.156); dehum.add(tank); }
+  // Person im Keller (nur am Anfang)
+  const person = new THREE.Group(); person.position.set(-0.75, -2.0, -0.9); person.rotation.y = 0.5; scene.add(person);
+  { const skin = std({ color: 0xE3B48F }), shirt = std({ color: 0x3C7FA8 }), pants = std({ color: 0x2E3440 });
+    for (const s of [-1, 1]) { const lg = new THREE.Mesh(new THREE.CapsuleGeometry(0.07, 0.75, 4, 8), pants); lg.position.set(s * 0.1, 0.45, 0); lg.castShadow = true; person.add(lg);
+      const ar = new THREE.Mesh(new THREE.CapsuleGeometry(0.05, 0.55, 4, 8), shirt); ar.position.set(s * 0.27, 1.12, 0.02); ar.castShadow = true; person.add(ar); }
+    const tor = new THREE.Mesh(new THREE.CapsuleGeometry(0.19, 0.42, 4, 10), shirt); tor.position.y = 1.15; tor.castShadow = true; person.add(tor);
+    const hd = new THREE.Mesh(new THREE.SphereGeometry(0.12, 16, 12), skin); hd.position.y = 1.62; person.add(hd);
+    const hair = new THREE.Mesh(new THREE.SphereGeometry(0.125, 16, 12, 0, 6.3, 0, 1.4), std({ color: 0x4A3324 })); hair.position.y = 1.64; person.add(hair); }
+
+  // ---------- Beschriftungen (HTML, auf 3D-Punkte projiziert)
+  const labelEls = LABELS.map((l) => document.getElementById(l[0]));
+  const camera = new THREE.PerspectiveCamera(50, W / H, 0.05, 200);
+  const look = new THREE.Vector3(), v3 = new THREE.Vector3();
+
+  function shotAt(t) {
+    let i = 0; for (let k = 0; k < SHOTS.length; k++) if (t >= SHOTS[k][0]) i = k;
+    const s = SHOTS[i], end = i + 1 < SHOTS.length ? SHOTS[i + 1][0] : DUR, p = ease((t - s[0]) / (end - s[0]));
+    if (!s[1]) { const a = 0.5 - p * 0.75, r = 11.5; camera.position.set(Math.sin(a) * r, 2.6 + p * 0.5, Math.cos(a) * r - 1.4); }
+    else camera.position.set(s[1][0] + (s[2][0] - s[1][0]) * p, s[1][1] + (s[2][1] - s[1][1]) * p, s[1][2] + (s[2][2] - s[1][2]) * p);
+    look.set(s[3][0], s[3][1], s[3][2]); camera.fov = s[4]; camera.updateProjectionMatrix(); camera.lookAt(look);
+  }
+  const E = (t, t0, d) => ease((t - t0) / (d || 0.6));
+  const sunCol = new THREE.Color(), skyWarm = new THREE.Color(0xFFC98A), skyCool = new THREE.Color(0xB8D4FF);
+
+  function render(t) {
+    shotAt(t);
+    // Kisten fallen nacheinander herein, rutschen bei "gap" von der Wand weg
+    const gapK = E(t, K.gap_w, 0.7);
+    boxes.forEach((b) => { const u = b.userData, k = E(t, K.boxes_w + u.d, 0.45); b.visible = t >= K.boxes_w + u.d - 0.05;
+      b.position.set(u.x, u.y + (1 - k) * 1.6, u.z + gapK * 0.28); });
+    // Schimmel
+    const moldA = Math.min(1, E(t, K.mold, 1.2) * 0.85 + E(t, K.water_w, 1.0) * 0.4) * (1 - E(t, K.dehum_w, 2.0));
+    const moldB = Math.max(moldA, E(t, K.touch, 0.8) * (1 - E(t, K.gap_w + 0.3, 1.2)));
+    molds.forEach((m) => { const v = m.userData.k === "a" ? moldA : moldB; m.material.opacity = v; m.visible = v > 0.01; });
+    // Regen
+    const raining = t >= K.rain - 0.2 && t < K.seal;
+    rainL.visible = raining;
+    if (raining) { for (let i = 0; i < NR; i++) { const [x, z, o, sp] = rainBase[i], y = 6 - (((t - K.rain) * 9 * sp + o * 7) % 7);
+      rainPos.set([x, y, z, x - 0.03, y - 0.28, z], i * 6); } rainGeo.attributes.position.needsUpdate = true; }
+    // Fallrohr: Wasser landet an der Wand, nach der Verlängerung 2 m weiter weg
+    const extK = E(t, K.extension, 0.6);
+    ext.visible = extK > 0.01; const extLen = (EXT_END - 2.2) * extK; ext.scale.y = Math.max(0.001, extLen); ext.position.set(2.2 + extLen / 2, 0.08, 0.2);
+    const outX = 2.25 + (EXT_END - 2.25) * extK;
+    spout.forEach((d) => { const ph = ((t - K.rain) * 1.6 + d.userData.o) % 1; d.visible = raining && t >= K.downspout - 0.3;
+      d.position.set(outX + ph * 0.25, 0.12 - ph * 0.12, 0.2 + Math.sin(d.userData.o * 40) * 0.04); });
+    const pk = t >= K.downspout - 0.2 && t < K.seal ? E(t, K.downspout - 0.2, 0.8) : 0;
+    puddle.visible = pk > 0.01; puddle.scale.setScalar(Math.max(0.01, pk * (extK > 0.5 ? 1.3 : 1))); puddle.position.set(outX + 0.35, 0.012, 0.0);
+    const wetK = E(t, K.downspout, 1.0) * (1 - E(t, K.extension, 1.2));
+    wetSec.visible = wetK > 0.01; const wd = 2.2 * wetK; wetSec.scale.set(0.9, Math.max(0.01, wd), 1); wetSec.position.set(XW + 0.45, -wd / 2, 0.504);
+    const dampK = Math.min(1, E(t, K.wall_w, 0.8) * 0.5 + E(t, K.seeps, 0.8) * 0.5) * (1 - E(t, K.seal_w + 0.6, 1.4));
+    damp.material.opacity = dampK * 0.55; damp.visible = dampK > 0.01;
+    // Gefälle
+    const rgK = E(t, K.regrade, 0.8);
+    wedge.visible = rgK > 0.01; wedge.scale.y = Math.max(0.001, rgK);
+    arrows.forEach((a, i) => { a.visible = t >= K.slopes - 0.1 && t < K.seal; const back = t >= K.regrade;
+      a.userData.m.color.set(back ? 0xFFD23F : 0xFF4D4D); a.rotation.y = back ? Math.PI : 0;
+      const ph = ((t - K.slopes) * 0.8 + i * 0.33) % 1; a.position.x = back ? 2.4 + ph * 0.8 : 3.4 - ph * 0.8; a.position.y = 0.05 + (back ? 0.2 * rgK * (1 - (a.position.x - XW) / 2.6) : 0); });
+    // Durchsickern, Abdichtung, Drainage
+    const sealK = E(t, K.seal_w, 0.8), drK = E(t, K.drain, 0.6);
+    memb.forEach((m) => { m.visible = sealK > 0.01; m.scale.y = Math.max(0.001, sealK); m.position.y = -2.3 + 1.15 * sealK; });
+    gravelSec.forEach((m) => { m.visible = drK > 0.01; m.scale.setScalar(Math.max(0.01, drK)); });
+    pipeSec.forEach((m) => { m.visible = drK > 0.01; m.scale.setScalar(Math.max(0.01, drK)); });
+    drainPipes.forEach((m) => { m.visible = drK > 0.5; });
+    seepDrops.forEach((d) => { const u = d.userData, ph = ((t - K.seeps) * 0.7 + u.o) % 1;
+      d.visible = t >= K.seeps - 0.1 && t < K.summer;
+      if (t < K.seal_w + 0.4) d.position.set(2.7 - ph * 1.15, u.y, 0.512);
+      else d.position.set(XW + 0.1 + (u.o - 0.5) * 0.06, -0.1 - ph * 1.95, 0.512); });
+    // Sommer: Fenster auf, warme feuchte Luft, Kondenswasser; dann nur kühl lüften; Entfeuchter
+    const openK = E(t, K.window, 0.6) * (1 - E(t, K.dehum_w, 0.6));
+    winPivot.rotation.x = openK * 0.9;
+    const summerK = E(t, K.summer_w, 0.8) * (1 - E(t, K.cool_w, 0.8));
+    const coolK = E(t, K.cool_w, 0.8) * (1 - E(t, K.dehum_w + 1.0, 1.0));
+    sunCol.set(0xFFF1D8).lerp(skyWarm, summerK).lerp(skyCool, coolK); sun.color.copy(sunCol);
+    const condK = E(t, K.water_w - 0.3, 1.0) * (1 - E(t, K.cool_w + 0.4, 1.2));
+    cdrops.forEach((d) => { const v = condK > d.userData.o * 0.8 + 0.05; d.visible = v; if (v) d.position.y -= 0; });
+    const warm = t >= K.air_w && t < K.cool_w, cool = t >= K.cool_w && t < K.dehum_w + 0.8, behind = t >= K.gap_w + 0.2 && t < K.end;
+    puffs.forEach((p, i) => { const u = p.userData; p.visible = false;
+      if (warm || cool) { const ph = ((t - K.air_w) * 0.45 + u.o) % 1; p.visible = true; p.material.color.set(warm ? 0xFF9F43 : 0x9FD4FF);
+        const inward = warm || i % 2 === 0, q = inward ? ph : 1 - ph;
+        const sx = rr0(i) * 0.7, sy = 0.3, sz = -4.3;
+        if (q < 0.3) { const k = q / 0.3; p.position.set(sx, sy, sz + k * 1.0); }
+        else { const k = (q - 0.3) / 0.7; p.position.set(sx + (u.tx - sx) * k, sy + (u.ty - sy) * k, -3.3 + (u.tz + 3.3) * k); }
+        p.material.opacity = 0.55 * Math.sin(Math.PI * ph); }
+      else if (behind && i < 18) { const ph = ((t - K.gap_w) * 0.5 + u.o) % 1; p.visible = true; p.material.color.set(0xFFFFFF);
+        p.position.set(0.15 + ph * 1.4, -1.9 + u.o * 1.6, -3.4); p.material.opacity = 0.5 * Math.sin(Math.PI * ph); } });
+    const dk = E(t, K.dehum_w - 0.1, 0.45); dehum.visible = t >= K.dehum_w - 0.15; dehum.position.y = -2.0 + (1 - dk) * 1.2;
+    person.visible = t < K.rain; sunBall.visible = false;
+
+    renderer.render(scene, camera);
+
+    LABELS.forEach((l, i) => { const el = labelEls[i]; v3.set(l[3], l[4], l[5]).project(camera);
+      const on = t >= l[6] && t < l[7] && v3.z < 1;
+      el.style.display = on ? "block" : "none";
+      if (on) { el.style.left = clamp((v3.x + 1) / 2 * W, 330, W - 330) + "px"; let ty = clamp((1 - v3.y) / 2 * H, 200, H - 200); if (Math.abs(ty - 940) < 130) ty = ty < 940 ? 790 : 1090; el.style.top = ty + "px"; } });
+  }
+  function rr0(i) { return ((i * 0.6180339) % 1) * 2 - 1; }
+
+  const st = { t: 0 };
+  const tl = gsap.timeline({ paused: true });
+  tl.to(st, { t: DUR, duration: DUR, ease: "none", onUpdate: () => render(st.t) }, 0);
+  LABELS.forEach((l) => tl.fromTo("#" + l[0] + " span", { scale: 1.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: "back.out(2)" }, l[6]));
+  window.__timelines["world"] = tl;
+  render(0);
+}).catch((e) => { console.error("world build failed", e); throw e; });
+
+  </script>
+</template>
