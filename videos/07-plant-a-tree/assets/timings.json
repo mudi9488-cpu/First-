@@ -1,984 +1,985 @@
 {
- "duration": 48.278,
+ "duration": 39.42,
+ "source": "voice-elevenlabs-mike.mp3",
  "beats": [
   {
    "id": "want",
    "label": "",
-   "start": 0.15,
    "lines": [
     {
      "show": "You want a {g:tree} in your garden.",
-     "start": 0.15,
-     "end": 1.555,
+     "start": 0.0,
+     "end": 1.29,
      "words": [
       {
        "text": "You",
-       "start": 0.15,
-       "end": 0.333
+       "start": 0.0,
+       "end": 0.168
       },
       {
        "text": "want",
-       "start": 0.333,
-       "end": 0.557
+       "start": 0.168,
+       "end": 0.374
       },
       {
        "text": "a",
-       "start": 0.557,
-       "end": 0.659
+       "start": 0.374,
+       "end": 0.467
       },
       {
        "text": "tree",
-       "start": 0.659,
-       "end": 0.883
+       "start": 0.467,
+       "end": 0.673
       },
       {
        "text": "in",
-       "start": 0.883,
-       "end": 1.025
+       "start": 0.673,
+       "end": 0.804
       },
       {
        "text": "your",
-       "start": 1.025,
-       "end": 1.249
+       "start": 0.804,
+       "end": 1.01
       },
       {
        "text": "garden.",
-       "start": 1.249,
-       "end": 1.555
+       "start": 1.01,
+       "end": 1.29
       }
      ]
     }
    ],
-   "end": 1.855
+   "start": 0.0,
+   "end": 1.29
   },
   {
    "id": "dig",
    "label": "",
-   "start": 2.255,
    "lines": [
     {
      "show": "So you dig a {y:deep} hole",
-     "start": 2.255,
-     "end": 3.718,
+     "start": 1.617,
+     "end": 2.646,
      "words": [
       {
        "text": "So",
-       "start": 2.255,
-       "end": 2.452
+       "start": 1.617,
+       "end": 1.756
       },
       {
        "text": "you",
-       "start": 2.452,
-       "end": 2.705
+       "start": 1.756,
+       "end": 1.934
       },
       {
        "text": "dig",
-       "start": 2.705,
-       "end": 2.958
+       "start": 1.934,
+       "end": 2.112
       },
       {
        "text": "a",
-       "start": 2.958,
-       "end": 3.099
+       "start": 2.112,
+       "end": 2.21
       },
       {
        "text": "deep",
-       "start": 3.099,
-       "end": 3.408
+       "start": 2.21,
+       "end": 2.428
       },
       {
        "text": "hole",
-       "start": 3.408,
-       "end": 3.718
+       "start": 2.428,
+       "end": 2.646
       }
      ]
     },
     {
      "show": "and drop it in.",
-     "start": 3.778,
-     "end": 4.69,
+     "start": 2.646,
+     "end": 3.263,
      "words": [
       {
        "text": "and",
-       "start": 3.778,
-       "end": 4.019
+       "start": 2.646,
+       "end": 2.809
       },
       {
        "text": "drop",
-       "start": 4.019,
-       "end": 4.314
+       "start": 2.809,
+       "end": 3.009
       },
       {
        "text": "it",
-       "start": 4.314,
-       "end": 4.502
+       "start": 3.009,
+       "end": 3.136
       },
       {
        "text": "in.",
-       "start": 4.502,
-       "end": 4.69
+       "start": 3.136,
+       "end": 3.263
       }
      ]
     }
    ],
-   "end": 4.99
+   "start": 1.617,
+   "end": 3.263
   },
   {
    "id": "rot",
    "label": "",
-   "start": 5.39,
    "lines": [
     {
      "show": "Big {r:mistake}.",
-     "start": 5.39,
-     "end": 6.133,
+     "start": 3.907,
+     "end": 4.927,
      "words": [
       {
        "text": "Big",
-       "start": 5.39,
-       "end": 5.647
+       "start": 3.907,
+       "end": 4.26
       },
       {
        "text": "mistake.",
-       "start": 5.647,
-       "end": 6.133
+       "start": 4.26,
+       "end": 4.927
       }
      ]
     },
     {
      "show": "The trunk sits underground and starts to {r:rot}.",
-     "start": 6.433,
-     "end": 8.662,
+     "start": 5.406,
+     "end": 7.368,
      "words": [
       {
        "text": "The",
-       "start": 6.433,
-       "end": 6.637
+       "start": 5.406,
+       "end": 5.586
       },
       {
        "text": "trunk",
-       "start": 6.637,
-       "end": 6.933
+       "start": 5.586,
+       "end": 5.847
       },
       {
        "text": "sits",
-       "start": 6.933,
-       "end": 7.183
+       "start": 5.847,
+       "end": 6.067
       },
       {
        "text": "underground",
-       "start": 7.183,
-       "end": 7.752
+       "start": 6.067,
+       "end": 6.567
       },
       {
        "text": "and",
-       "start": 7.752,
-       "end": 7.957
+       "start": 6.567,
+       "end": 6.747
       },
       {
        "text": "starts",
-       "start": 7.957,
-       "end": 8.298
+       "start": 6.747,
+       "end": 7.047
       },
       {
        "text": "to",
-       "start": 8.298,
-       "end": 8.457
+       "start": 7.047,
+       "end": 7.188
       },
       {
        "text": "rot.",
-       "start": 8.457,
-       "end": 8.662
+       "start": 7.188,
+       "end": 7.368
       }
      ]
     }
    ],
-   "end": 8.962
+   "start": 3.907,
+   "end": 7.368
   },
   {
    "id": "flare",
    "label": "",
-   "start": 9.362,
    "lines": [
     {
      "show": "So you plant it {y:higher}:",
-     "start": 9.362,
-     "end": 10.449,
+     "start": 7.633,
+     "end": 8.569,
      "words": [
       {
        "text": "So",
-       "start": 9.362,
-       "end": 9.511
+       "start": 7.633,
+       "end": 7.761
       },
       {
        "text": "you",
-       "start": 9.511,
-       "end": 9.703
+       "start": 7.761,
+       "end": 7.927
       },
       {
        "text": "plant",
-       "start": 9.703,
-       "end": 9.98
+       "start": 7.927,
+       "end": 8.165
       },
       {
        "text": "it",
-       "start": 9.98,
-       "end": 10.129
+       "start": 8.165,
+       "end": 8.294
       },
       {
        "text": "higher:",
-       "start": 10.129,
-       "end": 10.449
+       "start": 8.294,
+       "end": 8.569
       }
      ]
     },
     {
      "show": "the root flare stays right at {y:ground} level.",
-     "start": 10.609,
-     "end": 12.617,
+     "start": 8.781,
+     "end": 10.52,
      "words": [
       {
        "text": "the",
-       "start": 10.609,
-       "end": 10.801
+       "start": 8.781,
+       "end": 8.947
       },
       {
        "text": "root",
-       "start": 10.801,
-       "end": 11.036
+       "start": 8.947,
+       "end": 9.151
       },
       {
        "text": "flare",
-       "start": 11.036,
-       "end": 11.314
+       "start": 9.151,
+       "end": 9.391
       },
       {
        "text": "stays",
-       "start": 11.314,
-       "end": 11.592
+       "start": 9.391,
+       "end": 9.632
       },
       {
        "text": "right",
-       "start": 11.592,
-       "end": 11.869
+       "start": 9.632,
+       "end": 9.872
       },
       {
        "text": "at",
-       "start": 11.869,
-       "end": 12.019
+       "start": 9.872,
+       "end": 10.002
       },
       {
        "text": "ground",
-       "start": 12.019,
-       "end": 12.34
+       "start": 10.002,
+       "end": 10.279
       },
       {
        "text": "level.",
-       "start": 12.34,
-       "end": 12.617
+       "start": 10.279,
+       "end": 10.52
       }
      ]
     }
    ],
-   "end": 12.917
+   "start": 7.633,
+   "end": 10.52
   },
   {
    "id": "narrow",
    "label": "",
-   "start": 13.317,
    "lines": [
     {
      "show": "But the hole is {r:narrow}.",
-     "start": 13.317,
-     "end": 14.432,
+     "start": 10.853,
+     "end": 11.785,
      "words": [
       {
        "text": "But",
-       "start": 13.317,
-       "end": 13.514
+       "start": 10.853,
+       "end": 11.018
       },
       {
        "text": "the",
-       "start": 13.514,
-       "end": 13.711
+       "start": 11.018,
+       "end": 11.182
       },
       {
        "text": "hole",
-       "start": 13.711,
-       "end": 13.951
+       "start": 11.182,
+       "end": 11.383
       },
       {
        "text": "is",
-       "start": 13.951,
-       "end": 14.104
+       "start": 11.383,
+       "end": 11.511
       },
       {
        "text": "narrow.",
-       "start": 14.104,
-       "end": 14.432
+       "start": 11.511,
+       "end": 11.785
       }
      ]
     },
     {
      "show": "The roots hit hard walls and start {r:circling}.",
-     "start": 14.732,
-     "end": 17.112,
+     "start": 12.228,
+     "end": 14.296,
      "words": [
       {
        "text": "The",
-       "start": 14.732,
-       "end": 14.955
+       "start": 12.228,
+       "end": 12.422
       },
       {
        "text": "roots",
-       "start": 14.955,
-       "end": 15.277
+       "start": 12.422,
+       "end": 12.702
       },
       {
        "text": "hit",
-       "start": 15.277,
-       "end": 15.5
+       "start": 12.702,
+       "end": 12.896
       },
       {
        "text": "hard",
-       "start": 15.5,
-       "end": 15.773
+       "start": 12.896,
+       "end": 13.133
       },
       {
        "text": "walls",
-       "start": 15.773,
-       "end": 16.095
+       "start": 13.133,
+       "end": 13.413
       },
       {
        "text": "and",
-       "start": 16.095,
-       "end": 16.319
+       "start": 13.413,
+       "end": 13.607
       },
       {
        "text": "start",
-       "start": 16.319,
-       "end": 16.641
+       "start": 13.607,
+       "end": 13.887
       },
       {
        "text": "circling.",
-       "start": 16.641,
-       "end": 17.112
+       "start": 13.887,
+       "end": 14.296
       }
      ]
     }
    ],
-   "end": 17.412
+   "start": 10.853,
+   "end": 14.296
   },
   {
    "id": "wide",
    "label": "",
-   "start": 17.812,
    "lines": [
     {
      "show": "So you dig it {y:twice} as wide",
-     "start": 17.812,
-     "end": 19.321,
+     "start": 14.565,
+     "end": 15.899,
      "words": [
       {
        "text": "So",
-       "start": 17.812,
-       "end": 17.98
+       "start": 14.565,
+       "end": 14.713
       },
       {
        "text": "you",
-       "start": 17.98,
-       "end": 18.195
+       "start": 14.713,
+       "end": 14.903
       },
       {
        "text": "dig",
-       "start": 18.195,
-       "end": 18.411
+       "start": 14.903,
+       "end": 15.094
       },
       {
        "text": "it",
-       "start": 18.411,
-       "end": 18.579
+       "start": 15.094,
+       "end": 15.242
       },
       {
        "text": "twice",
-       "start": 18.579,
-       "end": 18.89
+       "start": 15.242,
+       "end": 15.517
       },
       {
        "text": "as",
-       "start": 18.89,
-       "end": 19.058
+       "start": 15.517,
+       "end": 15.666
       },
       {
        "text": "wide",
-       "start": 19.058,
-       "end": 19.321
+       "start": 15.666,
+       "end": 15.899
       }
      ]
     },
     {
      "show": "and loosen the roots.",
-     "start": 19.381,
-     "end": 20.565,
+     "start": 15.899,
+     "end": 16.671,
      "words": [
       {
        "text": "and",
-       "start": 19.381,
-       "end": 19.613
+       "start": 15.899,
+       "end": 16.05
       },
       {
        "text": "loosen",
-       "start": 19.613,
-       "end": 19.999
+       "start": 16.05,
+       "end": 16.302
       },
       {
        "text": "the",
-       "start": 19.999,
-       "end": 20.231
+       "start": 16.302,
+       "end": 16.453
       },
       {
        "text": "roots.",
-       "start": 20.231,
-       "end": 20.565
+       "start": 16.453,
+       "end": 16.671
       }
      ]
     }
    ],
-   "end": 20.865
+   "start": 14.565,
+   "end": 16.671
   },
   {
    "id": "pot",
    "label": "",
-   "start": 21.265,
    "lines": [
     {
      "show": "Then you fill it with soft {y:potting} soil.",
-     "start": 21.265,
-     "end": 23.123,
+     "start": 17.032,
+     "end": 19.009,
      "words": [
       {
        "text": "Then",
-       "start": 21.265,
-       "end": 21.498
+       "start": 17.032,
+       "end": 17.279
       },
       {
        "text": "you",
-       "start": 21.498,
-       "end": 21.688
+       "start": 17.279,
+       "end": 17.482
       },
       {
        "text": "fill",
-       "start": 21.688,
-       "end": 21.92
+       "start": 17.482,
+       "end": 17.729
       },
       {
        "text": "it",
-       "start": 21.92,
-       "end": 22.068
+       "start": 17.729,
+       "end": 17.886
       },
       {
        "text": "with",
-       "start": 22.068,
-       "end": 22.3
+       "start": 17.886,
+       "end": 18.133
       },
       {
        "text": "soft",
-       "start": 22.3,
-       "end": 22.532
+       "start": 18.133,
+       "end": 18.38
       },
       {
        "text": "potting",
-       "start": 22.532,
-       "end": 22.891
+       "start": 18.38,
+       "end": 18.761
       },
       {
        "text": "soil.",
-       "start": 22.891,
-       "end": 23.123
+       "start": 18.761,
+       "end": 19.009
       }
      ]
     },
     {
      "show": "The roots never {r:leave} that pocket.",
-     "start": 23.423,
-     "end": 24.921,
+     "start": 19.448,
+     "end": 20.724,
      "words": [
       {
        "text": "The",
-       "start": 23.423,
-       "end": 23.605
+       "start": 19.448,
+       "end": 19.603
       },
       {
        "text": "roots",
-       "start": 23.605,
-       "end": 23.868
+       "start": 19.603,
+       "end": 19.827
       },
       {
        "text": "never",
-       "start": 23.868,
-       "end": 24.131
+       "start": 19.827,
+       "end": 20.051
       },
       {
        "text": "leave",
-       "start": 24.131,
-       "end": 24.394
+       "start": 20.051,
+       "end": 20.275
       },
       {
        "text": "that",
-       "start": 24.394,
-       "end": 24.617
+       "start": 20.275,
+       "end": 20.465
       },
       {
        "text": "pocket.",
-       "start": 24.617,
-       "end": 24.921
+       "start": 20.465,
+       "end": 20.723
       }
      ]
     }
    ],
-   "end": 25.221
+   "start": 17.032,
+   "end": 20.724
   },
   {
    "id": "native",
    "label": "",
-   "start": 25.621,
    "lines": [
     {
      "show": "So you refill with the {y:soil} you dug out.",
-     "start": 25.621,
-     "end": 27.687,
+     "start": 21.049,
+     "end": 22.779,
      "words": [
       {
        "text": "So",
-       "start": 25.621,
-       "end": 25.783
+       "start": 21.049,
+       "end": 21.185
       },
       {
        "text": "you",
-       "start": 25.783,
-       "end": 25.992
+       "start": 21.185,
+       "end": 21.36
       },
       {
        "text": "refill",
-       "start": 25.992,
-       "end": 26.341
+       "start": 21.36,
+       "end": 21.651
       },
       {
        "text": "with",
-       "start": 26.341,
-       "end": 26.596
+       "start": 21.651,
+       "end": 21.865
       },
       {
        "text": "the",
-       "start": 26.596,
-       "end": 26.805
+       "start": 21.865,
+       "end": 22.04
       },
       {
        "text": "soil",
-       "start": 26.805,
-       "end": 27.06
+       "start": 22.04,
+       "end": 22.254
       },
       {
        "text": "you",
-       "start": 27.06,
-       "end": 27.269
+       "start": 22.254,
+       "end": 22.429
       },
       {
        "text": "dug",
-       "start": 27.269,
-       "end": 27.478
+       "start": 22.429,
+       "end": 22.604
       },
       {
        "text": "out.",
-       "start": 27.478,
-       "end": 27.687
+       "start": 22.604,
+       "end": 22.779
       }
      ]
     }
    ],
-   "end": 27.987
+   "start": 21.049,
+   "end": 22.779
   },
   {
    "id": "wind",
    "label": "",
-   "start": 28.387,
    "lines": [
     {
      "show": "Then the {r:wind} comes.",
-     "start": 28.387,
-     "end": 29.49,
+     "start": 23.228,
+     "end": 24.093,
      "words": [
       {
        "text": "Then",
-       "start": 28.387,
-       "end": 28.663
+       "start": 23.228,
+       "end": 23.445
       },
       {
        "text": "the",
-       "start": 28.663,
-       "end": 28.889
+       "start": 23.445,
+       "end": 23.621
       },
       {
        "text": "wind",
-       "start": 28.889,
-       "end": 29.164
+       "start": 23.621,
+       "end": 23.838
       },
       {
        "text": "comes.",
-       "start": 29.164,
-       "end": 29.49
+       "start": 23.838,
+       "end": 24.093
       }
      ]
     },
     {
      "show": "Your tree {r:leans}.",
-     "start": 29.79,
-     "end": 30.824,
+     "start": 24.473,
+     "end": 25.284,
      "words": [
       {
        "text": "Your",
-       "start": 29.79,
-       "end": 30.115
+       "start": 24.473,
+       "end": 24.728
       },
       {
        "text": "tree",
-       "start": 30.115,
-       "end": 30.44
+       "start": 24.728,
+       "end": 24.983
       },
       {
        "text": "leans.",
-       "start": 30.44,
-       "end": 30.824
+       "start": 24.983,
+       "end": 25.284
       }
      ]
     }
    ],
-   "end": 31.124
+   "start": 23.228,
+   "end": 25.284
   },
   {
    "id": "stake",
    "label": "",
-   "start": 31.524,
    "lines": [
     {
      "show": "So you add a {y:stake}.",
-     "start": 31.524,
-     "end": 32.731,
+     "start": 25.644,
+     "end": 26.399,
      "words": [
       {
        "text": "So",
-       "start": 31.524,
-       "end": 31.72
+       "start": 25.644,
+       "end": 25.767
       },
       {
        "text": "you",
-       "start": 31.72,
-       "end": 31.973
+       "start": 25.767,
+       "end": 25.925
       },
       {
        "text": "add",
-       "start": 31.973,
-       "end": 32.226
+       "start": 25.925,
+       "end": 26.083
       },
       {
        "text": "a",
-       "start": 32.226,
-       "end": 32.366
+       "start": 26.083,
+       "end": 26.171
       },
       {
        "text": "stake.",
-       "start": 32.366,
-       "end": 32.731
+       "start": 26.171,
+       "end": 26.399
       }
      ]
     },
     {
      "show": "Loose, and only for {y:one} year.",
-     "start": 33.031,
-     "end": 34.712,
+     "start": 26.705,
+     "end": 28.578,
      "words": [
       {
        "text": "Loose,",
-       "start": 33.031,
-       "end": 33.384
+       "start": 26.705,
+       "end": 27.097
       },
       {
        "text": "and",
-       "start": 33.384,
-       "end": 33.628
+       "start": 27.097,
+       "end": 27.369
       },
       {
        "text": "only",
-       "start": 33.628,
-       "end": 33.926
+       "start": 27.369,
+       "end": 27.702
       },
       {
        "text": "for",
-       "start": 33.926,
-       "end": 34.17
+       "start": 27.702,
+       "end": 27.974
       },
       {
        "text": "one",
-       "start": 34.17,
-       "end": 34.414
+       "start": 27.974,
+       "end": 28.246
       },
       {
        "text": "year.",
-       "start": 34.414,
-       "end": 34.712
+       "start": 28.246,
+       "end": 28.578
       }
      ]
     }
    ],
-   "end": 35.012
+   "start": 25.644,
+   "end": 28.578
   },
   {
    "id": "dry",
    "label": "",
-   "start": 35.412,
    "lines": [
     {
      "show": "Then summer.",
-     "start": 35.412,
-     "end": 36.026,
+     "start": 29.062,
+     "end": 29.513,
      "words": [
       {
        "text": "Then",
-       "start": 35.412,
-       "end": 35.672
+       "start": 29.062,
+       "end": 29.253
       },
       {
        "text": "summer.",
-       "start": 35.672,
-       "end": 36.026
+       "start": 29.253,
+       "end": 29.513
       }
      ]
     },
     {
      "show": "Everything {r:dries} out.",
-     "start": 36.326,
-     "end": 37.696,
+     "start": 30.025,
+     "end": 30.852,
      "words": [
       {
        "text": "Everything",
-       "start": 36.326,
-       "end": 37.026
+       "start": 30.025,
+       "end": 30.448
       },
       {
        "text": "dries",
-       "start": 37.026,
-       "end": 37.422
+       "start": 30.448,
+       "end": 30.687
       },
       {
        "text": "out.",
-       "start": 37.422,
-       "end": 37.696
+       "start": 30.687,
+       "end": 30.852
       }
      ]
     }
    ],
-   "end": 37.996
+   "start": 29.062,
+   "end": 30.852
   },
   {
    "id": "water",
    "label": "",
-   "start": 38.396,
    "lines": [
     {
      "show": "So you water {y:deeply} every week",
-     "start": 38.396,
-     "end": 40.055,
+     "start": 31.106,
+     "end": 32.754,
      "words": [
       {
        "text": "So",
-       "start": 38.396,
-       "end": 38.567
+       "start": 31.106,
+       "end": 31.276
       },
       {
        "text": "you",
-       "start": 38.567,
-       "end": 38.786
+       "start": 31.276,
+       "end": 31.494
       },
       {
        "text": "water",
-       "start": 38.786,
-       "end": 39.104
+       "start": 31.494,
+       "end": 31.809
       },
       {
        "text": "deeply",
-       "start": 39.104,
-       "end": 39.47
+       "start": 31.809,
+       "end": 32.172
       },
       {
        "text": "every",
-       "start": 39.47,
-       "end": 39.787
+       "start": 32.172,
+       "end": 32.487
       },
       {
        "text": "week",
-       "start": 39.787,
-       "end": 40.055
+       "start": 32.487,
+       "end": 32.754
       }
      ]
     },
     {
      "show": "and add a ring of {y:mulch}.",
-     "start": 40.115,
-     "end": 41.3,
+     "start": 32.754,
+     "end": 33.773,
      "words": [
       {
        "text": "and",
-       "start": 40.115,
-       "end": 40.313
+       "start": 32.754,
+       "end": 32.924
       },
       {
        "text": "add",
-       "start": 40.313,
-       "end": 40.51
+       "start": 32.924,
+       "end": 33.094
       },
       {
        "text": "a",
-       "start": 40.51,
-       "end": 40.62
+       "start": 33.094,
+       "end": 33.188
       },
       {
        "text": "ring",
-       "start": 40.62,
-       "end": 40.861
+       "start": 33.188,
+       "end": 33.396
       },
       {
        "text": "of",
-       "start": 40.861,
-       "end": 41.015
+       "start": 33.396,
+       "end": 33.528
       },
       {
        "text": "mulch.",
-       "start": 41.015,
-       "end": 41.3
+       "start": 33.528,
+       "end": 33.774
       }
      ]
     }
    ],
-   "end": 41.6
+   "start": 31.106,
+   "end": 33.773
   },
   {
    "id": "volcano",
    "label": "",
-   "start": 42.0,
    "lines": [
     {
      "show": "But never piled against the {r:trunk}.",
-     "start": 42.0,
-     "end": 43.499,
+     "start": 34.106,
+     "end": 35.642,
      "words": [
       {
        "text": "But",
-       "start": 42.0,
-       "end": 42.182
+       "start": 34.106,
+       "end": 34.293
       },
       {
        "text": "never",
-       "start": 42.182,
-       "end": 42.446
+       "start": 34.293,
+       "end": 34.563
       },
       {
        "text": "piled",
-       "start": 42.446,
-       "end": 42.709
+       "start": 34.563,
+       "end": 34.833
       },
       {
        "text": "against",
-       "start": 42.709,
-       "end": 43.054
+       "start": 34.833,
+       "end": 35.186
       },
       {
        "text": "the",
-       "start": 43.054,
-       "end": 43.236
+       "start": 35.186,
+       "end": 35.373
       },
       {
        "text": "trunk.",
-       "start": 43.236,
-       "end": 43.499
+       "start": 35.373,
+       "end": 35.642
       }
      ]
     }
    ],
-   "end": 43.799
+   "start": 34.106,
+   "end": 35.642
   },
   {
    "id": "end",
    "label": "",
-   "start": 44.199,
    "lines": [
     {
      "show": "{y:Congratulations}.",
-     "start": 44.199,
-     "end": 45.244,
+     "start": 36.028,
+     "end": 36.923,
      "words": [
       {
        "text": "Congratulations.",
-       "start": 44.199,
-       "end": 45.244
+       "start": 36.028,
+       "end": 36.923
       }
      ]
     },
     {
      "show": "You planted a tree",
-     "start": 45.544,
-     "end": 46.438,
+     "start": 37.286,
+     "end": 38.102,
      "words": [
       {
        "text": "You",
-       "start": 45.544,
-       "end": 45.736
+       "start": 37.286,
+       "end": 37.461
       },
       {
        "text": "planted",
-       "start": 45.736,
-       "end": 46.098
+       "start": 37.461,
+       "end": 37.791
       },
       {
        "text": "a",
-       "start": 46.098,
-       "end": 46.204
+       "start": 37.791,
+       "end": 37.888
       },
       {
        "text": "tree",
-       "start": 46.204,
-       "end": 46.438
+       "start": 37.888,
+       "end": 38.102
       }
      ]
     },
     {
      "show": "that will {g:outlive} you.",
-     "start": 46.498,
-     "end": 47.378,
+     "start": 38.102,
+     "end": 39.067,
      "words": [
       {
        "text": "that",
-       "start": 46.498,
-       "end": 46.7
+       "start": 38.102,
+       "end": 38.323
       },
       {
        "text": "will",
-       "start": 46.7,
-       "end": 46.901
+       "start": 38.323,
+       "end": 38.545
       },
       {
        "text": "outlive",
-       "start": 46.901,
-       "end": 47.213
+       "start": 38.545,
+       "end": 38.886
       },
       {
        "text": "you.",
-       "start": 47.213,
-       "end": 47.378
+       "start": 38.886,
+       "end": 39.067
       }
      ]
     }
    ],
-   "end": 47.678
+   "start": 36.028,
+   "end": 39.067
   }
  ]
 }
