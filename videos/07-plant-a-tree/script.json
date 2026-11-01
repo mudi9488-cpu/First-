@@ -1,0 +1,47 @@
+{
+  "title": "How to plant a tree so it actually survives",
+  "voice": "en-us-ryan-medium",
+  "length_scale": 1.0,
+  "beats": [
+    { "id": "want", "label": "", "lines": [
+      { "show": "You want a {g:tree} in your garden." } ] },
+    { "id": "dig", "label": "", "lines": [
+      { "show": "So you dig a {y:deep} hole" },
+      { "show": "and drop it in." } ] },
+    { "id": "rot", "label": "", "lines": [
+      { "show": "Big {r:mistake}." },
+      { "show": "The trunk sits underground and starts to {r:rot}." } ] },
+    { "id": "flare", "label": "", "lines": [
+      { "show": "So you plant it {y:higher}:" },
+      { "show": "the root flare stays right at {y:ground} level." } ] },
+    { "id": "narrow", "label": "", "lines": [
+      { "show": "But the hole is {r:narrow}." },
+      { "show": "The roots hit hard walls and start {r:circling}." } ] },
+    { "id": "wide", "label": "", "lines": [
+      { "show": "So you dig it {y:twice} as wide" },
+      { "show": "and loosen the roots." } ] },
+    { "id": "pot", "label": "", "lines": [
+      { "show": "Then you fill it with soft {y:potting} soil." },
+      { "show": "The roots never {r:leave} that pocket." } ] },
+    { "id": "native", "label": "", "lines": [
+      { "show": "So you refill with the {y:soil} you dug out." } ] },
+    { "id": "wind", "label": "", "lines": [
+      { "show": "Then the {r:wind} comes." },
+      { "show": "Your tree {r:leans}." } ] },
+    { "id": "stake", "label": "", "lines": [
+      { "show": "So you add a {y:stake}." },
+      { "show": "Loose, and only for {y:one} year." } ] },
+    { "id": "dry", "label": "", "lines": [
+      { "show": "Then summer." },
+      { "show": "Everything {r:dries} out." } ] },
+    { "id": "water", "label": "", "lines": [
+      { "show": "So you water {y:deeply} every week" },
+      { "show": "and add a ring of {y:mulch}." } ] },
+    { "id": "volcano", "label": "", "lines": [
+      { "show": "But never piled against the {r:trunk}." } ] },
+    { "id": "end", "label": "", "lines": [
+      { "show": "{y:Congratulations}." },
+      { "show": "You planted a tree" },
+      { "show": "that will {g:outlive} you." } ] }
+  ]
+}

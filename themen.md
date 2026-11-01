@@ -6,7 +6,7 @@ Neue Ideen unten anhängen. Nur hilfreiche/aufklärende Themen mit gesichertem W
 | Thema | Status |
 |---|---|
 | How to build a raised bed the right way | fertig (videos/06-raised-bed) |
-| How to plant a tree so it actually survives | offen |
+| How to plant a tree so it actually survives | in Arbeit |
 | Why your basement gets moldy – and how to stop it | offen |
 | How to build a patio that never sinks | offen |
 | How a French drain keeps water away from your house | offen |
