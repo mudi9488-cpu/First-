@@ -1,963 +1,964 @@
 {
- "duration": 48.383,
+ "duration": 41.8,
+ "source": "voice-elevenlabs-mike.mp3",
  "beats": [
   {
    "id": "want",
    "label": "",
-   "start": 0.15,
    "lines": [
     {
      "show": "You want to use your {g:basement}.",
-     "start": 0.15,
-     "end": 1.462,
+     "start": 0.0,
+     "end": 1.163,
      "words": [
       {
        "text": "You",
-       "start": 0.15,
-       "end": 0.329
+       "start": 0.0,
+       "end": 0.159
       },
       {
        "text": "want",
-       "start": 0.329,
-       "end": 0.548
+       "start": 0.159,
+       "end": 0.353
       },
       {
        "text": "to",
-       "start": 0.548,
-       "end": 0.687
+       "start": 0.353,
+       "end": 0.476
       },
       {
        "text": "use",
-       "start": 0.687,
-       "end": 0.866
+       "start": 0.476,
+       "end": 0.635
       },
       {
        "text": "your",
-       "start": 0.866,
-       "end": 1.084
+       "start": 0.635,
+       "end": 0.828
       },
       {
        "text": "basement.",
-       "start": 1.084,
-       "end": 1.462
+       "start": 0.828,
+       "end": 1.163
       }
      ]
     }
    ],
-   "end": 1.762
+   "start": 0.0,
+   "end": 1.163
   },
   {
    "id": "boxes",
    "label": "",
-   "start": 2.162,
    "lines": [
     {
      "show": "So you store your {y:boxes} down there.",
-     "start": 2.162,
-     "end": 3.834,
+     "start": 1.528,
+     "end": 3.089,
      "words": [
       {
        "text": "So",
-       "start": 2.162,
-       "end": 2.314
+       "start": 1.528,
+       "end": 1.67
       },
       {
        "text": "you",
-       "start": 2.314,
-       "end": 2.509
+       "start": 1.67,
+       "end": 1.852
       },
       {
        "text": "store",
-       "start": 2.509,
-       "end": 2.792
+       "start": 1.852,
+       "end": 2.116
       },
       {
        "text": "your",
-       "start": 2.792,
-       "end": 3.03
+       "start": 2.116,
+       "end": 2.339
       },
       {
        "text": "boxes",
-       "start": 3.03,
-       "end": 3.313
+       "start": 2.339,
+       "end": 2.603
       },
       {
        "text": "down",
-       "start": 3.313,
-       "end": 3.552
+       "start": 2.603,
+       "end": 2.826
       },
       {
        "text": "there.",
-       "start": 3.552,
-       "end": 3.834
+       "start": 2.826,
+       "end": 3.089
       }
      ]
     },
     {
      "show": "Weeks later, it smells like {r:mold}.",
-     "start": 4.134,
-     "end": 6.067,
+     "start": 3.52,
+     "end": 5.47,
      "words": [
       {
        "text": "Weeks",
-       "start": 4.134,
-       "end": 4.493
+       "start": 3.52,
+       "end": 3.882
       },
       {
        "text": "later,",
-       "start": 4.493,
-       "end": 4.852
+       "start": 3.882,
+       "end": 4.244
       },
       {
        "text": "it",
-       "start": 4.852,
-       "end": 5.045
+       "start": 4.244,
+       "end": 4.439
       },
       {
        "text": "smells",
-       "start": 5.045,
-       "end": 5.459
+       "start": 4.439,
+       "end": 4.857
       },
       {
        "text": "like",
-       "start": 5.459,
-       "end": 5.763
+       "start": 4.857,
+       "end": 5.163
       },
       {
        "text": "mold.",
-       "start": 5.763,
-       "end": 6.067
+       "start": 5.163,
+       "end": 5.47
       }
      ]
     }
    ],
-   "end": 6.367
+   "start": 1.528,
+   "end": 5.47
   },
   {
    "id": "rain",
    "label": "",
-   "start": 6.767,
    "lines": [
     {
      "show": "Every time it rains,",
-     "start": 6.767,
-     "end": 7.974,
+     "start": 5.915,
+     "end": 7.301,
      "words": [
       {
        "text": "Every",
-       "start": 6.767,
-       "end": 7.124
+       "start": 5.915,
+       "end": 6.324
       },
       {
        "text": "time",
-       "start": 7.124,
-       "end": 7.426
+       "start": 6.324,
+       "end": 6.671
       },
       {
        "text": "it",
-       "start": 7.426,
-       "end": 7.618
+       "start": 6.671,
+       "end": 6.891
       },
       {
        "text": "rains,",
-       "start": 7.618,
-       "end": 7.974
+       "start": 6.891,
+       "end": 7.301
       }
      ]
     },
     {
      "show": "your downspout dumps the water right at the {r:wall}.",
-     "start": 8.134,
-     "end": 10.375,
+     "start": 7.301,
+     "end": 9.425,
      "words": [
       {
        "text": "your",
-       "start": 8.134,
-       "end": 8.365
+       "start": 7.301,
+       "end": 7.519
       },
       {
        "text": "downspout",
-       "start": 8.365,
-       "end": 8.805
+       "start": 7.519,
+       "end": 7.936
       },
       {
        "text": "dumps",
-       "start": 8.805,
-       "end": 9.077
+       "start": 7.936,
+       "end": 8.194
       },
       {
        "text": "the",
-       "start": 9.077,
-       "end": 9.265
+       "start": 8.194,
+       "end": 8.373
       },
       {
        "text": "water",
-       "start": 9.265,
-       "end": 9.538
+       "start": 8.373,
+       "end": 8.631
       },
       {
        "text": "right",
-       "start": 9.538,
-       "end": 9.81
+       "start": 8.631,
+       "end": 8.889
       },
       {
        "text": "at",
-       "start": 9.81,
-       "end": 9.956
+       "start": 8.889,
+       "end": 9.028
       },
       {
        "text": "the",
-       "start": 9.956,
-       "end": 10.145
+       "start": 9.028,
+       "end": 9.207
       },
       {
        "text": "wall.",
-       "start": 10.145,
-       "end": 10.375
+       "start": 9.207,
+       "end": 9.425
       }
      ]
     }
    ],
-   "end": 10.675
+   "start": 5.915,
+   "end": 9.425
   },
   {
    "id": "extend",
    "label": "",
-   "start": 11.075,
    "lines": [
     {
      "show": "So you add an {y:extension}",
-     "start": 11.075,
-     "end": 12.376,
+     "start": 9.907,
+     "end": 11.034,
      "words": [
       {
        "text": "So",
-       "start": 11.075,
-       "end": 11.247
+       "start": 9.907,
+       "end": 10.056
       },
       {
        "text": "you",
-       "start": 11.247,
-       "end": 11.468
+       "start": 10.056,
+       "end": 10.247
       },
       {
        "text": "add",
-       "start": 11.468,
-       "end": 11.689
+       "start": 10.247,
+       "end": 10.439
       },
       {
        "text": "an",
-       "start": 11.689,
-       "end": 11.86
+       "start": 10.439,
+       "end": 10.587
       },
       {
        "text": "extension",
-       "start": 11.86,
-       "end": 12.376
+       "start": 10.587,
+       "end": 11.034
       }
      ]
     },
     {
      "show": "that carries it {y:two meters} away.",
-     "start": 12.436,
-     "end": 13.991,
+     "start": 11.034,
+     "end": 12.461,
      "words": [
       {
        "text": "that",
-       "start": 12.436,
-       "end": 12.68
+       "start": 11.034,
+       "end": 11.258
       },
       {
        "text": "carries",
-       "start": 12.68,
-       "end": 13.058
+       "start": 11.258,
+       "end": 11.605
       },
       {
        "text": "it",
-       "start": 13.058,
-       "end": 13.213
+       "start": 11.605,
+       "end": 11.747
       },
       {
        "text": "two",
-       "start": 13.213,
-       "end": 13.413
+       "start": 11.747,
+       "end": 11.931
       },
       {
        "text": "meters",
-       "start": 13.413,
-       "end": 13.747
+       "start": 11.931,
+       "end": 12.237
       },
       {
        "text": "away.",
-       "start": 13.747,
-       "end": 13.991
+       "start": 12.237,
+       "end": 12.461
       }
      ]
     }
    ],
-   "end": 14.291
+   "start": 9.907,
+   "end": 12.461
   },
   {
    "id": "slope",
    "label": "",
-   "start": 14.691,
    "lines": [
     {
      "show": "But the ground {r:slopes} toward the house.",
-     "start": 14.691,
-     "end": 16.491,
+     "start": 12.87,
+     "end": 14.484,
      "words": [
       {
        "text": "But",
-       "start": 14.691,
-       "end": 14.882
+       "start": 12.87,
+       "end": 13.041
       },
       {
        "text": "the",
-       "start": 14.882,
-       "end": 15.072
+       "start": 13.041,
+       "end": 13.212
       },
       {
        "text": "ground",
-       "start": 15.072,
-       "end": 15.39
+       "start": 13.212,
+       "end": 13.497
       },
       {
        "text": "slopes",
-       "start": 15.39,
-       "end": 15.707
+       "start": 13.497,
+       "end": 13.781
       },
       {
        "text": "toward",
-       "start": 15.707,
-       "end": 16.025
+       "start": 13.781,
+       "end": 14.066
       },
       {
        "text": "the",
-       "start": 16.025,
-       "end": 16.216
+       "start": 14.066,
+       "end": 14.237
       },
       {
        "text": "house.",
-       "start": 16.216,
-       "end": 16.491
+       "start": 14.237,
+       "end": 14.484
       }
      ]
     },
     {
      "show": "So you {y:regrade} it to slope away.",
-     "start": 16.791,
-     "end": 18.428,
+     "start": 14.748,
+     "end": 16.206,
      "words": [
       {
        "text": "So",
-       "start": 16.791,
-       "end": 16.952
+       "start": 14.748,
+       "end": 14.892
       },
       {
        "text": "you",
-       "start": 16.952,
-       "end": 17.16
+       "start": 14.892,
+       "end": 15.076
       },
       {
        "text": "regrade",
-       "start": 17.16,
-       "end": 17.552
+       "start": 15.076,
+       "end": 15.425
       },
       {
        "text": "it",
-       "start": 17.552,
-       "end": 17.713
+       "start": 15.425,
+       "end": 15.569
       },
       {
        "text": "to",
-       "start": 17.713,
-       "end": 17.874
+       "start": 15.569,
+       "end": 15.713
       },
       {
        "text": "slope",
-       "start": 17.874,
-       "end": 18.174
+       "start": 15.713,
+       "end": 15.98
       },
       {
        "text": "away.",
-       "start": 18.174,
-       "end": 18.428
+       "start": 15.98,
+       "end": 16.206
       }
      ]
     }
    ],
-   "end": 18.728
+   "start": 12.87,
+   "end": 16.206
   },
   {
    "id": "seal",
    "label": "",
-   "start": 19.128,
    "lines": [
     {
      "show": "Water still {r:seeps} through the wall.",
-     "start": 19.128,
-     "end": 20.962,
+     "start": 16.709,
+     "end": 18.195,
      "words": [
       {
        "text": "Water",
-       "start": 19.128,
-       "end": 19.442
+       "start": 16.709,
+       "end": 16.963
       },
       {
        "text": "still",
-       "start": 19.442,
-       "end": 19.755
+       "start": 16.963,
+       "end": 17.217
       },
       {
        "text": "seeps",
-       "start": 19.755,
-       "end": 20.069
+       "start": 17.217,
+       "end": 17.471
       },
       {
        "text": "through",
-       "start": 20.069,
-       "end": 20.479
+       "start": 17.471,
+       "end": 17.804
       },
       {
        "text": "the",
-       "start": 20.479,
-       "end": 20.697
+       "start": 17.804,
+       "end": 17.98
       },
       {
        "text": "wall.",
-       "start": 20.697,
-       "end": 20.962
+       "start": 17.98,
+       "end": 18.195
       }
      ]
     },
     {
      "show": "So you {y:seal} it from the outside",
-     "start": 21.262,
-     "end": 22.978,
+     "start": 18.48,
+     "end": 19.888,
      "words": [
       {
        "text": "So",
-       "start": 21.262,
-       "end": 21.431
+       "start": 18.48,
+       "end": 18.619
       },
       {
        "text": "you",
-       "start": 21.431,
-       "end": 21.649
+       "start": 18.619,
+       "end": 18.797
       },
       {
        "text": "seal",
-       "start": 21.649,
-       "end": 21.915
+       "start": 18.797,
+       "end": 19.015
       },
       {
        "text": "it",
-       "start": 21.915,
-       "end": 22.084
+       "start": 19.015,
+       "end": 19.154
       },
       {
        "text": "from",
-       "start": 22.084,
-       "end": 22.35
+       "start": 19.154,
+       "end": 19.372
       },
       {
        "text": "the",
-       "start": 22.35,
-       "end": 22.567
+       "start": 19.372,
+       "end": 19.551
       },
       {
        "text": "outside",
-       "start": 22.567,
-       "end": 22.978
+       "start": 19.551,
+       "end": 19.888
       }
      ]
     },
     {
      "show": "and lay a {y:drain} at the bottom.",
-     "start": 23.038,
-     "end": 24.409,
+     "start": 19.888,
+     "end": 21.148,
      "words": [
       {
        "text": "and",
-       "start": 23.038,
-       "end": 23.223
+       "start": 19.888,
+       "end": 20.057
       },
       {
        "text": "lay",
-       "start": 23.223,
-       "end": 23.407
+       "start": 20.057,
+       "end": 20.226
       },
       {
        "text": "a",
-       "start": 23.407,
-       "end": 23.509
+       "start": 20.226,
+       "end": 20.32
       },
       {
        "text": "drain",
-       "start": 23.509,
-       "end": 23.775
+       "start": 20.32,
+       "end": 20.565
       },
       {
        "text": "at",
-       "start": 23.775,
-       "end": 23.918
+       "start": 20.565,
+       "end": 20.696
       },
       {
        "text": "the",
-       "start": 23.918,
-       "end": 24.102
+       "start": 20.696,
+       "end": 20.866
       },
       {
        "text": "bottom.",
-       "start": 24.102,
-       "end": 24.409
+       "start": 20.866,
+       "end": 21.148
       }
      ]
     }
    ],
-   "end": 24.709
+   "start": 16.709,
+   "end": 21.148
   },
   {
    "id": "summer",
    "label": "",
-   "start": 25.109,
    "lines": [
     {
      "show": "Then summer comes.",
-     "start": 25.109,
-     "end": 26.259,
+     "start": 21.781,
+     "end": 22.58,
      "words": [
       {
        "text": "Then",
-       "start": 25.109,
-       "end": 25.434
+       "start": 21.781,
+       "end": 22.007
       },
       {
        "text": "summer",
-       "start": 25.434,
-       "end": 25.876
+       "start": 22.007,
+       "end": 22.314
       },
       {
        "text": "comes.",
-       "start": 25.876,
-       "end": 26.259
+       "start": 22.314,
+       "end": 22.58
       }
      ]
     },
     {
      "show": "You open the window to {r:air} it out.",
-     "start": 26.559,
-     "end": 28.103,
+     "start": 23.075,
+     "end": 24.375,
      "words": [
       {
        "text": "You",
-       "start": 26.559,
-       "end": 26.742
+       "start": 23.075,
+       "end": 23.228
       },
       {
        "text": "open",
-       "start": 26.742,
-       "end": 26.965
+       "start": 23.228,
+       "end": 23.417
       },
       {
        "text": "the",
-       "start": 26.965,
-       "end": 27.148
+       "start": 23.417,
+       "end": 23.571
       },
       {
        "text": "window",
-       "start": 27.148,
-       "end": 27.453
+       "start": 23.571,
+       "end": 23.827
       },
       {
        "text": "to",
-       "start": 27.453,
-       "end": 27.595
+       "start": 23.827,
+       "end": 23.947
       },
       {
        "text": "air",
-       "start": 27.595,
-       "end": 27.778
+       "start": 23.947,
+       "end": 24.101
       },
       {
        "text": "it",
-       "start": 27.778,
-       "end": 27.92
+       "start": 24.101,
+       "end": 24.221
       },
       {
        "text": "out.",
-       "start": 27.92,
-       "end": 28.103
+       "start": 24.221,
+       "end": 24.375
       }
      ]
     },
     {
      "show": "Warm, humid air hits the cold walls",
-     "start": 28.403,
-     "end": 30.493,
+     "start": 24.897,
+     "end": 26.6,
      "words": [
       {
        "text": "Warm,",
-       "start": 28.403,
-       "end": 28.701
+       "start": 24.897,
+       "end": 25.14
       },
       {
        "text": "humid",
-       "start": 28.701,
-       "end": 29.054
+       "start": 25.14,
+       "end": 25.428
       },
       {
        "text": "air",
-       "start": 29.054,
-       "end": 29.298
+       "start": 25.428,
+       "end": 25.627
       },
       {
        "text": "hits",
-       "start": 29.298,
-       "end": 29.597
+       "start": 25.627,
+       "end": 25.87
       },
       {
        "text": "the",
-       "start": 29.597,
-       "end": 29.841
+       "start": 25.87,
+       "end": 26.069
       },
       {
        "text": "cold",
-       "start": 29.841,
-       "end": 30.14
+       "start": 26.069,
+       "end": 26.312
       },
       {
        "text": "walls",
-       "start": 30.14,
-       "end": 30.493
+       "start": 26.312,
+       "end": 26.6
       }
      ]
     },
     {
      "show": "and turns into {r:water}.",
-     "start": 30.553,
-     "end": 31.807,
+     "start": 26.6,
+     "end": 27.901,
      "words": [
       {
        "text": "and",
-       "start": 30.553,
-       "end": 30.798
+       "start": 26.6,
+       "end": 26.854
       },
       {
        "text": "turns",
-       "start": 30.798,
-       "end": 31.152
+       "start": 26.854,
+       "end": 27.222
       },
       {
        "text": "into",
-       "start": 31.152,
-       "end": 31.452
+       "start": 27.222,
+       "end": 27.533
       },
       {
        "text": "water.",
-       "start": 31.452,
-       "end": 31.807
+       "start": 27.533,
+       "end": 27.901
       }
      ]
     }
    ],
-   "end": 32.107
+   "start": 21.781,
+   "end": 27.901
   },
   {
    "id": "cool",
    "label": "",
-   "start": 32.507,
    "lines": [
     {
      "show": "So you only air out when it's {y:cool} outside.",
-     "start": 32.507,
-     "end": 34.84,
+     "start": 28.352,
+     "end": 30.179,
      "words": [
       {
        "text": "So",
-       "start": 32.507,
-       "end": 32.682
+       "start": 28.352,
+       "end": 28.489
       },
       {
        "text": "you",
-       "start": 32.682,
-       "end": 32.908
+       "start": 28.489,
+       "end": 28.666
       },
       {
        "text": "only",
-       "start": 32.908,
-       "end": 33.184
+       "start": 28.666,
+       "end": 28.882
       },
       {
        "text": "air",
-       "start": 33.184,
-       "end": 33.41
+       "start": 28.882,
+       "end": 29.059
       },
       {
        "text": "out",
-       "start": 33.41,
-       "end": 33.636
+       "start": 29.059,
+       "end": 29.236
       },
       {
        "text": "when",
-       "start": 33.636,
-       "end": 33.912
+       "start": 29.236,
+       "end": 29.452
       },
       {
        "text": "it's",
-       "start": 33.912,
-       "end": 34.138
+       "start": 29.452,
+       "end": 29.629
       },
       {
        "text": "cool",
-       "start": 34.138,
-       "end": 34.414
+       "start": 29.629,
+       "end": 29.845
       },
       {
        "text": "outside.",
-       "start": 34.414,
-       "end": 34.84
+       "start": 29.845,
+       "end": 30.179
       }
      ]
     }
    ],
-   "end": 35.14
+   "start": 28.352,
+   "end": 30.179
   },
   {
    "id": "dehum",
    "label": "",
-   "start": 35.54,
    "lines": [
     {
      "show": "And a {y:dehumidifier} keeps it",
-     "start": 35.54,
-     "end": 37.049,
+     "start": 30.509,
+     "end": 31.952,
      "words": [
       {
        "text": "And",
-       "start": 35.54,
-       "end": 35.763
+       "start": 30.509,
+       "end": 30.722
       },
       {
        "text": "a",
-       "start": 35.763,
-       "end": 35.887
+       "start": 30.722,
+       "end": 30.84
       },
       {
        "text": "dehumidifier",
-       "start": 35.887,
-       "end": 36.555
+       "start": 30.84,
+       "end": 31.479
       },
       {
        "text": "keeps",
-       "start": 36.555,
-       "end": 36.876
+       "start": 31.479,
+       "end": 31.786
       },
       {
        "text": "it",
-       "start": 36.876,
-       "end": 37.049
+       "start": 31.786,
+       "end": 31.952
       }
      ]
     },
     {
      "show": "below {y:60 percent}.",
-     "start": 37.109,
-     "end": 38.282,
+     "start": 31.952,
+     "end": 32.939,
      "words": [
       {
        "text": "below",
-       "start": 37.109,
-       "end": 37.521
+       "start": 31.952,
+       "end": 32.299
       },
       {
        "text": "60",
-       "start": 37.521,
-       "end": 37.743
+       "start": 32.299,
+       "end": 32.485
       },
       {
        "text": "percent.",
-       "start": 37.743,
-       "end": 38.282
+       "start": 32.485,
+       "end": 32.939
       }
      ]
     }
    ],
-   "end": 38.582
+   "start": 30.509,
+   "end": 32.939
   },
   {
    "id": "gap",
    "label": "",
-   "start": 38.982,
    "lines": [
     {
      "show": "But your boxes {r:touch} the wall.",
-     "start": 38.982,
-     "end": 40.398,
+     "start": 33.304,
+     "end": 34.711,
      "words": [
       {
        "text": "But",
-       "start": 38.982,
-       "end": 39.175
+       "start": 33.304,
+       "end": 33.496
       },
       {
        "text": "your",
-       "start": 39.175,
-       "end": 39.411
+       "start": 33.496,
+       "end": 33.73
       },
       {
        "text": "boxes",
-       "start": 39.411,
-       "end": 39.69
+       "start": 33.73,
+       "end": 34.007
       },
       {
        "text": "touch",
-       "start": 39.69,
-       "end": 39.969
+       "start": 34.007,
+       "end": 34.285
       },
       {
        "text": "the",
-       "start": 39.969,
-       "end": 40.162
+       "start": 34.285,
+       "end": 34.476
       },
       {
        "text": "wall.",
-       "start": 40.162,
-       "end": 40.398
+       "start": 34.476,
+       "end": 34.711
       }
      ]
     },
     {
      "show": "No air, more mold.",
-     "start": 40.698,
-     "end": 42.084,
+     "start": 35.329,
+     "end": 36.546,
      "words": [
       {
        "text": "No",
-       "start": 40.698,
-       "end": 40.954
+       "start": 35.329,
+       "end": 35.553
       },
       {
        "text": "air,",
-       "start": 40.954,
-       "end": 41.282
+       "start": 35.553,
+       "end": 35.841
       },
       {
        "text": "more",
-       "start": 41.282,
-       "end": 41.683
+       "start": 35.841,
+       "end": 36.194
       },
       {
        "text": "mold.",
-       "start": 41.683,
-       "end": 42.084
+       "start": 36.194,
+       "end": 36.546
       }
      ]
     },
     {
      "show": "So you leave a {y:gap}.",
-     "start": 42.384,
-     "end": 43.361,
+     "start": 36.788,
+     "end": 37.643,
      "words": [
       {
        "text": "So",
-       "start": 42.384,
-       "end": 42.543
+       "start": 36.788,
+       "end": 36.927
       },
       {
        "text": "you",
-       "start": 42.543,
-       "end": 42.747
+       "start": 36.927,
+       "end": 37.106
       },
       {
        "text": "leave",
-       "start": 42.747,
-       "end": 43.042
+       "start": 37.106,
+       "end": 37.365
       },
       {
        "text": "a",
-       "start": 43.042,
-       "end": 43.156
+       "start": 37.365,
+       "end": 37.464
       },
       {
        "text": "gap.",
-       "start": 43.156,
-       "end": 43.361
+       "start": 37.464,
+       "end": 37.643
       }
      ]
     }
    ],
-   "end": 43.661
+   "start": 33.304,
+   "end": 37.643
   },
   {
    "id": "end",
    "label": "",
-   "start": 44.061,
    "lines": [
     {
      "show": "{y:Congratulations}.",
-     "start": 44.061,
-     "end": 45.233,
+     "start": 38.573,
+     "end": 39.453,
      "words": [
       {
        "text": "Congratulations.",
-       "start": 44.061,
-       "end": 45.233
+       "start": 38.573,
+       "end": 39.453
       }
      ]
     },
     {
      "show": "You built a basement",
-     "start": 45.533,
-     "end": 46.472,
+     "start": 39.812,
+     "end": 40.76,
      "words": [
       {
        "text": "You",
-       "start": 45.533,
-       "end": 45.717
+       "start": 39.812,
+       "end": 39.997
       },
       {
        "text": "built",
-       "start": 45.717,
-       "end": 45.982
+       "start": 39.997,
+       "end": 40.265
       },
       {
        "text": "a",
-       "start": 45.982,
-       "end": 46.084
+       "start": 40.265,
+       "end": 40.368
       },
       {
        "text": "basement",
-       "start": 46.084,
-       "end": 46.472
+       "start": 40.368,
+       "end": 40.76
       }
      ]
     },
     {
      "show": "that stays {g:dry}.",
-     "start": 46.532,
-     "end": 47.483,
+     "start": 40.82,
+     "end": 41.43,
      "words": [
       {
        "text": "that",
-       "start": 46.532,
-       "end": 46.849
+       "start": 40.82,
+       "end": 41.023
       },
       {
        "text": "stays",
-       "start": 46.849,
-       "end": 47.224
+       "start": 41.023,
+       "end": 41.264
       },
       {
        "text": "dry.",
-       "start": 47.224,
-       "end": 47.483
+       "start": 41.264,
+       "end": 41.43
       }
      ]
     }
    ],
-   "end": 47.783
+   "start": 38.573,
+   "end": 41.8
   }
  ]
 }
