@@ -1,0 +1,140 @@
+{
+ "title": "How to build a patio that never sinks",
+ "voice": "en-us-ryan-medium",
+ "length_scale": 1.0,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "lines": [
+    {
+     "show": "You want a {g:patio} next to your house."
+    }
+   ]
+  },
+  {
+   "id": "lawn",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you lay {y:pavers} right on the lawn."
+    },
+    {
+     "show": "A few months later, they {r:sink}."
+    }
+   ]
+  },
+  {
+   "id": "dig",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you dig out the {y:topsoil},"
+    },
+    {
+     "show": "about {y:25 centimeters} deep.",
+     "say": "about twenty-five centimeters deep."
+    }
+   ]
+  },
+  {
+   "id": "gravel",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then you add crushed {y:gravel}"
+    },
+    {
+     "show": "and compact it in thin {y:layers}."
+    }
+   ]
+  },
+  {
+   "id": "mud",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the gravel slowly sinks into the {r:mud} below."
+    },
+    {
+     "show": "So you lay down {y:fabric} first."
+    }
+   ]
+  },
+  {
+   "id": "sand",
+   "label": "",
+   "lines": [
+    {
+     "show": "On top, a thin bed of {y:sand},"
+    },
+    {
+     "show": "and then your {y:pavers}."
+    }
+   ]
+  },
+  {
+   "id": "rain",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then it rains."
+    },
+    {
+     "show": "Water pools against the {r:house}."
+    }
+   ]
+  },
+  {
+   "id": "slope",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you give it a {y:slope}:"
+    },
+    {
+     "show": "{y:two centimeters} per meter, away from the house."
+    }
+   ]
+  },
+  {
+   "id": "spread",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the edges start to {r:spread}."
+    },
+    {
+     "show": "So you add an {y:edge} restraint."
+    }
+   ]
+  },
+  {
+   "id": "weeds",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then weeds grow in the {r:joints}."
+    },
+    {
+     "show": "So you sweep in {y:polymeric} sand."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "{y:Congratulations}."
+    },
+    {
+     "show": "You built a patio"
+    },
+    {
+     "show": "that never {g:sinks}."
+    }
+   ]
+  }
+ ]
+}

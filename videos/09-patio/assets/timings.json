@@ -1,0 +1,862 @@
+{
+ "duration": 43.424,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "You want a {g:patio} next to your house.",
+     "start": 0.15,
+     "end": 1.868,
+     "words": [
+      {
+       "text": "You",
+       "start": 0.15,
+       "end": 0.343
+      },
+      {
+       "text": "want",
+       "start": 0.343,
+       "end": 0.58
+      },
+      {
+       "text": "a",
+       "start": 0.58,
+       "end": 0.687
+      },
+      {
+       "text": "patio",
+       "start": 0.687,
+       "end": 0.966
+      },
+      {
+       "text": "next",
+       "start": 0.966,
+       "end": 1.202
+      },
+      {
+       "text": "to",
+       "start": 1.202,
+       "end": 1.353
+      },
+      {
+       "text": "your",
+       "start": 1.353,
+       "end": 1.589
+      },
+      {
+       "text": "house.",
+       "start": 1.589,
+       "end": 1.868
+      }
+     ]
+    }
+   ],
+   "end": 2.168
+  },
+  {
+   "id": "lawn",
+   "label": "",
+   "start": 2.568,
+   "lines": [
+    {
+     "show": "So you lay {y:pavers} right on the lawn.",
+     "start": 2.568,
+     "end": 4.263,
+     "words": [
+      {
+       "text": "So",
+       "start": 2.568,
+       "end": 2.717
+      },
+      {
+       "text": "you",
+       "start": 2.717,
+       "end": 2.907
+      },
+      {
+       "text": "lay",
+       "start": 2.907,
+       "end": 3.098
+      },
+      {
+       "text": "pavers",
+       "start": 3.098,
+       "end": 3.416
+      },
+      {
+       "text": "right",
+       "start": 3.416,
+       "end": 3.691
+      },
+      {
+       "text": "on",
+       "start": 3.691,
+       "end": 3.84
+      },
+      {
+       "text": "the",
+       "start": 3.84,
+       "end": 4.03
+      },
+      {
+       "text": "lawn.",
+       "start": 4.03,
+       "end": 4.263
+      }
+     ]
+    },
+    {
+     "show": "A few months later, they {r:sink}.",
+     "start": 4.563,
+     "end": 6.166,
+     "words": [
+      {
+       "text": "A",
+       "start": 4.563,
+       "end": 4.689
+      },
+      {
+       "text": "few",
+       "start": 4.689,
+       "end": 4.914
+      },
+      {
+       "text": "months",
+       "start": 4.914,
+       "end": 5.289
+      },
+      {
+       "text": "later,",
+       "start": 5.289,
+       "end": 5.615
+      },
+      {
+       "text": "they",
+       "start": 5.615,
+       "end": 5.89
+      },
+      {
+       "text": "sink.",
+       "start": 5.89,
+       "end": 6.166
+      }
+     ]
+    }
+   ],
+   "end": 6.466
+  },
+  {
+   "id": "dig",
+   "label": "",
+   "start": 6.866,
+   "lines": [
+    {
+     "show": "So you dig out the {y:topsoil},",
+     "start": 6.866,
+     "end": 8.224,
+     "words": [
+      {
+       "text": "So",
+       "start": 6.866,
+       "end": 7.024
+      },
+      {
+       "text": "you",
+       "start": 7.024,
+       "end": 7.228
+      },
+      {
+       "text": "dig",
+       "start": 7.228,
+       "end": 7.431
+      },
+      {
+       "text": "out",
+       "start": 7.431,
+       "end": 7.635
+      },
+      {
+       "text": "the",
+       "start": 7.635,
+       "end": 7.839
+      },
+      {
+       "text": "topsoil,",
+       "start": 7.839,
+       "end": 8.224
+      }
+     ]
+    },
+    {
+     "show": "about {y:25 centimeters} deep.",
+     "start": 8.384,
+     "end": 10.046,
+     "words": [
+      {
+       "text": "about",
+       "start": 8.384,
+       "end": 8.77
+      },
+      {
+       "text": "25",
+       "start": 8.77,
+       "end": 8.978
+      },
+      {
+       "text": "centimeters",
+       "start": 8.978,
+       "end": 9.72
+      },
+      {
+       "text": "deep.",
+       "start": 9.72,
+       "end": 10.046
+      }
+     ]
+    }
+   ],
+   "end": 10.346
+  },
+  {
+   "id": "gravel",
+   "label": "",
+   "start": 10.746,
+   "lines": [
+    {
+     "show": "Then you add crushed {y:gravel}",
+     "start": 10.746,
+     "end": 11.989,
+     "words": [
+      {
+       "text": "Then",
+       "start": 10.746,
+       "end": 10.97
+      },
+      {
+       "text": "you",
+       "start": 10.97,
+       "end": 11.154
+      },
+      {
+       "text": "add",
+       "start": 11.154,
+       "end": 11.337
+      },
+      {
+       "text": "crushed",
+       "start": 11.337,
+       "end": 11.683
+      },
+      {
+       "text": "gravel",
+       "start": 11.683,
+       "end": 11.989
+      }
+     ]
+    },
+    {
+     "show": "and compact it in thin {y:layers}.",
+     "start": 12.049,
+     "end": 13.953,
+     "words": [
+      {
+       "text": "and",
+       "start": 12.049,
+       "end": 12.308
+      },
+      {
+       "text": "compact",
+       "start": 12.308,
+       "end": 12.799
+      },
+      {
+       "text": "it",
+       "start": 12.799,
+       "end": 13.001
+      },
+      {
+       "text": "in",
+       "start": 13.001,
+       "end": 13.203
+      },
+      {
+       "text": "thin",
+       "start": 13.203,
+       "end": 13.52
+      },
+      {
+       "text": "layers.",
+       "start": 13.52,
+       "end": 13.953
+      }
+     ]
+    }
+   ],
+   "end": 14.253
+  },
+  {
+   "id": "mud",
+   "label": "",
+   "start": 14.653,
+   "lines": [
+    {
+     "show": "But the gravel slowly sinks into the {r:mud} below.",
+     "start": 14.653,
+     "end": 17.079,
+     "words": [
+      {
+       "text": "But",
+       "start": 14.653,
+       "end": 14.865
+      },
+      {
+       "text": "the",
+       "start": 14.865,
+       "end": 15.077
+      },
+      {
+       "text": "gravel",
+       "start": 15.077,
+       "end": 15.43
+      },
+      {
+       "text": "slowly",
+       "start": 15.43,
+       "end": 15.783
+      },
+      {
+       "text": "sinks",
+       "start": 15.783,
+       "end": 16.09
+      },
+      {
+       "text": "into",
+       "start": 16.09,
+       "end": 16.349
+      },
+      {
+       "text": "the",
+       "start": 16.349,
+       "end": 16.561
+      },
+      {
+       "text": "mud",
+       "start": 16.561,
+       "end": 16.773
+      },
+      {
+       "text": "below.",
+       "start": 16.773,
+       "end": 17.079
+      }
+     ]
+    },
+    {
+     "show": "So you lay down {y:fabric} first.",
+     "start": 17.379,
+     "end": 19.167,
+     "words": [
+      {
+       "text": "So",
+       "start": 17.379,
+       "end": 17.575
+      },
+      {
+       "text": "you",
+       "start": 17.575,
+       "end": 17.826
+      },
+      {
+       "text": "lay",
+       "start": 17.826,
+       "end": 18.077
+      },
+      {
+       "text": "down",
+       "start": 18.077,
+       "end": 18.385
+      },
+      {
+       "text": "fabric",
+       "start": 18.385,
+       "end": 18.804
+      },
+      {
+       "text": "first.",
+       "start": 18.804,
+       "end": 19.167
+      }
+     ]
+    }
+   ],
+   "end": 19.467
+  },
+  {
+   "id": "sand",
+   "label": "",
+   "start": 19.867,
+   "lines": [
+    {
+     "show": "On top, a thin bed of {y:sand},",
+     "start": 19.867,
+     "end": 21.547,
+     "words": [
+      {
+       "text": "On",
+       "start": 19.867,
+       "end": 20.066
+      },
+      {
+       "text": "top,",
+       "start": 20.066,
+       "end": 20.323
+      },
+      {
+       "text": "a",
+       "start": 20.323,
+       "end": 20.465
+      },
+      {
+       "text": "thin",
+       "start": 20.465,
+       "end": 20.778
+      },
+      {
+       "text": "bed",
+       "start": 20.778,
+       "end": 21.034
+      },
+      {
+       "text": "of",
+       "start": 21.034,
+       "end": 21.234
+      },
+      {
+       "text": "sand,",
+       "start": 21.234,
+       "end": 21.547
+      }
+     ]
+    },
+    {
+     "show": "and then your {y:pavers}.",
+     "start": 21.707,
+     "end": 22.671,
+     "words": [
+      {
+       "text": "and",
+       "start": 21.707,
+       "end": 21.895
+      },
+      {
+       "text": "then",
+       "start": 21.895,
+       "end": 22.126
+      },
+      {
+       "text": "your",
+       "start": 22.126,
+       "end": 22.356
+      },
+      {
+       "text": "pavers.",
+       "start": 22.356,
+       "end": 22.671
+      }
+     ]
+    }
+   ],
+   "end": 22.971
+  },
+  {
+   "id": "rain",
+   "label": "",
+   "start": 23.371,
+   "lines": [
+    {
+     "show": "Then it rains.",
+     "start": 23.371,
+     "end": 24.102,
+     "words": [
+      {
+       "text": "Then",
+       "start": 23.371,
+       "end": 23.63
+      },
+      {
+       "text": "it",
+       "start": 23.63,
+       "end": 23.795
+      },
+      {
+       "text": "rains.",
+       "start": 23.795,
+       "end": 24.102
+      }
+     ]
+    },
+    {
+     "show": "Water pools against the {r:house}.",
+     "start": 24.402,
+     "end": 25.923,
+     "words": [
+      {
+       "text": "Water",
+       "start": 24.402,
+       "end": 24.706
+      },
+      {
+       "text": "pools",
+       "start": 24.706,
+       "end": 25.01
+      },
+      {
+       "text": "against",
+       "start": 25.01,
+       "end": 25.408
+      },
+      {
+       "text": "the",
+       "start": 25.408,
+       "end": 25.619
+      },
+      {
+       "text": "house.",
+       "start": 25.619,
+       "end": 25.923
+      }
+     ]
+    }
+   ],
+   "end": 26.223
+  },
+  {
+   "id": "slope",
+   "label": "",
+   "start": 26.623,
+   "lines": [
+    {
+     "show": "So you give it a {y:slope}:",
+     "start": 26.623,
+     "end": 27.709,
+     "words": [
+      {
+       "text": "So",
+       "start": 26.623,
+       "end": 26.769
+      },
+      {
+       "text": "you",
+       "start": 26.769,
+       "end": 26.957
+      },
+      {
+       "text": "give",
+       "start": 26.957,
+       "end": 27.187
+      },
+      {
+       "text": "it",
+       "start": 27.187,
+       "end": 27.333
+      },
+      {
+       "text": "a",
+       "start": 27.333,
+       "end": 27.437
+      },
+      {
+       "text": "slope:",
+       "start": 27.437,
+       "end": 27.709
+      }
+     ]
+    },
+    {
+     "show": "{y:two centimeters} per meter, away from the house.",
+     "start": 27.869,
+     "end": 30.318,
+     "words": [
+      {
+       "text": "two",
+       "start": 27.869,
+       "end": 28.089
+      },
+      {
+       "text": "centimeters",
+       "start": 28.089,
+       "end": 28.702
+      },
+      {
+       "text": "per",
+       "start": 28.702,
+       "end": 28.922
+      },
+      {
+       "text": "meter,",
+       "start": 28.922,
+       "end": 29.241
+      },
+      {
+       "text": "away",
+       "start": 29.241,
+       "end": 29.51
+      },
+      {
+       "text": "from",
+       "start": 29.51,
+       "end": 29.779
+      },
+      {
+       "text": "the",
+       "start": 29.779,
+       "end": 30.0
+      },
+      {
+       "text": "house.",
+       "start": 30.0,
+       "end": 30.318
+      }
+     ]
+    }
+   ],
+   "end": 30.618
+  },
+  {
+   "id": "spread",
+   "label": "",
+   "start": 31.018,
+   "lines": [
+    {
+     "show": "But the edges start to {r:spread}.",
+     "start": 31.018,
+     "end": 32.354,
+     "words": [
+      {
+       "text": "But",
+       "start": 31.018,
+       "end": 31.2
+      },
+      {
+       "text": "the",
+       "start": 31.2,
+       "end": 31.383
+      },
+      {
+       "text": "edges",
+       "start": 31.383,
+       "end": 31.646
+      },
+      {
+       "text": "start",
+       "start": 31.646,
+       "end": 31.908
+      },
+      {
+       "text": "to",
+       "start": 31.908,
+       "end": 32.05
+      },
+      {
+       "text": "spread.",
+       "start": 32.05,
+       "end": 32.354
+      }
+     ]
+    },
+    {
+     "show": "So you add an {y:edge} restraint.",
+     "start": 32.654,
+     "end": 34.058,
+     "words": [
+      {
+       "text": "So",
+       "start": 32.654,
+       "end": 32.807
+      },
+      {
+       "text": "you",
+       "start": 32.807,
+       "end": 33.005
+      },
+      {
+       "text": "add",
+       "start": 33.005,
+       "end": 33.202
+      },
+      {
+       "text": "an",
+       "start": 33.202,
+       "end": 33.356
+      },
+      {
+       "text": "edge",
+       "start": 33.356,
+       "end": 33.597
+      },
+      {
+       "text": "restraint.",
+       "start": 33.597,
+       "end": 34.058
+      }
+     ]
+    }
+   ],
+   "end": 34.358
+  },
+  {
+   "id": "weeds",
+   "label": "",
+   "start": 34.758,
+   "lines": [
+    {
+     "show": "Then weeds grow in the {r:joints}.",
+     "start": 34.758,
+     "end": 36.349,
+     "words": [
+      {
+       "text": "Then",
+       "start": 34.758,
+       "end": 35.023
+      },
+      {
+       "text": "weeds",
+       "start": 35.023,
+       "end": 35.337
+      },
+      {
+       "text": "grow",
+       "start": 35.337,
+       "end": 35.602
+      },
+      {
+       "text": "in",
+       "start": 35.602,
+       "end": 35.771
+      },
+      {
+       "text": "the",
+       "start": 35.771,
+       "end": 35.987
+      },
+      {
+       "text": "joints.",
+       "start": 35.987,
+       "end": 36.349
+      }
+     ]
+    },
+    {
+     "show": "So you sweep in {y:polymeric} sand.",
+     "start": 36.649,
+     "end": 38.414,
+     "words": [
+      {
+       "text": "So",
+       "start": 36.649,
+       "end": 36.831
+      },
+      {
+       "text": "you",
+       "start": 36.831,
+       "end": 37.064
+      },
+      {
+       "text": "sweep",
+       "start": 37.064,
+       "end": 37.402
+      },
+      {
+       "text": "in",
+       "start": 37.402,
+       "end": 37.583
+      },
+      {
+       "text": "polymeric",
+       "start": 37.583,
+       "end": 38.128
+      },
+      {
+       "text": "sand.",
+       "start": 38.128,
+       "end": 38.414
+      }
+     ]
+    }
+   ],
+   "end": 38.714
+  },
+  {
+   "id": "end",
+   "label": "",
+   "start": 39.114,
+   "lines": [
+    {
+     "show": "{y:Congratulations}.",
+     "start": 39.114,
+     "end": 40.17,
+     "words": [
+      {
+       "text": "Congratulations.",
+       "start": 39.114,
+       "end": 40.17
+      }
+     ]
+    },
+    {
+     "show": "You built a patio",
+     "start": 40.47,
+     "end": 41.538,
+     "words": [
+      {
+       "text": "You",
+       "start": 40.47,
+       "end": 40.71
+      },
+      {
+       "text": "built",
+       "start": 40.71,
+       "end": 41.058
+      },
+      {
+       "text": "a",
+       "start": 41.058,
+       "end": 41.191
+      },
+      {
+       "text": "patio",
+       "start": 41.191,
+       "end": 41.538
+      }
+     ]
+    },
+    {
+     "show": "that never {g:sinks}.",
+     "start": 41.598,
+     "end": 42.524,
+     "words": [
+      {
+       "text": "that",
+       "start": 41.598,
+       "end": 41.873
+      },
+      {
+       "text": "never",
+       "start": 41.873,
+       "end": 42.198
+      },
+      {
+       "text": "sinks.",
+       "start": 42.198,
+       "end": 42.524
+      }
+     ]
+    }
+   ],
+   "end": 42.824
+  }
+ ]
+}
