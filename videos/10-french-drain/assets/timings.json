@@ -1,0 +1,814 @@
+{
+ "duration": 38.809,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "You want a {g:dry} yard next to your house.",
+     "start": 0.15,
+     "end": 1.938,
+     "words": [
+      {
+       "text": "You",
+       "start": 0.15,
+       "end": 0.335
+      },
+      {
+       "text": "want",
+       "start": 0.335,
+       "end": 0.561
+      },
+      {
+       "text": "a",
+       "start": 0.561,
+       "end": 0.664
+      },
+      {
+       "text": "dry",
+       "start": 0.664,
+       "end": 0.849
+      },
+      {
+       "text": "yard",
+       "start": 0.849,
+       "end": 1.075
+      },
+      {
+       "text": "next",
+       "start": 1.075,
+       "end": 1.301
+      },
+      {
+       "text": "to",
+       "start": 1.301,
+       "end": 1.445
+      },
+      {
+       "text": "your",
+       "start": 1.445,
+       "end": 1.671
+      },
+      {
+       "text": "house.",
+       "start": 1.671,
+       "end": 1.938
+      }
+     ]
+    }
+   ],
+   "end": 2.238
+  },
+  {
+   "id": "flood",
+   "label": "",
+   "start": 2.638,
+   "lines": [
+    {
+     "show": "But every time it rains,",
+     "start": 2.638,
+     "end": 3.834,
+     "words": [
+      {
+       "text": "But",
+       "start": 2.638,
+       "end": 2.841
+      },
+      {
+       "text": "every",
+       "start": 2.841,
+       "end": 3.134
+      },
+      {
+       "text": "time",
+       "start": 3.134,
+       "end": 3.383
+      },
+      {
+       "text": "it",
+       "start": 3.383,
+       "end": 3.54
+      },
+      {
+       "text": "rains,",
+       "start": 3.54,
+       "end": 3.834
+      }
+     ]
+    },
+    {
+     "show": "water pools right against the {r:wall}.",
+     "start": 3.994,
+     "end": 5.631,
+     "words": [
+      {
+       "text": "water",
+       "start": 3.994,
+       "end": 4.274
+      },
+      {
+       "text": "pools",
+       "start": 4.274,
+       "end": 4.554
+      },
+      {
+       "text": "right",
+       "start": 4.554,
+       "end": 4.834
+      },
+      {
+       "text": "against",
+       "start": 4.834,
+       "end": 5.2
+      },
+      {
+       "text": "the",
+       "start": 5.2,
+       "end": 5.394
+      },
+      {
+       "text": "wall.",
+       "start": 5.394,
+       "end": 5.631
+      }
+     ]
+    }
+   ],
+   "end": 5.931
+  },
+  {
+   "id": "trench",
+   "label": "",
+   "start": 6.331,
+   "lines": [
+    {
+     "show": "So you dig a {y:trench},",
+     "start": 6.331,
+     "end": 7.434,
+     "words": [
+      {
+       "text": "So",
+       "start": 6.331,
+       "end": 6.502
+      },
+      {
+       "text": "you",
+       "start": 6.502,
+       "end": 6.723
+      },
+      {
+       "text": "dig",
+       "start": 6.723,
+       "end": 6.944
+      },
+      {
+       "text": "a",
+       "start": 6.944,
+       "end": 7.066
+      },
+      {
+       "text": "trench,",
+       "start": 7.066,
+       "end": 7.434
+      }
+     ]
+    },
+    {
+     "show": "about {y:half a meter} deep.",
+     "start": 7.594,
+     "end": 8.894,
+     "words": [
+      {
+       "text": "about",
+       "start": 7.594,
+       "end": 7.913
+      },
+      {
+       "text": "half",
+       "start": 7.913,
+       "end": 8.183
+      },
+      {
+       "text": "a",
+       "start": 8.183,
+       "end": 8.305
+      },
+      {
+       "text": "meter",
+       "start": 8.305,
+       "end": 8.624
+      },
+      {
+       "text": "deep.",
+       "start": 8.624,
+       "end": 8.894
+      }
+     ]
+    }
+   ],
+   "end": 9.194
+  },
+  {
+   "id": "gravel",
+   "label": "",
+   "start": 9.594,
+   "lines": [
+    {
+     "show": "You fill it with washed {y:gravel}",
+     "start": 9.594,
+     "end": 11.022,
+     "words": [
+      {
+       "text": "You",
+       "start": 9.594,
+       "end": 9.783
+      },
+      {
+       "text": "fill",
+       "start": 9.783,
+       "end": 10.014
+      },
+      {
+       "text": "it",
+       "start": 10.014,
+       "end": 10.161
+      },
+      {
+       "text": "with",
+       "start": 10.161,
+       "end": 10.392
+      },
+      {
+       "text": "washed",
+       "start": 10.392,
+       "end": 10.707
+      },
+      {
+       "text": "gravel",
+       "start": 10.707,
+       "end": 11.022
+      }
+     ]
+    },
+    {
+     "show": "and lay a {y:perforated} pipe inside.",
+     "start": 11.082,
+     "end": 13.02,
+     "words": [
+      {
+       "text": "and",
+       "start": 11.082,
+       "end": 11.324
+      },
+      {
+       "text": "lay",
+       "start": 11.324,
+       "end": 11.567
+      },
+      {
+       "text": "a",
+       "start": 11.567,
+       "end": 11.701
+      },
+      {
+       "text": "perforated",
+       "start": 11.701,
+       "end": 12.32
+      },
+      {
+       "text": "pipe",
+       "start": 12.32,
+       "end": 12.617
+      },
+      {
+       "text": "inside.",
+       "start": 12.617,
+       "end": 13.02
+      }
+     ]
+    }
+   ],
+   "end": 13.32
+  },
+  {
+   "id": "flat",
+   "label": "",
+   "start": 13.72,
+   "lines": [
+    {
+     "show": "But the water just {r:sits} in the pipe.",
+     "start": 13.72,
+     "end": 15.263,
+     "words": [
+      {
+       "text": "But",
+       "start": 13.72,
+       "end": 13.894
+      },
+      {
+       "text": "the",
+       "start": 13.894,
+       "end": 14.067
+      },
+      {
+       "text": "water",
+       "start": 14.067,
+       "end": 14.318
+      },
+      {
+       "text": "just",
+       "start": 14.318,
+       "end": 14.53
+      },
+      {
+       "text": "sits",
+       "start": 14.53,
+       "end": 14.742
+      },
+      {
+       "text": "in",
+       "start": 14.742,
+       "end": 14.877
+      },
+      {
+       "text": "the",
+       "start": 14.877,
+       "end": 15.051
+      },
+      {
+       "text": "pipe.",
+       "start": 15.051,
+       "end": 15.263
+      }
+     ]
+    },
+    {
+     "show": "So you give it a {y:slope}:",
+     "start": 15.563,
+     "end": 16.712,
+     "words": [
+      {
+       "text": "So",
+       "start": 15.563,
+       "end": 15.717
+      },
+      {
+       "text": "you",
+       "start": 15.717,
+       "end": 15.916
+      },
+      {
+       "text": "give",
+       "start": 15.916,
+       "end": 16.159
+      },
+      {
+       "text": "it",
+       "start": 16.159,
+       "end": 16.314
+      },
+      {
+       "text": "a",
+       "start": 16.314,
+       "end": 16.424
+      },
+      {
+       "text": "slope:",
+       "start": 16.424,
+       "end": 16.712
+      }
+     ]
+    },
+    {
+     "show": "{y:one centimeter} per meter.",
+     "start": 16.872,
+     "end": 18.195,
+     "words": [
+      {
+       "text": "one",
+       "start": 16.872,
+       "end": 17.092
+      },
+      {
+       "text": "centimeter",
+       "start": 17.092,
+       "end": 17.656
+      },
+      {
+       "text": "per",
+       "start": 17.656,
+       "end": 17.877
+      },
+      {
+       "text": "meter.",
+       "start": 17.877,
+       "end": 18.195
+      }
+     ]
+    }
+   ],
+   "end": 18.495
+  },
+  {
+   "id": "holes",
+   "label": "",
+   "start": 18.895,
+   "lines": [
+    {
+     "show": "And you turn the holes {y:down},",
+     "start": 18.895,
+     "end": 20.265,
+     "words": [
+      {
+       "text": "And",
+       "start": 18.895,
+       "end": 19.094
+      },
+      {
+       "text": "you",
+       "start": 19.094,
+       "end": 19.293
+      },
+      {
+       "text": "turn",
+       "start": 19.293,
+       "end": 19.536
+      },
+      {
+       "text": "the",
+       "start": 19.536,
+       "end": 19.735
+      },
+      {
+       "text": "holes",
+       "start": 19.735,
+       "end": 20.022
+      },
+      {
+       "text": "down,",
+       "start": 20.022,
+       "end": 20.265
+      }
+     ]
+    },
+    {
+     "show": "so water rises in from below.",
+     "start": 20.425,
+     "end": 22.26,
+     "words": [
+      {
+       "text": "so",
+       "start": 20.425,
+       "end": 20.626
+      },
+      {
+       "text": "water",
+       "start": 20.626,
+       "end": 20.998
+      },
+      {
+       "text": "rises",
+       "start": 20.998,
+       "end": 21.371
+      },
+      {
+       "text": "in",
+       "start": 21.371,
+       "end": 21.572
+      },
+      {
+       "text": "from",
+       "start": 21.572,
+       "end": 21.887
+      },
+      {
+       "text": "below.",
+       "start": 21.887,
+       "end": 22.26
+      }
+     ]
+    }
+   ],
+   "end": 22.56
+  },
+  {
+   "id": "clog",
+   "label": "",
+   "start": 22.96,
+   "lines": [
+    {
+     "show": "After a year, mud {r:clogs} the gravel.",
+     "start": 22.96,
+     "end": 25.275,
+     "words": [
+      {
+       "text": "After",
+       "start": 22.96,
+       "end": 23.361
+      },
+      {
+       "text": "a",
+       "start": 23.361,
+       "end": 23.515
+      },
+      {
+       "text": "year,",
+       "start": 23.515,
+       "end": 23.855
+      },
+      {
+       "text": "mud",
+       "start": 23.855,
+       "end": 24.133
+      },
+      {
+       "text": "clogs",
+       "start": 24.133,
+       "end": 24.534
+      },
+      {
+       "text": "the",
+       "start": 24.534,
+       "end": 24.812
+      },
+      {
+       "text": "gravel.",
+       "start": 24.812,
+       "end": 25.275
+      }
+     ]
+    },
+    {
+     "show": "So you wrap it all in {y:fabric}.",
+     "start": 25.575,
+     "end": 27.18,
+     "words": [
+      {
+       "text": "So",
+       "start": 25.575,
+       "end": 25.748
+      },
+      {
+       "text": "you",
+       "start": 25.748,
+       "end": 25.97
+      },
+      {
+       "text": "wrap",
+       "start": 25.97,
+       "end": 26.242
+      },
+      {
+       "text": "it",
+       "start": 26.242,
+       "end": 26.414
+      },
+      {
+       "text": "all",
+       "start": 26.414,
+       "end": 26.637
+      },
+      {
+       "text": "in",
+       "start": 26.637,
+       "end": 26.809
+      },
+      {
+       "text": "fabric.",
+       "start": 26.809,
+       "end": 27.18
+      }
+     ]
+    }
+   ],
+   "end": 27.48
+  },
+  {
+   "id": "outlet",
+   "label": "",
+   "start": 27.88,
+   "lines": [
+    {
+     "show": "But where does the water go?",
+     "start": 27.88,
+     "end": 29.171,
+     "words": [
+      {
+       "text": "But",
+       "start": 27.88,
+       "end": 28.067
+      },
+      {
+       "text": "where",
+       "start": 28.067,
+       "end": 28.338
+      },
+      {
+       "text": "does",
+       "start": 28.338,
+       "end": 28.567
+      },
+      {
+       "text": "the",
+       "start": 28.567,
+       "end": 28.755
+      },
+      {
+       "text": "water",
+       "start": 28.755,
+       "end": 29.025
+      },
+      {
+       "text": "go?",
+       "start": 29.025,
+       "end": 29.171
+      }
+     ]
+    },
+    {
+     "show": "Not into your {r:neighbor's} yard.",
+     "start": 29.471,
+     "end": 30.876,
+     "words": [
+      {
+       "text": "Not",
+       "start": 29.471,
+       "end": 29.672
+      },
+      {
+       "text": "into",
+       "start": 29.672,
+       "end": 29.917
+      },
+      {
+       "text": "your",
+       "start": 29.917,
+       "end": 30.162
+      },
+      {
+       "text": "neighbor's",
+       "start": 30.162,
+       "end": 30.63
+      },
+      {
+       "text": "yard.",
+       "start": 30.63,
+       "end": 30.876
+      }
+     ]
+    },
+    {
+     "show": "You lead it to a {y:dry well},",
+     "start": 31.176,
+     "end": 32.371,
+     "words": [
+      {
+       "text": "You",
+       "start": 31.176,
+       "end": 31.358
+      },
+      {
+       "text": "lead",
+       "start": 31.358,
+       "end": 31.581
+      },
+      {
+       "text": "it",
+       "start": 31.581,
+       "end": 31.723
+      },
+      {
+       "text": "to",
+       "start": 31.723,
+       "end": 31.865
+      },
+      {
+       "text": "a",
+       "start": 31.865,
+       "end": 31.966
+      },
+      {
+       "text": "dry",
+       "start": 31.966,
+       "end": 32.148
+      },
+      {
+       "text": "well,",
+       "start": 32.148,
+       "end": 32.371
+      }
+     ]
+    },
+    {
+     "show": "far from the house.",
+     "start": 32.531,
+     "end": 33.588,
+     "words": [
+      {
+       "text": "far",
+       "start": 32.531,
+       "end": 32.758
+      },
+      {
+       "text": "from",
+       "start": 32.758,
+       "end": 33.034
+      },
+      {
+       "text": "the",
+       "start": 33.034,
+       "end": 33.261
+      },
+      {
+       "text": "house.",
+       "start": 33.261,
+       "end": 33.588
+      }
+     ]
+    }
+   ],
+   "end": 33.888
+  },
+  {
+   "id": "end",
+   "label": "",
+   "start": 34.288,
+   "lines": [
+    {
+     "show": "{y:Congratulations}.",
+     "start": 34.288,
+     "end": 35.414,
+     "words": [
+      {
+       "text": "Congratulations.",
+       "start": 34.288,
+       "end": 35.414
+      }
+     ]
+    },
+    {
+     "show": "You built a drain",
+     "start": 35.714,
+     "end": 36.653,
+     "words": [
+      {
+       "text": "You",
+       "start": 35.714,
+       "end": 35.925
+      },
+      {
+       "text": "built",
+       "start": 35.925,
+       "end": 36.23
+      },
+      {
+       "text": "a",
+       "start": 36.23,
+       "end": 36.348
+      },
+      {
+       "text": "drain",
+       "start": 36.348,
+       "end": 36.653
+      }
+     ]
+    },
+    {
+     "show": "that keeps your house {g:dry}.",
+     "start": 36.713,
+     "end": 37.909,
+     "words": [
+      {
+       "text": "that",
+       "start": 36.713,
+       "end": 36.944
+      },
+      {
+       "text": "keeps",
+       "start": 36.944,
+       "end": 37.216
+      },
+      {
+       "text": "your",
+       "start": 37.216,
+       "end": 37.447
+      },
+      {
+       "text": "house",
+       "start": 37.447,
+       "end": 37.72
+      },
+      {
+       "text": "dry.",
+       "start": 37.72,
+       "end": 37.909
+      }
+     ]
+    }
+   ],
+   "end": 38.209
+  }
+ ]
+}

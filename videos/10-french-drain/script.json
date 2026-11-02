@@ -1,0 +1,16 @@
+{
+ "title": "How a French drain keeps water away from your house",
+ "voice": "en-us-ryan-medium",
+ "length_scale": 1.0,
+ "beats": [
+  {"id": "want", "label": "", "lines": [{"show": "You want a {g:dry} yard next to your house."}]},
+  {"id": "flood", "label": "", "lines": [{"show": "But every time it rains,"}, {"show": "water pools right against the {r:wall}."}]},
+  {"id": "trench", "label": "", "lines": [{"show": "So you dig a {y:trench},"}, {"show": "about {y:half a meter} deep."}]},
+  {"id": "gravel", "label": "", "lines": [{"show": "You fill it with washed {y:gravel}"}, {"show": "and lay a {y:perforated} pipe inside."}]},
+  {"id": "flat", "label": "", "lines": [{"show": "But the water just {r:sits} in the pipe."}, {"show": "So you give it a {y:slope}:"}, {"show": "{y:one centimeter} per meter.", "say": "one centimeter per meter."}]},
+  {"id": "holes", "label": "", "lines": [{"show": "And you turn the holes {y:down},"}, {"show": "so water rises in from below."}]},
+  {"id": "clog", "label": "", "lines": [{"show": "After a year, mud {r:clogs} the gravel."}, {"show": "So you wrap it all in {y:fabric}."}]},
+  {"id": "outlet", "label": "", "lines": [{"show": "But where does the water go?"}, {"show": "Not into your {r:neighbor's} yard."}, {"show": "You lead it to a {y:dry well},"}, {"show": "far from the house."}]},
+  {"id": "end", "label": "", "lines": [{"show": "{y:Congratulations}."}, {"show": "You built a drain"}, {"show": "that keeps your house {g:dry}."}]}
+ ]
+}

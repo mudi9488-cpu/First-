@@ -9,7 +9,7 @@ Neue Ideen unten anhängen. Nur hilfreiche/aufklärende Themen mit gesichertem W
 | How to plant a tree so it actually survives | fertig (videos/07-plant-a-tree) |
 | Why your basement gets moldy – and how to stop it | fertig (videos/08-moldy-basement) |
 | How to build a patio that never sinks | fertig (videos/09-patio) |
-| How a French drain keeps water away from your house | offen |
+| How a French drain keeps water away from your house | in Arbeit |
 | How to start a compost pile that doesn't stink | offen |
 | How to lay a lawn from scratch | offen |
 | How to set a fence post that never wobbles | offen |
