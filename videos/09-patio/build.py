@@ -75,7 +75,7 @@ LABELS = [
     ("l-top", "TOPSOIL OUT", "y", 0.3, 0.2, 0.5, K["topsoil"], K["cm"]),
     ("l-25", "25 CM", "y", 0.6, -0.12, 0.5, K["cm"], K["gravel"]),
     ("l-gravel", "CRUSHED GRAVEL", "y", -0.3, -0.17, 0.5, K["gravel_w"], K["layers"]),
-    ("l-layers", "COMPACT EVERY 5 CM", "y", -0.3, 0.25, 0.5, K["layers"] - 0.4, K["mud"]),
+    ("l-layers", "COMPACT EVERY 5 CM", "y", -0.3, 0.25, 0.5, K["compact"], K["mud"] + 0.3),
     ("l-mud", "SINKS INTO MUD!", "r", 0.4, -0.3, 0.5, K["mud_w"] - 0.3, K["fabric"]),
     ("l-fabric", "FABRIC", "y", 0.4, -0.27, 0.5, K["fabric"], K["sand"]),
     ("l-sand", "SAND · 3 CM", "y", 0.3, -0.085, 0.5, K["sand_w"], K["pavers2"]),
