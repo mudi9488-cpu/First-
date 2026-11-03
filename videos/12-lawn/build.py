@@ -68,7 +68,7 @@ LABELS = [
     ("l-lawn", "PERFECT LAWN?", "g", 0.4, 0.8, -0.6, K["lawn_w"], K["throw"]),
     ("l-weeds", "SEED ON WEEDS", "r", 0.4, 0.4, -0.5, K["weeds"] - 0.3, K["nothing"]),
     ("l-nothing", "NOTHING GROWS!", "r", 0.4, 0.4, -0.5, K["nothing"], K["clear"]),
-    ("l-clear", "WEEDS OUT", "y", 0.4, 0.35, -0.3, K["clear_w"], K["cm"]),
+    ("l-clear", "WEEDS OUT", "y", 0.4, 0.35, -0.3, K["clear_w"], K["cm"] - 0.3),
     ("l-cm", "LOOSEN 15 CM", "y", 0.4, -0.08, 0.5, K["cm"] - 0.3, K["bumps"]),
     ("l-bumpy", "PUDDLES!", "r", 0.6, 0.35, -0.5, K["bumpy"] - 0.2, K["rake1"]),
     ("l-level", "RAKE + ROLL", "y", 0.4, 0.4, -0.5, K["rake1"], K["seed"]),
