@@ -1,0 +1,125 @@
+{
+ "title": "How to lay a lawn from scratch",
+ "voice": "en-us-ryan-medium",
+ "length_scale": 1.0,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "lines": [
+    {
+     "show": "You want a thick, green {g:lawn}."
+    }
+   ]
+  },
+  {
+   "id": "throw",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you throw seed on the old {r:weeds}."
+    },
+    {
+     "show": "Nothing grows."
+    }
+   ]
+  },
+  {
+   "id": "clear",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you {y:clear} the weeds"
+    },
+    {
+     "show": "and loosen the soil {y:15 centimeters} deep.",
+     "say": "and loosen the soil fifteen centimeters deep."
+    }
+   ]
+  },
+  {
+   "id": "bumps",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the ground is {r:bumpy}."
+    },
+    {
+     "show": "Water collects in the hollows."
+    },
+    {
+     "show": "So you rake it {y:level} and roll it flat."
+    }
+   ]
+  },
+  {
+   "id": "seed",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then you spread the seed {y:crosswise},"
+    },
+    {
+     "show": "rake it in lightly and roll again."
+    }
+   ]
+  },
+  {
+   "id": "dry",
+   "label": "",
+   "lines": [
+    {
+     "show": "A week later, the seeds {r:dry} out."
+    },
+    {
+     "show": "So you water a little {y:every day}"
+    },
+    {
+     "show": "until the grass is up."
+    }
+   ]
+  },
+  {
+   "id": "walk",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then everyone walks on it too {r:early}."
+    },
+    {
+     "show": "So you rope it off for a few {y:weeks}."
+    }
+   ]
+  },
+  {
+   "id": "mow",
+   "label": "",
+   "lines": [
+    {
+     "show": "When it's {y:ten centimeters} tall,"
+    },
+    {
+     "show": "you mow it for the first time,"
+    },
+    {
+     "show": "but only the top {y:third}."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "{y:Congratulations}."
+    },
+    {
+     "show": "You built a lawn"
+    },
+    {
+     "show": "that stays {g:green} all summer."
+    }
+   ]
+  }
+ ]
+}

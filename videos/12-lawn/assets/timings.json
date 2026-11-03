@@ -1,0 +1,834 @@
+{
+ "duration": 42.472,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "You want a thick, green {g:lawn}.",
+     "start": 0.15,
+     "end": 1.717,
+     "words": [
+      {
+       "text": "You",
+       "start": 0.15,
+       "end": 0.378
+      },
+      {
+       "text": "want",
+       "start": 0.378,
+       "end": 0.656
+      },
+      {
+       "text": "a",
+       "start": 0.656,
+       "end": 0.782
+      },
+      {
+       "text": "thick,",
+       "start": 0.782,
+       "end": 1.111
+      },
+      {
+       "text": "green",
+       "start": 1.111,
+       "end": 1.439
+      },
+      {
+       "text": "lawn.",
+       "start": 1.439,
+       "end": 1.717
+      }
+     ]
+    }
+   ],
+   "end": 2.017
+  },
+  {
+   "id": "throw",
+   "label": "",
+   "start": 2.417,
+   "lines": [
+    {
+     "show": "So you throw seed on the old {r:weeds}.",
+     "start": 2.417,
+     "end": 4.739,
+     "words": [
+      {
+       "text": "So",
+       "start": 2.417,
+       "end": 2.626
+      },
+      {
+       "text": "you",
+       "start": 2.626,
+       "end": 2.894
+      },
+      {
+       "text": "throw",
+       "start": 2.894,
+       "end": 3.281
+      },
+      {
+       "text": "seed",
+       "start": 3.281,
+       "end": 3.608
+      },
+      {
+       "text": "on",
+       "start": 3.608,
+       "end": 3.816
+      },
+      {
+       "text": "the",
+       "start": 3.816,
+       "end": 4.084
+      },
+      {
+       "text": "old",
+       "start": 4.084,
+       "end": 4.352
+      },
+      {
+       "text": "weeds.",
+       "start": 4.352,
+       "end": 4.739
+      }
+     ]
+    },
+    {
+     "show": "Nothing grows.",
+     "start": 5.039,
+     "end": 5.957,
+     "words": [
+      {
+       "text": "Nothing",
+       "start": 5.039,
+       "end": 5.559
+      },
+      {
+       "text": "grows.",
+       "start": 5.559,
+       "end": 5.957
+      }
+     ]
+    }
+   ],
+   "end": 6.257
+  },
+  {
+   "id": "clear",
+   "label": "",
+   "start": 6.657,
+   "lines": [
+    {
+     "show": "So you {y:clear} the weeds",
+     "start": 6.657,
+     "end": 7.931,
+     "words": [
+      {
+       "text": "So",
+       "start": 6.657,
+       "end": 6.831
+      },
+      {
+       "text": "you",
+       "start": 6.831,
+       "end": 7.056
+      },
+      {
+       "text": "clear",
+       "start": 7.056,
+       "end": 7.381
+      },
+      {
+       "text": "the",
+       "start": 7.381,
+       "end": 7.606
+      },
+      {
+       "text": "weeds",
+       "start": 7.606,
+       "end": 7.931
+      }
+     ]
+    },
+    {
+     "show": "and loosen the soil {y:15 centimeters} deep.",
+     "start": 7.991,
+     "end": 10.452,
+     "words": [
+      {
+       "text": "and",
+       "start": 7.991,
+       "end": 8.245
+      },
+      {
+       "text": "loosen",
+       "start": 8.245,
+       "end": 8.67
+      },
+      {
+       "text": "the",
+       "start": 8.67,
+       "end": 8.924
+      },
+      {
+       "text": "soil",
+       "start": 8.924,
+       "end": 9.235
+      },
+      {
+       "text": "15",
+       "start": 9.235,
+       "end": 9.433
+      },
+      {
+       "text": "centimeters",
+       "start": 9.433,
+       "end": 10.141
+      },
+      {
+       "text": "deep.",
+       "start": 10.141,
+       "end": 10.452
+      }
+     ]
+    }
+   ],
+   "end": 10.752
+  },
+  {
+   "id": "bumps",
+   "label": "",
+   "start": 11.152,
+   "lines": [
+    {
+     "show": "But the ground is {r:bumpy}.",
+     "start": 11.152,
+     "end": 12.22,
+     "words": [
+      {
+       "text": "But",
+       "start": 11.152,
+       "end": 11.333
+      },
+      {
+       "text": "the",
+       "start": 11.333,
+       "end": 11.515
+      },
+      {
+       "text": "ground",
+       "start": 11.515,
+       "end": 11.817
+      },
+      {
+       "text": "is",
+       "start": 11.817,
+       "end": 11.958
+      },
+      {
+       "text": "bumpy.",
+       "start": 11.958,
+       "end": 12.22
+      }
+     ]
+    },
+    {
+     "show": "Water collects in the hollows.",
+     "start": 12.52,
+     "end": 14.099,
+     "words": [
+      {
+       "text": "Water",
+       "start": 12.52,
+       "end": 12.836
+      },
+      {
+       "text": "collects",
+       "start": 12.836,
+       "end": 13.297
+      },
+      {
+       "text": "in",
+       "start": 13.297,
+       "end": 13.467
+      },
+      {
+       "text": "the",
+       "start": 13.467,
+       "end": 13.686
+      },
+      {
+       "text": "hollows.",
+       "start": 13.686,
+       "end": 14.099
+      }
+     ]
+    },
+    {
+     "show": "So you rake it {y:level} and roll it flat.",
+     "start": 14.399,
+     "end": 16.558,
+     "words": [
+      {
+       "text": "So",
+       "start": 14.399,
+       "end": 14.577
+      },
+      {
+       "text": "you",
+       "start": 14.577,
+       "end": 14.805
+      },
+      {
+       "text": "rake",
+       "start": 14.805,
+       "end": 15.085
+      },
+      {
+       "text": "it",
+       "start": 15.085,
+       "end": 15.263
+      },
+      {
+       "text": "level",
+       "start": 15.263,
+       "end": 15.593
+      },
+      {
+       "text": "and",
+       "start": 15.593,
+       "end": 15.822
+      },
+      {
+       "text": "roll",
+       "start": 15.822,
+       "end": 16.101
+      },
+      {
+       "text": "it",
+       "start": 16.101,
+       "end": 16.279
+      },
+      {
+       "text": "flat.",
+       "start": 16.279,
+       "end": 16.558
+      }
+     ]
+    }
+   ],
+   "end": 16.858
+  },
+  {
+   "id": "seed",
+   "label": "",
+   "start": 17.258,
+   "lines": [
+    {
+     "show": "Then you spread the seed {y:crosswise},",
+     "start": 17.258,
+     "end": 18.872,
+     "words": [
+      {
+       "text": "Then",
+       "start": 17.258,
+       "end": 17.492
+      },
+      {
+       "text": "you",
+       "start": 17.492,
+       "end": 17.683
+      },
+      {
+       "text": "spread",
+       "start": 17.683,
+       "end": 18.002
+      },
+      {
+       "text": "the",
+       "start": 18.002,
+       "end": 18.193
+      },
+      {
+       "text": "seed",
+       "start": 18.193,
+       "end": 18.426
+      },
+      {
+       "text": "crosswise,",
+       "start": 18.426,
+       "end": 18.872
+      }
+     ]
+    },
+    {
+     "show": "rake it in lightly and roll again.",
+     "start": 19.032,
+     "end": 20.774,
+     "words": [
+      {
+       "text": "rake",
+       "start": 19.032,
+       "end": 19.288
+      },
+      {
+       "text": "it",
+       "start": 19.288,
+       "end": 19.45
+      },
+      {
+       "text": "in",
+       "start": 19.45,
+       "end": 19.613
+      },
+      {
+       "text": "lightly",
+       "start": 19.613,
+       "end": 20.007
+      },
+      {
+       "text": "and",
+       "start": 20.007,
+       "end": 20.216
+      },
+      {
+       "text": "roll",
+       "start": 20.216,
+       "end": 20.472
+      },
+      {
+       "text": "again.",
+       "start": 20.472,
+       "end": 20.774
+      }
+     ]
+    }
+   ],
+   "end": 21.074
+  },
+  {
+   "id": "dry",
+   "label": "",
+   "start": 21.474,
+   "lines": [
+    {
+     "show": "A week later, the seeds {r:dry} out.",
+     "start": 21.474,
+     "end": 23.622,
+     "words": [
+      {
+       "text": "A",
+       "start": 21.474,
+       "end": 21.629
+      },
+      {
+       "text": "week",
+       "start": 21.629,
+       "end": 21.972
+      },
+      {
+       "text": "later,",
+       "start": 21.972,
+       "end": 22.376
+      },
+      {
+       "text": "the",
+       "start": 22.376,
+       "end": 22.657
+      },
+      {
+       "text": "seeds",
+       "start": 22.657,
+       "end": 23.061
+      },
+      {
+       "text": "dry",
+       "start": 23.061,
+       "end": 23.341
+      },
+      {
+       "text": "out.",
+       "start": 23.341,
+       "end": 23.622
+      }
+     ]
+    },
+    {
+     "show": "So you water a little {y:every day}",
+     "start": 23.922,
+     "end": 25.57,
+     "words": [
+      {
+       "text": "So",
+       "start": 23.922,
+       "end": 24.084
+      },
+      {
+       "text": "you",
+       "start": 24.084,
+       "end": 24.293
+      },
+      {
+       "text": "water",
+       "start": 24.293,
+       "end": 24.595
+      },
+      {
+       "text": "a",
+       "start": 24.595,
+       "end": 24.711
+      },
+      {
+       "text": "little",
+       "start": 24.711,
+       "end": 25.059
+      },
+      {
+       "text": "every",
+       "start": 25.059,
+       "end": 25.361
+      },
+      {
+       "text": "day",
+       "start": 25.361,
+       "end": 25.57
+      }
+     ]
+    },
+    {
+     "show": "until the grass is up.",
+     "start": 25.63,
+     "end": 26.857,
+     "words": [
+      {
+       "text": "until",
+       "start": 25.63,
+       "end": 25.956
+      },
+      {
+       "text": "the",
+       "start": 25.956,
+       "end": 26.181
+      },
+      {
+       "text": "grass",
+       "start": 26.181,
+       "end": 26.507
+      },
+      {
+       "text": "is",
+       "start": 26.507,
+       "end": 26.682
+      },
+      {
+       "text": "up.",
+       "start": 26.682,
+       "end": 26.857
+      }
+     ]
+    }
+   ],
+   "end": 27.157
+  },
+  {
+   "id": "walk",
+   "label": "",
+   "start": 27.557,
+   "lines": [
+    {
+     "show": "Then everyone walks on it too {r:early}.",
+     "start": 27.557,
+     "end": 29.461,
+     "words": [
+      {
+       "text": "Then",
+       "start": 27.557,
+       "end": 27.822
+      },
+      {
+       "text": "everyone",
+       "start": 27.822,
+       "end": 28.28
+      },
+      {
+       "text": "walks",
+       "start": 28.28,
+       "end": 28.594
+      },
+      {
+       "text": "on",
+       "start": 28.594,
+       "end": 28.762
+      },
+      {
+       "text": "it",
+       "start": 28.762,
+       "end": 28.931
+      },
+      {
+       "text": "too",
+       "start": 28.931,
+       "end": 29.148
+      },
+      {
+       "text": "early.",
+       "start": 29.148,
+       "end": 29.461
+      }
+     ]
+    },
+    {
+     "show": "So you rope it off for a few {y:weeks}.",
+     "start": 29.761,
+     "end": 31.572,
+     "words": [
+      {
+       "text": "So",
+       "start": 29.761,
+       "end": 29.922
+      },
+      {
+       "text": "you",
+       "start": 29.922,
+       "end": 30.128
+      },
+      {
+       "text": "rope",
+       "start": 30.128,
+       "end": 30.38
+      },
+      {
+       "text": "it",
+       "start": 30.38,
+       "end": 30.541
+      },
+      {
+       "text": "off",
+       "start": 30.541,
+       "end": 30.747
+      },
+      {
+       "text": "for",
+       "start": 30.747,
+       "end": 30.953
+      },
+      {
+       "text": "a",
+       "start": 30.953,
+       "end": 31.068
+      },
+      {
+       "text": "few",
+       "start": 31.068,
+       "end": 31.274
+      },
+      {
+       "text": "weeks.",
+       "start": 31.274,
+       "end": 31.572
+      }
+     ]
+    }
+   ],
+   "end": 31.872
+  },
+  {
+   "id": "mow",
+   "label": "",
+   "start": 32.272,
+   "lines": [
+    {
+     "show": "When it's {y:ten centimeters} tall,",
+     "start": 32.272,
+     "end": 34.002,
+     "words": [
+      {
+       "text": "When",
+       "start": 32.272,
+       "end": 32.565
+      },
+      {
+       "text": "it's",
+       "start": 32.565,
+       "end": 32.805
+      },
+      {
+       "text": "ten",
+       "start": 32.805,
+       "end": 33.044
+      },
+      {
+       "text": "centimeters",
+       "start": 33.044,
+       "end": 33.71
+      },
+      {
+       "text": "tall,",
+       "start": 33.71,
+       "end": 34.002
+      }
+     ]
+    },
+    {
+     "show": "you mow it for the first time,",
+     "start": 34.162,
+     "end": 35.437,
+     "words": [
+      {
+       "text": "you",
+       "start": 34.162,
+       "end": 34.334
+      },
+      {
+       "text": "mow",
+       "start": 34.334,
+       "end": 34.505
+      },
+      {
+       "text": "it",
+       "start": 34.505,
+       "end": 34.638
+      },
+      {
+       "text": "for",
+       "start": 34.638,
+       "end": 34.809
+      },
+      {
+       "text": "the",
+       "start": 34.809,
+       "end": 34.98
+      },
+      {
+       "text": "first",
+       "start": 34.98,
+       "end": 35.228
+      },
+      {
+       "text": "time,",
+       "start": 35.228,
+       "end": 35.437
+      }
+     ]
+    },
+    {
+     "show": "but only the top {y:third}.",
+     "start": 35.597,
+     "end": 37.006,
+     "words": [
+      {
+       "text": "but",
+       "start": 35.597,
+       "end": 35.846
+      },
+      {
+       "text": "only",
+       "start": 35.846,
+       "end": 36.149
+      },
+      {
+       "text": "the",
+       "start": 36.149,
+       "end": 36.398
+      },
+      {
+       "text": "top",
+       "start": 36.398,
+       "end": 36.647
+      },
+      {
+       "text": "third.",
+       "start": 36.647,
+       "end": 37.006
+      }
+     ]
+    }
+   ],
+   "end": 37.306
+  },
+  {
+   "id": "end",
+   "label": "",
+   "start": 37.706,
+   "lines": [
+    {
+     "show": "{y:Congratulations}.",
+     "start": 37.706,
+     "end": 38.82,
+     "words": [
+      {
+       "text": "Congratulations.",
+       "start": 37.706,
+       "end": 38.82
+      }
+     ]
+    },
+    {
+     "show": "You built a lawn",
+     "start": 39.12,
+     "end": 40.142,
+     "words": [
+      {
+       "text": "You",
+       "start": 39.12,
+       "end": 39.362
+      },
+      {
+       "text": "built",
+       "start": 39.362,
+       "end": 39.712
+      },
+      {
+       "text": "a",
+       "start": 39.712,
+       "end": 39.846
+      },
+      {
+       "text": "lawn",
+       "start": 39.846,
+       "end": 40.142
+      }
+     ]
+    },
+    {
+     "show": "that stays {g:green} all summer.",
+     "start": 40.202,
+     "end": 41.572,
+     "words": [
+      {
+       "text": "that",
+       "start": 40.202,
+       "end": 40.449
+      },
+      {
+       "text": "stays",
+       "start": 40.449,
+       "end": 40.741
+      },
+      {
+       "text": "green",
+       "start": 40.741,
+       "end": 41.033
+      },
+      {
+       "text": "all",
+       "start": 41.033,
+       "end": 41.235
+      },
+      {
+       "text": "summer.",
+       "start": 41.235,
+       "end": 41.572
+      }
+     ]
+    }
+   ],
+   "end": 41.872
+  }
+ ]
+}
