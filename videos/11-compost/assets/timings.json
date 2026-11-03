@@ -1,0 +1,822 @@
+{
+ "duration": 43.955,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "You want free {g:fertilizer} for your garden.",
+     "start": 0.15,
+     "end": 2.019,
+     "words": [
+      {
+       "text": "You",
+       "start": 0.15,
+       "end": 0.339
+      },
+      {
+       "text": "want",
+       "start": 0.339,
+       "end": 0.57
+      },
+      {
+       "text": "free",
+       "start": 0.57,
+       "end": 0.801
+      },
+      {
+       "text": "fertilizer",
+       "start": 0.801,
+       "end": 1.284
+      },
+      {
+       "text": "for",
+       "start": 1.284,
+       "end": 1.473
+      },
+      {
+       "text": "your",
+       "start": 1.473,
+       "end": 1.704
+      },
+      {
+       "text": "garden.",
+       "start": 1.704,
+       "end": 2.019
+      }
+     ]
+    }
+   ],
+   "end": 2.319
+  },
+  {
+   "id": "pile",
+   "label": "",
+   "start": 2.719,
+   "lines": [
+    {
+     "show": "So you dump your kitchen {y:scraps} in a pile.",
+     "start": 2.719,
+     "end": 4.739,
+     "words": [
+      {
+       "text": "So",
+       "start": 2.719,
+       "end": 2.871
+      },
+      {
+       "text": "you",
+       "start": 2.871,
+       "end": 3.067
+      },
+      {
+       "text": "dump",
+       "start": 3.067,
+       "end": 3.306
+      },
+      {
+       "text": "your",
+       "start": 3.306,
+       "end": 3.545
+      },
+      {
+       "text": "kitchen",
+       "start": 3.545,
+       "end": 3.914
+      },
+      {
+       "text": "scraps",
+       "start": 3.914,
+       "end": 4.24
+      },
+      {
+       "text": "in",
+       "start": 4.24,
+       "end": 4.392
+      },
+      {
+       "text": "a",
+       "start": 4.392,
+       "end": 4.5
+      },
+      {
+       "text": "pile.",
+       "start": 4.5,
+       "end": 4.739
+      }
+     ]
+    },
+    {
+     "show": "Two weeks later, it {r:stinks}.",
+     "start": 5.039,
+     "end": 6.792,
+     "words": [
+      {
+       "text": "Two",
+       "start": 5.039,
+       "end": 5.316
+      },
+      {
+       "text": "weeks",
+       "start": 5.316,
+       "end": 5.716
+      },
+      {
+       "text": "later,",
+       "start": 5.716,
+       "end": 6.116
+      },
+      {
+       "text": "it",
+       "start": 6.116,
+       "end": 6.331
+      },
+      {
+       "text": "stinks.",
+       "start": 6.331,
+       "end": 6.792
+      }
+     ]
+    }
+   ],
+   "end": 7.092
+  },
+  {
+   "id": "browns",
+   "label": "",
+   "start": 7.492,
+   "lines": [
+    {
+     "show": "Too many wet {r:greens}, not enough air.",
+     "start": 7.492,
+     "end": 9.478,
+     "words": [
+      {
+       "text": "Too",
+       "start": 7.492,
+       "end": 7.724
+      },
+      {
+       "text": "many",
+       "start": 7.724,
+       "end": 8.008
+      },
+      {
+       "text": "wet",
+       "start": 8.008,
+       "end": 8.24
+      },
+      {
+       "text": "greens,",
+       "start": 8.24,
+       "end": 8.627
+      },
+      {
+       "text": "not",
+       "start": 8.627,
+       "end": 8.859
+      },
+      {
+       "text": "enough",
+       "start": 8.859,
+       "end": 9.246
+      },
+      {
+       "text": "air.",
+       "start": 9.246,
+       "end": 9.478
+      }
+     ]
+    },
+    {
+     "show": "So you add {y:browns}:",
+     "start": 9.778,
+     "end": 11.008,
+     "words": [
+      {
+       "text": "So",
+       "start": 9.778,
+       "end": 9.993
+      },
+      {
+       "text": "you",
+       "start": 9.993,
+       "end": 10.27
+      },
+      {
+       "text": "add",
+       "start": 10.27,
+       "end": 10.547
+      },
+      {
+       "text": "browns:",
+       "start": 10.547,
+       "end": 11.008
+      }
+     ]
+    },
+    {
+     "show": "dry leaves, cardboard, straw.",
+     "start": 11.168,
+     "end": 13.281,
+     "words": [
+      {
+       "text": "dry",
+       "start": 11.168,
+       "end": 11.496
+      },
+      {
+       "text": "leaves,",
+       "start": 11.496,
+       "end": 12.043
+      },
+      {
+       "text": "cardboard,",
+       "start": 12.043,
+       "end": 12.808
+      },
+      {
+       "text": "straw.",
+       "start": 12.808,
+       "end": 13.281
+      }
+     ]
+    },
+    {
+     "show": "About {y:two parts} brown to one part green.",
+     "start": 13.581,
+     "end": 15.865,
+     "words": [
+      {
+       "text": "About",
+       "start": 13.581,
+       "end": 13.919
+      },
+      {
+       "text": "two",
+       "start": 13.919,
+       "end": 14.152
+      },
+      {
+       "text": "parts",
+       "start": 14.152,
+       "end": 14.49
+      },
+      {
+       "text": "brown",
+       "start": 14.49,
+       "end": 14.827
+      },
+      {
+       "text": "to",
+       "start": 14.827,
+       "end": 15.009
+      },
+      {
+       "text": "one",
+       "start": 15.009,
+       "end": 15.242
+      },
+      {
+       "text": "part",
+       "start": 15.242,
+       "end": 15.528
+      },
+      {
+       "text": "green.",
+       "start": 15.528,
+       "end": 15.865
+      }
+     ]
+    }
+   ],
+   "end": 16.165
+  },
+  {
+   "id": "rats",
+   "label": "",
+   "start": 16.565,
+   "lines": [
+    {
+     "show": "Then {r:rats} show up.",
+     "start": 16.565,
+     "end": 17.478,
+     "words": [
+      {
+       "text": "Then",
+       "start": 16.565,
+       "end": 16.816
+      },
+      {
+       "text": "rats",
+       "start": 16.816,
+       "end": 17.067
+      },
+      {
+       "text": "show",
+       "start": 17.067,
+       "end": 17.318
+      },
+      {
+       "text": "up.",
+       "start": 17.318,
+       "end": 17.478
+      }
+     ]
+    },
+    {
+     "show": "So no {y:meat}, no dairy, no oil.",
+     "start": 17.778,
+     "end": 19.787,
+     "words": [
+      {
+       "text": "So",
+       "start": 17.778,
+       "end": 18.008
+      },
+      {
+       "text": "no",
+       "start": 18.008,
+       "end": 18.239
+      },
+      {
+       "text": "meat,",
+       "start": 18.239,
+       "end": 18.601
+      },
+      {
+       "text": "no",
+       "start": 18.601,
+       "end": 18.832
+      },
+      {
+       "text": "dairy,",
+       "start": 18.832,
+       "end": 19.26
+      },
+      {
+       "text": "no",
+       "start": 19.26,
+       "end": 19.491
+      },
+      {
+       "text": "oil.",
+       "start": 19.491,
+       "end": 19.787
+      }
+     ]
+    }
+   ],
+   "end": 20.087
+  },
+  {
+   "id": "turn",
+   "label": "",
+   "start": 20.487,
+   "lines": [
+    {
+     "show": "The middle gets {r:soggy} and sour.",
+     "start": 20.487,
+     "end": 22.322,
+     "words": [
+      {
+       "text": "The",
+       "start": 20.487,
+       "end": 20.73
+      },
+      {
+       "text": "middle",
+       "start": 20.73,
+       "end": 21.135
+      },
+      {
+       "text": "gets",
+       "start": 21.135,
+       "end": 21.431
+      },
+      {
+       "text": "soggy",
+       "start": 21.431,
+       "end": 21.782
+      },
+      {
+       "text": "and",
+       "start": 21.782,
+       "end": 22.025
+      },
+      {
+       "text": "sour.",
+       "start": 22.025,
+       "end": 22.322
+      }
+     ]
+    },
+    {
+     "show": "So you {y:turn} it every week.",
+     "start": 22.622,
+     "end": 23.764,
+     "words": [
+      {
+       "text": "So",
+       "start": 22.622,
+       "end": 22.759
+      },
+      {
+       "text": "you",
+       "start": 22.759,
+       "end": 22.937
+      },
+      {
+       "text": "turn",
+       "start": 22.937,
+       "end": 23.153
+      },
+      {
+       "text": "it",
+       "start": 23.153,
+       "end": 23.291
+      },
+      {
+       "text": "every",
+       "start": 23.291,
+       "end": 23.547
+      },
+      {
+       "text": "week.",
+       "start": 23.547,
+       "end": 23.764
+      }
+     ]
+    }
+   ],
+   "end": 24.064
+  },
+  {
+   "id": "dry",
+   "label": "",
+   "start": 24.464,
+   "lines": [
+    {
+     "show": "In summer, it dries out and {r:stops}.",
+     "start": 24.464,
+     "end": 26.774,
+     "words": [
+      {
+       "text": "In",
+       "start": 24.464,
+       "end": 24.686
+      },
+      {
+       "text": "summer,",
+       "start": 24.686,
+       "end": 25.16
+      },
+      {
+       "text": "it",
+       "start": 25.16,
+       "end": 25.382
+      },
+      {
+       "text": "dries",
+       "start": 25.382,
+       "end": 25.793
+      },
+      {
+       "text": "out",
+       "start": 25.793,
+       "end": 26.078
+      },
+      {
+       "text": "and",
+       "start": 26.078,
+       "end": 26.363
+      },
+      {
+       "text": "stops.",
+       "start": 26.363,
+       "end": 26.774
+      }
+     ]
+    },
+    {
+     "show": "So you keep it damp, like a wrung-out {y:sponge}.",
+     "start": 27.074,
+     "end": 29.629,
+     "words": [
+      {
+       "text": "So",
+       "start": 27.074,
+       "end": 27.263
+      },
+      {
+       "text": "you",
+       "start": 27.263,
+       "end": 27.505
+      },
+      {
+       "text": "keep",
+       "start": 27.505,
+       "end": 27.8
+      },
+      {
+       "text": "it",
+       "start": 27.8,
+       "end": 27.989
+      },
+      {
+       "text": "damp,",
+       "start": 27.989,
+       "end": 28.284
+      },
+      {
+       "text": "like",
+       "start": 28.284,
+       "end": 28.58
+      },
+      {
+       "text": "a",
+       "start": 28.58,
+       "end": 28.714
+      },
+      {
+       "text": "wrung-out",
+       "start": 28.714,
+       "end": 29.225
+      },
+      {
+       "text": "sponge.",
+       "start": 29.225,
+       "end": 29.629
+      }
+     ]
+    }
+   ],
+   "end": 29.929
+  },
+  {
+   "id": "soil",
+   "label": "",
+   "start": 30.329,
+   "lines": [
+    {
+     "show": "And you build it on bare {y:soil},",
+     "start": 30.329,
+     "end": 31.706,
+     "words": [
+      {
+       "text": "And",
+       "start": 30.329,
+       "end": 30.514
+      },
+      {
+       "text": "you",
+       "start": 30.514,
+       "end": 30.699
+      },
+      {
+       "text": "build",
+       "start": 30.699,
+       "end": 30.966
+      },
+      {
+       "text": "it",
+       "start": 30.966,
+       "end": 31.11
+      },
+      {
+       "text": "on",
+       "start": 31.11,
+       "end": 31.254
+      },
+      {
+       "text": "bare",
+       "start": 31.254,
+       "end": 31.48
+      },
+      {
+       "text": "soil,",
+       "start": 31.48,
+       "end": 31.706
+      }
+     ]
+    },
+    {
+     "show": "so {g:worms} can move in.",
+     "start": 31.866,
+     "end": 33.108,
+     "words": [
+      {
+       "text": "so",
+       "start": 31.866,
+       "end": 32.051
+      },
+      {
+       "text": "worms",
+       "start": 32.051,
+       "end": 32.395
+      },
+      {
+       "text": "can",
+       "start": 32.395,
+       "end": 32.633
+      },
+      {
+       "text": "move",
+       "start": 32.633,
+       "end": 32.923
+      },
+      {
+       "text": "in.",
+       "start": 32.923,
+       "end": 33.108
+      }
+     ]
+    }
+   ],
+   "end": 33.408
+  },
+  {
+   "id": "done",
+   "label": "",
+   "start": 33.808,
+   "lines": [
+    {
+     "show": "A few months later, it's dark and {g:crumbly}",
+     "start": 33.808,
+     "end": 36.142,
+     "words": [
+      {
+       "text": "A",
+       "start": 33.808,
+       "end": 33.941
+      },
+      {
+       "text": "few",
+       "start": 33.941,
+       "end": 34.18
+      },
+      {
+       "text": "months",
+       "start": 34.18,
+       "end": 34.577
+      },
+      {
+       "text": "later,",
+       "start": 34.577,
+       "end": 34.922
+      },
+      {
+       "text": "it's",
+       "start": 34.922,
+       "end": 35.161
+      },
+      {
+       "text": "dark",
+       "start": 35.161,
+       "end": 35.452
+      },
+      {
+       "text": "and",
+       "start": 35.452,
+       "end": 35.691
+      },
+      {
+       "text": "crumbly",
+       "start": 35.691,
+       "end": 36.142
+      }
+     ]
+    },
+    {
+     "show": "and smells like a forest floor.",
+     "start": 36.202,
+     "end": 37.955,
+     "words": [
+      {
+       "text": "and",
+       "start": 36.202,
+       "end": 36.434
+      },
+      {
+       "text": "smells",
+       "start": 36.434,
+       "end": 36.821
+      },
+      {
+       "text": "like",
+       "start": 36.821,
+       "end": 37.104
+      },
+      {
+       "text": "a",
+       "start": 37.104,
+       "end": 37.233
+      },
+      {
+       "text": "forest",
+       "start": 37.233,
+       "end": 37.62
+      },
+      {
+       "text": "floor.",
+       "start": 37.62,
+       "end": 37.955
+      }
+     ]
+    }
+   ],
+   "end": 38.255
+  },
+  {
+   "id": "end",
+   "label": "",
+   "start": 38.655,
+   "lines": [
+    {
+     "show": "{y:Congratulations}.",
+     "start": 38.655,
+     "end": 39.781,
+     "words": [
+      {
+       "text": "Congratulations.",
+       "start": 38.655,
+       "end": 39.781
+      }
+     ]
+    },
+    {
+     "show": "You built a compost pile",
+     "start": 40.081,
+     "end": 41.486,
+     "words": [
+      {
+       "text": "You",
+       "start": 40.081,
+       "end": 40.311
+      },
+      {
+       "text": "built",
+       "start": 40.311,
+       "end": 40.643
+      },
+      {
+       "text": "a",
+       "start": 40.643,
+       "end": 40.771
+      },
+      {
+       "text": "compost",
+       "start": 40.771,
+       "end": 41.205
+      },
+      {
+       "text": "pile",
+       "start": 41.205,
+       "end": 41.486
+      }
+     ]
+    },
+    {
+     "show": "that feeds your garden for {g:free}.",
+     "start": 41.546,
+     "end": 43.055,
+     "words": [
+      {
+       "text": "that",
+       "start": 41.546,
+       "end": 41.783
+      },
+      {
+       "text": "feeds",
+       "start": 41.783,
+       "end": 42.063
+      },
+      {
+       "text": "your",
+       "start": 42.063,
+       "end": 42.301
+      },
+      {
+       "text": "garden",
+       "start": 42.301,
+       "end": 42.624
+      },
+      {
+       "text": "for",
+       "start": 42.624,
+       "end": 42.818
+      },
+      {
+       "text": "free.",
+       "start": 42.818,
+       "end": 43.055
+      }
+     ]
+    }
+   ],
+   "end": 43.355
+  }
+ ]
+}

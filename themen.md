@@ -10,7 +10,7 @@ Neue Ideen unten anhängen. Nur hilfreiche/aufklärende Themen mit gesichertem W
 | Why your basement gets moldy – and how to stop it | fertig (videos/08-moldy-basement) |
 | How to build a patio that never sinks | fertig (videos/09-patio) |
 | How a French drain keeps water away from your house | fertig (videos/10-french-drain) |
-| How to start a compost pile that doesn't stink | offen |
+| How to start a compost pile that doesn't stink | in Arbeit |
 | How to lay a lawn from scratch | offen |
 | How to set a fence post that never wobbles | offen |
 | How to insulate an attic the right way | offen |

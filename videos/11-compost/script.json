@@ -1,0 +1,16 @@
+{
+ "title": "How to start a compost pile that doesn't stink",
+ "voice": "en-us-ryan-medium",
+ "length_scale": 1.0,
+ "beats": [
+  {"id": "want", "label": "", "lines": [{"show": "You want free {g:fertilizer} for your garden."}]},
+  {"id": "pile", "label": "", "lines": [{"show": "So you dump your kitchen {y:scraps} in a pile."}, {"show": "Two weeks later, it {r:stinks}."}]},
+  {"id": "browns", "label": "", "lines": [{"show": "Too many wet {r:greens}, not enough air."}, {"show": "So you add {y:browns}:"}, {"show": "dry leaves, cardboard, straw."}, {"show": "About {y:two parts} brown to one part green."}]},
+  {"id": "rats", "label": "", "lines": [{"show": "Then {r:rats} show up."}, {"show": "So no {y:meat}, no dairy, no oil."}]},
+  {"id": "turn", "label": "", "lines": [{"show": "The middle gets {r:soggy} and sour."}, {"show": "So you {y:turn} it every week."}]},
+  {"id": "dry", "label": "", "lines": [{"show": "In summer, it dries out and {r:stops}."}, {"show": "So you keep it damp, like a wrung-out {y:sponge}."}]},
+  {"id": "soil", "label": "", "lines": [{"show": "And you build it on bare {y:soil},"}, {"show": "so {g:worms} can move in."}]},
+  {"id": "done", "label": "", "lines": [{"show": "A few months later, it's dark and {g:crumbly}"}, {"show": "and smells like a forest floor."}]},
+  {"id": "end", "label": "", "lines": [{"show": "{y:Congratulations}."}, {"show": "You built a compost pile"}, {"show": "that feeds your garden for {g:free}."}]}
+ ]
+}
