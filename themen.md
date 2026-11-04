@@ -13,7 +13,7 @@ Neue Ideen unten anhängen. Nur hilfreiche/aufklärende Themen mit gesichertem W
 | How to start a compost pile that doesn't stink | fertig (videos/11-compost) |
 | How to lay a lawn from scratch | fertig (videos/12-lawn) |
 | How to set a fence post that never wobbles | fertig (videos/13-fence-post) |
-| How to insulate an attic the right way | in Arbeit |
+| How to insulate an attic the right way | fertig (videos/14-attic) |
 | How to build a pond that stays clear | offen |
 | How to fix a wall that keeps cracking | offen |
 | How to water your garden without wasting water | offen |
