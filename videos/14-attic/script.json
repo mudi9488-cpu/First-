@@ -1,0 +1,125 @@
+{
+ "title": "How to insulate an attic the right way",
+ "voice": "en-us-ryan-medium",
+ "length_scale": 1.0,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "lines": [
+    {
+     "show": "You want a {g:warm} house in winter."
+    }
+   ]
+  },
+  {
+   "id": "loss",
+   "label": "",
+   "lines": [
+    {
+     "show": "But up to a {r:quarter} of your heat"
+    },
+    {
+     "show": "escapes through the roof."
+    }
+   ]
+  },
+  {
+   "id": "lay",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you lay {y:insulation} between the beams,"
+    },
+    {
+     "show": "at least {y:20 centimeters} thick.",
+     "say": "at least twenty centimeters thick."
+    }
+   ]
+  },
+  {
+   "id": "beams",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the wooden beams still {r:leak} heat."
+    },
+    {
+     "show": "So you add a second layer {y:crosswise} on top."
+    }
+   ]
+  },
+  {
+   "id": "moist",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then moist air from inside"
+    },
+    {
+     "show": "creeps into the insulation and makes it {r:wet}."
+    },
+    {
+     "show": "So you add a {y:vapor barrier}"
+    },
+    {
+     "show": "on the warm side, underneath."
+    }
+   ]
+  },
+  {
+   "id": "vents",
+   "label": "",
+   "lines": [
+    {
+     "show": "But you stuffed the {r:vents} at the edges."
+    },
+    {
+     "show": "So you keep an {y:air gap}"
+    },
+    {
+     "show": "under the roof, so it can breathe."
+    }
+   ]
+  },
+  {
+   "id": "squash",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then you store boxes on it and {r:squash} it flat."
+    },
+    {
+     "show": "So you build a {y:raised} walkway above it."
+    }
+   ]
+  },
+  {
+   "id": "hatch",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last, the attic {r:hatch} lets heat out."
+    },
+    {
+     "show": "So you insulate and {y:seal} it too."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "{y:Congratulations}."
+    },
+    {
+     "show": "You built an attic"
+    },
+    {
+     "show": "that keeps the heat {g:inside}."
+    }
+   ]
+  }
+ ]
+}

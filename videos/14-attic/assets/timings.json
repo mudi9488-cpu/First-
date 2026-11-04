@@ -1,0 +1,894 @@
+{
+ "duration": 43.887,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "You want a {g:warm} house in winter.",
+     "start": 0.15,
+     "end": 1.769,
+     "words": [
+      {
+       "text": "You",
+       "start": 0.15,
+       "end": 0.355
+      },
+      {
+       "text": "want",
+       "start": 0.355,
+       "end": 0.606
+      },
+      {
+       "text": "a",
+       "start": 0.606,
+       "end": 0.72
+      },
+      {
+       "text": "warm",
+       "start": 0.72,
+       "end": 0.971
+      },
+      {
+       "text": "house",
+       "start": 0.971,
+       "end": 1.267
+      },
+      {
+       "text": "in",
+       "start": 1.267,
+       "end": 1.427
+      },
+      {
+       "text": "winter.",
+       "start": 1.427,
+       "end": 1.769
+      }
+     ]
+    }
+   ],
+   "end": 2.069
+  },
+  {
+   "id": "loss",
+   "label": "",
+   "start": 2.469,
+   "lines": [
+    {
+     "show": "But up to a {r:quarter} of your heat",
+     "start": 2.469,
+     "end": 3.816,
+     "words": [
+      {
+       "text": "But",
+       "start": 2.469,
+       "end": 2.633
+      },
+      {
+       "text": "up",
+       "start": 2.633,
+       "end": 2.76
+      },
+      {
+       "text": "to",
+       "start": 2.76,
+       "end": 2.888
+      },
+      {
+       "text": "a",
+       "start": 2.888,
+       "end": 2.979
+      },
+      {
+       "text": "quarter",
+       "start": 2.979,
+       "end": 3.288
+      },
+      {
+       "text": "of",
+       "start": 3.288,
+       "end": 3.415
+      },
+      {
+       "text": "your",
+       "start": 3.415,
+       "end": 3.616
+      },
+      {
+       "text": "heat",
+       "start": 3.616,
+       "end": 3.816
+      }
+     ]
+    },
+    {
+     "show": "escapes through the roof.",
+     "start": 3.876,
+     "end": 5.002,
+     "words": [
+      {
+       "text": "escapes",
+       "start": 3.876,
+       "end": 4.23
+      },
+      {
+       "text": "through",
+       "start": 4.23,
+       "end": 4.585
+      },
+      {
+       "text": "the",
+       "start": 4.585,
+       "end": 4.773
+      },
+      {
+       "text": "roof.",
+       "start": 4.773,
+       "end": 5.002
+      }
+     ]
+    }
+   ],
+   "end": 5.302
+  },
+  {
+   "id": "lay",
+   "label": "",
+   "start": 5.702,
+   "lines": [
+    {
+     "show": "So you lay {y:insulation} between the beams,",
+     "start": 5.702,
+     "end": 7.838,
+     "words": [
+      {
+       "text": "So",
+       "start": 5.702,
+       "end": 5.874
+      },
+      {
+       "text": "you",
+       "start": 5.874,
+       "end": 6.095
+      },
+      {
+       "text": "lay",
+       "start": 6.095,
+       "end": 6.316
+      },
+      {
+       "text": "insulation",
+       "start": 6.316,
+       "end": 6.881
+      },
+      {
+       "text": "between",
+       "start": 6.881,
+       "end": 7.298
+      },
+      {
+       "text": "the",
+       "start": 7.298,
+       "end": 7.519
+      },
+      {
+       "text": "beams,",
+       "start": 7.519,
+       "end": 7.838
+      }
+     ]
+    },
+    {
+     "show": "at least {y:20 centimeters} thick.",
+     "start": 7.998,
+     "end": 9.612,
+     "words": [
+      {
+       "text": "at",
+       "start": 7.998,
+       "end": 8.172
+      },
+      {
+       "text": "least",
+       "start": 8.172,
+       "end": 8.495
+      },
+      {
+       "text": "20",
+       "start": 8.495,
+       "end": 8.669
+      },
+      {
+       "text": "centimeters",
+       "start": 8.669,
+       "end": 9.289
+      },
+      {
+       "text": "thick.",
+       "start": 9.289,
+       "end": 9.612
+      }
+     ]
+    }
+   ],
+   "end": 9.912
+  },
+  {
+   "id": "beams",
+   "label": "",
+   "start": 10.312,
+   "lines": [
+    {
+     "show": "But the wooden beams still {r:leak} heat.",
+     "start": 10.312,
+     "end": 11.984,
+     "words": [
+      {
+       "text": "But",
+       "start": 10.312,
+       "end": 10.498
+      },
+      {
+       "text": "the",
+       "start": 10.498,
+       "end": 10.684
+      },
+      {
+       "text": "wooden",
+       "start": 10.684,
+       "end": 10.993
+      },
+      {
+       "text": "beams",
+       "start": 10.993,
+       "end": 11.261
+      },
+      {
+       "text": "still",
+       "start": 11.261,
+       "end": 11.53
+      },
+      {
+       "text": "leak",
+       "start": 11.53,
+       "end": 11.757
+      },
+      {
+       "text": "heat.",
+       "start": 11.757,
+       "end": 11.984
+      }
+     ]
+    },
+    {
+     "show": "So you add a second layer {y:crosswise} on top.",
+     "start": 12.284,
+     "end": 14.717,
+     "words": [
+      {
+       "text": "So",
+       "start": 12.284,
+       "end": 12.463
+      },
+      {
+       "text": "you",
+       "start": 12.463,
+       "end": 12.694
+      },
+      {
+       "text": "add",
+       "start": 12.694,
+       "end": 12.924
+      },
+      {
+       "text": "a",
+       "start": 12.924,
+       "end": 13.052
+      },
+      {
+       "text": "second",
+       "start": 13.052,
+       "end": 13.436
+      },
+      {
+       "text": "layer",
+       "start": 13.436,
+       "end": 13.769
+      },
+      {
+       "text": "crosswise",
+       "start": 13.769,
+       "end": 14.307
+      },
+      {
+       "text": "on",
+       "start": 14.307,
+       "end": 14.487
+      },
+      {
+       "text": "top.",
+       "start": 14.487,
+       "end": 14.717
+      }
+     ]
+    }
+   ],
+   "end": 15.017
+  },
+  {
+   "id": "moist",
+   "label": "",
+   "start": 15.417,
+   "lines": [
+    {
+     "show": "Then moist air from inside",
+     "start": 15.417,
+     "end": 17.042,
+     "words": [
+      {
+       "text": "Then",
+       "start": 15.417,
+       "end": 15.72
+      },
+      {
+       "text": "moist",
+       "start": 15.72,
+       "end": 16.078
+      },
+      {
+       "text": "air",
+       "start": 16.078,
+       "end": 16.326
+      },
+      {
+       "text": "from",
+       "start": 16.326,
+       "end": 16.629
+      },
+      {
+       "text": "inside",
+       "start": 16.629,
+       "end": 17.042
+      }
+     ]
+    },
+    {
+     "show": "creeps into the insulation and makes it {r:wet}.",
+     "start": 17.102,
+     "end": 19.483,
+     "words": [
+      {
+       "text": "creeps",
+       "start": 17.102,
+       "end": 17.474
+      },
+      {
+       "text": "into",
+       "start": 17.474,
+       "end": 17.747
+      },
+      {
+       "text": "the",
+       "start": 17.747,
+       "end": 17.97
+      },
+      {
+       "text": "insulation",
+       "start": 17.97,
+       "end": 18.54
+      },
+      {
+       "text": "and",
+       "start": 18.54,
+       "end": 18.764
+      },
+      {
+       "text": "makes",
+       "start": 18.764,
+       "end": 19.086
+      },
+      {
+       "text": "it",
+       "start": 19.086,
+       "end": 19.259
+      },
+      {
+       "text": "wet.",
+       "start": 19.259,
+       "end": 19.483
+      }
+     ]
+    },
+    {
+     "show": "So you add a {y:vapor barrier}",
+     "start": 19.783,
+     "end": 21.06,
+     "words": [
+      {
+       "text": "So",
+       "start": 19.783,
+       "end": 19.932
+      },
+      {
+       "text": "you",
+       "start": 19.932,
+       "end": 20.123
+      },
+      {
+       "text": "add",
+       "start": 20.123,
+       "end": 20.315
+      },
+      {
+       "text": "a",
+       "start": 20.315,
+       "end": 20.421
+      },
+      {
+       "text": "vapor",
+       "start": 20.421,
+       "end": 20.698
+      },
+      {
+       "text": "barrier",
+       "start": 20.698,
+       "end": 21.06
+      }
+     ]
+    },
+    {
+     "show": "on the warm side, underneath.",
+     "start": 21.12,
+     "end": 22.763,
+     "words": [
+      {
+       "text": "on",
+       "start": 21.12,
+       "end": 21.308
+      },
+      {
+       "text": "the",
+       "start": 21.308,
+       "end": 21.551
+      },
+      {
+       "text": "warm",
+       "start": 21.551,
+       "end": 21.847
+      },
+      {
+       "text": "side,",
+       "start": 21.847,
+       "end": 22.143
+      },
+      {
+       "text": "underneath.",
+       "start": 22.143,
+       "end": 22.763
+      }
+     ]
+    }
+   ],
+   "end": 23.063
+  },
+  {
+   "id": "vents",
+   "label": "",
+   "start": 23.463,
+   "lines": [
+    {
+     "show": "But you stuffed the {r:vents} at the edges.",
+     "start": 23.463,
+     "end": 25.053,
+     "words": [
+      {
+       "text": "But",
+       "start": 23.463,
+       "end": 23.629
+      },
+      {
+       "text": "you",
+       "start": 23.629,
+       "end": 23.796
+      },
+      {
+       "text": "stuffed",
+       "start": 23.796,
+       "end": 24.11
+      },
+      {
+       "text": "the",
+       "start": 24.11,
+       "end": 24.277
+      },
+      {
+       "text": "vents",
+       "start": 24.277,
+       "end": 24.517
+      },
+      {
+       "text": "at",
+       "start": 24.517,
+       "end": 24.647
+      },
+      {
+       "text": "the",
+       "start": 24.647,
+       "end": 24.813
+      },
+      {
+       "text": "edges.",
+       "start": 24.813,
+       "end": 25.053
+      }
+     ]
+    },
+    {
+     "show": "So you keep an {y:air gap}",
+     "start": 25.353,
+     "end": 26.527,
+     "words": [
+      {
+       "text": "So",
+       "start": 25.353,
+       "end": 25.511
+      },
+      {
+       "text": "you",
+       "start": 25.511,
+       "end": 25.714
+      },
+      {
+       "text": "keep",
+       "start": 25.714,
+       "end": 25.963
+      },
+      {
+       "text": "an",
+       "start": 25.963,
+       "end": 26.12
+      },
+      {
+       "text": "air",
+       "start": 26.12,
+       "end": 26.324
+      },
+      {
+       "text": "gap",
+       "start": 26.324,
+       "end": 26.527
+      }
+     ]
+    },
+    {
+     "show": "under the roof, so it can breathe.",
+     "start": 26.587,
+     "end": 28.29,
+     "words": [
+      {
+       "text": "under",
+       "start": 26.587,
+       "end": 26.89
+      },
+      {
+       "text": "the",
+       "start": 26.89,
+       "end": 27.1
+      },
+      {
+       "text": "roof,",
+       "start": 27.1,
+       "end": 27.357
+      },
+      {
+       "text": "so",
+       "start": 27.357,
+       "end": 27.52
+      },
+      {
+       "text": "it",
+       "start": 27.52,
+       "end": 27.683
+      },
+      {
+       "text": "can",
+       "start": 27.683,
+       "end": 27.893
+      },
+      {
+       "text": "breathe.",
+       "start": 27.893,
+       "end": 28.29
+      }
+     ]
+    }
+   ],
+   "end": 28.59
+  },
+  {
+   "id": "squash",
+   "label": "",
+   "start": 28.99,
+   "lines": [
+    {
+     "show": "Then you store boxes on it and {r:squash} it flat.",
+     "start": 28.99,
+     "end": 31.37,
+     "words": [
+      {
+       "text": "Then",
+       "start": 28.99,
+       "end": 29.247
+      },
+      {
+       "text": "you",
+       "start": 29.247,
+       "end": 29.457
+      },
+      {
+       "text": "store",
+       "start": 29.457,
+       "end": 29.76
+      },
+      {
+       "text": "boxes",
+       "start": 29.76,
+       "end": 30.064
+      },
+      {
+       "text": "on",
+       "start": 30.064,
+       "end": 30.227
+      },
+      {
+       "text": "it",
+       "start": 30.227,
+       "end": 30.39
+      },
+      {
+       "text": "and",
+       "start": 30.39,
+       "end": 30.6
+      },
+      {
+       "text": "squash",
+       "start": 30.6,
+       "end": 30.95
+      },
+      {
+       "text": "it",
+       "start": 30.95,
+       "end": 31.114
+      },
+      {
+       "text": "flat.",
+       "start": 31.114,
+       "end": 31.37
+      }
+     ]
+    },
+    {
+     "show": "So you build a {y:raised} walkway above it.",
+     "start": 31.67,
+     "end": 33.617,
+     "words": [
+      {
+       "text": "So",
+       "start": 31.67,
+       "end": 31.829
+      },
+      {
+       "text": "you",
+       "start": 31.829,
+       "end": 32.032
+      },
+      {
+       "text": "build",
+       "start": 32.032,
+       "end": 32.327
+      },
+      {
+       "text": "a",
+       "start": 32.327,
+       "end": 32.44
+      },
+      {
+       "text": "raised",
+       "start": 32.44,
+       "end": 32.779
+      },
+      {
+       "text": "walkway",
+       "start": 32.779,
+       "end": 33.164
+      },
+      {
+       "text": "above",
+       "start": 33.164,
+       "end": 33.458
+      },
+      {
+       "text": "it.",
+       "start": 33.458,
+       "end": 33.617
+      }
+     ]
+    }
+   ],
+   "end": 33.917
+  },
+  {
+   "id": "hatch",
+   "label": "",
+   "start": 34.317,
+   "lines": [
+    {
+     "show": "Last, the attic {r:hatch} lets heat out.",
+     "start": 34.317,
+     "end": 36.325,
+     "words": [
+      {
+       "text": "Last,",
+       "start": 34.317,
+       "end": 34.603
+      },
+      {
+       "text": "the",
+       "start": 34.603,
+       "end": 34.838
+      },
+      {
+       "text": "attic",
+       "start": 34.838,
+       "end": 35.177
+      },
+      {
+       "text": "hatch",
+       "start": 35.177,
+       "end": 35.516
+      },
+      {
+       "text": "lets",
+       "start": 35.516,
+       "end": 35.803
+      },
+      {
+       "text": "heat",
+       "start": 35.803,
+       "end": 36.09
+      },
+      {
+       "text": "out.",
+       "start": 36.09,
+       "end": 36.325
+      }
+     ]
+    },
+    {
+     "show": "So you insulate and {y:seal} it too.",
+     "start": 36.625,
+     "end": 38.413,
+     "words": [
+      {
+       "text": "So",
+       "start": 36.625,
+       "end": 36.801
+      },
+      {
+       "text": "you",
+       "start": 36.801,
+       "end": 37.028
+      },
+      {
+       "text": "insulate",
+       "start": 37.028,
+       "end": 37.506
+      },
+      {
+       "text": "and",
+       "start": 37.506,
+       "end": 37.733
+      },
+      {
+       "text": "seal",
+       "start": 37.733,
+       "end": 38.01
+      },
+      {
+       "text": "it",
+       "start": 38.01,
+       "end": 38.186
+      },
+      {
+       "text": "too.",
+       "start": 38.186,
+       "end": 38.413
+      }
+     ]
+    }
+   ],
+   "end": 38.713
+  },
+  {
+   "id": "end",
+   "label": "",
+   "start": 39.113,
+   "lines": [
+    {
+     "show": "{y:Congratulations}.",
+     "start": 39.113,
+     "end": 40.251,
+     "words": [
+      {
+       "text": "Congratulations.",
+       "start": 39.113,
+       "end": 40.251
+      }
+     ]
+    },
+    {
+     "show": "You built an attic",
+     "start": 40.551,
+     "end": 41.511,
+     "words": [
+      {
+       "text": "You",
+       "start": 40.551,
+       "end": 40.756
+      },
+      {
+       "text": "built",
+       "start": 40.756,
+       "end": 41.054
+      },
+      {
+       "text": "an",
+       "start": 41.054,
+       "end": 41.214
+      },
+      {
+       "text": "attic",
+       "start": 41.214,
+       "end": 41.511
+      }
+     ]
+    },
+    {
+     "show": "that keeps the heat {g:inside}.",
+     "start": 41.571,
+     "end": 42.987,
+     "words": [
+      {
+       "text": "that",
+       "start": 41.571,
+       "end": 41.835
+      },
+      {
+       "text": "keeps",
+       "start": 41.835,
+       "end": 42.147
+      },
+      {
+       "text": "the",
+       "start": 42.147,
+       "end": 42.363
+      },
+      {
+       "text": "heat",
+       "start": 42.363,
+       "end": 42.627
+      },
+      {
+       "text": "inside.",
+       "start": 42.627,
+       "end": 42.987
+      }
+     ]
+    }
+   ],
+   "end": 43.287
+  }
+ ]
+}
