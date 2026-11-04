@@ -1,0 +1,130 @@
+{
+ "title": "How to set a fence post that never wobbles",
+ "voice": "en-us-ryan-medium",
+ "length_scale": 1.0,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "lines": [
+    {
+     "show": "You want a {g:fence} that stands straight."
+    }
+   ]
+  },
+  {
+   "id": "shallow",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you push the post into a {r:shallow} hole."
+    },
+    {
+     "show": "One storm, and it {r:leans}."
+    }
+   ]
+  },
+  {
+   "id": "deep",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you dig {y:deeper}:"
+    },
+    {
+     "show": "a {y:third} of the post goes underground."
+    }
+   ]
+  },
+  {
+   "id": "wide",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the hole is too {r:narrow}."
+    },
+    {
+     "show": "So you make it {y:three times} as wide as the post."
+    }
+   ]
+  },
+  {
+   "id": "rot",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the wet soil makes the bottom {r:rot}."
+    },
+    {
+     "show": "So you put {y:gravel} in the hole first,"
+    },
+    {
+     "show": "so water can drain away."
+    }
+   ]
+  },
+  {
+   "id": "concrete",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then you fill it with {y:concrete}."
+    }
+   ]
+  },
+  {
+   "id": "crooked",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the post sets {r:crooked}."
+    },
+    {
+     "show": "So you check it with a {y:level}"
+    },
+    {
+     "show": "and brace it until it's hard."
+    }
+   ]
+  },
+  {
+   "id": "crown",
+   "label": "",
+   "lines": [
+    {
+     "show": "Rain collects around the {r:post}."
+    },
+    {
+     "show": "So you slope the concrete top {y:away} from the wood."
+    }
+   ]
+  },
+  {
+   "id": "wind",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the {r:wind} pushes on the whole fence."
+    },
+    {
+     "show": "So you set a post about every {y:two meters}."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "{y:Congratulations}."
+    },
+    {
+     "show": "You built a fence"
+    },
+    {
+     "show": "that stands for {g:decades}."
+    }
+   ]
+  }
+ ]
+}

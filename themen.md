@@ -12,7 +12,7 @@ Neue Ideen unten anhängen. Nur hilfreiche/aufklärende Themen mit gesichertem W
 | How a French drain keeps water away from your house | fertig (videos/10-french-drain) |
 | How to start a compost pile that doesn't stink | fertig (videos/11-compost) |
 | How to lay a lawn from scratch | fertig (videos/12-lawn) |
-| How to set a fence post that never wobbles | offen |
+| How to set a fence post that never wobbles | in Arbeit |
 | How to insulate an attic the right way | offen |
 | How to build a pond that stays clear | offen |
 | How to fix a wall that keeps cracking | offen |
