@@ -1,0 +1,131 @@
+{
+ "title": "How to build a pond that stays clear",
+ "voice": "en-us-ryan-medium",
+ "length_scale": 1.0,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "lines": [
+    {
+     "show": "You want a {g:clear} pond in your garden."
+    }
+   ]
+  },
+  {
+   "id": "dig",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you dig a shallow hole"
+    },
+    {
+     "show": "and lay a {y:liner} in it."
+    }
+   ]
+  },
+  {
+   "id": "stone",
+   "label": "",
+   "lines": [
+    {
+     "show": "But a sharp stone pokes a {r:hole} in it."
+    },
+    {
+     "show": "So you lay {y:sand} and fleece underneath first."
+    }
+   ]
+  },
+  {
+   "id": "green",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then summer comes, and the water turns {r:green}."
+    },
+    {
+     "show": "Too shallow, too warm."
+    }
+   ]
+  },
+  {
+   "id": "deep",
+   "label": "",
+   "lines": [
+    {
+     "show": "So you dig a deep zone,"
+    },
+    {
+     "show": "at least {y:80 centimeters}.",
+     "say": "at least eighty centimeters."
+    }
+   ]
+  },
+  {
+   "id": "soil",
+   "label": "",
+   "lines": [
+    {
+     "show": "But you planted in garden {r:soil}."
+    },
+    {
+     "show": "It feeds the algae."
+    },
+    {
+     "show": "So you plant in plain {y:gravel} instead."
+    }
+   ]
+  },
+  {
+   "id": "plants",
+   "label": "",
+   "lines": [
+    {
+     "show": "And you add lots of {y:plants}"
+    },
+    {
+     "show": "to cover about a third of the surface."
+    }
+   ]
+  },
+  {
+   "id": "rain",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then rain washes {r:fertilizer} in from the lawn."
+    },
+    {
+     "show": "So you raise the {y:edge} above the ground."
+    }
+   ]
+  },
+  {
+   "id": "leaves",
+   "label": "",
+   "lines": [
+    {
+     "show": "In autumn, falling {r:leaves} rot on the bottom."
+    },
+    {
+     "show": "So you stretch a {y:net} over it."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "{y:Congratulations}."
+    },
+    {
+     "show": "You built a pond"
+    },
+    {
+     "show": "that stays {g:crystal clear}."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,882 @@
+{
+ "duration": 43.364,
+ "beats": [
+  {
+   "id": "want",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "You want a {g:clear} pond in your garden.",
+     "start": 0.15,
+     "end": 1.887,
+     "words": [
+      {
+       "text": "You",
+       "start": 0.15,
+       "end": 0.341
+      },
+      {
+       "text": "want",
+       "start": 0.341,
+       "end": 0.574
+      },
+      {
+       "text": "a",
+       "start": 0.574,
+       "end": 0.68
+      },
+      {
+       "text": "clear",
+       "start": 0.68,
+       "end": 0.955
+      },
+      {
+       "text": "pond",
+       "start": 0.955,
+       "end": 1.188
+      },
+      {
+       "text": "in",
+       "start": 1.188,
+       "end": 1.336
+      },
+      {
+       "text": "your",
+       "start": 1.336,
+       "end": 1.57
+      },
+      {
+       "text": "garden.",
+       "start": 1.57,
+       "end": 1.887
+      }
+     ]
+    }
+   ],
+   "end": 2.187
+  },
+  {
+   "id": "dig",
+   "label": "",
+   "start": 2.587,
+   "lines": [
+    {
+     "show": "So you dig a shallow hole",
+     "start": 2.587,
+     "end": 4.027,
+     "words": [
+      {
+       "text": "So",
+       "start": 2.587,
+       "end": 2.761
+      },
+      {
+       "text": "you",
+       "start": 2.761,
+       "end": 2.984
+      },
+      {
+       "text": "dig",
+       "start": 2.984,
+       "end": 3.208
+      },
+      {
+       "text": "a",
+       "start": 3.208,
+       "end": 3.332
+      },
+      {
+       "text": "shallow",
+       "start": 3.332,
+       "end": 3.754
+      },
+      {
+       "text": "hole",
+       "start": 3.754,
+       "end": 4.027
+      }
+     ]
+    },
+    {
+     "show": "and lay a {y:liner} in it.",
+     "start": 4.087,
+     "end": 5.283,
+     "words": [
+      {
+       "text": "and",
+       "start": 4.087,
+       "end": 4.302
+      },
+      {
+       "text": "lay",
+       "start": 4.302,
+       "end": 4.517
+      },
+      {
+       "text": "a",
+       "start": 4.517,
+       "end": 4.637
+      },
+      {
+       "text": "liner",
+       "start": 4.637,
+       "end": 4.948
+      },
+      {
+       "text": "in",
+       "start": 4.948,
+       "end": 5.115
+      },
+      {
+       "text": "it.",
+       "start": 5.115,
+       "end": 5.283
+      }
+     ]
+    }
+   ],
+   "end": 5.583
+  },
+  {
+   "id": "stone",
+   "label": "",
+   "start": 5.983,
+   "lines": [
+    {
+     "show": "But a sharp stone pokes a {r:hole} in it.",
+     "start": 5.983,
+     "end": 7.771,
+     "words": [
+      {
+       "text": "But",
+       "start": 5.983,
+       "end": 6.177
+      },
+      {
+       "text": "a",
+       "start": 6.177,
+       "end": 6.284
+      },
+      {
+       "text": "sharp",
+       "start": 6.284,
+       "end": 6.564
+      },
+      {
+       "text": "stone",
+       "start": 6.564,
+       "end": 6.844
+      },
+      {
+       "text": "pokes",
+       "start": 6.844,
+       "end": 7.124
+      },
+      {
+       "text": "a",
+       "start": 7.124,
+       "end": 7.232
+      },
+      {
+       "text": "hole",
+       "start": 7.232,
+       "end": 7.469
+      },
+      {
+       "text": "in",
+       "start": 7.469,
+       "end": 7.62
+      },
+      {
+       "text": "it.",
+       "start": 7.62,
+       "end": 7.771
+      }
+     ]
+    },
+    {
+     "show": "So you lay {y:sand} and fleece underneath first.",
+     "start": 8.071,
+     "end": 10.37,
+     "words": [
+      {
+       "text": "So",
+       "start": 8.071,
+       "end": 8.238
+      },
+      {
+       "text": "you",
+       "start": 8.238,
+       "end": 8.454
+      },
+      {
+       "text": "lay",
+       "start": 8.454,
+       "end": 8.669
+      },
+      {
+       "text": "sand",
+       "start": 8.669,
+       "end": 8.933
+      },
+      {
+       "text": "and",
+       "start": 8.933,
+       "end": 9.148
+      },
+      {
+       "text": "fleece",
+       "start": 9.148,
+       "end": 9.507
+      },
+      {
+       "text": "underneath",
+       "start": 9.507,
+       "end": 10.058
+      },
+      {
+       "text": "first.",
+       "start": 10.058,
+       "end": 10.37
+      }
+     ]
+    }
+   ],
+   "end": 10.67
+  },
+  {
+   "id": "green",
+   "label": "",
+   "start": 11.07,
+   "lines": [
+    {
+     "show": "Then summer comes, and the water turns {r:green}.",
+     "start": 11.07,
+     "end": 13.4,
+     "words": [
+      {
+       "text": "Then",
+       "start": 11.07,
+       "end": 11.337
+      },
+      {
+       "text": "summer",
+       "start": 11.337,
+       "end": 11.701
+      },
+      {
+       "text": "comes,",
+       "start": 11.701,
+       "end": 12.016
+      },
+      {
+       "text": "and",
+       "start": 12.016,
+       "end": 12.235
+      },
+      {
+       "text": "the",
+       "start": 12.235,
+       "end": 12.453
+      },
+      {
+       "text": "water",
+       "start": 12.453,
+       "end": 12.769
+      },
+      {
+       "text": "turns",
+       "start": 12.769,
+       "end": 13.084
+      },
+      {
+       "text": "green.",
+       "start": 13.084,
+       "end": 13.4
+      }
+     ]
+    },
+    {
+     "show": "Too shallow, too warm.",
+     "start": 13.7,
+     "end": 14.965,
+     "words": [
+      {
+       "text": "Too",
+       "start": 13.7,
+       "end": 13.948
+      },
+      {
+       "text": "shallow,",
+       "start": 13.948,
+       "end": 14.415
+      },
+      {
+       "text": "too",
+       "start": 14.415,
+       "end": 14.663
+      },
+      {
+       "text": "warm.",
+       "start": 14.663,
+       "end": 14.965
+      }
+     ]
+    }
+   ],
+   "end": 15.265
+  },
+  {
+   "id": "deep",
+   "label": "",
+   "start": 15.665,
+   "lines": [
+    {
+     "show": "So you dig a deep zone,",
+     "start": 15.665,
+     "end": 16.989,
+     "words": [
+      {
+       "text": "So",
+       "start": 15.665,
+       "end": 15.844
+      },
+      {
+       "text": "you",
+       "start": 15.844,
+       "end": 16.073
+      },
+      {
+       "text": "dig",
+       "start": 16.073,
+       "end": 16.302
+      },
+      {
+       "text": "a",
+       "start": 16.302,
+       "end": 16.429
+      },
+      {
+       "text": "deep",
+       "start": 16.429,
+       "end": 16.709
+      },
+      {
+       "text": "zone,",
+       "start": 16.709,
+       "end": 16.989
+      }
+     ]
+    },
+    {
+     "show": "at least {y:80 centimeters}.",
+     "start": 17.149,
+     "end": 18.681,
+     "words": [
+      {
+       "text": "at",
+       "start": 17.149,
+       "end": 17.355
+      },
+      {
+       "text": "least",
+       "start": 17.355,
+       "end": 17.738
+      },
+      {
+       "text": "80",
+       "start": 17.738,
+       "end": 17.945
+      },
+      {
+       "text": "centimeters.",
+       "start": 17.945,
+       "end": 18.681
+      }
+     ]
+    }
+   ],
+   "end": 18.981
+  },
+  {
+   "id": "soil",
+   "label": "",
+   "start": 19.381,
+   "lines": [
+    {
+     "show": "But you planted in garden {r:soil}.",
+     "start": 19.381,
+     "end": 20.901,
+     "words": [
+      {
+       "text": "But",
+       "start": 19.381,
+       "end": 19.583
+      },
+      {
+       "text": "you",
+       "start": 19.583,
+       "end": 19.784
+      },
+      {
+       "text": "planted",
+       "start": 19.784,
+       "end": 20.163
+      },
+      {
+       "text": "in",
+       "start": 20.163,
+       "end": 20.32
+      },
+      {
+       "text": "garden",
+       "start": 20.32,
+       "end": 20.655
+      },
+      {
+       "text": "soil.",
+       "start": 20.655,
+       "end": 20.901
+      }
+     ]
+    },
+    {
+     "show": "It feeds the algae.",
+     "start": 21.201,
+     "end": 22.327,
+     "words": [
+      {
+       "text": "It",
+       "start": 21.201,
+       "end": 21.388
+      },
+      {
+       "text": "feeds",
+       "start": 21.388,
+       "end": 21.737
+      },
+      {
+       "text": "the",
+       "start": 21.737,
+       "end": 21.978
+      },
+      {
+       "text": "algae.",
+       "start": 21.978,
+       "end": 22.327
+      }
+     ]
+    },
+    {
+     "show": "So you plant in plain {y:gravel} instead.",
+     "start": 22.627,
+     "end": 24.728,
+     "words": [
+      {
+       "text": "So",
+       "start": 22.627,
+       "end": 22.808
+      },
+      {
+       "text": "you",
+       "start": 22.808,
+       "end": 23.042
+      },
+      {
+       "text": "plant",
+       "start": 23.042,
+       "end": 23.379
+      },
+      {
+       "text": "in",
+       "start": 23.379,
+       "end": 23.561
+      },
+      {
+       "text": "plain",
+       "start": 23.561,
+       "end": 23.898
+      },
+      {
+       "text": "gravel",
+       "start": 23.898,
+       "end": 24.287
+      },
+      {
+       "text": "instead.",
+       "start": 24.287,
+       "end": 24.728
+      }
+     ]
+    }
+   ],
+   "end": 25.028
+  },
+  {
+   "id": "plants",
+   "label": "",
+   "start": 25.428,
+   "lines": [
+    {
+     "show": "And you add lots of {y:plants}",
+     "start": 25.428,
+     "end": 26.682,
+     "words": [
+      {
+       "text": "And",
+       "start": 25.428,
+       "end": 25.616
+      },
+      {
+       "text": "you",
+       "start": 25.616,
+       "end": 25.804
+      },
+      {
+       "text": "add",
+       "start": 25.804,
+       "end": 25.992
+      },
+      {
+       "text": "lots",
+       "start": 25.992,
+       "end": 26.222
+      },
+      {
+       "text": "of",
+       "start": 26.222,
+       "end": 26.369
+      },
+      {
+       "text": "plants",
+       "start": 26.369,
+       "end": 26.682
+      }
+     ]
+    },
+    {
+     "show": "to cover about a third of the surface.",
+     "start": 26.742,
+     "end": 28.565,
+     "words": [
+      {
+       "text": "to",
+       "start": 26.742,
+       "end": 26.894
+      },
+      {
+       "text": "cover",
+       "start": 26.894,
+       "end": 27.176
+      },
+      {
+       "text": "about",
+       "start": 27.176,
+       "end": 27.458
+      },
+      {
+       "text": "a",
+       "start": 27.458,
+       "end": 27.567
+      },
+      {
+       "text": "third",
+       "start": 27.567,
+       "end": 27.849
+      },
+      {
+       "text": "of",
+       "start": 27.849,
+       "end": 28.001
+      },
+      {
+       "text": "the",
+       "start": 28.001,
+       "end": 28.196
+      },
+      {
+       "text": "surface.",
+       "start": 28.196,
+       "end": 28.565
+      }
+     ]
+    }
+   ],
+   "end": 28.865
+  },
+  {
+   "id": "rain",
+   "label": "",
+   "start": 29.265,
+   "lines": [
+    {
+     "show": "Then rain washes {r:fertilizer} in from the lawn.",
+     "start": 29.265,
+     "end": 31.736,
+     "words": [
+      {
+       "text": "Then",
+       "start": 29.265,
+       "end": 29.542
+      },
+      {
+       "text": "rain",
+       "start": 29.542,
+       "end": 29.82
+      },
+      {
+       "text": "washes",
+       "start": 29.82,
+       "end": 30.198
+      },
+      {
+       "text": "fertilizer",
+       "start": 30.198,
+       "end": 30.778
+      },
+      {
+       "text": "in",
+       "start": 30.778,
+       "end": 30.954
+      },
+      {
+       "text": "from",
+       "start": 30.954,
+       "end": 31.232
+      },
+      {
+       "text": "the",
+       "start": 31.232,
+       "end": 31.459
+      },
+      {
+       "text": "lawn.",
+       "start": 31.459,
+       "end": 31.736
+      }
+     ]
+    },
+    {
+     "show": "So you raise the {y:edge} above the ground.",
+     "start": 32.036,
+     "end": 33.627,
+     "words": [
+      {
+       "text": "So",
+       "start": 32.036,
+       "end": 32.165
+      },
+      {
+       "text": "you",
+       "start": 32.165,
+       "end": 32.332
+      },
+      {
+       "text": "raise",
+       "start": 32.332,
+       "end": 32.572
+      },
+      {
+       "text": "the",
+       "start": 32.572,
+       "end": 32.739
+      },
+      {
+       "text": "edge",
+       "start": 32.739,
+       "end": 32.942
+      },
+      {
+       "text": "above",
+       "start": 32.942,
+       "end": 33.183
+      },
+      {
+       "text": "the",
+       "start": 33.183,
+       "end": 33.349
+      },
+      {
+       "text": "ground.",
+       "start": 33.349,
+       "end": 33.627
+      }
+     ]
+    }
+   ],
+   "end": 33.927
+  },
+  {
+   "id": "leaves",
+   "label": "",
+   "start": 34.327,
+   "lines": [
+    {
+     "show": "In autumn, falling {r:leaves} rot on the bottom.",
+     "start": 34.327,
+     "end": 36.509,
+     "words": [
+      {
+       "text": "In",
+       "start": 34.327,
+       "end": 34.489
+      },
+      {
+       "text": "autumn,",
+       "start": 34.489,
+       "end": 34.837
+      },
+      {
+       "text": "falling",
+       "start": 34.837,
+       "end": 35.232
+      },
+      {
+       "text": "leaves",
+       "start": 35.232,
+       "end": 35.58
+      },
+      {
+       "text": "rot",
+       "start": 35.58,
+       "end": 35.789
+      },
+      {
+       "text": "on",
+       "start": 35.789,
+       "end": 35.952
+      },
+      {
+       "text": "the",
+       "start": 35.952,
+       "end": 36.161
+      },
+      {
+       "text": "bottom.",
+       "start": 36.161,
+       "end": 36.509
+      }
+     ]
+    },
+    {
+     "show": "So you stretch a {y:net} over it.",
+     "start": 36.809,
+     "end": 38.284,
+     "words": [
+      {
+       "text": "So",
+       "start": 36.809,
+       "end": 36.968
+      },
+      {
+       "text": "you",
+       "start": 36.968,
+       "end": 37.172
+      },
+      {
+       "text": "stretch",
+       "start": 37.172,
+       "end": 37.558
+      },
+      {
+       "text": "a",
+       "start": 37.558,
+       "end": 37.671
+      },
+      {
+       "text": "net",
+       "start": 37.671,
+       "end": 37.875
+      },
+      {
+       "text": "over",
+       "start": 37.875,
+       "end": 38.125
+      },
+      {
+       "text": "it.",
+       "start": 38.125,
+       "end": 38.284
+      }
+     ]
+    }
+   ],
+   "end": 38.584
+  },
+  {
+   "id": "end",
+   "label": "",
+   "start": 38.984,
+   "lines": [
+    {
+     "show": "{y:Congratulations}.",
+     "start": 38.984,
+     "end": 40.063,
+     "words": [
+      {
+       "text": "Congratulations.",
+       "start": 38.984,
+       "end": 40.063
+      }
+     ]
+    },
+    {
+     "show": "You built a pond",
+     "start": 40.363,
+     "end": 41.185,
+     "words": [
+      {
+       "text": "You",
+       "start": 40.363,
+       "end": 40.558
+      },
+      {
+       "text": "built",
+       "start": 40.558,
+       "end": 40.839
+      },
+      {
+       "text": "a",
+       "start": 40.839,
+       "end": 40.947
+      },
+      {
+       "text": "pond",
+       "start": 40.947,
+       "end": 41.185
+      }
+     ]
+    },
+    {
+     "show": "that stays {g:crystal clear}.",
+     "start": 41.245,
+     "end": 42.464,
+     "words": [
+      {
+       "text": "that",
+       "start": 41.245,
+       "end": 41.493
+      },
+      {
+       "text": "stays",
+       "start": 41.493,
+       "end": 41.787
+      },
+      {
+       "text": "crystal",
+       "start": 41.787,
+       "end": 42.17
+      },
+      {
+       "text": "clear.",
+       "start": 42.17,
+       "end": 42.464
+      }
+     ]
+    }
+   ],
+   "end": 42.764
+  }
+ ]
+}
