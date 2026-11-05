@@ -14,7 +14,7 @@ Neue Ideen unten anhängen. Nur hilfreiche/aufklärende Themen mit gesichertem W
 | How to lay a lawn from scratch | fertig (videos/12-lawn) |
 | How to set a fence post that never wobbles | fertig (videos/13-fence-post) |
 | How to insulate an attic the right way | fertig (videos/14-attic) |
-| How to build a pond that stays clear | in Arbeit |
+| How to build a pond that stays clear | fertig (videos/15-pond) |
 | How to fix a wall that keeps cracking | offen |
 | How to water your garden without wasting water | offen |
 | How the Romans built the Colosseum | offen |
