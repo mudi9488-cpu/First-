@@ -61,7 +61,14 @@ Projektordner: `videos/<nr>-<slug>/` (vorhandenes Video `videos/01-niemand-arbei
 6. `render -o renders/<slug>.mp4`, Lautheit prüfen (`ffmpeg … ebur128`, Ziel −16 bis −14 LUFS).
 7. Committen und dem Creator das MP4 schicken.
 
-## Aktuelle Nische (seit Okt. 2026): hilfreiche 3D-Bauanleitungen / Aufklärung
+## Neueste Nische (seit Nov. 2026): Blocky-3D-Storytime „In dieser Stadt …“
+
+Der Creator hat drei neue Referenzen geliefert (Halloween-Ausgangssperre, Boden-Steuer, Zwei-Pillen-Wahl).
+Kompletter Look + Dramaturgie: **`references/storytime.md` – vor jedem Video dieser Nische lesen.**
+Kurz: Klötzchen-Figuren in 3D-Welt, Ich-Erzähler, absurde Stadt-Regel als Hook, Schnitt alle ~2 s,
+ein Wort pro Untertitel, Cliffhanger-Ende (Teil 2). Diese Nische hat Vorrang vor der Bauanleitungs-Nische unten.
+
+## Vorherige Nische (Okt. 2026): hilfreiche 3D-Bauanleitungen / Aufklärung
 
 Die „Was wäre, wenn“-Videos liefen schlecht – der Creator will jetzt **Themen, die Menschen weiterhelfen oder aufklären**,
 im Stil der Garten-Querschnitt-Referenz („Glückwunsch, du hast … gebaut“). Vorlage: `videos/05-hochbeet/`.

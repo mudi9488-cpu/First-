@@ -1,0 +1,56 @@
+# Style-Guide: Blocky-3D-Storytime („In this town …“) – Nische seit Nov. 2026
+
+Abgeleitet aus 3 Referenzen des Creators (alle 576×1024, 9:16, 30 fps, 129–182 s, Voiceover + leise Musik,
+−17 bis −20 LUFS, ~65–70 Schnitte pro Video = **ein Schnitt alle 2–2,5 s**).
+
+| Ref | Kanal-Stil | Thema / Hook | Welt |
+|---|---|---|---|
+| A | dunkel, Horror | „In this town, everyone has to be in their house before Halloween night begins …“ | Vorstadt-Häuser, Nacht, orangener Himmel, langes gelbes Wesen |
+| B | knallbunt, Comedy | „In this town, touching the ground costs $10.“ | Pastell-Stadt, City Hall, Neon-Preisschilder |
+| C | Neon, Drama | „In this town, everyone must choose between two pills on their 16th birthday.“ | Arm-Viertel vs. schwebende Luxus-Inseln, Bühne mit Gold-/Schwarz-Pille |
+
+## Dramaturgie (alle drei gleich)
+
+1. **Hook, Satz 1 (0–4 s):** „In dieser Stadt …“ + absurde Regel. Bild: Totale der Stadt/Straße aus der Luft, dann sofort Schnitt auf die Regel in Aktion.
+2. **Regel erklären (4–20 s):** Wer, wann, was passiert bei Verstoß („Sobald die Uhr 18 Uhr schlägt …“, „Jeder Schritt: −10 $“, „Gold = reich, Schwarz = ?“). Jede Konsequenz bekommt ein eigenes Bild.
+3. **Ich-Erzähler stellt sich vor:** „Mein Name ist Lucas, und morgen werde ich 16.“ – Nahaufnahme Gesicht, Zimmer/Bett.
+4. **Eskalation:** Alltag unter der Regel → Persönliche Betroffenheit → Geheimnis/Gefahr (Wesen draußen, Regierung kassiert ab, Brief „NIMM NICHT GOLD. – RUBY“).
+5. **Wendepunkt:** jemand bricht die Regel / Erzähler entdeckt den Trick (roter Knopf „GROUND TAX DEAKTIVIEREN“).
+6. **Ende = Cliffhanger** (A: jemand steht vor der Tür; C: Countdown „00:02 – TRIFF DEINE WAHL“, Schnitt) → Teil 2. Kein Fazit.
+
+Sprechtempo schnell und durchgehend (~2,8–3 Wörter/s), keine Pausen, ruhige Erzählerstimme, Präteritum + Ich-Perspektive.
+
+## Visuelle Sprache
+
+- **3D, Blockfiguren im „Klötzchen-Avatar“-Stil:** Würfelkopf, quaderförmiger Torso, Arme/Beine als Quader, Gesicht als
+  aufgemalte 2D-Decals (große Augen, Brille, Augenbrauen, Mund wechselt je nach Emotion: Angst, Wut, Grinsen, Schock).
+  Kleidung = farbige Texturen auf den Quadern (Trikot mit „8“, Hemd + Krawatte, Jacke). **Kein Roblox-Logo / keine Markennamen.**
+- **Welt aus einfachen Low-Poly-Teilen:** Häuser, Türen mit Holzmaserung, Laminatboden, Möbel, Straßenlaternen, Bäume
+  aus Kugel-Clustern, Polizeiauto, Hochhäuser im Hintergrund. Weiches Licht, Schatten, leichte Tiefenunschärfe.
+- **Kamera:** fast jede Einstellung eine eigene Kamera – Totale von oben (Stadt), Nahaufnahme Gesicht (Reaktion),
+  Detail (Tür, Uhr, Handy-Display, Knopf), Froschperspektive aufs Wesen. Langsame Dolly-/Push-ins, nie statisch.
+  Harte Schnitte, gelegentlich Whip/Flash.
+- **Lichtstimmung je Thema:** Horror = Nacht, orangener Himmel, Laternen, kühle Innenräume; Comedy = Mittag, blauer
+  Himmel, Pastellfassaden; Drama = Lila/Gold-Neon, Spotlights, Konfetti bei Gewinn.
+- **Text in der Welt (diegetisch) statt HUD:** Neon-Schilder „−$10“, Handy-Screens („NEUE STEUER: ATMEN – $1 PRO SEKUNDE“,
+  „KONTOSTAND“), Countdown-Tafel „00:10“, Zettel in Handschrift, Schild „RESTRICTED“. Keine Datenkarten/Checklisten.
+
+## Untertitel (wichtigstes Wiedererkennungsmerkmal)
+
+- **Genau ein Wort**, exakt synchron, mittig, auf ca. **y ≈ 1300–1440 px** (bei 1080×1920; Referenz y≈690–730 von 1024).
+- Kleinschreibung wie gesprochen, Zahlen als Ziffern („$10“, „16th“, „$10 million“).
+- Variante A (Horror): Weiß, fett, runde Sans, weicher schwarzer Schatten, ~70 px.
+- Variante B/C (bunt): **Neon-Gelb `#E8FF3A`**, extra fett (Cartoon-Font, z. B. *Lilita One / Luckiest Guy*),
+  dicke schwarze Kontur + Schlagschatten, ~85 px; betonte Wörter größer („between“, „being“).
+- Leichter Pop (Scale 0.85→1) bei jedem Wort, keine Karaoke-Farbe.
+
+## Ton
+
+Voiceover dominant, leise Hintergrundmusik (Horror: Spannungs-Drone; Comedy: lockerer Beat), Whoosh bei Schnitten,
+Ka-ching/Kasse bei Geld, Herzschlag/Ticken bei Countdown. Musik kommt in der TikTok-App drunter.
+
+## Umsetzung (Plan)
+
+Three.js-Pipeline aus `videos/05-hochbeet/` wiederverwenden (prozedurale Canvas-Texturen, `SHOTS`-Kameraschnitte,
+schwebende HTML-Labels). Neu dazu: Baukasten für Blockfiguren (Kopf/Torso/Arme/Beine, Gesichts-Decals per Canvas,
+Posen + einfache Geh-/Wink-Animation), Gebäude-Kit (Haus, Laden, City Hall, Laterne, Baum, Auto) und Ein-Wort-Untertitel.
