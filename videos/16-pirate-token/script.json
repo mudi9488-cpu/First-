@@ -1,0 +1,416 @@
+{
+ "title": "The Pirate Token",
+ "voice": "en-us-ryan-high",
+ "length_scale": 0.97,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town, everyone opens"
+    },
+    {
+     "show": "one {y:treasure chest} every single day."
+    },
+    {
+     "show": "And everyone is hunting for one thing."
+    },
+    {
+     "show": "The {y:Pirate Token.}"
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "Find it, and the whole {y:shop} is yours."
+    },
+    {
+     "show": "For {g:free.}"
+    },
+    {
+     "show": "For {y:fourteen days.}"
+    }
+   ]
+  },
+  {
+   "id": "daily",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every morning at {y:eight,} the chest hall opens."
+    },
+    {
+     "show": "You walk in, pick one chest,"
+    },
+    {
+     "show": "and that's it."
+    },
+    {
+     "show": "{r:One} chance."
+    },
+    {
+     "show": "Until tomorrow."
+    }
+   ]
+  },
+  {
+   "id": "odds",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the chance is {r:1 in 137,500.}",
+     "say": "But the chance is one in one hundred thirty seven thousand five hundred."
+    },
+    {
+     "show": "Most people open chests their whole life"
+    },
+    {
+     "show": "and {r:never} see it."
+    }
+   ]
+  },
+  {
+   "id": "law",
+   "label": "",
+   "lines": [
+    {
+     "show": "And there is one rule."
+    },
+    {
+     "show": "The token can't be {r:sold.}"
+    },
+    {
+     "show": "It can't be {r:gifted.}"
+    },
+    {
+     "show": "It belongs to whoever opens the chest."
+    },
+    {
+     "show": "{y:Forever.}"
+    }
+   ]
+  },
+  {
+   "id": "rich",
+   "label": "",
+   "lines": [
+    {
+     "show": "People still tried."
+    },
+    {
+     "show": "The rich guy across the street"
+    },
+    {
+     "show": "offered {g:$10,000}",
+     "say": "offered ten thousand dollars"
+    },
+    {
+     "show": "just for an account that had it."
+    }
+   ]
+  },
+  {
+   "id": "vance",
+   "label": "",
+   "lines": [
+    {
+     "show": "His name is {y:Mr. Vance.}"
+    },
+    {
+     "show": "He owns half the town."
+    },
+    {
+     "show": "But not the token."
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is {y:Leo.}"
+    },
+    {
+     "show": "I'm thirteen,"
+    },
+    {
+     "show": "and I have opened {r:412} chests.",
+     "say": "and I have opened four hundred and twelve chests."
+    },
+    {
+     "show": "Wood. Wood. A bandage. Wood."
+    }
+   ]
+  },
+  {
+   "id": "mia",
+   "label": "",
+   "lines": [
+    {
+     "show": "My little sister {y:Mia} laughs at me every morning."
+    },
+    {
+     "show": "She says the token {r:isn't real.}"
+    }
+   ]
+  },
+  {
+   "id": "girl",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last year, a girl two streets away"
+    },
+    {
+     "show": "supposedly found one."
+    },
+    {
+     "show": "The next day, her whole family {r:moved away.}"
+    },
+    {
+     "show": "Nobody knows where."
+    }
+   ]
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the mayor appeared on every screen in town."
+    },
+    {
+     "show": "{y:Treasure Hour.}"
+    },
+    {
+     "show": "For one hour, the chance goes up {g:1.5} times.",
+     "say": "For one hour, the chance goes up one point five times."
+    }
+   ]
+  },
+  {
+   "id": "line",
+   "label": "",
+   "lines": [
+    {
+     "show": "The whole town went {r:crazy.}"
+    },
+    {
+     "show": "People lined up in front of the chest hall"
+    },
+    {
+     "show": "at {y:four} in the morning."
+    }
+   ]
+  },
+  {
+   "id": "paid",
+   "label": "",
+   "lines": [
+    {
+     "show": "Mr. Vance even paid people"
+    },
+    {
+     "show": "to open chests for him."
+    },
+    {
+     "show": "{r:Hundreds} of them."
+    }
+   ]
+  },
+  {
+   "id": "three",
+   "label": "",
+   "lines": [
+    {
+     "show": "I was there at {g:three.}"
+    }
+   ]
+  },
+  {
+   "id": "hall",
+   "label": "",
+   "lines": [
+    {
+     "show": "When the doors opened,"
+    },
+    {
+     "show": "hundreds of chests were {y:glowing.}"
+    },
+    {
+     "show": "Everyone opened at the same time."
+    },
+    {
+     "show": "{r:Empty.} {r:Empty.} {r:Empty.}"
+    },
+    {
+     "show": "Somebody cried."
+    },
+    {
+     "show": "Somebody {r:kicked} a chest."
+    }
+   ]
+  },
+  {
+   "id": "turn",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then it was my turn."
+    },
+    {
+     "show": "I touched the lid,"
+    },
+    {
+     "show": "and it was {r:warm.}"
+    },
+    {
+     "show": "Way too warm."
+    }
+   ]
+  },
+  {
+   "id": "open",
+   "label": "",
+   "lines": [
+    {
+     "show": "I opened it,"
+    },
+    {
+     "show": "and the whole hall went {r:silent.}"
+    }
+   ]
+  },
+  {
+   "id": "coin",
+   "label": "",
+   "lines": [
+    {
+     "show": "Inside was a coin."
+    },
+    {
+     "show": "Black and {y:gold,}"
+    },
+    {
+     "show": "with a {r:skull} on it."
+    }
+   ]
+  },
+  {
+   "id": "token",
+   "label": "",
+   "lines": [
+    {
+     "show": "The {y:Pirate Token.}"
+    }
+   ]
+  },
+  {
+   "id": "shake",
+   "label": "",
+   "lines": [
+    {
+     "show": "My hands were {r:shaking.}"
+    },
+    {
+     "show": "Mia was right behind me."
+    },
+    {
+     "show": "Her mouth was wide open."
+    }
+   ]
+  },
+  {
+   "id": "screen",
+   "label": "",
+   "lines": [
+    {
+     "show": "My screen lit up."
+    },
+    {
+     "show": "{g:Shop unlocked.}"
+    },
+    {
+     "show": "{y:Fourteen days.}"
+    }
+   ]
+  },
+  {
+   "id": "stare",
+   "label": "",
+   "lines": [
+    {
+     "show": "Everyone was staring at me."
+    },
+    {
+     "show": "Then the rich guy pushed through the crowd."
+    }
+   ]
+  },
+  {
+   "id": "whisper",
+   "label": "",
+   "lines": [
+    {
+     "show": "He didn't offer money this time."
+    },
+    {
+     "show": "He just whispered:"
+    },
+    {
+     "show": "You don't know what that token"
+    },
+    {
+     "show": "{r:really} does."
+    }
+   ]
+  },
+  {
+   "id": "smile",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then he looked at {y:Mia.}"
+    },
+    {
+     "show": "And {r:smiled.}"
+    }
+   ]
+  },
+  {
+   "id": "night",
+   "label": "",
+   "lines": [
+    {
+     "show": "That night, someone {r:knocked} on our door."
+    },
+    {
+     "show": "{r:Three} times."
+    },
+    {
+     "show": "Mia ran into my room."
+    },
+    {
+     "show": "Leo, she whispered,"
+    },
+    {
+     "show": "that's the same knock"
+    },
+    {
+     "show": "the girl's family heard."
+    },
+    {
+     "show": "And when I looked at the token,"
+    },
+    {
+     "show": "it was {r:counting down.}"
+    }
+   ]
+  }
+ ]
+}

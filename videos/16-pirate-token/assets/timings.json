@@ -1,0 +1,2780 @@
+{
+ "duration": 144.253,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "In this town, everyone opens",
+     "start": 0.15,
+     "end": 1.973,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.15,
+       "end": 0.359
+      },
+      {
+       "text": "this",
+       "start": 0.359,
+       "end": 0.688
+      },
+      {
+       "text": "town,",
+       "start": 0.688,
+       "end": 1.017
+      },
+      {
+       "text": "everyone",
+       "start": 1.017,
+       "end": 1.584
+      },
+      {
+       "text": "opens",
+       "start": 1.584,
+       "end": 1.973
+      }
+     ]
+    },
+    {
+     "show": "one {y:treasure chest} every single day.",
+     "start": 2.033,
+     "end": 3.89,
+     "words": [
+      {
+       "text": "one",
+       "start": 2.033,
+       "end": 2.247
+      },
+      {
+       "text": "treasure",
+       "start": 2.247,
+       "end": 2.7
+      },
+      {
+       "text": "chest",
+       "start": 2.7,
+       "end": 3.009
+      },
+      {
+       "text": "every",
+       "start": 3.009,
+       "end": 3.319
+      },
+      {
+       "text": "single",
+       "start": 3.319,
+       "end": 3.676
+      },
+      {
+       "text": "day.",
+       "start": 3.676,
+       "end": 3.89
+      }
+     ]
+    },
+    {
+     "show": "And everyone is hunting for one thing.",
+     "start": 4.19,
+     "end": 5.967,
+     "words": [
+      {
+       "text": "And",
+       "start": 4.19,
+       "end": 4.383
+      },
+      {
+       "text": "everyone",
+       "start": 4.383,
+       "end": 4.79
+      },
+      {
+       "text": "is",
+       "start": 4.79,
+       "end": 4.939
+      },
+      {
+       "text": "hunting",
+       "start": 4.939,
+       "end": 5.303
+      },
+      {
+       "text": "for",
+       "start": 5.303,
+       "end": 5.496
+      },
+      {
+       "text": "one",
+       "start": 5.496,
+       "end": 5.688
+      },
+      {
+       "text": "thing.",
+       "start": 5.688,
+       "end": 5.967
+      }
+     ]
+    },
+    {
+     "show": "The {y:Pirate Token.}",
+     "start": 6.267,
+     "end": 7.242,
+     "words": [
+      {
+       "text": "The",
+       "start": 6.267,
+       "end": 6.504
+      },
+      {
+       "text": "Pirate",
+       "start": 6.504,
+       "end": 6.899
+      },
+      {
+       "text": "Token.",
+       "start": 6.899,
+       "end": 7.242
+      }
+     ]
+    }
+   ],
+   "end": 7.542
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "start": 7.942,
+   "lines": [
+    {
+     "show": "Find it, and the whole {y:shop} is yours.",
+     "start": 7.942,
+     "end": 9.846,
+     "words": [
+      {
+       "text": "Find",
+       "start": 7.942,
+       "end": 8.204
+      },
+      {
+       "text": "it,",
+       "start": 8.204,
+       "end": 8.37
+      },
+      {
+       "text": "and",
+       "start": 8.37,
+       "end": 8.585
+      },
+      {
+       "text": "the",
+       "start": 8.585,
+       "end": 8.799
+      },
+      {
+       "text": "whole",
+       "start": 8.799,
+       "end": 9.108
+      },
+      {
+       "text": "shop",
+       "start": 9.108,
+       "end": 9.37
+      },
+      {
+       "text": "is",
+       "start": 9.37,
+       "end": 9.537
+      },
+      {
+       "text": "yours.",
+       "start": 9.537,
+       "end": 9.846
+      }
+     ]
+    },
+    {
+     "show": "For {g:free.}",
+     "start": 10.146,
+     "end": 10.819,
+     "words": [
+      {
+       "text": "For",
+       "start": 10.146,
+       "end": 10.449
+      },
+      {
+       "text": "free.",
+       "start": 10.449,
+       "end": 10.819
+      }
+     ]
+    },
+    {
+     "show": "For {y:fourteen days.}",
+     "start": 11.119,
+     "end": 12.28,
+     "words": [
+      {
+       "text": "For",
+       "start": 11.119,
+       "end": 11.387
+      },
+      {
+       "text": "fourteen",
+       "start": 11.387,
+       "end": 11.953
+      },
+      {
+       "text": "days.",
+       "start": 11.953,
+       "end": 12.28
+      }
+     ]
+    }
+   ],
+   "end": 12.58
+  },
+  {
+   "id": "daily",
+   "label": "",
+   "start": 12.98,
+   "lines": [
+    {
+     "show": "Every morning at {y:eight,} the chest hall opens.",
+     "start": 12.98,
+     "end": 15.465,
+     "words": [
+      {
+       "text": "Every",
+       "start": 12.98,
+       "end": 13.317
+      },
+      {
+       "text": "morning",
+       "start": 13.317,
+       "end": 13.757
+      },
+      {
+       "text": "at",
+       "start": 13.757,
+       "end": 13.938
+      },
+      {
+       "text": "eight,",
+       "start": 13.938,
+       "end": 14.274
+      },
+      {
+       "text": "the",
+       "start": 14.274,
+       "end": 14.507
+      },
+      {
+       "text": "chest",
+       "start": 14.507,
+       "end": 14.844
+      },
+      {
+       "text": "hall",
+       "start": 14.844,
+       "end": 15.128
+      },
+      {
+       "text": "opens.",
+       "start": 15.128,
+       "end": 15.465
+      }
+     ]
+    },
+    {
+     "show": "You walk in, pick one chest,",
+     "start": 15.765,
+     "end": 17.489,
+     "words": [
+      {
+       "text": "You",
+       "start": 15.765,
+       "end": 16.023
+      },
+      {
+       "text": "walk",
+       "start": 16.023,
+       "end": 16.339
+      },
+      {
+       "text": "in,",
+       "start": 16.339,
+       "end": 16.541
+      },
+      {
+       "text": "pick",
+       "start": 16.541,
+       "end": 16.857
+      },
+      {
+       "text": "one",
+       "start": 16.857,
+       "end": 17.115
+      },
+      {
+       "text": "chest,",
+       "start": 17.115,
+       "end": 17.489
+      }
+     ]
+    },
+    {
+     "show": "and that's it.",
+     "start": 17.649,
+     "end": 18.31,
+     "words": [
+      {
+       "text": "and",
+       "start": 17.649,
+       "end": 17.854
+      },
+      {
+       "text": "that's",
+       "start": 17.854,
+       "end": 18.151
+      },
+      {
+       "text": "it.",
+       "start": 18.151,
+       "end": 18.31
+      }
+     ]
+    },
+    {
+     "show": "{r:One} chance.",
+     "start": 18.61,
+     "end": 19.354,
+     "words": [
+      {
+       "text": "One",
+       "start": 18.61,
+       "end": 18.889
+      },
+      {
+       "text": "chance.",
+       "start": 18.889,
+       "end": 19.354
+      }
+     ]
+    },
+    {
+     "show": "Until tomorrow.",
+     "start": 19.654,
+     "end": 20.582,
+     "words": [
+      {
+       "text": "Until",
+       "start": 19.654,
+       "end": 20.031
+      },
+      {
+       "text": "tomorrow.",
+       "start": 20.031,
+       "end": 20.582
+      }
+     ]
+    }
+   ],
+   "end": 20.882
+  },
+  {
+   "id": "odds",
+   "label": "",
+   "start": 21.282,
+   "lines": [
+    {
+     "show": "But the chance is {r:1 in 137,500.}",
+     "start": 21.282,
+     "end": 24.812,
+     "words": [
+      {
+       "text": "But",
+       "start": 21.282,
+       "end": 21.756
+      },
+      {
+       "text": "the",
+       "start": 21.756,
+       "end": 22.231
+      },
+      {
+       "text": "chance",
+       "start": 22.231,
+       "end": 23.021
+      },
+      {
+       "text": "is",
+       "start": 23.021,
+       "end": 23.389
+      },
+      {
+       "text": "1",
+       "start": 23.389,
+       "end": 23.653
+      },
+      {
+       "text": "in",
+       "start": 23.653,
+       "end": 24.022
+      },
+      {
+       "text": "137,500.",
+       "start": 24.022,
+       "end": 24.812
+      }
+     ]
+    },
+    {
+     "show": "Most people open chests their whole life",
+     "start": 25.112,
+     "end": 27.132,
+     "words": [
+      {
+       "text": "Most",
+       "start": 25.112,
+       "end": 25.361
+      },
+      {
+       "text": "people",
+       "start": 25.361,
+       "end": 25.702
+      },
+      {
+       "text": "open",
+       "start": 25.702,
+       "end": 25.952
+      },
+      {
+       "text": "chests",
+       "start": 25.952,
+       "end": 26.292
+      },
+      {
+       "text": "their",
+       "start": 26.292,
+       "end": 26.587
+      },
+      {
+       "text": "whole",
+       "start": 26.587,
+       "end": 26.882
+      },
+      {
+       "text": "life",
+       "start": 26.882,
+       "end": 27.132
+      }
+     ]
+    },
+    {
+     "show": "and {r:never} see it.",
+     "start": 27.192,
+     "end": 28.119,
+     "words": [
+      {
+       "text": "and",
+       "start": 27.192,
+       "end": 27.411
+      },
+      {
+       "text": "never",
+       "start": 27.411,
+       "end": 27.729
+      },
+      {
+       "text": "see",
+       "start": 27.729,
+       "end": 27.948
+      },
+      {
+       "text": "it.",
+       "start": 27.948,
+       "end": 28.119
+      }
+     ]
+    }
+   ],
+   "end": 28.419
+  },
+  {
+   "id": "law",
+   "label": "",
+   "start": 28.819,
+   "lines": [
+    {
+     "show": "And there is one rule.",
+     "start": 28.819,
+     "end": 29.806,
+     "words": [
+      {
+       "text": "And",
+       "start": 28.819,
+       "end": 29.0
+      },
+      {
+       "text": "there",
+       "start": 29.0,
+       "end": 29.262
+      },
+      {
+       "text": "is",
+       "start": 29.262,
+       "end": 29.403
+      },
+      {
+       "text": "one",
+       "start": 29.403,
+       "end": 29.584
+      },
+      {
+       "text": "rule.",
+       "start": 29.584,
+       "end": 29.806
+      }
+     ]
+    },
+    {
+     "show": "The token can't be {r:sold.}",
+     "start": 30.106,
+     "end": 31.36,
+     "words": [
+      {
+       "text": "The",
+       "start": 30.106,
+       "end": 30.327
+      },
+      {
+       "text": "token",
+       "start": 30.327,
+       "end": 30.647
+      },
+      {
+       "text": "can't",
+       "start": 30.647,
+       "end": 30.917
+      },
+      {
+       "text": "be",
+       "start": 30.917,
+       "end": 31.089
+      },
+      {
+       "text": "sold.",
+       "start": 31.089,
+       "end": 31.36
+      }
+     ]
+    },
+    {
+     "show": "It can't be {r:gifted.}",
+     "start": 31.66,
+     "end": 32.716,
+     "words": [
+      {
+       "text": "It",
+       "start": 31.66,
+       "end": 31.845
+      },
+      {
+       "text": "can't",
+       "start": 31.845,
+       "end": 32.135
+      },
+      {
+       "text": "be",
+       "start": 32.135,
+       "end": 32.32
+      },
+      {
+       "text": "gifted.",
+       "start": 32.32,
+       "end": 32.716
+      }
+     ]
+    },
+    {
+     "show": "It belongs to whoever opens the chest.",
+     "start": 33.016,
+     "end": 34.93,
+     "words": [
+      {
+       "text": "It",
+       "start": 33.016,
+       "end": 33.178
+      },
+      {
+       "text": "belongs",
+       "start": 33.178,
+       "end": 33.569
+      },
+      {
+       "text": "to",
+       "start": 33.569,
+       "end": 33.731
+      },
+      {
+       "text": "whoever",
+       "start": 33.731,
+       "end": 34.123
+      },
+      {
+       "text": "opens",
+       "start": 34.123,
+       "end": 34.422
+      },
+      {
+       "text": "the",
+       "start": 34.422,
+       "end": 34.63
+      },
+      {
+       "text": "chest.",
+       "start": 34.63,
+       "end": 34.93
+      }
+     ]
+    },
+    {
+     "show": "{y:Forever.}",
+     "start": 35.23,
+     "end": 35.694,
+     "words": [
+      {
+       "text": "Forever.",
+       "start": 35.23,
+       "end": 35.694
+      }
+     ]
+    }
+   ],
+   "end": 35.994
+  },
+  {
+   "id": "rich",
+   "label": "",
+   "start": 36.394,
+   "lines": [
+    {
+     "show": "People still tried.",
+     "start": 36.394,
+     "end": 37.369,
+     "words": [
+      {
+       "text": "People",
+       "start": 36.394,
+       "end": 36.751
+      },
+      {
+       "text": "still",
+       "start": 36.751,
+       "end": 37.06
+      },
+      {
+       "text": "tried.",
+       "start": 37.06,
+       "end": 37.369
+      }
+     ]
+    },
+    {
+     "show": "The rich guy across the street",
+     "start": 37.669,
+     "end": 39.132,
+     "words": [
+      {
+       "text": "The",
+       "start": 37.669,
+       "end": 37.863
+      },
+      {
+       "text": "rich",
+       "start": 37.863,
+       "end": 38.099
+      },
+      {
+       "text": "guy",
+       "start": 38.099,
+       "end": 38.293
+      },
+      {
+       "text": "across",
+       "start": 38.293,
+       "end": 38.616
+      },
+      {
+       "text": "the",
+       "start": 38.616,
+       "end": 38.809
+      },
+      {
+       "text": "street",
+       "start": 38.809,
+       "end": 39.132
+      }
+     ]
+    },
+    {
+     "show": "offered {g:$10,000}",
+     "start": 39.192,
+     "end": 40.608,
+     "words": [
+      {
+       "text": "offered",
+       "start": 39.192,
+       "end": 39.995
+      },
+      {
+       "text": "$10,000",
+       "start": 39.995,
+       "end": 40.608
+      }
+     ]
+    },
+    {
+     "show": "just for an account that had it.",
+     "start": 40.668,
+     "end": 41.804,
+     "words": [
+      {
+       "text": "just",
+       "start": 40.668,
+       "end": 40.844
+      },
+      {
+       "text": "for",
+       "start": 40.844,
+       "end": 40.988
+      },
+      {
+       "text": "an",
+       "start": 40.988,
+       "end": 41.1
+      },
+      {
+       "text": "account",
+       "start": 41.1,
+       "end": 41.372
+      },
+      {
+       "text": "that",
+       "start": 41.372,
+       "end": 41.548
+      },
+      {
+       "text": "had",
+       "start": 41.548,
+       "end": 41.692
+      },
+      {
+       "text": "it.",
+       "start": 41.692,
+       "end": 41.804
+      }
+     ]
+    }
+   ],
+   "end": 42.104
+  },
+  {
+   "id": "vance",
+   "label": "",
+   "start": 42.504,
+   "lines": [
+    {
+     "show": "His name is {y:Mr. Vance.}",
+     "start": 42.504,
+     "end": 44.025,
+     "words": [
+      {
+       "text": "His",
+       "start": 42.504,
+       "end": 42.795
+      },
+      {
+       "text": "name",
+       "start": 42.795,
+       "end": 43.151
+      },
+      {
+       "text": "is",
+       "start": 43.151,
+       "end": 43.377
+      },
+      {
+       "text": "Mr.",
+       "start": 43.377,
+       "end": 43.604
+      },
+      {
+       "text": "Vance.",
+       "start": 43.604,
+       "end": 44.025
+      }
+     ]
+    },
+    {
+     "show": "He owns half the town.",
+     "start": 44.325,
+     "end": 45.52,
+     "words": [
+      {
+       "text": "He",
+       "start": 44.325,
+       "end": 44.495
+      },
+      {
+       "text": "owns",
+       "start": 44.495,
+       "end": 44.764
+      },
+      {
+       "text": "half",
+       "start": 44.764,
+       "end": 45.032
+      },
+      {
+       "text": "the",
+       "start": 45.032,
+       "end": 45.252
+      },
+      {
+       "text": "town.",
+       "start": 45.252,
+       "end": 45.52
+      }
+     ]
+    },
+    {
+     "show": "But not the token.",
+     "start": 45.82,
+     "end": 46.633,
+     "words": [
+      {
+       "text": "But",
+       "start": 45.82,
+       "end": 46.003
+      },
+      {
+       "text": "not",
+       "start": 46.003,
+       "end": 46.186
+      },
+      {
+       "text": "the",
+       "start": 46.186,
+       "end": 46.369
+      },
+      {
+       "text": "token.",
+       "start": 46.369,
+       "end": 46.633
+      }
+     ]
+    }
+   ],
+   "end": 46.933
+  },
+  {
+   "id": "me",
+   "label": "",
+   "start": 47.333,
+   "lines": [
+    {
+     "show": "My name is {y:Leo.}",
+     "start": 47.333,
+     "end": 48.366,
+     "words": [
+      {
+       "text": "My",
+       "start": 47.333,
+       "end": 47.546
+      },
+      {
+       "text": "name",
+       "start": 47.546,
+       "end": 47.88
+      },
+      {
+       "text": "is",
+       "start": 47.88,
+       "end": 48.093
+      },
+      {
+       "text": "Leo.",
+       "start": 48.093,
+       "end": 48.366
+      }
+     ]
+    },
+    {
+     "show": "I'm thirteen,",
+     "start": 48.666,
+     "end": 49.391,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 48.666,
+       "end": 48.861
+      },
+      {
+       "text": "thirteen,",
+       "start": 48.861,
+       "end": 49.391
+      }
+     ]
+    },
+    {
+     "show": "and I have opened {r:412} chests.",
+     "start": 49.551,
+     "end": 52.082,
+     "words": [
+      {
+       "text": "and",
+       "start": 49.551,
+       "end": 49.907
+      },
+      {
+       "text": "I",
+       "start": 49.907,
+       "end": 50.104
+      },
+      {
+       "text": "have",
+       "start": 50.104,
+       "end": 50.539
+      },
+      {
+       "text": "opened",
+       "start": 50.539,
+       "end": 51.133
+      },
+      {
+       "text": "412",
+       "start": 51.133,
+       "end": 51.489
+      },
+      {
+       "text": "chests.",
+       "start": 51.489,
+       "end": 52.082
+      }
+     ]
+    },
+    {
+     "show": "Wood. Wood. A bandage. Wood.",
+     "start": 52.382,
+     "end": 53.659,
+     "words": [
+      {
+       "text": "Wood.",
+       "start": 52.382,
+       "end": 52.637
+      },
+      {
+       "text": "Wood.",
+       "start": 52.637,
+       "end": 52.893
+      },
+      {
+       "text": "A",
+       "start": 52.893,
+       "end": 53.009
+      },
+      {
+       "text": "bandage.",
+       "start": 53.009,
+       "end": 53.403
+      },
+      {
+       "text": "Wood.",
+       "start": 53.403,
+       "end": 53.659
+      }
+     ]
+    }
+   ],
+   "end": 53.959
+  },
+  {
+   "id": "mia",
+   "label": "",
+   "start": 54.359,
+   "lines": [
+    {
+     "show": "My little sister {y:Mia} laughs at me every morning.",
+     "start": 54.359,
+     "end": 56.623,
+     "words": [
+      {
+       "text": "My",
+       "start": 54.359,
+       "end": 54.51
+      },
+      {
+       "text": "little",
+       "start": 54.51,
+       "end": 54.833
+      },
+      {
+       "text": "sister",
+       "start": 54.833,
+       "end": 55.157
+      },
+      {
+       "text": "Mia",
+       "start": 55.157,
+       "end": 55.351
+      },
+      {
+       "text": "laughs",
+       "start": 55.351,
+       "end": 55.674
+      },
+      {
+       "text": "at",
+       "start": 55.674,
+       "end": 55.825
+      },
+      {
+       "text": "me",
+       "start": 55.825,
+       "end": 55.976
+      },
+      {
+       "text": "every",
+       "start": 55.976,
+       "end": 56.256
+      },
+      {
+       "text": "morning.",
+       "start": 56.256,
+       "end": 56.623
+      }
+     ]
+    },
+    {
+     "show": "She says the token {r:isn't real.}",
+     "start": 56.923,
+     "end": 58.548,
+     "words": [
+      {
+       "text": "She",
+       "start": 56.923,
+       "end": 57.151
+      },
+      {
+       "text": "says",
+       "start": 57.151,
+       "end": 57.431
+      },
+      {
+       "text": "the",
+       "start": 57.431,
+       "end": 57.659
+      },
+      {
+       "text": "token",
+       "start": 57.659,
+       "end": 57.99
+      },
+      {
+       "text": "isn't",
+       "start": 57.99,
+       "end": 58.269
+      },
+      {
+       "text": "real.",
+       "start": 58.269,
+       "end": 58.548
+      }
+     ]
+    }
+   ],
+   "end": 58.848
+  },
+  {
+   "id": "girl",
+   "label": "",
+   "start": 59.248,
+   "lines": [
+    {
+     "show": "Last year, a girl two streets away",
+     "start": 59.248,
+     "end": 61.28,
+     "words": [
+      {
+       "text": "Last",
+       "start": 59.248,
+       "end": 59.546
+      },
+      {
+       "text": "year,",
+       "start": 59.546,
+       "end": 59.844
+      },
+      {
+       "text": "a",
+       "start": 59.844,
+       "end": 59.98
+      },
+      {
+       "text": "girl",
+       "start": 59.98,
+       "end": 60.278
+      },
+      {
+       "text": "two",
+       "start": 60.278,
+       "end": 60.521
+      },
+      {
+       "text": "streets",
+       "start": 60.521,
+       "end": 60.982
+      },
+      {
+       "text": "away",
+       "start": 60.982,
+       "end": 61.28
+      }
+     ]
+    },
+    {
+     "show": "supposedly found one.",
+     "start": 61.34,
+     "end": 62.826,
+     "words": [
+      {
+       "text": "supposedly",
+       "start": 61.34,
+       "end": 62.1
+      },
+      {
+       "text": "found",
+       "start": 62.1,
+       "end": 62.529
+      },
+      {
+       "text": "one.",
+       "start": 62.529,
+       "end": 62.826
+      }
+     ]
+    },
+    {
+     "show": "The next day, her whole family {r:moved away.}",
+     "start": 63.126,
+     "end": 65.471,
+     "words": [
+      {
+       "text": "The",
+       "start": 63.126,
+       "end": 63.361
+      },
+      {
+       "text": "next",
+       "start": 63.361,
+       "end": 63.647
+      },
+      {
+       "text": "day,",
+       "start": 63.647,
+       "end": 63.882
+      },
+      {
+       "text": "her",
+       "start": 63.882,
+       "end": 64.116
+      },
+      {
+       "text": "whole",
+       "start": 64.116,
+       "end": 64.455
+      },
+      {
+       "text": "family",
+       "start": 64.455,
+       "end": 64.846
+      },
+      {
+       "text": "moved",
+       "start": 64.846,
+       "end": 65.185
+      },
+      {
+       "text": "away.",
+       "start": 65.185,
+       "end": 65.471
+      }
+     ]
+    },
+    {
+     "show": "Nobody knows where.",
+     "start": 65.771,
+     "end": 66.735,
+     "words": [
+      {
+       "text": "Nobody",
+       "start": 65.771,
+       "end": 66.124
+      },
+      {
+       "text": "knows",
+       "start": 66.124,
+       "end": 66.429
+      },
+      {
+       "text": "where.",
+       "start": 66.429,
+       "end": 66.735
+      }
+     ]
+    }
+   ],
+   "end": 67.035
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "start": 67.435,
+   "lines": [
+    {
+     "show": "Then the mayor appeared on every screen in town.",
+     "start": 67.435,
+     "end": 69.769,
+     "words": [
+      {
+       "text": "Then",
+       "start": 67.435,
+       "end": 67.679
+      },
+      {
+       "text": "the",
+       "start": 67.679,
+       "end": 67.879
+      },
+      {
+       "text": "mayor",
+       "start": 67.879,
+       "end": 68.168
+      },
+      {
+       "text": "appeared",
+       "start": 68.168,
+       "end": 68.591
+      },
+      {
+       "text": "on",
+       "start": 68.591,
+       "end": 68.746
+      },
+      {
+       "text": "every",
+       "start": 68.746,
+       "end": 69.035
+      },
+      {
+       "text": "screen",
+       "start": 69.035,
+       "end": 69.368
+      },
+      {
+       "text": "in",
+       "start": 69.368,
+       "end": 69.524
+      },
+      {
+       "text": "town.",
+       "start": 69.524,
+       "end": 69.769
+      }
+     ]
+    },
+    {
+     "show": "{y:Treasure Hour.}",
+     "start": 70.069,
+     "end": 70.916,
+     "words": [
+      {
+       "text": "Treasure",
+       "start": 70.069,
+       "end": 70.605
+      },
+      {
+       "text": "Hour.",
+       "start": 70.605,
+       "end": 70.916
+      }
+     ]
+    },
+    {
+     "show": "For one hour, the chance goes up {g:1.5} times.",
+     "start": 71.216,
+     "end": 74.246,
+     "words": [
+      {
+       "text": "For",
+       "start": 71.216,
+       "end": 71.516
+      },
+      {
+       "text": "one",
+       "start": 71.516,
+       "end": 71.815
+      },
+      {
+       "text": "hour,",
+       "start": 71.815,
+       "end": 72.182
+      },
+      {
+       "text": "the",
+       "start": 72.182,
+       "end": 72.481
+      },
+      {
+       "text": "chance",
+       "start": 72.481,
+       "end": 72.981
+      },
+      {
+       "text": "goes",
+       "start": 72.981,
+       "end": 73.347
+      },
+      {
+       "text": "up",
+       "start": 73.347,
+       "end": 73.58
+      },
+      {
+       "text": "1.5",
+       "start": 73.58,
+       "end": 73.813
+      },
+      {
+       "text": "times.",
+       "start": 73.813,
+       "end": 74.246
+      }
+     ]
+    }
+   ],
+   "end": 74.546
+  },
+  {
+   "id": "line",
+   "label": "",
+   "start": 74.946,
+   "lines": [
+    {
+     "show": "The whole town went {r:crazy.}",
+     "start": 74.946,
+     "end": 76.351,
+     "words": [
+      {
+       "text": "The",
+       "start": 74.946,
+       "end": 75.168
+      },
+      {
+       "text": "whole",
+       "start": 75.168,
+       "end": 75.488
+      },
+      {
+       "text": "town",
+       "start": 75.488,
+       "end": 75.759
+      },
+      {
+       "text": "went",
+       "start": 75.759,
+       "end": 76.031
+      },
+      {
+       "text": "crazy.",
+       "start": 76.031,
+       "end": 76.351
+      }
+     ]
+    },
+    {
+     "show": "People lined up in front of the chest hall",
+     "start": 76.651,
+     "end": 78.59,
+     "words": [
+      {
+       "text": "People",
+       "start": 76.651,
+       "end": 76.957
+      },
+      {
+       "text": "lined",
+       "start": 76.957,
+       "end": 77.222
+      },
+      {
+       "text": "up",
+       "start": 77.222,
+       "end": 77.365
+      },
+      {
+       "text": "in",
+       "start": 77.365,
+       "end": 77.508
+      },
+      {
+       "text": "front",
+       "start": 77.508,
+       "end": 77.773
+      },
+      {
+       "text": "of",
+       "start": 77.773,
+       "end": 77.916
+      },
+      {
+       "text": "the",
+       "start": 77.916,
+       "end": 78.1
+      },
+      {
+       "text": "chest",
+       "start": 78.1,
+       "end": 78.365
+      },
+      {
+       "text": "hall",
+       "start": 78.365,
+       "end": 78.59
+      }
+     ]
+    },
+    {
+     "show": "at {y:four} in the morning.",
+     "start": 78.65,
+     "end": 79.706,
+     "words": [
+      {
+       "text": "at",
+       "start": 78.65,
+       "end": 78.795
+      },
+      {
+       "text": "four",
+       "start": 78.795,
+       "end": 79.023
+      },
+      {
+       "text": "in",
+       "start": 79.023,
+       "end": 79.168
+      },
+      {
+       "text": "the",
+       "start": 79.168,
+       "end": 79.354
+      },
+      {
+       "text": "morning.",
+       "start": 79.354,
+       "end": 79.706
+      }
+     ]
+    }
+   ],
+   "end": 80.006
+  },
+  {
+   "id": "paid",
+   "label": "",
+   "start": 80.406,
+   "lines": [
+    {
+     "show": "Mr. Vance even paid people",
+     "start": 80.406,
+     "end": 82.299,
+     "words": [
+      {
+       "text": "Mr.",
+       "start": 80.406,
+       "end": 80.639
+      },
+      {
+       "text": "Vance",
+       "start": 80.639,
+       "end": 81.07
+      },
+      {
+       "text": "even",
+       "start": 81.07,
+       "end": 81.436
+      },
+      {
+       "text": "paid",
+       "start": 81.436,
+       "end": 81.801
+      },
+      {
+       "text": "people",
+       "start": 81.801,
+       "end": 82.299
+      }
+     ]
+    },
+    {
+     "show": "to open chests for him.",
+     "start": 82.359,
+     "end": 83.833,
+     "words": [
+      {
+       "text": "to",
+       "start": 82.359,
+       "end": 82.561
+      },
+      {
+       "text": "open",
+       "start": 82.561,
+       "end": 82.879
+      },
+      {
+       "text": "chests",
+       "start": 82.879,
+       "end": 83.313
+      },
+      {
+       "text": "for",
+       "start": 83.313,
+       "end": 83.573
+      },
+      {
+       "text": "him.",
+       "start": 83.573,
+       "end": 83.833
+      }
+     ]
+    },
+    {
+     "show": "{r:Hundreds} of them.",
+     "start": 84.133,
+     "end": 84.923,
+     "words": [
+      {
+       "text": "Hundreds",
+       "start": 84.133,
+       "end": 84.539
+      },
+      {
+       "text": "of",
+       "start": 84.539,
+       "end": 84.688
+      },
+      {
+       "text": "them.",
+       "start": 84.688,
+       "end": 84.923
+      }
+     ]
+    }
+   ],
+   "end": 85.223
+  },
+  {
+   "id": "three",
+   "label": "",
+   "start": 85.623,
+   "lines": [
+    {
+     "show": "I was there at {g:three.}",
+     "start": 85.623,
+     "end": 86.644,
+     "words": [
+      {
+       "text": "I",
+       "start": 85.623,
+       "end": 85.731
+      },
+      {
+       "text": "was",
+       "start": 85.731,
+       "end": 85.927
+      },
+      {
+       "text": "there",
+       "start": 85.927,
+       "end": 86.21
+      },
+      {
+       "text": "at",
+       "start": 86.21,
+       "end": 86.362
+      },
+      {
+       "text": "three.",
+       "start": 86.362,
+       "end": 86.644
+      }
+     ]
+    }
+   ],
+   "end": 86.944
+  },
+  {
+   "id": "hall",
+   "label": "",
+   "start": 87.344,
+   "lines": [
+    {
+     "show": "When the doors opened,",
+     "start": 87.344,
+     "end": 88.458,
+     "words": [
+      {
+       "text": "When",
+       "start": 87.344,
+       "end": 87.6
+      },
+      {
+       "text": "the",
+       "start": 87.6,
+       "end": 87.809
+      },
+      {
+       "text": "doors",
+       "start": 87.809,
+       "end": 88.11
+      },
+      {
+       "text": "opened,",
+       "start": 88.11,
+       "end": 88.458
+      }
+     ]
+    },
+    {
+     "show": "hundreds of chests were {y:glowing.}",
+     "start": 88.618,
+     "end": 90.023,
+     "words": [
+      {
+       "text": "hundreds",
+       "start": 88.618,
+       "end": 89.005
+      },
+      {
+       "text": "of",
+       "start": 89.005,
+       "end": 89.148
+      },
+      {
+       "text": "chests",
+       "start": 89.148,
+       "end": 89.453
+      },
+      {
+       "text": "were",
+       "start": 89.453,
+       "end": 89.677
+      },
+      {
+       "text": "glowing.",
+       "start": 89.677,
+       "end": 90.023
+      }
+     ]
+    },
+    {
+     "show": "Everyone opened at the same time.",
+     "start": 90.323,
+     "end": 91.914,
+     "words": [
+      {
+       "text": "Everyone",
+       "start": 90.323,
+       "end": 90.743
+      },
+      {
+       "text": "opened",
+       "start": 90.743,
+       "end": 91.074
+      },
+      {
+       "text": "at",
+       "start": 91.074,
+       "end": 91.229
+      },
+      {
+       "text": "the",
+       "start": 91.229,
+       "end": 91.428
+      },
+      {
+       "text": "same",
+       "start": 91.428,
+       "end": 91.671
+      },
+      {
+       "text": "time.",
+       "start": 91.671,
+       "end": 91.914
+      }
+     ]
+    },
+    {
+     "show": "{r:Empty.} {r:Empty.} {r:Empty.}",
+     "start": 92.214,
+     "end": 93.433,
+     "words": [
+      {
+       "text": "Empty.",
+       "start": 92.214,
+       "end": 92.62
+      },
+      {
+       "text": "Empty.",
+       "start": 92.62,
+       "end": 93.026
+      },
+      {
+       "text": "Empty.",
+       "start": 93.026,
+       "end": 93.433
+      }
+     ]
+    },
+    {
+     "show": "Somebody cried.",
+     "start": 93.733,
+     "end": 94.754,
+     "words": [
+      {
+       "text": "Somebody",
+       "start": 93.733,
+       "end": 94.339
+      },
+      {
+       "text": "cried.",
+       "start": 94.339,
+       "end": 94.754
+      }
+     ]
+    },
+    {
+     "show": "Somebody {r:kicked} a chest.",
+     "start": 95.054,
+     "end": 96.331,
+     "words": [
+      {
+       "text": "Somebody",
+       "start": 95.054,
+       "end": 95.521
+      },
+      {
+       "text": "kicked",
+       "start": 95.521,
+       "end": 95.889
+      },
+      {
+       "text": "a",
+       "start": 95.889,
+       "end": 96.012
+      },
+      {
+       "text": "chest.",
+       "start": 96.012,
+       "end": 96.331
+      }
+     ]
+    }
+   ],
+   "end": 96.631
+  },
+  {
+   "id": "turn",
+   "label": "",
+   "start": 97.031,
+   "lines": [
+    {
+     "show": "Then it was my turn.",
+     "start": 97.031,
+     "end": 97.972,
+     "words": [
+      {
+       "text": "Then",
+       "start": 97.031,
+       "end": 97.261
+      },
+      {
+       "text": "it",
+       "start": 97.261,
+       "end": 97.408
+      },
+      {
+       "text": "was",
+       "start": 97.408,
+       "end": 97.596
+      },
+      {
+       "text": "my",
+       "start": 97.596,
+       "end": 97.742
+      },
+      {
+       "text": "turn.",
+       "start": 97.742,
+       "end": 97.972
+      }
+     ]
+    },
+    {
+     "show": "I touched the lid,",
+     "start": 98.272,
+     "end": 99.131,
+     "words": [
+      {
+       "text": "I",
+       "start": 98.272,
+       "end": 98.379
+      },
+      {
+       "text": "touched",
+       "start": 98.379,
+       "end": 98.744
+      },
+      {
+       "text": "the",
+       "start": 98.744,
+       "end": 98.938
+      },
+      {
+       "text": "lid,",
+       "start": 98.938,
+       "end": 99.131
+      }
+     ]
+    },
+    {
+     "show": "and it was {r:warm.}",
+     "start": 99.291,
+     "end": 99.999,
+     "words": [
+      {
+       "text": "and",
+       "start": 99.291,
+       "end": 99.468
+      },
+      {
+       "text": "it",
+       "start": 99.468,
+       "end": 99.606
+      },
+      {
+       "text": "was",
+       "start": 99.606,
+       "end": 99.783
+      },
+      {
+       "text": "warm.",
+       "start": 99.783,
+       "end": 99.999
+      }
+     ]
+    },
+    {
+     "show": "Way too warm.",
+     "start": 100.299,
+     "end": 101.193,
+     "words": [
+      {
+       "text": "Way",
+       "start": 100.299,
+       "end": 100.577
+      },
+      {
+       "text": "too",
+       "start": 100.577,
+       "end": 100.854
+      },
+      {
+       "text": "warm.",
+       "start": 100.854,
+       "end": 101.193
+      }
+     ]
+    }
+   ],
+   "end": 101.493
+  },
+  {
+   "id": "open",
+   "label": "",
+   "start": 101.893,
+   "lines": [
+    {
+     "show": "I opened it,",
+     "start": 101.893,
+     "end": 102.578,
+     "words": [
+      {
+       "text": "I",
+       "start": 101.893,
+       "end": 102.02
+      },
+      {
+       "text": "opened",
+       "start": 102.02,
+       "end": 102.401
+      },
+      {
+       "text": "it,",
+       "start": 102.401,
+       "end": 102.578
+      }
+     ]
+    },
+    {
+     "show": "and the whole hall went {r:silent.}",
+     "start": 102.738,
+     "end": 104.085,
+     "words": [
+      {
+       "text": "and",
+       "start": 102.738,
+       "end": 102.916
+      },
+      {
+       "text": "the",
+       "start": 102.916,
+       "end": 103.095
+      },
+      {
+       "text": "whole",
+       "start": 103.095,
+       "end": 103.352
+      },
+      {
+       "text": "hall",
+       "start": 103.352,
+       "end": 103.57
+      },
+      {
+       "text": "went",
+       "start": 103.57,
+       "end": 103.788
+      },
+      {
+       "text": "silent.",
+       "start": 103.788,
+       "end": 104.085
+      }
+     ]
+    }
+   ],
+   "end": 104.385
+  },
+  {
+   "id": "coin",
+   "label": "",
+   "start": 104.785,
+   "lines": [
+    {
+     "show": "Inside was a coin.",
+     "start": 104.785,
+     "end": 106.016,
+     "words": [
+      {
+       "text": "Inside",
+       "start": 104.785,
+       "end": 105.246
+      },
+      {
+       "text": "was",
+       "start": 105.246,
+       "end": 105.523
+      },
+      {
+       "text": "a",
+       "start": 105.523,
+       "end": 105.677
+      },
+      {
+       "text": "coin.",
+       "start": 105.677,
+       "end": 106.016
+      }
+     ]
+    },
+    {
+     "show": "Black and {y:gold,}",
+     "start": 106.316,
+     "end": 107.228,
+     "words": [
+      {
+       "text": "Black",
+       "start": 106.316,
+       "end": 106.675
+      },
+      {
+       "text": "and",
+       "start": 106.675,
+       "end": 106.924
+      },
+      {
+       "text": "gold,",
+       "start": 106.924,
+       "end": 107.228
+      }
+     ]
+    },
+    {
+     "show": "with a {r:skull} on it.",
+     "start": 107.388,
+     "end": 108.317,
+     "words": [
+      {
+       "text": "with",
+       "start": 107.388,
+       "end": 107.626
+      },
+      {
+       "text": "a",
+       "start": 107.626,
+       "end": 107.734
+      },
+      {
+       "text": "skull",
+       "start": 107.734,
+       "end": 108.014
+      },
+      {
+       "text": "on",
+       "start": 108.014,
+       "end": 108.166
+      },
+      {
+       "text": "it.",
+       "start": 108.166,
+       "end": 108.317
+      }
+     ]
+    }
+   ],
+   "end": 108.617
+  },
+  {
+   "id": "token",
+   "label": "",
+   "start": 109.017,
+   "lines": [
+    {
+     "show": "The {y:Pirate Token.}",
+     "start": 109.017,
+     "end": 109.922,
+     "words": [
+      {
+       "text": "The",
+       "start": 109.017,
+       "end": 109.237
+      },
+      {
+       "text": "Pirate",
+       "start": 109.237,
+       "end": 109.604
+      },
+      {
+       "text": "Token.",
+       "start": 109.604,
+       "end": 109.922
+      }
+     ]
+    }
+   ],
+   "end": 110.222
+  },
+  {
+   "id": "shake",
+   "label": "",
+   "start": 110.622,
+   "lines": [
+    {
+     "show": "My hands were {r:shaking.}",
+     "start": 110.622,
+     "end": 111.76,
+     "words": [
+      {
+       "text": "My",
+       "start": 110.622,
+       "end": 110.788
+      },
+      {
+       "text": "hands",
+       "start": 110.788,
+       "end": 111.096
+      },
+      {
+       "text": "were",
+       "start": 111.096,
+       "end": 111.357
+      },
+      {
+       "text": "shaking.",
+       "start": 111.357,
+       "end": 111.76
+      }
+     ]
+    },
+    {
+     "show": "Mia was right behind me.",
+     "start": 112.06,
+     "end": 113.384,
+     "words": [
+      {
+       "text": "Mia",
+       "start": 112.06,
+       "end": 112.285
+      },
+      {
+       "text": "was",
+       "start": 112.285,
+       "end": 112.51
+      },
+      {
+       "text": "right",
+       "start": 112.51,
+       "end": 112.834
+      },
+      {
+       "text": "behind",
+       "start": 112.834,
+       "end": 113.209
+      },
+      {
+       "text": "me.",
+       "start": 113.209,
+       "end": 113.384
+      }
+     ]
+    },
+    {
+     "show": "Her mouth was wide open.",
+     "start": 113.684,
+     "end": 114.856,
+     "words": [
+      {
+       "text": "Her",
+       "start": 113.684,
+       "end": 113.883
+      },
+      {
+       "text": "mouth",
+       "start": 113.883,
+       "end": 114.17
+      },
+      {
+       "text": "was",
+       "start": 114.17,
+       "end": 114.37
+      },
+      {
+       "text": "wide",
+       "start": 114.37,
+       "end": 114.613
+      },
+      {
+       "text": "open.",
+       "start": 114.613,
+       "end": 114.856
+      }
+     ]
+    }
+   ],
+   "end": 115.156
+  },
+  {
+   "id": "screen",
+   "label": "",
+   "start": 115.556,
+   "lines": [
+    {
+     "show": "My screen lit up.",
+     "start": 115.556,
+     "end": 116.436,
+     "words": [
+      {
+       "text": "My",
+       "start": 115.556,
+       "end": 115.718
+      },
+      {
+       "text": "screen",
+       "start": 115.718,
+       "end": 116.066
+      },
+      {
+       "text": "lit",
+       "start": 116.066,
+       "end": 116.274
+      },
+      {
+       "text": "up.",
+       "start": 116.274,
+       "end": 116.436
+      }
+     ]
+    },
+    {
+     "show": "{g:Shop unlocked.}",
+     "start": 116.736,
+     "end": 117.595,
+     "words": [
+      {
+       "text": "Shop",
+       "start": 116.736,
+       "end": 117.051
+      },
+      {
+       "text": "unlocked.",
+       "start": 117.051,
+       "end": 117.595
+      }
+     ]
+    },
+    {
+     "show": "{y:Fourteen days.}",
+     "start": 117.895,
+     "end": 118.998,
+     "words": [
+      {
+       "text": "Fourteen",
+       "start": 117.895,
+       "end": 118.593
+      },
+      {
+       "text": "days.",
+       "start": 118.593,
+       "end": 118.998
+      }
+     ]
+    }
+   ],
+   "end": 119.298
+  },
+  {
+   "id": "stare",
+   "label": "",
+   "start": 119.698,
+   "lines": [
+    {
+     "show": "Everyone was staring at me.",
+     "start": 119.698,
+     "end": 121.021,
+     "words": [
+      {
+       "text": "Everyone",
+       "start": 119.698,
+       "end": 120.124
+      },
+      {
+       "text": "was",
+       "start": 120.124,
+       "end": 120.326
+      },
+      {
+       "text": "staring",
+       "start": 120.326,
+       "end": 120.707
+      },
+      {
+       "text": "at",
+       "start": 120.707,
+       "end": 120.864
+      },
+      {
+       "text": "me.",
+       "start": 120.864,
+       "end": 121.021
+      }
+     ]
+    },
+    {
+     "show": "Then the rich guy pushed through the crowd.",
+     "start": 121.321,
+     "end": 123.005,
+     "words": [
+      {
+       "text": "Then",
+       "start": 121.321,
+       "end": 121.518
+      },
+      {
+       "text": "the",
+       "start": 121.518,
+       "end": 121.679
+      },
+      {
+       "text": "rich",
+       "start": 121.679,
+       "end": 121.876
+      },
+      {
+       "text": "guy",
+       "start": 121.876,
+       "end": 122.037
+      },
+      {
+       "text": "pushed",
+       "start": 122.037,
+       "end": 122.306
+      },
+      {
+       "text": "through",
+       "start": 122.306,
+       "end": 122.611
+      },
+      {
+       "text": "the",
+       "start": 122.611,
+       "end": 122.772
+      },
+      {
+       "text": "crowd.",
+       "start": 122.772,
+       "end": 123.005
+      }
+     ]
+    }
+   ],
+   "end": 123.305
+  },
+  {
+   "id": "whisper",
+   "label": "",
+   "start": 123.705,
+   "lines": [
+    {
+     "show": "He didn't offer money this time.",
+     "start": 123.705,
+     "end": 125.284,
+     "words": [
+      {
+       "text": "He",
+       "start": 123.705,
+       "end": 123.867
+      },
+      {
+       "text": "didn't",
+       "start": 123.867,
+       "end": 124.169
+      },
+      {
+       "text": "offer",
+       "start": 124.169,
+       "end": 124.471
+      },
+      {
+       "text": "money",
+       "start": 124.471,
+       "end": 124.773
+      },
+      {
+       "text": "this",
+       "start": 124.773,
+       "end": 125.028
+      },
+      {
+       "text": "time.",
+       "start": 125.028,
+       "end": 125.284
+      }
+     ]
+    },
+    {
+     "show": "He just whispered:",
+     "start": 125.584,
+     "end": 126.455,
+     "words": [
+      {
+       "text": "He",
+       "start": 125.584,
+       "end": 125.74
+      },
+      {
+       "text": "just",
+       "start": 125.74,
+       "end": 125.986
+      },
+      {
+       "text": "whispered:",
+       "start": 125.986,
+       "end": 126.455
+      }
+     ]
+    },
+    {
+     "show": "You don't know what that token",
+     "start": 126.615,
+     "end": 127.776,
+     "words": [
+      {
+       "text": "You",
+       "start": 126.615,
+       "end": 126.773
+      },
+      {
+       "text": "don't",
+       "start": 126.773,
+       "end": 126.966
+      },
+      {
+       "text": "know",
+       "start": 126.966,
+       "end": 127.16
+      },
+      {
+       "text": "what",
+       "start": 127.16,
+       "end": 127.353
+      },
+      {
+       "text": "that",
+       "start": 127.353,
+       "end": 127.547
+      },
+      {
+       "text": "token",
+       "start": 127.547,
+       "end": 127.776
+      }
+     ]
+    },
+    {
+     "show": "{r:really} does.",
+     "start": 127.836,
+     "end": 128.544,
+     "words": [
+      {
+       "text": "really",
+       "start": 127.836,
+       "end": 128.244
+      },
+      {
+       "text": "does.",
+       "start": 128.244,
+       "end": 128.544
+      }
+     ]
+    }
+   ],
+   "end": 128.844
+  },
+  {
+   "id": "smile",
+   "label": "",
+   "start": 129.244,
+   "lines": [
+    {
+     "show": "Then he looked at {y:Mia.}",
+     "start": 129.244,
+     "end": 130.161,
+     "words": [
+      {
+       "text": "Then",
+       "start": 129.244,
+       "end": 129.45
+      },
+      {
+       "text": "he",
+       "start": 129.45,
+       "end": 129.581
+      },
+      {
+       "text": "looked",
+       "start": 129.581,
+       "end": 129.861
+      },
+      {
+       "text": "at",
+       "start": 129.861,
+       "end": 129.993
+      },
+      {
+       "text": "Mia.",
+       "start": 129.993,
+       "end": 130.161
+      }
+     ]
+    },
+    {
+     "show": "And {r:smiled.}",
+     "start": 130.461,
+     "end": 131.297,
+     "words": [
+      {
+       "text": "And",
+       "start": 130.461,
+       "end": 130.774
+      },
+      {
+       "text": "smiled.",
+       "start": 130.774,
+       "end": 131.297
+      }
+     ]
+    }
+   ],
+   "end": 131.597
+  },
+  {
+   "id": "night",
+   "label": "",
+   "start": 131.997,
+   "lines": [
+    {
+     "show": "That night, someone {r:knocked} on our door.",
+     "start": 131.997,
+     "end": 133.954,
+     "words": [
+      {
+       "text": "That",
+       "start": 131.997,
+       "end": 132.25
+      },
+      {
+       "text": "night,",
+       "start": 132.25,
+       "end": 132.55
+      },
+      {
+       "text": "someone",
+       "start": 132.55,
+       "end": 132.941
+      },
+      {
+       "text": "knocked",
+       "start": 132.941,
+       "end": 133.333
+      },
+      {
+       "text": "on",
+       "start": 133.333,
+       "end": 133.494
+      },
+      {
+       "text": "our",
+       "start": 133.494,
+       "end": 133.701
+      },
+      {
+       "text": "door.",
+       "start": 133.701,
+       "end": 133.954
+      }
+     ]
+    },
+    {
+     "show": "{r:Three} times.",
+     "start": 134.254,
+     "end": 135.09,
+     "words": [
+      {
+       "text": "Three",
+       "start": 134.254,
+       "end": 134.672
+      },
+      {
+       "text": "times.",
+       "start": 134.672,
+       "end": 135.09
+      }
+     ]
+    },
+    {
+     "show": "Mia ran into my room.",
+     "start": 135.39,
+     "end": 136.656,
+     "words": [
+      {
+       "text": "Mia",
+       "start": 135.39,
+       "end": 135.633
+      },
+      {
+       "text": "ran",
+       "start": 135.633,
+       "end": 135.875
+      },
+      {
+       "text": "into",
+       "start": 135.875,
+       "end": 136.171
+      },
+      {
+       "text": "my",
+       "start": 136.171,
+       "end": 136.36
+      },
+      {
+       "text": "room.",
+       "start": 136.36,
+       "end": 136.656
+      }
+     ]
+    },
+    {
+     "show": "Leo, she whispered,",
+     "start": 136.956,
+     "end": 138.221,
+     "words": [
+      {
+       "text": "Leo,",
+       "start": 136.956,
+       "end": 137.248
+      },
+      {
+       "text": "she",
+       "start": 137.248,
+       "end": 137.54
+      },
+      {
+       "text": "whispered,",
+       "start": 137.54,
+       "end": 138.221
+      }
+     ]
+    },
+    {
+     "show": "that's the same knock",
+     "start": 138.381,
+     "end": 139.295,
+     "words": [
+      {
+       "text": "that's",
+       "start": 138.381,
+       "end": 138.64
+      },
+      {
+       "text": "the",
+       "start": 138.64,
+       "end": 138.818
+      },
+      {
+       "text": "same",
+       "start": 138.818,
+       "end": 139.037
+      },
+      {
+       "text": "knock",
+       "start": 139.037,
+       "end": 139.295
+      }
+     ]
+    },
+    {
+     "show": "the girl's family heard.",
+     "start": 139.355,
+     "end": 140.62,
+     "words": [
+      {
+       "text": "the",
+       "start": 139.355,
+       "end": 139.583
+      },
+      {
+       "text": "girl's",
+       "start": 139.583,
+       "end": 139.912
+      },
+      {
+       "text": "family",
+       "start": 139.912,
+       "end": 140.291
+      },
+      {
+       "text": "heard.",
+       "start": 140.291,
+       "end": 140.62
+      }
+     ]
+    },
+    {
+     "show": "And when I looked at the token,",
+     "start": 140.92,
+     "end": 142.114,
+     "words": [
+      {
+       "text": "And",
+       "start": 140.92,
+       "end": 141.076
+      },
+      {
+       "text": "when",
+       "start": 141.076,
+       "end": 141.266
+      },
+      {
+       "text": "I",
+       "start": 141.266,
+       "end": 141.353
+      },
+      {
+       "text": "looked",
+       "start": 141.353,
+       "end": 141.612
+      },
+      {
+       "text": "at",
+       "start": 141.612,
+       "end": 141.733
+      },
+      {
+       "text": "the",
+       "start": 141.733,
+       "end": 141.889
+      },
+      {
+       "text": "token,",
+       "start": 141.889,
+       "end": 142.114
+      }
+     ]
+    },
+    {
+     "show": "it was {r:counting down.}",
+     "start": 142.274,
+     "end": 143.353,
+     "words": [
+      {
+       "text": "it",
+       "start": 142.274,
+       "end": 142.438
+      },
+      {
+       "text": "was",
+       "start": 142.438,
+       "end": 142.649
+      },
+      {
+       "text": "counting",
+       "start": 142.649,
+       "end": 143.095
+      },
+      {
+       "text": "down.",
+       "start": 143.095,
+       "end": 143.353
+      }
+     ]
+    }
+   ],
+   "end": 143.653
+  }
+ ]
+}

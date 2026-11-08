@@ -49,7 +49,15 @@ Sprechtempo schnell und durchgehend (~2,8–3 Wörter/s), keine Pausen, ruhige E
 Voiceover dominant, leise Hintergrundmusik (Horror: Spannungs-Drone; Comedy: lockerer Beat), Whoosh bei Schnitten,
 Ka-ching/Kasse bei Geld, Herzschlag/Ticken bei Countdown. Musik kommt in der TikTok-App drunter.
 
-## Umsetzung (Plan)
+## Umsetzung
+
+**Vorlage: `videos/16-pirate-token/build.py`** (Pirate Token, Englisch, 2:25, 85 Einstellungen). Aufbau: eine Einstellung pro
+Sprechzeile (`S`-Liste, harter Schnitt bei Zeilenstart), Sets weit auseinander in einer Szene (Stadt bei x=0, Halle x=200,
+Zimmer x=−200, Token-Bühne z=400), `makeChar` (Klötzchen-Figur, Gesichts-Decals per Ausdruck), `pose` (walk/run/wave/up/
+holdUp/reach/kick/…), Crowd-Modi, Canvas-Bildschirme (Billboard, Uhr, Handy, Countdown), Ein-Wort-Untertitel in Lilita One
+(`tools/fonts/`). Nahaufnahmen: Kamera nie hinter einen aufgehenden Truhendeckel stellen.
+
+### Ursprünglicher Plan
 
 Three.js-Pipeline aus `videos/05-hochbeet/` wiederverwenden (prozedurale Canvas-Texturen, `SHOTS`-Kameraschnitte,
 schwebende HTML-Labels). Neu dazu: Baukasten für Blockfiguren (Kopf/Torso/Arme/Beine, Gesichts-Decals per Canvas,
