@@ -363,7 +363,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   house(-1, 1, { col: "#D8E2C6" }); house(-1, 19, { col: "#F3E3B5" }); house(-1, -5, { col: "#C9C3E6" }); house(-1, -23, { col: "#E6D3C3" }); house(1, 25, { col: "#CFE8E0" });
   house(1, 7, { col: "#F0D7A8" }); house(-1, 28, { col: "#E9E2D0" }); house(-1, -32, { col: "#D2DCE8" }); house(1, -32, { col: "#EAD2DC" });
   // Shop (rechts, z = -2)
-  const shop = house(1, -2, { w: 8, h: 5, flat: true, wall: std({ map: brickT }), door: 0x2B2B2B, wins: [[-2.6, 1.7], [2.6, 1.7]] });
+  const shop = house(1, -2, { w: 8, h: 5, flat: true, wall: std({ map: brickT }), door: 0x2B2B2B, darkW: true, wins: [[-2.6, 1.7], [2.6, 1.7]] });
   const shopSign = screen(4.2, 1.2, 512, 146, drawShopSign); shopSign.position.set(0, 3.9, 0.12); shop.add(shopSign);
   const SHOPNAME = screen(3, 0.8, 384, 102, (g, k, w, h) => { g.fillStyle = "#101320"; g.fillRect(0, 0, w, h); glowText(g, "ITEM SHOP", w / 2, h / 2 + 3, h * 0.6, "#FFC531"); }); SHOPNAME.position.set(0, 5.4, 0.15); shop.add(SHOPNAME); SHOPNAME.userData.set("x");
   for (let i = 0; i < 6; i++) { const it = box(0.4, 0.4, 0.4, std({ color: SHIRT[i], emissive: SHIRT[i], emissiveIntensity: 0.2 }), (i < 3 ? -2.6 : 2.6) + ((i % 3) - 1) * 0.42, 1.5, 0.2, shop, false); it.rotation.y = 0.6; }
@@ -385,7 +385,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const clock = screen(2.8, 1.1, 336, 132, drawClock); clock.position.set(0, 6.3, 0.08); hallB.add(clock);
   // Laternen, Bäume, Schild "FOR SALE"
   const lampLights = [];
-  for (const [x, z] of [[-4.6, 14], [4.6, 4], [-4.6, -6], [4.6, -16], [-4.6, -26], [4.6, -34], [-4.6, 24]]) {
+  for (const [x, z] of [[-4.6, 14], [4.6, -11], [-4.6, -6], [4.6, -16], [-4.6, -26], [4.6, -34], [-4.6, 24]]) {
     box(0.18, 4.4, 0.18, std({ color: 0x2B2B33, metalness: 0.5 }), x, 2.2, z, street); box(0.9 * Math.sign(-x), 0.14, 0.14, std({ color: 0x2B2B33 }), x - 0.45 * Math.sign(x), 4.35, z, street);
     const bulb = box(0.4, 0.2, 0.4, litWin.clone(), x - 0.85 * Math.sign(x), 4.2, z, street, false); nightWins.push(bulb.material);
     const pl = new THREE.PointLight(0xFFB566, 0, 14, 1.6); pl.position.set(x - 0.85 * Math.sign(x), 4.0, z); street.add(pl); lampLights.push(pl); }
@@ -583,8 +583,8 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const SAM = 0.15, GOLD = 9;
   const S = [
     /* 1  */ { m: "day", cr: "sizes", cam: { p: [8, 22, 38], p2: [6, 18, 29], t: [0, 0, -25], fov: 50 } },
-    /* 2  */ { m: "day", ruler: [5.5, -1.6], cast: [["npc1", 4.4, -1.6, -90, "idle", "smile"]], cam: { p: [0.6, 2.6, 2.6], t: [4.8, 2.6, -1.6], fov: 50 } },
-    /* 3  */ { m: "day", ruler: [5.5, -1.6], lab: ["+$1,000", "g", [4.4, 5.0, -1.6]], cast: [["npc1", 4.4, -1.6, -90, "up", "grin", { s: 1, sTo: [1.6, KW.taller - 0.6, 0.9] }]], cam: { p: [0.2, 3.0, 3.0], t: [4.8, 3.0, -1.6], fov: 52 } },
+    /* 2  */ { m: "day", ruler: [6.6, 2.75], cast: [["npc1", 5.4, 2.75, -90, "idle", "smile"]], cam: { p: [1.4, 2.6, 6.4], t: [5.9, 2.6, 2.75], fov: 50 } },
+    /* 3  */ { m: "day", ruler: [6.6, 2.75], lab: ["+$1,000", "g", [5.4, 5.0, 2.75]], cast: [["npc1", 5.4, 2.75, -90, "up", "grin", { s: 1, sTo: [1.6, KW.taller - 0.6, 0.9] }]], cam: { p: [1.0, 3.0, 6.8], t: [5.9, 3.0, 2.75], fov: 52 } },
     /* 4  */ { m: "day", cat: [-3.4, 4.6, 40], lab: ["$10", "r", [-3.0, 1.3, 4.4]], cast: [["npc2", -2.8, 4.3, -30, "idle", "sad", { s: 0.24 }]], cam: { p: [-1.6, 0.5, 6.2], t: [-3.1, 0.45, 4.4], fov: 46, tight: 1 } },
     /* 5  */ { m: "day", lab: ["$1,000", "y", [-3.0, 3.6, 4.4]], cast: [["npc2", -3.0, 4.4, 20, "idle", "neutral"]], cam: { p: [-1.2, 2.2, 8.6], t: [-3.0, 1.8, 4.4], fov: 46 } },
     /* 6  */ { m: "day", lab: ["$1,000,000", "g", [-5, 13, 2]], cast: [["winner", -5, 2, 60, "idle", "smirk", { s: 4.4 }]], cam: { p: [6, 1.5, 16], t: [-5, 7, 0], fov: 60 } },
@@ -593,9 +593,9 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* 9  */ { m: "day", peanut: [-1.15, 5.0], lab: ["NEWBORN", "y", [-1.0, 0.55, 5.0]], cast: [["baby", -0.85, 5.0, -20, "idle", "smile", { s: 0.07 }]], cam: { p: [-0.6, 0.22, 5.75], t: [-0.95, 0.12, 5.0], fov: 44, tight: 1 } },
     /* 10 */ { m: "day", plane: 1, cast: [["grandpa", -2, -6, 30, "idle", "scared", { s: 10 }]], cam: { p: [10, 6, 24], t: [-1, 18, -6], fov: 62 } },
     /* 11 */ { m: "day", cast: [["rich", 1.6, 1.0, -120, "idle", "smirk", { s: 3 }], ["npc1", -0.4, 0.1, 70, "idle", "sad"]], cam: { p: [-1.5, 0.6, 2.2], t: [1.4, 5.5, 1.0], fov: 58, tight: 1 } },
-    /* 12 */ { m: "day", shop: "price", lab: ["-$80", "r", [4.6, 3.2, -2.2]], cast: [["shopper", 4.6, -2.2, -60, "sad2", "shock", { s: 1, sTo: [0.5, KW.shrink, 0.6] }]], cam: { p: [1.2, 2.0, 1.5], t: [4.8, 1.4, -2.2], fov: 50 } },
+    /* 12 */ { m: "day", shop: "price", lab: ["-$80", "r", [4.6, 3.2, -2.2]], cast: [["shopper", 4.6, -2.2, -60, "sad2", "shock", { s: 1, sTo: [0.5, KW.shrink, 0.6] }]], cam: { p: [1.0, 2.4, 2.4], t: [4.8, 2.2, -2.2], fov: 52 } },
     /* 13 */ { m: "day", debris: [-6.4, 5.5, -5], lab: ["+$1,000,000", "g", [-5.4, 13, -5]], cast: [["winner", -5.4, -5, 90, "up", "grin", { s: 1, sTo: [5, KW.shoot, 0.7] }]], cam: { p: [3, 2, 7], t: [-5, 6, -5], fov: 60 } },
-    /* 14 */ { m: "day", ruler: [5.5, -1.6], cast: [["npc2", 4.5, -1.6, -90, "idle", "neutral", { s: 1.3 }]], lab: ["$12,400", "g", [5.5, 4.4, -1.4]], cam: { p: [0.4, 2.4, 2.0], t: [5, 2.8, -1.6], fov: 52 } },
+    /* 14 */ { m: "day", ruler: [6.6, 2.75], cast: [["npc2", 5.5, 2.75, -90, "idle", "neutral", { s: 1.3 }]], lab: ["$12,400", "g", [6.5, 4.4, 2.75]], cam: { p: [1.2, 2.5, 6.2], t: [6.0, 2.8, 2.75], fov: 52 } },
     /* 15 */ { m: "day", cr: "sizes", cam: { p: [-3, 3, 14], p2: [-2, 3.6, 11], t: [1, 3, -8], fov: 55 } },
     /* 16 */ { m: "day", lab: ["SAM · 15", "y", [-3.0, 0.65, 4.4]], cast: [["sam", -3.0, 4.4, 20, "wave", "smile", { s: SAM }]], cam: { face: "sam", d: 1.6, dx: 0.2, fov: 46 } },
     /* 17 */ { m: "day", lab: ["4 INCHES", "r", [-3.0, 0.7, 4.4]], cast: [["sam", -3.0, 4.4, 20, "idle", "sad", { s: SAM }], ["npc1", -2.0, 4.2, -80, "walk", "neutral", { to: [-4.6, 4.2], dur: 2 }]], cam: { p: [-2.2, 0.35, 6.4], t: [-3.0, 0.6, 4.2], fov: 54, tight: 1 } },
@@ -645,7 +645,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   ];
   function LS0(i) { return LS[i]; }
 
-  function placeCrowd(mode, u, s, t) {
+  function placeCrowd(mode, u, s, t, camP) {
     CROWD.forEach((c) => { c.root.visible = false; c.lamp.visible = false; c.root.scale.setScalar(1); });
     if (!mode) return;
     CROWD.forEach((c, i) => {
@@ -654,6 +654,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
       const side = i % 2 ? 1 : -1; let x = side * (4.6 + b * 1.0), z = 30 - a * 62, ry = 180, p = "walk", e = "smile", sc = 1;
       if (mode === "sizes") { sc = [0.3, 0.6, 1, 1, 1.6, 2.5, 4][Math.floor(d * 7)]; x = side * (2.5 + b * 2.5); z -= u * (1 + b * 0.5) * Math.sqrt(sc); e = sc > 2 ? "smirk" : sc < 0.7 ? "sad" : "smile"; }
       if (mode === "look") { p = "idle"; ry = 90 + (b - 0.5) * 40; z = -8 - a * 14; x = (b - 0.5) * 7; e = "shock"; }
+      if (camP && Math.hypot(x - camP[0], 1.3 * sc - camP[1], z - camP[2]) < 9 + 3 * sc + (camP[1] > 10 ? 16 : 0)) return;
       c.root.visible = true; c.root.position.set(x, 0, z); c.root.rotation.y = ry * D2R; c.root.scale.setScalar(sc); c.setEx(e); pose(c, p, u + a * 3);
     });
   }
@@ -691,7 +692,6 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
       ch.setEx(o.exAfter && t >= o.exAfter[0] ? o.exAfter[1] : ex); pose(ch, P, u);
       castPos[name] = [X, Z, r, sc, ch.root.position.y];
     });
-    placeCrowd(s.cr, u, s, t0);
     billboard.userData.set(s.bb || "games"); shopSign.userData.set(s.shop || "price"); clock.userData.set("8:00");
     doorL.position.x = -1.0; doorR.position.x = 1.0; doorGlow.visible = false; bus.visible = false; car.visible = false;
     // Requisiten
@@ -733,6 +733,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     else { const p2 = c.p2 || [c.p[0] + (c.t[0] - c.p[0]) * 0.08, c.p[1] + (c.t[1] - c.p[1]) * 0.08, c.p[2] + (c.t[2] - c.p[2]) * 0.08];
       P = [0, 1, 2].map((k) => c.p[k] + (p2[k] - c.p[k]) * p); const t2 = c.t2 || c.t; Tg = [0, 1, 2].map((k) => c.t[k] + (t2[k] - c.t[k]) * p);
       const dd = Math.hypot(P[0] - Tg[0], P[1] - Tg[1], P[2] - Tg[2]); if (!c.tight && dd < 3.2) { const f = 1.5; P = [0, 1, 2].map((k) => Tg[k] + (P[k] - Tg[k]) * f); } }
+    placeCrowd(s.cr, u, s, t0, P);
     camera.position.set(...P); look.set(...Tg); camera.fov = c.fov; camera.updateProjectionMatrix(); camera.lookAt(look);
     const sd = Math.max(14, Math.hypot(P[0] - Tg[0], P[1] - Tg[1], P[2] - Tg[2]) * 0.9);
     Object.assign(sun.shadow.camera, { left: -sd, right: sd, top: sd, bottom: -sd, far: sd * 6 }); sun.shadow.camera.updateProjectionMatrix();
