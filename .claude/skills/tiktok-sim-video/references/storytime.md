@@ -72,3 +72,30 @@ Posen + einfache Geh-/Wink-Animation), Gebäude-Kit (Haus, Laden, City Hall, Lat
 - Schnitte: `SHOT_LINES` fasst kurze Zeilen zusammen, Ziel ~2 s pro Einstellung (Referenzen 2,0–2,7 s).
 - Musik: `eleven_music_v2_5`, instrumental, 150 s; `build.py` legt sie auf −29 LUFS unter die Stimme (Referenzen: Musikteppich
   ca. −30 bis −34 dB), Fade-out am Ende.
+
+## Zweite Referenz-Runde (Nov. 2026): 4 Videos, gleicher Kanal-Stil (hell, bunt, Neon-Gelb-Untertitel)
+
+| Ref | Hook | Länge | Schnitt alle | Ende |
+|---|---|---|---|---|
+| D | „In this town, the higher you live, the richer you are“ (Holzhütte am Boden ↔ Milliardäre auf Wolkenkratzern, Leiter, Aufzug „FLOOR 200“, Scanner) | 2:04 | 2,2 s | – |
+| E | „In this town, every living thing is the opposite size“ (Babys 50 ft groß, Ameisen so groß wie Elefanten, Opas so klein wie eine Kaffeetasse) | 2:15 | 1,4 s | Pointe: „Mom is having twins … we're gonna need a bigger house.“ |
+| F | „In this town, you get paid for being embarrassed“ ($500 → $5,000 → $100,000) | 2:26 | 1,9 s | Mama zeigt Babyfotos im Stadion → Konto explodiert auf $100 Mio. |
+| G | „In this town, everyone is a ninja – except me“ | 2:25 | 2,3 s | Held ohne Kräfte zerstört die Maschine → Moral: „real ninjas don't need magic“ |
+
+Gemessen: −14 bis −18,5 LUFS, Musikteppich ca. −35 dB (leiser als Runde 1), Erzählstimme F0 ≈ 205–213 Hz (dieselbe junge Stimme
+in allen vier → passt zu „In This town“), ca. 400–470 Wörter ≈ 3,2 Wörter/s.
+
+**Dramaturgie Runde 2 (anders als Runde 1!): komplette Geschichte mit Auflösung + Pointe statt Cliffhanger**
+1. Hook-Regel + **3 Beispiele mit steigender Zahl/Größe** („$500 … $5,000 … $100,000“, „ants the size of elephants“).
+2. Weltbau-Montage (5–8 absurde Details, je 1 Bild): Ausnahmen, Alltag, Haustiere, Schule.
+3. „My name is X, I'm 16, and I have one huge problem“ → der Held ist die **Ausnahme** (keine Kräfte, $0, wohnt ganz unten).
+4. 2–3 gescheiterte Versuche (Komik), Zähler bleibt bei „$0“.
+5. Großes Ereignis (Wettbewerb im Stadion vor 100.000 Leuten / Angriff auf das Dorf / Baby läuft Amok).
+6. Wendung: die Schwäche wird zur Stärke (der Held ohne Kräfte ist als Einziger nicht betroffen; das Peinlichste macht ihn reich).
+7. Triumph: Konfetti, Geldregen, Zähler explodiert, Menge jubelt; letzte Zeile = Pointe oder Moral, die den Anfang aufgreift.
+
+**Visuell neu:** extreme Perspektiven (Froschperspektive Wolkenkratzer, Vogelperspektive), Maßstabs-Gags (Riesen-Baby, Mini-Opa),
+große Menschenmengen (Stadion), Farbumschwung bei Gefahr (Ninja-Dorf: alles rot getönt, danach wieder pastell),
+Effekte (Konfetti, Geldscheine, Funken, Kirschblüten, Explosion/Rauch), Kostüm-Requisiten (Hühnerkostüm, Badeente, Pylonen-Hut),
+Zähler/Bildschirme in der Welt („$0“ → „$100,000,000“, „FLOOR 200“, „SCANNING…“, „GRAND PRIZE $10,000,000“).
+Pro Beat ein neuer Ort (Straße, Schulflur mit Spinden, Stadion, Dorf, Wohnzimmer).
