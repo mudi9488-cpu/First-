@@ -62,3 +62,13 @@ holdUp/reach/kick/…), Crowd-Modi, Canvas-Bildschirme (Billboard, Uhr, Handy, C
 Three.js-Pipeline aus `videos/05-hochbeet/` wiederverwenden (prozedurale Canvas-Texturen, `SHOTS`-Kameraschnitte,
 schwebende HTML-Labels). Neu dazu: Baukasten für Blockfiguren (Kopf/Torso/Arme/Beine, Gesichts-Decals per Canvas,
 Posen + einfache Geh-/Wink-Animation), Gebäude-Kit (Haus, Laden, City Hall, Laterne, Baum, Auto) und Ein-Wort-Untertitel.
+
+## Stimme + Musik über ElevenLabs (seit Video 17, `videos/17-red-light/`)
+
+- Stimme: ElevenLabs-Stimme **„In This town“** (voice_id `zrH6TtgZnrCw5V6iLzqf`, Modell `eleven_v4`), ganzer Text in einem Durchgang
+  (Absatz pro Beat). Download braucht den Host `elevenlabsusercontent.com` (in der Umgebung „Mudi“ freigegeben).
+- Wortgenaue Zeiten: Take als Asset-Knoten anlegen → `creative_transcribe_audio` (Scribe, 0 Credits) → `words.json` laden →
+  `python3 tools/words_align.py <projekt> assets/source/voice-a.mp3 assets/source/words.json`.
+- Schnitte: `SHOT_LINES` fasst kurze Zeilen zusammen, Ziel ~2 s pro Einstellung (Referenzen 2,0–2,7 s).
+- Musik: `eleven_music_v2_5`, instrumental, 150 s; `build.py` legt sie auf −29 LUFS unter die Stimme (Referenzen: Musikteppich
+  ca. −30 bis −34 dB), Fade-out am Ende.
