@@ -1,0 +1,336 @@
+{
+ "title": "The Red Light",
+ "voice": "ElevenLabs: In This town",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town, every time you lie,"
+    },
+    {
+     "show": "a {r:red light} turns on above your head."
+    },
+    {
+     "show": "And it stays on for {y:24 hours.}"
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "Lie to your teacher? {r:Red light.}"
+    },
+    {
+     "show": "Lie to your mom? {r:Red light.}"
+    },
+    {
+     "show": "Even tiny lies count."
+    },
+    {
+     "show": "Even \"I'm {r:fine.}\""
+    }
+   ]
+  },
+  {
+   "id": "cost",
+   "label": "",
+   "lines": [
+    {
+     "show": "And if your light is on,"
+    },
+    {
+     "show": "you can't go into any {r:shop,}"
+    },
+    {
+     "show": "you can't take the {r:bus,}"
+    },
+    {
+     "show": "and {r:nobody} is allowed to talk to you."
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "label": "",
+   "lines": [
+    {
+     "show": "So everyone in this town tells the {g:truth.}"
+    },
+    {
+     "show": "Always."
+    },
+    {
+     "show": "Even when your best friend asks"
+    },
+    {
+     "show": "if his new {y:haircut} looks good."
+    }
+   ]
+  },
+  {
+   "id": "hair",
+   "label": "",
+   "lines": [
+    {
+     "show": "It doesn't."
+    },
+    {
+     "show": "And he {r:knows} it."
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is {y:Noah.}"
+    },
+    {
+     "show": "I'm fourteen."
+    },
+    {
+     "show": "And in my whole life,"
+    },
+    {
+     "show": "my light has {g:never} turned on."
+    },
+    {
+     "show": "Not once."
+    }
+   ]
+  },
+  {
+   "id": "medal",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last year, the mayor even gave me a {y:gold medal.}"
+    },
+    {
+     "show": "The most honest kid in town."
+    },
+    {
+     "show": "My face was on every screen."
+    }
+   ]
+  },
+  {
+   "id": "but",
+   "label": "",
+   "lines": [
+    {
+     "show": "But last Monday,"
+    },
+    {
+     "show": "something {r:weird} happened."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "label": "",
+   "lines": [
+    {
+     "show": "I woke up, looked out of my window,"
+    },
+    {
+     "show": "and every single person on the street"
+    },
+    {
+     "show": "had a {r:red light.}"
+    },
+    {
+     "show": "The bus driver."
+    },
+    {
+     "show": "The baker."
+    },
+    {
+     "show": "My teacher."
+    },
+    {
+     "show": "{r:Everyone.}"
+    }
+   ]
+  },
+  {
+   "id": "except",
+   "label": "",
+   "lines": [
+    {
+     "show": "Everyone {g:except me.}"
+    }
+   ]
+  },
+  {
+   "id": "screens",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then every screen in town turned on."
+    },
+    {
+     "show": "The mayor said:"
+    },
+    {
+     "show": "{r:Stay inside.}"
+    },
+    {
+     "show": "Nobody leaves their house today."
+    }
+   ]
+  },
+  {
+   "id": "mom",
+   "label": "",
+   "lines": [
+    {
+     "show": "I ran downstairs."
+    },
+    {
+     "show": "My mom was sitting in the kitchen."
+    },
+    {
+     "show": "Her light was {r:red} too."
+    },
+    {
+     "show": "But she hadn't said a single word"
+    },
+    {
+     "show": "all morning."
+    }
+   ]
+  },
+  {
+   "id": "ask",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I asked her:"
+    },
+    {
+     "show": "Mom, what did you {r:lie} about?"
+    }
+   ]
+  },
+  {
+   "id": "whisper",
+   "label": "",
+   "lines": [
+    {
+     "show": "She looked at the window."
+    },
+    {
+     "show": "Then she whispered:"
+    },
+    {
+     "show": "Noah, the lights never showed"
+    },
+    {
+     "show": "who was lying."
+    },
+    {
+     "show": "They show who knows the {y:truth.}"
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "label": "",
+   "lines": [
+    {
+     "show": "The truth about what?"
+    },
+    {
+     "show": "I asked."
+    },
+    {
+     "show": "But she just shook her head."
+    }
+   ]
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "I looked at the screen again."
+    },
+    {
+     "show": "The mayor was still talking."
+    },
+    {
+     "show": "And above his head,"
+    },
+    {
+     "show": "there was {r:no light.}"
+    },
+    {
+     "show": "Just like me."
+    }
+   ]
+  },
+  {
+   "id": "phone",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then my phone buzzed."
+    },
+    {
+     "show": "A message from an {r:unknown} number:"
+    },
+    {
+     "show": "Your light is off."
+    },
+    {
+     "show": "Don't let them {r:see you.}"
+    }
+   ]
+  },
+  {
+   "id": "car",
+   "label": "",
+   "lines": [
+    {
+     "show": "And outside,"
+    },
+    {
+     "show": "a {r:black car} stopped"
+    },
+    {
+     "show": "right in front of our house."
+    }
+   ]
+  },
+  {
+   "id": "door",
+   "label": "",
+   "lines": [
+    {
+     "show": "The door opened,"
+    },
+    {
+     "show": "and the {y:mayor} stepped out."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "He looked straight up at my window."
+    },
+    {
+     "show": "And he {r:smiled.}"
+    }
+   ]
+  }
+ ]
+}
