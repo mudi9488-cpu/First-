@@ -763,12 +763,12 @@ def write():
     audio = []
     if (HERE / "assets" / "voice.wav").exists():
         audio.append('      <audio id="voice" class="clip" src="assets/voice.wav" data-start="0" data-track-index="10" data-volume="1"></audio>')
-    music = HERE / "assets" / "source" / "music.mp3"
+    music = HERE / "assets" / "source" / "music-ref.mp3"
     if music.exists():
         fade = TOTAL - 2.5
         import subprocess
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(music), "-t", str(TOTAL), "-af",
-                        f"afade=t=in:d=0.4,afade=t=out:st={fade}:d=2.5,loudnorm=I=-29:TP=-6:LRA=7", "-ar", "44100", str(HERE / "assets" / "music.wav")], check=True)
+                        f"afade=t=in:d=0.4,afade=t=out:st={fade}:d=2.5,loudnorm=I=-23:TP=-4:LRA=9", "-ar", "44100", str(HERE / "assets" / "music.wav")], check=True)
         audio.append(f'      <audio id="music" class="clip" src="assets/music.wav" data-start="0" data-duration="{fmt(TOTAL)}" data-track-index="9" data-volume="1"></audio>')
     for j, (t, f, vol) in enumerate(sorted(SFX)):
         (HERE / "assets" / "sfx" / f).write_bytes((SFX_ROOT / f).read_bytes())
