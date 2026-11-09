@@ -1,0 +1,444 @@
+{
+ "title": "Height = Money",
+ "voice": "ElevenLabs: In This town",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town, your height shows"
+    },
+    {
+     "show": "how much {y:money} you have."
+    },
+    {
+     "show": "Every dollar in your bank account"
+    },
+    {
+     "show": "makes you {y:taller.}"
+    }
+   ]
+  },
+  {
+   "id": "ex",
+   "label": "",
+   "lines": [
+    {
+     "show": "Got {r:ten dollars?}"
+    },
+    {
+     "show": "You're as tall as a cat."
+    },
+    {
+     "show": "A {y:thousand} dollars?"
+    },
+    {
+     "show": "Normal size."
+    },
+    {
+     "show": "A {g:million} dollars?"
+    },
+    {
+     "show": "You're taller than a house."
+    }
+   ]
+  },
+  {
+   "id": "gold",
+   "label": "",
+   "lines": [
+    {
+     "show": "The richest man in town, {y:Mr. Gold,}"
+    },
+    {
+     "show": "is so tall"
+    },
+    {
+     "show": "that birds build nests in his hair."
+    }
+   ]
+  },
+  {
+   "id": "age",
+   "label": "",
+   "lines": [
+    {
+     "show": "Babies are born the size of a {y:peanut.}"
+    },
+    {
+     "show": "And grandparents who saved money"
+    },
+    {
+     "show": "their whole life"
+    },
+    {
+     "show": "have to watch out for {r:airplanes.}"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Rich kids look down on everyone."
+    },
+    {
+     "show": "{y:Literally.}"
+    },
+    {
+     "show": "When you buy something,"
+    },
+    {
+     "show": "you {r:shrink} right in the middle of the store."
+    },
+    {
+     "show": "And when someone wins the lottery,"
+    },
+    {
+     "show": "they shoot up so fast"
+    },
+    {
+     "show": "they {r:crash} through the roof."
+    },
+    {
+     "show": "Banks don't even need cards here."
+    },
+    {
+     "show": "They just {y:measure} you."
+    }
+   ]
+  },
+  {
+   "id": "rule2",
+   "label": "",
+   "lines": [
+    {
+     "show": "So everybody wants to be {y:tall.}"
+    },
+    {
+     "show": "Nobody wants to be {r:small.}"
+    },
+    {
+     "show": "Small means {r:poor.}"
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is {y:Sam.}"
+    },
+    {
+     "show": "I'm fifteen,"
+    },
+    {
+     "show": "and I'm exactly {r:four inches} tall."
+    },
+    {
+     "show": "Because my family has"
+    },
+    {
+     "show": "{r:nine dollars and fifty cents.}"
+    }
+   ]
+  },
+  {
+   "id": "life",
+   "label": "",
+   "lines": [
+    {
+     "show": "The stairs at school are like {r:mountains.}"
+    },
+    {
+     "show": "My classmates almost step on me"
+    },
+    {
+     "show": "every single day."
+    },
+    {
+     "show": "And my lunch is one single {y:crumb.}"
+    },
+    {
+     "show": "It lasts {y:three days.}"
+    }
+   ]
+  },
+  {
+   "id": "try",
+   "label": "",
+   "lines": [
+    {
+     "show": "I tried everything to get taller."
+    },
+    {
+     "show": "I sold lemonade."
+    },
+    {
+     "show": "{r:Twenty cents.}"
+    },
+    {
+     "show": "I grew one millimeter."
+    },
+    {
+     "show": "I found a coin on the street,"
+    },
+    {
+     "show": "and a {r:pigeon} almost carried me away."
+    }
+   ]
+  },
+  {
+   "id": "games",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the mayor announced"
+    },
+    {
+     "show": "the {y:Giant Games.}"
+    },
+    {
+     "show": "{y:One hundred thousand} people in the stadium."
+    },
+    {
+     "show": "The winner gets"
+    },
+    {
+     "show": "{g:ten million dollars.}"
+    }
+   ]
+  },
+  {
+   "id": "rounds",
+   "label": "",
+   "lines": [
+    {
+     "show": "Round one was {y:basketball.}"
+    },
+    {
+     "show": "The giants just dropped the ball"
+    },
+    {
+     "show": "into the hoop."
+    },
+    {
+     "show": "Round two was tug of war."
+    },
+    {
+     "show": "I got stepped on {r:twice.}"
+    },
+    {
+     "show": "But I didn't give up."
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "label": "",
+   "lines": [
+    {
+     "show": "The final challenge:"
+    },
+    {
+     "show": "find the {y:golden key}"
+    },
+    {
+     "show": "and open the safe."
+    },
+    {
+     "show": "Whoever opens it"
+    },
+    {
+     "show": "keeps the money."
+    }
+   ]
+  },
+  {
+   "id": "giants",
+   "label": "",
+   "lines": [
+    {
+     "show": "The giants tore the stadium apart."
+    },
+    {
+     "show": "They lifted {r:cars.}"
+    },
+    {
+     "show": "They flipped benches."
+    },
+    {
+     "show": "Mr. Gold even looked"
+    },
+    {
+     "show": "above the {r:clouds.}"
+    }
+   ]
+  },
+  {
+   "id": "shine",
+   "label": "",
+   "lines": [
+    {
+     "show": "But I saw something"
+    },
+    {
+     "show": "they couldn't."
+    },
+    {
+     "show": "A tiny {y:shine,}"
+    },
+    {
+     "show": "deep inside a {y:crack} in the ground."
+    }
+   ]
+  },
+  {
+   "id": "key",
+   "label": "",
+   "lines": [
+    {
+     "show": "The key was way too small"
+    },
+    {
+     "show": "for any giant to grab."
+    },
+    {
+     "show": "But not for {g:me.}"
+    }
+   ]
+  },
+  {
+   "id": "chase",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then Mr. Gold saw me."
+    },
+    {
+     "show": "He reached down"
+    },
+    {
+     "show": "with his {r:giant hand.}"
+    },
+    {
+     "show": "I jumped into the crack"
+    },
+    {
+     "show": "just in time."
+    },
+    {
+     "show": "His fingers were {r:too big.}"
+    }
+   ]
+  },
+  {
+   "id": "safe",
+   "label": "",
+   "lines": [
+    {
+     "show": "I climbed down,"
+    },
+    {
+     "show": "grabbed it,"
+    },
+    {
+     "show": "and walked straight to the safe."
+    },
+    {
+     "show": "The whole stadium went {r:silent.}"
+    },
+    {
+     "show": "{y:Click.}"
+    }
+   ]
+  },
+  {
+   "id": "money",
+   "label": "",
+   "lines": [
+    {
+     "show": "The screen went crazy."
+    },
+    {
+     "show": "{g:One thousand.}"
+    },
+    {
+     "show": "{g:One million.}"
+    },
+    {
+     "show": "{g:Ten million.}"
+    }
+   ]
+  },
+  {
+   "id": "grow",
+   "label": "",
+   "lines": [
+    {
+     "show": "And I started {y:growing.}"
+    },
+    {
+     "show": "And growing."
+    },
+    {
+     "show": "And growing."
+    },
+    {
+     "show": "For the first time in my life,"
+    },
+    {
+     "show": "I could see the whole town."
+    },
+    {
+     "show": "Kids who laughed at me"
+    },
+    {
+     "show": "suddenly had to look {y:up.}"
+    }
+   ]
+  },
+  {
+   "id": "bet",
+   "label": "",
+   "lines": [
+    {
+     "show": "And Mr. Gold?"
+    },
+    {
+     "show": "He had bet all his money"
+    },
+    {
+     "show": "that I would {r:lose.}"
+    },
+    {
+     "show": "He shrank so fast,"
+    },
+    {
+     "show": "he fell right into the {r:crack.}"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I gave him my old lunch."
+    },
+    {
+     "show": "One single {y:crumb.}"
+    },
+    {
+     "show": "Trust me,"
+    },
+    {
+     "show": "it lasts {y:three days.}"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3181 @@
+{
+ "duration": 125.388,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town, your height shows",
+     "start": 0.0,
+     "end": 1.6,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.8
+      },
+      {
+       "text": "your",
+       "start": 0.92,
+       "end": 1.04
+      },
+      {
+       "text": "height",
+       "start": 1.12,
+       "end": 1.36
+      },
+      {
+       "text": "shows",
+       "start": 1.44,
+       "end": 1.6
+      }
+     ]
+    },
+    {
+     "show": "how much {y:money} you have.",
+     "start": 1.64,
+     "end": 2.72,
+     "words": [
+      {
+       "text": "how",
+       "start": 1.64,
+       "end": 1.68
+      },
+      {
+       "text": "much",
+       "start": 1.76,
+       "end": 1.92
+      },
+      {
+       "text": "money",
+       "start": 2.0,
+       "end": 2.16
+      },
+      {
+       "text": "you",
+       "start": 2.24,
+       "end": 2.32
+      },
+      {
+       "text": "have.",
+       "start": 2.4,
+       "end": 2.72
+      }
+     ]
+    },
+    {
+     "show": "Every dollar in your bank account",
+     "start": 2.88,
+     "end": 4.16,
+     "words": [
+      {
+       "text": "Every",
+       "start": 2.88,
+       "end": 3.04
+      },
+      {
+       "text": "dollar",
+       "start": 3.12,
+       "end": 3.36
+      },
+      {
+       "text": "in",
+       "start": 3.4,
+       "end": 3.44
+      },
+      {
+       "text": "your",
+       "start": 3.52,
+       "end": 3.6
+      },
+      {
+       "text": "bank",
+       "start": 3.68,
+       "end": 3.76
+      },
+      {
+       "text": "account",
+       "start": 3.84,
+       "end": 4.16
+      }
+     ]
+    },
+    {
+     "show": "makes you {y:taller.}",
+     "start": 4.28,
+     "end": 5.04,
+     "words": [
+      {
+       "text": "makes",
+       "start": 4.28,
+       "end": 4.4
+      },
+      {
+       "text": "you",
+       "start": 4.48,
+       "end": 4.56
+      },
+      {
+       "text": "taller.",
+       "start": 4.6,
+       "end": 5.04
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 5.04
+  },
+  {
+   "id": "ex",
+   "label": "",
+   "lines": [
+    {
+     "show": "Got {r:ten dollars?}",
+     "start": 5.12,
+     "end": 6.0,
+     "words": [
+      {
+       "text": "Got",
+       "start": 5.12,
+       "end": 5.28
+      },
+      {
+       "text": "ten",
+       "start": 5.36,
+       "end": 5.44
+      },
+      {
+       "text": "dollars?",
+       "start": 5.56,
+       "end": 6.0
+      }
+     ]
+    },
+    {
+     "show": "You're as tall as a cat.",
+     "start": 6.04,
+     "end": 7.12,
+     "words": [
+      {
+       "text": "You're",
+       "start": 6.04,
+       "end": 6.16
+      },
+      {
+       "text": "as",
+       "start": 6.2,
+       "end": 6.24
+      },
+      {
+       "text": "tall",
+       "start": 6.32,
+       "end": 6.48
+      },
+      {
+       "text": "as",
+       "start": 6.52,
+       "end": 6.56
+      },
+      {
+       "text": "a",
+       "start": 6.6,
+       "end": 6.64
+      },
+      {
+       "text": "cat.",
+       "start": 6.72,
+       "end": 7.12
+      }
+     ]
+    },
+    {
+     "show": "A {y:thousand} dollars?",
+     "start": 7.2,
+     "end": 8.16,
+     "words": [
+      {
+       "text": "A",
+       "start": 7.2,
+       "end": 7.28
+      },
+      {
+       "text": "thousand",
+       "start": 7.32,
+       "end": 7.6
+      },
+      {
+       "text": "dollars?",
+       "start": 7.68,
+       "end": 8.16
+      }
+     ]
+    },
+    {
+     "show": "Normal size.",
+     "start": 8.28,
+     "end": 8.92,
+     "words": [
+      {
+       "text": "Normal",
+       "start": 8.28,
+       "end": 8.4
+      },
+      {
+       "text": "size.",
+       "start": 8.48,
+       "end": 8.92
+      }
+     ]
+    },
+    {
+     "show": "A {g:million} dollars?",
+     "start": 8.96,
+     "end": 10.08,
+     "words": [
+      {
+       "text": "A",
+       "start": 8.96,
+       "end": 9.12
+      },
+      {
+       "text": "million",
+       "start": 9.2,
+       "end": 9.52
+      },
+      {
+       "text": "dollars?",
+       "start": 9.6,
+       "end": 10.08
+      }
+     ]
+    },
+    {
+     "show": "You're taller than a house.",
+     "start": 10.12,
+     "end": 11.44,
+     "words": [
+      {
+       "text": "You're",
+       "start": 10.12,
+       "end": 10.32
+      },
+      {
+       "text": "taller",
+       "start": 10.36,
+       "end": 10.56
+      },
+      {
+       "text": "than",
+       "start": 10.64,
+       "end": 10.72
+      },
+      {
+       "text": "a",
+       "start": 10.8,
+       "end": 10.84
+      },
+      {
+       "text": "house.",
+       "start": 10.88,
+       "end": 11.44
+      }
+     ]
+    }
+   ],
+   "start": 5.12,
+   "end": 11.44
+  },
+  {
+   "id": "gold",
+   "label": "",
+   "lines": [
+    {
+     "show": "The richest man in town, {y:Mr. Gold,}",
+     "start": 11.48,
+     "end": 13.32,
+     "words": [
+      {
+       "text": "The",
+       "start": 11.48,
+       "end": 11.52
+      },
+      {
+       "text": "richest",
+       "start": 11.6,
+       "end": 11.92
+      },
+      {
+       "text": "man",
+       "start": 12.0,
+       "end": 12.08
+      },
+      {
+       "text": "in",
+       "start": 12.16,
+       "end": 12.24
+      },
+      {
+       "text": "town,",
+       "start": 12.32,
+       "end": 12.64
+      },
+      {
+       "text": "Mr.",
+       "start": 12.68,
+       "end": 12.88
+      },
+      {
+       "text": "Gold,",
+       "start": 12.96,
+       "end": 13.32
+      }
+     ]
+    },
+    {
+     "show": "is so tall",
+     "start": 13.36,
+     "end": 14.16,
+     "words": [
+      {
+       "text": "is",
+       "start": 13.36,
+       "end": 13.52
+      },
+      {
+       "text": "so",
+       "start": 13.64,
+       "end": 13.76
+      },
+      {
+       "text": "tall",
+       "start": 13.84,
+       "end": 14.16
+      }
+     ]
+    },
+    {
+     "show": "that birds build nests in his hair.",
+     "start": 14.24,
+     "end": 16.0,
+     "words": [
+      {
+       "text": "that",
+       "start": 14.24,
+       "end": 14.32
+      },
+      {
+       "text": "birds",
+       "start": 14.4,
+       "end": 14.72
+      },
+      {
+       "text": "build",
+       "start": 14.8,
+       "end": 14.96
+      },
+      {
+       "text": "nests",
+       "start": 15.04,
+       "end": 15.36
+      },
+      {
+       "text": "in",
+       "start": 15.44,
+       "end": 15.493
+      },
+      {
+       "text": "his",
+       "start": 15.547,
+       "end": 15.6
+      },
+      {
+       "text": "hair.",
+       "start": 15.76,
+       "end": 16.0
+      }
+     ]
+    }
+   ],
+   "start": 11.48,
+   "end": 16.0
+  },
+  {
+   "id": "age",
+   "label": "",
+   "lines": [
+    {
+     "show": "Babies are born the size of a {y:peanut.}",
+     "start": 16.08,
+     "end": 17.84,
+     "words": [
+      {
+       "text": "Babies",
+       "start": 16.08,
+       "end": 16.4
+      },
+      {
+       "text": "are",
+       "start": 16.48,
+       "end": 16.56
+      },
+      {
+       "text": "born",
+       "start": 16.64,
+       "end": 16.72
+      },
+      {
+       "text": "the",
+       "start": 16.8,
+       "end": 16.88
+      },
+      {
+       "text": "size",
+       "start": 17.0,
+       "end": 17.12
+      },
+      {
+       "text": "of",
+       "start": 17.16,
+       "end": 17.2
+      },
+      {
+       "text": "a",
+       "start": 17.28,
+       "end": 17.36
+      },
+      {
+       "text": "peanut.",
+       "start": 17.44,
+       "end": 17.84
+      }
+     ]
+    },
+    {
+     "show": "And grandparents who saved money",
+     "start": 17.92,
+     "end": 19.2,
+     "words": [
+      {
+       "text": "And",
+       "start": 17.92,
+       "end": 18.0
+      },
+      {
+       "text": "grandparents",
+       "start": 18.12,
+       "end": 18.56
+      },
+      {
+       "text": "who",
+       "start": 18.64,
+       "end": 18.72
+      },
+      {
+       "text": "saved",
+       "start": 18.84,
+       "end": 18.96
+      },
+      {
+       "text": "money",
+       "start": 19.04,
+       "end": 19.2
+      }
+     ]
+    },
+    {
+     "show": "their whole life",
+     "start": 19.28,
+     "end": 19.92,
+     "words": [
+      {
+       "text": "their",
+       "start": 19.28,
+       "end": 19.36
+      },
+      {
+       "text": "whole",
+       "start": 19.44,
+       "end": 19.6
+      },
+      {
+       "text": "life",
+       "start": 19.76,
+       "end": 19.92
+      }
+     ]
+    },
+    {
+     "show": "have to watch out for {r:airplanes.}",
+     "start": 20.0,
+     "end": 21.44,
+     "words": [
+      {
+       "text": "have",
+       "start": 20.0,
+       "end": 20.08
+      },
+      {
+       "text": "to",
+       "start": 20.12,
+       "end": 20.16
+      },
+      {
+       "text": "watch",
+       "start": 20.24,
+       "end": 20.4
+      },
+      {
+       "text": "out",
+       "start": 20.48,
+       "end": 20.56
+      },
+      {
+       "text": "for",
+       "start": 20.64,
+       "end": 20.72
+      },
+      {
+       "text": "airplanes.",
+       "start": 20.84,
+       "end": 21.44
+      }
+     ]
+    }
+   ],
+   "start": 16.08,
+   "end": 21.44
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Rich kids look down on everyone.",
+     "start": 21.56,
+     "end": 23.28,
+     "words": [
+      {
+       "text": "Rich",
+       "start": 21.56,
+       "end": 21.68
+      },
+      {
+       "text": "kids",
+       "start": 21.76,
+       "end": 22.0
+      },
+      {
+       "text": "look",
+       "start": 22.08,
+       "end": 22.16
+      },
+      {
+       "text": "down",
+       "start": 22.24,
+       "end": 22.4
+      },
+      {
+       "text": "on",
+       "start": 22.52,
+       "end": 22.64
+      },
+      {
+       "text": "everyone.",
+       "start": 22.88,
+       "end": 23.28
+      }
+     ]
+    },
+    {
+     "show": "{y:Literally.}",
+     "start": 23.4,
+     "end": 23.8,
+     "words": [
+      {
+       "text": "Literally.",
+       "start": 23.4,
+       "end": 23.8
+      }
+     ]
+    },
+    {
+     "show": "When you buy something,",
+     "start": 23.84,
+     "end": 24.72,
+     "words": [
+      {
+       "text": "When",
+       "start": 23.84,
+       "end": 23.92
+      },
+      {
+       "text": "you",
+       "start": 24.0,
+       "end": 24.08
+      },
+      {
+       "text": "buy",
+       "start": 24.2,
+       "end": 24.32
+      },
+      {
+       "text": "something,",
+       "start": 24.48,
+       "end": 24.72
+      }
+     ]
+    },
+    {
+     "show": "you {r:shrink} right in the middle of the store.",
+     "start": 24.84,
+     "end": 26.48,
+     "words": [
+      {
+       "text": "you",
+       "start": 24.84,
+       "end": 24.96
+      },
+      {
+       "text": "shrink",
+       "start": 25.04,
+       "end": 25.28
+      },
+      {
+       "text": "right",
+       "start": 25.36,
+       "end": 25.52
+      },
+      {
+       "text": "in",
+       "start": 25.56,
+       "end": 25.6
+      },
+      {
+       "text": "the",
+       "start": 25.64,
+       "end": 25.68
+      },
+      {
+       "text": "middle",
+       "start": 25.76,
+       "end": 25.84
+      },
+      {
+       "text": "of",
+       "start": 25.88,
+       "end": 25.92
+      },
+      {
+       "text": "the",
+       "start": 25.96,
+       "end": 26.0
+      },
+      {
+       "text": "store.",
+       "start": 26.08,
+       "end": 26.48
+      }
+     ]
+    },
+    {
+     "show": "And when someone wins the lottery,",
+     "start": 26.52,
+     "end": 27.76,
+     "words": [
+      {
+       "text": "And",
+       "start": 26.52,
+       "end": 26.56
+      },
+      {
+       "text": "when",
+       "start": 26.64,
+       "end": 26.72
+      },
+      {
+       "text": "someone",
+       "start": 26.84,
+       "end": 26.96
+      },
+      {
+       "text": "wins",
+       "start": 27.08,
+       "end": 27.2
+      },
+      {
+       "text": "the",
+       "start": 27.24,
+       "end": 27.28
+      },
+      {
+       "text": "lottery,",
+       "start": 27.36,
+       "end": 27.76
+      }
+     ]
+    },
+    {
+     "show": "they shoot up so fast",
+     "start": 27.84,
+     "end": 28.88,
+     "words": [
+      {
+       "text": "they",
+       "start": 27.84,
+       "end": 27.92
+      },
+      {
+       "text": "shoot",
+       "start": 28.0,
+       "end": 28.16
+      },
+      {
+       "text": "up",
+       "start": 28.24,
+       "end": 28.32
+      },
+      {
+       "text": "so",
+       "start": 28.4,
+       "end": 28.48
+      },
+      {
+       "text": "fast",
+       "start": 28.64,
+       "end": 28.88
+      }
+     ]
+    },
+    {
+     "show": "they {r:crash} through the roof.",
+     "start": 28.96,
+     "end": 30.16,
+     "words": [
+      {
+       "text": "they",
+       "start": 28.96,
+       "end": 29.12
+      },
+      {
+       "text": "crash",
+       "start": 29.16,
+       "end": 29.44
+      },
+      {
+       "text": "through",
+       "start": 29.52,
+       "end": 29.6
+      },
+      {
+       "text": "the",
+       "start": 29.64,
+       "end": 29.68
+      },
+      {
+       "text": "roof.",
+       "start": 29.76,
+       "end": 30.16
+      }
+     ]
+    },
+    {
+     "show": "Banks don't even need cards here.",
+     "start": 30.24,
+     "end": 31.72,
+     "words": [
+      {
+       "text": "Banks",
+       "start": 30.24,
+       "end": 30.48
+      },
+      {
+       "text": "don't",
+       "start": 30.52,
+       "end": 30.64
+      },
+      {
+       "text": "even",
+       "start": 30.72,
+       "end": 30.8
+      },
+      {
+       "text": "need",
+       "start": 30.88,
+       "end": 31.04
+      },
+      {
+       "text": "cards",
+       "start": 31.24,
+       "end": 31.44
+      },
+      {
+       "text": "here.",
+       "start": 31.56,
+       "end": 31.72
+      }
+     ]
+    },
+    {
+     "show": "They just {y:measure} you.",
+     "start": 31.76,
+     "end": 32.72,
+     "words": [
+      {
+       "text": "They",
+       "start": 31.76,
+       "end": 31.84
+      },
+      {
+       "text": "just",
+       "start": 31.92,
+       "end": 32.0
+      },
+      {
+       "text": "measure",
+       "start": 32.16,
+       "end": 32.4
+      },
+      {
+       "text": "you.",
+       "start": 32.48,
+       "end": 32.72
+      }
+     ]
+    }
+   ],
+   "start": 21.56,
+   "end": 32.72
+  },
+  {
+   "id": "rule2",
+   "label": "",
+   "lines": [
+    {
+     "show": "So everybody wants to be {y:tall.}",
+     "start": 32.84,
+     "end": 34.48,
+     "words": [
+      {
+       "text": "So",
+       "start": 32.84,
+       "end": 32.96
+      },
+      {
+       "text": "everybody",
+       "start": 33.04,
+       "end": 33.52
+      },
+      {
+       "text": "wants",
+       "start": 33.6,
+       "end": 33.76
+      },
+      {
+       "text": "to",
+       "start": 33.8,
+       "end": 33.84
+      },
+      {
+       "text": "be",
+       "start": 33.92,
+       "end": 34.0
+      },
+      {
+       "text": "tall.",
+       "start": 34.04,
+       "end": 34.48
+      }
+     ]
+    },
+    {
+     "show": "Nobody wants to be {r:small.}",
+     "start": 34.68,
+     "end": 35.84,
+     "words": [
+      {
+       "text": "Nobody",
+       "start": 34.68,
+       "end": 34.88
+      },
+      {
+       "text": "wants",
+       "start": 34.92,
+       "end": 35.12
+      },
+      {
+       "text": "to",
+       "start": 35.16,
+       "end": 35.2
+      },
+      {
+       "text": "be",
+       "start": 35.24,
+       "end": 35.28
+      },
+      {
+       "text": "small.",
+       "start": 35.36,
+       "end": 35.84
+      }
+     ]
+    },
+    {
+     "show": "Small means {r:poor.}",
+     "start": 36.04,
+     "end": 37.12,
+     "words": [
+      {
+       "text": "Small",
+       "start": 36.04,
+       "end": 36.24
+      },
+      {
+       "text": "means",
+       "start": 36.32,
+       "end": 36.56
+      },
+      {
+       "text": "poor.",
+       "start": 36.64,
+       "end": 37.12
+      }
+     ]
+    }
+   ],
+   "start": 32.84,
+   "end": 37.12
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is {y:Sam.}",
+     "start": 37.2,
+     "end": 38.08,
+     "words": [
+      {
+       "text": "My",
+       "start": 37.2,
+       "end": 37.28
+      },
+      {
+       "text": "name",
+       "start": 37.36,
+       "end": 37.44
+      },
+      {
+       "text": "is",
+       "start": 37.52,
+       "end": 37.6
+      },
+      {
+       "text": "Sam.",
+       "start": 37.76,
+       "end": 38.08
+      }
+     ]
+    },
+    {
+     "show": "I'm fifteen,",
+     "start": 38.133,
+     "end": 38.8,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 38.133,
+       "end": 38.24
+      },
+      {
+       "text": "fifteen,",
+       "start": 38.28,
+       "end": 38.8
+      }
+     ]
+    },
+    {
+     "show": "and I'm exactly {r:four inches} tall.",
+     "start": 38.84,
+     "end": 40.64,
+     "words": [
+      {
+       "text": "and",
+       "start": 38.84,
+       "end": 38.88
+      },
+      {
+       "text": "I'm",
+       "start": 38.96,
+       "end": 39.04
+      },
+      {
+       "text": "exactly",
+       "start": 39.12,
+       "end": 39.68
+      },
+      {
+       "text": "four",
+       "start": 39.76,
+       "end": 39.92
+      },
+      {
+       "text": "inches",
+       "start": 39.96,
+       "end": 40.24
+      },
+      {
+       "text": "tall.",
+       "start": 40.32,
+       "end": 40.64
+      }
+     ]
+    },
+    {
+     "show": "Because my family has",
+     "start": 40.76,
+     "end": 41.68,
+     "words": [
+      {
+       "text": "Because",
+       "start": 40.76,
+       "end": 40.88
+      },
+      {
+       "text": "my",
+       "start": 40.96,
+       "end": 41.12
+      },
+      {
+       "text": "family",
+       "start": 41.28,
+       "end": 41.44
+      },
+      {
+       "text": "has",
+       "start": 41.56,
+       "end": 41.68
+      }
+     ]
+    },
+    {
+     "show": "{r:nine dollars and fifty cents.}",
+     "start": 41.76,
+     "end": 43.2,
+     "words": [
+      {
+       "text": "nine",
+       "start": 41.76,
+       "end": 41.84
+      },
+      {
+       "text": "dollars",
+       "start": 42.0,
+       "end": 42.24
+      },
+      {
+       "text": "and",
+       "start": 42.32,
+       "end": 42.48
+      },
+      {
+       "text": "fifty",
+       "start": 42.56,
+       "end": 42.72
+      },
+      {
+       "text": "cents.",
+       "start": 42.8,
+       "end": 43.2
+      }
+     ]
+    }
+   ],
+   "start": 37.2,
+   "end": 43.2
+  },
+  {
+   "id": "life",
+   "label": "",
+   "lines": [
+    {
+     "show": "The stairs at school are like {r:mountains.}",
+     "start": 43.28,
+     "end": 45.173,
+     "words": [
+      {
+       "text": "The",
+       "start": 43.28,
+       "end": 43.36
+      },
+      {
+       "text": "stairs",
+       "start": 43.52,
+       "end": 43.68
+      },
+      {
+       "text": "at",
+       "start": 43.72,
+       "end": 43.76
+      },
+      {
+       "text": "school",
+       "start": 43.92,
+       "end": 44.16
+      },
+      {
+       "text": "are",
+       "start": 44.2,
+       "end": 44.24
+      },
+      {
+       "text": "like",
+       "start": 44.32,
+       "end": 44.4
+      },
+      {
+       "text": "mountains.",
+       "start": 44.56,
+       "end": 45.173
+      }
+     ]
+    },
+    {
+     "show": "My classmates almost step on me",
+     "start": 45.227,
+     "end": 46.56,
+     "words": [
+      {
+       "text": "My",
+       "start": 45.227,
+       "end": 45.28
+      },
+      {
+       "text": "classmates",
+       "start": 45.4,
+       "end": 45.76
+      },
+      {
+       "text": "almost",
+       "start": 45.88,
+       "end": 46.0
+      },
+      {
+       "text": "step",
+       "start": 46.08,
+       "end": 46.24
+      },
+      {
+       "text": "on",
+       "start": 46.32,
+       "end": 46.4
+      },
+      {
+       "text": "me",
+       "start": 46.48,
+       "end": 46.56
+      }
+     ]
+    },
+    {
+     "show": "every single day.",
+     "start": 46.64,
+     "end": 47.6,
+     "words": [
+      {
+       "text": "every",
+       "start": 46.64,
+       "end": 46.88
+      },
+      {
+       "text": "single",
+       "start": 46.96,
+       "end": 47.2
+      },
+      {
+       "text": "day.",
+       "start": 47.36,
+       "end": 47.6
+      }
+     ]
+    },
+    {
+     "show": "And my lunch is one single {y:crumb.}",
+     "start": 47.64,
+     "end": 49.68,
+     "words": [
+      {
+       "text": "And",
+       "start": 47.64,
+       "end": 47.68
+      },
+      {
+       "text": "my",
+       "start": 47.76,
+       "end": 47.84
+      },
+      {
+       "text": "lunch",
+       "start": 47.92,
+       "end": 48.16
+      },
+      {
+       "text": "is",
+       "start": 48.32,
+       "end": 48.48
+      },
+      {
+       "text": "one",
+       "start": 48.56,
+       "end": 48.72
+      },
+      {
+       "text": "single",
+       "start": 48.88,
+       "end": 49.12
+      },
+      {
+       "text": "crumb.",
+       "start": 49.28,
+       "end": 49.68
+      }
+     ]
+    },
+    {
+     "show": "It lasts {y:three days.}",
+     "start": 49.72,
+     "end": 50.96,
+     "words": [
+      {
+       "text": "It",
+       "start": 49.72,
+       "end": 49.76
+      },
+      {
+       "text": "lasts",
+       "start": 49.84,
+       "end": 50.16
+      },
+      {
+       "text": "three",
+       "start": 50.24,
+       "end": 50.4
+      },
+      {
+       "text": "days.",
+       "start": 50.48,
+       "end": 50.96
+      }
+     ]
+    }
+   ],
+   "start": 43.28,
+   "end": 50.96
+  },
+  {
+   "id": "try",
+   "label": "",
+   "lines": [
+    {
+     "show": "I tried everything to get taller.",
+     "start": 51.04,
+     "end": 52.56,
+     "words": [
+      {
+       "text": "I",
+       "start": 51.04,
+       "end": 51.12
+      },
+      {
+       "text": "tried",
+       "start": 51.16,
+       "end": 51.44
+      },
+      {
+       "text": "everything",
+       "start": 51.52,
+       "end": 51.84
+      },
+      {
+       "text": "to",
+       "start": 51.92,
+       "end": 51.96
+      },
+      {
+       "text": "get",
+       "start": 52.0,
+       "end": 52.08
+      },
+      {
+       "text": "taller.",
+       "start": 52.16,
+       "end": 52.56
+      }
+     ]
+    },
+    {
+     "show": "I sold lemonade.",
+     "start": 52.64,
+     "end": 53.44,
+     "words": [
+      {
+       "text": "I",
+       "start": 52.64,
+       "end": 52.72
+      },
+      {
+       "text": "sold",
+       "start": 52.8,
+       "end": 52.88
+      },
+      {
+       "text": "lemonade.",
+       "start": 52.96,
+       "end": 53.44
+      }
+     ]
+    },
+    {
+     "show": "{r:Twenty cents.}",
+     "start": 53.56,
+     "end": 54.16,
+     "words": [
+      {
+       "text": "Twenty",
+       "start": 53.56,
+       "end": 53.68
+      },
+      {
+       "text": "cents.",
+       "start": 53.76,
+       "end": 54.16
+      }
+     ]
+    },
+    {
+     "show": "I grew one millimeter.",
+     "start": 54.2,
+     "end": 55.6,
+     "words": [
+      {
+       "text": "I",
+       "start": 54.2,
+       "end": 54.24
+      },
+      {
+       "text": "grew",
+       "start": 54.4,
+       "end": 54.64
+      },
+      {
+       "text": "one",
+       "start": 54.72,
+       "end": 54.88
+      },
+      {
+       "text": "millimeter.",
+       "start": 55.04,
+       "end": 55.6
+      }
+     ]
+    },
+    {
+     "show": "I found a coin on the street,",
+     "start": 55.64,
+     "end": 56.8,
+     "words": [
+      {
+       "text": "I",
+       "start": 55.64,
+       "end": 55.68
+      },
+      {
+       "text": "found",
+       "start": 55.76,
+       "end": 55.84
+      },
+      {
+       "text": "a",
+       "start": 55.88,
+       "end": 55.92
+      },
+      {
+       "text": "coin",
+       "start": 56.0,
+       "end": 56.16
+      },
+      {
+       "text": "on",
+       "start": 56.24,
+       "end": 56.32
+      },
+      {
+       "text": "the",
+       "start": 56.373,
+       "end": 56.427
+      },
+      {
+       "text": "street,",
+       "start": 56.48,
+       "end": 56.8
+      }
+     ]
+    },
+    {
+     "show": "and a {r:pigeon} almost carried me away.",
+     "start": 56.84,
+     "end": 58.56,
+     "words": [
+      {
+       "text": "and",
+       "start": 56.84,
+       "end": 56.88
+      },
+      {
+       "text": "a",
+       "start": 56.96,
+       "end": 57.04
+      },
+      {
+       "text": "pigeon",
+       "start": 57.08,
+       "end": 57.36
+      },
+      {
+       "text": "almost",
+       "start": 57.52,
+       "end": 57.68
+      },
+      {
+       "text": "carried",
+       "start": 57.76,
+       "end": 57.92
+      },
+      {
+       "text": "me",
+       "start": 58.0,
+       "end": 58.08
+      },
+      {
+       "text": "away.",
+       "start": 58.28,
+       "end": 58.56
+      }
+     ]
+    }
+   ],
+   "start": 51.04,
+   "end": 58.56
+  },
+  {
+   "id": "games",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the mayor announced",
+     "start": 58.64,
+     "end": 59.84,
+     "words": [
+      {
+       "text": "Then",
+       "start": 58.64,
+       "end": 58.88
+      },
+      {
+       "text": "the",
+       "start": 59.04,
+       "end": 59.12
+      },
+      {
+       "text": "mayor",
+       "start": 59.2,
+       "end": 59.44
+      },
+      {
+       "text": "announced",
+       "start": 59.52,
+       "end": 59.84
+      }
+     ]
+    },
+    {
+     "show": "the {y:Giant Games.}",
+     "start": 59.88,
+     "end": 61.04,
+     "words": [
+      {
+       "text": "the",
+       "start": 59.88,
+       "end": 59.92
+      },
+      {
+       "text": "Giant",
+       "start": 60.08,
+       "end": 60.4
+      },
+      {
+       "text": "Games.",
+       "start": 60.48,
+       "end": 61.04
+      }
+     ]
+    },
+    {
+     "show": "{y:One hundred thousand} people in the stadium.",
+     "start": 61.12,
+     "end": 63.12,
+     "words": [
+      {
+       "text": "One",
+       "start": 61.12,
+       "end": 61.2
+      },
+      {
+       "text": "hundred",
+       "start": 61.36,
+       "end": 61.6
+      },
+      {
+       "text": "thousand",
+       "start": 61.76,
+       "end": 62.08
+      },
+      {
+       "text": "people",
+       "start": 62.16,
+       "end": 62.4
+      },
+      {
+       "text": "in",
+       "start": 62.44,
+       "end": 62.48
+      },
+      {
+       "text": "the",
+       "start": 62.56,
+       "end": 62.6
+      },
+      {
+       "text": "stadium.",
+       "start": 62.64,
+       "end": 63.12
+      }
+     ]
+    },
+    {
+     "show": "The winner gets",
+     "start": 63.16,
+     "end": 63.76,
+     "words": [
+      {
+       "text": "The",
+       "start": 63.16,
+       "end": 63.2
+      },
+      {
+       "text": "winner",
+       "start": 63.28,
+       "end": 63.52
+      },
+      {
+       "text": "gets",
+       "start": 63.64,
+       "end": 63.76
+      }
+     ]
+    },
+    {
+     "show": "{g:ten million dollars.}",
+     "start": 63.84,
+     "end": 65.2,
+     "words": [
+      {
+       "text": "ten",
+       "start": 63.84,
+       "end": 64.08
+      },
+      {
+       "text": "million",
+       "start": 64.24,
+       "end": 64.56
+      },
+      {
+       "text": "dollars.",
+       "start": 64.64,
+       "end": 65.2
+      }
+     ]
+    }
+   ],
+   "start": 58.64,
+   "end": 65.2
+  },
+  {
+   "id": "rounds",
+   "label": "",
+   "lines": [
+    {
+     "show": "Round one was {y:basketball.}",
+     "start": 65.32,
+     "end": 66.52,
+     "words": [
+      {
+       "text": "Round",
+       "start": 65.32,
+       "end": 65.44
+      },
+      {
+       "text": "one",
+       "start": 65.52,
+       "end": 65.68
+      },
+      {
+       "text": "was",
+       "start": 65.76,
+       "end": 65.84
+      },
+      {
+       "text": "basketball.",
+       "start": 65.92,
+       "end": 66.52
+      }
+     ]
+    },
+    {
+     "show": "The giants just dropped the ball",
+     "start": 66.56,
+     "end": 67.92,
+     "words": [
+      {
+       "text": "The",
+       "start": 66.56,
+       "end": 66.64
+      },
+      {
+       "text": "giants",
+       "start": 66.72,
+       "end": 67.12
+      },
+      {
+       "text": "just",
+       "start": 67.2,
+       "end": 67.28
+      },
+      {
+       "text": "dropped",
+       "start": 67.36,
+       "end": 67.6
+      },
+      {
+       "text": "the",
+       "start": 67.64,
+       "end": 67.68
+      },
+      {
+       "text": "ball",
+       "start": 67.76,
+       "end": 67.92
+      }
+     ]
+    },
+    {
+     "show": "into the hoop.",
+     "start": 68.0,
+     "end": 68.56,
+     "words": [
+      {
+       "text": "into",
+       "start": 68.0,
+       "end": 68.08
+      },
+      {
+       "text": "the",
+       "start": 68.16,
+       "end": 68.2
+      },
+      {
+       "text": "hoop.",
+       "start": 68.24,
+       "end": 68.56
+      }
+     ]
+    },
+    {
+     "show": "Round two was tug of war.",
+     "start": 68.64,
+     "end": 70.08,
+     "words": [
+      {
+       "text": "Round",
+       "start": 68.64,
+       "end": 68.8
+      },
+      {
+       "text": "two",
+       "start": 68.96,
+       "end": 69.12
+      },
+      {
+       "text": "was",
+       "start": 69.2,
+       "end": 69.28
+      },
+      {
+       "text": "tug",
+       "start": 69.36,
+       "end": 69.52
+      },
+      {
+       "text": "of",
+       "start": 69.6,
+       "end": 69.68
+      },
+      {
+       "text": "war.",
+       "start": 69.84,
+       "end": 70.08
+      }
+     ]
+    },
+    {
+     "show": "I got stepped on {r:twice.}",
+     "start": 70.12,
+     "end": 71.44,
+     "words": [
+      {
+       "text": "I",
+       "start": 70.12,
+       "end": 70.16
+      },
+      {
+       "text": "got",
+       "start": 70.24,
+       "end": 70.32
+      },
+      {
+       "text": "stepped",
+       "start": 70.4,
+       "end": 70.64
+      },
+      {
+       "text": "on",
+       "start": 70.72,
+       "end": 70.88
+      },
+      {
+       "text": "twice.",
+       "start": 70.96,
+       "end": 71.44
+      }
+     ]
+    },
+    {
+     "show": "But I didn't give up.",
+     "start": 71.48,
+     "end": 72.48,
+     "words": [
+      {
+       "text": "But",
+       "start": 71.48,
+       "end": 71.52
+      },
+      {
+       "text": "I",
+       "start": 71.64,
+       "end": 71.76
+      },
+      {
+       "text": "didn't",
+       "start": 71.84,
+       "end": 72.0
+      },
+      {
+       "text": "give",
+       "start": 72.08,
+       "end": 72.16
+      },
+      {
+       "text": "up.",
+       "start": 72.24,
+       "end": 72.48
+      }
+     ]
+    }
+   ],
+   "start": 65.32,
+   "end": 72.48
+  },
+  {
+   "id": "final",
+   "label": "",
+   "lines": [
+    {
+     "show": "The final challenge:",
+     "start": 72.56,
+     "end": 73.6,
+     "words": [
+      {
+       "text": "The",
+       "start": 72.56,
+       "end": 72.64
+      },
+      {
+       "text": "final",
+       "start": 72.72,
+       "end": 72.88
+      },
+      {
+       "text": "challenge:",
+       "start": 73.04,
+       "end": 73.6
+      }
+     ]
+    },
+    {
+     "show": "find the {y:golden key}",
+     "start": 73.72,
+     "end": 74.64,
+     "words": [
+      {
+       "text": "find",
+       "start": 73.72,
+       "end": 73.84
+      },
+      {
+       "text": "the",
+       "start": 73.92,
+       "end": 73.96
+      },
+      {
+       "text": "golden",
+       "start": 74.0,
+       "end": 74.32
+      },
+      {
+       "text": "key",
+       "start": 74.4,
+       "end": 74.64
+      }
+     ]
+    },
+    {
+     "show": "and open the safe.",
+     "start": 74.72,
+     "end": 75.68,
+     "words": [
+      {
+       "text": "and",
+       "start": 74.72,
+       "end": 74.8
+      },
+      {
+       "text": "open",
+       "start": 74.88,
+       "end": 75.12
+      },
+      {
+       "text": "the",
+       "start": 75.173,
+       "end": 75.227
+      },
+      {
+       "text": "safe.",
+       "start": 75.28,
+       "end": 75.68
+      }
+     ]
+    },
+    {
+     "show": "Whoever opens it",
+     "start": 75.72,
+     "end": 76.4,
+     "words": [
+      {
+       "text": "Whoever",
+       "start": 75.72,
+       "end": 75.92
+      },
+      {
+       "text": "opens",
+       "start": 76.0,
+       "end": 76.24
+      },
+      {
+       "text": "it",
+       "start": 76.32,
+       "end": 76.4
+      }
+     ]
+    },
+    {
+     "show": "keeps the money.",
+     "start": 76.48,
+     "end": 77.12,
+     "words": [
+      {
+       "text": "keeps",
+       "start": 76.48,
+       "end": 76.72
+      },
+      {
+       "text": "the",
+       "start": 76.747,
+       "end": 76.773
+      },
+      {
+       "text": "money.",
+       "start": 76.8,
+       "end": 77.12
+      }
+     ]
+    }
+   ],
+   "start": 72.56,
+   "end": 77.12
+  },
+  {
+   "id": "giants",
+   "label": "",
+   "lines": [
+    {
+     "show": "The giants tore the stadium apart.",
+     "start": 77.2,
+     "end": 79.12,
+     "words": [
+      {
+       "text": "The",
+       "start": 77.2,
+       "end": 77.28
+      },
+      {
+       "text": "giants",
+       "start": 77.36,
+       "end": 77.84
+      },
+      {
+       "text": "tore",
+       "start": 77.88,
+       "end": 78.08
+      },
+      {
+       "text": "the",
+       "start": 78.16,
+       "end": 78.2
+      },
+      {
+       "text": "stadium",
+       "start": 78.24,
+       "end": 78.64
+      },
+      {
+       "text": "apart.",
+       "start": 78.72,
+       "end": 79.12
+      }
+     ]
+    },
+    {
+     "show": "They lifted {r:cars.}",
+     "start": 79.16,
+     "end": 80.16,
+     "words": [
+      {
+       "text": "They",
+       "start": 79.16,
+       "end": 79.2
+      },
+      {
+       "text": "lifted",
+       "start": 79.28,
+       "end": 79.6
+      },
+      {
+       "text": "cars.",
+       "start": 79.84,
+       "end": 80.16
+      }
+     ]
+    },
+    {
+     "show": "They flipped benches.",
+     "start": 80.24,
+     "end": 81.2,
+     "words": [
+      {
+       "text": "They",
+       "start": 80.24,
+       "end": 80.32
+      },
+      {
+       "text": "flipped",
+       "start": 80.36,
+       "end": 80.56
+      },
+      {
+       "text": "benches.",
+       "start": 80.64,
+       "end": 81.2
+      }
+     ]
+    },
+    {
+     "show": "Mr. Gold even looked",
+     "start": 81.24,
+     "end": 82.24,
+     "words": [
+      {
+       "text": "Mr.",
+       "start": 81.24,
+       "end": 81.44
+      },
+      {
+       "text": "Gold",
+       "start": 81.6,
+       "end": 81.84
+      },
+      {
+       "text": "even",
+       "start": 81.92,
+       "end": 82.0
+      },
+      {
+       "text": "looked",
+       "start": 82.08,
+       "end": 82.24
+      }
+     ]
+    },
+    {
+     "show": "above the {r:clouds.}",
+     "start": 82.36,
+     "end": 83.28,
+     "words": [
+      {
+       "text": "above",
+       "start": 82.36,
+       "end": 82.48
+      },
+      {
+       "text": "the",
+       "start": 82.56,
+       "end": 82.64
+      },
+      {
+       "text": "clouds.",
+       "start": 82.88,
+       "end": 83.28
+      }
+     ]
+    }
+   ],
+   "start": 77.2,
+   "end": 83.28
+  },
+  {
+   "id": "shine",
+   "label": "",
+   "lines": [
+    {
+     "show": "But I saw something",
+     "start": 83.36,
+     "end": 84.24,
+     "words": [
+      {
+       "text": "But",
+       "start": 83.36,
+       "end": 83.44
+      },
+      {
+       "text": "I",
+       "start": 83.56,
+       "end": 83.68
+      },
+      {
+       "text": "saw",
+       "start": 83.76,
+       "end": 83.92
+      },
+      {
+       "text": "something",
+       "start": 84.08,
+       "end": 84.24
+      }
+     ]
+    },
+    {
+     "show": "they couldn't.",
+     "start": 84.36,
+     "end": 84.88,
+     "words": [
+      {
+       "text": "they",
+       "start": 84.36,
+       "end": 84.48
+      },
+      {
+       "text": "couldn't.",
+       "start": 84.6,
+       "end": 84.88
+      }
+     ]
+    },
+    {
+     "show": "A tiny {y:shine,}",
+     "start": 84.96,
+     "end": 86.08,
+     "words": [
+      {
+       "text": "A",
+       "start": 84.96,
+       "end": 85.04
+      },
+      {
+       "text": "tiny",
+       "start": 85.12,
+       "end": 85.44
+      },
+      {
+       "text": "shine,",
+       "start": 85.6,
+       "end": 86.08
+      }
+     ]
+    },
+    {
+     "show": "deep inside a {y:crack} in the ground.",
+     "start": 86.2,
+     "end": 87.76,
+     "words": [
+      {
+       "text": "deep",
+       "start": 86.2,
+       "end": 86.32
+      },
+      {
+       "text": "inside",
+       "start": 86.48,
+       "end": 86.64
+      },
+      {
+       "text": "a",
+       "start": 86.68,
+       "end": 86.72
+      },
+      {
+       "text": "crack",
+       "start": 86.8,
+       "end": 87.04
+      },
+      {
+       "text": "in",
+       "start": 87.12,
+       "end": 87.16
+      },
+      {
+       "text": "the",
+       "start": 87.2,
+       "end": 87.28
+      },
+      {
+       "text": "ground.",
+       "start": 87.48,
+       "end": 87.76
+      }
+     ]
+    }
+   ],
+   "start": 83.36,
+   "end": 87.76
+  },
+  {
+   "id": "key",
+   "label": "",
+   "lines": [
+    {
+     "show": "The key was way too small",
+     "start": 87.8,
+     "end": 89.04,
+     "words": [
+      {
+       "text": "The",
+       "start": 87.8,
+       "end": 87.84
+      },
+      {
+       "text": "key",
+       "start": 87.92,
+       "end": 88.08
+      },
+      {
+       "text": "was",
+       "start": 88.2,
+       "end": 88.32
+      },
+      {
+       "text": "way",
+       "start": 88.4,
+       "end": 88.56
+      },
+      {
+       "text": "too",
+       "start": 88.64,
+       "end": 88.8
+      },
+      {
+       "text": "small",
+       "start": 88.92,
+       "end": 89.04
+      }
+     ]
+    },
+    {
+     "show": "for any giant to grab.",
+     "start": 89.16,
+     "end": 90.32,
+     "words": [
+      {
+       "text": "for",
+       "start": 89.16,
+       "end": 89.28
+      },
+      {
+       "text": "any",
+       "start": 89.4,
+       "end": 89.52
+      },
+      {
+       "text": "giant",
+       "start": 89.6,
+       "end": 89.76
+      },
+      {
+       "text": "to",
+       "start": 89.84,
+       "end": 89.92
+      },
+      {
+       "text": "grab.",
+       "start": 90.08,
+       "end": 90.32
+      }
+     ]
+    },
+    {
+     "show": "But not for {g:me.}",
+     "start": 90.4,
+     "end": 91.28,
+     "words": [
+      {
+       "text": "But",
+       "start": 90.4,
+       "end": 90.48
+      },
+      {
+       "text": "not",
+       "start": 90.56,
+       "end": 90.72
+      },
+      {
+       "text": "for",
+       "start": 90.8,
+       "end": 90.88
+      },
+      {
+       "text": "me.",
+       "start": 90.96,
+       "end": 91.28
+      }
+     ]
+    }
+   ],
+   "start": 87.8,
+   "end": 91.28
+  },
+  {
+   "id": "chase",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then Mr. Gold saw me.",
+     "start": 91.44,
+     "end": 92.88,
+     "words": [
+      {
+       "text": "Then",
+       "start": 91.44,
+       "end": 91.6
+      },
+      {
+       "text": "Mr.",
+       "start": 91.76,
+       "end": 91.92
+      },
+      {
+       "text": "Gold",
+       "start": 92.08,
+       "end": 92.4
+      },
+      {
+       "text": "saw",
+       "start": 92.44,
+       "end": 92.64
+      },
+      {
+       "text": "me.",
+       "start": 92.72,
+       "end": 92.88
+      }
+     ]
+    },
+    {
+     "show": "He reached down",
+     "start": 92.96,
+     "end": 93.6,
+     "words": [
+      {
+       "text": "He",
+       "start": 92.96,
+       "end": 93.04
+      },
+      {
+       "text": "reached",
+       "start": 93.12,
+       "end": 93.36
+      },
+      {
+       "text": "down",
+       "start": 93.48,
+       "end": 93.6
+      }
+     ]
+    },
+    {
+     "show": "with his {r:giant hand.}",
+     "start": 93.64,
+     "end": 94.72,
+     "words": [
+      {
+       "text": "with",
+       "start": 93.64,
+       "end": 93.68
+      },
+      {
+       "text": "his",
+       "start": 93.8,
+       "end": 93.92
+      },
+      {
+       "text": "giant",
+       "start": 94.0,
+       "end": 94.24
+      },
+      {
+       "text": "hand.",
+       "start": 94.32,
+       "end": 94.72
+      }
+     ]
+    },
+    {
+     "show": "I jumped into the crack",
+     "start": 94.84,
+     "end": 95.76,
+     "words": [
+      {
+       "text": "I",
+       "start": 94.84,
+       "end": 94.96
+      },
+      {
+       "text": "jumped",
+       "start": 95.04,
+       "end": 95.2
+      },
+      {
+       "text": "into",
+       "start": 95.28,
+       "end": 95.36
+      },
+      {
+       "text": "the",
+       "start": 95.4,
+       "end": 95.44
+      },
+      {
+       "text": "crack",
+       "start": 95.52,
+       "end": 95.76
+      }
+     ]
+    },
+    {
+     "show": "just in time.",
+     "start": 95.84,
+     "end": 96.6,
+     "words": [
+      {
+       "text": "just",
+       "start": 95.84,
+       "end": 96.0
+      },
+      {
+       "text": "in",
+       "start": 96.08,
+       "end": 96.16
+      },
+      {
+       "text": "time.",
+       "start": 96.24,
+       "end": 96.6
+      }
+     ]
+    },
+    {
+     "show": "His fingers were {r:too big.}",
+     "start": 96.64,
+     "end": 97.92,
+     "words": [
+      {
+       "text": "His",
+       "start": 96.64,
+       "end": 96.8
+      },
+      {
+       "text": "fingers",
+       "start": 96.84,
+       "end": 97.12
+      },
+      {
+       "text": "were",
+       "start": 97.2,
+       "end": 97.28
+      },
+      {
+       "text": "too",
+       "start": 97.4,
+       "end": 97.52
+      },
+      {
+       "text": "big.",
+       "start": 97.6,
+       "end": 97.92
+      }
+     ]
+    }
+   ],
+   "start": 91.44,
+   "end": 97.92
+  },
+  {
+   "id": "safe",
+   "label": "",
+   "lines": [
+    {
+     "show": "I climbed down,",
+     "start": 98.0,
+     "end": 98.72,
+     "words": [
+      {
+       "text": "I",
+       "start": 98.0,
+       "end": 98.08
+      },
+      {
+       "text": "climbed",
+       "start": 98.12,
+       "end": 98.32
+      },
+      {
+       "text": "down,",
+       "start": 98.4,
+       "end": 98.72
+      }
+     ]
+    },
+    {
+     "show": "grabbed it,",
+     "start": 98.8,
+     "end": 99.24,
+     "words": [
+      {
+       "text": "grabbed",
+       "start": 98.8,
+       "end": 99.04
+      },
+      {
+       "text": "it,",
+       "start": 99.12,
+       "end": 99.24
+      }
+     ]
+    },
+    {
+     "show": "and walked straight to the safe.",
+     "start": 99.28,
+     "end": 100.64,
+     "words": [
+      {
+       "text": "and",
+       "start": 99.28,
+       "end": 99.36
+      },
+      {
+       "text": "walked",
+       "start": 99.44,
+       "end": 99.68
+      },
+      {
+       "text": "straight",
+       "start": 99.76,
+       "end": 100.0
+      },
+      {
+       "text": "to",
+       "start": 100.04,
+       "end": 100.08
+      },
+      {
+       "text": "the",
+       "start": 100.16,
+       "end": 100.24
+      },
+      {
+       "text": "safe.",
+       "start": 100.4,
+       "end": 100.64
+      }
+     ]
+    },
+    {
+     "show": "The whole stadium went {r:silent.}",
+     "start": 100.72,
+     "end": 102.48,
+     "words": [
+      {
+       "text": "The",
+       "start": 100.72,
+       "end": 100.88
+      },
+      {
+       "text": "whole",
+       "start": 101.04,
+       "end": 101.2
+      },
+      {
+       "text": "stadium",
+       "start": 101.28,
+       "end": 101.68
+      },
+      {
+       "text": "went",
+       "start": 101.8,
+       "end": 101.92
+      },
+      {
+       "text": "silent.",
+       "start": 102.0,
+       "end": 102.48
+      }
+     ]
+    },
+    {
+     "show": "{y:Click.}",
+     "start": 102.56,
+     "end": 103.04,
+     "words": [
+      {
+       "text": "Click.",
+       "start": 102.56,
+       "end": 103.04
+      }
+     ]
+    }
+   ],
+   "start": 98.0,
+   "end": 103.04
+  },
+  {
+   "id": "money",
+   "label": "",
+   "lines": [
+    {
+     "show": "The screen went crazy.",
+     "start": 103.12,
+     "end": 104.4,
+     "words": [
+      {
+       "text": "The",
+       "start": 103.12,
+       "end": 103.2
+      },
+      {
+       "text": "screen",
+       "start": 103.36,
+       "end": 103.52
+      },
+      {
+       "text": "went",
+       "start": 103.6,
+       "end": 103.76
+      },
+      {
+       "text": "crazy.",
+       "start": 103.84,
+       "end": 104.4
+      }
+     ]
+    },
+    {
+     "show": "{g:One thousand.}",
+     "start": 104.48,
+     "end": 105.28,
+     "words": [
+      {
+       "text": "One",
+       "start": 104.48,
+       "end": 104.56
+      },
+      {
+       "text": "thousand.",
+       "start": 104.72,
+       "end": 105.28
+      }
+     ]
+    },
+    {
+     "show": "{g:One million.}",
+     "start": 105.32,
+     "end": 106.0,
+     "words": [
+      {
+       "text": "One",
+       "start": 105.32,
+       "end": 105.36
+      },
+      {
+       "text": "million.",
+       "start": 105.52,
+       "end": 106.0
+      }
+     ]
+    },
+    {
+     "show": "{g:Ten million.}",
+     "start": 106.12,
+     "end": 106.88,
+     "words": [
+      {
+       "text": "Ten",
+       "start": 106.12,
+       "end": 106.24
+      },
+      {
+       "text": "million.",
+       "start": 106.4,
+       "end": 106.88
+      }
+     ]
+    }
+   ],
+   "start": 103.12,
+   "end": 106.88
+  },
+  {
+   "id": "grow",
+   "label": "",
+   "lines": [
+    {
+     "show": "And I started {y:growing.}",
+     "start": 106.96,
+     "end": 108.48,
+     "words": [
+      {
+       "text": "And",
+       "start": 106.96,
+       "end": 107.04
+      },
+      {
+       "text": "I",
+       "start": 107.28,
+       "end": 107.36
+      },
+      {
+       "text": "started",
+       "start": 107.44,
+       "end": 107.84
+      },
+      {
+       "text": "growing.",
+       "start": 108.027,
+       "end": 108.48
+      }
+     ]
+    },
+    {
+     "show": "And growing.",
+     "start": 108.56,
+     "end": 109.36,
+     "words": [
+      {
+       "text": "And",
+       "start": 108.56,
+       "end": 108.64
+      },
+      {
+       "text": "growing.",
+       "start": 108.72,
+       "end": 109.36
+      }
+     ]
+    },
+    {
+     "show": "And growing.",
+     "start": 109.44,
+     "end": 110.16,
+     "words": [
+      {
+       "text": "And",
+       "start": 109.44,
+       "end": 109.52
+      },
+      {
+       "text": "growing.",
+       "start": 109.6,
+       "end": 110.16
+      }
+     ]
+    },
+    {
+     "show": "For the first time in my life,",
+     "start": 110.2,
+     "end": 111.6,
+     "words": [
+      {
+       "text": "For",
+       "start": 110.2,
+       "end": 110.24
+      },
+      {
+       "text": "the",
+       "start": 110.36,
+       "end": 110.48
+      },
+      {
+       "text": "first",
+       "start": 110.6,
+       "end": 110.72
+      },
+      {
+       "text": "time",
+       "start": 110.84,
+       "end": 110.96
+      },
+      {
+       "text": "in",
+       "start": 111.0,
+       "end": 111.04
+      },
+      {
+       "text": "my",
+       "start": 111.12,
+       "end": 111.2
+      },
+      {
+       "text": "life,",
+       "start": 111.28,
+       "end": 111.6
+      }
+     ]
+    },
+    {
+     "show": "I could see the whole town.",
+     "start": 111.68,
+     "end": 113.12,
+     "words": [
+      {
+       "text": "I",
+       "start": 111.68,
+       "end": 111.72
+      },
+      {
+       "text": "could",
+       "start": 111.76,
+       "end": 111.92
+      },
+      {
+       "text": "see",
+       "start": 112.0,
+       "end": 112.08
+      },
+      {
+       "text": "the",
+       "start": 112.16,
+       "end": 112.32
+      },
+      {
+       "text": "whole",
+       "start": 112.44,
+       "end": 112.56
+      },
+      {
+       "text": "town.",
+       "start": 112.64,
+       "end": 113.12
+      }
+     ]
+    },
+    {
+     "show": "Kids who laughed at me",
+     "start": 113.24,
+     "end": 114.08,
+     "words": [
+      {
+       "text": "Kids",
+       "start": 113.24,
+       "end": 113.36
+      },
+      {
+       "text": "who",
+       "start": 113.44,
+       "end": 113.52
+      },
+      {
+       "text": "laughed",
+       "start": 113.56,
+       "end": 113.8
+      },
+      {
+       "text": "at",
+       "start": 113.84,
+       "end": 113.92
+      },
+      {
+       "text": "me",
+       "start": 114.0,
+       "end": 114.08
+      }
+     ]
+    },
+    {
+     "show": "suddenly had to look {y:up.}",
+     "start": 114.16,
+     "end": 115.2,
+     "words": [
+      {
+       "text": "suddenly",
+       "start": 114.16,
+       "end": 114.48
+      },
+      {
+       "text": "had",
+       "start": 114.52,
+       "end": 114.56
+      },
+      {
+       "text": "to",
+       "start": 114.64,
+       "end": 114.72
+      },
+      {
+       "text": "look",
+       "start": 114.8,
+       "end": 114.88
+      },
+      {
+       "text": "up.",
+       "start": 114.96,
+       "end": 115.2
+      }
+     ]
+    }
+   ],
+   "start": 106.96,
+   "end": 115.2
+  },
+  {
+   "id": "bet",
+   "label": "",
+   "lines": [
+    {
+     "show": "And Mr. Gold?",
+     "start": 115.24,
+     "end": 116.08,
+     "words": [
+      {
+       "text": "And",
+       "start": 115.24,
+       "end": 115.28
+      },
+      {
+       "text": "Mr.",
+       "start": 115.36,
+       "end": 115.52
+      },
+      {
+       "text": "Gold?",
+       "start": 115.68,
+       "end": 116.08
+      }
+     ]
+    },
+    {
+     "show": "He had bet all his money",
+     "start": 116.16,
+     "end": 117.36,
+     "words": [
+      {
+       "text": "He",
+       "start": 116.16,
+       "end": 116.24
+      },
+      {
+       "text": "had",
+       "start": 116.32,
+       "end": 116.4
+      },
+      {
+       "text": "bet",
+       "start": 116.52,
+       "end": 116.64
+      },
+      {
+       "text": "all",
+       "start": 116.72,
+       "end": 116.8
+      },
+      {
+       "text": "his",
+       "start": 116.88,
+       "end": 117.12
+      },
+      {
+       "text": "money",
+       "start": 117.24,
+       "end": 117.36
+      }
+     ]
+    },
+    {
+     "show": "that I would {r:lose.}",
+     "start": 117.44,
+     "end": 118.32,
+     "words": [
+      {
+       "text": "that",
+       "start": 117.44,
+       "end": 117.52
+      },
+      {
+       "text": "I",
+       "start": 117.68,
+       "end": 117.733
+      },
+      {
+       "text": "would",
+       "start": 117.787,
+       "end": 117.84
+      },
+      {
+       "text": "lose.",
+       "start": 117.92,
+       "end": 118.32
+      }
+     ]
+    },
+    {
+     "show": "He shrank so fast,",
+     "start": 118.44,
+     "end": 119.56,
+     "words": [
+      {
+       "text": "He",
+       "start": 118.44,
+       "end": 118.56
+      },
+      {
+       "text": "shrank",
+       "start": 118.6,
+       "end": 118.88
+      },
+      {
+       "text": "so",
+       "start": 118.96,
+       "end": 119.2
+      },
+      {
+       "text": "fast,",
+       "start": 119.36,
+       "end": 119.56
+      }
+     ]
+    },
+    {
+     "show": "he fell right into the {r:crack.}",
+     "start": 119.6,
+     "end": 120.96,
+     "words": [
+      {
+       "text": "he",
+       "start": 119.6,
+       "end": 119.76
+      },
+      {
+       "text": "fell",
+       "start": 119.88,
+       "end": 120.0
+      },
+      {
+       "text": "right",
+       "start": 120.08,
+       "end": 120.16
+      },
+      {
+       "text": "into",
+       "start": 120.24,
+       "end": 120.32
+      },
+      {
+       "text": "the",
+       "start": 120.4,
+       "end": 120.48
+      },
+      {
+       "text": "crack.",
+       "start": 120.56,
+       "end": 120.96
+      }
+     ]
+    }
+   ],
+   "start": 115.24,
+   "end": 120.96
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I gave him my old lunch.",
+     "start": 121.12,
+     "end": 122.48,
+     "words": [
+      {
+       "text": "So",
+       "start": 121.12,
+       "end": 121.28
+      },
+      {
+       "text": "I",
+       "start": 121.44,
+       "end": 121.46
+      },
+      {
+       "text": "gave",
+       "start": 121.48,
+       "end": 121.52
+      },
+      {
+       "text": "him",
+       "start": 121.6,
+       "end": 121.68
+      },
+      {
+       "text": "my",
+       "start": 121.72,
+       "end": 121.76
+      },
+      {
+       "text": "old",
+       "start": 121.84,
+       "end": 122.0
+      },
+      {
+       "text": "lunch.",
+       "start": 122.04,
+       "end": 122.48
+      }
+     ]
+    },
+    {
+     "show": "One single {y:crumb.}",
+     "start": 122.6,
+     "end": 123.68,
+     "words": [
+      {
+       "text": "One",
+       "start": 122.6,
+       "end": 122.72
+      },
+      {
+       "text": "single",
+       "start": 122.88,
+       "end": 123.2
+      },
+      {
+       "text": "crumb.",
+       "start": 123.28,
+       "end": 123.68
+      }
+     ]
+    },
+    {
+     "show": "Trust me,",
+     "start": 123.8,
+     "end": 124.12,
+     "words": [
+      {
+       "text": "Trust",
+       "start": 123.8,
+       "end": 123.92
+      },
+      {
+       "text": "me,",
+       "start": 124.0,
+       "end": 124.12
+      }
+     ]
+    },
+    {
+     "show": "it lasts {y:three days.}",
+     "start": 124.16,
+     "end": 125.44,
+     "words": [
+      {
+       "text": "it",
+       "start": 124.16,
+       "end": 124.24
+      },
+      {
+       "text": "lasts",
+       "start": 124.32,
+       "end": 124.64
+      },
+      {
+       "text": "three",
+       "start": 124.72,
+       "end": 124.8
+      },
+      {
+       "text": "days.",
+       "start": 124.88,
+       "end": 125.44
+      }
+     ]
+    }
+   ],
+   "start": 121.12,
+   "end": 125.44
+  }
+ ]
+}
