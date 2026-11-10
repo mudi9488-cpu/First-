@@ -1,0 +1,441 @@
+{
+ "title": "The Red Light – Part 2",
+ "voice": "ElevenLabs: In This town",
+ "beats": [
+  {
+   "id": "recap",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "every time you lie,"
+    },
+    {
+     "show": "a {r:red light} turns on above your head."
+    },
+    {
+     "show": "Last Monday,"
+    },
+    {
+     "show": "everyone's light turned on."
+    },
+    {
+     "show": "{g:Except mine.}"
+    },
+    {
+     "show": "And the mayor's."
+    }
+   ]
+  },
+  {
+   "id": "door",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now the mayor was standing"
+    },
+    {
+     "show": "at our front door."
+    },
+    {
+     "show": "{r:Smiling.}"
+    }
+   ]
+  },
+  {
+   "id": "talk",
+   "label": "",
+   "lines": [
+    {
+     "show": "Noah, he said,"
+    },
+    {
+     "show": "the town needs its most honest kid."
+    },
+    {
+     "show": "Come with me to the TV studio."
+    },
+    {
+     "show": "Tell everyone the lights are {y:real.}"
+    },
+    {
+     "show": "They will believe {y:you.}"
+    }
+   ]
+  },
+  {
+   "id": "mom",
+   "label": "",
+   "lines": [
+    {
+     "show": "My mom grabbed my arm."
+    },
+    {
+     "show": "Her light was {r:blinking.}"
+    },
+    {
+     "show": "But she didn't say a word."
+    }
+   ]
+  },
+  {
+   "id": "car",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I got in the black car."
+    },
+    {
+     "show": "The whole town was watching"
+    },
+    {
+     "show": "from behind their curtains."
+    },
+    {
+     "show": "Hundreds of {r:red lights}"
+    },
+    {
+     "show": "in the dark windows."
+    }
+   ]
+  },
+  {
+   "id": "studio",
+   "label": "",
+   "lines": [
+    {
+     "show": "The studio was huge."
+    },
+    {
+     "show": "Cameras everywhere."
+    },
+    {
+     "show": "A giant sign said {r:LIVE.}"
+    },
+    {
+     "show": "The mayor gave me a card."
+    },
+    {
+     "show": "It said:"
+    },
+    {
+     "show": "{y:The lights never lie.}"
+    }
+   ]
+  },
+  {
+   "id": "wait",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then he whispered:"
+    },
+    {
+     "show": "Just read this,"
+    },
+    {
+     "show": "and you get a {g:golden medal}"
+    },
+    {
+     "show": "for the rest of your life."
+    }
+   ]
+  },
+  {
+   "id": "cameraman",
+   "label": "",
+   "lines": [
+    {
+     "show": "Even the cameraman had a {r:red light.}"
+    },
+    {
+     "show": "He looked at me"
+    },
+    {
+     "show": "and gave me a tiny {y:nod.}"
+    }
+   ]
+  },
+  {
+   "id": "door2",
+   "label": "",
+   "lines": [
+    {
+     "show": "But while he was talking to the cameraman,"
+    },
+    {
+     "show": "I saw a door."
+    },
+    {
+     "show": "{r:Staff only.}"
+    },
+    {
+     "show": "And behind it,"
+    },
+    {
+     "show": "something was {y:humming.}"
+    }
+   ]
+  },
+  {
+   "id": "machine",
+   "label": "",
+   "lines": [
+    {
+     "show": "I opened it."
+    },
+    {
+     "show": "Inside was a giant machine."
+    },
+    {
+     "show": "Thousands of buttons."
+    },
+    {
+     "show": "And every button"
+    },
+    {
+     "show": "had a {y:name} on it."
+    }
+   ]
+  },
+  {
+   "id": "names",
+   "label": "",
+   "lines": [
+    {
+     "show": "My teacher."
+    },
+    {
+     "show": "The baker."
+    },
+    {
+     "show": "My {r:mom.}"
+    },
+    {
+     "show": "Everyone's button was {r:red.}"
+    },
+    {
+     "show": "Then I found one"
+    },
+    {
+     "show": "that said {y:Mayor.}"
+    },
+    {
+     "show": "It was switched {r:off.}"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "label": "",
+   "lines": [
+    {
+     "show": "That's when I understood."
+    },
+    {
+     "show": "The lights never showed lies."
+    },
+    {
+     "show": "The mayor {r:controlled} them."
+    },
+    {
+     "show": "Anyone who found out"
+    },
+    {
+     "show": "got a red light,"
+    },
+    {
+     "show": "so nobody would believe them."
+    }
+   ]
+  },
+  {
+   "id": "glitch",
+   "label": "",
+   "lines": [
+    {
+     "show": "On Monday, his speech had a {r:glitch.}"
+    },
+    {
+     "show": "Everyone heard him"
+    },
+    {
+     "show": "talking about the machine."
+    },
+    {
+     "show": "Everyone except me."
+    },
+    {
+     "show": "I was {y:asleep.}"
+    }
+   ]
+  },
+  {
+   "id": "mylight",
+   "label": "",
+   "lines": [
+    {
+     "show": "And right there,"
+    },
+    {
+     "show": "above my head,"
+    },
+    {
+     "show": "something turned on."
+    },
+    {
+     "show": "{r:My light.}"
+    },
+    {
+     "show": "Because now"
+    },
+    {
+     "show": "I knew the truth too."
+    }
+   ]
+  },
+  {
+   "id": "live",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor saw it."
+    },
+    {
+     "show": "His face went white."
+    },
+    {
+     "show": "But the red light on the camera"
+    },
+    {
+     "show": "was already on."
+    },
+    {
+     "show": "We were {r:live.}"
+    }
+   ]
+  },
+  {
+   "id": "speech",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I didn't read the card."
+    },
+    {
+     "show": "I looked straight into the camera"
+    },
+    {
+     "show": "and said:"
+    },
+    {
+     "show": "The lights are {r:fake.}"
+    },
+    {
+     "show": "The mayor controls them."
+    },
+    {
+     "show": "And I have never lied in my life."
+    }
+   ]
+  },
+  {
+   "id": "believe",
+   "label": "",
+   "lines": [
+    {
+     "show": "And everyone knew"
+    },
+    {
+     "show": "that was {g:true.}"
+    }
+   ]
+  },
+  {
+   "id": "outside",
+   "label": "",
+   "lines": [
+    {
+     "show": "All over town,"
+    },
+    {
+     "show": "people stepped out of their houses."
+    },
+    {
+     "show": "One by one."
+    },
+    {
+     "show": "Red lights {r:everywhere.}"
+    },
+    {
+     "show": "And nobody was {g:afraid} anymore."
+    }
+   ]
+  },
+  {
+   "id": "switch",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then I walked back to the machine"
+    },
+    {
+     "show": "and flipped one more switch."
+    }
+   ]
+  },
+  {
+   "id": "mayorlight",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor's light turned on."
+    },
+    {
+     "show": "It was the {r:biggest,}"
+    },
+    {
+     "show": "{r:reddest} light"
+    },
+    {
+     "show": "this town has ever seen."
+    },
+    {
+     "show": "You could see it from {y:space.}"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next day,"
+    },
+    {
+     "show": "we turned the machine off forever."
+    },
+    {
+     "show": "My mom hugged me so hard"
+    },
+    {
+     "show": "my light {y:flickered.}"
+    },
+    {
+     "show": "And me?"
+    },
+    {
+     "show": "My light stayed on"
+    },
+    {
+     "show": "for exactly {y:24 hours.}"
+    },
+    {
+     "show": "Best 24 hours of my life."
+    }
+   ]
+  }
+ ]
+}
