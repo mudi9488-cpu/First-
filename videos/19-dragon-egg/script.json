@@ -1,0 +1,414 @@
+{
+ "title": "The Storm Egg",
+ "voice": "ElevenLabs: In This town",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "every kid gets a {y:dragon}"
+    },
+    {
+     "show": "on their twelfth birthday."
+    },
+    {
+     "show": "{r:Except me.}"
+    }
+   ]
+  },
+  {
+   "id": "kinds",
+   "label": "",
+   "lines": [
+    {
+     "show": "Some get {r:fire} dragons."
+    },
+    {
+     "show": "Some get {b:ice} dragons."
+    },
+    {
+     "show": "One kid even got a dragon"
+    },
+    {
+     "show": "that breathes {y:bubbles.}"
+    }
+   ]
+  },
+  {
+   "id": "life",
+   "label": "",
+   "lines": [
+    {
+     "show": "Dragons fly you to school."
+    },
+    {
+     "show": "They carry your groceries."
+    },
+    {
+     "show": "And the richest family in town"
+    },
+    {
+     "show": "has a dragon so big"
+    },
+    {
+     "show": "it blocks out the {y:sun.}"
+    },
+    {
+     "show": "Dragons even have their own traffic lights."
+    },
+    {
+     "show": "{r:Red} means land."
+    },
+    {
+     "show": "{g:Green} means fly."
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is {y:Kai.}"
+    },
+    {
+     "show": "I'm twelve,"
+    },
+    {
+     "show": "and on my birthday,"
+    },
+    {
+     "show": "everyone's egg hatched."
+    },
+    {
+     "show": "Mine {r:didn't.}"
+    }
+   ]
+  },
+  {
+   "id": "eggs",
+   "label": "",
+   "lines": [
+    {
+     "show": "My best friend got a red dragon"
+    },
+    {
+     "show": "that can fly faster than a {y:plane.}"
+    },
+    {
+     "show": "I got an egg"
+    },
+    {
+     "show": "that just sat there."
+    },
+    {
+     "show": "{r:Doing nothing.}"
+    }
+   ]
+  },
+  {
+   "id": "blake",
+   "label": "",
+   "lines": [
+    {
+     "show": "And then there was {r:Blake.}"
+    },
+    {
+     "show": "The richest kid in town."
+    },
+    {
+     "show": "His dragon was called {r:Titan,}"
+    },
+    {
+     "show": "and it was as big as a mountain."
+    },
+    {
+     "show": "Every day, Blake flew over my house"
+    },
+    {
+     "show": "and dropped his ice cream on me."
+    },
+    {
+     "show": "{r:On purpose.}"
+    }
+   ]
+  },
+  {
+   "id": "try",
+   "label": "",
+   "lines": [
+    {
+     "show": "I tried everything."
+    },
+    {
+     "show": "I kept it warm with a {y:hair dryer.}"
+    },
+    {
+     "show": "I read it bedtime stories."
+    },
+    {
+     "show": "I even sat on it"
+    },
+    {
+     "show": "for {r:three days.}"
+    },
+    {
+     "show": "Nothing."
+    },
+    {
+     "show": "I sang to it."
+    },
+    {
+     "show": "I showed it pictures of other dragons."
+    },
+    {
+     "show": "I even put it in the {r:microwave.}"
+    },
+    {
+     "show": "Just for a second."
+    },
+    {
+     "show": "Okay, that was a {r:bad idea.}"
+    }
+   ]
+  },
+  {
+   "id": "school",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every morning,"
+    },
+    {
+     "show": "my classmates flew to school."
+    },
+    {
+     "show": "I took the stairs."
+    },
+    {
+     "show": "All {r:four hundred} of them."
+    },
+    {
+     "show": "Our teacher even gave me"
+    },
+    {
+     "show": "a special parking spot."
+    },
+    {
+     "show": "For my {y:backpack.}"
+    }
+   ]
+  },
+  {
+   "id": "race",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the mayor announced"
+    },
+    {
+     "show": "the {y:Great Dragon Race.}"
+    },
+    {
+     "show": "The winner gets a {y:golden saddle}"
+    },
+    {
+     "show": "and becomes the hero of the town."
+    },
+    {
+     "show": "Every dragon in town signed up."
+    },
+    {
+     "show": "Blake said I could join if I wanted."
+    },
+    {
+     "show": "As the {r:finish line.}"
+    }
+   ]
+  },
+  {
+   "id": "storm",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the night before the race,"
+    },
+    {
+     "show": "a giant {r:storm} hit the town."
+    },
+    {
+     "show": "Lightning struck the dragon tower."
+    },
+    {
+     "show": "Every single dragon got scared"
+    },
+    {
+     "show": "and flew {r:away.}"
+    },
+    {
+     "show": "Even Titan."
+    },
+    {
+     "show": "The whole town went {r:dark.}"
+    },
+    {
+     "show": "People hid in their houses."
+    },
+    {
+     "show": "Blake was crying under a table."
+    }
+   ]
+  },
+  {
+   "id": "crack",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then I heard something."
+    },
+    {
+     "show": "{y:Crack.}"
+    },
+    {
+     "show": "My egg was {y:glowing.}"
+    }
+   ]
+  },
+  {
+   "id": "baby",
+   "label": "",
+   "lines": [
+    {
+     "show": "Out came the smallest dragon"
+    },
+    {
+     "show": "I've ever seen."
+    },
+    {
+     "show": "The size of a {y:potato.}"
+    },
+    {
+     "show": "Everyone laughed."
+    },
+    {
+     "show": "Blake laughed the loudest."
+    },
+    {
+     "show": "He said, {r:nice potato.}"
+    }
+   ]
+  },
+  {
+   "id": "eat",
+   "label": "",
+   "lines": [
+    {
+     "show": "But my dragon wasn't scared of the storm."
+    },
+    {
+     "show": "It opened its mouth"
+    },
+    {
+     "show": "and {y:ate} the lightning."
+    },
+    {
+     "show": "One bolt."
+    },
+    {
+     "show": "Two bolts."
+    },
+    {
+     "show": "{y:Three} bolts."
+    }
+   ]
+  },
+  {
+   "id": "grow",
+   "label": "",
+   "lines": [
+    {
+     "show": "And with every bolt,"
+    },
+    {
+     "show": "it grew {y:bigger.}"
+    },
+    {
+     "show": "And bigger."
+    },
+    {
+     "show": "Until it was bigger"
+    },
+    {
+     "show": "than the {r:richest family's} dragon."
+    }
+   ]
+  },
+  {
+   "id": "fly",
+   "label": "",
+   "lines": [
+    {
+     "show": "I climbed on its back,"
+    },
+    {
+     "show": "and we flew straight into the storm."
+    },
+    {
+     "show": "We found every lost dragon"
+    },
+    {
+     "show": "and brought them {g:home.}"
+    },
+    {
+     "show": "Even Titan."
+    },
+    {
+     "show": "He was hiding behind a {b:waterfall,}"
+    },
+    {
+     "show": "shaking like a leaf."
+    }
+   ]
+  },
+  {
+   "id": "win",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next morning,"
+    },
+    {
+     "show": "I won the race."
+    },
+    {
+     "show": "By about {y:three miles.}"
+    },
+    {
+     "show": "Blake came in {r:second.}"
+    },
+    {
+     "show": "Titan was too tired to fly."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Turns out my dragon wasn't late."
+    },
+    {
+     "show": "It was just waiting"
+    },
+    {
+     "show": "for the right {y:weather.}"
+    }
+   ]
+  }
+ ]
+}

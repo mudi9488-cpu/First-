@@ -1,0 +1,3105 @@
+{
+ "duration": 124.918,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "every kid gets a {y:dragon}",
+     "start": 0.88,
+     "end": 2.0,
+     "words": [
+      {
+       "text": "every",
+       "start": 0.88,
+       "end": 1.12
+      },
+      {
+       "text": "kid",
+       "start": 1.2,
+       "end": 1.36
+      },
+      {
+       "text": "gets",
+       "start": 1.44,
+       "end": 1.52
+      },
+      {
+       "text": "a",
+       "start": 1.6,
+       "end": 1.68
+      },
+      {
+       "text": "dragon",
+       "start": 1.84,
+       "end": 2.0
+      }
+     ]
+    },
+    {
+     "show": "on their twelfth birthday.",
+     "start": 2.04,
+     "end": 3.2,
+     "words": [
+      {
+       "text": "on",
+       "start": 2.04,
+       "end": 2.08
+      },
+      {
+       "text": "their",
+       "start": 2.16,
+       "end": 2.24
+      },
+      {
+       "text": "twelfth",
+       "start": 2.32,
+       "end": 2.56
+      },
+      {
+       "text": "birthday.",
+       "start": 2.76,
+       "end": 3.2
+      }
+     ]
+    },
+    {
+     "show": "{r:Except me.}",
+     "start": 3.4,
+     "end": 4.16,
+     "words": [
+      {
+       "text": "Except",
+       "start": 3.4,
+       "end": 3.6
+      },
+      {
+       "text": "me.",
+       "start": 3.68,
+       "end": 4.16
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 4.16
+  },
+  {
+   "id": "kinds",
+   "label": "",
+   "lines": [
+    {
+     "show": "Some get {r:fire} dragons.",
+     "start": 4.28,
+     "end": 5.6,
+     "words": [
+      {
+       "text": "Some",
+       "start": 4.28,
+       "end": 4.4
+      },
+      {
+       "text": "get",
+       "start": 4.48,
+       "end": 4.64
+      },
+      {
+       "text": "fire",
+       "start": 4.76,
+       "end": 4.88
+      },
+      {
+       "text": "dragons.",
+       "start": 4.96,
+       "end": 5.6
+      }
+     ]
+    },
+    {
+     "show": "Some get {b:ice} dragons.",
+     "start": 5.72,
+     "end": 6.96,
+     "words": [
+      {
+       "text": "Some",
+       "start": 5.72,
+       "end": 5.84
+      },
+      {
+       "text": "get",
+       "start": 5.92,
+       "end": 6.0
+      },
+      {
+       "text": "ice",
+       "start": 6.16,
+       "end": 6.32
+      },
+      {
+       "text": "dragons.",
+       "start": 6.4,
+       "end": 6.96
+      }
+     ]
+    },
+    {
+     "show": "One kid even got a dragon",
+     "start": 7.04,
+     "end": 8.16,
+     "words": [
+      {
+       "text": "One",
+       "start": 7.04,
+       "end": 7.12
+      },
+      {
+       "text": "kid",
+       "start": 7.2,
+       "end": 7.36
+      },
+      {
+       "text": "even",
+       "start": 7.44,
+       "end": 7.6
+      },
+      {
+       "text": "got",
+       "start": 7.64,
+       "end": 7.68
+      },
+      {
+       "text": "a",
+       "start": 7.76,
+       "end": 7.84
+      },
+      {
+       "text": "dragon",
+       "start": 8.0,
+       "end": 8.16
+      }
+     ]
+    },
+    {
+     "show": "that breathes {y:bubbles.}",
+     "start": 8.24,
+     "end": 9.36,
+     "words": [
+      {
+       "text": "that",
+       "start": 8.24,
+       "end": 8.32
+      },
+      {
+       "text": "breathes",
+       "start": 8.4,
+       "end": 8.64
+      },
+      {
+       "text": "bubbles.",
+       "start": 8.8,
+       "end": 9.36
+      }
+     ]
+    }
+   ],
+   "start": 4.28,
+   "end": 9.36
+  },
+  {
+   "id": "life",
+   "label": "",
+   "lines": [
+    {
+     "show": "Dragons fly you to school.",
+     "start": 9.48,
+     "end": 10.72,
+     "words": [
+      {
+       "text": "Dragons",
+       "start": 9.48,
+       "end": 9.76
+      },
+      {
+       "text": "fly",
+       "start": 9.84,
+       "end": 10.08
+      },
+      {
+       "text": "you",
+       "start": 10.12,
+       "end": 10.16
+      },
+      {
+       "text": "to",
+       "start": 10.2,
+       "end": 10.24
+      },
+      {
+       "text": "school.",
+       "start": 10.32,
+       "end": 10.72
+      }
+     ]
+    },
+    {
+     "show": "They carry your groceries.",
+     "start": 10.8,
+     "end": 11.893,
+     "words": [
+      {
+       "text": "They",
+       "start": 10.8,
+       "end": 10.88
+      },
+      {
+       "text": "carry",
+       "start": 11.0,
+       "end": 11.12
+      },
+      {
+       "text": "your",
+       "start": 11.2,
+       "end": 11.28
+      },
+      {
+       "text": "groceries.",
+       "start": 11.36,
+       "end": 11.893
+      }
+     ]
+    },
+    {
+     "show": "And the richest family in town",
+     "start": 11.947,
+     "end": 13.12,
+     "words": [
+      {
+       "text": "And",
+       "start": 11.947,
+       "end": 12.0
+      },
+      {
+       "text": "the",
+       "start": 12.053,
+       "end": 12.107
+      },
+      {
+       "text": "richest",
+       "start": 12.16,
+       "end": 12.4
+      },
+      {
+       "text": "family",
+       "start": 12.48,
+       "end": 12.72
+      },
+      {
+       "text": "in",
+       "start": 12.8,
+       "end": 12.88
+      },
+      {
+       "text": "town",
+       "start": 13.0,
+       "end": 13.12
+      }
+     ]
+    },
+    {
+     "show": "has a dragon so big",
+     "start": 13.2,
+     "end": 14.4,
+     "words": [
+      {
+       "text": "has",
+       "start": 13.2,
+       "end": 13.28
+      },
+      {
+       "text": "a",
+       "start": 13.36,
+       "end": 13.4
+      },
+      {
+       "text": "dragon",
+       "start": 13.44,
+       "end": 13.76
+      },
+      {
+       "text": "so",
+       "start": 13.92,
+       "end": 14.16
+      },
+      {
+       "text": "big",
+       "start": 14.28,
+       "end": 14.4
+      }
+     ]
+    },
+    {
+     "show": "it blocks out the {y:sun.}",
+     "start": 14.48,
+     "end": 15.84,
+     "words": [
+      {
+       "text": "it",
+       "start": 14.48,
+       "end": 14.64
+      },
+      {
+       "text": "blocks",
+       "start": 14.8,
+       "end": 14.96
+      },
+      {
+       "text": "out",
+       "start": 15.04,
+       "end": 15.12
+      },
+      {
+       "text": "the",
+       "start": 15.2,
+       "end": 15.28
+      },
+      {
+       "text": "sun.",
+       "start": 15.36,
+       "end": 15.84
+      }
+     ]
+    },
+    {
+     "show": "Dragons even have their own traffic lights.",
+     "start": 15.92,
+     "end": 17.52,
+     "words": [
+      {
+       "text": "Dragons",
+       "start": 15.92,
+       "end": 16.16
+      },
+      {
+       "text": "even",
+       "start": 16.24,
+       "end": 16.32
+      },
+      {
+       "text": "have",
+       "start": 16.4,
+       "end": 16.48
+      },
+      {
+       "text": "their",
+       "start": 16.52,
+       "end": 16.56
+      },
+      {
+       "text": "own",
+       "start": 16.64,
+       "end": 16.72
+      },
+      {
+       "text": "traffic",
+       "start": 16.92,
+       "end": 17.12
+      },
+      {
+       "text": "lights.",
+       "start": 17.28,
+       "end": 17.52
+      }
+     ]
+    },
+    {
+     "show": "{r:Red} means land.",
+     "start": 17.6,
+     "end": 18.56,
+     "words": [
+      {
+       "text": "Red",
+       "start": 17.6,
+       "end": 17.76
+      },
+      {
+       "text": "means",
+       "start": 17.84,
+       "end": 18.08
+      },
+      {
+       "text": "land.",
+       "start": 18.16,
+       "end": 18.56
+      }
+     ]
+    },
+    {
+     "show": "{g:Green} means fly.",
+     "start": 18.64,
+     "end": 19.84,
+     "words": [
+      {
+       "text": "Green",
+       "start": 18.64,
+       "end": 18.96
+      },
+      {
+       "text": "means",
+       "start": 19.08,
+       "end": 19.2
+      },
+      {
+       "text": "fly.",
+       "start": 19.28,
+       "end": 19.84
+      }
+     ]
+    }
+   ],
+   "start": 9.48,
+   "end": 19.84
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is {y:Kai.}",
+     "start": 19.92,
+     "end": 20.88,
+     "words": [
+      {
+       "text": "My",
+       "start": 19.92,
+       "end": 20.0
+      },
+      {
+       "text": "name",
+       "start": 20.08,
+       "end": 20.24
+      },
+      {
+       "text": "is",
+       "start": 20.32,
+       "end": 20.48
+      },
+      {
+       "text": "Kai.",
+       "start": 20.52,
+       "end": 20.88
+      }
+     ]
+    },
+    {
+     "show": "I'm twelve,",
+     "start": 20.92,
+     "end": 21.547,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 20.92,
+       "end": 21.04
+      },
+      {
+       "text": "twelve,",
+       "start": 21.12,
+       "end": 21.547
+      }
+     ]
+    },
+    {
+     "show": "and on my birthday,",
+     "start": 21.573,
+     "end": 22.48,
+     "words": [
+      {
+       "text": "and",
+       "start": 21.573,
+       "end": 21.6
+      },
+      {
+       "text": "on",
+       "start": 21.68,
+       "end": 21.76
+      },
+      {
+       "text": "my",
+       "start": 21.84,
+       "end": 21.92
+      },
+      {
+       "text": "birthday,",
+       "start": 22.12,
+       "end": 22.48
+      }
+     ]
+    },
+    {
+     "show": "everyone's egg hatched.",
+     "start": 22.68,
+     "end": 23.92,
+     "words": [
+      {
+       "text": "everyone's",
+       "start": 22.68,
+       "end": 23.04
+      },
+      {
+       "text": "egg",
+       "start": 23.12,
+       "end": 23.28
+      },
+      {
+       "text": "hatched.",
+       "start": 23.413,
+       "end": 23.92
+      }
+     ]
+    },
+    {
+     "show": "Mine {r:didn't.}",
+     "start": 24.04,
+     "end": 24.72,
+     "words": [
+      {
+       "text": "Mine",
+       "start": 24.04,
+       "end": 24.16
+      },
+      {
+       "text": "didn't.",
+       "start": 24.24,
+       "end": 24.72
+      }
+     ]
+    }
+   ],
+   "start": 19.92,
+   "end": 24.72
+  },
+  {
+   "id": "eggs",
+   "label": "",
+   "lines": [
+    {
+     "show": "My best friend got a red dragon",
+     "start": 24.8,
+     "end": 26.32,
+     "words": [
+      {
+       "text": "My",
+       "start": 24.8,
+       "end": 24.96
+      },
+      {
+       "text": "best",
+       "start": 25.08,
+       "end": 25.2
+      },
+      {
+       "text": "friend",
+       "start": 25.32,
+       "end": 25.44
+      },
+      {
+       "text": "got",
+       "start": 25.52,
+       "end": 25.6
+      },
+      {
+       "text": "a",
+       "start": 25.68,
+       "end": 25.76
+      },
+      {
+       "text": "red",
+       "start": 25.84,
+       "end": 25.92
+      },
+      {
+       "text": "dragon",
+       "start": 26.0,
+       "end": 26.32
+      }
+     ]
+    },
+    {
+     "show": "that can fly faster than a {y:plane.}",
+     "start": 26.36,
+     "end": 28.0,
+     "words": [
+      {
+       "text": "that",
+       "start": 26.36,
+       "end": 26.4
+      },
+      {
+       "text": "can",
+       "start": 26.48,
+       "end": 26.56
+      },
+      {
+       "text": "fly",
+       "start": 26.64,
+       "end": 26.88
+      },
+      {
+       "text": "faster",
+       "start": 26.96,
+       "end": 27.2
+      },
+      {
+       "text": "than",
+       "start": 27.28,
+       "end": 27.36
+      },
+      {
+       "text": "a",
+       "start": 27.4,
+       "end": 27.44
+      },
+      {
+       "text": "plane.",
+       "start": 27.52,
+       "end": 28.0
+      }
+     ]
+    },
+    {
+     "show": "I got an egg",
+     "start": 28.12,
+     "end": 28.8,
+     "words": [
+      {
+       "text": "I",
+       "start": 28.12,
+       "end": 28.24
+      },
+      {
+       "text": "got",
+       "start": 28.32,
+       "end": 28.4
+      },
+      {
+       "text": "an",
+       "start": 28.48,
+       "end": 28.56
+      },
+      {
+       "text": "egg",
+       "start": 28.68,
+       "end": 28.8
+      }
+     ]
+    },
+    {
+     "show": "that just sat there.",
+     "start": 28.88,
+     "end": 29.84,
+     "words": [
+      {
+       "text": "that",
+       "start": 28.88,
+       "end": 28.96
+      },
+      {
+       "text": "just",
+       "start": 29.08,
+       "end": 29.2
+      },
+      {
+       "text": "sat",
+       "start": 29.32,
+       "end": 29.44
+      },
+      {
+       "text": "there.",
+       "start": 29.56,
+       "end": 29.84
+      }
+     ]
+    },
+    {
+     "show": "{r:Doing nothing.}",
+     "start": 30.0,
+     "end": 30.8,
+     "words": [
+      {
+       "text": "Doing",
+       "start": 30.0,
+       "end": 30.16
+      },
+      {
+       "text": "nothing.",
+       "start": 30.36,
+       "end": 30.8
+      }
+     ]
+    }
+   ],
+   "start": 24.8,
+   "end": 30.8
+  },
+  {
+   "id": "blake",
+   "label": "",
+   "lines": [
+    {
+     "show": "And then there was {r:Blake.}",
+     "start": 30.88,
+     "end": 32.16,
+     "words": [
+      {
+       "text": "And",
+       "start": 30.88,
+       "end": 30.96
+      },
+      {
+       "text": "then",
+       "start": 31.16,
+       "end": 31.36
+      },
+      {
+       "text": "there",
+       "start": 31.4,
+       "end": 31.44
+      },
+      {
+       "text": "was",
+       "start": 31.52,
+       "end": 31.68
+      },
+      {
+       "text": "Blake.",
+       "start": 31.84,
+       "end": 32.16
+      }
+     ]
+    },
+    {
+     "show": "The richest kid in town.",
+     "start": 32.24,
+     "end": 33.52,
+     "words": [
+      {
+       "text": "The",
+       "start": 32.24,
+       "end": 32.32
+      },
+      {
+       "text": "richest",
+       "start": 32.4,
+       "end": 32.64
+      },
+      {
+       "text": "kid",
+       "start": 32.72,
+       "end": 32.88
+      },
+      {
+       "text": "in",
+       "start": 32.96,
+       "end": 33.04
+      },
+      {
+       "text": "town.",
+       "start": 33.2,
+       "end": 33.52
+      }
+     ]
+    },
+    {
+     "show": "His dragon was called {r:Titan,}",
+     "start": 33.6,
+     "end": 34.92,
+     "words": [
+      {
+       "text": "His",
+       "start": 33.6,
+       "end": 33.68
+      },
+      {
+       "text": "dragon",
+       "start": 33.76,
+       "end": 34.0
+      },
+      {
+       "text": "was",
+       "start": 34.08,
+       "end": 34.16
+      },
+      {
+       "text": "called",
+       "start": 34.24,
+       "end": 34.48
+      },
+      {
+       "text": "Titan,",
+       "start": 34.68,
+       "end": 34.92
+      }
+     ]
+    },
+    {
+     "show": "and it was as big as a mountain.",
+     "start": 34.96,
+     "end": 36.48,
+     "words": [
+      {
+       "text": "and",
+       "start": 34.96,
+       "end": 35.0
+      },
+      {
+       "text": "it",
+       "start": 35.04,
+       "end": 35.08
+      },
+      {
+       "text": "was",
+       "start": 35.12,
+       "end": 35.2
+      },
+      {
+       "text": "as",
+       "start": 35.32,
+       "end": 35.44
+      },
+      {
+       "text": "big",
+       "start": 35.52,
+       "end": 35.6
+      },
+      {
+       "text": "as",
+       "start": 35.64,
+       "end": 35.68
+      },
+      {
+       "text": "a",
+       "start": 35.76,
+       "end": 35.84
+      },
+      {
+       "text": "mountain.",
+       "start": 35.92,
+       "end": 36.48
+      }
+     ]
+    },
+    {
+     "show": "Every day, Blake flew over my house",
+     "start": 36.6,
+     "end": 38.24,
+     "words": [
+      {
+       "text": "Every",
+       "start": 36.6,
+       "end": 36.72
+      },
+      {
+       "text": "day,",
+       "start": 36.8,
+       "end": 37.04
+      },
+      {
+       "text": "Blake",
+       "start": 37.12,
+       "end": 37.36
+      },
+      {
+       "text": "flew",
+       "start": 37.44,
+       "end": 37.6
+      },
+      {
+       "text": "over",
+       "start": 37.68,
+       "end": 37.84
+      },
+      {
+       "text": "my",
+       "start": 37.92,
+       "end": 38.0
+      },
+      {
+       "text": "house",
+       "start": 38.12,
+       "end": 38.24
+      }
+     ]
+    },
+    {
+     "show": "and dropped his ice cream on me.",
+     "start": 38.32,
+     "end": 39.733,
+     "words": [
+      {
+       "text": "and",
+       "start": 38.32,
+       "end": 38.4
+      },
+      {
+       "text": "dropped",
+       "start": 38.44,
+       "end": 38.64
+      },
+      {
+       "text": "his",
+       "start": 38.72,
+       "end": 38.8
+      },
+      {
+       "text": "ice",
+       "start": 38.88,
+       "end": 39.04
+      },
+      {
+       "text": "cream",
+       "start": 39.16,
+       "end": 39.28
+      },
+      {
+       "text": "on",
+       "start": 39.36,
+       "end": 39.44
+      },
+      {
+       "text": "me.",
+       "start": 39.56,
+       "end": 39.733
+      }
+     ]
+    },
+    {
+     "show": "{r:On purpose.}",
+     "start": 39.787,
+     "end": 40.56,
+     "words": [
+      {
+       "text": "On",
+       "start": 39.787,
+       "end": 39.84
+      },
+      {
+       "text": "purpose.",
+       "start": 39.92,
+       "end": 40.56
+      }
+     ]
+    }
+   ],
+   "start": 30.88,
+   "end": 40.56
+  },
+  {
+   "id": "try",
+   "label": "",
+   "lines": [
+    {
+     "show": "I tried everything.",
+     "start": 40.64,
+     "end": 41.76,
+     "words": [
+      {
+       "text": "I",
+       "start": 40.64,
+       "end": 40.72
+      },
+      {
+       "text": "tried",
+       "start": 40.8,
+       "end": 41.12
+      },
+      {
+       "text": "everything.",
+       "start": 41.2,
+       "end": 41.76
+      }
+     ]
+    },
+    {
+     "show": "I kept it warm with a {y:hair dryer.}",
+     "start": 41.8,
+     "end": 43.28,
+     "words": [
+      {
+       "text": "I",
+       "start": 41.8,
+       "end": 41.84
+      },
+      {
+       "text": "kept",
+       "start": 41.92,
+       "end": 42.0
+      },
+      {
+       "text": "it",
+       "start": 42.08,
+       "end": 42.16
+      },
+      {
+       "text": "warm",
+       "start": 42.24,
+       "end": 42.4
+      },
+      {
+       "text": "with",
+       "start": 42.48,
+       "end": 42.56
+      },
+      {
+       "text": "a",
+       "start": 42.6,
+       "end": 42.64
+      },
+      {
+       "text": "hair",
+       "start": 42.72,
+       "end": 42.8
+      },
+      {
+       "text": "dryer.",
+       "start": 42.88,
+       "end": 43.28
+      }
+     ]
+    },
+    {
+     "show": "I read it bedtime stories.",
+     "start": 43.32,
+     "end": 44.64,
+     "words": [
+      {
+       "text": "I",
+       "start": 43.32,
+       "end": 43.36
+      },
+      {
+       "text": "read",
+       "start": 43.44,
+       "end": 43.52
+      },
+      {
+       "text": "it",
+       "start": 43.56,
+       "end": 43.6
+      },
+      {
+       "text": "bedtime",
+       "start": 43.68,
+       "end": 44.08
+      },
+      {
+       "text": "stories.",
+       "start": 44.16,
+       "end": 44.64
+      }
+     ]
+    },
+    {
+     "show": "I even sat on it",
+     "start": 44.68,
+     "end": 45.44,
+     "words": [
+      {
+       "text": "I",
+       "start": 44.68,
+       "end": 44.72
+      },
+      {
+       "text": "even",
+       "start": 44.84,
+       "end": 44.96
+      },
+      {
+       "text": "sat",
+       "start": 45.04,
+       "end": 45.2
+      },
+      {
+       "text": "on",
+       "start": 45.28,
+       "end": 45.36
+      },
+      {
+       "text": "it",
+       "start": 45.4,
+       "end": 45.44
+      }
+     ]
+    },
+    {
+     "show": "for {r:three days.}",
+     "start": 45.52,
+     "end": 46.56,
+     "words": [
+      {
+       "text": "for",
+       "start": 45.52,
+       "end": 45.68
+      },
+      {
+       "text": "three",
+       "start": 45.8,
+       "end": 45.92
+      },
+      {
+       "text": "days.",
+       "start": 46.0,
+       "end": 46.56
+      }
+     ]
+    },
+    {
+     "show": "Nothing.",
+     "start": 46.64,
+     "end": 47.2,
+     "words": [
+      {
+       "text": "Nothing.",
+       "start": 46.64,
+       "end": 47.2
+      }
+     ]
+    },
+    {
+     "show": "I sang to it.",
+     "start": 47.32,
+     "end": 48.16,
+     "words": [
+      {
+       "text": "I",
+       "start": 47.32,
+       "end": 47.44
+      },
+      {
+       "text": "sang",
+       "start": 47.48,
+       "end": 47.76
+      },
+      {
+       "text": "to",
+       "start": 47.84,
+       "end": 47.92
+      },
+      {
+       "text": "it.",
+       "start": 48.0,
+       "end": 48.16
+      }
+     ]
+    },
+    {
+     "show": "I showed it pictures of other dragons.",
+     "start": 48.2,
+     "end": 49.84,
+     "words": [
+      {
+       "text": "I",
+       "start": 48.2,
+       "end": 48.24
+      },
+      {
+       "text": "showed",
+       "start": 48.28,
+       "end": 48.4
+      },
+      {
+       "text": "it",
+       "start": 48.48,
+       "end": 48.56
+      },
+      {
+       "text": "pictures",
+       "start": 48.72,
+       "end": 48.88
+      },
+      {
+       "text": "of",
+       "start": 48.96,
+       "end": 49.04
+      },
+      {
+       "text": "other",
+       "start": 49.12,
+       "end": 49.2
+      },
+      {
+       "text": "dragons.",
+       "start": 49.28,
+       "end": 49.84
+      }
+     ]
+    },
+    {
+     "show": "I even put it in the {r:microwave.}",
+     "start": 49.88,
+     "end": 51.28,
+     "words": [
+      {
+       "text": "I",
+       "start": 49.88,
+       "end": 49.92
+      },
+      {
+       "text": "even",
+       "start": 50.0,
+       "end": 50.16
+      },
+      {
+       "text": "put",
+       "start": 50.24,
+       "end": 50.32
+      },
+      {
+       "text": "it",
+       "start": 50.36,
+       "end": 50.4
+      },
+      {
+       "text": "in",
+       "start": 50.44,
+       "end": 50.48
+      },
+      {
+       "text": "the",
+       "start": 50.52,
+       "end": 50.56
+      },
+      {
+       "text": "microwave.",
+       "start": 50.64,
+       "end": 51.28
+      }
+     ]
+    },
+    {
+     "show": "Just for a second.",
+     "start": 51.36,
+     "end": 52.08,
+     "words": [
+      {
+       "text": "Just",
+       "start": 51.36,
+       "end": 51.44
+      },
+      {
+       "text": "for",
+       "start": 51.52,
+       "end": 51.56
+      },
+      {
+       "text": "a",
+       "start": 51.6,
+       "end": 51.64
+      },
+      {
+       "text": "second.",
+       "start": 51.68,
+       "end": 52.08
+      }
+     ]
+    },
+    {
+     "show": "Okay, that was a {r:bad idea.}",
+     "start": 52.2,
+     "end": 53.36,
+     "words": [
+      {
+       "text": "Okay,",
+       "start": 52.2,
+       "end": 52.4
+      },
+      {
+       "text": "that",
+       "start": 52.44,
+       "end": 52.48
+      },
+      {
+       "text": "was",
+       "start": 52.56,
+       "end": 52.64
+      },
+      {
+       "text": "a",
+       "start": 52.667,
+       "end": 52.693
+      },
+      {
+       "text": "bad",
+       "start": 52.72,
+       "end": 52.8
+      },
+      {
+       "text": "idea.",
+       "start": 52.88,
+       "end": 53.36
+      }
+     ]
+    }
+   ],
+   "start": 40.64,
+   "end": 53.36
+  },
+  {
+   "id": "school",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every morning,",
+     "start": 53.44,
+     "end": 54.08,
+     "words": [
+      {
+       "text": "Every",
+       "start": 53.44,
+       "end": 53.6
+      },
+      {
+       "text": "morning,",
+       "start": 53.68,
+       "end": 54.08
+      }
+     ]
+    },
+    {
+     "show": "my classmates flew to school.",
+     "start": 54.16,
+     "end": 55.68,
+     "words": [
+      {
+       "text": "my",
+       "start": 54.16,
+       "end": 54.24
+      },
+      {
+       "text": "classmates",
+       "start": 54.32,
+       "end": 54.8
+      },
+      {
+       "text": "flew",
+       "start": 54.88,
+       "end": 55.04
+      },
+      {
+       "text": "to",
+       "start": 55.08,
+       "end": 55.12
+      },
+      {
+       "text": "school.",
+       "start": 55.2,
+       "end": 55.68
+      }
+     ]
+    },
+    {
+     "show": "I took the stairs.",
+     "start": 55.8,
+     "end": 56.88,
+     "words": [
+      {
+       "text": "I",
+       "start": 55.8,
+       "end": 55.92
+      },
+      {
+       "text": "took",
+       "start": 56.0,
+       "end": 56.08
+      },
+      {
+       "text": "the",
+       "start": 56.16,
+       "end": 56.2
+      },
+      {
+       "text": "stairs.",
+       "start": 56.24,
+       "end": 56.88
+      }
+     ]
+    },
+    {
+     "show": "All {r:four hundred} of them.",
+     "start": 57.0,
+     "end": 58.24,
+     "words": [
+      {
+       "text": "All",
+       "start": 57.0,
+       "end": 57.12
+      },
+      {
+       "text": "four",
+       "start": 57.28,
+       "end": 57.44
+      },
+      {
+       "text": "hundred",
+       "start": 57.6,
+       "end": 57.84
+      },
+      {
+       "text": "of",
+       "start": 57.88,
+       "end": 57.92
+      },
+      {
+       "text": "them.",
+       "start": 58.0,
+       "end": 58.24
+      }
+     ]
+    },
+    {
+     "show": "Our teacher even gave me",
+     "start": 58.32,
+     "end": 59.16,
+     "words": [
+      {
+       "text": "Our",
+       "start": 58.32,
+       "end": 58.4
+      },
+      {
+       "text": "teacher",
+       "start": 58.48,
+       "end": 58.72
+      },
+      {
+       "text": "even",
+       "start": 58.8,
+       "end": 58.88
+      },
+      {
+       "text": "gave",
+       "start": 58.96,
+       "end": 59.04
+      },
+      {
+       "text": "me",
+       "start": 59.12,
+       "end": 59.16
+      }
+     ]
+    },
+    {
+     "show": "a special parking spot.",
+     "start": 59.2,
+     "end": 60.4,
+     "words": [
+      {
+       "text": "a",
+       "start": 59.2,
+       "end": 59.28
+      },
+      {
+       "text": "special",
+       "start": 59.44,
+       "end": 59.6
+      },
+      {
+       "text": "parking",
+       "start": 59.68,
+       "end": 59.92
+      },
+      {
+       "text": "spot.",
+       "start": 60.0,
+       "end": 60.4
+      }
+     ]
+    },
+    {
+     "show": "For my {y:backpack.}",
+     "start": 60.44,
+     "end": 61.36,
+     "words": [
+      {
+       "text": "For",
+       "start": 60.44,
+       "end": 60.48
+      },
+      {
+       "text": "my",
+       "start": 60.56,
+       "end": 60.64
+      },
+      {
+       "text": "backpack.",
+       "start": 60.72,
+       "end": 61.36
+      }
+     ]
+    }
+   ],
+   "start": 53.44,
+   "end": 61.36
+  },
+  {
+   "id": "race",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the mayor announced",
+     "start": 61.44,
+     "end": 62.64,
+     "words": [
+      {
+       "text": "Then",
+       "start": 61.44,
+       "end": 61.68
+      },
+      {
+       "text": "the",
+       "start": 61.84,
+       "end": 61.92
+      },
+      {
+       "text": "mayor",
+       "start": 62.0,
+       "end": 62.16
+      },
+      {
+       "text": "announced",
+       "start": 62.24,
+       "end": 62.64
+      }
+     ]
+    },
+    {
+     "show": "the {y:Great Dragon Race.}",
+     "start": 62.68,
+     "end": 64.0,
+     "words": [
+      {
+       "text": "the",
+       "start": 62.68,
+       "end": 62.72
+      },
+      {
+       "text": "Great",
+       "start": 62.8,
+       "end": 63.12
+      },
+      {
+       "text": "Dragon",
+       "start": 63.2,
+       "end": 63.52
+      },
+      {
+       "text": "Race.",
+       "start": 63.6,
+       "end": 64.0
+      }
+     ]
+    },
+    {
+     "show": "The winner gets a {y:golden saddle}",
+     "start": 64.04,
+     "end": 65.44,
+     "words": [
+      {
+       "text": "The",
+       "start": 64.04,
+       "end": 64.08
+      },
+      {
+       "text": "winner",
+       "start": 64.16,
+       "end": 64.4
+      },
+      {
+       "text": "gets",
+       "start": 64.48,
+       "end": 64.56
+      },
+      {
+       "text": "a",
+       "start": 64.64,
+       "end": 64.72
+      },
+      {
+       "text": "golden",
+       "start": 64.88,
+       "end": 65.04
+      },
+      {
+       "text": "saddle",
+       "start": 65.12,
+       "end": 65.44
+      }
+     ]
+    },
+    {
+     "show": "and becomes the hero of the town.",
+     "start": 65.48,
+     "end": 67.04,
+     "words": [
+      {
+       "text": "and",
+       "start": 65.48,
+       "end": 65.52
+      },
+      {
+       "text": "becomes",
+       "start": 65.6,
+       "end": 65.84
+      },
+      {
+       "text": "the",
+       "start": 65.92,
+       "end": 66.0
+      },
+      {
+       "text": "hero",
+       "start": 66.08,
+       "end": 66.32
+      },
+      {
+       "text": "of",
+       "start": 66.4,
+       "end": 66.44
+      },
+      {
+       "text": "the",
+       "start": 66.48,
+       "end": 66.56
+      },
+      {
+       "text": "town.",
+       "start": 66.64,
+       "end": 67.04
+      }
+     ]
+    },
+    {
+     "show": "Every dragon in town signed up.",
+     "start": 67.12,
+     "end": 68.88,
+     "words": [
+      {
+       "text": "Every",
+       "start": 67.12,
+       "end": 67.36
+      },
+      {
+       "text": "dragon",
+       "start": 67.44,
+       "end": 67.76
+      },
+      {
+       "text": "in",
+       "start": 67.84,
+       "end": 67.92
+      },
+      {
+       "text": "town",
+       "start": 68.08,
+       "end": 68.24
+      },
+      {
+       "text": "signed",
+       "start": 68.32,
+       "end": 68.56
+      },
+      {
+       "text": "up.",
+       "start": 68.64,
+       "end": 68.88
+      }
+     ]
+    },
+    {
+     "show": "Blake said I could join if I wanted.",
+     "start": 69.0,
+     "end": 70.4,
+     "words": [
+      {
+       "text": "Blake",
+       "start": 69.0,
+       "end": 69.12
+      },
+      {
+       "text": "said",
+       "start": 69.2,
+       "end": 69.28
+      },
+      {
+       "text": "I",
+       "start": 69.32,
+       "end": 69.36
+      },
+      {
+       "text": "could",
+       "start": 69.44,
+       "end": 69.52
+      },
+      {
+       "text": "join",
+       "start": 69.6,
+       "end": 69.68
+      },
+      {
+       "text": "if",
+       "start": 69.76,
+       "end": 69.84
+      },
+      {
+       "text": "I",
+       "start": 69.92,
+       "end": 70.0
+      },
+      {
+       "text": "wanted.",
+       "start": 70.16,
+       "end": 70.4
+      }
+     ]
+    },
+    {
+     "show": "As the {r:finish line.}",
+     "start": 70.44,
+     "end": 71.44,
+     "words": [
+      {
+       "text": "As",
+       "start": 70.44,
+       "end": 70.48
+      },
+      {
+       "text": "the",
+       "start": 70.56,
+       "end": 70.64
+      },
+      {
+       "text": "finish",
+       "start": 70.72,
+       "end": 70.96
+      },
+      {
+       "text": "line.",
+       "start": 71.08,
+       "end": 71.44
+      }
+     ]
+    }
+   ],
+   "start": 61.44,
+   "end": 71.44
+  },
+  {
+   "id": "storm",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the night before the race,",
+     "start": 71.48,
+     "end": 72.64,
+     "words": [
+      {
+       "text": "But",
+       "start": 71.48,
+       "end": 71.52
+      },
+      {
+       "text": "the",
+       "start": 71.6,
+       "end": 71.68
+      },
+      {
+       "text": "night",
+       "start": 71.76,
+       "end": 71.84
+      },
+      {
+       "text": "before",
+       "start": 71.92,
+       "end": 72.16
+      },
+      {
+       "text": "the",
+       "start": 72.2,
+       "end": 72.24
+      },
+      {
+       "text": "race,",
+       "start": 72.4,
+       "end": 72.64
+      }
+     ]
+    },
+    {
+     "show": "a giant {r:storm} hit the town.",
+     "start": 72.72,
+     "end": 74.48,
+     "words": [
+      {
+       "text": "a",
+       "start": 72.72,
+       "end": 72.8
+      },
+      {
+       "text": "giant",
+       "start": 72.88,
+       "end": 73.2
+      },
+      {
+       "text": "storm",
+       "start": 73.28,
+       "end": 73.68
+      },
+      {
+       "text": "hit",
+       "start": 73.76,
+       "end": 73.84
+      },
+      {
+       "text": "the",
+       "start": 73.88,
+       "end": 73.92
+      },
+      {
+       "text": "town.",
+       "start": 74.0,
+       "end": 74.48
+      }
+     ]
+    },
+    {
+     "show": "Lightning struck the dragon tower.",
+     "start": 74.6,
+     "end": 76.16,
+     "words": [
+      {
+       "text": "Lightning",
+       "start": 74.6,
+       "end": 74.96
+      },
+      {
+       "text": "struck",
+       "start": 75.04,
+       "end": 75.28
+      },
+      {
+       "text": "the",
+       "start": 75.32,
+       "end": 75.36
+      },
+      {
+       "text": "dragon",
+       "start": 75.52,
+       "end": 75.68
+      },
+      {
+       "text": "tower.",
+       "start": 75.76,
+       "end": 76.16
+      }
+     ]
+    },
+    {
+     "show": "Every single dragon got scared",
+     "start": 76.24,
+     "end": 77.84,
+     "words": [
+      {
+       "text": "Every",
+       "start": 76.24,
+       "end": 76.56
+      },
+      {
+       "text": "single",
+       "start": 76.72,
+       "end": 76.88
+      },
+      {
+       "text": "dragon",
+       "start": 77.04,
+       "end": 77.2
+      },
+      {
+       "text": "got",
+       "start": 77.28,
+       "end": 77.44
+      },
+      {
+       "text": "scared",
+       "start": 77.52,
+       "end": 77.84
+      }
+     ]
+    },
+    {
+     "show": "and flew {r:away.}",
+     "start": 77.92,
+     "end": 78.827,
+     "words": [
+      {
+       "text": "and",
+       "start": 77.92,
+       "end": 78.0
+      },
+      {
+       "text": "flew",
+       "start": 78.04,
+       "end": 78.16
+      },
+      {
+       "text": "away.",
+       "start": 78.24,
+       "end": 78.827
+      }
+     ]
+    },
+    {
+     "show": "Even Titan.",
+     "start": 78.933,
+     "end": 79.6,
+     "words": [
+      {
+       "text": "Even",
+       "start": 78.933,
+       "end": 79.04
+      },
+      {
+       "text": "Titan.",
+       "start": 79.24,
+       "end": 79.6
+      }
+     ]
+    },
+    {
+     "show": "The whole town went {r:dark.}",
+     "start": 79.68,
+     "end": 81.04,
+     "words": [
+      {
+       "text": "The",
+       "start": 79.68,
+       "end": 79.76
+      },
+      {
+       "text": "whole",
+       "start": 79.88,
+       "end": 80.0
+      },
+      {
+       "text": "town",
+       "start": 80.08,
+       "end": 80.4
+      },
+      {
+       "text": "went",
+       "start": 80.52,
+       "end": 80.64
+      },
+      {
+       "text": "dark.",
+       "start": 80.8,
+       "end": 81.04
+      }
+     ]
+    },
+    {
+     "show": "People hid in their houses.",
+     "start": 81.2,
+     "end": 82.36,
+     "words": [
+      {
+       "text": "People",
+       "start": 81.2,
+       "end": 81.36
+      },
+      {
+       "text": "hid",
+       "start": 81.44,
+       "end": 81.52
+      },
+      {
+       "text": "in",
+       "start": 81.6,
+       "end": 81.64
+      },
+      {
+       "text": "their",
+       "start": 81.68,
+       "end": 81.76
+      },
+      {
+       "text": "houses.",
+       "start": 81.84,
+       "end": 82.36
+      }
+     ]
+    },
+    {
+     "show": "Blake was crying under a table.",
+     "start": 82.4,
+     "end": 84.16,
+     "words": [
+      {
+       "text": "Blake",
+       "start": 82.4,
+       "end": 82.64
+      },
+      {
+       "text": "was",
+       "start": 82.72,
+       "end": 82.8
+      },
+      {
+       "text": "crying",
+       "start": 82.88,
+       "end": 83.2
+      },
+      {
+       "text": "under",
+       "start": 83.28,
+       "end": 83.36
+      },
+      {
+       "text": "a",
+       "start": 83.44,
+       "end": 83.52
+      },
+      {
+       "text": "table.",
+       "start": 83.8,
+       "end": 84.16
+      }
+     ]
+    }
+   ],
+   "start": 71.48,
+   "end": 84.16
+  },
+  {
+   "id": "crack",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then I heard something.",
+     "start": 84.36,
+     "end": 85.56,
+     "words": [
+      {
+       "text": "Then",
+       "start": 84.36,
+       "end": 84.56
+      },
+      {
+       "text": "I",
+       "start": 84.72,
+       "end": 84.8
+      },
+      {
+       "text": "heard",
+       "start": 84.88,
+       "end": 84.96
+      },
+      {
+       "text": "something.",
+       "start": 85.04,
+       "end": 85.56
+      }
+     ]
+    },
+    {
+     "show": "{y:Crack.}",
+     "start": 85.6,
+     "end": 86.24,
+     "words": [
+      {
+       "text": "Crack.",
+       "start": 85.6,
+       "end": 86.24
+      }
+     ]
+    },
+    {
+     "show": "My egg was {y:glowing.}",
+     "start": 86.36,
+     "end": 87.56,
+     "words": [
+      {
+       "text": "My",
+       "start": 86.36,
+       "end": 86.48
+      },
+      {
+       "text": "egg",
+       "start": 86.56,
+       "end": 86.72
+      },
+      {
+       "text": "was",
+       "start": 86.84,
+       "end": 86.96
+      },
+      {
+       "text": "glowing.",
+       "start": 87.04,
+       "end": 87.56
+      }
+     ]
+    }
+   ],
+   "start": 84.36,
+   "end": 87.56
+  },
+  {
+   "id": "baby",
+   "label": "",
+   "lines": [
+    {
+     "show": "Out came the smallest dragon",
+     "start": 87.6,
+     "end": 89.04,
+     "words": [
+      {
+       "text": "Out",
+       "start": 87.6,
+       "end": 87.76
+      },
+      {
+       "text": "came",
+       "start": 87.84,
+       "end": 88.0
+      },
+      {
+       "text": "the",
+       "start": 88.08,
+       "end": 88.24
+      },
+      {
+       "text": "smallest",
+       "start": 88.36,
+       "end": 88.72
+      },
+      {
+       "text": "dragon",
+       "start": 88.88,
+       "end": 89.04
+      }
+     ]
+    },
+    {
+     "show": "I've ever seen.",
+     "start": 89.2,
+     "end": 90.133,
+     "words": [
+      {
+       "text": "I've",
+       "start": 89.2,
+       "end": 89.36
+      },
+      {
+       "text": "ever",
+       "start": 89.44,
+       "end": 89.68
+      },
+      {
+       "text": "seen.",
+       "start": 89.76,
+       "end": 90.133
+      }
+     ]
+    },
+    {
+     "show": "The size of a {y:potato.}",
+     "start": 90.187,
+     "end": 91.4,
+     "words": [
+      {
+       "text": "The",
+       "start": 90.187,
+       "end": 90.24
+      },
+      {
+       "text": "size",
+       "start": 90.36,
+       "end": 90.48
+      },
+      {
+       "text": "of",
+       "start": 90.52,
+       "end": 90.56
+      },
+      {
+       "text": "a",
+       "start": 90.6,
+       "end": 90.64
+      },
+      {
+       "text": "potato.",
+       "start": 90.8,
+       "end": 91.4
+      }
+     ]
+    },
+    {
+     "show": "Everyone laughed.",
+     "start": 91.44,
+     "end": 92.507,
+     "words": [
+      {
+       "text": "Everyone",
+       "start": 91.44,
+       "end": 91.84
+      },
+      {
+       "text": "laughed.",
+       "start": 91.92,
+       "end": 92.507
+      }
+     ]
+    },
+    {
+     "show": "Blake laughed the loudest.",
+     "start": 92.613,
+     "end": 93.68,
+     "words": [
+      {
+       "text": "Blake",
+       "start": 92.613,
+       "end": 92.72
+      },
+      {
+       "text": "laughed",
+       "start": 92.8,
+       "end": 92.96
+      },
+      {
+       "text": "the",
+       "start": 93.04,
+       "end": 93.12
+      },
+      {
+       "text": "loudest.",
+       "start": 93.16,
+       "end": 93.68
+      }
+     ]
+    },
+    {
+     "show": "He said, {r:nice potato.}",
+     "start": 93.76,
+     "end": 95.413,
+     "words": [
+      {
+       "text": "He",
+       "start": 93.76,
+       "end": 93.84
+      },
+      {
+       "text": "said,",
+       "start": 93.96,
+       "end": 94.24
+      },
+      {
+       "text": "nice",
+       "start": 94.4,
+       "end": 94.64
+      },
+      {
+       "text": "potato.",
+       "start": 94.76,
+       "end": 95.413
+      }
+     ]
+    }
+   ],
+   "start": 87.6,
+   "end": 95.413
+  },
+  {
+   "id": "eat",
+   "label": "",
+   "lines": [
+    {
+     "show": "But my dragon wasn't scared of the storm.",
+     "start": 95.467,
+     "end": 97.413,
+     "words": [
+      {
+       "text": "But",
+       "start": 95.467,
+       "end": 95.52
+      },
+      {
+       "text": "my",
+       "start": 95.64,
+       "end": 95.76
+      },
+      {
+       "text": "dragon",
+       "start": 95.92,
+       "end": 96.08
+      },
+      {
+       "text": "wasn't",
+       "start": 96.16,
+       "end": 96.4
+      },
+      {
+       "text": "scared",
+       "start": 96.48,
+       "end": 96.64
+      },
+      {
+       "text": "of",
+       "start": 96.72,
+       "end": 96.76
+      },
+      {
+       "text": "the",
+       "start": 96.8,
+       "end": 96.88
+      },
+      {
+       "text": "storm.",
+       "start": 97.12,
+       "end": 97.413
+      }
+     ]
+    },
+    {
+     "show": "It opened its mouth",
+     "start": 97.467,
+     "end": 98.32,
+     "words": [
+      {
+       "text": "It",
+       "start": 97.467,
+       "end": 97.52
+      },
+      {
+       "text": "opened",
+       "start": 97.6,
+       "end": 97.76
+      },
+      {
+       "text": "its",
+       "start": 97.84,
+       "end": 98.0
+      },
+      {
+       "text": "mouth",
+       "start": 98.16,
+       "end": 98.32
+      }
+     ]
+    },
+    {
+     "show": "and {y:ate} the lightning.",
+     "start": 98.44,
+     "end": 99.52,
+     "words": [
+      {
+       "text": "and",
+       "start": 98.44,
+       "end": 98.56
+      },
+      {
+       "text": "ate",
+       "start": 98.64,
+       "end": 98.72
+      },
+      {
+       "text": "the",
+       "start": 98.8,
+       "end": 98.88
+      },
+      {
+       "text": "lightning.",
+       "start": 99.0,
+       "end": 99.52
+      }
+     ]
+    },
+    {
+     "show": "One bolt.",
+     "start": 99.6,
+     "end": 100.2,
+     "words": [
+      {
+       "text": "One",
+       "start": 99.6,
+       "end": 99.68
+      },
+      {
+       "text": "bolt.",
+       "start": 99.76,
+       "end": 100.2
+      }
+     ]
+    },
+    {
+     "show": "Two bolts.",
+     "start": 100.24,
+     "end": 100.92,
+     "words": [
+      {
+       "text": "Two",
+       "start": 100.24,
+       "end": 100.4
+      },
+      {
+       "text": "bolts.",
+       "start": 100.52,
+       "end": 100.92
+      }
+     ]
+    },
+    {
+     "show": "{y:Three} bolts.",
+     "start": 100.96,
+     "end": 101.787,
+     "words": [
+      {
+       "text": "Three",
+       "start": 100.96,
+       "end": 101.2
+      },
+      {
+       "text": "bolts.",
+       "start": 101.28,
+       "end": 101.787
+      }
+     ]
+    }
+   ],
+   "start": 95.467,
+   "end": 101.787
+  },
+  {
+   "id": "grow",
+   "label": "",
+   "lines": [
+    {
+     "show": "And with every bolt,",
+     "start": 101.813,
+     "end": 102.76,
+     "words": [
+      {
+       "text": "And",
+       "start": 101.813,
+       "end": 101.84
+      },
+      {
+       "text": "with",
+       "start": 101.96,
+       "end": 102.08
+      },
+      {
+       "text": "every",
+       "start": 102.24,
+       "end": 102.4
+      },
+      {
+       "text": "bolt,",
+       "start": 102.56,
+       "end": 102.76
+      }
+     ]
+    },
+    {
+     "show": "it grew {y:bigger.}",
+     "start": 102.8,
+     "end": 103.64,
+     "words": [
+      {
+       "text": "it",
+       "start": 102.8,
+       "end": 102.88
+      },
+      {
+       "text": "grew",
+       "start": 102.96,
+       "end": 103.2
+      },
+      {
+       "text": "bigger.",
+       "start": 103.24,
+       "end": 103.64
+      }
+     ]
+    },
+    {
+     "show": "And bigger.",
+     "start": 103.68,
+     "end": 104.48,
+     "words": [
+      {
+       "text": "And",
+       "start": 103.68,
+       "end": 103.92
+      },
+      {
+       "text": "bigger.",
+       "start": 104.0,
+       "end": 104.48
+      }
+     ]
+    },
+    {
+     "show": "Until it was bigger",
+     "start": 104.56,
+     "end": 105.28,
+     "words": [
+      {
+       "text": "Until",
+       "start": 104.56,
+       "end": 104.64
+      },
+      {
+       "text": "it",
+       "start": 104.72,
+       "end": 104.76
+      },
+      {
+       "text": "was",
+       "start": 104.8,
+       "end": 105.04
+      },
+      {
+       "text": "bigger",
+       "start": 105.12,
+       "end": 105.28
+      }
+     ]
+    },
+    {
+     "show": "than the {r:richest family's} dragon.",
+     "start": 105.32,
+     "end": 106.96,
+     "words": [
+      {
+       "text": "than",
+       "start": 105.32,
+       "end": 105.36
+      },
+      {
+       "text": "the",
+       "start": 105.44,
+       "end": 105.6
+      },
+      {
+       "text": "richest",
+       "start": 105.68,
+       "end": 105.92
+      },
+      {
+       "text": "family's",
+       "start": 106.0,
+       "end": 106.32
+      },
+      {
+       "text": "dragon.",
+       "start": 106.6,
+       "end": 106.96
+      }
+     ]
+    }
+   ],
+   "start": 101.813,
+   "end": 106.96
+  },
+  {
+   "id": "fly",
+   "label": "",
+   "lines": [
+    {
+     "show": "I climbed on its back,",
+     "start": 107.04,
+     "end": 107.947,
+     "words": [
+      {
+       "text": "I",
+       "start": 107.04,
+       "end": 107.093
+      },
+      {
+       "text": "climbed",
+       "start": 107.147,
+       "end": 107.36
+      },
+      {
+       "text": "on",
+       "start": 107.4,
+       "end": 107.44
+      },
+      {
+       "text": "its",
+       "start": 107.52,
+       "end": 107.6
+      },
+      {
+       "text": "back,",
+       "start": 107.68,
+       "end": 107.947
+      }
+     ]
+    },
+    {
+     "show": "and we flew straight into the storm.",
+     "start": 107.973,
+     "end": 109.72,
+     "words": [
+      {
+       "text": "and",
+       "start": 107.973,
+       "end": 108.0
+      },
+      {
+       "text": "we",
+       "start": 108.08,
+       "end": 108.24
+      },
+      {
+       "text": "flew",
+       "start": 108.32,
+       "end": 108.48
+      },
+      {
+       "text": "straight",
+       "start": 108.56,
+       "end": 108.8
+      },
+      {
+       "text": "into",
+       "start": 108.88,
+       "end": 109.04
+      },
+      {
+       "text": "the",
+       "start": 109.08,
+       "end": 109.12
+      },
+      {
+       "text": "storm.",
+       "start": 109.2,
+       "end": 109.72
+      }
+     ]
+    },
+    {
+     "show": "We found every lost dragon",
+     "start": 109.76,
+     "end": 111.2,
+     "words": [
+      {
+       "text": "We",
+       "start": 109.76,
+       "end": 109.92
+      },
+      {
+       "text": "found",
+       "start": 110.08,
+       "end": 110.24
+      },
+      {
+       "text": "every",
+       "start": 110.32,
+       "end": 110.56
+      },
+      {
+       "text": "lost",
+       "start": 110.68,
+       "end": 110.8
+      },
+      {
+       "text": "dragon",
+       "start": 110.88,
+       "end": 111.2
+      }
+     ]
+    },
+    {
+     "show": "and brought them {g:home.}",
+     "start": 111.28,
+     "end": 112.2,
+     "words": [
+      {
+       "text": "and",
+       "start": 111.28,
+       "end": 111.36
+      },
+      {
+       "text": "brought",
+       "start": 111.44,
+       "end": 111.6
+      },
+      {
+       "text": "them",
+       "start": 111.68,
+       "end": 111.76
+      },
+      {
+       "text": "home.",
+       "start": 111.84,
+       "end": 112.2
+      }
+     ]
+    },
+    {
+     "show": "Even Titan.",
+     "start": 112.24,
+     "end": 112.987,
+     "words": [
+      {
+       "text": "Even",
+       "start": 112.24,
+       "end": 112.48
+      },
+      {
+       "text": "Titan.",
+       "start": 112.72,
+       "end": 112.987
+      }
+     ]
+    },
+    {
+     "show": "He was hiding behind a {b:waterfall,}",
+     "start": 113.013,
+     "end": 114.48,
+     "words": [
+      {
+       "text": "He",
+       "start": 113.013,
+       "end": 113.04
+      },
+      {
+       "text": "was",
+       "start": 113.12,
+       "end": 113.2
+      },
+      {
+       "text": "hiding",
+       "start": 113.24,
+       "end": 113.44
+      },
+      {
+       "text": "behind",
+       "start": 113.52,
+       "end": 113.68
+      },
+      {
+       "text": "a",
+       "start": 113.84,
+       "end": 113.947
+      },
+      {
+       "text": "waterfall,",
+       "start": 114.053,
+       "end": 114.48
+      }
+     ]
+    },
+    {
+     "show": "shaking like a leaf.",
+     "start": 114.52,
+     "end": 115.64,
+     "words": [
+      {
+       "text": "shaking",
+       "start": 114.52,
+       "end": 114.8
+      },
+      {
+       "text": "like",
+       "start": 114.88,
+       "end": 114.96
+      },
+      {
+       "text": "a",
+       "start": 115.04,
+       "end": 115.08
+      },
+      {
+       "text": "leaf.",
+       "start": 115.12,
+       "end": 115.64
+      }
+     ]
+    }
+   ],
+   "start": 107.04,
+   "end": 115.64
+  },
+  {
+   "id": "win",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next morning,",
+     "start": 115.68,
+     "end": 116.52,
+     "words": [
+      {
+       "text": "The",
+       "start": 115.68,
+       "end": 115.76
+      },
+      {
+       "text": "next",
+       "start": 115.84,
+       "end": 115.92
+      },
+      {
+       "text": "morning,",
+       "start": 116.0,
+       "end": 116.52
+      }
+     ]
+    },
+    {
+     "show": "I won the race.",
+     "start": 116.64,
+     "end": 117.547,
+     "words": [
+      {
+       "text": "I",
+       "start": 116.64,
+       "end": 116.68
+      },
+      {
+       "text": "won",
+       "start": 116.72,
+       "end": 116.88
+      },
+      {
+       "text": "the",
+       "start": 116.96,
+       "end": 117.04
+      },
+      {
+       "text": "race.",
+       "start": 117.28,
+       "end": 117.547
+      }
+     ]
+    },
+    {
+     "show": "By about {y:three miles.}",
+     "start": 117.573,
+     "end": 118.8,
+     "words": [
+      {
+       "text": "By",
+       "start": 117.573,
+       "end": 117.6
+      },
+      {
+       "text": "about",
+       "start": 117.68,
+       "end": 117.92
+      },
+      {
+       "text": "three",
+       "start": 118.04,
+       "end": 118.16
+      },
+      {
+       "text": "miles.",
+       "start": 118.2,
+       "end": 118.8
+      }
+     ]
+    },
+    {
+     "show": "Blake came in {r:second.}",
+     "start": 118.88,
+     "end": 119.947,
+     "words": [
+      {
+       "text": "Blake",
+       "start": 118.88,
+       "end": 118.96
+      },
+      {
+       "text": "came",
+       "start": 119.04,
+       "end": 119.2
+      },
+      {
+       "text": "in",
+       "start": 119.28,
+       "end": 119.36
+      },
+      {
+       "text": "second.",
+       "start": 119.6,
+       "end": 119.947
+      }
+     ]
+    },
+    {
+     "show": "Titan was too tired to fly.",
+     "start": 120.053,
+     "end": 121.6,
+     "words": [
+      {
+       "text": "Titan",
+       "start": 120.053,
+       "end": 120.16
+      },
+      {
+       "text": "was",
+       "start": 120.24,
+       "end": 120.32
+      },
+      {
+       "text": "too",
+       "start": 120.4,
+       "end": 120.56
+      },
+      {
+       "text": "tired",
+       "start": 120.6,
+       "end": 120.88
+      },
+      {
+       "text": "to",
+       "start": 120.92,
+       "end": 120.96
+      },
+      {
+       "text": "fly.",
+       "start": 121.04,
+       "end": 121.6
+      }
+     ]
+    }
+   ],
+   "start": 115.68,
+   "end": 121.6
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Turns out my dragon wasn't late.",
+     "start": 121.68,
+     "end": 123.147,
+     "words": [
+      {
+       "text": "Turns",
+       "start": 121.68,
+       "end": 121.8
+      },
+      {
+       "text": "out",
+       "start": 121.84,
+       "end": 122.0
+      },
+      {
+       "text": "my",
+       "start": 122.08,
+       "end": 122.16
+      },
+      {
+       "text": "dragon",
+       "start": 122.32,
+       "end": 122.48
+      },
+      {
+       "text": "wasn't",
+       "start": 122.56,
+       "end": 122.72
+      },
+      {
+       "text": "late.",
+       "start": 122.8,
+       "end": 123.147
+      }
+     ]
+    },
+    {
+     "show": "It was just waiting",
+     "start": 123.173,
+     "end": 123.84,
+     "words": [
+      {
+       "text": "It",
+       "start": 123.173,
+       "end": 123.2
+      },
+      {
+       "text": "was",
+       "start": 123.28,
+       "end": 123.36
+      },
+      {
+       "text": "just",
+       "start": 123.44,
+       "end": 123.52
+      },
+      {
+       "text": "waiting",
+       "start": 123.6,
+       "end": 123.84
+      }
+     ]
+    },
+    {
+     "show": "for the right {y:weather.}",
+     "start": 123.88,
+     "end": 124.96,
+     "words": [
+      {
+       "text": "for",
+       "start": 123.88,
+       "end": 123.92
+      },
+      {
+       "text": "the",
+       "start": 124.0,
+       "end": 124.08
+      },
+      {
+       "text": "right",
+       "start": 124.2,
+       "end": 124.32
+      },
+      {
+       "text": "weather.",
+       "start": 124.6,
+       "end": 124.96
+      }
+     ]
+    }
+   ],
+   "start": 121.68,
+   "end": 124.96
+  }
+ ]
+}
