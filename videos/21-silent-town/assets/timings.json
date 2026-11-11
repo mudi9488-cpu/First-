@@ -1,3076 +1,3076 @@
 {
- "duration": 148.821,
+ "duration": 117.394,
  "beats": [
   {
    "id": "hook",
    "label": "",
-   "start": 0.15,
    "lines": [
     {
      "show": "In this town,",
-     "start": 0.15,
-     "end": 0.922,
+     "start": 0.0,
+     "end": 0.88,
      "words": [
       {
        "text": "In",
-       "start": 0.15,
-       "end": 0.336
+       "start": 0.0,
+       "end": 0.16
       },
       {
        "text": "this",
-       "start": 0.336,
-       "end": 0.629
+       "start": 0.24,
+       "end": 0.32
       },
       {
        "text": "town,",
-       "start": 0.629,
-       "end": 0.922
+       "start": 0.48,
+       "end": 0.88
       }
      ]
     },
     {
      "show": "nobody is allowed to make a {r:sound}",
-     "start": 1.082,
-     "end": 2.637,
+     "start": 0.96,
+     "end": 2.48,
      "words": [
       {
        "text": "nobody",
-       "start": 1.082,
-       "end": 1.393
+       "start": 0.96,
+       "end": 1.28
       },
       {
        "text": "is",
-       "start": 1.393,
-       "end": 1.538
+       "start": 1.36,
+       "end": 1.44
       },
       {
        "text": "allowed",
-       "start": 1.538,
-       "end": 1.891
+       "start": 1.52,
+       "end": 1.76
       },
       {
        "text": "to",
-       "start": 1.891,
-       "end": 2.036
+       "start": 1.8,
+       "end": 1.84
       },
       {
        "text": "make",
-       "start": 2.036,
-       "end": 2.264
+       "start": 1.92,
+       "end": 2.0
       },
       {
        "text": "a",
-       "start": 2.264,
-       "end": 2.368
+       "start": 2.053,
+       "end": 2.107
       },
       {
        "text": "sound",
-       "start": 2.368,
-       "end": 2.637
+       "start": 2.16,
+       "end": 2.48
       }
      ]
     },
     {
      "show": "after sunset.",
-     "start": 2.697,
-     "end": 3.51,
+     "start": 2.6,
+     "end": 3.36,
      "words": [
       {
        "text": "after",
-       "start": 2.697,
-       "end": 3.075
+       "start": 2.6,
+       "end": 2.72
       },
       {
        "text": "sunset.",
-       "start": 3.075,
-       "end": 3.51
+       "start": 2.8,
+       "end": 3.36
       }
      ]
     },
     {
      "show": "Not a word.",
-     "start": 3.81,
-     "end": 4.344,
+     "start": 3.4,
+     "end": 4.08,
      "words": [
       {
        "text": "Not",
-       "start": 3.81,
-       "end": 4.002
+       "start": 3.4,
+       "end": 3.44
       },
       {
        "text": "a",
-       "start": 4.002,
-       "end": 4.109
+       "start": 3.52,
+       "end": 3.56
       },
       {
        "text": "word.",
-       "start": 4.109,
-       "end": 4.344
+       "start": 3.6,
+       "end": 4.08
       }
      ]
     },
     {
      "show": "Not a sneeze.",
-     "start": 4.644,
-     "end": 5.352,
+     "start": 4.12,
+     "end": 5.04,
      "words": [
       {
        "text": "Not",
-       "start": 4.644,
-       "end": 4.864
+       "start": 4.12,
+       "end": 4.16
       },
       {
        "text": "a",
-       "start": 4.864,
-       "end": 4.986
+       "start": 4.24,
+       "end": 4.32
       },
       {
        "text": "sneeze.",
-       "start": 4.986,
-       "end": 5.352
+       "start": 4.4,
+       "end": 5.04
       }
      ]
     },
     {
      "show": "Because something in the forest",
-     "start": 5.652,
-     "end": 7.092,
+     "start": 5.2,
+     "end": 6.4,
      "words": [
       {
        "text": "Because",
-       "start": 5.652,
-       "end": 6.007
+       "start": 5.2,
+       "end": 5.36
       },
       {
        "text": "something",
-       "start": 6.007,
-       "end": 6.445
+       "start": 5.52,
+       "end": 5.68
       },
       {
        "text": "in",
-       "start": 6.445,
-       "end": 6.591
+       "start": 5.72,
+       "end": 5.76
       },
       {
        "text": "the",
-       "start": 6.591,
-       "end": 6.779
+       "start": 5.84,
+       "end": 5.92
       },
       {
        "text": "forest",
-       "start": 6.779,
-       "end": 7.092
+       "start": 6.0,
+       "end": 6.4
       }
      ]
     },
     {
      "show": "is {r:listening.}",
-     "start": 7.152,
-     "end": 7.872,
+     "start": 6.48,
+     "end": 7.28,
      "words": [
       {
        "text": "is",
-       "start": 7.152,
-       "end": 7.332
+       "start": 6.48,
+       "end": 6.56
       },
       {
        "text": "listening.",
-       "start": 7.332,
-       "end": 7.872
+       "start": 6.72,
+       "end": 7.28
       }
      ]
     }
    ],
-   "end": 8.172
+   "start": 0.0,
+   "end": 7.28
   },
   {
    "id": "rules",
    "label": "",
-   "start": 8.572,
    "lines": [
     {
      "show": "Dogs wear muzzles at night.",
-     "start": 8.572,
-     "end": 9.919,
+     "start": 7.32,
+     "end": 8.64,
      "words": [
       {
        "text": "Dogs",
-       "start": 8.572,
-       "end": 8.823
+       "start": 7.32,
+       "end": 7.6
       },
       {
        "text": "wear",
-       "start": 8.823,
-       "end": 9.074
+       "start": 7.72,
+       "end": 7.84
       },
       {
        "text": "muzzles",
-       "start": 9.074,
-       "end": 9.462
+       "start": 7.88,
+       "end": 8.16
       },
       {
        "text": "at",
-       "start": 9.462,
-       "end": 9.622
+       "start": 8.2,
+       "end": 8.24
       },
       {
        "text": "night.",
-       "start": 9.622,
-       "end": 9.919
+       "start": 8.32,
+       "end": 8.64
       }
      ]
     },
     {
      "show": "Phones are always on {y:silent.}",
-     "start": 10.219,
-     "end": 11.751,
+     "start": 8.8,
+     "end": 10.16,
      "words": [
       {
        "text": "Phones",
-       "start": 10.219,
-       "end": 10.595
+       "start": 8.8,
+       "end": 8.96
       },
       {
        "text": "are",
-       "start": 10.595,
-       "end": 10.821
+       "start": 9.04,
+       "end": 9.12
       },
       {
        "text": "always",
-       "start": 10.821,
-       "end": 11.198
+       "start": 9.2,
+       "end": 9.44
       },
       {
        "text": "on",
-       "start": 11.198,
-       "end": 11.374
+       "start": 9.52,
+       "end": 9.6
       },
       {
        "text": "silent.",
-       "start": 11.374,
-       "end": 11.751
+       "start": 9.68,
+       "end": 10.16
       }
      ]
     },
     {
      "show": "Kids get grounded for {r:burping.}",
-     "start": 12.051,
-     "end": 13.386,
+     "start": 10.28,
+     "end": 11.84,
      "words": [
       {
        "text": "Kids",
-       "start": 12.051,
-       "end": 12.277
+       "start": 10.28,
+       "end": 10.4
       },
       {
        "text": "get",
-       "start": 12.277,
-       "end": 12.462
+       "start": 10.48,
+       "end": 10.64
       },
       {
        "text": "grounded",
-       "start": 12.462,
-       "end": 12.852
+       "start": 10.8,
+       "end": 11.04
       },
       {
        "text": "for",
-       "start": 12.852,
-       "end": 13.037
+       "start": 11.12,
+       "end": 11.2
       },
       {
        "text": "burping.",
-       "start": 13.037,
-       "end": 13.386
+       "start": 11.36,
+       "end": 11.84
       }
      ]
     }
    ],
-   "end": 13.686
+   "start": 7.32,
+   "end": 11.84
   },
   {
    "id": "sneeze",
    "label": "",
-   "start": 14.086,
    "lines": [
     {
      "show": "Last winter, Mr. Miller sneezed",
-     "start": 14.086,
-     "end": 16.095,
+     "start": 11.96,
+     "end": 13.6,
      "words": [
       {
        "text": "Last",
-       "start": 14.086,
-       "end": 14.426
+       "start": 11.96,
+       "end": 12.08
       },
       {
        "text": "winter,",
-       "start": 14.426,
-       "end": 14.89
+       "start": 12.16,
+       "end": 12.48
       },
       {
        "text": "Mr.",
-       "start": 14.89,
-       "end": 15.106
+       "start": 12.56,
+       "end": 12.72
       },
       {
        "text": "Miller",
-       "start": 15.106,
-       "end": 15.569
+       "start": 12.8,
+       "end": 13.04
       },
       {
        "text": "sneezed",
-       "start": 15.569,
-       "end": 16.095
+       "start": 13.12,
+       "end": 13.6
       }
      ]
     },
     {
      "show": "once.",
-     "start": 16.155,
-     "end": 16.526,
+     "start": 13.68,
+     "end": 14.08,
      "words": [
       {
        "text": "once.",
-       "start": 16.155,
-       "end": 16.526
+       "start": 13.68,
+       "end": 14.08
       }
      ]
     },
     {
      "show": "The next morning,",
-     "start": 16.826,
-     "end": 17.592,
+     "start": 14.12,
+     "end": 14.773,
      "words": [
       {
        "text": "The",
-       "start": 16.826,
-       "end": 17.013
+       "start": 14.12,
+       "end": 14.16
       },
       {
        "text": "next",
-       "start": 17.013,
-       "end": 17.24
+       "start": 14.24,
+       "end": 14.32
       },
       {
        "text": "morning,",
-       "start": 17.24,
-       "end": 17.592
+       "start": 14.4,
+       "end": 14.773
       }
      ]
     },
     {
      "show": "his house was covered",
-     "start": 17.752,
-     "end": 18.716,
+     "start": 14.827,
+     "end": 15.68,
      "words": [
       {
        "text": "his",
-       "start": 17.752,
-       "end": 17.933
+       "start": 14.827,
+       "end": 14.88
       },
       {
        "text": "house",
-       "start": 17.933,
-       "end": 18.194
+       "start": 14.96,
+       "end": 15.12
       },
       {
        "text": "was",
-       "start": 18.194,
-       "end": 18.375
+       "start": 15.2,
+       "end": 15.36
       },
       {
        "text": "covered",
-       "start": 18.375,
-       "end": 18.716
+       "start": 15.44,
+       "end": 15.68
       }
      ]
     },
     {
      "show": "in {r:giant claw marks.}",
-     "start": 18.776,
-     "end": 20.111,
+     "start": 15.8,
+     "end": 17.04,
      "words": [
       {
        "text": "in",
-       "start": 18.776,
-       "end": 18.989
+       "start": 15.8,
+       "end": 15.92
       },
       {
        "text": "giant",
-       "start": 18.989,
-       "end": 19.383
+       "start": 15.96,
+       "end": 16.24
       },
       {
        "text": "claw",
-       "start": 19.383,
-       "end": 19.717
+       "start": 16.32,
+       "end": 16.48
       },
       {
        "text": "marks.",
-       "start": 19.717,
-       "end": 20.111
+       "start": 16.56,
+       "end": 17.04
       }
      ]
     }
    ],
-   "end": 20.411
+   "start": 11.96,
+   "end": 17.04
   },
   {
    "id": "mayor",
    "label": "",
-   "start": 20.811,
    "lines": [
     {
      "show": "The mayor says the silence keeps us {g:safe.}",
-     "start": 20.811,
-     "end": 22.843,
+     "start": 17.08,
+     "end": 19.12,
      "words": [
       {
        "text": "The",
-       "start": 20.811,
-       "end": 21.014
+       "start": 17.08,
+       "end": 17.12
       },
       {
        "text": "mayor",
-       "start": 21.014,
-       "end": 21.308
+       "start": 17.2,
+       "end": 17.44
       },
       {
        "text": "says",
-       "start": 21.308,
-       "end": 21.556
+       "start": 17.56,
+       "end": 17.68
       },
       {
        "text": "the",
-       "start": 21.556,
-       "end": 21.759
+       "start": 17.76,
+       "end": 17.84
       },
       {
        "text": "silence",
-       "start": 21.759,
-       "end": 22.143
+       "start": 17.96,
+       "end": 18.24
       },
       {
        "text": "keeps",
-       "start": 22.143,
-       "end": 22.437
+       "start": 18.32,
+       "end": 18.48
       },
       {
        "text": "us",
-       "start": 22.437,
-       "end": 22.595
+       "start": 18.56,
+       "end": 18.64
       },
       {
        "text": "safe.",
-       "start": 22.595,
-       "end": 22.843
+       "start": 18.84,
+       "end": 19.12
       }
      ]
     },
     {
      "show": "And in return,",
-     "start": 23.143,
-     "end": 23.818,
+     "start": 19.16,
+     "end": 19.84,
      "words": [
       {
        "text": "And",
-       "start": 23.143,
-       "end": 23.339
+       "start": 19.16,
+       "end": 19.2
       },
       {
        "text": "in",
-       "start": 23.339,
-       "end": 23.491
+       "start": 19.24,
+       "end": 19.28
       },
       {
        "text": "return,",
-       "start": 23.491,
-       "end": 23.818
+       "start": 19.52,
+       "end": 19.84
       }
      ]
     },
     {
      "show": "our town gets {y:free electricity.}",
-     "start": 23.978,
-     "end": 25.754,
+     "start": 19.92,
+     "end": 21.44,
      "words": [
       {
        "text": "our",
-       "start": 23.978,
-       "end": 24.216
+       "start": 19.92,
+       "end": 20.0
       },
       {
        "text": "town",
-       "start": 24.216,
-       "end": 24.508
+       "start": 20.12,
+       "end": 20.24
       },
       {
        "text": "gets",
-       "start": 24.508,
-       "end": 24.799
+       "start": 20.32,
+       "end": 20.48
       },
       {
        "text": "free",
-       "start": 24.799,
-       "end": 25.091
+       "start": 20.56,
+       "end": 20.64
       },
       {
        "text": "electricity.",
-       "start": 25.091,
-       "end": 25.754
+       "start": 20.72,
+       "end": 21.44
       }
      ]
     },
     {
      "show": "Every light. Every house.",
-     "start": 26.054,
-     "end": 27.459,
+     "start": 21.52,
+     "end": 22.88,
      "words": [
       {
        "text": "Every",
-       "start": 26.054,
-       "end": 26.405
+       "start": 21.52,
+       "end": 21.6
       },
       {
        "text": "light.",
-       "start": 26.405,
-       "end": 26.756
+       "start": 21.68,
+       "end": 22.04
       },
       {
        "text": "Every",
-       "start": 26.756,
-       "end": 27.107
+       "start": 22.08,
+       "end": 22.32
       },
       {
        "text": "house.",
-       "start": 27.107,
-       "end": 27.459
+       "start": 22.4,
+       "end": 22.88
       }
      ]
     },
     {
      "show": "For free.",
-     "start": 27.759,
-     "end": 28.334,
+     "start": 23.0,
+     "end": 23.6,
      "words": [
       {
        "text": "For",
-       "start": 27.759,
-       "end": 28.018
+       "start": 23.0,
+       "end": 23.12
       },
       {
        "text": "free.",
-       "start": 28.018,
-       "end": 28.334
+       "start": 23.28,
+       "end": 23.6
       }
      ]
     }
    ],
-   "end": 28.634
+   "start": 17.08,
+   "end": 23.6
   },
   {
    "id": "me",
    "label": "",
-   "start": 29.034,
    "lines": [
     {
      "show": "My name is {y:Max.}",
-     "start": 29.034,
-     "end": 30.044,
+     "start": 23.68,
+     "end": 24.48,
      "words": [
       {
        "text": "My",
-       "start": 29.034,
-       "end": 29.242
+       "start": 23.68,
+       "end": 23.76
       },
       {
        "text": "name",
-       "start": 29.242,
-       "end": 29.569
+       "start": 23.8,
+       "end": 23.84
       },
       {
        "text": "is",
-       "start": 29.569,
-       "end": 29.777
+       "start": 23.92,
+       "end": 24.0
       },
       {
        "text": "Max.",
-       "start": 29.777,
-       "end": 30.044
+       "start": 24.08,
+       "end": 24.48
       }
      ]
     },
     {
      "show": "I'm thirteen,",
-     "start": 30.344,
-     "end": 31.091,
+     "start": 24.52,
+     "end": 25.2,
      "words": [
       {
        "text": "I'm",
-       "start": 30.344,
-       "end": 30.545
+       "start": 24.52,
+       "end": 24.64
       },
       {
        "text": "thirteen,",
-       "start": 30.545,
-       "end": 31.091
+       "start": 24.68,
+       "end": 25.2
       }
      ]
     },
     {
      "show": "and I've followed the rules",
-     "start": 31.251,
-     "end": 32.307,
+     "start": 25.24,
+     "end": 26.08,
      "words": [
       {
        "text": "and",
-       "start": 31.251,
-       "end": 31.412
+       "start": 25.24,
+       "end": 25.28
       },
       {
        "text": "I've",
-       "start": 31.412,
-       "end": 31.573
+       "start": 25.36,
+       "end": 25.44
       },
       {
        "text": "followed",
-       "start": 31.573,
-       "end": 31.913
+       "start": 25.52,
+       "end": 25.72
       },
       {
        "text": "the",
-       "start": 31.913,
-       "end": 32.075
+       "start": 25.76,
+       "end": 25.84
       },
       {
        "text": "rules",
-       "start": 32.075,
-       "end": 32.307
+       "start": 25.96,
+       "end": 26.08
       }
      ]
     },
     {
      "show": "my whole life.",
-     "start": 32.367,
-     "end": 33.19,
+     "start": 26.16,
+     "end": 27.04,
      "words": [
       {
        "text": "my",
-       "start": 32.367,
-       "end": 32.553
+       "start": 26.16,
+       "end": 26.32
       },
       {
        "text": "whole",
-       "start": 32.553,
-       "end": 32.898
+       "start": 26.4,
+       "end": 26.56
       },
       {
        "text": "life.",
-       "start": 32.898,
-       "end": 33.19
+       "start": 26.76,
+       "end": 27.04
       }
      ]
     }
    ],
-   "end": 33.49
+   "start": 23.68,
+   "end": 27.04
   },
   {
    "id": "crying",
    "label": "",
-   "start": 33.89,
    "lines": [
     {
      "show": "Until one night,",
-     "start": 33.89,
-     "end": 34.895,
+     "start": 27.2,
+     "end": 27.92,
      "words": [
       {
        "text": "Until",
-       "start": 33.89,
-       "end": 34.263
+       "start": 27.2,
+       "end": 27.36
       },
       {
        "text": "one",
-       "start": 34.263,
-       "end": 34.522
+       "start": 27.44,
+       "end": 27.52
       },
       {
        "text": "night,",
-       "start": 34.522,
-       "end": 34.895
+       "start": 27.6,
+       "end": 27.92
       }
      ]
     },
     {
      "show": "I heard something.",
-     "start": 35.055,
-     "end": 35.891,
+     "start": 28.08,
+     "end": 28.8,
      "words": [
       {
        "text": "I",
-       "start": 35.055,
-       "end": 35.163
+       "start": 28.08,
+       "end": 28.16
       },
       {
        "text": "heard",
-       "start": 35.163,
-       "end": 35.441
+       "start": 28.24,
+       "end": 28.32
       },
       {
        "text": "something.",
-       "start": 35.441,
-       "end": 35.891
+       "start": 28.4,
+       "end": 28.8
       }
      ]
     },
     {
      "show": "Not a growl.",
-     "start": 36.191,
-     "end": 36.911,
+     "start": 28.88,
+     "end": 29.6,
      "words": [
       {
        "text": "Not",
-       "start": 36.191,
-       "end": 36.431
+       "start": 28.88,
+       "end": 28.96
       },
       {
        "text": "a",
-       "start": 36.431,
-       "end": 36.565
+       "start": 29.0,
+       "end": 29.04
       },
       {
        "text": "growl.",
-       "start": 36.565,
-       "end": 36.911
+       "start": 29.2,
+       "end": 29.6
       }
      ]
     },
     {
      "show": "Not a roar.",
-     "start": 37.211,
-     "end": 37.838,
+     "start": 29.68,
+     "end": 30.4,
      "words": [
       {
        "text": "Not",
-       "start": 37.211,
-       "end": 37.437
+       "start": 29.68,
+       "end": 29.76
       },
       {
        "text": "a",
-       "start": 37.437,
-       "end": 37.562
+       "start": 29.813,
+       "end": 29.867
       },
       {
        "text": "roar.",
-       "start": 37.562,
-       "end": 37.838
+       "start": 29.92,
+       "end": 30.4
       }
      ]
     },
     {
      "show": "{y:Crying.}",
-     "start": 38.138,
-     "end": 38.637,
+     "start": 30.48,
+     "end": 31.12,
      "words": [
       {
        "text": "Crying.",
-       "start": 38.138,
-       "end": 38.637
+       "start": 30.48,
+       "end": 31.12
       }
      ]
     }
    ],
-   "end": 38.937
+   "start": 27.2,
+   "end": 31.12
   },
   {
    "id": "factory",
    "label": "",
-   "start": 39.337,
    "lines": [
     {
      "show": "It came from the old factory",
-     "start": 39.337,
-     "end": 40.661,
+     "start": 31.16,
+     "end": 32.32,
      "words": [
       {
        "text": "It",
-       "start": 39.337,
-       "end": 39.482
+       "start": 31.16,
+       "end": 31.2
       },
       {
        "text": "came",
-       "start": 39.482,
-       "end": 39.71
+       "start": 31.28,
+       "end": 31.44
       },
       {
        "text": "from",
-       "start": 39.71,
-       "end": 39.937
+       "start": 31.48,
+       "end": 31.52
       },
       {
        "text": "the",
-       "start": 39.937,
-       "end": 40.123
+       "start": 31.6,
+       "end": 31.68
       },
       {
        "text": "old",
-       "start": 40.123,
-       "end": 40.309
+       "start": 31.8,
+       "end": 31.92
       },
       {
        "text": "factory",
-       "start": 40.309,
-       "end": 40.661
+       "start": 32.12,
+       "end": 32.32
       }
      ]
     },
     {
      "show": "behind the town hall.",
-     "start": 40.721,
-     "end": 41.847,
+     "start": 32.4,
+     "end": 33.307,
      "words": [
       {
        "text": "behind",
-       "start": 40.721,
-       "end": 41.088
+       "start": 32.4,
+       "end": 32.56
       },
       {
        "text": "the",
-       "start": 41.088,
-       "end": 41.308
+       "start": 32.6,
+       "end": 32.64
       },
       {
        "text": "town",
-       "start": 41.308,
-       "end": 41.578
+       "start": 32.72,
+       "end": 32.88
       },
       {
        "text": "hall.",
-       "start": 41.578,
-       "end": 41.847
+       "start": 32.96,
+       "end": 33.307
       }
      ]
     },
     {
      "show": "The one with the sign",
-     "start": 42.147,
-     "end": 43.238,
+     "start": 33.333,
+     "end": 34.0,
      "words": [
       {
        "text": "The",
-       "start": 42.147,
-       "end": 42.347
+       "start": 33.333,
+       "end": 33.36
       },
       {
        "text": "one",
-       "start": 42.347,
-       "end": 42.548
+       "start": 33.44,
+       "end": 33.52
       },
       {
        "text": "with",
-       "start": 42.548,
-       "end": 42.793
+       "start": 33.56,
+       "end": 33.6
       },
       {
        "text": "the",
-       "start": 42.793,
-       "end": 42.993
+       "start": 33.68,
+       "end": 33.76
       },
       {
        "text": "sign",
-       "start": 42.993,
-       "end": 43.238
+       "start": 33.88,
+       "end": 34.0
       }
      ]
     },
     {
      "show": "{r:Keep out.}",
-     "start": 43.298,
-     "end": 43.774,
+     "start": 34.24,
+     "end": 34.8,
      "words": [
       {
        "text": "Keep",
-       "start": 43.298,
-       "end": 43.56
+       "start": 34.24,
+       "end": 34.4
       },
       {
        "text": "out.",
-       "start": 43.56,
-       "end": 43.774
+       "start": 34.48,
+       "end": 34.8
       }
      ]
     }
    ],
-   "end": 44.074
+   "start": 31.16,
+   "end": 34.8
   },
   {
    "id": "sneak",
    "label": "",
-   "start": 44.474,
    "lines": [
     {
      "show": "I knew the rule.",
-     "start": 44.474,
-     "end": 45.194,
+     "start": 34.88,
+     "end": 35.707,
      "words": [
       {
        "text": "I",
-       "start": 44.474,
-       "end": 44.574
+       "start": 34.88,
+       "end": 34.96
       },
       {
        "text": "knew",
-       "start": 44.574,
-       "end": 44.794
+       "start": 35.04,
+       "end": 35.12
       },
       {
        "text": "the",
-       "start": 44.794,
-       "end": 44.974
+       "start": 35.2,
+       "end": 35.28
       },
       {
        "text": "rule.",
-       "start": 44.974,
-       "end": 45.194
+       "start": 35.48,
+       "end": 35.707
       }
      ]
     },
     {
      "show": "But it sounded so {y:sad.}",
-     "start": 45.494,
-     "end": 46.713,
+     "start": 35.733,
+     "end": 37.2,
      "words": [
       {
        "text": "But",
-       "start": 45.494,
-       "end": 45.718
+       "start": 35.733,
+       "end": 35.76
       },
       {
        "text": "it",
-       "start": 45.718,
-       "end": 45.892
+       "start": 35.84,
+       "end": 35.92
       },
       {
        "text": "sounded",
-       "start": 45.892,
-       "end": 46.315
+       "start": 35.96,
+       "end": 36.32
       },
       {
        "text": "so",
-       "start": 46.315,
-       "end": 46.489
+       "start": 36.44,
+       "end": 36.56
       },
       {
        "text": "sad.",
-       "start": 46.489,
-       "end": 46.713
+       "start": 36.64,
+       "end": 37.2
       }
      ]
     },
     {
      "show": "So I sneaked out.",
-     "start": 47.013,
-     "end": 48.209,
+     "start": 37.36,
+     "end": 38.347,
      "words": [
       {
        "text": "So",
-       "start": 47.013,
-       "end": 47.234
+       "start": 37.36,
+       "end": 37.52
       },
       {
        "text": "I",
-       "start": 47.234,
-       "end": 47.391
+       "start": 37.68,
+       "end": 37.72
       },
       {
        "text": "sneaked",
-       "start": 47.391,
-       "end": 47.926
+       "start": 37.76,
+       "end": 38.0
       },
       {
        "text": "out.",
-       "start": 47.926,
-       "end": 48.209
+       "start": 38.08,
+       "end": 38.347
       }
      ]
     },
     {
      "show": "Barefoot.",
-     "start": 48.509,
-     "end": 49.09,
+     "start": 38.373,
+     "end": 38.907,
      "words": [
       {
        "text": "Barefoot.",
-       "start": 48.509,
-       "end": 49.09
+       "start": 38.373,
+       "end": 38.907
       }
      ]
     },
     {
      "show": "Holding my breath.",
-     "start": 49.39,
-     "end": 50.134,
+     "start": 38.933,
+     "end": 39.84,
      "words": [
       {
        "text": "Holding",
-       "start": 49.39,
-       "end": 49.714
+       "start": 38.933,
+       "end": 39.2
       },
       {
        "text": "my",
-       "start": 49.714,
-       "end": 49.848
+       "start": 39.28,
+       "end": 39.36
       },
       {
        "text": "breath.",
-       "start": 49.848,
-       "end": 50.134
+       "start": 39.44,
+       "end": 39.84
       }
      ]
     }
    ],
-   "end": 50.434
+   "start": 34.88,
+   "end": 39.84
   },
   {
    "id": "inside",
    "label": "",
-   "start": 50.834,
    "lines": [
     {
      "show": "Inside, there were wires",
-     "start": 50.834,
-     "end": 52.378,
+     "start": 40.08,
+     "end": 41.12,
      "words": [
       {
        "text": "Inside,",
-       "start": 50.834,
-       "end": 51.279
+       "start": 40.08,
+       "end": 40.4
       },
       {
        "text": "there",
-       "start": 51.279,
-       "end": 51.665
+       "start": 40.44,
+       "end": 40.48
       },
       {
        "text": "were",
-       "start": 51.665,
-       "end": 51.992
+       "start": 40.6,
+       "end": 40.72
       },
       {
        "text": "wires",
-       "start": 51.992,
-       "end": 52.378
+       "start": 40.853,
+       "end": 41.12
       }
      ]
     },
     {
      "show": "all over the walls.",
-     "start": 52.438,
-     "end": 53.576,
+     "start": 41.2,
+     "end": 42.187,
      "words": [
       {
        "text": "all",
-       "start": 52.438,
-       "end": 52.682
+       "start": 41.2,
+       "end": 41.36
       },
       {
        "text": "over",
-       "start": 52.682,
-       "end": 52.98
+       "start": 41.44,
+       "end": 41.6
       },
       {
        "text": "the",
-       "start": 52.98,
-       "end": 53.224
+       "start": 41.64,
+       "end": 41.68
       },
       {
        "text": "walls.",
-       "start": 53.224,
-       "end": 53.576
+       "start": 41.92,
+       "end": 42.187
       }
      ]
     },
     {
      "show": "And they all led",
-     "start": 53.876,
-     "end": 54.491,
+     "start": 42.213,
+     "end": 42.88,
      "words": [
       {
        "text": "And",
-       "start": 53.876,
-       "end": 54.021
+       "start": 42.213,
+       "end": 42.24
       },
       {
        "text": "they",
-       "start": 54.021,
-       "end": 54.2
+       "start": 42.32,
+       "end": 42.4
       },
       {
        "text": "all",
-       "start": 54.2,
-       "end": 54.345
+       "start": 42.48,
+       "end": 42.64
       },
       {
        "text": "led",
-       "start": 54.345,
-       "end": 54.491
+       "start": 42.76,
+       "end": 42.88
       }
      ]
     },
     {
      "show": "to one {r:cage.}",
-     "start": 54.551,
-     "end": 55.526,
+     "start": 43.0,
+     "end": 43.92,
      "words": [
       {
        "text": "to",
-       "start": 54.551,
-       "end": 54.804
+       "start": 43.0,
+       "end": 43.12
       },
       {
        "text": "one",
-       "start": 54.804,
-       "end": 55.129
+       "start": 43.2,
+       "end": 43.36
       },
       {
        "text": "cage.",
-       "start": 55.129,
-       "end": 55.526
+       "start": 43.44,
+       "end": 43.92
       }
      ]
     }
    ],
-   "end": 55.826
+   "start": 40.08,
+   "end": 43.92
   },
   {
    "id": "baby",
    "label": "",
-   "start": 56.226,
    "lines": [
     {
      "show": "Inside the cage",
-     "start": 56.226,
-     "end": 57.051,
+     "start": 44.0,
+     "end": 44.72,
      "words": [
       {
        "text": "Inside",
-       "start": 56.226,
-       "end": 56.58
+       "start": 44.0,
+       "end": 44.32
       },
       {
        "text": "the",
-       "start": 56.58,
-       "end": 56.792
+       "start": 44.36,
+       "end": 44.4
       },
       {
        "text": "cage",
-       "start": 56.792,
-       "end": 57.051
+       "start": 44.48,
+       "end": 44.72
       }
      ]
     },
     {
      "show": "was a {y:baby monster.}",
-     "start": 57.111,
-     "end": 58.132,
+     "start": 44.8,
+     "end": 45.92,
      "words": [
       {
        "text": "was",
-       "start": 57.111,
-       "end": 57.33
+       "start": 44.8,
+       "end": 44.88
       },
       {
        "text": "a",
-       "start": 57.33,
-       "end": 57.451
+       "start": 45.04,
+       "end": 45.147
       },
       {
        "text": "baby",
-       "start": 57.451,
-       "end": 57.719
+       "start": 45.253,
+       "end": 45.36
       },
       {
        "text": "monster.",
-       "start": 57.719,
-       "end": 58.132
+       "start": 45.56,
+       "end": 45.92
       }
      ]
     },
     {
      "show": "Fluffy.",
-     "start": 58.432,
-     "end": 58.792,
+     "start": 46.0,
+     "end": 46.533,
      "words": [
       {
        "text": "Fluffy.",
-       "start": 58.432,
-       "end": 58.792
+       "start": 46.0,
+       "end": 46.533
       }
      ]
     },
     {
      "show": "Big eyes.",
-     "start": 59.092,
-     "end": 59.789,
+     "start": 46.587,
+     "end": 47.2,
      "words": [
       {
        "text": "Big",
-       "start": 59.092,
-       "end": 59.406
+       "start": 46.587,
+       "end": 46.64
       },
       {
        "text": "eyes.",
-       "start": 59.406,
-       "end": 59.789
+       "start": 46.72,
+       "end": 47.2
       }
      ]
     },
     {
      "show": "No bigger than my dog.",
-     "start": 60.089,
-     "end": 61.366,
+     "start": 47.28,
+     "end": 48.293,
      "words": [
       {
        "text": "No",
-       "start": 60.089,
-       "end": 60.271
+       "start": 47.28,
+       "end": 47.36
       },
       {
        "text": "bigger",
-       "start": 60.271,
-       "end": 60.662
+       "start": 47.413,
+       "end": 47.52
       },
       {
        "text": "than",
-       "start": 60.662,
-       "end": 60.949
+       "start": 47.6,
+       "end": 47.68
       },
       {
        "text": "my",
-       "start": 60.949,
-       "end": 61.131
+       "start": 47.76,
+       "end": 47.84
       },
       {
        "text": "dog.",
-       "start": 61.131,
-       "end": 61.366
+       "start": 48.04,
+       "end": 48.293
       }
      ]
     }
    ],
-   "end": 61.666
+   "start": 44.0,
+   "end": 48.293
   },
   {
    "id": "tears",
    "label": "",
-   "start": 62.066,
    "lines": [
     {
      "show": "And every time it cried,",
-     "start": 62.066,
-     "end": 63.285,
+     "start": 48.347,
+     "end": 49.52,
      "words": [
       {
        "text": "And",
-       "start": 62.066,
-       "end": 62.273
+       "start": 48.347,
+       "end": 48.4
       },
       {
        "text": "every",
-       "start": 62.273,
-       "end": 62.572
+       "start": 48.48,
+       "end": 48.64
       },
       {
        "text": "time",
-       "start": 62.572,
-       "end": 62.825
+       "start": 48.72,
+       "end": 48.88
       },
       {
        "text": "it",
-       "start": 62.825,
-       "end": 62.986
+       "start": 48.92,
+       "end": 48.96
       },
       {
        "text": "cried,",
-       "start": 62.986,
-       "end": 63.285
+       "start": 49.04,
+       "end": 49.52
       }
      ]
     },
     {
      "show": "its tears {b:glowed.}",
-     "start": 63.445,
-     "end": 64.397,
+     "start": 49.6,
+     "end": 50.68,
      "words": [
       {
        "text": "its",
-       "start": 63.445,
-       "end": 63.676
+       "start": 49.6,
+       "end": 49.68
       },
       {
        "text": "tears",
-       "start": 63.676,
-       "end": 64.011
+       "start": 49.76,
+       "end": 50.16
       },
       {
        "text": "glowed.",
-       "start": 64.011,
-       "end": 64.397
+       "start": 50.24,
+       "end": 50.68
       }
      ]
     },
     {
      "show": "A machine collected them",
-     "start": 64.697,
-     "end": 65.904,
+     "start": 50.72,
+     "end": 51.68,
      "words": [
       {
        "text": "A",
-       "start": 64.697,
-       "end": 64.809
+       "start": 50.72,
+       "end": 50.76
       },
       {
        "text": "machine",
-       "start": 64.809,
-       "end": 65.189
+       "start": 50.8,
+       "end": 51.2
       },
       {
        "text": "collected",
-       "start": 65.189,
-       "end": 65.658
+       "start": 51.28,
+       "end": 51.6
       },
       {
        "text": "them",
-       "start": 65.658,
-       "end": 65.904
+       "start": 51.64,
+       "end": 51.68
       }
      ]
     },
     {
      "show": "and sent them through the wires.",
-     "start": 65.964,
-     "end": 67.427,
+     "start": 51.76,
+     "end": 53.12,
      "words": [
       {
        "text": "and",
-       "start": 65.964,
-       "end": 66.152
+       "start": 51.76,
+       "end": 51.92
       },
       {
        "text": "sent",
-       "start": 66.152,
-       "end": 66.382
+       "start": 52.0,
+       "end": 52.08
       },
       {
        "text": "them",
-       "start": 66.382,
-       "end": 66.612
+       "start": 52.16,
+       "end": 52.24
       },
       {
        "text": "through",
-       "start": 66.612,
-       "end": 66.967
+       "start": 52.32,
+       "end": 52.4
       },
       {
        "text": "the",
-       "start": 66.967,
-       "end": 67.156
+       "start": 52.44,
+       "end": 52.48
       },
       {
        "text": "wires.",
-       "start": 67.156,
-       "end": 67.427
+       "start": 52.56,
+       "end": 53.12
       }
      ]
     },
     {
      "show": "Straight into our town.",
-     "start": 67.727,
-     "end": 68.911,
+     "start": 53.28,
+     "end": 54.453,
      "words": [
       {
        "text": "Straight",
-       "start": 67.727,
-       "end": 68.177
+       "start": 53.28,
+       "end": 53.44
       },
       {
        "text": "into",
-       "start": 68.177,
-       "end": 68.438
+       "start": 53.52,
+       "end": 53.68
       },
       {
        "text": "our",
-       "start": 68.438,
-       "end": 68.651
+       "start": 53.76,
+       "end": 53.92
       },
       {
        "text": "town.",
-       "start": 68.651,
-       "end": 68.911
+       "start": 54.16,
+       "end": 54.453
       }
      ]
     }
    ],
-   "end": 69.211
+   "start": 48.347,
+   "end": 54.453
   },
   {
    "id": "truth",
    "label": "",
-   "start": 69.611,
    "lines": [
     {
      "show": "That's when I got it.",
-     "start": 69.611,
-     "end": 70.401,
+     "start": 54.507,
+     "end": 55.4,
      "words": [
       {
        "text": "That's",
-       "start": 69.611,
-       "end": 69.84
+       "start": 54.507,
+       "end": 54.64
       },
       {
        "text": "when",
-       "start": 69.84,
-       "end": 70.033
+       "start": 54.72,
+       "end": 54.8
       },
       {
        "text": "I",
-       "start": 70.033,
-       "end": 70.12
+       "start": 54.96,
+       "end": 55.013
       },
       {
        "text": "got",
-       "start": 70.12,
-       "end": 70.278
+       "start": 55.067,
+       "end": 55.12
       },
       {
        "text": "it.",
-       "start": 70.278,
-       "end": 70.401
+       "start": 55.2,
+       "end": 55.4
       }
      ]
     },
     {
      "show": "Our free electricity",
-     "start": 70.701,
-     "end": 71.92,
+     "start": 55.44,
+     "end": 56.48,
      "words": [
       {
        "text": "Our",
-       "start": 70.701,
-       "end": 70.945
+       "start": 55.44,
+       "end": 55.68
       },
       {
        "text": "free",
-       "start": 70.945,
-       "end": 71.243
+       "start": 55.76,
+       "end": 55.84
       },
       {
        "text": "electricity",
-       "start": 71.243,
-       "end": 71.92
+       "start": 56.08,
+       "end": 56.48
       }
      ]
     },
     {
      "show": "was a baby's {r:tears.}",
-     "start": 71.98,
-     "end": 73.002,
+     "start": 56.52,
+     "end": 57.707,
      "words": [
       {
        "text": "was",
-       "start": 71.98,
-       "end": 72.21
+       "start": 56.52,
+       "end": 56.56
       },
       {
        "text": "a",
-       "start": 72.21,
-       "end": 72.338
+       "start": 56.72,
+       "end": 56.8
       },
       {
        "text": "baby's",
-       "start": 72.338,
-       "end": 72.67
+       "start": 56.88,
+       "end": 57.12
       },
       {
        "text": "tears.",
-       "start": 72.67,
-       "end": 73.002
+       "start": 57.2,
+       "end": 57.707
       }
      ]
     }
    ],
-   "end": 73.302
+   "start": 54.507,
+   "end": 57.707
   },
   {
    "id": "why",
    "label": "",
-   "start": 73.702,
    "lines": [
     {
      "show": "And the monster in the forest",
-     "start": 73.702,
-     "end": 75.014,
+     "start": 57.733,
+     "end": 58.8,
      "words": [
       {
        "text": "And",
-       "start": 73.702,
-       "end": 73.881
+       "start": 57.733,
+       "end": 57.76
       },
       {
        "text": "the",
-       "start": 73.881,
-       "end": 74.059
+       "start": 57.84,
+       "end": 57.92
       },
       {
        "text": "monster",
-       "start": 74.059,
-       "end": 74.397
+       "start": 58.08,
+       "end": 58.24
       },
       {
        "text": "in",
-       "start": 74.397,
-       "end": 74.537
+       "start": 58.28,
+       "end": 58.32
       },
       {
        "text": "the",
-       "start": 74.537,
-       "end": 74.715
+       "start": 58.36,
+       "end": 58.4
       },
       {
        "text": "forest",
-       "start": 74.715,
-       "end": 75.014
+       "start": 58.48,
+       "end": 58.8
       }
      ]
     },
     {
      "show": "wasn't hunting us.",
-     "start": 75.074,
-     "end": 76.06,
+     "start": 58.88,
+     "end": 59.733,
      "words": [
       {
        "text": "wasn't",
-       "start": 75.074,
-       "end": 75.42
+       "start": 58.88,
+       "end": 59.04
       },
       {
        "text": "hunting",
-       "start": 75.42,
-       "end": 75.874
+       "start": 59.08,
+       "end": 59.36
       },
       {
        "text": "us.",
-       "start": 75.874,
-       "end": 76.06
+       "start": 59.44,
+       "end": 59.733
       }
      ]
     },
     {
      "show": "She was looking",
-     "start": 76.36,
-     "end": 77.185,
+     "start": 59.787,
+     "end": 60.24,
      "words": [
       {
        "text": "She",
-       "start": 76.36,
-       "end": 76.572
+       "start": 59.787,
+       "end": 59.84
       },
       {
        "text": "was",
-       "start": 76.572,
-       "end": 76.784
+       "start": 59.92,
+       "end": 60.0
       },
       {
        "text": "looking",
-       "start": 76.784,
-       "end": 77.185
+       "start": 60.12,
+       "end": 60.24
       }
      ]
     },
     {
      "show": "for her {y:kid.}",
-     "start": 77.245,
-     "end": 77.918,
+     "start": 60.28,
+     "end": 61.013,
      "words": [
       {
        "text": "for",
-       "start": 77.245,
-       "end": 77.469
+       "start": 60.28,
+       "end": 60.32
       },
       {
        "text": "her",
-       "start": 77.469,
-       "end": 77.694
+       "start": 60.4,
+       "end": 60.48
       },
       {
        "text": "kid.",
-       "start": 77.694,
-       "end": 77.918
+       "start": 60.56,
+       "end": 61.013
       }
      ]
     },
     {
      "show": "The silence was never to keep us safe.",
-     "start": 78.218,
-     "end": 79.89,
+     "start": 61.067,
+     "end": 62.88,
      "words": [
       {
        "text": "The",
-       "start": 78.218,
-       "end": 78.397
+       "start": 61.067,
+       "end": 61.12
       },
       {
        "text": "silence",
-       "start": 78.397,
-       "end": 78.736
+       "start": 61.24,
+       "end": 61.52
       },
       {
        "text": "was",
-       "start": 78.736,
-       "end": 78.915
+       "start": 61.64,
+       "end": 61.76
       },
       {
        "text": "never",
-       "start": 78.915,
-       "end": 79.173
+       "start": 61.88,
+       "end": 62.0
       },
       {
        "text": "to",
-       "start": 79.173,
-       "end": 79.313
+       "start": 62.04,
+       "end": 62.08
       },
       {
        "text": "keep",
-       "start": 79.313,
-       "end": 79.532
+       "start": 62.16,
+       "end": 62.24
       },
       {
        "text": "us",
-       "start": 79.532,
-       "end": 79.671
+       "start": 62.32,
+       "end": 62.48
       },
       {
        "text": "safe.",
-       "start": 79.671,
-       "end": 79.89
+       "start": 62.64,
+       "end": 62.88
       }
      ]
     },
     {
      "show": "It was so she could {r:never} hear it.",
-     "start": 80.19,
-     "end": 81.56,
+     "start": 62.92,
+     "end": 64.52,
      "words": [
       {
        "text": "It",
-       "start": 80.19,
-       "end": 80.316
+       "start": 62.92,
+       "end": 62.96
       },
       {
        "text": "was",
-       "start": 80.316,
-       "end": 80.478
+       "start": 63.04,
+       "end": 63.12
       },
       {
        "text": "so",
-       "start": 80.478,
-       "end": 80.605
+       "start": 63.24,
+       "end": 63.36
       },
       {
        "text": "she",
-       "start": 80.605,
-       "end": 80.767
+       "start": 63.4,
+       "end": 63.44
       },
       {
        "text": "could",
-       "start": 80.767,
-       "end": 81.001
+       "start": 63.52,
+       "end": 63.68
       },
       {
        "text": "never",
-       "start": 81.001,
-       "end": 81.235
+       "start": 63.76,
+       "end": 64.0
       },
       {
        "text": "hear",
-       "start": 81.235,
-       "end": 81.434
+       "start": 64.08,
+       "end": 64.24
       },
       {
        "text": "it.",
-       "start": 81.434,
-       "end": 81.56
+       "start": 64.36,
+       "end": 64.52
       }
      ]
     }
    ],
-   "end": 81.86
+   "start": 57.733,
+   "end": 64.52
   },
   {
    "id": "sign",
    "label": "",
-   "start": 82.26,
    "lines": [
     {
      "show": "On the cage was a sign.",
-     "start": 82.26,
-     "end": 83.433,
+     "start": 64.56,
+     "end": 65.893,
      "words": [
       {
        "text": "On",
-       "start": 82.26,
-       "end": 82.418
+       "start": 64.56,
+       "end": 64.64
       },
       {
        "text": "the",
-       "start": 82.418,
-       "end": 82.621
+       "start": 64.68,
+       "end": 64.72
       },
       {
        "text": "cage",
-       "start": 82.621,
-       "end": 82.869
+       "start": 64.8,
+       "end": 65.04
       },
       {
        "text": "was",
-       "start": 82.869,
-       "end": 83.072
+       "start": 65.08,
+       "end": 65.12
       },
       {
        "text": "a",
-       "start": 83.072,
-       "end": 83.184
+       "start": 65.28,
+       "end": 65.32
       },
       {
        "text": "sign.",
-       "start": 83.184,
-       "end": 83.433
+       "start": 65.36,
+       "end": 65.893
       }
      ]
     },
     {
      "show": "{r:Property of the mayor.}",
-     "start": 83.733,
-     "end": 84.685,
+     "start": 66.027,
+     "end": 66.84,
      "words": [
       {
        "text": "Property",
-       "start": 83.733,
-       "end": 84.109
+       "start": 66.027,
+       "end": 66.16
       },
       {
        "text": "of",
-       "start": 84.109,
-       "end": 84.248
+       "start": 66.24,
+       "end": 66.32
       },
       {
        "text": "the",
-       "start": 84.248,
-       "end": 84.427
+       "start": 66.36,
+       "end": 66.4
       },
       {
        "text": "mayor.",
-       "start": 84.427,
-       "end": 84.685
+       "start": 66.48,
+       "end": 66.84
       }
      ]
     },
     {
      "show": "{r:Do not open.}",
-     "start": 84.985,
-     "end": 85.728,
+     "start": 66.88,
+     "end": 67.88,
      "words": [
       {
        "text": "Do",
-       "start": 84.985,
-       "end": 85.177
+       "start": 66.88,
+       "end": 67.04
       },
       {
        "text": "not",
-       "start": 85.177,
-       "end": 85.425
+       "start": 67.2,
+       "end": 67.36
       },
       {
        "text": "open.",
-       "start": 85.425,
-       "end": 85.728
+       "start": 67.6,
+       "end": 67.88
       }
      ]
     }
    ],
-   "end": 86.028
+   "start": 64.56,
+   "end": 67.88
   },
   {
    "id": "open",
    "label": "",
-   "start": 86.428,
    "lines": [
     {
      "show": "So I opened it.",
-     "start": 86.428,
-     "end": 87.414,
+     "start": 67.92,
+     "end": 68.933,
      "words": [
       {
        "text": "So",
-       "start": 86.428,
-       "end": 86.631
+       "start": 67.92,
+       "end": 68.32
       },
       {
        "text": "I",
-       "start": 86.631,
-       "end": 86.776
+       "start": 68.4,
+       "end": 68.44
       },
       {
        "text": "opened",
-       "start": 86.776,
-       "end": 87.211
+       "start": 68.48,
+       "end": 68.64
       },
       {
        "text": "it.",
-       "start": 87.211,
-       "end": 87.414
+       "start": 68.72,
+       "end": 68.933
       }
      ]
     }
    ],
-   "end": 87.714
+   "start": 67.92,
+   "end": 68.933
   },
   {
    "id": "achoo",
    "label": "",
-   "start": 88.114,
    "lines": [
     {
      "show": "The baby crawled into my arms,",
-     "start": 88.114,
-     "end": 89.763,
+     "start": 68.987,
+     "end": 70.52,
      "words": [
       {
        "text": "The",
-       "start": 88.114,
-       "end": 88.339
+       "start": 68.987,
+       "end": 69.04
       },
       {
        "text": "baby",
-       "start": 88.339,
-       "end": 88.614
+       "start": 69.2,
+       "end": 69.36
       },
       {
        "text": "crawled",
-       "start": 88.614,
-       "end": 89.039
+       "start": 69.44,
+       "end": 69.68
       },
       {
        "text": "into",
-       "start": 89.039,
-       "end": 89.313
+       "start": 69.76,
+       "end": 69.92
       },
       {
        "text": "my",
-       "start": 89.313,
-       "end": 89.488
+       "start": 70.0,
+       "end": 70.08
       },
       {
        "text": "arms,",
-       "start": 89.488,
-       "end": 89.763
+       "start": 70.16,
+       "end": 70.52
       }
      ]
     },
     {
      "show": "looked at me,",
-     "start": 89.923,
-     "end": 90.543,
+     "start": 70.56,
+     "end": 71.2,
      "words": [
       {
        "text": "looked",
-       "start": 89.923,
-       "end": 90.244
+       "start": 70.56,
+       "end": 70.72
       },
       {
        "text": "at",
-       "start": 90.244,
-       "end": 90.394
+       "start": 70.76,
+       "end": 70.8
       },
       {
        "text": "me,",
-       "start": 90.394,
-       "end": 90.543
+       "start": 70.88,
+       "end": 71.2
       }
      ]
     },
     {
      "show": "and {r:sneezed.}",
-     "start": 90.703,
-     "end": 91.412,
+     "start": 71.28,
+     "end": 72.12,
      "words": [
       {
        "text": "and",
-       "start": 90.703,
-       "end": 90.949
+       "start": 71.28,
+       "end": 71.36
       },
       {
        "text": "sneezed.",
-       "start": 90.949,
-       "end": 91.412
+       "start": 71.44,
+       "end": 72.12
       }
      ]
     },
     {
      "show": "Loud.",
-     "start": 91.712,
-     "end": 92.083,
+     "start": 72.16,
+     "end": 72.693,
      "words": [
       {
        "text": "Loud.",
-       "start": 91.712,
-       "end": 92.083
+       "start": 72.16,
+       "end": 72.693
       }
      ]
     }
    ],
-   "end": 92.383
+   "start": 68.987,
+   "end": 72.693
   },
   {
    "id": "steps",
    "label": "",
-   "start": 92.783,
    "lines": [
     {
      "show": "The whole town went silent.",
-     "start": 92.783,
-     "end": 94.211,
+     "start": 72.747,
+     "end": 74.24,
      "words": [
       {
        "text": "The",
-       "start": 92.783,
-       "end": 93.001
+       "start": 72.747,
+       "end": 72.8
       },
       {
        "text": "whole",
-       "start": 93.001,
-       "end": 93.316
+       "start": 72.88,
+       "end": 73.12
       },
       {
        "text": "town",
-       "start": 93.316,
-       "end": 93.582
+       "start": 73.2,
+       "end": 73.44
       },
       {
        "text": "went",
-       "start": 93.582,
-       "end": 93.848
+       "start": 73.52,
+       "end": 73.68
       },
       {
        "text": "silent.",
-       "start": 93.848,
-       "end": 94.211
+       "start": 73.76,
+       "end": 74.24
       }
      ]
     },
     {
      "show": "Then, from the forest,",
-     "start": 94.511,
-     "end": 95.734,
+     "start": 74.32,
+     "end": 75.44,
      "words": [
       {
        "text": "Then,",
-       "start": 94.511,
-       "end": 94.804
+       "start": 74.32,
+       "end": 74.613
       },
       {
        "text": "from",
-       "start": 94.804,
-       "end": 95.096
+       "start": 74.667,
+       "end": 74.72
       },
       {
        "text": "the",
-       "start": 95.096,
-       "end": 95.335
+       "start": 74.76,
+       "end": 74.8
       },
       {
        "text": "forest,",
-       "start": 95.335,
-       "end": 95.734
+       "start": 74.88,
+       "end": 75.44
       }
      ]
     },
     {
      "show": "{r:footsteps.}",
-     "start": 95.894,
-     "end": 96.588,
+     "start": 75.56,
+     "end": 76.24,
      "words": [
       {
        "text": "footsteps.",
-       "start": 95.894,
-       "end": 96.588
+       "start": 75.56,
+       "end": 76.24
       }
      ]
     },
     {
      "show": "Huge footsteps.",
-     "start": 96.888,
-     "end": 97.816,
+     "start": 76.36,
+     "end": 77.4,
      "words": [
       {
        "text": "Huge",
-       "start": 96.888,
-       "end": 97.207
+       "start": 76.36,
+       "end": 76.72
       },
       {
        "text": "footsteps.",
-       "start": 97.207,
-       "end": 97.816
+       "start": 76.8,
+       "end": 77.4
       }
      ]
     },
     {
      "show": "Coming closer.",
-     "start": 98.116,
-     "end": 98.941,
+     "start": 77.44,
+     "end": 78.32,
      "words": [
       {
        "text": "Coming",
-       "start": 98.116,
-       "end": 98.529
+       "start": 77.44,
+       "end": 77.68
       },
       {
        "text": "closer.",
-       "start": 98.529,
-       "end": 98.941
+       "start": 77.76,
+       "end": 78.32
       }
      ]
     }
    ],
-   "end": 99.241
+   "start": 72.747,
+   "end": 78.32
   },
   {
    "id": "town",
    "label": "",
-   "start": 99.641,
    "lines": [
     {
      "show": "Lights turned on in every house.",
-     "start": 99.641,
-     "end": 101.231,
+     "start": 78.4,
+     "end": 79.76,
      "words": [
       {
        "text": "Lights",
-       "start": 99.641,
-       "end": 99.982
+       "start": 78.4,
+       "end": 78.48
       },
       {
        "text": "turned",
-       "start": 99.982,
-       "end": 100.322
+       "start": 78.56,
+       "end": 78.72
       },
       {
        "text": "on",
-       "start": 100.322,
-       "end": 100.481
+       "start": 78.8,
+       "end": 78.88
       },
       {
        "text": "in",
-       "start": 100.481,
-       "end": 100.64
+       "start": 78.96,
+       "end": 79.04
       },
       {
        "text": "every",
-       "start": 100.64,
-       "end": 100.936
+       "start": 79.12,
+       "end": 79.36
       },
       {
        "text": "house.",
-       "start": 100.936,
-       "end": 101.231
+       "start": 79.52,
+       "end": 79.76
       }
      ]
     },
     {
      "show": "People ran outside.",
-     "start": 101.531,
-     "end": 102.634,
+     "start": 79.92,
+     "end": 80.933,
      "words": [
       {
        "text": "People",
-       "start": 101.531,
-       "end": 101.935
+       "start": 79.92,
+       "end": 80.08
       },
       {
        "text": "ran",
-       "start": 101.935,
-       "end": 102.177
+       "start": 80.16,
+       "end": 80.24
       },
       {
        "text": "outside.",
-       "start": 102.177,
-       "end": 102.634
+       "start": 80.32,
+       "end": 80.933
       }
      ]
     },
     {
      "show": "The mayor screamed:",
-     "start": 102.934,
-     "end": 103.863,
+     "start": 80.987,
+     "end": 81.88,
      "words": [
       {
        "text": "The",
-       "start": 102.934,
-       "end": 103.138
+       "start": 80.987,
+       "end": 81.04
       },
       {
        "text": "mayor",
-       "start": 103.138,
-       "end": 103.433
+       "start": 81.12,
+       "end": 81.36
       },
       {
        "text": "screamed:",
-       "start": 103.433,
-       "end": 103.863
+       "start": 81.44,
+       "end": 81.88
       }
      ]
     },
     {
      "show": "Catch that kid!",
-     "start": 104.023,
-     "end": 104.917,
+     "start": 81.92,
+     "end": 82.827,
      "words": [
       {
        "text": "Catch",
-       "start": 104.023,
-       "end": 104.375
+       "start": 81.92,
+       "end": 82.16
       },
       {
        "text": "that",
-       "start": 104.375,
-       "end": 104.673
+       "start": 82.28,
+       "end": 82.4
       },
       {
        "text": "kid!",
-       "start": 104.673,
-       "end": 104.917
+       "start": 82.6,
+       "end": 82.827
       }
      ]
     }
    ],
-   "end": 105.217
+   "start": 78.4,
+   "end": 82.827
   },
   {
    "id": "her",
    "label": "",
-   "start": 105.617,
    "lines": [
     {
      "show": "But it was too late.",
-     "start": 105.617,
-     "end": 106.662,
+     "start": 82.853,
+     "end": 83.72,
      "words": [
       {
        "text": "But",
-       "start": 105.617,
-       "end": 105.826
+       "start": 82.853,
+       "end": 82.88
       },
       {
        "text": "it",
-       "start": 105.826,
-       "end": 105.989
+       "start": 82.96,
+       "end": 83.013
       },
       {
        "text": "was",
-       "start": 105.989,
-       "end": 106.197
+       "start": 83.067,
+       "end": 83.12
       },
       {
        "text": "too",
-       "start": 106.197,
-       "end": 106.406
+       "start": 83.2,
+       "end": 83.36
       },
       {
        "text": "late.",
-       "start": 106.406,
-       "end": 106.662
+       "start": 83.52,
+       "end": 83.72
       }
      ]
     },
     {
      "show": "She was {r:already here.}",
-     "start": 106.962,
-     "end": 108.1,
+     "start": 83.76,
+     "end": 84.933,
      "words": [
       {
        "text": "She",
-       "start": 106.962,
-       "end": 107.184
+       "start": 83.76,
+       "end": 83.84
       },
       {
        "text": "was",
-       "start": 107.184,
-       "end": 107.407
+       "start": 83.92,
+       "end": 84.0
       },
       {
        "text": "already",
-       "start": 107.407,
-       "end": 107.828
+       "start": 84.08,
+       "end": 84.4
       },
       {
        "text": "here.",
-       "start": 107.828,
-       "end": 108.1
+       "start": 84.48,
+       "end": 84.933
       }
      ]
     },
     {
      "show": "Taller than the town hall.",
-     "start": 108.4,
-     "end": 109.619,
+     "start": 84.987,
+     "end": 86.2,
      "words": [
       {
        "text": "Taller",
-       "start": 108.4,
-       "end": 108.72
+       "start": 84.987,
+       "end": 85.2
       },
       {
        "text": "than",
-       "start": 108.72,
-       "end": 108.956
+       "start": 85.28,
+       "end": 85.36
       },
       {
        "text": "the",
-       "start": 108.956,
-       "end": 109.148
+       "start": 85.4,
+       "end": 85.44
       },
       {
        "text": "town",
-       "start": 109.148,
-       "end": 109.383
+       "start": 85.52,
+       "end": 85.76
       },
       {
        "text": "hall.",
-       "start": 109.383,
-       "end": 109.619
+       "start": 85.96,
+       "end": 86.2
       }
      ]
     },
     {
      "show": "Eyes glowing like {y:headlights.}",
-     "start": 109.919,
-     "end": 111.474,
+     "start": 86.24,
+     "end": 87.88,
      "words": [
       {
        "text": "Eyes",
-       "start": 109.919,
-       "end": 110.195
+       "start": 86.24,
+       "end": 86.56
       },
       {
        "text": "glowing",
-       "start": 110.195,
-       "end": 110.621
+       "start": 86.64,
+       "end": 86.96
       },
       {
        "text": "like",
-       "start": 110.621,
-       "end": 110.897
+       "start": 87.04,
+       "end": 87.2
       },
       {
        "text": "headlights.",
-       "start": 110.897,
-       "end": 111.474
+       "start": 87.32,
+       "end": 87.88
       }
      ]
     }
    ],
-   "end": 111.774
+   "start": 82.853,
+   "end": 87.88
   },
   {
    "id": "stand",
    "label": "",
-   "start": 112.174,
    "lines": [
     {
      "show": "Everyone froze.",
-     "start": 112.174,
-     "end": 113.161,
+     "start": 87.92,
+     "end": 88.92,
      "words": [
       {
        "text": "Everyone",
-       "start": 112.174,
-       "end": 112.76
+       "start": 87.92,
+       "end": 88.32
       },
       {
        "text": "froze.",
-       "start": 112.76,
-       "end": 113.161
+       "start": 88.4,
+       "end": 88.92
       }
      ]
     },
     {
      "show": "Except me.",
-     "start": 113.461,
-     "end": 114.111,
+     "start": 88.96,
+     "end": 89.68,
      "words": [
       {
        "text": "Except",
-       "start": 113.461,
-       "end": 113.905
+       "start": 88.96,
+       "end": 89.28
       },
       {
        "text": "me.",
-       "start": 113.905,
-       "end": 114.111
+       "start": 89.44,
+       "end": 89.68
       }
      ]
     },
     {
      "show": "I walked right up to her,",
-     "start": 114.411,
-     "end": 115.526,
+     "start": 89.76,
+     "end": 90.773,
      "words": [
       {
        "text": "I",
-       "start": 114.411,
-       "end": 114.511
+       "start": 89.76,
+       "end": 89.813
       },
       {
        "text": "walked",
-       "start": 114.511,
-       "end": 114.81
+       "start": 89.867,
+       "end": 90.08
       },
       {
        "text": "right",
-       "start": 114.81,
-       "end": 115.068
+       "start": 90.16,
+       "end": 90.24
       },
       {
        "text": "up",
-       "start": 115.068,
-       "end": 115.208
+       "start": 90.32,
+       "end": 90.4
       },
       {
        "text": "to",
-       "start": 115.208,
-       "end": 115.347
+       "start": 90.44,
+       "end": 90.48
       },
       {
        "text": "her,",
-       "start": 115.347,
-       "end": 115.526
+       "start": 90.56,
+       "end": 90.773
       }
      ]
     },
     {
      "show": "and held out her baby.",
-     "start": 115.686,
-     "end": 116.743,
+     "start": 90.827,
+     "end": 91.88,
      "words": [
       {
        "text": "and",
-       "start": 115.686,
-       "end": 115.88
+       "start": 90.827,
+       "end": 90.88
       },
       {
        "text": "held",
-       "start": 115.88,
-       "end": 116.117
+       "start": 90.96,
+       "end": 91.12
       },
       {
        "text": "out",
-       "start": 116.117,
-       "end": 116.311
+       "start": 91.2,
+       "end": 91.28
       },
       {
        "text": "her",
-       "start": 116.311,
-       "end": 116.505
+       "start": 91.36,
+       "end": 91.44
       },
       {
        "text": "baby.",
-       "start": 116.505,
-       "end": 116.743
+       "start": 91.64,
+       "end": 91.88
       }
      ]
     }
    ],
-   "end": 117.043
+   "start": 87.92,
+   "end": 91.88
   },
   {
    "id": "reunion",
    "label": "",
-   "start": 117.443,
    "lines": [
     {
      "show": "She looked at me",
-     "start": 117.443,
-     "end": 118.197,
+     "start": 91.92,
+     "end": 92.48,
      "words": [
       {
        "text": "She",
-       "start": 117.443,
-       "end": 117.621
+       "start": 91.92,
+       "end": 92.08
       },
       {
        "text": "looked",
-       "start": 117.621,
-       "end": 117.919
+       "start": 92.12,
+       "end": 92.24
       },
       {
        "text": "at",
-       "start": 117.919,
-       "end": 118.058
+       "start": 92.28,
+       "end": 92.32
       },
       {
        "text": "me",
-       "start": 118.058,
-       "end": 118.197
+       "start": 92.4,
+       "end": 92.48
       }
      ]
     },
     {
      "show": "for a really long time.",
-     "start": 118.257,
-     "end": 119.462,
+     "start": 92.56,
+     "end": 93.96,
      "words": [
       {
        "text": "for",
-       "start": 118.257,
-       "end": 118.47
+       "start": 92.56,
+       "end": 92.64
       },
       {
        "text": "a",
-       "start": 118.47,
-       "end": 118.588
+       "start": 92.88,
+       "end": 92.987
       },
       {
        "text": "really",
-       "start": 118.588,
-       "end": 118.942
+       "start": 93.093,
+       "end": 93.2
       },
       {
        "text": "long",
-       "start": 118.942,
-       "end": 119.202
+       "start": 93.32,
+       "end": 93.44
       },
       {
        "text": "time.",
-       "start": 119.202,
-       "end": 119.462
+       "start": 93.52,
+       "end": 93.96
       }
      ]
     },
     {
      "show": "Then the baby jumped into her arms,",
-     "start": 119.762,
-     "end": 121.596,
+     "start": 94.0,
+     "end": 95.787,
      "words": [
       {
        "text": "Then",
-       "start": 119.762,
-       "end": 120.024
+       "start": 94.0,
+       "end": 94.24
       },
       {
        "text": "the",
-       "start": 120.024,
-       "end": 120.238
+       "start": 94.32,
+       "end": 94.4
       },
       {
        "text": "baby",
-       "start": 120.238,
-       "end": 120.5
+       "start": 94.6,
+       "end": 94.8
       },
       {
        "text": "jumped",
-       "start": 120.5,
-       "end": 120.858
+       "start": 94.88,
+       "end": 95.04
       },
       {
        "text": "into",
-       "start": 120.858,
-       "end": 121.12
+       "start": 95.12,
+       "end": 95.2
       },
       {
        "text": "her",
-       "start": 121.12,
-       "end": 121.334
+       "start": 95.28,
+       "end": 95.36
       },
       {
        "text": "arms,",
-       "start": 121.334,
-       "end": 121.596
+       "start": 95.44,
+       "end": 95.787
       }
      ]
     },
     {
      "show": "and she made a sound",
-     "start": 121.756,
-     "end": 122.685,
+     "start": 95.813,
+     "end": 96.64,
      "words": [
       {
        "text": "and",
-       "start": 121.756,
-       "end": 121.934
+       "start": 95.813,
+       "end": 95.84
       },
       {
        "text": "she",
-       "start": 121.934,
-       "end": 122.112
+       "start": 95.92,
+       "end": 96.0
       },
       {
        "text": "made",
-       "start": 122.112,
-       "end": 122.329
+       "start": 96.08,
+       "end": 96.16
       },
       {
        "text": "a",
-       "start": 122.329,
-       "end": 122.428
+       "start": 96.32,
+       "end": 96.427
       },
       {
        "text": "sound",
-       "start": 122.428,
-       "end": 122.685
+       "start": 96.533,
+       "end": 96.64
       }
      ]
     },
     {
      "show": "I'll never forget.",
-     "start": 122.745,
-     "end": 123.558,
+     "start": 96.72,
+     "end": 97.84,
      "words": [
       {
        "text": "I'll",
-       "start": 122.745,
-       "end": 122.943
+       "start": 96.72,
+       "end": 96.96
       },
       {
        "text": "never",
-       "start": 122.943,
-       "end": 123.228
+       "start": 97.08,
+       "end": 97.2
       },
       {
        "text": "forget.",
-       "start": 123.228,
-       "end": 123.558
+       "start": 97.48,
+       "end": 97.84
       }
      ]
     },
     {
      "show": "She {g:purred.}",
-     "start": 123.858,
-     "end": 124.438,
+     "start": 97.92,
+     "end": 98.76,
      "words": [
       {
        "text": "She",
-       "start": 123.858,
-       "end": 124.075
+       "start": 97.92,
+       "end": 98.0
       },
       {
        "text": "purred.",
-       "start": 124.075,
-       "end": 124.438
+       "start": 98.08,
+       "end": 98.76
       }
      ]
     }
    ],
-   "end": 124.738
+   "start": 91.92,
+   "end": 98.76
   },
   {
    "id": "roar",
    "label": "",
-   "start": 125.138,
    "lines": [
     {
      "show": "Then she turned to the mayor,",
-     "start": 125.138,
-     "end": 126.311,
+     "start": 98.8,
+     "end": 100.107,
      "words": [
       {
        "text": "Then",
-       "start": 125.138,
-       "end": 125.34
+       "start": 98.8,
+       "end": 98.96
       },
       {
        "text": "she",
-       "start": 125.34,
-       "end": 125.505
+       "start": 99.04,
+       "end": 99.12
       },
       {
        "text": "turned",
-       "start": 125.505,
-       "end": 125.779
+       "start": 99.2,
+       "end": 99.36
       },
       {
        "text": "to",
-       "start": 125.779,
-       "end": 125.908
+       "start": 99.44,
+       "end": 99.48
       },
       {
        "text": "the",
-       "start": 125.908,
-       "end": 126.073
+       "start": 99.52,
+       "end": 99.6
       },
       {
        "text": "mayor,",
-       "start": 126.073,
-       "end": 126.311
+       "start": 99.68,
+       "end": 100.107
       }
      ]
     },
     {
      "show": "and {r:roared.}",
-     "start": 126.471,
-     "end": 127.125,
+     "start": 100.213,
+     "end": 100.96,
      "words": [
       {
        "text": "and",
-       "start": 126.471,
-       "end": 126.716
+       "start": 100.213,
+       "end": 100.32
       },
       {
        "text": "roared.",
-       "start": 126.716,
-       "end": 127.125
+       "start": 100.4,
+       "end": 100.96
       }
      ]
     },
     {
      "show": "He flew backwards",
-     "start": 127.425,
-     "end": 128.296,
+     "start": 101.04,
+     "end": 101.84,
      "words": [
       {
        "text": "He",
-       "start": 127.425,
-       "end": 127.582
+       "start": 101.04,
+       "end": 101.12
       },
       {
        "text": "flew",
-       "start": 127.582,
-       "end": 127.827
+       "start": 101.16,
+       "end": 101.36
       },
       {
        "text": "backwards",
-       "start": 127.827,
-       "end": 128.296
+       "start": 101.44,
+       "end": 101.84
       }
      ]
     },
     {
      "show": "straight into a {y:trash can.}",
-     "start": 128.356,
-     "end": 129.796,
+     "start": 101.92,
+     "end": 103.12,
      "words": [
       {
        "text": "straight",
-       "start": 128.356,
-       "end": 128.836
+       "start": 101.92,
+       "end": 102.08
       },
       {
        "text": "into",
-       "start": 128.836,
-       "end": 129.114
+       "start": 102.16,
+       "end": 102.32
       },
       {
        "text": "a",
-       "start": 129.114,
-       "end": 129.24
+       "start": 102.4,
+       "end": 102.507
       },
       {
        "text": "trash",
-       "start": 129.24,
-       "end": 129.568
+       "start": 102.613,
+       "end": 102.72
       },
       {
        "text": "can.",
-       "start": 129.568,
-       "end": 129.796
+       "start": 102.88,
+       "end": 103.12
       }
      ]
     }
    ],
-   "end": 130.096
+   "start": 98.8,
+   "end": 103.12
   },
   {
    "id": "lights",
    "label": "",
-   "start": 130.496,
    "lines": [
     {
      "show": "And one by one,",
-     "start": 130.496,
-     "end": 131.42,
+     "start": 103.2,
+     "end": 104.04,
      "words": [
       {
        "text": "And",
-       "start": 130.496,
-       "end": 130.74
+       "start": 103.2,
+       "end": 103.28
       },
       {
        "text": "one",
-       "start": 130.74,
-       "end": 130.985
+       "start": 103.36,
+       "end": 103.44
       },
       {
        "text": "by",
-       "start": 130.985,
-       "end": 131.175
+       "start": 103.56,
+       "end": 103.68
       },
       {
        "text": "one,",
-       "start": 131.175,
-       "end": 131.42
+       "start": 103.76,
+       "end": 104.04
       }
      ]
     },
     {
      "show": "every light in town",
-     "start": 131.58,
-     "end": 132.66,
+     "start": 104.08,
+     "end": 105.04,
      "words": [
       {
        "text": "every",
-       "start": 131.58,
-       "end": 131.899
+       "start": 104.08,
+       "end": 104.32
       },
       {
        "text": "light",
-       "start": 131.899,
-       "end": 132.218
+       "start": 104.4,
+       "end": 104.48
       },
       {
        "text": "in",
-       "start": 132.218,
-       "end": 132.39
+       "start": 104.56,
+       "end": 104.72
       },
       {
        "text": "town",
-       "start": 132.39,
-       "end": 132.66
+       "start": 104.88,
+       "end": 105.04
       }
      ]
     },
     {
      "show": "went {r:out.}",
-     "start": 132.72,
-     "end": 133.289,
+     "start": 105.12,
+     "end": 105.56,
      "words": [
       {
        "text": "went",
-       "start": 132.72,
-       "end": 133.033
+       "start": 105.12,
+       "end": 105.2
       },
       {
        "text": "out.",
-       "start": 133.033,
-       "end": 133.289
+       "start": 105.28,
+       "end": 105.56
       }
      ]
     }
    ],
-   "end": 133.589
+   "start": 103.2,
+   "end": 105.56
   },
   {
    "id": "after",
    "label": "",
-   "start": 133.989,
    "lines": [
     {
      "show": "We lost our free electricity.",
-     "start": 133.989,
-     "end": 135.591,
+     "start": 105.6,
+     "end": 107.067,
      "words": [
       {
        "text": "We",
-       "start": 133.989,
-       "end": 134.167
+       "start": 105.6,
+       "end": 105.68
       },
       {
        "text": "lost",
-       "start": 134.167,
-       "end": 134.446
+       "start": 105.84,
+       "end": 106.0
       },
       {
        "text": "our",
-       "start": 134.446,
-       "end": 134.675
+       "start": 106.08,
+       "end": 106.16
       },
       {
        "text": "free",
-       "start": 134.675,
-       "end": 134.955
+       "start": 106.2,
+       "end": 106.24
       },
       {
        "text": "electricity.",
-       "start": 134.955,
-       "end": 135.591
+       "start": 106.32,
+       "end": 107.067
       }
      ]
     },
     {
      "show": "But we got something better.",
-     "start": 135.891,
-     "end": 136.924,
+     "start": 107.173,
+     "end": 108.347,
      "words": [
       {
        "text": "But",
-       "start": 135.891,
-       "end": 136.043
+       "start": 107.173,
+       "end": 107.28
       },
       {
        "text": "we",
-       "start": 136.043,
-       "end": 136.162
+       "start": 107.36,
+       "end": 107.44
       },
       {
        "text": "got",
-       "start": 136.162,
-       "end": 136.314
+       "start": 107.52,
+       "end": 107.6
       },
       {
        "text": "something",
-       "start": 136.314,
-       "end": 136.67
+       "start": 107.68,
+       "end": 107.92
       },
       {
        "text": "better.",
-       "start": 136.67,
-       "end": 136.924
+       "start": 108.0,
+       "end": 108.347
       }
      ]
     },
     {
      "show": "We can {g:talk} at night again.",
-     "start": 137.224,
-     "end": 138.466,
+     "start": 108.373,
+     "end": 109.653,
      "words": [
       {
        "text": "We",
-       "start": 137.224,
-       "end": 137.369
+       "start": 108.373,
+       "end": 108.4
       },
       {
        "text": "can",
-       "start": 137.369,
-       "end": 137.555
+       "start": 108.48,
+       "end": 108.64
       },
       {
        "text": "talk",
-       "start": 137.555,
-       "end": 137.783
+       "start": 108.76,
+       "end": 108.88
       },
       {
        "text": "at",
-       "start": 137.783,
-       "end": 137.928
+       "start": 108.92,
+       "end": 108.96
       },
       {
        "text": "night",
-       "start": 137.928,
-       "end": 138.197
+       "start": 109.04,
+       "end": 109.2
       },
       {
        "text": "again.",
-       "start": 138.197,
-       "end": 138.466
+       "start": 109.4,
+       "end": 109.653
       }
      ]
     }
    ],
-   "end": 138.766
+   "start": 105.6,
+   "end": 109.653
   },
   {
    "id": "end",
    "label": "",
-   "start": 139.166,
    "lines": [
     {
      "show": "And every full moon,",
-     "start": 139.166,
-     "end": 140.148,
+     "start": 109.707,
+     "end": 110.72,
      "words": [
       {
        "text": "And",
-       "start": 139.166,
-       "end": 139.367
+       "start": 109.707,
+       "end": 109.76
       },
       {
        "text": "every",
-       "start": 139.367,
-       "end": 139.657
+       "start": 109.84,
+       "end": 110.08
       },
       {
        "text": "full",
-       "start": 139.657,
-       "end": 139.903
+       "start": 110.16,
+       "end": 110.32
       },
       {
        "text": "moon,",
-       "start": 139.903,
-       "end": 140.148
+       "start": 110.48,
+       "end": 110.72
       }
      ]
     },
     {
      "show": "a giant fluffy monster",
-     "start": 140.308,
-     "end": 141.666,
+     "start": 110.8,
+     "end": 112.16,
      "words": [
       {
        "text": "a",
-       "start": 140.308,
-       "end": 140.444
+       "start": 110.8,
+       "end": 110.84
       },
       {
        "text": "giant",
-       "start": 140.444,
-       "end": 140.797
+       "start": 110.88,
+       "end": 111.28
       },
       {
        "text": "fluffy",
-       "start": 140.797,
-       "end": 141.205
+       "start": 111.36,
+       "end": 111.68
       },
       {
        "text": "monster",
-       "start": 141.205,
-       "end": 141.666
+       "start": 111.92,
+       "end": 112.16
       }
      ]
     },
     {
      "show": "waves at me from the forest.",
-     "start": 141.726,
-     "end": 143.139,
+     "start": 112.24,
+     "end": 113.48,
      "words": [
       {
        "text": "waves",
-       "start": 141.726,
-       "end": 142.023
+       "start": 112.24,
+       "end": 112.4
       },
       {
        "text": "at",
-       "start": 142.023,
-       "end": 142.182
+       "start": 112.48,
+       "end": 112.56
       },
       {
        "text": "me",
-       "start": 142.182,
-       "end": 142.342
+       "start": 112.6,
+       "end": 112.64
       },
       {
        "text": "from",
-       "start": 142.342,
-       "end": 142.592
+       "start": 112.72,
+       "end": 112.8
       },
       {
        "text": "the",
-       "start": 142.592,
-       "end": 142.797
+       "start": 112.88,
+       "end": 112.96
       },
       {
        "text": "forest.",
-       "start": 142.797,
-       "end": 143.139
+       "start": 113.2,
+       "end": 113.48
       }
      ]
     },
     {
      "show": "Oh, and the mayor?",
-     "start": 143.439,
-     "end": 144.449,
+     "start": 113.52,
+     "end": 114.347,
      "words": [
       {
        "text": "Oh,",
-       "start": 143.439,
-       "end": 143.625
+       "start": 113.52,
+       "end": 113.787
       },
       {
        "text": "and",
-       "start": 143.625,
-       "end": 143.864
+       "start": 113.813,
+       "end": 113.84
       },
       {
        "text": "the",
-       "start": 143.864,
-       "end": 144.104
+       "start": 113.88,
+       "end": 113.92
       },
       {
        "text": "mayor?",
-       "start": 144.104,
-       "end": 144.449
+       "start": 114.0,
+       "end": 114.347
       }
      ]
     },
     {
      "show": "He's the only one in town",
-     "start": 144.749,
-     "end": 146.177,
+     "start": 114.373,
+     "end": 115.52,
      "words": [
       {
        "text": "He's",
-       "start": 144.749,
-       "end": 144.979
+       "start": 114.373,
+       "end": 114.48
       },
       {
        "text": "the",
-       "start": 144.979,
-       "end": 145.208
+       "start": 114.56,
+       "end": 114.72
       },
       {
        "text": "only",
-       "start": 145.208,
-       "end": 145.489
+       "start": 114.8,
+       "end": 114.96
       },
       {
        "text": "one",
-       "start": 145.489,
-       "end": 145.718
+       "start": 115.04,
+       "end": 115.12
       },
       {
        "text": "in",
-       "start": 145.718,
-       "end": 145.897
+       "start": 115.2,
+       "end": 115.28
       },
       {
        "text": "town",
-       "start": 145.897,
-       "end": 146.177
+       "start": 115.4,
+       "end": 115.52
       }
      ]
     },
     {
      "show": "who still {y:whispers} after sunset.",
-     "start": 146.237,
-     "end": 147.921,
+     "start": 115.6,
+     "end": 117.44,
      "words": [
       {
        "text": "who",
-       "start": 146.237,
-       "end": 146.457
+       "start": 115.6,
+       "end": 115.76
       },
       {
        "text": "still",
-       "start": 146.457,
-       "end": 146.774
+       "start": 115.84,
+       "end": 116.08
       },
       {
        "text": "whispers",
-       "start": 146.774,
-       "end": 147.238
+       "start": 116.12,
+       "end": 116.48
       },
       {
        "text": "after",
-       "start": 147.238,
-       "end": 147.555
+       "start": 116.56,
+       "end": 116.8
       },
       {
        "text": "sunset.",
-       "start": 147.555,
-       "end": 147.921
+       "start": 116.933,
+       "end": 117.44
       }
      ]
     }
    ],
-   "end": 148.221
+   "start": 109.707,
+   "end": 117.44
   }
  ]
 }

@@ -66,7 +66,7 @@ Posen + einfache Geh-/Wink-Animation), Gebäude-Kit (Haus, Laden, City Hall, Lat
 ## Stimme + Musik über ElevenLabs (seit Video 17, `videos/17-red-light/`)
 
 - Stimme: ElevenLabs-Stimme **„In This town“** (voice_id `zrH6TtgZnrCw5V6iLzqf`, Modell `eleven_v4`), ganzer Text in einem Durchgang
-  (Absatz pro Beat). Download braucht den Host `elevenlabsusercontent.com` (in der Umgebung „Mudi“ freigegeben).
+  (Absatz pro Beat), **immer nur eine Variante (`generations_count: 1`)** – Wunsch des Creators, spart Credits (~2.300 pro Video). Download braucht den Host `elevenlabsusercontent.com` (in der Umgebung „Mudi“ freigegeben).
 - Wortgenaue Zeiten: Take als Asset-Knoten anlegen → `creative_transcribe_audio` (Scribe, 0 Credits) → `words.json` laden →
   `python3 tools/words_align.py <projekt> assets/source/voice-a.mp3 assets/source/words.json`.
 - Schnitte: `SHOT_LINES` fasst kurze Zeilen zusammen, Ziel ~2 s pro Einstellung (Referenzen 2,0–2,7 s).
