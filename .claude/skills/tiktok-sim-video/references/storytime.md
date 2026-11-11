@@ -107,3 +107,9 @@ Pro Beat ein neuer Ort (Straße, Schulflur mit Spinden, Stadion, Dorf, Wohnzimme
   Pfeif-Stellen 6 dB leiser.
 - Pro Projekt nach `assets/source/music-base.wav` kopieren; `build.py` loopt sie (`-stream_loop -1`) von vorne, falls kürzer
   als das Video, und legt sie auf −23 LUFS. Alte `music-ref.mp3` (mit eingebackenen Effekten) nicht mehr verwenden.
+
+## Soundeffekte ab Video 22 (Feedback des Creators zu Video 21)
+
+- **Whoosh/Rauschen bei Schnitten weglassen** – höchstens ganz selten und sehr leise (Volume ≤ 0.08). Video 21 hatte 25 Whooshes, das nervt.
+- Alle übrigen Effekte deutlich leiser als bisher: etwa halbe Lautstärke (Sparkle/Chime/Pop/Klick ≤ 0.12, Bass-Impacts ≤ 0.2, Riser ≤ 0.12).
+- Lieber wenige gezielte Effekte an Story-Höhepunkten (Schock, Brüllen, Fußstapfen) als ein Effekt pro Schnitt.
