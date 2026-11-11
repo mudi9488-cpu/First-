@@ -99,3 +99,11 @@ große Menschenmengen (Stadion), Farbumschwung bei Gefahr (Ninja-Dorf: alles rot
 Effekte (Konfetti, Geldscheine, Funken, Kirschblüten, Explosion/Rauch), Kostüm-Requisiten (Hühnerkostüm, Badeente, Pylonen-Hut),
 Zähler/Bildschirme in der Welt („$0“ → „$100,000,000“, „FLOOR 200“, „SCANNING…“, „GRAND PRIZE $10,000,000“).
 Pro Beat ein neuer Ort (Straße, Schulflur mit Spinden, Stadion, Dorf, Wohnzimmer).
+
+## Hintergrundmusik ab Video 21 (Wunsch des Creators: immer diese)
+
+- Quelle: `tools/music/bg-source.mp3` (vom Creator, ohne Effekte). Vorbereitet mit
+  `python3 tools/music_prep.py tools/music/bg-source.mp3 tools/music/bg-music.wav` → Stille vorne (3,7 s) weg,
+  Pfeif-Stellen 6 dB leiser.
+- Pro Projekt nach `assets/source/music-base.wav` kopieren; `build.py` loopt sie (`-stream_loop -1`) von vorne, falls kürzer
+  als das Video, und legt sie auf −23 LUFS. Alte `music-ref.mp3` (mit eingebackenen Effekten) nicht mehr verwenden.
