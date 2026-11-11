@@ -1,0 +1,3076 @@
+{
+ "duration": 148.821,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "start": 0.15,
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.15,
+     "end": 0.922,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.15,
+       "end": 0.336
+      },
+      {
+       "text": "this",
+       "start": 0.336,
+       "end": 0.629
+      },
+      {
+       "text": "town,",
+       "start": 0.629,
+       "end": 0.922
+      }
+     ]
+    },
+    {
+     "show": "nobody is allowed to make a {r:sound}",
+     "start": 1.082,
+     "end": 2.637,
+     "words": [
+      {
+       "text": "nobody",
+       "start": 1.082,
+       "end": 1.393
+      },
+      {
+       "text": "is",
+       "start": 1.393,
+       "end": 1.538
+      },
+      {
+       "text": "allowed",
+       "start": 1.538,
+       "end": 1.891
+      },
+      {
+       "text": "to",
+       "start": 1.891,
+       "end": 2.036
+      },
+      {
+       "text": "make",
+       "start": 2.036,
+       "end": 2.264
+      },
+      {
+       "text": "a",
+       "start": 2.264,
+       "end": 2.368
+      },
+      {
+       "text": "sound",
+       "start": 2.368,
+       "end": 2.637
+      }
+     ]
+    },
+    {
+     "show": "after sunset.",
+     "start": 2.697,
+     "end": 3.51,
+     "words": [
+      {
+       "text": "after",
+       "start": 2.697,
+       "end": 3.075
+      },
+      {
+       "text": "sunset.",
+       "start": 3.075,
+       "end": 3.51
+      }
+     ]
+    },
+    {
+     "show": "Not a word.",
+     "start": 3.81,
+     "end": 4.344,
+     "words": [
+      {
+       "text": "Not",
+       "start": 3.81,
+       "end": 4.002
+      },
+      {
+       "text": "a",
+       "start": 4.002,
+       "end": 4.109
+      },
+      {
+       "text": "word.",
+       "start": 4.109,
+       "end": 4.344
+      }
+     ]
+    },
+    {
+     "show": "Not a sneeze.",
+     "start": 4.644,
+     "end": 5.352,
+     "words": [
+      {
+       "text": "Not",
+       "start": 4.644,
+       "end": 4.864
+      },
+      {
+       "text": "a",
+       "start": 4.864,
+       "end": 4.986
+      },
+      {
+       "text": "sneeze.",
+       "start": 4.986,
+       "end": 5.352
+      }
+     ]
+    },
+    {
+     "show": "Because something in the forest",
+     "start": 5.652,
+     "end": 7.092,
+     "words": [
+      {
+       "text": "Because",
+       "start": 5.652,
+       "end": 6.007
+      },
+      {
+       "text": "something",
+       "start": 6.007,
+       "end": 6.445
+      },
+      {
+       "text": "in",
+       "start": 6.445,
+       "end": 6.591
+      },
+      {
+       "text": "the",
+       "start": 6.591,
+       "end": 6.779
+      },
+      {
+       "text": "forest",
+       "start": 6.779,
+       "end": 7.092
+      }
+     ]
+    },
+    {
+     "show": "is {r:listening.}",
+     "start": 7.152,
+     "end": 7.872,
+     "words": [
+      {
+       "text": "is",
+       "start": 7.152,
+       "end": 7.332
+      },
+      {
+       "text": "listening.",
+       "start": 7.332,
+       "end": 7.872
+      }
+     ]
+    }
+   ],
+   "end": 8.172
+  },
+  {
+   "id": "rules",
+   "label": "",
+   "start": 8.572,
+   "lines": [
+    {
+     "show": "Dogs wear muzzles at night.",
+     "start": 8.572,
+     "end": 9.919,
+     "words": [
+      {
+       "text": "Dogs",
+       "start": 8.572,
+       "end": 8.823
+      },
+      {
+       "text": "wear",
+       "start": 8.823,
+       "end": 9.074
+      },
+      {
+       "text": "muzzles",
+       "start": 9.074,
+       "end": 9.462
+      },
+      {
+       "text": "at",
+       "start": 9.462,
+       "end": 9.622
+      },
+      {
+       "text": "night.",
+       "start": 9.622,
+       "end": 9.919
+      }
+     ]
+    },
+    {
+     "show": "Phones are always on {y:silent.}",
+     "start": 10.219,
+     "end": 11.751,
+     "words": [
+      {
+       "text": "Phones",
+       "start": 10.219,
+       "end": 10.595
+      },
+      {
+       "text": "are",
+       "start": 10.595,
+       "end": 10.821
+      },
+      {
+       "text": "always",
+       "start": 10.821,
+       "end": 11.198
+      },
+      {
+       "text": "on",
+       "start": 11.198,
+       "end": 11.374
+      },
+      {
+       "text": "silent.",
+       "start": 11.374,
+       "end": 11.751
+      }
+     ]
+    },
+    {
+     "show": "Kids get grounded for {r:burping.}",
+     "start": 12.051,
+     "end": 13.386,
+     "words": [
+      {
+       "text": "Kids",
+       "start": 12.051,
+       "end": 12.277
+      },
+      {
+       "text": "get",
+       "start": 12.277,
+       "end": 12.462
+      },
+      {
+       "text": "grounded",
+       "start": 12.462,
+       "end": 12.852
+      },
+      {
+       "text": "for",
+       "start": 12.852,
+       "end": 13.037
+      },
+      {
+       "text": "burping.",
+       "start": 13.037,
+       "end": 13.386
+      }
+     ]
+    }
+   ],
+   "end": 13.686
+  },
+  {
+   "id": "sneeze",
+   "label": "",
+   "start": 14.086,
+   "lines": [
+    {
+     "show": "Last winter, Mr. Miller sneezed",
+     "start": 14.086,
+     "end": 16.095,
+     "words": [
+      {
+       "text": "Last",
+       "start": 14.086,
+       "end": 14.426
+      },
+      {
+       "text": "winter,",
+       "start": 14.426,
+       "end": 14.89
+      },
+      {
+       "text": "Mr.",
+       "start": 14.89,
+       "end": 15.106
+      },
+      {
+       "text": "Miller",
+       "start": 15.106,
+       "end": 15.569
+      },
+      {
+       "text": "sneezed",
+       "start": 15.569,
+       "end": 16.095
+      }
+     ]
+    },
+    {
+     "show": "once.",
+     "start": 16.155,
+     "end": 16.526,
+     "words": [
+      {
+       "text": "once.",
+       "start": 16.155,
+       "end": 16.526
+      }
+     ]
+    },
+    {
+     "show": "The next morning,",
+     "start": 16.826,
+     "end": 17.592,
+     "words": [
+      {
+       "text": "The",
+       "start": 16.826,
+       "end": 17.013
+      },
+      {
+       "text": "next",
+       "start": 17.013,
+       "end": 17.24
+      },
+      {
+       "text": "morning,",
+       "start": 17.24,
+       "end": 17.592
+      }
+     ]
+    },
+    {
+     "show": "his house was covered",
+     "start": 17.752,
+     "end": 18.716,
+     "words": [
+      {
+       "text": "his",
+       "start": 17.752,
+       "end": 17.933
+      },
+      {
+       "text": "house",
+       "start": 17.933,
+       "end": 18.194
+      },
+      {
+       "text": "was",
+       "start": 18.194,
+       "end": 18.375
+      },
+      {
+       "text": "covered",
+       "start": 18.375,
+       "end": 18.716
+      }
+     ]
+    },
+    {
+     "show": "in {r:giant claw marks.}",
+     "start": 18.776,
+     "end": 20.111,
+     "words": [
+      {
+       "text": "in",
+       "start": 18.776,
+       "end": 18.989
+      },
+      {
+       "text": "giant",
+       "start": 18.989,
+       "end": 19.383
+      },
+      {
+       "text": "claw",
+       "start": 19.383,
+       "end": 19.717
+      },
+      {
+       "text": "marks.",
+       "start": 19.717,
+       "end": 20.111
+      }
+     ]
+    }
+   ],
+   "end": 20.411
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "start": 20.811,
+   "lines": [
+    {
+     "show": "The mayor says the silence keeps us {g:safe.}",
+     "start": 20.811,
+     "end": 22.843,
+     "words": [
+      {
+       "text": "The",
+       "start": 20.811,
+       "end": 21.014
+      },
+      {
+       "text": "mayor",
+       "start": 21.014,
+       "end": 21.308
+      },
+      {
+       "text": "says",
+       "start": 21.308,
+       "end": 21.556
+      },
+      {
+       "text": "the",
+       "start": 21.556,
+       "end": 21.759
+      },
+      {
+       "text": "silence",
+       "start": 21.759,
+       "end": 22.143
+      },
+      {
+       "text": "keeps",
+       "start": 22.143,
+       "end": 22.437
+      },
+      {
+       "text": "us",
+       "start": 22.437,
+       "end": 22.595
+      },
+      {
+       "text": "safe.",
+       "start": 22.595,
+       "end": 22.843
+      }
+     ]
+    },
+    {
+     "show": "And in return,",
+     "start": 23.143,
+     "end": 23.818,
+     "words": [
+      {
+       "text": "And",
+       "start": 23.143,
+       "end": 23.339
+      },
+      {
+       "text": "in",
+       "start": 23.339,
+       "end": 23.491
+      },
+      {
+       "text": "return,",
+       "start": 23.491,
+       "end": 23.818
+      }
+     ]
+    },
+    {
+     "show": "our town gets {y:free electricity.}",
+     "start": 23.978,
+     "end": 25.754,
+     "words": [
+      {
+       "text": "our",
+       "start": 23.978,
+       "end": 24.216
+      },
+      {
+       "text": "town",
+       "start": 24.216,
+       "end": 24.508
+      },
+      {
+       "text": "gets",
+       "start": 24.508,
+       "end": 24.799
+      },
+      {
+       "text": "free",
+       "start": 24.799,
+       "end": 25.091
+      },
+      {
+       "text": "electricity.",
+       "start": 25.091,
+       "end": 25.754
+      }
+     ]
+    },
+    {
+     "show": "Every light. Every house.",
+     "start": 26.054,
+     "end": 27.459,
+     "words": [
+      {
+       "text": "Every",
+       "start": 26.054,
+       "end": 26.405
+      },
+      {
+       "text": "light.",
+       "start": 26.405,
+       "end": 26.756
+      },
+      {
+       "text": "Every",
+       "start": 26.756,
+       "end": 27.107
+      },
+      {
+       "text": "house.",
+       "start": 27.107,
+       "end": 27.459
+      }
+     ]
+    },
+    {
+     "show": "For free.",
+     "start": 27.759,
+     "end": 28.334,
+     "words": [
+      {
+       "text": "For",
+       "start": 27.759,
+       "end": 28.018
+      },
+      {
+       "text": "free.",
+       "start": 28.018,
+       "end": 28.334
+      }
+     ]
+    }
+   ],
+   "end": 28.634
+  },
+  {
+   "id": "me",
+   "label": "",
+   "start": 29.034,
+   "lines": [
+    {
+     "show": "My name is {y:Max.}",
+     "start": 29.034,
+     "end": 30.044,
+     "words": [
+      {
+       "text": "My",
+       "start": 29.034,
+       "end": 29.242
+      },
+      {
+       "text": "name",
+       "start": 29.242,
+       "end": 29.569
+      },
+      {
+       "text": "is",
+       "start": 29.569,
+       "end": 29.777
+      },
+      {
+       "text": "Max.",
+       "start": 29.777,
+       "end": 30.044
+      }
+     ]
+    },
+    {
+     "show": "I'm thirteen,",
+     "start": 30.344,
+     "end": 31.091,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 30.344,
+       "end": 30.545
+      },
+      {
+       "text": "thirteen,",
+       "start": 30.545,
+       "end": 31.091
+      }
+     ]
+    },
+    {
+     "show": "and I've followed the rules",
+     "start": 31.251,
+     "end": 32.307,
+     "words": [
+      {
+       "text": "and",
+       "start": 31.251,
+       "end": 31.412
+      },
+      {
+       "text": "I've",
+       "start": 31.412,
+       "end": 31.573
+      },
+      {
+       "text": "followed",
+       "start": 31.573,
+       "end": 31.913
+      },
+      {
+       "text": "the",
+       "start": 31.913,
+       "end": 32.075
+      },
+      {
+       "text": "rules",
+       "start": 32.075,
+       "end": 32.307
+      }
+     ]
+    },
+    {
+     "show": "my whole life.",
+     "start": 32.367,
+     "end": 33.19,
+     "words": [
+      {
+       "text": "my",
+       "start": 32.367,
+       "end": 32.553
+      },
+      {
+       "text": "whole",
+       "start": 32.553,
+       "end": 32.898
+      },
+      {
+       "text": "life.",
+       "start": 32.898,
+       "end": 33.19
+      }
+     ]
+    }
+   ],
+   "end": 33.49
+  },
+  {
+   "id": "crying",
+   "label": "",
+   "start": 33.89,
+   "lines": [
+    {
+     "show": "Until one night,",
+     "start": 33.89,
+     "end": 34.895,
+     "words": [
+      {
+       "text": "Until",
+       "start": 33.89,
+       "end": 34.263
+      },
+      {
+       "text": "one",
+       "start": 34.263,
+       "end": 34.522
+      },
+      {
+       "text": "night,",
+       "start": 34.522,
+       "end": 34.895
+      }
+     ]
+    },
+    {
+     "show": "I heard something.",
+     "start": 35.055,
+     "end": 35.891,
+     "words": [
+      {
+       "text": "I",
+       "start": 35.055,
+       "end": 35.163
+      },
+      {
+       "text": "heard",
+       "start": 35.163,
+       "end": 35.441
+      },
+      {
+       "text": "something.",
+       "start": 35.441,
+       "end": 35.891
+      }
+     ]
+    },
+    {
+     "show": "Not a growl.",
+     "start": 36.191,
+     "end": 36.911,
+     "words": [
+      {
+       "text": "Not",
+       "start": 36.191,
+       "end": 36.431
+      },
+      {
+       "text": "a",
+       "start": 36.431,
+       "end": 36.565
+      },
+      {
+       "text": "growl.",
+       "start": 36.565,
+       "end": 36.911
+      }
+     ]
+    },
+    {
+     "show": "Not a roar.",
+     "start": 37.211,
+     "end": 37.838,
+     "words": [
+      {
+       "text": "Not",
+       "start": 37.211,
+       "end": 37.437
+      },
+      {
+       "text": "a",
+       "start": 37.437,
+       "end": 37.562
+      },
+      {
+       "text": "roar.",
+       "start": 37.562,
+       "end": 37.838
+      }
+     ]
+    },
+    {
+     "show": "{y:Crying.}",
+     "start": 38.138,
+     "end": 38.637,
+     "words": [
+      {
+       "text": "Crying.",
+       "start": 38.138,
+       "end": 38.637
+      }
+     ]
+    }
+   ],
+   "end": 38.937
+  },
+  {
+   "id": "factory",
+   "label": "",
+   "start": 39.337,
+   "lines": [
+    {
+     "show": "It came from the old factory",
+     "start": 39.337,
+     "end": 40.661,
+     "words": [
+      {
+       "text": "It",
+       "start": 39.337,
+       "end": 39.482
+      },
+      {
+       "text": "came",
+       "start": 39.482,
+       "end": 39.71
+      },
+      {
+       "text": "from",
+       "start": 39.71,
+       "end": 39.937
+      },
+      {
+       "text": "the",
+       "start": 39.937,
+       "end": 40.123
+      },
+      {
+       "text": "old",
+       "start": 40.123,
+       "end": 40.309
+      },
+      {
+       "text": "factory",
+       "start": 40.309,
+       "end": 40.661
+      }
+     ]
+    },
+    {
+     "show": "behind the town hall.",
+     "start": 40.721,
+     "end": 41.847,
+     "words": [
+      {
+       "text": "behind",
+       "start": 40.721,
+       "end": 41.088
+      },
+      {
+       "text": "the",
+       "start": 41.088,
+       "end": 41.308
+      },
+      {
+       "text": "town",
+       "start": 41.308,
+       "end": 41.578
+      },
+      {
+       "text": "hall.",
+       "start": 41.578,
+       "end": 41.847
+      }
+     ]
+    },
+    {
+     "show": "The one with the sign",
+     "start": 42.147,
+     "end": 43.238,
+     "words": [
+      {
+       "text": "The",
+       "start": 42.147,
+       "end": 42.347
+      },
+      {
+       "text": "one",
+       "start": 42.347,
+       "end": 42.548
+      },
+      {
+       "text": "with",
+       "start": 42.548,
+       "end": 42.793
+      },
+      {
+       "text": "the",
+       "start": 42.793,
+       "end": 42.993
+      },
+      {
+       "text": "sign",
+       "start": 42.993,
+       "end": 43.238
+      }
+     ]
+    },
+    {
+     "show": "{r:Keep out.}",
+     "start": 43.298,
+     "end": 43.774,
+     "words": [
+      {
+       "text": "Keep",
+       "start": 43.298,
+       "end": 43.56
+      },
+      {
+       "text": "out.",
+       "start": 43.56,
+       "end": 43.774
+      }
+     ]
+    }
+   ],
+   "end": 44.074
+  },
+  {
+   "id": "sneak",
+   "label": "",
+   "start": 44.474,
+   "lines": [
+    {
+     "show": "I knew the rule.",
+     "start": 44.474,
+     "end": 45.194,
+     "words": [
+      {
+       "text": "I",
+       "start": 44.474,
+       "end": 44.574
+      },
+      {
+       "text": "knew",
+       "start": 44.574,
+       "end": 44.794
+      },
+      {
+       "text": "the",
+       "start": 44.794,
+       "end": 44.974
+      },
+      {
+       "text": "rule.",
+       "start": 44.974,
+       "end": 45.194
+      }
+     ]
+    },
+    {
+     "show": "But it sounded so {y:sad.}",
+     "start": 45.494,
+     "end": 46.713,
+     "words": [
+      {
+       "text": "But",
+       "start": 45.494,
+       "end": 45.718
+      },
+      {
+       "text": "it",
+       "start": 45.718,
+       "end": 45.892
+      },
+      {
+       "text": "sounded",
+       "start": 45.892,
+       "end": 46.315
+      },
+      {
+       "text": "so",
+       "start": 46.315,
+       "end": 46.489
+      },
+      {
+       "text": "sad.",
+       "start": 46.489,
+       "end": 46.713
+      }
+     ]
+    },
+    {
+     "show": "So I sneaked out.",
+     "start": 47.013,
+     "end": 48.209,
+     "words": [
+      {
+       "text": "So",
+       "start": 47.013,
+       "end": 47.234
+      },
+      {
+       "text": "I",
+       "start": 47.234,
+       "end": 47.391
+      },
+      {
+       "text": "sneaked",
+       "start": 47.391,
+       "end": 47.926
+      },
+      {
+       "text": "out.",
+       "start": 47.926,
+       "end": 48.209
+      }
+     ]
+    },
+    {
+     "show": "Barefoot.",
+     "start": 48.509,
+     "end": 49.09,
+     "words": [
+      {
+       "text": "Barefoot.",
+       "start": 48.509,
+       "end": 49.09
+      }
+     ]
+    },
+    {
+     "show": "Holding my breath.",
+     "start": 49.39,
+     "end": 50.134,
+     "words": [
+      {
+       "text": "Holding",
+       "start": 49.39,
+       "end": 49.714
+      },
+      {
+       "text": "my",
+       "start": 49.714,
+       "end": 49.848
+      },
+      {
+       "text": "breath.",
+       "start": 49.848,
+       "end": 50.134
+      }
+     ]
+    }
+   ],
+   "end": 50.434
+  },
+  {
+   "id": "inside",
+   "label": "",
+   "start": 50.834,
+   "lines": [
+    {
+     "show": "Inside, there were wires",
+     "start": 50.834,
+     "end": 52.378,
+     "words": [
+      {
+       "text": "Inside,",
+       "start": 50.834,
+       "end": 51.279
+      },
+      {
+       "text": "there",
+       "start": 51.279,
+       "end": 51.665
+      },
+      {
+       "text": "were",
+       "start": 51.665,
+       "end": 51.992
+      },
+      {
+       "text": "wires",
+       "start": 51.992,
+       "end": 52.378
+      }
+     ]
+    },
+    {
+     "show": "all over the walls.",
+     "start": 52.438,
+     "end": 53.576,
+     "words": [
+      {
+       "text": "all",
+       "start": 52.438,
+       "end": 52.682
+      },
+      {
+       "text": "over",
+       "start": 52.682,
+       "end": 52.98
+      },
+      {
+       "text": "the",
+       "start": 52.98,
+       "end": 53.224
+      },
+      {
+       "text": "walls.",
+       "start": 53.224,
+       "end": 53.576
+      }
+     ]
+    },
+    {
+     "show": "And they all led",
+     "start": 53.876,
+     "end": 54.491,
+     "words": [
+      {
+       "text": "And",
+       "start": 53.876,
+       "end": 54.021
+      },
+      {
+       "text": "they",
+       "start": 54.021,
+       "end": 54.2
+      },
+      {
+       "text": "all",
+       "start": 54.2,
+       "end": 54.345
+      },
+      {
+       "text": "led",
+       "start": 54.345,
+       "end": 54.491
+      }
+     ]
+    },
+    {
+     "show": "to one {r:cage.}",
+     "start": 54.551,
+     "end": 55.526,
+     "words": [
+      {
+       "text": "to",
+       "start": 54.551,
+       "end": 54.804
+      },
+      {
+       "text": "one",
+       "start": 54.804,
+       "end": 55.129
+      },
+      {
+       "text": "cage.",
+       "start": 55.129,
+       "end": 55.526
+      }
+     ]
+    }
+   ],
+   "end": 55.826
+  },
+  {
+   "id": "baby",
+   "label": "",
+   "start": 56.226,
+   "lines": [
+    {
+     "show": "Inside the cage",
+     "start": 56.226,
+     "end": 57.051,
+     "words": [
+      {
+       "text": "Inside",
+       "start": 56.226,
+       "end": 56.58
+      },
+      {
+       "text": "the",
+       "start": 56.58,
+       "end": 56.792
+      },
+      {
+       "text": "cage",
+       "start": 56.792,
+       "end": 57.051
+      }
+     ]
+    },
+    {
+     "show": "was a {y:baby monster.}",
+     "start": 57.111,
+     "end": 58.132,
+     "words": [
+      {
+       "text": "was",
+       "start": 57.111,
+       "end": 57.33
+      },
+      {
+       "text": "a",
+       "start": 57.33,
+       "end": 57.451
+      },
+      {
+       "text": "baby",
+       "start": 57.451,
+       "end": 57.719
+      },
+      {
+       "text": "monster.",
+       "start": 57.719,
+       "end": 58.132
+      }
+     ]
+    },
+    {
+     "show": "Fluffy.",
+     "start": 58.432,
+     "end": 58.792,
+     "words": [
+      {
+       "text": "Fluffy.",
+       "start": 58.432,
+       "end": 58.792
+      }
+     ]
+    },
+    {
+     "show": "Big eyes.",
+     "start": 59.092,
+     "end": 59.789,
+     "words": [
+      {
+       "text": "Big",
+       "start": 59.092,
+       "end": 59.406
+      },
+      {
+       "text": "eyes.",
+       "start": 59.406,
+       "end": 59.789
+      }
+     ]
+    },
+    {
+     "show": "No bigger than my dog.",
+     "start": 60.089,
+     "end": 61.366,
+     "words": [
+      {
+       "text": "No",
+       "start": 60.089,
+       "end": 60.271
+      },
+      {
+       "text": "bigger",
+       "start": 60.271,
+       "end": 60.662
+      },
+      {
+       "text": "than",
+       "start": 60.662,
+       "end": 60.949
+      },
+      {
+       "text": "my",
+       "start": 60.949,
+       "end": 61.131
+      },
+      {
+       "text": "dog.",
+       "start": 61.131,
+       "end": 61.366
+      }
+     ]
+    }
+   ],
+   "end": 61.666
+  },
+  {
+   "id": "tears",
+   "label": "",
+   "start": 62.066,
+   "lines": [
+    {
+     "show": "And every time it cried,",
+     "start": 62.066,
+     "end": 63.285,
+     "words": [
+      {
+       "text": "And",
+       "start": 62.066,
+       "end": 62.273
+      },
+      {
+       "text": "every",
+       "start": 62.273,
+       "end": 62.572
+      },
+      {
+       "text": "time",
+       "start": 62.572,
+       "end": 62.825
+      },
+      {
+       "text": "it",
+       "start": 62.825,
+       "end": 62.986
+      },
+      {
+       "text": "cried,",
+       "start": 62.986,
+       "end": 63.285
+      }
+     ]
+    },
+    {
+     "show": "its tears {b:glowed.}",
+     "start": 63.445,
+     "end": 64.397,
+     "words": [
+      {
+       "text": "its",
+       "start": 63.445,
+       "end": 63.676
+      },
+      {
+       "text": "tears",
+       "start": 63.676,
+       "end": 64.011
+      },
+      {
+       "text": "glowed.",
+       "start": 64.011,
+       "end": 64.397
+      }
+     ]
+    },
+    {
+     "show": "A machine collected them",
+     "start": 64.697,
+     "end": 65.904,
+     "words": [
+      {
+       "text": "A",
+       "start": 64.697,
+       "end": 64.809
+      },
+      {
+       "text": "machine",
+       "start": 64.809,
+       "end": 65.189
+      },
+      {
+       "text": "collected",
+       "start": 65.189,
+       "end": 65.658
+      },
+      {
+       "text": "them",
+       "start": 65.658,
+       "end": 65.904
+      }
+     ]
+    },
+    {
+     "show": "and sent them through the wires.",
+     "start": 65.964,
+     "end": 67.427,
+     "words": [
+      {
+       "text": "and",
+       "start": 65.964,
+       "end": 66.152
+      },
+      {
+       "text": "sent",
+       "start": 66.152,
+       "end": 66.382
+      },
+      {
+       "text": "them",
+       "start": 66.382,
+       "end": 66.612
+      },
+      {
+       "text": "through",
+       "start": 66.612,
+       "end": 66.967
+      },
+      {
+       "text": "the",
+       "start": 66.967,
+       "end": 67.156
+      },
+      {
+       "text": "wires.",
+       "start": 67.156,
+       "end": 67.427
+      }
+     ]
+    },
+    {
+     "show": "Straight into our town.",
+     "start": 67.727,
+     "end": 68.911,
+     "words": [
+      {
+       "text": "Straight",
+       "start": 67.727,
+       "end": 68.177
+      },
+      {
+       "text": "into",
+       "start": 68.177,
+       "end": 68.438
+      },
+      {
+       "text": "our",
+       "start": 68.438,
+       "end": 68.651
+      },
+      {
+       "text": "town.",
+       "start": 68.651,
+       "end": 68.911
+      }
+     ]
+    }
+   ],
+   "end": 69.211
+  },
+  {
+   "id": "truth",
+   "label": "",
+   "start": 69.611,
+   "lines": [
+    {
+     "show": "That's when I got it.",
+     "start": 69.611,
+     "end": 70.401,
+     "words": [
+      {
+       "text": "That's",
+       "start": 69.611,
+       "end": 69.84
+      },
+      {
+       "text": "when",
+       "start": 69.84,
+       "end": 70.033
+      },
+      {
+       "text": "I",
+       "start": 70.033,
+       "end": 70.12
+      },
+      {
+       "text": "got",
+       "start": 70.12,
+       "end": 70.278
+      },
+      {
+       "text": "it.",
+       "start": 70.278,
+       "end": 70.401
+      }
+     ]
+    },
+    {
+     "show": "Our free electricity",
+     "start": 70.701,
+     "end": 71.92,
+     "words": [
+      {
+       "text": "Our",
+       "start": 70.701,
+       "end": 70.945
+      },
+      {
+       "text": "free",
+       "start": 70.945,
+       "end": 71.243
+      },
+      {
+       "text": "electricity",
+       "start": 71.243,
+       "end": 71.92
+      }
+     ]
+    },
+    {
+     "show": "was a baby's {r:tears.}",
+     "start": 71.98,
+     "end": 73.002,
+     "words": [
+      {
+       "text": "was",
+       "start": 71.98,
+       "end": 72.21
+      },
+      {
+       "text": "a",
+       "start": 72.21,
+       "end": 72.338
+      },
+      {
+       "text": "baby's",
+       "start": 72.338,
+       "end": 72.67
+      },
+      {
+       "text": "tears.",
+       "start": 72.67,
+       "end": 73.002
+      }
+     ]
+    }
+   ],
+   "end": 73.302
+  },
+  {
+   "id": "why",
+   "label": "",
+   "start": 73.702,
+   "lines": [
+    {
+     "show": "And the monster in the forest",
+     "start": 73.702,
+     "end": 75.014,
+     "words": [
+      {
+       "text": "And",
+       "start": 73.702,
+       "end": 73.881
+      },
+      {
+       "text": "the",
+       "start": 73.881,
+       "end": 74.059
+      },
+      {
+       "text": "monster",
+       "start": 74.059,
+       "end": 74.397
+      },
+      {
+       "text": "in",
+       "start": 74.397,
+       "end": 74.537
+      },
+      {
+       "text": "the",
+       "start": 74.537,
+       "end": 74.715
+      },
+      {
+       "text": "forest",
+       "start": 74.715,
+       "end": 75.014
+      }
+     ]
+    },
+    {
+     "show": "wasn't hunting us.",
+     "start": 75.074,
+     "end": 76.06,
+     "words": [
+      {
+       "text": "wasn't",
+       "start": 75.074,
+       "end": 75.42
+      },
+      {
+       "text": "hunting",
+       "start": 75.42,
+       "end": 75.874
+      },
+      {
+       "text": "us.",
+       "start": 75.874,
+       "end": 76.06
+      }
+     ]
+    },
+    {
+     "show": "She was looking",
+     "start": 76.36,
+     "end": 77.185,
+     "words": [
+      {
+       "text": "She",
+       "start": 76.36,
+       "end": 76.572
+      },
+      {
+       "text": "was",
+       "start": 76.572,
+       "end": 76.784
+      },
+      {
+       "text": "looking",
+       "start": 76.784,
+       "end": 77.185
+      }
+     ]
+    },
+    {
+     "show": "for her {y:kid.}",
+     "start": 77.245,
+     "end": 77.918,
+     "words": [
+      {
+       "text": "for",
+       "start": 77.245,
+       "end": 77.469
+      },
+      {
+       "text": "her",
+       "start": 77.469,
+       "end": 77.694
+      },
+      {
+       "text": "kid.",
+       "start": 77.694,
+       "end": 77.918
+      }
+     ]
+    },
+    {
+     "show": "The silence was never to keep us safe.",
+     "start": 78.218,
+     "end": 79.89,
+     "words": [
+      {
+       "text": "The",
+       "start": 78.218,
+       "end": 78.397
+      },
+      {
+       "text": "silence",
+       "start": 78.397,
+       "end": 78.736
+      },
+      {
+       "text": "was",
+       "start": 78.736,
+       "end": 78.915
+      },
+      {
+       "text": "never",
+       "start": 78.915,
+       "end": 79.173
+      },
+      {
+       "text": "to",
+       "start": 79.173,
+       "end": 79.313
+      },
+      {
+       "text": "keep",
+       "start": 79.313,
+       "end": 79.532
+      },
+      {
+       "text": "us",
+       "start": 79.532,
+       "end": 79.671
+      },
+      {
+       "text": "safe.",
+       "start": 79.671,
+       "end": 79.89
+      }
+     ]
+    },
+    {
+     "show": "It was so she could {r:never} hear it.",
+     "start": 80.19,
+     "end": 81.56,
+     "words": [
+      {
+       "text": "It",
+       "start": 80.19,
+       "end": 80.316
+      },
+      {
+       "text": "was",
+       "start": 80.316,
+       "end": 80.478
+      },
+      {
+       "text": "so",
+       "start": 80.478,
+       "end": 80.605
+      },
+      {
+       "text": "she",
+       "start": 80.605,
+       "end": 80.767
+      },
+      {
+       "text": "could",
+       "start": 80.767,
+       "end": 81.001
+      },
+      {
+       "text": "never",
+       "start": 81.001,
+       "end": 81.235
+      },
+      {
+       "text": "hear",
+       "start": 81.235,
+       "end": 81.434
+      },
+      {
+       "text": "it.",
+       "start": 81.434,
+       "end": 81.56
+      }
+     ]
+    }
+   ],
+   "end": 81.86
+  },
+  {
+   "id": "sign",
+   "label": "",
+   "start": 82.26,
+   "lines": [
+    {
+     "show": "On the cage was a sign.",
+     "start": 82.26,
+     "end": 83.433,
+     "words": [
+      {
+       "text": "On",
+       "start": 82.26,
+       "end": 82.418
+      },
+      {
+       "text": "the",
+       "start": 82.418,
+       "end": 82.621
+      },
+      {
+       "text": "cage",
+       "start": 82.621,
+       "end": 82.869
+      },
+      {
+       "text": "was",
+       "start": 82.869,
+       "end": 83.072
+      },
+      {
+       "text": "a",
+       "start": 83.072,
+       "end": 83.184
+      },
+      {
+       "text": "sign.",
+       "start": 83.184,
+       "end": 83.433
+      }
+     ]
+    },
+    {
+     "show": "{r:Property of the mayor.}",
+     "start": 83.733,
+     "end": 84.685,
+     "words": [
+      {
+       "text": "Property",
+       "start": 83.733,
+       "end": 84.109
+      },
+      {
+       "text": "of",
+       "start": 84.109,
+       "end": 84.248
+      },
+      {
+       "text": "the",
+       "start": 84.248,
+       "end": 84.427
+      },
+      {
+       "text": "mayor.",
+       "start": 84.427,
+       "end": 84.685
+      }
+     ]
+    },
+    {
+     "show": "{r:Do not open.}",
+     "start": 84.985,
+     "end": 85.728,
+     "words": [
+      {
+       "text": "Do",
+       "start": 84.985,
+       "end": 85.177
+      },
+      {
+       "text": "not",
+       "start": 85.177,
+       "end": 85.425
+      },
+      {
+       "text": "open.",
+       "start": 85.425,
+       "end": 85.728
+      }
+     ]
+    }
+   ],
+   "end": 86.028
+  },
+  {
+   "id": "open",
+   "label": "",
+   "start": 86.428,
+   "lines": [
+    {
+     "show": "So I opened it.",
+     "start": 86.428,
+     "end": 87.414,
+     "words": [
+      {
+       "text": "So",
+       "start": 86.428,
+       "end": 86.631
+      },
+      {
+       "text": "I",
+       "start": 86.631,
+       "end": 86.776
+      },
+      {
+       "text": "opened",
+       "start": 86.776,
+       "end": 87.211
+      },
+      {
+       "text": "it.",
+       "start": 87.211,
+       "end": 87.414
+      }
+     ]
+    }
+   ],
+   "end": 87.714
+  },
+  {
+   "id": "achoo",
+   "label": "",
+   "start": 88.114,
+   "lines": [
+    {
+     "show": "The baby crawled into my arms,",
+     "start": 88.114,
+     "end": 89.763,
+     "words": [
+      {
+       "text": "The",
+       "start": 88.114,
+       "end": 88.339
+      },
+      {
+       "text": "baby",
+       "start": 88.339,
+       "end": 88.614
+      },
+      {
+       "text": "crawled",
+       "start": 88.614,
+       "end": 89.039
+      },
+      {
+       "text": "into",
+       "start": 89.039,
+       "end": 89.313
+      },
+      {
+       "text": "my",
+       "start": 89.313,
+       "end": 89.488
+      },
+      {
+       "text": "arms,",
+       "start": 89.488,
+       "end": 89.763
+      }
+     ]
+    },
+    {
+     "show": "looked at me,",
+     "start": 89.923,
+     "end": 90.543,
+     "words": [
+      {
+       "text": "looked",
+       "start": 89.923,
+       "end": 90.244
+      },
+      {
+       "text": "at",
+       "start": 90.244,
+       "end": 90.394
+      },
+      {
+       "text": "me,",
+       "start": 90.394,
+       "end": 90.543
+      }
+     ]
+    },
+    {
+     "show": "and {r:sneezed.}",
+     "start": 90.703,
+     "end": 91.412,
+     "words": [
+      {
+       "text": "and",
+       "start": 90.703,
+       "end": 90.949
+      },
+      {
+       "text": "sneezed.",
+       "start": 90.949,
+       "end": 91.412
+      }
+     ]
+    },
+    {
+     "show": "Loud.",
+     "start": 91.712,
+     "end": 92.083,
+     "words": [
+      {
+       "text": "Loud.",
+       "start": 91.712,
+       "end": 92.083
+      }
+     ]
+    }
+   ],
+   "end": 92.383
+  },
+  {
+   "id": "steps",
+   "label": "",
+   "start": 92.783,
+   "lines": [
+    {
+     "show": "The whole town went silent.",
+     "start": 92.783,
+     "end": 94.211,
+     "words": [
+      {
+       "text": "The",
+       "start": 92.783,
+       "end": 93.001
+      },
+      {
+       "text": "whole",
+       "start": 93.001,
+       "end": 93.316
+      },
+      {
+       "text": "town",
+       "start": 93.316,
+       "end": 93.582
+      },
+      {
+       "text": "went",
+       "start": 93.582,
+       "end": 93.848
+      },
+      {
+       "text": "silent.",
+       "start": 93.848,
+       "end": 94.211
+      }
+     ]
+    },
+    {
+     "show": "Then, from the forest,",
+     "start": 94.511,
+     "end": 95.734,
+     "words": [
+      {
+       "text": "Then,",
+       "start": 94.511,
+       "end": 94.804
+      },
+      {
+       "text": "from",
+       "start": 94.804,
+       "end": 95.096
+      },
+      {
+       "text": "the",
+       "start": 95.096,
+       "end": 95.335
+      },
+      {
+       "text": "forest,",
+       "start": 95.335,
+       "end": 95.734
+      }
+     ]
+    },
+    {
+     "show": "{r:footsteps.}",
+     "start": 95.894,
+     "end": 96.588,
+     "words": [
+      {
+       "text": "footsteps.",
+       "start": 95.894,
+       "end": 96.588
+      }
+     ]
+    },
+    {
+     "show": "Huge footsteps.",
+     "start": 96.888,
+     "end": 97.816,
+     "words": [
+      {
+       "text": "Huge",
+       "start": 96.888,
+       "end": 97.207
+      },
+      {
+       "text": "footsteps.",
+       "start": 97.207,
+       "end": 97.816
+      }
+     ]
+    },
+    {
+     "show": "Coming closer.",
+     "start": 98.116,
+     "end": 98.941,
+     "words": [
+      {
+       "text": "Coming",
+       "start": 98.116,
+       "end": 98.529
+      },
+      {
+       "text": "closer.",
+       "start": 98.529,
+       "end": 98.941
+      }
+     ]
+    }
+   ],
+   "end": 99.241
+  },
+  {
+   "id": "town",
+   "label": "",
+   "start": 99.641,
+   "lines": [
+    {
+     "show": "Lights turned on in every house.",
+     "start": 99.641,
+     "end": 101.231,
+     "words": [
+      {
+       "text": "Lights",
+       "start": 99.641,
+       "end": 99.982
+      },
+      {
+       "text": "turned",
+       "start": 99.982,
+       "end": 100.322
+      },
+      {
+       "text": "on",
+       "start": 100.322,
+       "end": 100.481
+      },
+      {
+       "text": "in",
+       "start": 100.481,
+       "end": 100.64
+      },
+      {
+       "text": "every",
+       "start": 100.64,
+       "end": 100.936
+      },
+      {
+       "text": "house.",
+       "start": 100.936,
+       "end": 101.231
+      }
+     ]
+    },
+    {
+     "show": "People ran outside.",
+     "start": 101.531,
+     "end": 102.634,
+     "words": [
+      {
+       "text": "People",
+       "start": 101.531,
+       "end": 101.935
+      },
+      {
+       "text": "ran",
+       "start": 101.935,
+       "end": 102.177
+      },
+      {
+       "text": "outside.",
+       "start": 102.177,
+       "end": 102.634
+      }
+     ]
+    },
+    {
+     "show": "The mayor screamed:",
+     "start": 102.934,
+     "end": 103.863,
+     "words": [
+      {
+       "text": "The",
+       "start": 102.934,
+       "end": 103.138
+      },
+      {
+       "text": "mayor",
+       "start": 103.138,
+       "end": 103.433
+      },
+      {
+       "text": "screamed:",
+       "start": 103.433,
+       "end": 103.863
+      }
+     ]
+    },
+    {
+     "show": "Catch that kid!",
+     "start": 104.023,
+     "end": 104.917,
+     "words": [
+      {
+       "text": "Catch",
+       "start": 104.023,
+       "end": 104.375
+      },
+      {
+       "text": "that",
+       "start": 104.375,
+       "end": 104.673
+      },
+      {
+       "text": "kid!",
+       "start": 104.673,
+       "end": 104.917
+      }
+     ]
+    }
+   ],
+   "end": 105.217
+  },
+  {
+   "id": "her",
+   "label": "",
+   "start": 105.617,
+   "lines": [
+    {
+     "show": "But it was too late.",
+     "start": 105.617,
+     "end": 106.662,
+     "words": [
+      {
+       "text": "But",
+       "start": 105.617,
+       "end": 105.826
+      },
+      {
+       "text": "it",
+       "start": 105.826,
+       "end": 105.989
+      },
+      {
+       "text": "was",
+       "start": 105.989,
+       "end": 106.197
+      },
+      {
+       "text": "too",
+       "start": 106.197,
+       "end": 106.406
+      },
+      {
+       "text": "late.",
+       "start": 106.406,
+       "end": 106.662
+      }
+     ]
+    },
+    {
+     "show": "She was {r:already here.}",
+     "start": 106.962,
+     "end": 108.1,
+     "words": [
+      {
+       "text": "She",
+       "start": 106.962,
+       "end": 107.184
+      },
+      {
+       "text": "was",
+       "start": 107.184,
+       "end": 107.407
+      },
+      {
+       "text": "already",
+       "start": 107.407,
+       "end": 107.828
+      },
+      {
+       "text": "here.",
+       "start": 107.828,
+       "end": 108.1
+      }
+     ]
+    },
+    {
+     "show": "Taller than the town hall.",
+     "start": 108.4,
+     "end": 109.619,
+     "words": [
+      {
+       "text": "Taller",
+       "start": 108.4,
+       "end": 108.72
+      },
+      {
+       "text": "than",
+       "start": 108.72,
+       "end": 108.956
+      },
+      {
+       "text": "the",
+       "start": 108.956,
+       "end": 109.148
+      },
+      {
+       "text": "town",
+       "start": 109.148,
+       "end": 109.383
+      },
+      {
+       "text": "hall.",
+       "start": 109.383,
+       "end": 109.619
+      }
+     ]
+    },
+    {
+     "show": "Eyes glowing like {y:headlights.}",
+     "start": 109.919,
+     "end": 111.474,
+     "words": [
+      {
+       "text": "Eyes",
+       "start": 109.919,
+       "end": 110.195
+      },
+      {
+       "text": "glowing",
+       "start": 110.195,
+       "end": 110.621
+      },
+      {
+       "text": "like",
+       "start": 110.621,
+       "end": 110.897
+      },
+      {
+       "text": "headlights.",
+       "start": 110.897,
+       "end": 111.474
+      }
+     ]
+    }
+   ],
+   "end": 111.774
+  },
+  {
+   "id": "stand",
+   "label": "",
+   "start": 112.174,
+   "lines": [
+    {
+     "show": "Everyone froze.",
+     "start": 112.174,
+     "end": 113.161,
+     "words": [
+      {
+       "text": "Everyone",
+       "start": 112.174,
+       "end": 112.76
+      },
+      {
+       "text": "froze.",
+       "start": 112.76,
+       "end": 113.161
+      }
+     ]
+    },
+    {
+     "show": "Except me.",
+     "start": 113.461,
+     "end": 114.111,
+     "words": [
+      {
+       "text": "Except",
+       "start": 113.461,
+       "end": 113.905
+      },
+      {
+       "text": "me.",
+       "start": 113.905,
+       "end": 114.111
+      }
+     ]
+    },
+    {
+     "show": "I walked right up to her,",
+     "start": 114.411,
+     "end": 115.526,
+     "words": [
+      {
+       "text": "I",
+       "start": 114.411,
+       "end": 114.511
+      },
+      {
+       "text": "walked",
+       "start": 114.511,
+       "end": 114.81
+      },
+      {
+       "text": "right",
+       "start": 114.81,
+       "end": 115.068
+      },
+      {
+       "text": "up",
+       "start": 115.068,
+       "end": 115.208
+      },
+      {
+       "text": "to",
+       "start": 115.208,
+       "end": 115.347
+      },
+      {
+       "text": "her,",
+       "start": 115.347,
+       "end": 115.526
+      }
+     ]
+    },
+    {
+     "show": "and held out her baby.",
+     "start": 115.686,
+     "end": 116.743,
+     "words": [
+      {
+       "text": "and",
+       "start": 115.686,
+       "end": 115.88
+      },
+      {
+       "text": "held",
+       "start": 115.88,
+       "end": 116.117
+      },
+      {
+       "text": "out",
+       "start": 116.117,
+       "end": 116.311
+      },
+      {
+       "text": "her",
+       "start": 116.311,
+       "end": 116.505
+      },
+      {
+       "text": "baby.",
+       "start": 116.505,
+       "end": 116.743
+      }
+     ]
+    }
+   ],
+   "end": 117.043
+  },
+  {
+   "id": "reunion",
+   "label": "",
+   "start": 117.443,
+   "lines": [
+    {
+     "show": "She looked at me",
+     "start": 117.443,
+     "end": 118.197,
+     "words": [
+      {
+       "text": "She",
+       "start": 117.443,
+       "end": 117.621
+      },
+      {
+       "text": "looked",
+       "start": 117.621,
+       "end": 117.919
+      },
+      {
+       "text": "at",
+       "start": 117.919,
+       "end": 118.058
+      },
+      {
+       "text": "me",
+       "start": 118.058,
+       "end": 118.197
+      }
+     ]
+    },
+    {
+     "show": "for a really long time.",
+     "start": 118.257,
+     "end": 119.462,
+     "words": [
+      {
+       "text": "for",
+       "start": 118.257,
+       "end": 118.47
+      },
+      {
+       "text": "a",
+       "start": 118.47,
+       "end": 118.588
+      },
+      {
+       "text": "really",
+       "start": 118.588,
+       "end": 118.942
+      },
+      {
+       "text": "long",
+       "start": 118.942,
+       "end": 119.202
+      },
+      {
+       "text": "time.",
+       "start": 119.202,
+       "end": 119.462
+      }
+     ]
+    },
+    {
+     "show": "Then the baby jumped into her arms,",
+     "start": 119.762,
+     "end": 121.596,
+     "words": [
+      {
+       "text": "Then",
+       "start": 119.762,
+       "end": 120.024
+      },
+      {
+       "text": "the",
+       "start": 120.024,
+       "end": 120.238
+      },
+      {
+       "text": "baby",
+       "start": 120.238,
+       "end": 120.5
+      },
+      {
+       "text": "jumped",
+       "start": 120.5,
+       "end": 120.858
+      },
+      {
+       "text": "into",
+       "start": 120.858,
+       "end": 121.12
+      },
+      {
+       "text": "her",
+       "start": 121.12,
+       "end": 121.334
+      },
+      {
+       "text": "arms,",
+       "start": 121.334,
+       "end": 121.596
+      }
+     ]
+    },
+    {
+     "show": "and she made a sound",
+     "start": 121.756,
+     "end": 122.685,
+     "words": [
+      {
+       "text": "and",
+       "start": 121.756,
+       "end": 121.934
+      },
+      {
+       "text": "she",
+       "start": 121.934,
+       "end": 122.112
+      },
+      {
+       "text": "made",
+       "start": 122.112,
+       "end": 122.329
+      },
+      {
+       "text": "a",
+       "start": 122.329,
+       "end": 122.428
+      },
+      {
+       "text": "sound",
+       "start": 122.428,
+       "end": 122.685
+      }
+     ]
+    },
+    {
+     "show": "I'll never forget.",
+     "start": 122.745,
+     "end": 123.558,
+     "words": [
+      {
+       "text": "I'll",
+       "start": 122.745,
+       "end": 122.943
+      },
+      {
+       "text": "never",
+       "start": 122.943,
+       "end": 123.228
+      },
+      {
+       "text": "forget.",
+       "start": 123.228,
+       "end": 123.558
+      }
+     ]
+    },
+    {
+     "show": "She {g:purred.}",
+     "start": 123.858,
+     "end": 124.438,
+     "words": [
+      {
+       "text": "She",
+       "start": 123.858,
+       "end": 124.075
+      },
+      {
+       "text": "purred.",
+       "start": 124.075,
+       "end": 124.438
+      }
+     ]
+    }
+   ],
+   "end": 124.738
+  },
+  {
+   "id": "roar",
+   "label": "",
+   "start": 125.138,
+   "lines": [
+    {
+     "show": "Then she turned to the mayor,",
+     "start": 125.138,
+     "end": 126.311,
+     "words": [
+      {
+       "text": "Then",
+       "start": 125.138,
+       "end": 125.34
+      },
+      {
+       "text": "she",
+       "start": 125.34,
+       "end": 125.505
+      },
+      {
+       "text": "turned",
+       "start": 125.505,
+       "end": 125.779
+      },
+      {
+       "text": "to",
+       "start": 125.779,
+       "end": 125.908
+      },
+      {
+       "text": "the",
+       "start": 125.908,
+       "end": 126.073
+      },
+      {
+       "text": "mayor,",
+       "start": 126.073,
+       "end": 126.311
+      }
+     ]
+    },
+    {
+     "show": "and {r:roared.}",
+     "start": 126.471,
+     "end": 127.125,
+     "words": [
+      {
+       "text": "and",
+       "start": 126.471,
+       "end": 126.716
+      },
+      {
+       "text": "roared.",
+       "start": 126.716,
+       "end": 127.125
+      }
+     ]
+    },
+    {
+     "show": "He flew backwards",
+     "start": 127.425,
+     "end": 128.296,
+     "words": [
+      {
+       "text": "He",
+       "start": 127.425,
+       "end": 127.582
+      },
+      {
+       "text": "flew",
+       "start": 127.582,
+       "end": 127.827
+      },
+      {
+       "text": "backwards",
+       "start": 127.827,
+       "end": 128.296
+      }
+     ]
+    },
+    {
+     "show": "straight into a {y:trash can.}",
+     "start": 128.356,
+     "end": 129.796,
+     "words": [
+      {
+       "text": "straight",
+       "start": 128.356,
+       "end": 128.836
+      },
+      {
+       "text": "into",
+       "start": 128.836,
+       "end": 129.114
+      },
+      {
+       "text": "a",
+       "start": 129.114,
+       "end": 129.24
+      },
+      {
+       "text": "trash",
+       "start": 129.24,
+       "end": 129.568
+      },
+      {
+       "text": "can.",
+       "start": 129.568,
+       "end": 129.796
+      }
+     ]
+    }
+   ],
+   "end": 130.096
+  },
+  {
+   "id": "lights",
+   "label": "",
+   "start": 130.496,
+   "lines": [
+    {
+     "show": "And one by one,",
+     "start": 130.496,
+     "end": 131.42,
+     "words": [
+      {
+       "text": "And",
+       "start": 130.496,
+       "end": 130.74
+      },
+      {
+       "text": "one",
+       "start": 130.74,
+       "end": 130.985
+      },
+      {
+       "text": "by",
+       "start": 130.985,
+       "end": 131.175
+      },
+      {
+       "text": "one,",
+       "start": 131.175,
+       "end": 131.42
+      }
+     ]
+    },
+    {
+     "show": "every light in town",
+     "start": 131.58,
+     "end": 132.66,
+     "words": [
+      {
+       "text": "every",
+       "start": 131.58,
+       "end": 131.899
+      },
+      {
+       "text": "light",
+       "start": 131.899,
+       "end": 132.218
+      },
+      {
+       "text": "in",
+       "start": 132.218,
+       "end": 132.39
+      },
+      {
+       "text": "town",
+       "start": 132.39,
+       "end": 132.66
+      }
+     ]
+    },
+    {
+     "show": "went {r:out.}",
+     "start": 132.72,
+     "end": 133.289,
+     "words": [
+      {
+       "text": "went",
+       "start": 132.72,
+       "end": 133.033
+      },
+      {
+       "text": "out.",
+       "start": 133.033,
+       "end": 133.289
+      }
+     ]
+    }
+   ],
+   "end": 133.589
+  },
+  {
+   "id": "after",
+   "label": "",
+   "start": 133.989,
+   "lines": [
+    {
+     "show": "We lost our free electricity.",
+     "start": 133.989,
+     "end": 135.591,
+     "words": [
+      {
+       "text": "We",
+       "start": 133.989,
+       "end": 134.167
+      },
+      {
+       "text": "lost",
+       "start": 134.167,
+       "end": 134.446
+      },
+      {
+       "text": "our",
+       "start": 134.446,
+       "end": 134.675
+      },
+      {
+       "text": "free",
+       "start": 134.675,
+       "end": 134.955
+      },
+      {
+       "text": "electricity.",
+       "start": 134.955,
+       "end": 135.591
+      }
+     ]
+    },
+    {
+     "show": "But we got something better.",
+     "start": 135.891,
+     "end": 136.924,
+     "words": [
+      {
+       "text": "But",
+       "start": 135.891,
+       "end": 136.043
+      },
+      {
+       "text": "we",
+       "start": 136.043,
+       "end": 136.162
+      },
+      {
+       "text": "got",
+       "start": 136.162,
+       "end": 136.314
+      },
+      {
+       "text": "something",
+       "start": 136.314,
+       "end": 136.67
+      },
+      {
+       "text": "better.",
+       "start": 136.67,
+       "end": 136.924
+      }
+     ]
+    },
+    {
+     "show": "We can {g:talk} at night again.",
+     "start": 137.224,
+     "end": 138.466,
+     "words": [
+      {
+       "text": "We",
+       "start": 137.224,
+       "end": 137.369
+      },
+      {
+       "text": "can",
+       "start": 137.369,
+       "end": 137.555
+      },
+      {
+       "text": "talk",
+       "start": 137.555,
+       "end": 137.783
+      },
+      {
+       "text": "at",
+       "start": 137.783,
+       "end": 137.928
+      },
+      {
+       "text": "night",
+       "start": 137.928,
+       "end": 138.197
+      },
+      {
+       "text": "again.",
+       "start": 138.197,
+       "end": 138.466
+      }
+     ]
+    }
+   ],
+   "end": 138.766
+  },
+  {
+   "id": "end",
+   "label": "",
+   "start": 139.166,
+   "lines": [
+    {
+     "show": "And every full moon,",
+     "start": 139.166,
+     "end": 140.148,
+     "words": [
+      {
+       "text": "And",
+       "start": 139.166,
+       "end": 139.367
+      },
+      {
+       "text": "every",
+       "start": 139.367,
+       "end": 139.657
+      },
+      {
+       "text": "full",
+       "start": 139.657,
+       "end": 139.903
+      },
+      {
+       "text": "moon,",
+       "start": 139.903,
+       "end": 140.148
+      }
+     ]
+    },
+    {
+     "show": "a giant fluffy monster",
+     "start": 140.308,
+     "end": 141.666,
+     "words": [
+      {
+       "text": "a",
+       "start": 140.308,
+       "end": 140.444
+      },
+      {
+       "text": "giant",
+       "start": 140.444,
+       "end": 140.797
+      },
+      {
+       "text": "fluffy",
+       "start": 140.797,
+       "end": 141.205
+      },
+      {
+       "text": "monster",
+       "start": 141.205,
+       "end": 141.666
+      }
+     ]
+    },
+    {
+     "show": "waves at me from the forest.",
+     "start": 141.726,
+     "end": 143.139,
+     "words": [
+      {
+       "text": "waves",
+       "start": 141.726,
+       "end": 142.023
+      },
+      {
+       "text": "at",
+       "start": 142.023,
+       "end": 142.182
+      },
+      {
+       "text": "me",
+       "start": 142.182,
+       "end": 142.342
+      },
+      {
+       "text": "from",
+       "start": 142.342,
+       "end": 142.592
+      },
+      {
+       "text": "the",
+       "start": 142.592,
+       "end": 142.797
+      },
+      {
+       "text": "forest.",
+       "start": 142.797,
+       "end": 143.139
+      }
+     ]
+    },
+    {
+     "show": "Oh, and the mayor?",
+     "start": 143.439,
+     "end": 144.449,
+     "words": [
+      {
+       "text": "Oh,",
+       "start": 143.439,
+       "end": 143.625
+      },
+      {
+       "text": "and",
+       "start": 143.625,
+       "end": 143.864
+      },
+      {
+       "text": "the",
+       "start": 143.864,
+       "end": 144.104
+      },
+      {
+       "text": "mayor?",
+       "start": 144.104,
+       "end": 144.449
+      }
+     ]
+    },
+    {
+     "show": "He's the only one in town",
+     "start": 144.749,
+     "end": 146.177,
+     "words": [
+      {
+       "text": "He's",
+       "start": 144.749,
+       "end": 144.979
+      },
+      {
+       "text": "the",
+       "start": 144.979,
+       "end": 145.208
+      },
+      {
+       "text": "only",
+       "start": 145.208,
+       "end": 145.489
+      },
+      {
+       "text": "one",
+       "start": 145.489,
+       "end": 145.718
+      },
+      {
+       "text": "in",
+       "start": 145.718,
+       "end": 145.897
+      },
+      {
+       "text": "town",
+       "start": 145.897,
+       "end": 146.177
+      }
+     ]
+    },
+    {
+     "show": "who still {y:whispers} after sunset.",
+     "start": 146.237,
+     "end": 147.921,
+     "words": [
+      {
+       "text": "who",
+       "start": 146.237,
+       "end": 146.457
+      },
+      {
+       "text": "still",
+       "start": 146.457,
+       "end": 146.774
+      },
+      {
+       "text": "whispers",
+       "start": 146.774,
+       "end": 147.238
+      },
+      {
+       "text": "after",
+       "start": 147.238,
+       "end": 147.555
+      },
+      {
+       "text": "sunset.",
+       "start": 147.555,
+       "end": 147.921
+      }
+     ]
+    }
+   ],
+   "end": 148.221
+  }
+ ]
+}

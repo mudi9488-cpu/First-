@@ -1,0 +1,481 @@
+{
+ "title": "The Silent Town",
+ "voice": "en-us-ryan-high",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "nobody is allowed to make a {r:sound}"
+    },
+    {
+     "show": "after sunset."
+    },
+    {
+     "show": "Not a word."
+    },
+    {
+     "show": "Not a sneeze."
+    },
+    {
+     "show": "Because something in the forest"
+    },
+    {
+     "show": "is {r:listening.}"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "label": "",
+   "lines": [
+    {
+     "show": "Dogs wear muzzles at night."
+    },
+    {
+     "show": "Phones are always on {y:silent.}"
+    },
+    {
+     "show": "Kids get grounded for {r:burping.}"
+    }
+   ]
+  },
+  {
+   "id": "sneeze",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last winter, Mr. Miller sneezed"
+    },
+    {
+     "show": "once."
+    },
+    {
+     "show": "The next morning,"
+    },
+    {
+     "show": "his house was covered"
+    },
+    {
+     "show": "in {r:giant claw marks.}"
+    }
+   ]
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor says the silence keeps us {g:safe.}"
+    },
+    {
+     "show": "And in return,"
+    },
+    {
+     "show": "our town gets {y:free electricity.}"
+    },
+    {
+     "show": "Every light. Every house."
+    },
+    {
+     "show": "For free."
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is {y:Max.}"
+    },
+    {
+     "show": "I'm thirteen,"
+    },
+    {
+     "show": "and I've followed the rules"
+    },
+    {
+     "show": "my whole life."
+    }
+   ]
+  },
+  {
+   "id": "crying",
+   "label": "",
+   "lines": [
+    {
+     "show": "Until one night,"
+    },
+    {
+     "show": "I heard something."
+    },
+    {
+     "show": "Not a growl."
+    },
+    {
+     "show": "Not a roar."
+    },
+    {
+     "show": "{y:Crying.}"
+    }
+   ]
+  },
+  {
+   "id": "factory",
+   "label": "",
+   "lines": [
+    {
+     "show": "It came from the old factory"
+    },
+    {
+     "show": "behind the town hall."
+    },
+    {
+     "show": "The one with the sign"
+    },
+    {
+     "show": "{r:Keep out.}"
+    }
+   ]
+  },
+  {
+   "id": "sneak",
+   "label": "",
+   "lines": [
+    {
+     "show": "I knew the rule."
+    },
+    {
+     "show": "But it sounded so {y:sad.}"
+    },
+    {
+     "show": "So I sneaked out."
+    },
+    {
+     "show": "Barefoot."
+    },
+    {
+     "show": "Holding my breath."
+    }
+   ]
+  },
+  {
+   "id": "inside",
+   "label": "",
+   "lines": [
+    {
+     "show": "Inside, there were wires"
+    },
+    {
+     "show": "all over the walls."
+    },
+    {
+     "show": "And they all led"
+    },
+    {
+     "show": "to one {r:cage.}"
+    }
+   ]
+  },
+  {
+   "id": "baby",
+   "label": "",
+   "lines": [
+    {
+     "show": "Inside the cage"
+    },
+    {
+     "show": "was a {y:baby monster.}"
+    },
+    {
+     "show": "Fluffy."
+    },
+    {
+     "show": "Big eyes."
+    },
+    {
+     "show": "No bigger than my dog."
+    }
+   ]
+  },
+  {
+   "id": "tears",
+   "label": "",
+   "lines": [
+    {
+     "show": "And every time it cried,"
+    },
+    {
+     "show": "its tears {b:glowed.}"
+    },
+    {
+     "show": "A machine collected them"
+    },
+    {
+     "show": "and sent them through the wires."
+    },
+    {
+     "show": "Straight into our town."
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "label": "",
+   "lines": [
+    {
+     "show": "That's when I got it."
+    },
+    {
+     "show": "Our free electricity"
+    },
+    {
+     "show": "was a baby's {r:tears.}"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "label": "",
+   "lines": [
+    {
+     "show": "And the monster in the forest"
+    },
+    {
+     "show": "wasn't hunting us."
+    },
+    {
+     "show": "She was looking"
+    },
+    {
+     "show": "for her {y:kid.}"
+    },
+    {
+     "show": "The silence was never to keep us safe."
+    },
+    {
+     "show": "It was so she could {r:never} hear it."
+    }
+   ]
+  },
+  {
+   "id": "sign",
+   "label": "",
+   "lines": [
+    {
+     "show": "On the cage was a sign."
+    },
+    {
+     "show": "{r:Property of the mayor.}"
+    },
+    {
+     "show": "{r:Do not open.}"
+    }
+   ]
+  },
+  {
+   "id": "open",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I opened it."
+    }
+   ]
+  },
+  {
+   "id": "achoo",
+   "label": "",
+   "lines": [
+    {
+     "show": "The baby crawled into my arms,"
+    },
+    {
+     "show": "looked at me,"
+    },
+    {
+     "show": "and {r:sneezed.}"
+    },
+    {
+     "show": "Loud."
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "label": "",
+   "lines": [
+    {
+     "show": "The whole town went silent."
+    },
+    {
+     "show": "Then, from the forest,"
+    },
+    {
+     "show": "{r:footsteps.}"
+    },
+    {
+     "show": "Huge footsteps."
+    },
+    {
+     "show": "Coming closer."
+    }
+   ]
+  },
+  {
+   "id": "town",
+   "label": "",
+   "lines": [
+    {
+     "show": "Lights turned on in every house."
+    },
+    {
+     "show": "People ran outside."
+    },
+    {
+     "show": "The mayor screamed:"
+    },
+    {
+     "show": "Catch that kid!"
+    }
+   ]
+  },
+  {
+   "id": "her",
+   "label": "",
+   "lines": [
+    {
+     "show": "But it was too late."
+    },
+    {
+     "show": "She was {r:already here.}"
+    },
+    {
+     "show": "Taller than the town hall."
+    },
+    {
+     "show": "Eyes glowing like {y:headlights.}"
+    }
+   ]
+  },
+  {
+   "id": "stand",
+   "label": "",
+   "lines": [
+    {
+     "show": "Everyone froze."
+    },
+    {
+     "show": "Except me."
+    },
+    {
+     "show": "I walked right up to her,"
+    },
+    {
+     "show": "and held out her baby."
+    }
+   ]
+  },
+  {
+   "id": "reunion",
+   "label": "",
+   "lines": [
+    {
+     "show": "She looked at me"
+    },
+    {
+     "show": "for a really long time."
+    },
+    {
+     "show": "Then the baby jumped into her arms,"
+    },
+    {
+     "show": "and she made a sound"
+    },
+    {
+     "show": "I'll never forget."
+    },
+    {
+     "show": "She {g:purred.}"
+    }
+   ]
+  },
+  {
+   "id": "roar",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then she turned to the mayor,"
+    },
+    {
+     "show": "and {r:roared.}"
+    },
+    {
+     "show": "He flew backwards"
+    },
+    {
+     "show": "straight into a {y:trash can.}"
+    }
+   ]
+  },
+  {
+   "id": "lights",
+   "label": "",
+   "lines": [
+    {
+     "show": "And one by one,"
+    },
+    {
+     "show": "every light in town"
+    },
+    {
+     "show": "went {r:out.}"
+    }
+   ]
+  },
+  {
+   "id": "after",
+   "label": "",
+   "lines": [
+    {
+     "show": "We lost our free electricity."
+    },
+    {
+     "show": "But we got something better."
+    },
+    {
+     "show": "We can {g:talk} at night again."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "And every full moon,"
+    },
+    {
+     "show": "a giant fluffy monster"
+    },
+    {
+     "show": "waves at me from the forest."
+    },
+    {
+     "show": "Oh, and the mayor?"
+    },
+    {
+     "show": "He's the only one in town"
+    },
+    {
+     "show": "who still {y:whispers} after sunset."
+    }
+   ]
+  }
+ ],
+ "length_scale": 0.88
+}
