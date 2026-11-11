@@ -7,13 +7,13 @@
     #lab span { display:inline-block; font-family:'Lilita',sans-serif; font-size:76px; letter-spacing:0.01em;
       -webkit-text-stroke:12px #000; paint-order:stroke fill; text-shadow:0 6px 0 #000; }
   </style>
-  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="150.02" data-layout-allow-overlap>
+  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="119.24" data-layout-allow-overlap>
     <canvas id="w-canvas" width="1080" height="1920"></canvas>
     <div id="lab"><span>LABEL</span></div>
   </div>
   <script>
 
-const LS = [0.0, 1.022, 3.75, 4.584, 5.592, 8.512, 10.159, 11.991, 14.026, 16.766, 20.751, 23.083, 25.994, 28.974, 31.191, 33.83, 36.131, 38.078, 39.277, 42.087, 44.414, 46.953, 48.449, 50.774, 53.816, 56.166, 58.372, 60.029, 62.006, 64.637, 67.667, 69.551, 73.642, 76.3, 78.158, 82.2, 86.368, 88.054, 90.643, 92.723, 94.451, 96.828, 99.581, 101.471, 102.874, 105.557, 108.34, 112.114, 114.351, 117.383, 119.702, 121.696, 125.078, 127.365, 130.436, 133.929, 139.106, 143.379], DUR = 150.02, KW = {"sneezed": 15.569, "sneezed2": 90.949, "claw": 18.989, "free": 24.799, "crying": 38.138, "keep": 43.298, "sneaked": 47.391, "cage": 55.129, "baby": 57.451, "glowed": 64.011, "tears": 72.67, "kid": 77.694, "opened": 86.776, "loud": 91.712, "footsteps": 95.894, "huge": 96.888, "lights": 99.641, "catch": 104.023, "here": 107.407, "headlights": 110.897, "purred": 124.075, "roared": 126.716, "trash": 129.24, "out": 133.033, "talk": 137.555, "waves": 141.726, "whispers": 146.774};
+const LS = [0.0, 0.9, 3.34, 4.06, 5.14, 7.26, 8.74, 10.22, 11.9, 14.06, 17.02, 19.1, 21.46, 23.62, 25.18, 27.14, 28.82, 30.42, 31.1, 33.273, 34.82, 37.3, 38.313, 40.02, 42.153, 43.94, 45.94, 47.22, 48.287, 50.66, 53.22, 54.447, 57.673, 59.727, 61.007, 64.5, 67.86, 68.927, 71.22, 72.687, 74.26, 76.3, 78.34, 79.86, 80.927, 82.793, 84.927, 87.86, 89.7, 91.86, 93.94, 95.753, 98.74, 100.98, 103.14, 105.54, 109.647, 113.46], DUR = 119.24, KW = {"sneezed": 13.12, "sneezed2": 71.44, "claw": 15.96, "free": 20.56, "crying": 30.48, "keep": 34.24, "sneaked": 37.76, "cage": 43.44, "baby": 45.253, "glowed": 50.24, "tears": 57.2, "kid": 60.56, "opened": 68.48, "loud": 72.16, "footsteps": 75.56, "huge": 76.36, "lights": 78.4, "catch": 81.92, "here": 84.08, "headlights": 87.32, "purred": 98.08, "roared": 100.4, "trash": 102.613, "out": 105.28, "talk": 108.76, "waves": 112.24, "whispers": 116.12};
 window.__hf = window.__hf || {}; window.__hf.buildReady = window.__hf.buildReady || {};
 window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THREE) => {
   const W = 1080, H = 1920, HX = 200, RX = -200, VZ = 400;
