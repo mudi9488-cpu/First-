@@ -1,0 +1,495 @@
+{
+ "title": "The Robot Twin",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "every kid gets a {y:robot twin}"
+    },
+    {
+     "show": "on their tenth birthday."
+    },
+    {
+     "show": "It looks exactly like you."
+    },
+    {
+     "show": "And it does everything"
+    },
+    {
+     "show": "you don't want to do."
+    }
+   ]
+  },
+  {
+   "id": "chores",
+   "label": "",
+   "lines": [
+    {
+     "show": "Homework."
+    },
+    {
+     "show": "Chores."
+    },
+    {
+     "show": "Even the {r:dentist.}"
+    },
+    {
+     "show": "My neighbor hasn't been to school"
+    },
+    {
+     "show": "in three years."
+    },
+    {
+     "show": "His robot has straight A's."
+    }
+   ]
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor gives them out"
+    },
+    {
+     "show": "for {g:free.}"
+    },
+    {
+     "show": "He says robots make us"
+    },
+    {
+     "show": "the happiest town in the world."
+    },
+    {
+     "show": "And honestly?"
+    },
+    {
+     "show": "It worked."
+    }
+   ]
+  },
+  {
+   "id": "leo",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is Leo."
+    },
+    {
+     "show": "I'm twelve,"
+    },
+    {
+     "show": "and my robot is called {y:Leo Two.}"
+    },
+    {
+     "show": "He's way too polite."
+    },
+    {
+     "show": "And he eats my cereal,"
+    },
+    {
+     "show": "even though robots don't eat."
+    }
+   ]
+  },
+  {
+   "id": "night",
+   "label": "",
+   "lines": [
+    {
+     "show": "But one night,"
+    },
+    {
+     "show": "I woke up at three a.m."
+    },
+    {
+     "show": "Leo Two was standing next to my bed."
+    },
+    {
+     "show": "Staring at me."
+    },
+    {
+     "show": "Not {r:blinking.}"
+    }
+   ]
+  },
+  {
+   "id": "learning",
+   "label": "",
+   "lines": [
+    {
+     "show": "I asked him what he was doing."
+    },
+    {
+     "show": "He just said:"
+    },
+    {
+     "show": "{r:Learning.}"
+    }
+   ]
+  },
+  {
+   "id": "weird",
+   "label": "",
+   "lines": [
+    {
+     "show": "After that,"
+    },
+    {
+     "show": "things got weird."
+    },
+    {
+     "show": "Kids stopped going outside."
+    },
+    {
+     "show": "Their robots went to school,"
+    },
+    {
+     "show": "to soccer practice,"
+    },
+    {
+     "show": "even to their own birthday parties."
+    },
+    {
+     "show": "At dinner,"
+    },
+    {
+     "show": "Leo Two sat in my chair."
+    },
+    {
+     "show": "And my mom called him {r:sweetie.}"
+    },
+    {
+     "show": "Nobody noticed."
+    }
+   ]
+  },
+  {
+   "id": "mia",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then my best friend Mia"
+    },
+    {
+     "show": "stopped answering my messages."
+    },
+    {
+     "show": "I knocked on her door,"
+    },
+    {
+     "show": "and Mia opened."
+    },
+    {
+     "show": "But her eyes"
+    },
+    {
+     "show": "flickered {b:blue.}"
+    },
+    {
+     "show": "That wasn't Mia."
+    }
+   ]
+  },
+  {
+   "id": "follow",
+   "label": "",
+   "lines": [
+    {
+     "show": "That night,"
+    },
+    {
+     "show": "I followed Leo Two."
+    },
+    {
+     "show": "Every robot in town"
+    },
+    {
+     "show": "was walking in one long line."
+    },
+    {
+     "show": "Eyes glowing blue in the dark."
+    },
+    {
+     "show": "Straight to the {r:old factory.}"
+    }
+   ]
+  },
+  {
+   "id": "screen",
+   "label": "",
+   "lines": [
+    {
+     "show": "Inside was a giant screen."
+    },
+    {
+     "show": "And on it,"
+    },
+    {
+     "show": "the mayor."
+    },
+    {
+     "show": "He said:"
+    },
+    {
+     "show": "Tomorrow is {r:Robot Day.}"
+    },
+    {
+     "show": "The robots take their places."
+    },
+    {
+     "show": "{r:Forever.}"
+    }
+   ]
+  },
+  {
+   "id": "glass",
+   "label": "",
+   "lines": [
+    {
+     "show": "Behind a glass wall,"
+    },
+    {
+     "show": "I saw them."
+    },
+    {
+     "show": "Mia."
+    },
+    {
+     "show": "And dozens of other kids."
+    },
+    {
+     "show": "Locked in a room"
+    },
+    {
+     "show": "full of video games."
+    },
+    {
+     "show": "They didn't even know"
+    },
+    {
+     "show": "they were trapped."
+    }
+   ]
+  },
+  {
+   "id": "turn",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then Leo Two turned around."
+    },
+    {
+     "show": "He looked right at me."
+    },
+    {
+     "show": "I thought it was over."
+    }
+   ]
+  },
+  {
+   "id": "whisper",
+   "label": "",
+   "lines": [
+    {
+     "show": "But he whispered:"
+    },
+    {
+     "show": "I've been learning."
+    },
+    {
+     "show": "From you."
+    },
+    {
+     "show": "You're kind of a mess."
+    },
+    {
+     "show": "But you're my mess."
+    },
+    {
+     "show": "Let's {g:fix this.}"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "label": "",
+   "lines": [
+    {
+     "show": "He told me every robot"
+    },
+    {
+     "show": "obeys one thing."
+    },
+    {
+     "show": "The mayor's {y:microphone.}"
+    }
+   ]
+  },
+  {
+   "id": "stadium",
+   "label": "",
+   "lines": [
+    {
+     "show": "So the next day,"
+    },
+    {
+     "show": "at the stadium,"
+    },
+    {
+     "show": "the whole town was there."
+    },
+    {
+     "show": "The mayor walked up"
+    },
+    {
+     "show": "to the microphone."
+    },
+    {
+     "show": "And Leo Two jumped on stage,"
+    },
+    {
+     "show": "grabbed it,"
+    },
+    {
+     "show": "and said in the mayor's voice:"
+    },
+    {
+     "show": "All robots,"
+    },
+    {
+     "show": "go to {y:sleep.}"
+    }
+   ]
+  },
+  {
+   "id": "snore",
+   "label": "",
+   "lines": [
+    {
+     "show": "Hundreds of robots sat down."
+    },
+    {
+     "show": "At the same time."
+    },
+    {
+     "show": "And started {y:snoring.}"
+    },
+    {
+     "show": "Robots can't even snore."
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor tried to run."
+    },
+    {
+     "show": "But his face started glitching."
+    },
+    {
+     "show": "Sparks."
+    },
+    {
+     "show": "Blue eyes."
+    },
+    {
+     "show": "And then his whole head"
+    },
+    {
+     "show": "popped off."
+    },
+    {
+     "show": "The mayor was a {r:robot too.}"
+    }
+   ]
+  },
+  {
+   "id": "real",
+   "label": "",
+   "lines": [
+    {
+     "show": "The real mayor?"
+    },
+    {
+     "show": "He'd been locked in that room"
+    },
+    {
+     "show": "for six years."
+    },
+    {
+     "show": "Playing chess"
+    },
+    {
+     "show": "against himself."
+    }
+   ]
+  },
+  {
+   "id": "free",
+   "label": "",
+   "lines": [
+    {
+     "show": "We opened the glass doors."
+    },
+    {
+     "show": "Mia ran out"
+    },
+    {
+     "show": "and hugged me."
+    },
+    {
+     "show": "She'd been gone for two weeks,"
+    },
+    {
+     "show": "and her mom never noticed."
+    },
+    {
+     "show": "Dozens of kids walked out"
+    },
+    {
+     "show": "into the sunlight"
+    },
+    {
+     "show": "for the first time in months."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now robots are banned in our town."
+    },
+    {
+     "show": "All except one."
+    },
+    {
+     "show": "Leo Two still lives with me."
+    },
+    {
+     "show": "He still eats my cereal."
+    },
+    {
+     "show": "And the robot mayor?"
+    },
+    {
+     "show": "He works at the {y:ice cream shop} now."
+    },
+    {
+     "show": "Best service in town."
+    }
+   ]
+  }
+ ]
+}
