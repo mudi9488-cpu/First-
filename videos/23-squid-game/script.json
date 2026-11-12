@@ -1,0 +1,486 @@
+{
+ "title": "The Deadly Game",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this game,"
+    },
+    {
+     "show": "456 people play {y:children's games.}"
+    },
+    {
+     "show": "The winner gets"
+    },
+    {
+     "show": "{g:45.6 billion won.}"
+    },
+    {
+     "show": "But if you lose,"
+    },
+    {
+     "show": "you're out."
+    },
+    {
+     "show": "{r:Forever.}"
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is Gi-hun."
+    },
+    {
+     "show": "Player {y:456.}"
+    },
+    {
+     "show": "I was broke,"
+    },
+    {
+     "show": "divorced,"
+    },
+    {
+     "show": "and I owed money"
+    },
+    {
+     "show": "to very bad people."
+    }
+   ]
+  },
+  {
+   "id": "subway",
+   "label": "",
+   "lines": [
+    {
+     "show": "One day at the subway,"
+    },
+    {
+     "show": "a man in a suit"
+    },
+    {
+     "show": "challenged me to a game."
+    },
+    {
+     "show": "Every time I lost,"
+    },
+    {
+     "show": "he slapped me."
+    },
+    {
+     "show": "Every time I won,"
+    },
+    {
+     "show": "he paid me."
+    },
+    {
+     "show": "Then he asked:"
+    },
+    {
+     "show": "Want to make some {g:real money?}"
+    },
+    {
+     "show": "And he gave me a card."
+    },
+    {
+     "show": "{y:Circle. Triangle. Square.}"
+    }
+   ]
+  },
+  {
+   "id": "island",
+   "label": "",
+   "lines": [
+    {
+     "show": "I woke up on a secret island."
+    },
+    {
+     "show": "456 people in green tracksuits."
+    },
+    {
+     "show": "All of them broke."
+    },
+    {
+     "show": "All of them desperate."
+    },
+    {
+     "show": "And guards in pink,"
+    },
+    {
+     "show": "with {r:masks.}"
+    }
+   ]
+  },
+  {
+   "id": "friends",
+   "label": "",
+   "lines": [
+    {
+     "show": "I wasn't alone."
+    },
+    {
+     "show": "There was Sang-woo,"
+    },
+    {
+     "show": "my childhood friend,"
+    },
+    {
+     "show": "the smartest kid in our neighborhood."
+    },
+    {
+     "show": "Sae-byeok,"
+    },
+    {
+     "show": "a pickpocket who never smiled."
+    },
+    {
+     "show": "And the old man,"
+    },
+    {
+     "show": "Player 001,"
+    },
+    {
+     "show": "who just wanted to have fun."
+    }
+   ]
+  },
+  {
+   "id": "doll",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game one."
+    },
+    {
+     "show": "{g:Red Light,} {r:Green Light.}"
+    },
+    {
+     "show": "A giant doll."
+    },
+    {
+     "show": "When she turns around,"
+    },
+    {
+     "show": "you freeze."
+    },
+    {
+     "show": "If you move,"
+    },
+    {
+     "show": "you're {r:out.}"
+    },
+    {
+     "show": "Half of us"
+    },
+    {
+     "show": "never made it to the finish line."
+    }
+   ]
+  },
+  {
+   "id": "piggy",
+   "label": "",
+   "lines": [
+    {
+     "show": "Above our beds"
+    },
+    {
+     "show": "hung a giant golden piggy bank."
+    },
+    {
+     "show": "Every player who was out"
+    },
+    {
+     "show": "added {g:100 million won.}"
+    }
+   ]
+  },
+  {
+   "id": "vote",
+   "label": "",
+   "lines": [
+    {
+     "show": "We voted to go home."
+    },
+    {
+     "show": "And we did."
+    },
+    {
+     "show": "But life outside was even worse."
+    },
+    {
+     "show": "So almost everyone"
+    },
+    {
+     "show": "came back."
+    }
+   ]
+  },
+  {
+   "id": "candy",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game two."
+    },
+    {
+     "show": "Honeycomb candy."
+    },
+    {
+     "show": "Cut out a shape"
+    },
+    {
+     "show": "without breaking it."
+    },
+    {
+     "show": "I got the {r:umbrella.}"
+    },
+    {
+     "show": "The hardest one."
+    },
+    {
+     "show": "So I licked it."
+    }
+   ]
+  },
+  {
+   "id": "tug",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game three."
+    },
+    {
+     "show": "{y:Tug of war.}"
+    },
+    {
+     "show": "Ten against ten,"
+    },
+    {
+     "show": "on two towers."
+    },
+    {
+     "show": "Our team was weak."
+    },
+    {
+     "show": "But the old man,"
+    },
+    {
+     "show": "Player 001,"
+    },
+    {
+     "show": "knew a trick."
+    },
+    {
+     "show": "Three steps forward."
+    },
+    {
+     "show": "Then pull."
+    }
+   ]
+  },
+  {
+   "id": "marbles",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game four."
+    },
+    {
+     "show": "Marbles."
+    },
+    {
+     "show": "Teams of two."
+    },
+    {
+     "show": "I played against the old man."
+    },
+    {
+     "show": "He forgot things."
+    },
+    {
+     "show": "And I {r:cheated.}"
+    },
+    {
+     "show": "But he gave me his last marble anyway,"
+    },
+    {
+     "show": "and smiled."
+    },
+    {
+     "show": "We're {y:friends,} he said."
+    },
+    {
+     "show": "Friends share everything."
+    }
+   ]
+  },
+  {
+   "id": "glass",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game five."
+    },
+    {
+     "show": "A {b:glass bridge.}"
+    },
+    {
+     "show": "Two panels every step."
+    },
+    {
+     "show": "One holds you."
+    },
+    {
+     "show": "One breaks."
+    },
+    {
+     "show": "The man in front of me"
+    },
+    {
+     "show": "could tell the glass apart."
+    },
+    {
+     "show": "Until the guards"
+    },
+    {
+     "show": "turned off the lights."
+    },
+    {
+     "show": "Sixteen players."
+    },
+    {
+     "show": "Only three"
+    },
+    {
+     "show": "made it across."
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "label": "",
+   "lines": [
+    {
+     "show": "The final game."
+    },
+    {
+     "show": "Just me"
+    },
+    {
+     "show": "and my childhood friend,"
+    },
+    {
+     "show": "Sang-woo."
+    },
+    {
+     "show": "In the rain."
+    },
+    {
+     "show": "On a giant squid drawn in the sand."
+    },
+    {
+     "show": "I asked him to stop."
+    },
+    {
+     "show": "To go home together."
+    },
+    {
+     "show": "He didn't."
+    }
+   ]
+  },
+  {
+   "id": "win",
+   "label": "",
+   "lines": [
+    {
+     "show": "I won."
+    },
+    {
+     "show": "{g:45.6 billion won.}"
+    },
+    {
+     "show": "And I couldn't spend"
+    },
+    {
+     "show": "a single coin."
+    },
+    {
+     "show": "When I got home,"
+    },
+    {
+     "show": "my mom was {r:gone.}"
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "A year later,"
+    },
+    {
+     "show": "I got another card."
+    },
+    {
+     "show": "In a hospital bed"
+    },
+    {
+     "show": "was the old man."
+    },
+    {
+     "show": "Player 001."
+    },
+    {
+     "show": "{r:Alive.}"
+    },
+    {
+     "show": "He wasn't a player."
+    },
+    {
+     "show": "He {r:created} the game."
+    },
+    {
+     "show": "Because he was {r:bored.}"
+    },
+    {
+     "show": "Watching was fun, he said."
+    },
+    {
+     "show": "But playing was more fun."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I dyed my hair red,"
+    },
+    {
+     "show": "turned around at the airport,"
+    },
+    {
+     "show": "and walked straight back"
+    },
+    {
+     "show": "into the {r:game.}"
+    },
+    {
+     "show": "Because someone"
+    },
+    {
+     "show": "had to end it."
+    }
+   ]
+  }
+ ]
+}

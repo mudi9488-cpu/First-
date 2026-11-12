@@ -1,0 +1,3294 @@
+{
+ "duration": 136.673,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this game,",
+     "start": 0.0,
+     "end": 0.64,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.12
+      },
+      {
+       "text": "this",
+       "start": 0.16,
+       "end": 0.3
+      },
+      {
+       "text": "game,",
+       "start": 0.32,
+       "end": 0.64
+      }
+     ]
+    },
+    {
+     "show": "456 people play {y:children's games.}",
+     "start": 0.8,
+     "end": 3.44,
+     "words": [
+      {
+       "text": "456",
+       "start": 0.8,
+       "end": 1.0
+      },
+      {
+       "text": "people",
+       "start": 1.04,
+       "end": 2.24
+      },
+      {
+       "text": "play",
+       "start": 2.32,
+       "end": 2.48
+      },
+      {
+       "text": "children's",
+       "start": 2.56,
+       "end": 2.96
+      },
+      {
+       "text": "games.",
+       "start": 3.16,
+       "end": 3.44
+      }
+     ]
+    },
+    {
+     "show": "The winner gets",
+     "start": 3.48,
+     "end": 4.08,
+     "words": [
+      {
+       "text": "The",
+       "start": 3.48,
+       "end": 3.52
+      },
+      {
+       "text": "winner",
+       "start": 3.68,
+       "end": 3.84
+      },
+      {
+       "text": "gets",
+       "start": 3.96,
+       "end": 4.08
+      }
+     ]
+    },
+    {
+     "show": "{g:45.6 billion won.}",
+     "start": 4.16,
+     "end": 6.16,
+     "words": [
+      {
+       "text": "45.6",
+       "start": 4.16,
+       "end": 4.64
+      },
+      {
+       "text": "billion",
+       "start": 4.72,
+       "end": 5.68
+      },
+      {
+       "text": "won.",
+       "start": 5.76,
+       "end": 6.16
+      }
+     ]
+    },
+    {
+     "show": "But if you lose,",
+     "start": 6.2,
+     "end": 7.12,
+     "words": [
+      {
+       "text": "But",
+       "start": 6.2,
+       "end": 6.24
+      },
+      {
+       "text": "if",
+       "start": 6.28,
+       "end": 6.32
+      },
+      {
+       "text": "you",
+       "start": 6.4,
+       "end": 6.48
+      },
+      {
+       "text": "lose,",
+       "start": 6.56,
+       "end": 7.12
+      }
+     ]
+    },
+    {
+     "show": "you're out.",
+     "start": 7.16,
+     "end": 7.76,
+     "words": [
+      {
+       "text": "you're",
+       "start": 7.16,
+       "end": 7.28
+      },
+      {
+       "text": "out.",
+       "start": 7.36,
+       "end": 7.76
+      }
+     ]
+    },
+    {
+     "show": "{r:Forever.}",
+     "start": 8.0,
+     "end": 8.56,
+     "words": [
+      {
+       "text": "Forever.",
+       "start": 8.0,
+       "end": 8.56
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 8.56
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is Gi-hun.",
+     "start": 8.64,
+     "end": 9.84,
+     "words": [
+      {
+       "text": "My",
+       "start": 8.64,
+       "end": 8.8
+      },
+      {
+       "text": "name",
+       "start": 8.92,
+       "end": 9.04
+      },
+      {
+       "text": "is",
+       "start": 9.12,
+       "end": 9.2
+      },
+      {
+       "text": "Gi-hun.",
+       "start": 9.28,
+       "end": 9.84
+      }
+     ]
+    },
+    {
+     "show": "Player {y:456.}",
+     "start": 10.0,
+     "end": 11.52,
+     "words": [
+      {
+       "text": "Player",
+       "start": 10.0,
+       "end": 10.16
+      },
+      {
+       "text": "456.",
+       "start": 10.24,
+       "end": 11.52
+      }
+     ]
+    },
+    {
+     "show": "I was broke,",
+     "start": 11.56,
+     "end": 12.32,
+     "words": [
+      {
+       "text": "I",
+       "start": 11.56,
+       "end": 11.6
+      },
+      {
+       "text": "was",
+       "start": 11.72,
+       "end": 11.84
+      },
+      {
+       "text": "broke,",
+       "start": 11.947,
+       "end": 12.32
+      }
+     ]
+    },
+    {
+     "show": "divorced,",
+     "start": 12.44,
+     "end": 12.96,
+     "words": [
+      {
+       "text": "divorced,",
+       "start": 12.44,
+       "end": 12.96
+      }
+     ]
+    },
+    {
+     "show": "and I owed money",
+     "start": 13.0,
+     "end": 13.6,
+     "words": [
+      {
+       "text": "and",
+       "start": 13.0,
+       "end": 13.04
+      },
+      {
+       "text": "I",
+       "start": 13.12,
+       "end": 13.2
+      },
+      {
+       "text": "owed",
+       "start": 13.28,
+       "end": 13.36
+      },
+      {
+       "text": "money",
+       "start": 13.44,
+       "end": 13.6
+      }
+     ]
+    },
+    {
+     "show": "to very bad people.",
+     "start": 13.68,
+     "end": 14.96,
+     "words": [
+      {
+       "text": "to",
+       "start": 13.68,
+       "end": 13.76
+      },
+      {
+       "text": "very",
+       "start": 13.92,
+       "end": 14.16
+      },
+      {
+       "text": "bad",
+       "start": 14.24,
+       "end": 14.4
+      },
+      {
+       "text": "people.",
+       "start": 14.48,
+       "end": 14.96
+      }
+     ]
+    }
+   ],
+   "start": 8.64,
+   "end": 14.96
+  },
+  {
+   "id": "subway",
+   "label": "",
+   "lines": [
+    {
+     "show": "One day at the subway,",
+     "start": 15.0,
+     "end": 15.92,
+     "words": [
+      {
+       "text": "One",
+       "start": 15.0,
+       "end": 15.04
+      },
+      {
+       "text": "day",
+       "start": 15.12,
+       "end": 15.2
+      },
+      {
+       "text": "at",
+       "start": 15.24,
+       "end": 15.28
+      },
+      {
+       "text": "the",
+       "start": 15.32,
+       "end": 15.36
+      },
+      {
+       "text": "subway,",
+       "start": 15.44,
+       "end": 15.92
+      }
+     ]
+    },
+    {
+     "show": "a man in a suit",
+     "start": 15.96,
+     "end": 16.72,
+     "words": [
+      {
+       "text": "a",
+       "start": 15.96,
+       "end": 16.0
+      },
+      {
+       "text": "man",
+       "start": 16.08,
+       "end": 16.24
+      },
+      {
+       "text": "in",
+       "start": 16.28,
+       "end": 16.32
+      },
+      {
+       "text": "a",
+       "start": 16.4,
+       "end": 16.48
+      },
+      {
+       "text": "suit",
+       "start": 16.6,
+       "end": 16.72
+      }
+     ]
+    },
+    {
+     "show": "challenged me to a game.",
+     "start": 16.8,
+     "end": 17.92,
+     "words": [
+      {
+       "text": "challenged",
+       "start": 16.8,
+       "end": 17.12
+      },
+      {
+       "text": "me",
+       "start": 17.2,
+       "end": 17.28
+      },
+      {
+       "text": "to",
+       "start": 17.32,
+       "end": 17.36
+      },
+      {
+       "text": "a",
+       "start": 17.4,
+       "end": 17.44
+      },
+      {
+       "text": "game.",
+       "start": 17.52,
+       "end": 17.92
+      }
+     ]
+    },
+    {
+     "show": "Every time I lost,",
+     "start": 18.04,
+     "end": 18.96,
+     "words": [
+      {
+       "text": "Every",
+       "start": 18.04,
+       "end": 18.16
+      },
+      {
+       "text": "time",
+       "start": 18.24,
+       "end": 18.32
+      },
+      {
+       "text": "I",
+       "start": 18.48,
+       "end": 18.613
+      },
+      {
+       "text": "lost,",
+       "start": 18.747,
+       "end": 18.96
+      }
+     ]
+    },
+    {
+     "show": "he slapped me.",
+     "start": 19.04,
+     "end": 19.76,
+     "words": [
+      {
+       "text": "he",
+       "start": 19.04,
+       "end": 19.12
+      },
+      {
+       "text": "slapped",
+       "start": 19.2,
+       "end": 19.52
+      },
+      {
+       "text": "me.",
+       "start": 19.6,
+       "end": 19.76
+      }
+     ]
+    },
+    {
+     "show": "Every time I won,",
+     "start": 19.88,
+     "end": 20.72,
+     "words": [
+      {
+       "text": "Every",
+       "start": 19.88,
+       "end": 20.0
+      },
+      {
+       "text": "time",
+       "start": 20.08,
+       "end": 20.16
+      },
+      {
+       "text": "I",
+       "start": 20.32,
+       "end": 20.427
+      },
+      {
+       "text": "won,",
+       "start": 20.533,
+       "end": 20.72
+      }
+     ]
+    },
+    {
+     "show": "he paid me.",
+     "start": 20.8,
+     "end": 21.52,
+     "words": [
+      {
+       "text": "he",
+       "start": 20.8,
+       "end": 20.96
+      },
+      {
+       "text": "paid",
+       "start": 21.08,
+       "end": 21.2
+      },
+      {
+       "text": "me.",
+       "start": 21.28,
+       "end": 21.52
+      }
+     ]
+    },
+    {
+     "show": "Then he asked:",
+     "start": 21.56,
+     "end": 22.16,
+     "words": [
+      {
+       "text": "Then",
+       "start": 21.56,
+       "end": 21.6
+      },
+      {
+       "text": "he",
+       "start": 21.68,
+       "end": 21.76
+      },
+      {
+       "text": "asked:",
+       "start": 21.84,
+       "end": 22.16
+      }
+     ]
+    },
+    {
+     "show": "Want to make some {g:real money?}",
+     "start": 22.24,
+     "end": 23.36,
+     "words": [
+      {
+       "text": "Want",
+       "start": 22.24,
+       "end": 22.32
+      },
+      {
+       "text": "to",
+       "start": 22.36,
+       "end": 22.4
+      },
+      {
+       "text": "make",
+       "start": 22.48,
+       "end": 22.56
+      },
+      {
+       "text": "some",
+       "start": 22.68,
+       "end": 22.8
+      },
+      {
+       "text": "real",
+       "start": 22.92,
+       "end": 23.04
+      },
+      {
+       "text": "money?",
+       "start": 23.16,
+       "end": 23.36
+      }
+     ]
+    },
+    {
+     "show": "And he gave me a card.",
+     "start": 23.4,
+     "end": 24.64,
+     "words": [
+      {
+       "text": "And",
+       "start": 23.4,
+       "end": 23.44
+      },
+      {
+       "text": "he",
+       "start": 23.52,
+       "end": 23.6
+      },
+      {
+       "text": "gave",
+       "start": 23.653,
+       "end": 23.76
+      },
+      {
+       "text": "me",
+       "start": 23.84,
+       "end": 23.88
+      },
+      {
+       "text": "a",
+       "start": 23.92,
+       "end": 24.0
+      },
+      {
+       "text": "card.",
+       "start": 24.08,
+       "end": 24.64
+      }
+     ]
+    },
+    {
+     "show": "{y:Circle. Triangle. Square.}",
+     "start": 24.84,
+     "end": 26.64,
+     "words": [
+      {
+       "text": "Circle.",
+       "start": 24.84,
+       "end": 25.2
+      },
+      {
+       "text": "Triangle.",
+       "start": 25.44,
+       "end": 25.92
+      },
+      {
+       "text": "Square.",
+       "start": 26.12,
+       "end": 26.64
+      }
+     ]
+    }
+   ],
+   "start": 15.0,
+   "end": 26.64
+  },
+  {
+   "id": "island",
+   "label": "",
+   "lines": [
+    {
+     "show": "I woke up on a secret island.",
+     "start": 26.72,
+     "end": 28.32,
+     "words": [
+      {
+       "text": "I",
+       "start": 26.72,
+       "end": 26.8
+      },
+      {
+       "text": "woke",
+       "start": 26.88,
+       "end": 26.96
+      },
+      {
+       "text": "up",
+       "start": 27.04,
+       "end": 27.2
+      },
+      {
+       "text": "on",
+       "start": 27.24,
+       "end": 27.28
+      },
+      {
+       "text": "a",
+       "start": 27.36,
+       "end": 27.44
+      },
+      {
+       "text": "secret",
+       "start": 27.6,
+       "end": 27.76
+      },
+      {
+       "text": "island.",
+       "start": 27.84,
+       "end": 28.32
+      }
+     ]
+    },
+    {
+     "show": "456 people in green tracksuits.",
+     "start": 28.4,
+     "end": 30.96,
+     "words": [
+      {
+       "text": "456",
+       "start": 28.4,
+       "end": 28.48
+      },
+      {
+       "text": "people",
+       "start": 28.56,
+       "end": 29.76
+      },
+      {
+       "text": "in",
+       "start": 29.84,
+       "end": 29.92
+      },
+      {
+       "text": "green",
+       "start": 30.0,
+       "end": 30.24
+      },
+      {
+       "text": "tracksuits.",
+       "start": 30.32,
+       "end": 30.96
+      }
+     ]
+    },
+    {
+     "show": "All of them broke.",
+     "start": 31.04,
+     "end": 31.92,
+     "words": [
+      {
+       "text": "All",
+       "start": 31.04,
+       "end": 31.12
+      },
+      {
+       "text": "of",
+       "start": 31.2,
+       "end": 31.28
+      },
+      {
+       "text": "them",
+       "start": 31.36,
+       "end": 31.44
+      },
+      {
+       "text": "broke.",
+       "start": 31.52,
+       "end": 31.92
+      }
+     ]
+    },
+    {
+     "show": "All of them desperate.",
+     "start": 32.0,
+     "end": 33.04,
+     "words": [
+      {
+       "text": "All",
+       "start": 32.0,
+       "end": 32.08
+      },
+      {
+       "text": "of",
+       "start": 32.16,
+       "end": 32.24
+      },
+      {
+       "text": "them",
+       "start": 32.36,
+       "end": 32.48
+      },
+      {
+       "text": "desperate.",
+       "start": 32.56,
+       "end": 33.04
+      }
+     ]
+    },
+    {
+     "show": "And guards in pink,",
+     "start": 33.12,
+     "end": 34.08,
+     "words": [
+      {
+       "text": "And",
+       "start": 33.12,
+       "end": 33.2
+      },
+      {
+       "text": "guards",
+       "start": 33.36,
+       "end": 33.52
+      },
+      {
+       "text": "in",
+       "start": 33.6,
+       "end": 33.68
+      },
+      {
+       "text": "pink,",
+       "start": 33.76,
+       "end": 34.08
+      }
+     ]
+    },
+    {
+     "show": "with {r:masks.}",
+     "start": 34.16,
+     "end": 34.88,
+     "words": [
+      {
+       "text": "with",
+       "start": 34.16,
+       "end": 34.24
+      },
+      {
+       "text": "masks.",
+       "start": 34.32,
+       "end": 34.88
+      }
+     ]
+    }
+   ],
+   "start": 26.72,
+   "end": 34.88
+  },
+  {
+   "id": "friends",
+   "label": "",
+   "lines": [
+    {
+     "show": "I wasn't alone.",
+     "start": 34.96,
+     "end": 35.76,
+     "words": [
+      {
+       "text": "I",
+       "start": 34.96,
+       "end": 35.04
+      },
+      {
+       "text": "wasn't",
+       "start": 35.12,
+       "end": 35.28
+      },
+      {
+       "text": "alone.",
+       "start": 35.36,
+       "end": 35.76
+      }
+     ]
+    },
+    {
+     "show": "There was Sang-woo,",
+     "start": 35.8,
+     "end": 36.64,
+     "words": [
+      {
+       "text": "There",
+       "start": 35.8,
+       "end": 35.84
+      },
+      {
+       "text": "was",
+       "start": 35.92,
+       "end": 36.0
+      },
+      {
+       "text": "Sang-woo,",
+       "start": 36.08,
+       "end": 36.64
+      }
+     ]
+    },
+    {
+     "show": "my childhood friend,",
+     "start": 36.72,
+     "end": 37.68,
+     "words": [
+      {
+       "text": "my",
+       "start": 36.72,
+       "end": 36.8
+      },
+      {
+       "text": "childhood",
+       "start": 36.92,
+       "end": 37.2
+      },
+      {
+       "text": "friend,",
+       "start": 37.28,
+       "end": 37.68
+      }
+     ]
+    },
+    {
+     "show": "the smartest kid in our neighborhood.",
+     "start": 37.76,
+     "end": 39.28,
+     "words": [
+      {
+       "text": "the",
+       "start": 37.76,
+       "end": 37.84
+      },
+      {
+       "text": "smartest",
+       "start": 37.96,
+       "end": 38.24
+      },
+      {
+       "text": "kid",
+       "start": 38.32,
+       "end": 38.4
+      },
+      {
+       "text": "in",
+       "start": 38.48,
+       "end": 38.52
+      },
+      {
+       "text": "our",
+       "start": 38.56,
+       "end": 38.64
+      },
+      {
+       "text": "neighborhood.",
+       "start": 38.72,
+       "end": 39.28
+      }
+     ]
+    },
+    {
+     "show": "Sae-byeok,",
+     "start": 39.32,
+     "end": 39.84,
+     "words": [
+      {
+       "text": "Sae-byeok,",
+       "start": 39.32,
+       "end": 39.84
+      }
+     ]
+    },
+    {
+     "show": "a pickpocket who never smiled.",
+     "start": 39.92,
+     "end": 41.52,
+     "words": [
+      {
+       "text": "a",
+       "start": 39.92,
+       "end": 40.0
+      },
+      {
+       "text": "pickpocket",
+       "start": 40.12,
+       "end": 40.48
+      },
+      {
+       "text": "who",
+       "start": 40.6,
+       "end": 40.72
+      },
+      {
+       "text": "never",
+       "start": 40.84,
+       "end": 40.96
+      },
+      {
+       "text": "smiled.",
+       "start": 41.04,
+       "end": 41.52
+      }
+     ]
+    },
+    {
+     "show": "And the old man,",
+     "start": 41.56,
+     "end": 42.32,
+     "words": [
+      {
+       "text": "And",
+       "start": 41.56,
+       "end": 41.6
+      },
+      {
+       "text": "the",
+       "start": 41.64,
+       "end": 41.68
+      },
+      {
+       "text": "old",
+       "start": 41.76,
+       "end": 41.92
+      },
+      {
+       "text": "man,",
+       "start": 42.04,
+       "end": 42.32
+      }
+     ]
+    },
+    {
+     "show": "Player 001,",
+     "start": 42.48,
+     "end": 43.493,
+     "words": [
+      {
+       "text": "Player",
+       "start": 42.48,
+       "end": 42.64
+      },
+      {
+       "text": "001,",
+       "start": 42.72,
+       "end": 43.493
+      }
+     ]
+    },
+    {
+     "show": "who just wanted to have fun.",
+     "start": 43.547,
+     "end": 44.96,
+     "words": [
+      {
+       "text": "who",
+       "start": 43.547,
+       "end": 43.6
+      },
+      {
+       "text": "just",
+       "start": 43.68,
+       "end": 43.84
+      },
+      {
+       "text": "wanted",
+       "start": 43.92,
+       "end": 44.0
+      },
+      {
+       "text": "to",
+       "start": 44.08,
+       "end": 44.12
+      },
+      {
+       "text": "have",
+       "start": 44.16,
+       "end": 44.32
+      },
+      {
+       "text": "fun.",
+       "start": 44.4,
+       "end": 44.96
+      }
+     ]
+    }
+   ],
+   "start": 34.96,
+   "end": 44.96
+  },
+  {
+   "id": "doll",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game one.",
+     "start": 45.04,
+     "end": 45.76,
+     "words": [
+      {
+       "text": "Game",
+       "start": 45.04,
+       "end": 45.28
+      },
+      {
+       "text": "one.",
+       "start": 45.36,
+       "end": 45.76
+      }
+     ]
+    },
+    {
+     "show": "{g:Red Light,} {r:Green Light.}",
+     "start": 45.84,
+     "end": 46.96,
+     "words": [
+      {
+       "text": "Red",
+       "start": 45.84,
+       "end": 45.92
+      },
+      {
+       "text": "Light,",
+       "start": 46.0,
+       "end": 46.32
+      },
+      {
+       "text": "Green",
+       "start": 46.4,
+       "end": 46.56
+      },
+      {
+       "text": "Light.",
+       "start": 46.64,
+       "end": 46.96
+      }
+     ]
+    },
+    {
+     "show": "A giant doll.",
+     "start": 47.0,
+     "end": 48.08,
+     "words": [
+      {
+       "text": "A",
+       "start": 47.0,
+       "end": 47.04
+      },
+      {
+       "text": "giant",
+       "start": 47.2,
+       "end": 47.6
+      },
+      {
+       "text": "doll.",
+       "start": 47.8,
+       "end": 48.08
+      }
+     ]
+    },
+    {
+     "show": "When she turns around,",
+     "start": 48.12,
+     "end": 49.04,
+     "words": [
+      {
+       "text": "When",
+       "start": 48.12,
+       "end": 48.16
+      },
+      {
+       "text": "she",
+       "start": 48.24,
+       "end": 48.32
+      },
+      {
+       "text": "turns",
+       "start": 48.4,
+       "end": 48.52
+      },
+      {
+       "text": "around,",
+       "start": 48.56,
+       "end": 49.04
+      }
+     ]
+    },
+    {
+     "show": "you freeze.",
+     "start": 49.16,
+     "end": 49.84,
+     "words": [
+      {
+       "text": "you",
+       "start": 49.16,
+       "end": 49.28
+      },
+      {
+       "text": "freeze.",
+       "start": 49.52,
+       "end": 49.84
+      }
+     ]
+    },
+    {
+     "show": "If you move,",
+     "start": 49.88,
+     "end": 50.56,
+     "words": [
+      {
+       "text": "If",
+       "start": 49.88,
+       "end": 49.92
+      },
+      {
+       "text": "you",
+       "start": 50.0,
+       "end": 50.08
+      },
+      {
+       "text": "move,",
+       "start": 50.28,
+       "end": 50.56
+      }
+     ]
+    },
+    {
+     "show": "you're {r:out.}",
+     "start": 50.64,
+     "end": 51.2,
+     "words": [
+      {
+       "text": "you're",
+       "start": 50.64,
+       "end": 50.8
+      },
+      {
+       "text": "out.",
+       "start": 50.88,
+       "end": 51.2
+      }
+     ]
+    },
+    {
+     "show": "Half of us",
+     "start": 51.28,
+     "end": 51.76,
+     "words": [
+      {
+       "text": "Half",
+       "start": 51.28,
+       "end": 51.44
+      },
+      {
+       "text": "of",
+       "start": 51.48,
+       "end": 51.52
+      },
+      {
+       "text": "us",
+       "start": 51.6,
+       "end": 51.76
+      }
+     ]
+    },
+    {
+     "show": "never made it to the finish line.",
+     "start": 51.84,
+     "end": 53.12,
+     "words": [
+      {
+       "text": "never",
+       "start": 51.84,
+       "end": 52.0
+      },
+      {
+       "text": "made",
+       "start": 52.08,
+       "end": 52.16
+      },
+      {
+       "text": "it",
+       "start": 52.24,
+       "end": 52.32
+      },
+      {
+       "text": "to",
+       "start": 52.36,
+       "end": 52.4
+      },
+      {
+       "text": "the",
+       "start": 52.44,
+       "end": 52.48
+      },
+      {
+       "text": "finish",
+       "start": 52.6,
+       "end": 52.72
+      },
+      {
+       "text": "line.",
+       "start": 52.8,
+       "end": 53.12
+      }
+     ]
+    }
+   ],
+   "start": 45.04,
+   "end": 53.12
+  },
+  {
+   "id": "piggy",
+   "label": "",
+   "lines": [
+    {
+     "show": "Above our beds",
+     "start": 53.24,
+     "end": 53.88,
+     "words": [
+      {
+       "text": "Above",
+       "start": 53.24,
+       "end": 53.36
+      },
+      {
+       "text": "our",
+       "start": 53.44,
+       "end": 53.6
+      },
+      {
+       "text": "beds",
+       "start": 53.72,
+       "end": 53.88
+      }
+     ]
+    },
+    {
+     "show": "hung a giant golden piggy bank.",
+     "start": 53.92,
+     "end": 55.68,
+     "words": [
+      {
+       "text": "hung",
+       "start": 53.92,
+       "end": 54.0
+      },
+      {
+       "text": "a",
+       "start": 54.08,
+       "end": 54.24
+      },
+      {
+       "text": "giant",
+       "start": 54.347,
+       "end": 54.56
+      },
+      {
+       "text": "golden",
+       "start": 54.64,
+       "end": 54.96
+      },
+      {
+       "text": "piggy",
+       "start": 55.04,
+       "end": 55.28
+      },
+      {
+       "text": "bank.",
+       "start": 55.4,
+       "end": 55.68
+      }
+     ]
+    },
+    {
+     "show": "Every player who was out",
+     "start": 55.8,
+     "end": 56.72,
+     "words": [
+      {
+       "text": "Every",
+       "start": 55.8,
+       "end": 55.92
+      },
+      {
+       "text": "player",
+       "start": 56.0,
+       "end": 56.24
+      },
+      {
+       "text": "who",
+       "start": 56.28,
+       "end": 56.32
+      },
+      {
+       "text": "was",
+       "start": 56.4,
+       "end": 56.48
+      },
+      {
+       "text": "out",
+       "start": 56.56,
+       "end": 56.72
+      }
+     ]
+    },
+    {
+     "show": "added {g:100 million won.}",
+     "start": 56.8,
+     "end": 58.56,
+     "words": [
+      {
+       "text": "added",
+       "start": 56.8,
+       "end": 57.04
+      },
+      {
+       "text": "100",
+       "start": 57.12,
+       "end": 57.68
+      },
+      {
+       "text": "million",
+       "start": 57.76,
+       "end": 58.08
+      },
+      {
+       "text": "won.",
+       "start": 58.16,
+       "end": 58.56
+      }
+     ]
+    }
+   ],
+   "start": 53.24,
+   "end": 58.56
+  },
+  {
+   "id": "vote",
+   "label": "",
+   "lines": [
+    {
+     "show": "We voted to go home.",
+     "start": 58.64,
+     "end": 59.707,
+     "words": [
+      {
+       "text": "We",
+       "start": 58.64,
+       "end": 58.72
+      },
+      {
+       "text": "voted",
+       "start": 58.8,
+       "end": 58.96
+      },
+      {
+       "text": "to",
+       "start": 59.0,
+       "end": 59.04
+      },
+      {
+       "text": "go",
+       "start": 59.12,
+       "end": 59.28
+      },
+      {
+       "text": "home.",
+       "start": 59.48,
+       "end": 59.707
+      }
+     ]
+    },
+    {
+     "show": "And we did.",
+     "start": 59.733,
+     "end": 60.32,
+     "words": [
+      {
+       "text": "And",
+       "start": 59.733,
+       "end": 59.76
+      },
+      {
+       "text": "we",
+       "start": 59.84,
+       "end": 60.0
+      },
+      {
+       "text": "did.",
+       "start": 60.12,
+       "end": 60.32
+      }
+     ]
+    },
+    {
+     "show": "But life outside was even worse.",
+     "start": 60.4,
+     "end": 62.24,
+     "words": [
+      {
+       "text": "But",
+       "start": 60.4,
+       "end": 60.48
+      },
+      {
+       "text": "life",
+       "start": 60.56,
+       "end": 60.72
+      },
+      {
+       "text": "outside",
+       "start": 61.0,
+       "end": 61.28
+      },
+      {
+       "text": "was",
+       "start": 61.36,
+       "end": 61.44
+      },
+      {
+       "text": "even",
+       "start": 61.56,
+       "end": 61.68
+      },
+      {
+       "text": "worse.",
+       "start": 61.72,
+       "end": 62.24
+      }
+     ]
+    },
+    {
+     "show": "So almost everyone",
+     "start": 62.4,
+     "end": 63.36,
+     "words": [
+      {
+       "text": "So",
+       "start": 62.4,
+       "end": 62.56
+      },
+      {
+       "text": "almost",
+       "start": 62.64,
+       "end": 62.96
+      },
+      {
+       "text": "everyone",
+       "start": 63.04,
+       "end": 63.36
+      }
+     ]
+    },
+    {
+     "show": "came back.",
+     "start": 63.44,
+     "end": 64.24,
+     "words": [
+      {
+       "text": "came",
+       "start": 63.44,
+       "end": 63.6
+      },
+      {
+       "text": "back.",
+       "start": 63.68,
+       "end": 64.24
+      }
+     ]
+    }
+   ],
+   "start": 58.64,
+   "end": 64.24
+  },
+  {
+   "id": "candy",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game two.",
+     "start": 64.36,
+     "end": 65.04,
+     "words": [
+      {
+       "text": "Game",
+       "start": 64.36,
+       "end": 64.48
+      },
+      {
+       "text": "two.",
+       "start": 64.64,
+       "end": 65.04
+      }
+     ]
+    },
+    {
+     "show": "Honeycomb candy.",
+     "start": 65.12,
+     "end": 66.0,
+     "words": [
+      {
+       "text": "Honeycomb",
+       "start": 65.12,
+       "end": 65.44
+      },
+      {
+       "text": "candy.",
+       "start": 65.52,
+       "end": 66.0
+      }
+     ]
+    },
+    {
+     "show": "Cut out a shape",
+     "start": 66.04,
+     "end": 66.64,
+     "words": [
+      {
+       "text": "Cut",
+       "start": 66.04,
+       "end": 66.08
+      },
+      {
+       "text": "out",
+       "start": 66.16,
+       "end": 66.24
+      },
+      {
+       "text": "a",
+       "start": 66.28,
+       "end": 66.32
+      },
+      {
+       "text": "shape",
+       "start": 66.4,
+       "end": 66.64
+      }
+     ]
+    },
+    {
+     "show": "without breaking it.",
+     "start": 66.8,
+     "end": 67.52,
+     "words": [
+      {
+       "text": "without",
+       "start": 66.8,
+       "end": 66.96
+      },
+      {
+       "text": "breaking",
+       "start": 67.12,
+       "end": 67.28
+      },
+      {
+       "text": "it.",
+       "start": 67.36,
+       "end": 67.52
+      }
+     ]
+    },
+    {
+     "show": "I got the {r:umbrella.}",
+     "start": 67.56,
+     "end": 68.48,
+     "words": [
+      {
+       "text": "I",
+       "start": 67.56,
+       "end": 67.6
+      },
+      {
+       "text": "got",
+       "start": 67.68,
+       "end": 67.76
+      },
+      {
+       "text": "the",
+       "start": 67.8,
+       "end": 67.84
+      },
+      {
+       "text": "umbrella.",
+       "start": 67.92,
+       "end": 68.48
+      }
+     ]
+    },
+    {
+     "show": "The hardest one.",
+     "start": 68.56,
+     "end": 69.44,
+     "words": [
+      {
+       "text": "The",
+       "start": 68.56,
+       "end": 68.64
+      },
+      {
+       "text": "hardest",
+       "start": 68.72,
+       "end": 69.04
+      },
+      {
+       "text": "one.",
+       "start": 69.12,
+       "end": 69.44
+      }
+     ]
+    },
+    {
+     "show": "So I licked it.",
+     "start": 69.64,
+     "end": 70.64,
+     "words": [
+      {
+       "text": "So",
+       "start": 69.64,
+       "end": 69.84
+      },
+      {
+       "text": "I",
+       "start": 69.92,
+       "end": 69.96
+      },
+      {
+       "text": "licked",
+       "start": 70.0,
+       "end": 70.16
+      },
+      {
+       "text": "it.",
+       "start": 70.24,
+       "end": 70.64
+      }
+     ]
+    }
+   ],
+   "start": 64.36,
+   "end": 70.64
+  },
+  {
+   "id": "tug",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game three.",
+     "start": 70.76,
+     "end": 71.44,
+     "words": [
+      {
+       "text": "Game",
+       "start": 70.76,
+       "end": 70.88
+      },
+      {
+       "text": "three.",
+       "start": 71.04,
+       "end": 71.44
+      }
+     ]
+    },
+    {
+     "show": "{y:Tug of war.}",
+     "start": 71.48,
+     "end": 72.32,
+     "words": [
+      {
+       "text": "Tug",
+       "start": 71.48,
+       "end": 71.6
+      },
+      {
+       "text": "of",
+       "start": 71.68,
+       "end": 71.76
+      },
+      {
+       "text": "war.",
+       "start": 71.84,
+       "end": 72.32
+      }
+     ]
+    },
+    {
+     "show": "Ten against ten,",
+     "start": 72.4,
+     "end": 73.28,
+     "words": [
+      {
+       "text": "Ten",
+       "start": 72.4,
+       "end": 72.48
+      },
+      {
+       "text": "against",
+       "start": 72.56,
+       "end": 72.88
+      },
+      {
+       "text": "ten,",
+       "start": 72.96,
+       "end": 73.28
+      }
+     ]
+    },
+    {
+     "show": "on two towers.",
+     "start": 73.4,
+     "end": 74.28,
+     "words": [
+      {
+       "text": "on",
+       "start": 73.4,
+       "end": 73.52
+      },
+      {
+       "text": "two",
+       "start": 73.6,
+       "end": 73.68
+      },
+      {
+       "text": "towers.",
+       "start": 73.76,
+       "end": 74.28
+      }
+     ]
+    },
+    {
+     "show": "Our team was weak.",
+     "start": 74.32,
+     "end": 75.307,
+     "words": [
+      {
+       "text": "Our",
+       "start": 74.32,
+       "end": 74.48
+      },
+      {
+       "text": "team",
+       "start": 74.6,
+       "end": 74.72
+      },
+      {
+       "text": "was",
+       "start": 74.8,
+       "end": 74.88
+      },
+      {
+       "text": "weak.",
+       "start": 74.96,
+       "end": 75.307
+      }
+     ]
+    },
+    {
+     "show": "But the old man,",
+     "start": 75.333,
+     "end": 76.08,
+     "words": [
+      {
+       "text": "But",
+       "start": 75.333,
+       "end": 75.36
+      },
+      {
+       "text": "the",
+       "start": 75.44,
+       "end": 75.52
+      },
+      {
+       "text": "old",
+       "start": 75.6,
+       "end": 75.68
+      },
+      {
+       "text": "man,",
+       "start": 75.76,
+       "end": 76.08
+      }
+     ]
+    },
+    {
+     "show": "Player 001,",
+     "start": 76.16,
+     "end": 77.28,
+     "words": [
+      {
+       "text": "Player",
+       "start": 76.16,
+       "end": 76.48
+      },
+      {
+       "text": "001,",
+       "start": 76.56,
+       "end": 77.28
+      }
+     ]
+    },
+    {
+     "show": "knew a trick.",
+     "start": 77.32,
+     "end": 78.08,
+     "words": [
+      {
+       "text": "knew",
+       "start": 77.32,
+       "end": 77.44
+      },
+      {
+       "text": "a",
+       "start": 77.52,
+       "end": 77.6
+      },
+      {
+       "text": "trick.",
+       "start": 77.68,
+       "end": 78.08
+      }
+     ]
+    },
+    {
+     "show": "Three steps forward.",
+     "start": 78.16,
+     "end": 79.16,
+     "words": [
+      {
+       "text": "Three",
+       "start": 78.16,
+       "end": 78.24
+      },
+      {
+       "text": "steps",
+       "start": 78.32,
+       "end": 78.56
+      },
+      {
+       "text": "forward.",
+       "start": 78.64,
+       "end": 79.16
+      }
+     ]
+    },
+    {
+     "show": "Then pull.",
+     "start": 79.2,
+     "end": 80.16,
+     "words": [
+      {
+       "text": "Then",
+       "start": 79.2,
+       "end": 79.52
+      },
+      {
+       "text": "pull.",
+       "start": 79.8,
+       "end": 80.16
+      }
+     ]
+    }
+   ],
+   "start": 70.76,
+   "end": 80.16
+  },
+  {
+   "id": "marbles",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game four.",
+     "start": 80.24,
+     "end": 81.04,
+     "words": [
+      {
+       "text": "Game",
+       "start": 80.24,
+       "end": 80.48
+      },
+      {
+       "text": "four.",
+       "start": 80.56,
+       "end": 81.04
+      }
+     ]
+    },
+    {
+     "show": "Marbles.",
+     "start": 81.12,
+     "end": 81.68,
+     "words": [
+      {
+       "text": "Marbles.",
+       "start": 81.12,
+       "end": 81.68
+      }
+     ]
+    },
+    {
+     "show": "Teams of two.",
+     "start": 81.8,
+     "end": 82.56,
+     "words": [
+      {
+       "text": "Teams",
+       "start": 81.8,
+       "end": 81.92
+      },
+      {
+       "text": "of",
+       "start": 82.0,
+       "end": 82.16
+      },
+      {
+       "text": "two.",
+       "start": 82.32,
+       "end": 82.56
+      }
+     ]
+    },
+    {
+     "show": "I played against the old man.",
+     "start": 82.64,
+     "end": 83.867,
+     "words": [
+      {
+       "text": "I",
+       "start": 82.64,
+       "end": 82.68
+      },
+      {
+       "text": "played",
+       "start": 82.72,
+       "end": 82.8
+      },
+      {
+       "text": "against",
+       "start": 82.88,
+       "end": 83.12
+      },
+      {
+       "text": "the",
+       "start": 83.16,
+       "end": 83.2
+      },
+      {
+       "text": "old",
+       "start": 83.28,
+       "end": 83.36
+      },
+      {
+       "text": "man.",
+       "start": 83.44,
+       "end": 83.867
+      }
+     ]
+    },
+    {
+     "show": "He forgot things.",
+     "start": 83.893,
+     "end": 84.827,
+     "words": [
+      {
+       "text": "He",
+       "start": 83.893,
+       "end": 83.92
+      },
+      {
+       "text": "forgot",
+       "start": 84.0,
+       "end": 84.32
+      },
+      {
+       "text": "things.",
+       "start": 84.56,
+       "end": 84.827
+      }
+     ]
+    },
+    {
+     "show": "And I {r:cheated.}",
+     "start": 84.853,
+     "end": 85.627,
+     "words": [
+      {
+       "text": "And",
+       "start": 84.853,
+       "end": 84.88
+      },
+      {
+       "text": "I",
+       "start": 85.12,
+       "end": 85.173
+      },
+      {
+       "text": "cheated.",
+       "start": 85.227,
+       "end": 85.627
+      }
+     ]
+    },
+    {
+     "show": "But he gave me his last marble anyway,",
+     "start": 85.653,
+     "end": 87.4,
+     "words": [
+      {
+       "text": "But",
+       "start": 85.653,
+       "end": 85.68
+      },
+      {
+       "text": "he",
+       "start": 85.72,
+       "end": 85.76
+      },
+      {
+       "text": "gave",
+       "start": 85.84,
+       "end": 86.0
+      },
+      {
+       "text": "me",
+       "start": 86.04,
+       "end": 86.08
+      },
+      {
+       "text": "his",
+       "start": 86.16,
+       "end": 86.24
+      },
+      {
+       "text": "last",
+       "start": 86.32,
+       "end": 86.56
+      },
+      {
+       "text": "marble",
+       "start": 86.64,
+       "end": 86.88
+      },
+      {
+       "text": "anyway,",
+       "start": 86.96,
+       "end": 87.4
+      }
+     ]
+    },
+    {
+     "show": "and smiled.",
+     "start": 87.44,
+     "end": 88.187,
+     "words": [
+      {
+       "text": "and",
+       "start": 87.44,
+       "end": 87.6
+      },
+      {
+       "text": "smiled.",
+       "start": 87.68,
+       "end": 88.187
+      }
+     ]
+    },
+    {
+     "show": "We're {y:friends,} he said.",
+     "start": 88.213,
+     "end": 89.48,
+     "words": [
+      {
+       "text": "We're",
+       "start": 88.213,
+       "end": 88.4
+      },
+      {
+       "text": "friends,",
+       "start": 88.64,
+       "end": 88.92
+      },
+      {
+       "text": "he",
+       "start": 88.96,
+       "end": 89.04
+      },
+      {
+       "text": "said.",
+       "start": 89.12,
+       "end": 89.48
+      }
+     ]
+    },
+    {
+     "show": "Friends share everything.",
+     "start": 89.52,
+     "end": 91.04,
+     "words": [
+      {
+       "text": "Friends",
+       "start": 89.52,
+       "end": 89.92
+      },
+      {
+       "text": "share",
+       "start": 90.08,
+       "end": 90.24
+      },
+      {
+       "text": "everything.",
+       "start": 90.32,
+       "end": 91.04
+      }
+     ]
+    }
+   ],
+   "start": 80.24,
+   "end": 91.04
+  },
+  {
+   "id": "glass",
+   "label": "",
+   "lines": [
+    {
+     "show": "Game five.",
+     "start": 91.12,
+     "end": 92.027,
+     "words": [
+      {
+       "text": "Game",
+       "start": 91.12,
+       "end": 91.36
+      },
+      {
+       "text": "five.",
+       "start": 91.44,
+       "end": 92.027
+      }
+     ]
+    },
+    {
+     "show": "A {b:glass bridge.}",
+     "start": 92.053,
+     "end": 93.04,
+     "words": [
+      {
+       "text": "A",
+       "start": 92.053,
+       "end": 92.08
+      },
+      {
+       "text": "glass",
+       "start": 92.16,
+       "end": 92.48
+      },
+      {
+       "text": "bridge.",
+       "start": 92.72,
+       "end": 93.04
+      }
+     ]
+    },
+    {
+     "show": "Two panels every step.",
+     "start": 93.12,
+     "end": 94.44,
+     "words": [
+      {
+       "text": "Two",
+       "start": 93.12,
+       "end": 93.2
+      },
+      {
+       "text": "panels",
+       "start": 93.28,
+       "end": 93.68
+      },
+      {
+       "text": "every",
+       "start": 93.76,
+       "end": 94.0
+      },
+      {
+       "text": "step.",
+       "start": 94.2,
+       "end": 94.44
+      }
+     ]
+    },
+    {
+     "show": "One holds you.",
+     "start": 94.48,
+     "end": 95.28,
+     "words": [
+      {
+       "text": "One",
+       "start": 94.48,
+       "end": 94.64
+      },
+      {
+       "text": "holds",
+       "start": 94.72,
+       "end": 94.96
+      },
+      {
+       "text": "you.",
+       "start": 95.04,
+       "end": 95.28
+      }
+     ]
+    },
+    {
+     "show": "One breaks.",
+     "start": 95.36,
+     "end": 96.133,
+     "words": [
+      {
+       "text": "One",
+       "start": 95.36,
+       "end": 95.6
+      },
+      {
+       "text": "breaks.",
+       "start": 95.84,
+       "end": 96.133
+      }
+     ]
+    },
+    {
+     "show": "The man in front of me",
+     "start": 96.16,
+     "end": 96.96,
+     "words": [
+      {
+       "text": "The",
+       "start": 96.16,
+       "end": 96.24
+      },
+      {
+       "text": "man",
+       "start": 96.32,
+       "end": 96.4
+      },
+      {
+       "text": "in",
+       "start": 96.48,
+       "end": 96.56
+      },
+      {
+       "text": "front",
+       "start": 96.64,
+       "end": 96.72
+      },
+      {
+       "text": "of",
+       "start": 96.76,
+       "end": 96.8
+      },
+      {
+       "text": "me",
+       "start": 96.88,
+       "end": 96.96
+      }
+     ]
+    },
+    {
+     "show": "could tell the glass apart.",
+     "start": 97.04,
+     "end": 98.24,
+     "words": [
+      {
+       "text": "could",
+       "start": 97.04,
+       "end": 97.12
+      },
+      {
+       "text": "tell",
+       "start": 97.2,
+       "end": 97.28
+      },
+      {
+       "text": "the",
+       "start": 97.32,
+       "end": 97.36
+      },
+      {
+       "text": "glass",
+       "start": 97.48,
+       "end": 97.6
+      },
+      {
+       "text": "apart.",
+       "start": 97.68,
+       "end": 98.24
+      }
+     ]
+    },
+    {
+     "show": "Until the guards",
+     "start": 98.32,
+     "end": 98.88,
+     "words": [
+      {
+       "text": "Until",
+       "start": 98.32,
+       "end": 98.4
+      },
+      {
+       "text": "the",
+       "start": 98.44,
+       "end": 98.48
+      },
+      {
+       "text": "guards",
+       "start": 98.56,
+       "end": 98.88
+      }
+     ]
+    },
+    {
+     "show": "turned off the lights.",
+     "start": 98.96,
+     "end": 100.0,
+     "words": [
+      {
+       "text": "turned",
+       "start": 98.96,
+       "end": 99.12
+      },
+      {
+       "text": "off",
+       "start": 99.16,
+       "end": 99.2
+      },
+      {
+       "text": "the",
+       "start": 99.28,
+       "end": 99.36
+      },
+      {
+       "text": "lights.",
+       "start": 99.56,
+       "end": 100.0
+      }
+     ]
+    },
+    {
+     "show": "Sixteen players.",
+     "start": 100.08,
+     "end": 101.16,
+     "words": [
+      {
+       "text": "Sixteen",
+       "start": 100.08,
+       "end": 100.56
+      },
+      {
+       "text": "players.",
+       "start": 100.64,
+       "end": 101.16
+      }
+     ]
+    },
+    {
+     "show": "Only three",
+     "start": 101.2,
+     "end": 101.84,
+     "words": [
+      {
+       "text": "Only",
+       "start": 101.2,
+       "end": 101.52
+      },
+      {
+       "text": "three",
+       "start": 101.6,
+       "end": 101.84
+      }
+     ]
+    },
+    {
+     "show": "made it across.",
+     "start": 101.88,
+     "end": 102.84,
+     "words": [
+      {
+       "text": "made",
+       "start": 101.88,
+       "end": 101.92
+      },
+      {
+       "text": "it",
+       "start": 102.0,
+       "end": 102.08
+      },
+      {
+       "text": "across.",
+       "start": 102.16,
+       "end": 102.84
+      }
+     ]
+    }
+   ],
+   "start": 91.12,
+   "end": 102.84
+  },
+  {
+   "id": "final",
+   "label": "",
+   "lines": [
+    {
+     "show": "The final game.",
+     "start": 102.88,
+     "end": 103.88,
+     "words": [
+      {
+       "text": "The",
+       "start": 102.88,
+       "end": 103.04
+      },
+      {
+       "text": "final",
+       "start": 103.2,
+       "end": 103.36
+      },
+      {
+       "text": "game.",
+       "start": 103.6,
+       "end": 103.88
+      }
+     ]
+    },
+    {
+     "show": "Just me",
+     "start": 103.92,
+     "end": 104.4,
+     "words": [
+      {
+       "text": "Just",
+       "start": 103.92,
+       "end": 104.08
+      },
+      {
+       "text": "me",
+       "start": 104.16,
+       "end": 104.4
+      }
+     ]
+    },
+    {
+     "show": "and my childhood friend,",
+     "start": 104.44,
+     "end": 105.6,
+     "words": [
+      {
+       "text": "and",
+       "start": 104.44,
+       "end": 104.48
+      },
+      {
+       "text": "my",
+       "start": 104.56,
+       "end": 104.64
+      },
+      {
+       "text": "childhood",
+       "start": 104.72,
+       "end": 105.12
+      },
+      {
+       "text": "friend,",
+       "start": 105.32,
+       "end": 105.6
+      }
+     ]
+    },
+    {
+     "show": "Sang-woo.",
+     "start": 105.68,
+     "end": 106.28,
+     "words": [
+      {
+       "text": "Sang-woo.",
+       "start": 105.68,
+       "end": 106.28
+      }
+     ]
+    },
+    {
+     "show": "In the rain.",
+     "start": 106.32,
+     "end": 107.067,
+     "words": [
+      {
+       "text": "In",
+       "start": 106.32,
+       "end": 106.4
+      },
+      {
+       "text": "the",
+       "start": 106.48,
+       "end": 106.56
+      },
+      {
+       "text": "rain.",
+       "start": 106.8,
+       "end": 107.067
+      }
+     ]
+    },
+    {
+     "show": "On a giant squid drawn in the sand.",
+     "start": 107.093,
+     "end": 109.2,
+     "words": [
+      {
+       "text": "On",
+       "start": 107.093,
+       "end": 107.12
+      },
+      {
+       "text": "a",
+       "start": 107.28,
+       "end": 107.32
+      },
+      {
+       "text": "giant",
+       "start": 107.36,
+       "end": 107.68
+      },
+      {
+       "text": "squid",
+       "start": 107.76,
+       "end": 108.16
+      },
+      {
+       "text": "drawn",
+       "start": 108.24,
+       "end": 108.4
+      },
+      {
+       "text": "in",
+       "start": 108.44,
+       "end": 108.48
+      },
+      {
+       "text": "the",
+       "start": 108.56,
+       "end": 108.64
+      },
+      {
+       "text": "sand.",
+       "start": 108.88,
+       "end": 109.2
+      }
+     ]
+    },
+    {
+     "show": "I asked him to stop.",
+     "start": 109.28,
+     "end": 110.187,
+     "words": [
+      {
+       "text": "I",
+       "start": 109.28,
+       "end": 109.333
+      },
+      {
+       "text": "asked",
+       "start": 109.387,
+       "end": 109.493
+      },
+      {
+       "text": "him",
+       "start": 109.547,
+       "end": 109.6
+      },
+      {
+       "text": "to",
+       "start": 109.68,
+       "end": 109.76
+      },
+      {
+       "text": "stop.",
+       "start": 109.96,
+       "end": 110.187
+      }
+     ]
+    },
+    {
+     "show": "To go home together.",
+     "start": 110.213,
+     "end": 111.253,
+     "words": [
+      {
+       "text": "To",
+       "start": 110.213,
+       "end": 110.24
+      },
+      {
+       "text": "go",
+       "start": 110.32,
+       "end": 110.48
+      },
+      {
+       "text": "home",
+       "start": 110.6,
+       "end": 110.72
+      },
+      {
+       "text": "together.",
+       "start": 110.76,
+       "end": 111.253
+      }
+     ]
+    },
+    {
+     "show": "He didn't.",
+     "start": 111.307,
+     "end": 111.96,
+     "words": [
+      {
+       "text": "He",
+       "start": 111.307,
+       "end": 111.36
+      },
+      {
+       "text": "didn't.",
+       "start": 111.44,
+       "end": 111.96
+      }
+     ]
+    }
+   ],
+   "start": 102.88,
+   "end": 111.96
+  },
+  {
+   "id": "win",
+   "label": "",
+   "lines": [
+    {
+     "show": "I won.",
+     "start": 112.08,
+     "end": 112.6,
+     "words": [
+      {
+       "text": "I",
+       "start": 112.08,
+       "end": 112.12
+      },
+      {
+       "text": "won.",
+       "start": 112.16,
+       "end": 112.6
+      }
+     ]
+    },
+    {
+     "show": "{g:45.6 billion won.}",
+     "start": 112.64,
+     "end": 114.747,
+     "words": [
+      {
+       "text": "45.6",
+       "start": 112.64,
+       "end": 113.2
+      },
+      {
+       "text": "billion",
+       "start": 113.28,
+       "end": 114.32
+      },
+      {
+       "text": "won.",
+       "start": 114.52,
+       "end": 114.747
+      }
+     ]
+    },
+    {
+     "show": "And I couldn't spend",
+     "start": 114.773,
+     "end": 115.6,
+     "words": [
+      {
+       "text": "And",
+       "start": 114.773,
+       "end": 114.8
+      },
+      {
+       "text": "I",
+       "start": 115.04,
+       "end": 115.093
+      },
+      {
+       "text": "couldn't",
+       "start": 115.147,
+       "end": 115.28
+      },
+      {
+       "text": "spend",
+       "start": 115.36,
+       "end": 115.6
+      }
+     ]
+    },
+    {
+     "show": "a single coin.",
+     "start": 115.76,
+     "end": 116.747,
+     "words": [
+      {
+       "text": "a",
+       "start": 115.76,
+       "end": 115.8
+      },
+      {
+       "text": "single",
+       "start": 115.84,
+       "end": 116.16
+      },
+      {
+       "text": "coin.",
+       "start": 116.44,
+       "end": 116.747
+      }
+     ]
+    },
+    {
+     "show": "When I got home,",
+     "start": 116.773,
+     "end": 117.653,
+     "words": [
+      {
+       "text": "When",
+       "start": 116.773,
+       "end": 116.8
+      },
+      {
+       "text": "I",
+       "start": 116.88,
+       "end": 116.92
+      },
+      {
+       "text": "got",
+       "start": 116.96,
+       "end": 117.12
+      },
+      {
+       "text": "home,",
+       "start": 117.36,
+       "end": 117.653
+      }
+     ]
+    },
+    {
+     "show": "my mom was {r:gone.}",
+     "start": 117.707,
+     "end": 118.747,
+     "words": [
+      {
+       "text": "my",
+       "start": 117.707,
+       "end": 117.76
+      },
+      {
+       "text": "mom",
+       "start": 117.88,
+       "end": 118.0
+      },
+      {
+       "text": "was",
+       "start": 118.08,
+       "end": 118.16
+      },
+      {
+       "text": "gone.",
+       "start": 118.24,
+       "end": 118.747
+      }
+     ]
+    }
+   ],
+   "start": 112.08,
+   "end": 118.747
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "A year later,",
+     "start": 118.773,
+     "end": 119.48,
+     "words": [
+      {
+       "text": "A",
+       "start": 118.773,
+       "end": 118.8
+      },
+      {
+       "text": "year",
+       "start": 118.88,
+       "end": 119.04
+      },
+      {
+       "text": "later,",
+       "start": 119.24,
+       "end": 119.48
+      }
+     ]
+    },
+    {
+     "show": "I got another card.",
+     "start": 119.52,
+     "end": 120.44,
+     "words": [
+      {
+       "text": "I",
+       "start": 119.52,
+       "end": 119.547
+      },
+      {
+       "text": "got",
+       "start": 119.573,
+       "end": 119.6
+      },
+      {
+       "text": "another",
+       "start": 119.68,
+       "end": 120.0
+      },
+      {
+       "text": "card.",
+       "start": 120.2,
+       "end": 120.44
+      }
+     ]
+    },
+    {
+     "show": "In a hospital bed",
+     "start": 120.48,
+     "end": 121.28,
+     "words": [
+      {
+       "text": "In",
+       "start": 120.48,
+       "end": 120.52
+      },
+      {
+       "text": "a",
+       "start": 120.56,
+       "end": 120.6
+      },
+      {
+       "text": "hospital",
+       "start": 120.64,
+       "end": 121.04
+      },
+      {
+       "text": "bed",
+       "start": 121.12,
+       "end": 121.28
+      }
+     ]
+    },
+    {
+     "show": "was the old man.",
+     "start": 121.36,
+     "end": 122.2,
+     "words": [
+      {
+       "text": "was",
+       "start": 121.36,
+       "end": 121.44
+      },
+      {
+       "text": "the",
+       "start": 121.48,
+       "end": 121.52
+      },
+      {
+       "text": "old",
+       "start": 121.6,
+       "end": 121.76
+      },
+      {
+       "text": "man.",
+       "start": 121.96,
+       "end": 122.2
+      }
+     ]
+    },
+    {
+     "show": "Player 001.",
+     "start": 122.24,
+     "end": 123.52,
+     "words": [
+      {
+       "text": "Player",
+       "start": 122.24,
+       "end": 122.56
+      },
+      {
+       "text": "001.",
+       "start": 122.64,
+       "end": 123.52
+      }
+     ]
+    },
+    {
+     "show": "{r:Alive.}",
+     "start": 123.6,
+     "end": 124.24,
+     "words": [
+      {
+       "text": "Alive.",
+       "start": 123.6,
+       "end": 124.24
+      }
+     ]
+    },
+    {
+     "show": "He wasn't a player.",
+     "start": 124.32,
+     "end": 125.24,
+     "words": [
+      {
+       "text": "He",
+       "start": 124.32,
+       "end": 124.4
+      },
+      {
+       "text": "wasn't",
+       "start": 124.48,
+       "end": 124.64
+      },
+      {
+       "text": "a",
+       "start": 124.72,
+       "end": 124.76
+      },
+      {
+       "text": "player.",
+       "start": 124.8,
+       "end": 125.24
+      }
+     ]
+    },
+    {
+     "show": "He {r:created} the game.",
+     "start": 125.28,
+     "end": 126.48,
+     "words": [
+      {
+       "text": "He",
+       "start": 125.28,
+       "end": 125.44
+      },
+      {
+       "text": "created",
+       "start": 125.68,
+       "end": 125.92
+      },
+      {
+       "text": "the",
+       "start": 125.96,
+       "end": 126.0
+      },
+      {
+       "text": "game.",
+       "start": 126.08,
+       "end": 126.48
+      }
+     ]
+    },
+    {
+     "show": "Because he was {r:bored.}",
+     "start": 126.56,
+     "end": 127.627,
+     "words": [
+      {
+       "text": "Because",
+       "start": 126.56,
+       "end": 126.64
+      },
+      {
+       "text": "he",
+       "start": 126.72,
+       "end": 126.76
+      },
+      {
+       "text": "was",
+       "start": 126.8,
+       "end": 126.96
+      },
+      {
+       "text": "bored.",
+       "start": 127.0,
+       "end": 127.627
+      }
+     ]
+    },
+    {
+     "show": "Watching was fun, he said.",
+     "start": 127.733,
+     "end": 129.013,
+     "words": [
+      {
+       "text": "Watching",
+       "start": 127.733,
+       "end": 127.84
+      },
+      {
+       "text": "was",
+       "start": 127.92,
+       "end": 128.08
+      },
+      {
+       "text": "fun,",
+       "start": 128.16,
+       "end": 128.44
+      },
+      {
+       "text": "he",
+       "start": 128.48,
+       "end": 128.56
+      },
+      {
+       "text": "said.",
+       "start": 128.64,
+       "end": 129.013
+      }
+     ]
+    },
+    {
+     "show": "But playing was more fun.",
+     "start": 129.067,
+     "end": 130.56,
+     "words": [
+      {
+       "text": "But",
+       "start": 129.067,
+       "end": 129.12
+      },
+      {
+       "text": "playing",
+       "start": 129.2,
+       "end": 129.6
+      },
+      {
+       "text": "was",
+       "start": 129.72,
+       "end": 129.84
+      },
+      {
+       "text": "more",
+       "start": 129.96,
+       "end": 130.08
+      },
+      {
+       "text": "fun.",
+       "start": 130.16,
+       "end": 130.56
+      }
+     ]
+    }
+   ],
+   "start": 118.773,
+   "end": 130.56
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I dyed my hair red,",
+     "start": 130.64,
+     "end": 132.12,
+     "words": [
+      {
+       "text": "So",
+       "start": 130.64,
+       "end": 130.88
+      },
+      {
+       "text": "I",
+       "start": 131.12,
+       "end": 131.147
+      },
+      {
+       "text": "dyed",
+       "start": 131.173,
+       "end": 131.36
+      },
+      {
+       "text": "my",
+       "start": 131.44,
+       "end": 131.52
+      },
+      {
+       "text": "hair",
+       "start": 131.6,
+       "end": 131.68
+      },
+      {
+       "text": "red,",
+       "start": 131.76,
+       "end": 132.12
+      }
+     ]
+    },
+    {
+     "show": "turned around at the airport,",
+     "start": 132.16,
+     "end": 133.24,
+     "words": [
+      {
+       "text": "turned",
+       "start": 132.16,
+       "end": 132.32
+      },
+      {
+       "text": "around",
+       "start": 132.4,
+       "end": 132.56
+      },
+      {
+       "text": "at",
+       "start": 132.6,
+       "end": 132.64
+      },
+      {
+       "text": "the",
+       "start": 132.72,
+       "end": 132.8
+      },
+      {
+       "text": "airport,",
+       "start": 133.0,
+       "end": 133.24
+      }
+     ]
+    },
+    {
+     "show": "and walked straight back",
+     "start": 133.28,
+     "end": 134.32,
+     "words": [
+      {
+       "text": "and",
+       "start": 133.28,
+       "end": 133.44
+      },
+      {
+       "text": "walked",
+       "start": 133.52,
+       "end": 133.76
+      },
+      {
+       "text": "straight",
+       "start": 133.84,
+       "end": 134.08
+      },
+      {
+       "text": "back",
+       "start": 134.16,
+       "end": 134.32
+      }
+     ]
+    },
+    {
+     "show": "into the {r:game.}",
+     "start": 134.4,
+     "end": 135.147,
+     "words": [
+      {
+       "text": "into",
+       "start": 134.4,
+       "end": 134.48
+      },
+      {
+       "text": "the",
+       "start": 134.52,
+       "end": 134.56
+      },
+      {
+       "text": "game.",
+       "start": 134.64,
+       "end": 135.147
+      }
+     ]
+    },
+    {
+     "show": "Because someone",
+     "start": 135.253,
+     "end": 135.84,
+     "words": [
+      {
+       "text": "Because",
+       "start": 135.253,
+       "end": 135.36
+      },
+      {
+       "text": "someone",
+       "start": 135.44,
+       "end": 135.84
+      }
+     ]
+    },
+    {
+     "show": "had to end it.",
+     "start": 135.92,
+     "end": 136.72,
+     "words": [
+      {
+       "text": "had",
+       "start": 135.92,
+       "end": 136.0
+      },
+      {
+       "text": "to",
+       "start": 136.04,
+       "end": 136.08
+      },
+      {
+       "text": "end",
+       "start": 136.16,
+       "end": 136.32
+      },
+      {
+       "text": "it.",
+       "start": 136.4,
+       "end": 136.72
+      }
+     ]
+    }
+   ],
+   "start": 130.64,
+   "end": 136.72
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+hook|In this game,|456 people play {y:children's games.}|The winner gets|{g:45.6 billion won.}|But if you lose,|you're out.|{r:Forever.}
+me|My name is Gi-hun.|Player {y:456.}|I was broke,|divorced,|and I owed money|to very bad people.
+subway|One day at the subway,|a man in a suit|challenged me to a game.|Every time I lost,|he slapped me.|Every time I won,|he paid me.|Then he asked:|Want to make some {g:real money?}|And he gave me a card.|{y:Circle. Triangle. Square.}
+island|I woke up on a secret island.|456 people in green tracksuits.|All of them broke.|All of them desperate.|And guards in pink,|with {r:masks.}
+friends|I wasn't alone.|There was Sang-woo,|my childhood friend,|the smartest kid in our neighborhood.|Sae-byeok,|a pickpocket who never smiled.|And the old man,|Player 001,|who just wanted to have fun.
+doll|Game one.|{g:Red Light,} {r:Green Light.}|A giant doll.|When she turns around,|you freeze.|If you move,|you're {r:out.}|Half of us|never made it to the finish line.
+piggy|Above our beds|hung a giant golden piggy bank.|Every player who was out|added {g:100 million won.}
+vote|We voted to go home.|And we did.|But life outside was even worse.|So almost everyone|came back.
+candy|Game two.|Honeycomb candy.|Cut out a shape|without breaking it.|I got the {r:umbrella.}|The hardest one.|So I licked it.
+tug|Game three.|{y:Tug of war.}|Ten against ten,|on two towers.|Our team was weak.|But the old man,|Player 001,|knew a trick.|Three steps forward.|Then pull.
+marbles|Game four.|Marbles.|Teams of two.|I played against the old man.|He forgot things.|And I {r:cheated.}|But he gave me his last marble anyway,|and smiled.|We're {y:friends,} he said.|Friends share everything.
+glass|Game five.|A {b:glass bridge.}|Two panels every step.|One holds you.|One breaks.|The man in front of me|could tell the glass apart.|Until the guards|turned off the lights.|Sixteen players.|Only three|made it across.
+final|The final game.|Just me|and my childhood friend,|Sang-woo.|In the rain.|On a giant squid drawn in the sand.|I asked him to stop.|To go home together.|He didn't.
+win|I won.|{g:45.6 billion won.}|And I couldn't spend|a single coin.|When I got home,|my mom was {r:gone.}
+twist|A year later,|I got another card.|In a hospital bed|was the old man.|Player 001.|{r:Alive.}|He wasn't a player.|He {r:created} the game.|Because he was {r:bored.}|Watching was fun, he said.|But playing was more fun.
+end|So I dyed my hair red,|turned around at the airport,|and walked straight back|into the {r:game.}|Because someone|had to end it.
