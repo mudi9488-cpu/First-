@@ -1,0 +1,3136 @@
+{
+ "duration": 121.626,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.88,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.48,
+       "end": 0.88
+      }
+     ]
+    },
+    {
+     "show": "nobody is allowed",
+     "start": 0.96,
+     "end": 1.76,
+     "words": [
+      {
+       "text": "nobody",
+       "start": 0.96,
+       "end": 1.28
+      },
+      {
+       "text": "is",
+       "start": 1.36,
+       "end": 1.44
+      },
+      {
+       "text": "allowed",
+       "start": 1.52,
+       "end": 1.76
+      }
+     ]
+    },
+    {
+     "show": "to look at the {y:moon.}",
+     "start": 1.8,
+     "end": 2.64,
+     "words": [
+      {
+       "text": "to",
+       "start": 1.8,
+       "end": 1.84
+      },
+      {
+       "text": "look",
+       "start": 1.92,
+       "end": 2.0
+      },
+      {
+       "text": "at",
+       "start": 2.04,
+       "end": 2.08
+      },
+      {
+       "text": "the",
+       "start": 2.16,
+       "end": 2.2
+      },
+      {
+       "text": "moon.",
+       "start": 2.24,
+       "end": 2.64
+      }
+     ]
+    },
+    {
+     "show": "Not even for a second.",
+     "start": 2.72,
+     "end": 4.0,
+     "words": [
+      {
+       "text": "Not",
+       "start": 2.72,
+       "end": 2.8
+      },
+      {
+       "text": "even",
+       "start": 2.88,
+       "end": 3.12
+      },
+      {
+       "text": "for",
+       "start": 3.2,
+       "end": 3.28
+      },
+      {
+       "text": "a",
+       "start": 3.36,
+       "end": 3.44
+      },
+      {
+       "text": "second.",
+       "start": 3.52,
+       "end": 4.0
+      }
+     ]
+    },
+    {
+     "show": "Because if you look at the moon,",
+     "start": 4.08,
+     "end": 5.2,
+     "words": [
+      {
+       "text": "Because",
+       "start": 4.08,
+       "end": 4.16
+      },
+      {
+       "text": "if",
+       "start": 4.24,
+       "end": 4.32
+      },
+      {
+       "text": "you",
+       "start": 4.4,
+       "end": 4.48
+      },
+      {
+       "text": "look",
+       "start": 4.52,
+       "end": 4.56
+      },
+      {
+       "text": "at",
+       "start": 4.6,
+       "end": 4.64
+      },
+      {
+       "text": "the",
+       "start": 4.72,
+       "end": 4.76
+      },
+      {
+       "text": "moon,",
+       "start": 4.8,
+       "end": 5.2
+      }
+     ]
+    },
+    {
+     "show": "it looks {r:back.}",
+     "start": 5.28,
+     "end": 6.16,
+     "words": [
+      {
+       "text": "it",
+       "start": 5.28,
+       "end": 5.36
+      },
+      {
+       "text": "looks",
+       "start": 5.48,
+       "end": 5.6
+      },
+      {
+       "text": "back.",
+       "start": 5.68,
+       "end": 6.16
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 6.16
+  },
+  {
+   "id": "rules",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every night at nine,",
+     "start": 6.28,
+     "end": 7.12,
+     "words": [
+      {
+       "text": "Every",
+       "start": 6.28,
+       "end": 6.4
+      },
+      {
+       "text": "night",
+       "start": 6.48,
+       "end": 6.56
+      },
+      {
+       "text": "at",
+       "start": 6.64,
+       "end": 6.72
+      },
+      {
+       "text": "nine,",
+       "start": 6.8,
+       "end": 7.12
+      }
+     ]
+    },
+    {
+     "show": "the sirens go off.",
+     "start": 7.2,
+     "end": 8.24,
+     "words": [
+      {
+       "text": "the",
+       "start": 7.2,
+       "end": 7.28
+      },
+      {
+       "text": "sirens",
+       "start": 7.32,
+       "end": 7.68
+      },
+      {
+       "text": "go",
+       "start": 7.76,
+       "end": 7.84
+      },
+      {
+       "text": "off.",
+       "start": 7.92,
+       "end": 8.24
+      }
+     ]
+    },
+    {
+     "show": "Windows get covered.",
+     "start": 8.44,
+     "end": 9.28,
+     "words": [
+      {
+       "text": "Windows",
+       "start": 8.44,
+       "end": 8.64
+      },
+      {
+       "text": "get",
+       "start": 8.72,
+       "end": 8.8
+      },
+      {
+       "text": "covered.",
+       "start": 8.88,
+       "end": 9.28
+      }
+     ]
+    },
+    {
+     "show": "Kids sleep with blindfolds.",
+     "start": 9.44,
+     "end": 10.747,
+     "words": [
+      {
+       "text": "Kids",
+       "start": 9.44,
+       "end": 9.6
+      },
+      {
+       "text": "sleep",
+       "start": 9.72,
+       "end": 9.84
+      },
+      {
+       "text": "with",
+       "start": 9.92,
+       "end": 10.0
+      },
+      {
+       "text": "blindfolds.",
+       "start": 10.16,
+       "end": 10.747
+      }
+     ]
+    },
+    {
+     "show": "And the streets stay completely empty.",
+     "start": 10.773,
+     "end": 12.72,
+     "words": [
+      {
+       "text": "And",
+       "start": 10.773,
+       "end": 10.8
+      },
+      {
+       "text": "the",
+       "start": 10.84,
+       "end": 10.88
+      },
+      {
+       "text": "streets",
+       "start": 10.96,
+       "end": 11.36
+      },
+      {
+       "text": "stay",
+       "start": 11.44,
+       "end": 11.6
+      },
+      {
+       "text": "completely",
+       "start": 11.72,
+       "end": 12.24
+      },
+      {
+       "text": "empty.",
+       "start": 12.4,
+       "end": 12.72
+      }
+     ]
+    },
+    {
+     "show": "The rule is simple.",
+     "start": 12.8,
+     "end": 13.76,
+     "words": [
+      {
+       "text": "The",
+       "start": 12.8,
+       "end": 12.88
+      },
+      {
+       "text": "rule",
+       "start": 13.04,
+       "end": 13.2
+      },
+      {
+       "text": "is",
+       "start": 13.28,
+       "end": 13.36
+      },
+      {
+       "text": "simple.",
+       "start": 13.52,
+       "end": 13.76
+      }
+     ]
+    },
+    {
+     "show": "Eyes on the ground.",
+     "start": 13.84,
+     "end": 14.96,
+     "words": [
+      {
+       "text": "Eyes",
+       "start": 13.84,
+       "end": 14.16
+      },
+      {
+       "text": "on",
+       "start": 14.2,
+       "end": 14.24
+      },
+      {
+       "text": "the",
+       "start": 14.32,
+       "end": 14.4
+      },
+      {
+       "text": "ground.",
+       "start": 14.6,
+       "end": 14.96
+      }
+     ]
+    },
+    {
+     "show": "{r:Always.}",
+     "start": 15.24,
+     "end": 15.6,
+     "words": [
+      {
+       "text": "Always.",
+       "start": 15.24,
+       "end": 15.6
+      }
+     ]
+    },
+    {
+     "show": "Even the dogs know.",
+     "start": 15.68,
+     "end": 16.56,
+     "words": [
+      {
+       "text": "Even",
+       "start": 15.68,
+       "end": 15.76
+      },
+      {
+       "text": "the",
+       "start": 15.84,
+       "end": 15.92
+      },
+      {
+       "text": "dogs",
+       "start": 16.08,
+       "end": 16.24
+      },
+      {
+       "text": "know.",
+       "start": 16.36,
+       "end": 16.56
+      }
+     ]
+    },
+    {
+     "show": "They sleep facing the wall.",
+     "start": 16.64,
+     "end": 17.92,
+     "words": [
+      {
+       "text": "They",
+       "start": 16.64,
+       "end": 16.72
+      },
+      {
+       "text": "sleep",
+       "start": 16.84,
+       "end": 16.96
+      },
+      {
+       "text": "facing",
+       "start": 17.04,
+       "end": 17.28
+      },
+      {
+       "text": "the",
+       "start": 17.32,
+       "end": 17.36
+      },
+      {
+       "text": "wall.",
+       "start": 17.44,
+       "end": 17.92
+      }
+     ]
+    }
+   ],
+   "start": 6.28,
+   "end": 17.92
+  },
+  {
+   "id": "park",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last year,",
+     "start": 18.0,
+     "end": 18.56,
+     "words": [
+      {
+       "text": "Last",
+       "start": 18.0,
+       "end": 18.24
+      },
+      {
+       "text": "year,",
+       "start": 18.36,
+       "end": 18.56
+      }
+     ]
+    },
+    {
+     "show": "Mr. Park forgot.",
+     "start": 18.64,
+     "end": 19.68,
+     "words": [
+      {
+       "text": "Mr.",
+       "start": 18.64,
+       "end": 18.8
+      },
+      {
+       "text": "Park",
+       "start": 18.88,
+       "end": 19.12
+      },
+      {
+       "text": "forgot.",
+       "start": 19.2,
+       "end": 19.68
+      }
+     ]
+    },
+    {
+     "show": "He looked up",
+     "start": 19.72,
+     "end": 20.16,
+     "words": [
+      {
+       "text": "He",
+       "start": 19.72,
+       "end": 19.76
+      },
+      {
+       "text": "looked",
+       "start": 19.84,
+       "end": 20.0
+      },
+      {
+       "text": "up",
+       "start": 20.08,
+       "end": 20.16
+      }
+     ]
+    },
+    {
+     "show": "for just one second.",
+     "start": 20.24,
+     "end": 21.36,
+     "words": [
+      {
+       "text": "for",
+       "start": 20.24,
+       "end": 20.32
+      },
+      {
+       "text": "just",
+       "start": 20.48,
+       "end": 20.64
+      },
+      {
+       "text": "one",
+       "start": 20.72,
+       "end": 20.8
+      },
+      {
+       "text": "second.",
+       "start": 20.96,
+       "end": 21.36
+      }
+     ]
+    },
+    {
+     "show": "The next morning,",
+     "start": 21.44,
+     "end": 22.213,
+     "words": [
+      {
+       "text": "The",
+       "start": 21.44,
+       "end": 21.52
+      },
+      {
+       "text": "next",
+       "start": 21.6,
+       "end": 21.68
+      },
+      {
+       "text": "morning,",
+       "start": 21.76,
+       "end": 22.213
+      }
+     ]
+    },
+    {
+     "show": "his house was empty.",
+     "start": 22.267,
+     "end": 23.2,
+     "words": [
+      {
+       "text": "his",
+       "start": 22.267,
+       "end": 22.32
+      },
+      {
+       "text": "house",
+       "start": 22.44,
+       "end": 22.56
+      },
+      {
+       "text": "was",
+       "start": 22.68,
+       "end": 22.8
+      },
+      {
+       "text": "empty.",
+       "start": 22.96,
+       "end": 23.2
+      }
+     ]
+    },
+    {
+     "show": "Only his glasses on the floor.",
+     "start": 23.28,
+     "end": 24.8,
+     "words": [
+      {
+       "text": "Only",
+       "start": 23.28,
+       "end": 23.52
+      },
+      {
+       "text": "his",
+       "start": 23.6,
+       "end": 23.68
+      },
+      {
+       "text": "glasses",
+       "start": 23.72,
+       "end": 24.08
+      },
+      {
+       "text": "on",
+       "start": 24.12,
+       "end": 24.16
+      },
+      {
+       "text": "the",
+       "start": 24.24,
+       "end": 24.32
+      },
+      {
+       "text": "floor.",
+       "start": 24.48,
+       "end": 24.8
+      }
+     ]
+    },
+    {
+     "show": "Still {r:warm.}",
+     "start": 24.88,
+     "end": 25.68,
+     "words": [
+      {
+       "text": "Still",
+       "start": 24.88,
+       "end": 25.12
+      },
+      {
+       "text": "warm.",
+       "start": 25.2,
+       "end": 25.68
+      }
+     ]
+    },
+    {
+     "show": "The police searched for weeks.",
+     "start": 25.72,
+     "end": 27.28,
+     "words": [
+      {
+       "text": "The",
+       "start": 25.72,
+       "end": 25.76
+      },
+      {
+       "text": "police",
+       "start": 25.84,
+       "end": 26.16
+      },
+      {
+       "text": "searched",
+       "start": 26.28,
+       "end": 26.48
+      },
+      {
+       "text": "for",
+       "start": 26.6,
+       "end": 26.72
+      },
+      {
+       "text": "weeks.",
+       "start": 26.92,
+       "end": 27.28
+      }
+     ]
+    },
+    {
+     "show": "Nobody ever found him.",
+     "start": 27.48,
+     "end": 28.64,
+     "words": [
+      {
+       "text": "Nobody",
+       "start": 27.48,
+       "end": 27.68
+      },
+      {
+       "text": "ever",
+       "start": 27.76,
+       "end": 28.0
+      },
+      {
+       "text": "found",
+       "start": 28.12,
+       "end": 28.24
+      },
+      {
+       "text": "him.",
+       "start": 28.32,
+       "end": 28.64
+      }
+     ]
+    }
+   ],
+   "start": 18.0,
+   "end": 28.64
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is Noah.",
+     "start": 28.72,
+     "end": 29.547,
+     "words": [
+      {
+       "text": "My",
+       "start": 28.72,
+       "end": 28.8
+      },
+      {
+       "text": "name",
+       "start": 28.88,
+       "end": 28.96
+      },
+      {
+       "text": "is",
+       "start": 29.04,
+       "end": 29.12
+      },
+      {
+       "text": "Noah.",
+       "start": 29.2,
+       "end": 29.547
+      }
+     ]
+    },
+    {
+     "show": "I'm twelve.",
+     "start": 29.573,
+     "end": 30.187,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 29.573,
+       "end": 29.68
+      },
+      {
+       "text": "twelve.",
+       "start": 29.76,
+       "end": 30.187
+      }
+     ]
+    },
+    {
+     "show": "And my little sister Lily",
+     "start": 30.213,
+     "end": 31.28,
+     "words": [
+      {
+       "text": "And",
+       "start": 30.213,
+       "end": 30.24
+      },
+      {
+       "text": "my",
+       "start": 30.32,
+       "end": 30.4
+      },
+      {
+       "text": "little",
+       "start": 30.48,
+       "end": 30.56
+      },
+      {
+       "text": "sister",
+       "start": 30.64,
+       "end": 30.88
+      },
+      {
+       "text": "Lily",
+       "start": 30.96,
+       "end": 31.28
+      }
+     ]
+    },
+    {
+     "show": "has never seen the moon.",
+     "start": 31.4,
+     "end": 32.48,
+     "words": [
+      {
+       "text": "has",
+       "start": 31.4,
+       "end": 31.52
+      },
+      {
+       "text": "never",
+       "start": 31.64,
+       "end": 31.76
+      },
+      {
+       "text": "seen",
+       "start": 31.84,
+       "end": 32.0
+      },
+      {
+       "text": "the",
+       "start": 32.04,
+       "end": 32.08
+      },
+      {
+       "text": "moon.",
+       "start": 32.24,
+       "end": 32.48
+      }
+     ]
+    },
+    {
+     "show": "She's seven.",
+     "start": 32.52,
+     "end": 33.12,
+     "words": [
+      {
+       "text": "She's",
+       "start": 32.52,
+       "end": 32.72
+      },
+      {
+       "text": "seven.",
+       "start": 32.88,
+       "end": 33.12
+      }
+     ]
+    },
+    {
+     "show": "She asks a hundred questions a day.",
+     "start": 33.2,
+     "end": 34.96,
+     "words": [
+      {
+       "text": "She",
+       "start": 33.2,
+       "end": 33.28
+      },
+      {
+       "text": "asks",
+       "start": 33.36,
+       "end": 33.6
+      },
+      {
+       "text": "a",
+       "start": 33.68,
+       "end": 33.76
+      },
+      {
+       "text": "hundred",
+       "start": 33.8,
+       "end": 34.08
+      },
+      {
+       "text": "questions",
+       "start": 34.16,
+       "end": 34.48
+      },
+      {
+       "text": "a",
+       "start": 34.52,
+       "end": 34.56
+      },
+      {
+       "text": "day.",
+       "start": 34.64,
+       "end": 34.96
+      }
+     ]
+    },
+    {
+     "show": "She always asked me",
+     "start": 35.04,
+     "end": 35.84,
+     "words": [
+      {
+       "text": "She",
+       "start": 35.04,
+       "end": 35.12
+      },
+      {
+       "text": "always",
+       "start": 35.2,
+       "end": 35.44
+      },
+      {
+       "text": "asked",
+       "start": 35.52,
+       "end": 35.68
+      },
+      {
+       "text": "me",
+       "start": 35.76,
+       "end": 35.84
+      }
+     ]
+    },
+    {
+     "show": "what it looks like.",
+     "start": 35.88,
+     "end": 36.56,
+     "words": [
+      {
+       "text": "what",
+       "start": 35.88,
+       "end": 35.92
+      },
+      {
+       "text": "it",
+       "start": 35.96,
+       "end": 36.0
+      },
+      {
+       "text": "looks",
+       "start": 36.08,
+       "end": 36.24
+      },
+      {
+       "text": "like.",
+       "start": 36.36,
+       "end": 36.56
+      }
+     ]
+    },
+    {
+     "show": "I told her:",
+     "start": 36.64,
+     "end": 37.2,
+     "words": [
+      {
+       "text": "I",
+       "start": 36.64,
+       "end": 36.72
+      },
+      {
+       "text": "told",
+       "start": 36.76,
+       "end": 36.88
+      },
+      {
+       "text": "her:",
+       "start": 36.96,
+       "end": 37.2
+      }
+     ]
+    },
+    {
+     "show": "like a giant light bulb.",
+     "start": 37.24,
+     "end": 38.4,
+     "words": [
+      {
+       "text": "like",
+       "start": 37.24,
+       "end": 37.28
+      },
+      {
+       "text": "a",
+       "start": 37.36,
+       "end": 37.44
+      },
+      {
+       "text": "giant",
+       "start": 37.48,
+       "end": 37.68
+      },
+      {
+       "text": "light",
+       "start": 37.76,
+       "end": 37.92
+      },
+      {
+       "text": "bulb.",
+       "start": 38.0,
+       "end": 38.4
+      }
+     ]
+    },
+    {
+     "show": "{y:Boring.}",
+     "start": 38.44,
+     "end": 39.2,
+     "words": [
+      {
+       "text": "Boring.",
+       "start": 38.44,
+       "end": 39.2
+      }
+     ]
+    }
+   ],
+   "start": 28.72,
+   "end": 39.2
+  },
+  {
+   "id": "window",
+   "label": "",
+   "lines": [
+    {
+     "show": "But one night,",
+     "start": 39.28,
+     "end": 39.92,
+     "words": [
+      {
+       "text": "But",
+       "start": 39.28,
+       "end": 39.36
+      },
+      {
+       "text": "one",
+       "start": 39.44,
+       "end": 39.6
+      },
+      {
+       "text": "night,",
+       "start": 39.72,
+       "end": 39.92
+      }
+     ]
+    },
+    {
+     "show": "I heard her window open.",
+     "start": 40.08,
+     "end": 41.2,
+     "words": [
+      {
+       "text": "I",
+       "start": 40.08,
+       "end": 40.133
+      },
+      {
+       "text": "heard",
+       "start": 40.187,
+       "end": 40.24
+      },
+      {
+       "text": "her",
+       "start": 40.32,
+       "end": 40.4
+      },
+      {
+       "text": "window",
+       "start": 40.56,
+       "end": 40.72
+      },
+      {
+       "text": "open.",
+       "start": 40.8,
+       "end": 41.2
+      }
+     ]
+    },
+    {
+     "show": "Lily was on the roof.",
+     "start": 41.28,
+     "end": 42.32,
+     "words": [
+      {
+       "text": "Lily",
+       "start": 41.28,
+       "end": 41.52
+      },
+      {
+       "text": "was",
+       "start": 41.6,
+       "end": 41.68
+      },
+      {
+       "text": "on",
+       "start": 41.72,
+       "end": 41.76
+      },
+      {
+       "text": "the",
+       "start": 41.84,
+       "end": 41.92
+      },
+      {
+       "text": "roof.",
+       "start": 42.08,
+       "end": 42.32
+      }
+     ]
+    },
+    {
+     "show": "Blindfold in her hand.",
+     "start": 42.36,
+     "end": 43.52,
+     "words": [
+      {
+       "text": "Blindfold",
+       "start": 42.36,
+       "end": 42.88
+      },
+      {
+       "text": "in",
+       "start": 42.92,
+       "end": 42.96
+      },
+      {
+       "text": "her",
+       "start": 43.04,
+       "end": 43.12
+      },
+      {
+       "text": "hand.",
+       "start": 43.28,
+       "end": 43.52
+      }
+     ]
+    },
+    {
+     "show": "Looking {r:straight up.}",
+     "start": 43.68,
+     "end": 44.56,
+     "words": [
+      {
+       "text": "Looking",
+       "start": 43.68,
+       "end": 43.84
+      },
+      {
+       "text": "straight",
+       "start": 43.92,
+       "end": 44.16
+      },
+      {
+       "text": "up.",
+       "start": 44.24,
+       "end": 44.56
+      }
+     ]
+    },
+    {
+     "show": "I climbed out after her.",
+     "start": 44.64,
+     "end": 45.68,
+     "words": [
+      {
+       "text": "I",
+       "start": 44.64,
+       "end": 44.72
+      },
+      {
+       "text": "climbed",
+       "start": 44.76,
+       "end": 44.96
+      },
+      {
+       "text": "out",
+       "start": 45.04,
+       "end": 45.12
+      },
+      {
+       "text": "after",
+       "start": 45.2,
+       "end": 45.36
+      },
+      {
+       "text": "her.",
+       "start": 45.44,
+       "end": 45.68
+      }
+     ]
+    },
+    {
+     "show": "Eyes on my shoes.",
+     "start": 45.72,
+     "end": 46.72,
+     "words": [
+      {
+       "text": "Eyes",
+       "start": 45.72,
+       "end": 45.92
+      },
+      {
+       "text": "on",
+       "start": 45.96,
+       "end": 46.0
+      },
+      {
+       "text": "my",
+       "start": 46.08,
+       "end": 46.24
+      },
+      {
+       "text": "shoes.",
+       "start": 46.28,
+       "end": 46.72
+      }
+     ]
+    }
+   ],
+   "start": 39.28,
+   "end": 46.72
+  },
+  {
+   "id": "eyes",
+   "label": "",
+   "lines": [
+    {
+     "show": "And the moon",
+     "start": 46.76,
+     "end": 47.36,
+     "words": [
+      {
+       "text": "And",
+       "start": 46.76,
+       "end": 46.8
+      },
+      {
+       "text": "the",
+       "start": 46.88,
+       "end": 46.96
+      },
+      {
+       "text": "moon",
+       "start": 47.04,
+       "end": 47.36
+      }
+     ]
+    },
+    {
+     "show": "opened its {r:eyes.}",
+     "start": 47.44,
+     "end": 48.48,
+     "words": [
+      {
+       "text": "opened",
+       "start": 47.44,
+       "end": 47.68
+      },
+      {
+       "text": "its",
+       "start": 47.76,
+       "end": 47.92
+      },
+      {
+       "text": "eyes.",
+       "start": 48.0,
+       "end": 48.48
+      }
+     ]
+    },
+    {
+     "show": "Two huge white eyes.",
+     "start": 48.64,
+     "end": 50.4,
+     "words": [
+      {
+       "text": "Two",
+       "start": 48.64,
+       "end": 48.8
+      },
+      {
+       "text": "huge",
+       "start": 49.04,
+       "end": 49.44
+      },
+      {
+       "text": "white",
+       "start": 49.6,
+       "end": 49.84
+      },
+      {
+       "text": "eyes.",
+       "start": 49.92,
+       "end": 50.4
+      }
+     ]
+    },
+    {
+     "show": "Staring right at her.",
+     "start": 50.48,
+     "end": 51.52,
+     "words": [
+      {
+       "text": "Staring",
+       "start": 50.48,
+       "end": 50.8
+      },
+      {
+       "text": "right",
+       "start": 50.88,
+       "end": 51.04
+      },
+      {
+       "text": "at",
+       "start": 51.12,
+       "end": 51.2
+      },
+      {
+       "text": "her.",
+       "start": 51.28,
+       "end": 51.52
+      }
+     ]
+    },
+    {
+     "show": "The whole town went quiet.",
+     "start": 51.6,
+     "end": 52.96,
+     "words": [
+      {
+       "text": "The",
+       "start": 51.6,
+       "end": 51.68
+      },
+      {
+       "text": "whole",
+       "start": 51.8,
+       "end": 51.92
+      },
+      {
+       "text": "town",
+       "start": 52.08,
+       "end": 52.24
+      },
+      {
+       "text": "went",
+       "start": 52.32,
+       "end": 52.4
+      },
+      {
+       "text": "quiet.",
+       "start": 52.48,
+       "end": 52.96
+      }
+     ]
+    },
+    {
+     "show": "Even the wind stopped.",
+     "start": 53.04,
+     "end": 54.16,
+     "words": [
+      {
+       "text": "Even",
+       "start": 53.04,
+       "end": 53.12
+      },
+      {
+       "text": "the",
+       "start": 53.2,
+       "end": 53.28
+      },
+      {
+       "text": "wind",
+       "start": 53.4,
+       "end": 53.52
+      },
+      {
+       "text": "stopped.",
+       "start": 53.6,
+       "end": 54.16
+      }
+     ]
+    }
+   ],
+   "start": 46.76,
+   "end": 54.16
+  },
+  {
+   "id": "beam",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then a beam of light came down.",
+     "start": 54.24,
+     "end": 56.0,
+     "words": [
+      {
+       "text": "Then",
+       "start": 54.24,
+       "end": 54.48
+      },
+      {
+       "text": "a",
+       "start": 54.56,
+       "end": 54.64
+      },
+      {
+       "text": "beam",
+       "start": 54.76,
+       "end": 54.88
+      },
+      {
+       "text": "of",
+       "start": 54.96,
+       "end": 55.04
+      },
+      {
+       "text": "light",
+       "start": 55.12,
+       "end": 55.28
+      },
+      {
+       "text": "came",
+       "start": 55.36,
+       "end": 55.52
+      },
+      {
+       "text": "down.",
+       "start": 55.6,
+       "end": 56.0
+      }
+     ]
+    },
+    {
+     "show": "Searching the street.",
+     "start": 56.16,
+     "end": 56.88,
+     "words": [
+      {
+       "text": "Searching",
+       "start": 56.16,
+       "end": 56.32
+      },
+      {
+       "text": "the",
+       "start": 56.36,
+       "end": 56.4
+      },
+      {
+       "text": "street.",
+       "start": 56.48,
+       "end": 56.88
+      }
+     ]
+    },
+    {
+     "show": "Window",
+     "start": 56.96,
+     "end": 57.28,
+     "words": [
+      {
+       "text": "Window",
+       "start": 56.96,
+       "end": 57.28
+      }
+     ]
+    },
+    {
+     "show": "by window.",
+     "start": 57.36,
+     "end": 57.92,
+     "words": [
+      {
+       "text": "by",
+       "start": 57.36,
+       "end": 57.44
+      },
+      {
+       "text": "window.",
+       "start": 57.52,
+       "end": 57.92
+      }
+     ]
+    },
+    {
+     "show": "House",
+     "start": 58.0,
+     "end": 58.24,
+     "words": [
+      {
+       "text": "House",
+       "start": 58.0,
+       "end": 58.24
+      }
+     ]
+    },
+    {
+     "show": "by house.",
+     "start": 58.32,
+     "end": 58.96,
+     "words": [
+      {
+       "text": "by",
+       "start": 58.32,
+       "end": 58.48
+      },
+      {
+       "text": "house.",
+       "start": 58.56,
+       "end": 58.96
+      }
+     ]
+    },
+    {
+     "show": "And every time it touched a house,",
+     "start": 59.04,
+     "end": 60.56,
+     "words": [
+      {
+       "text": "And",
+       "start": 59.04,
+       "end": 59.12
+      },
+      {
+       "text": "every",
+       "start": 59.2,
+       "end": 59.44
+      },
+      {
+       "text": "time",
+       "start": 59.56,
+       "end": 59.68
+      },
+      {
+       "text": "it",
+       "start": 59.72,
+       "end": 59.76
+      },
+      {
+       "text": "touched",
+       "start": 59.84,
+       "end": 60.0
+      },
+      {
+       "text": "a",
+       "start": 60.08,
+       "end": 60.12
+      },
+      {
+       "text": "house,",
+       "start": 60.16,
+       "end": 60.56
+      }
+     ]
+    },
+    {
+     "show": "the lights inside went out.",
+     "start": 60.6,
+     "end": 62.08,
+     "words": [
+      {
+       "text": "the",
+       "start": 60.6,
+       "end": 60.64
+      },
+      {
+       "text": "lights",
+       "start": 60.72,
+       "end": 60.96
+      },
+      {
+       "text": "inside",
+       "start": 61.2,
+       "end": 61.44
+      },
+      {
+       "text": "went",
+       "start": 61.52,
+       "end": 61.6
+      },
+      {
+       "text": "out.",
+       "start": 61.68,
+       "end": 62.08
+      }
+     ]
+    }
+   ],
+   "start": 54.24,
+   "end": 62.08
+  },
+  {
+   "id": "run",
+   "label": "",
+   "lines": [
+    {
+     "show": "I grabbed Lily and ran.",
+     "start": 62.16,
+     "end": 63.44,
+     "words": [
+      {
+       "text": "I",
+       "start": 62.16,
+       "end": 62.24
+      },
+      {
+       "text": "grabbed",
+       "start": 62.36,
+       "end": 62.56
+      },
+      {
+       "text": "Lily",
+       "start": 62.6,
+       "end": 62.8
+      },
+      {
+       "text": "and",
+       "start": 62.88,
+       "end": 63.04
+      },
+      {
+       "text": "ran.",
+       "start": 63.2,
+       "end": 63.44
+      }
+     ]
+    },
+    {
+     "show": "The beam followed us.",
+     "start": 63.52,
+     "end": 64.56,
+     "words": [
+      {
+       "text": "The",
+       "start": 63.52,
+       "end": 63.6
+      },
+      {
+       "text": "beam",
+       "start": 63.76,
+       "end": 63.92
+      },
+      {
+       "text": "followed",
+       "start": 64.0,
+       "end": 64.24
+      },
+      {
+       "text": "us.",
+       "start": 64.32,
+       "end": 64.56
+      }
+     ]
+    },
+    {
+     "show": "Every streetlight",
+     "start": 64.64,
+     "end": 65.28,
+     "words": [
+      {
+       "text": "Every",
+       "start": 64.64,
+       "end": 64.88
+      },
+      {
+       "text": "streetlight",
+       "start": 64.96,
+       "end": 65.28
+      }
+     ]
+    },
+    {
+     "show": "{y:exploded} as it passed.",
+     "start": 65.36,
+     "end": 66.64,
+     "words": [
+      {
+       "text": "exploded",
+       "start": 65.36,
+       "end": 65.92
+      },
+      {
+       "text": "as",
+       "start": 65.96,
+       "end": 66.0
+      },
+      {
+       "text": "it",
+       "start": 66.08,
+       "end": 66.16
+      },
+      {
+       "text": "passed.",
+       "start": 66.36,
+       "end": 66.64
+      }
+     ]
+    },
+    {
+     "show": "The sirens went off.",
+     "start": 66.72,
+     "end": 67.68,
+     "words": [
+      {
+       "text": "The",
+       "start": 66.72,
+       "end": 66.8
+      },
+      {
+       "text": "sirens",
+       "start": 66.88,
+       "end": 67.2
+      },
+      {
+       "text": "went",
+       "start": 67.28,
+       "end": 67.36
+      },
+      {
+       "text": "off.",
+       "start": 67.44,
+       "end": 67.68
+      }
+     ]
+    },
+    {
+     "show": "Police cars everywhere.",
+     "start": 67.84,
+     "end": 68.96,
+     "words": [
+      {
+       "text": "Police",
+       "start": 67.84,
+       "end": 68.0
+      },
+      {
+       "text": "cars",
+       "start": 68.08,
+       "end": 68.4
+      },
+      {
+       "text": "everywhere.",
+       "start": 68.56,
+       "end": 68.96
+      }
+     ]
+    },
+    {
+     "show": "People screaming",
+     "start": 69.12,
+     "end": 69.76,
+     "words": [
+      {
+       "text": "People",
+       "start": 69.12,
+       "end": 69.28
+      },
+      {
+       "text": "screaming",
+       "start": 69.32,
+       "end": 69.76
+      }
+     ]
+    },
+    {
+     "show": "behind their curtains.",
+     "start": 69.84,
+     "end": 70.72,
+     "words": [
+      {
+       "text": "behind",
+       "start": 69.84,
+       "end": 70.0
+      },
+      {
+       "text": "their",
+       "start": 70.08,
+       "end": 70.16
+      },
+      {
+       "text": "curtains.",
+       "start": 70.24,
+       "end": 70.72
+      }
+     ]
+    }
+   ],
+   "start": 62.16,
+   "end": 70.72
+  },
+  {
+   "id": "shop",
+   "label": "",
+   "lines": [
+    {
+     "show": "We hid in the old mirror shop",
+     "start": 70.8,
+     "end": 72.08,
+     "words": [
+      {
+       "text": "We",
+       "start": 70.8,
+       "end": 70.96
+      },
+      {
+       "text": "hid",
+       "start": 71.04,
+       "end": 71.12
+      },
+      {
+       "text": "in",
+       "start": 71.16,
+       "end": 71.2
+      },
+      {
+       "text": "the",
+       "start": 71.28,
+       "end": 71.36
+      },
+      {
+       "text": "old",
+       "start": 71.44,
+       "end": 71.52
+      },
+      {
+       "text": "mirror",
+       "start": 71.6,
+       "end": 71.76
+      },
+      {
+       "text": "shop",
+       "start": 71.92,
+       "end": 72.08
+      }
+     ]
+    },
+    {
+     "show": "at the end of our street.",
+     "start": 72.12,
+     "end": 73.12,
+     "words": [
+      {
+       "text": "at",
+       "start": 72.12,
+       "end": 72.16
+      },
+      {
+       "text": "the",
+       "start": 72.2,
+       "end": 72.24
+      },
+      {
+       "text": "end",
+       "start": 72.32,
+       "end": 72.4
+      },
+      {
+       "text": "of",
+       "start": 72.44,
+       "end": 72.48
+      },
+      {
+       "text": "our",
+       "start": 72.56,
+       "end": 72.64
+      },
+      {
+       "text": "street.",
+       "start": 72.72,
+       "end": 73.12
+      }
+     ]
+    },
+    {
+     "show": "Hundreds of {b:mirrors.}",
+     "start": 73.32,
+     "end": 74.16,
+     "words": [
+      {
+       "text": "Hundreds",
+       "start": 73.32,
+       "end": 73.52
+      },
+      {
+       "text": "of",
+       "start": 73.6,
+       "end": 73.68
+      },
+      {
+       "text": "mirrors.",
+       "start": 73.76,
+       "end": 74.16
+      }
+     ]
+    },
+    {
+     "show": "Dark and dusty.",
+     "start": 74.32,
+     "end": 75.28,
+     "words": [
+      {
+       "text": "Dark",
+       "start": 74.32,
+       "end": 74.48
+      },
+      {
+       "text": "and",
+       "start": 74.56,
+       "end": 74.72
+      },
+      {
+       "text": "dusty.",
+       "start": 74.76,
+       "end": 75.28
+      }
+     ]
+    },
+    {
+     "show": "Lily was shaking.",
+     "start": 75.36,
+     "end": 76.373,
+     "words": [
+      {
+       "text": "Lily",
+       "start": 75.36,
+       "end": 75.6
+      },
+      {
+       "text": "was",
+       "start": 75.72,
+       "end": 75.84
+      },
+      {
+       "text": "shaking.",
+       "start": 75.88,
+       "end": 76.373
+      }
+     ]
+    },
+    {
+     "show": "The beam stopped",
+     "start": 76.427,
+     "end": 77.2,
+     "words": [
+      {
+       "text": "The",
+       "start": 76.427,
+       "end": 76.48
+      },
+      {
+       "text": "beam",
+       "start": 76.64,
+       "end": 76.8
+      },
+      {
+       "text": "stopped",
+       "start": 77.0,
+       "end": 77.2
+      }
+     ]
+    },
+    {
+     "show": "right outside the door.",
+     "start": 77.28,
+     "end": 78.293,
+     "words": [
+      {
+       "text": "right",
+       "start": 77.28,
+       "end": 77.36
+      },
+      {
+       "text": "outside",
+       "start": 77.56,
+       "end": 77.76
+      },
+      {
+       "text": "the",
+       "start": 77.8,
+       "end": 77.84
+      },
+      {
+       "text": "door.",
+       "start": 78.04,
+       "end": 78.293
+      }
+     ]
+    },
+    {
+     "show": "And that's when",
+     "start": 78.347,
+     "end": 78.72,
+     "words": [
+      {
+       "text": "And",
+       "start": 78.347,
+       "end": 78.4
+      },
+      {
+       "text": "that's",
+       "start": 78.48,
+       "end": 78.6
+      },
+      {
+       "text": "when",
+       "start": 78.64,
+       "end": 78.72
+      }
+     ]
+    },
+    {
+     "show": "I had an idea.",
+     "start": 78.88,
+     "end": 79.72,
+     "words": [
+      {
+       "text": "I",
+       "start": 78.88,
+       "end": 78.907
+      },
+      {
+       "text": "had",
+       "start": 78.933,
+       "end": 78.96
+      },
+      {
+       "text": "an",
+       "start": 79.04,
+       "end": 79.12
+      },
+      {
+       "text": "idea.",
+       "start": 79.4,
+       "end": 79.72
+      }
+     ]
+    }
+   ],
+   "start": 70.8,
+   "end": 79.72
+  },
+  {
+   "id": "idea",
+   "label": "",
+   "lines": [
+    {
+     "show": "If the moon finds you",
+     "start": 79.76,
+     "end": 80.72,
+     "words": [
+      {
+       "text": "If",
+       "start": 79.76,
+       "end": 79.84
+      },
+      {
+       "text": "the",
+       "start": 79.92,
+       "end": 80.0
+      },
+      {
+       "text": "moon",
+       "start": 80.16,
+       "end": 80.32
+      },
+      {
+       "text": "finds",
+       "start": 80.44,
+       "end": 80.64
+      },
+      {
+       "text": "you",
+       "start": 80.68,
+       "end": 80.72
+      }
+     ]
+    },
+    {
+     "show": "by looking at you,",
+     "start": 80.8,
+     "end": 81.733,
+     "words": [
+      {
+       "text": "by",
+       "start": 80.8,
+       "end": 80.96
+      },
+      {
+       "text": "looking",
+       "start": 81.04,
+       "end": 81.28
+      },
+      {
+       "text": "at",
+       "start": 81.36,
+       "end": 81.44
+      },
+      {
+       "text": "you,",
+       "start": 81.56,
+       "end": 81.733
+      }
+     ]
+    },
+    {
+     "show": "what happens",
+     "start": 81.787,
+     "end": 82.16,
+     "words": [
+      {
+       "text": "what",
+       "start": 81.787,
+       "end": 81.84
+      },
+      {
+       "text": "happens",
+       "start": 81.92,
+       "end": 82.16
+      }
+     ]
+    },
+    {
+     "show": "if it sees {y:itself?}",
+     "start": 82.2,
+     "end": 83.467,
+     "words": [
+      {
+       "text": "if",
+       "start": 82.2,
+       "end": 82.24
+      },
+      {
+       "text": "it",
+       "start": 82.32,
+       "end": 82.4
+      },
+      {
+       "text": "sees",
+       "start": 82.44,
+       "end": 82.56
+      },
+      {
+       "text": "itself?",
+       "start": 82.64,
+       "end": 83.467
+      }
+     ]
+    }
+   ],
+   "start": 79.76,
+   "end": 83.467
+  },
+  {
+   "id": "roof",
+   "label": "",
+   "lines": [
+    {
+     "show": "We carried every mirror",
+     "start": 83.493,
+     "end": 84.56,
+     "words": [
+      {
+       "text": "We",
+       "start": 83.493,
+       "end": 83.52
+      },
+      {
+       "text": "carried",
+       "start": 83.6,
+       "end": 83.92
+      },
+      {
+       "text": "every",
+       "start": 84.0,
+       "end": 84.24
+      },
+      {
+       "text": "mirror",
+       "start": 84.32,
+       "end": 84.56
+      }
+     ]
+    },
+    {
+     "show": "up to the roof.",
+     "start": 84.64,
+     "end": 85.32,
+     "words": [
+      {
+       "text": "up",
+       "start": 84.64,
+       "end": 84.72
+      },
+      {
+       "text": "to",
+       "start": 84.76,
+       "end": 84.8
+      },
+      {
+       "text": "the",
+       "start": 84.88,
+       "end": 84.96
+      },
+      {
+       "text": "roof.",
+       "start": 85.12,
+       "end": 85.32
+      }
+     ]
+    },
+    {
+     "show": "All of them.",
+     "start": 85.36,
+     "end": 85.88,
+     "words": [
+      {
+       "text": "All",
+       "start": 85.36,
+       "end": 85.52
+      },
+      {
+       "text": "of",
+       "start": 85.56,
+       "end": 85.6
+      },
+      {
+       "text": "them.",
+       "start": 85.68,
+       "end": 85.88
+      }
+     ]
+    },
+    {
+     "show": "On the chimneys.",
+     "start": 85.92,
+     "end": 86.667,
+     "words": [
+      {
+       "text": "On",
+       "start": 85.92,
+       "end": 85.96
+      },
+      {
+       "text": "the",
+       "start": 86.0,
+       "end": 86.08
+      },
+      {
+       "text": "chimneys.",
+       "start": 86.16,
+       "end": 86.667
+      }
+     ]
+    },
+    {
+     "show": "On the antennas.",
+     "start": 86.693,
+     "end": 87.467,
+     "words": [
+      {
+       "text": "On",
+       "start": 86.693,
+       "end": 86.72
+      },
+      {
+       "text": "the",
+       "start": 86.8,
+       "end": 86.84
+      },
+      {
+       "text": "antennas.",
+       "start": 86.88,
+       "end": 87.467
+      }
+     ]
+    },
+    {
+     "show": "On the edge of the roof.",
+     "start": 87.493,
+     "end": 88.56,
+     "words": [
+      {
+       "text": "On",
+       "start": 87.493,
+       "end": 87.52
+      },
+      {
+       "text": "the",
+       "start": 87.6,
+       "end": 87.68
+      },
+      {
+       "text": "edge",
+       "start": 87.76,
+       "end": 87.84
+      },
+      {
+       "text": "of",
+       "start": 87.88,
+       "end": 87.92
+      },
+      {
+       "text": "the",
+       "start": 88.0,
+       "end": 88.08
+      },
+      {
+       "text": "roof.",
+       "start": 88.24,
+       "end": 88.56
+      }
+     ]
+    },
+    {
+     "show": "Lily held the last one.",
+     "start": 88.64,
+     "end": 89.813,
+     "words": [
+      {
+       "text": "Lily",
+       "start": 88.64,
+       "end": 88.88
+      },
+      {
+       "text": "held",
+       "start": 88.96,
+       "end": 89.04
+      },
+      {
+       "text": "the",
+       "start": 89.12,
+       "end": 89.2
+      },
+      {
+       "text": "last",
+       "start": 89.32,
+       "end": 89.44
+      },
+      {
+       "text": "one.",
+       "start": 89.52,
+       "end": 89.813
+      }
+     ]
+    },
+    {
+     "show": "The beam came closer.",
+     "start": 89.867,
+     "end": 91.093,
+     "words": [
+      {
+       "text": "The",
+       "start": 89.867,
+       "end": 89.92
+      },
+      {
+       "text": "beam",
+       "start": 90.04,
+       "end": 90.16
+      },
+      {
+       "text": "came",
+       "start": 90.24,
+       "end": 90.4
+      },
+      {
+       "text": "closer.",
+       "start": 90.48,
+       "end": 91.093
+      }
+     ]
+    },
+    {
+     "show": "And closer.",
+     "start": 91.147,
+     "end": 91.88,
+     "words": [
+      {
+       "text": "And",
+       "start": 91.147,
+       "end": 91.2
+      },
+      {
+       "text": "closer.",
+       "start": 91.28,
+       "end": 91.88
+      }
+     ]
+    },
+    {
+     "show": "Then it hit the mirrors.",
+     "start": 91.92,
+     "end": 93.307,
+     "words": [
+      {
+       "text": "Then",
+       "start": 91.92,
+       "end": 92.24
+      },
+      {
+       "text": "it",
+       "start": 92.32,
+       "end": 92.4
+      },
+      {
+       "text": "hit",
+       "start": 92.48,
+       "end": 92.56
+      },
+      {
+       "text": "the",
+       "start": 92.64,
+       "end": 92.72
+      },
+      {
+       "text": "mirrors.",
+       "start": 92.8,
+       "end": 93.307
+      }
+     ]
+    }
+   ],
+   "start": 83.493,
+   "end": 93.307
+  },
+  {
+   "id": "bounce",
+   "label": "",
+   "lines": [
+    {
+     "show": "The light bounced back.",
+     "start": 93.333,
+     "end": 94.48,
+     "words": [
+      {
+       "text": "The",
+       "start": 93.333,
+       "end": 93.36
+      },
+      {
+       "text": "light",
+       "start": 93.44,
+       "end": 93.68
+      },
+      {
+       "text": "bounced",
+       "start": 93.76,
+       "end": 94.0
+      },
+      {
+       "text": "back.",
+       "start": 94.08,
+       "end": 94.48
+      }
+     ]
+    },
+    {
+     "show": "Straight into its own eyes.",
+     "start": 94.56,
+     "end": 96.053,
+     "words": [
+      {
+       "text": "Straight",
+       "start": 94.56,
+       "end": 94.8
+      },
+      {
+       "text": "into",
+       "start": 94.88,
+       "end": 95.04
+      },
+      {
+       "text": "its",
+       "start": 95.12,
+       "end": 95.2
+      },
+      {
+       "text": "own",
+       "start": 95.28,
+       "end": 95.44
+      },
+      {
+       "text": "eyes.",
+       "start": 95.52,
+       "end": 96.053
+      }
+     ]
+    },
+    {
+     "show": "The moon {r:screamed.}",
+     "start": 96.107,
+     "end": 97.253,
+     "words": [
+      {
+       "text": "The",
+       "start": 96.107,
+       "end": 96.16
+      },
+      {
+       "text": "moon",
+       "start": 96.36,
+       "end": 96.56
+      },
+      {
+       "text": "screamed.",
+       "start": 96.64,
+       "end": 97.253
+      }
+     ]
+    },
+    {
+     "show": "The whole sky shook.",
+     "start": 97.307,
+     "end": 98.587,
+     "words": [
+      {
+       "text": "The",
+       "start": 97.307,
+       "end": 97.36
+      },
+      {
+       "text": "whole",
+       "start": 97.48,
+       "end": 97.6
+      },
+      {
+       "text": "sky",
+       "start": 97.68,
+       "end": 98.08
+      },
+      {
+       "text": "shook.",
+       "start": 98.16,
+       "end": 98.587
+      }
+     ]
+    },
+    {
+     "show": "And for the first time",
+     "start": 98.613,
+     "end": 99.52,
+     "words": [
+      {
+       "text": "And",
+       "start": 98.613,
+       "end": 98.64
+      },
+      {
+       "text": "for",
+       "start": 98.72,
+       "end": 98.76
+      },
+      {
+       "text": "the",
+       "start": 98.8,
+       "end": 98.96
+      },
+      {
+       "text": "first",
+       "start": 99.08,
+       "end": 99.2
+      },
+      {
+       "text": "time",
+       "start": 99.36,
+       "end": 99.52
+      }
+     ]
+    },
+    {
+     "show": "in a hundred years,",
+     "start": 99.56,
+     "end": 100.693,
+     "words": [
+      {
+       "text": "in",
+       "start": 99.56,
+       "end": 99.6
+      },
+      {
+       "text": "a",
+       "start": 99.76,
+       "end": 99.8
+      },
+      {
+       "text": "hundred",
+       "start": 99.84,
+       "end": 100.16
+      },
+      {
+       "text": "years,",
+       "start": 100.24,
+       "end": 100.693
+      }
+     ]
+    },
+    {
+     "show": "the moon closed its eyes.",
+     "start": 100.747,
+     "end": 102.427,
+     "words": [
+      {
+       "text": "the",
+       "start": 100.747,
+       "end": 100.8
+      },
+      {
+       "text": "moon",
+       "start": 101.0,
+       "end": 101.2
+      },
+      {
+       "text": "closed",
+       "start": 101.28,
+       "end": 101.6
+      },
+      {
+       "text": "its",
+       "start": 101.68,
+       "end": 101.76
+      },
+      {
+       "text": "eyes.",
+       "start": 101.84,
+       "end": 102.427
+      }
+     ]
+    }
+   ],
+   "start": 93.333,
+   "end": 102.427
+  },
+  {
+   "id": "morning",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next morning,",
+     "start": 102.453,
+     "end": 103.08,
+     "words": [
+      {
+       "text": "The",
+       "start": 102.453,
+       "end": 102.48
+      },
+      {
+       "text": "next",
+       "start": 102.6,
+       "end": 102.72
+      },
+      {
+       "text": "morning,",
+       "start": 102.8,
+       "end": 103.08
+      }
+     ]
+    },
+    {
+     "show": "Mr. Park was sitting on his porch.",
+     "start": 103.12,
+     "end": 104.68,
+     "words": [
+      {
+       "text": "Mr.",
+       "start": 103.12,
+       "end": 103.36
+      },
+      {
+       "text": "Park",
+       "start": 103.48,
+       "end": 103.6
+      },
+      {
+       "text": "was",
+       "start": 103.68,
+       "end": 103.76
+      },
+      {
+       "text": "sitting",
+       "start": 103.8,
+       "end": 104.0
+      },
+      {
+       "text": "on",
+       "start": 104.04,
+       "end": 104.08
+      },
+      {
+       "text": "his",
+       "start": 104.16,
+       "end": 104.24
+      },
+      {
+       "text": "porch.",
+       "start": 104.32,
+       "end": 104.68
+      }
+     ]
+    },
+    {
+     "show": "Confused.",
+     "start": 104.72,
+     "end": 105.48,
+     "words": [
+      {
+       "text": "Confused.",
+       "start": 104.72,
+       "end": 105.48
+      }
+     ]
+    },
+    {
+     "show": "Hungry.",
+     "start": 105.52,
+     "end": 105.973,
+     "words": [
+      {
+       "text": "Hungry.",
+       "start": 105.52,
+       "end": 105.973
+      }
+     ]
+    },
+    {
+     "show": "And {g:alive.}",
+     "start": 106.027,
+     "end": 106.8,
+     "words": [
+      {
+       "text": "And",
+       "start": 106.027,
+       "end": 106.08
+      },
+      {
+       "text": "alive.",
+       "start": 106.4,
+       "end": 106.8
+      }
+     ]
+    },
+    {
+     "show": "And so was everyone else",
+     "start": 106.88,
+     "end": 108.08,
+     "words": [
+      {
+       "text": "And",
+       "start": 106.88,
+       "end": 106.96
+      },
+      {
+       "text": "so",
+       "start": 107.04,
+       "end": 107.12
+      },
+      {
+       "text": "was",
+       "start": 107.2,
+       "end": 107.44
+      },
+      {
+       "text": "everyone",
+       "start": 107.64,
+       "end": 107.84
+      },
+      {
+       "text": "else",
+       "start": 107.96,
+       "end": 108.08
+      }
+     ]
+    },
+    {
+     "show": "who had ever looked up.",
+     "start": 108.12,
+     "end": 109.32,
+     "words": [
+      {
+       "text": "who",
+       "start": 108.12,
+       "end": 108.16
+      },
+      {
+       "text": "had",
+       "start": 108.28,
+       "end": 108.4
+      },
+      {
+       "text": "ever",
+       "start": 108.52,
+       "end": 108.64
+      },
+      {
+       "text": "looked",
+       "start": 108.72,
+       "end": 108.88
+      },
+      {
+       "text": "up.",
+       "start": 108.96,
+       "end": 109.32
+      }
+     ]
+    }
+   ],
+   "start": 102.453,
+   "end": 109.32
+  },
+  {
+   "id": "now",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now we're allowed to look up again.",
+     "start": 109.36,
+     "end": 110.84,
+     "words": [
+      {
+       "text": "Now",
+       "start": 109.36,
+       "end": 109.6
+      },
+      {
+       "text": "we're",
+       "start": 109.64,
+       "end": 109.72
+      },
+      {
+       "text": "allowed",
+       "start": 109.76,
+       "end": 110.0
+      },
+      {
+       "text": "to",
+       "start": 110.04,
+       "end": 110.08
+      },
+      {
+       "text": "look",
+       "start": 110.12,
+       "end": 110.16
+      },
+      {
+       "text": "up",
+       "start": 110.24,
+       "end": 110.32
+      },
+      {
+       "text": "again.",
+       "start": 110.4,
+       "end": 110.84
+      }
+     ]
+    },
+    {
+     "show": "Lily looks at the moon every night.",
+     "start": 110.88,
+     "end": 112.52,
+     "words": [
+      {
+       "text": "Lily",
+       "start": 110.88,
+       "end": 111.12
+      },
+      {
+       "text": "looks",
+       "start": 111.2,
+       "end": 111.28
+      },
+      {
+       "text": "at",
+       "start": 111.36,
+       "end": 111.4
+      },
+      {
+       "text": "the",
+       "start": 111.44,
+       "end": 111.52
+      },
+      {
+       "text": "moon",
+       "start": 111.68,
+       "end": 111.84
+      },
+      {
+       "text": "every",
+       "start": 111.92,
+       "end": 112.16
+      },
+      {
+       "text": "night.",
+       "start": 112.32,
+       "end": 112.52
+      }
+     ]
+    },
+    {
+     "show": "She says it looks",
+     "start": 112.56,
+     "end": 113.12,
+     "words": [
+      {
+       "text": "She",
+       "start": 112.56,
+       "end": 112.64
+      },
+      {
+       "text": "says",
+       "start": 112.72,
+       "end": 112.8
+      },
+      {
+       "text": "it",
+       "start": 112.88,
+       "end": 112.96
+      },
+      {
+       "text": "looks",
+       "start": 113.04,
+       "end": 113.12
+      }
+     ]
+    },
+    {
+     "show": "like a giant sleeping light bulb.",
+     "start": 113.16,
+     "end": 114.84,
+     "words": [
+      {
+       "text": "like",
+       "start": 113.16,
+       "end": 113.2
+      },
+      {
+       "text": "a",
+       "start": 113.36,
+       "end": 113.4
+      },
+      {
+       "text": "giant",
+       "start": 113.44,
+       "end": 113.76
+      },
+      {
+       "text": "sleeping",
+       "start": 113.84,
+       "end": 114.16
+      },
+      {
+       "text": "light",
+       "start": 114.24,
+       "end": 114.4
+      },
+      {
+       "text": "bulb.",
+       "start": 114.48,
+       "end": 114.84
+      }
+     ]
+    }
+   ],
+   "start": 109.36,
+   "end": 114.84
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "But last night,",
+     "start": 114.88,
+     "end": 115.72,
+     "words": [
+      {
+       "text": "But",
+       "start": 114.88,
+       "end": 114.96
+      },
+      {
+       "text": "last",
+       "start": 115.04,
+       "end": 115.28
+      },
+      {
+       "text": "night,",
+       "start": 115.44,
+       "end": 115.72
+      }
+     ]
+    },
+    {
+     "show": "I saw a {r:second moon.}",
+     "start": 115.84,
+     "end": 117.093,
+     "words": [
+      {
+       "text": "I",
+       "start": 115.84,
+       "end": 115.867
+      },
+      {
+       "text": "saw",
+       "start": 115.893,
+       "end": 116.08
+      },
+      {
+       "text": "a",
+       "start": 116.32,
+       "end": 116.427
+      },
+      {
+       "text": "second",
+       "start": 116.533,
+       "end": 116.64
+      },
+      {
+       "text": "moon.",
+       "start": 116.72,
+       "end": 117.093
+      }
+     ]
+    },
+    {
+     "show": "And this one",
+     "start": 117.147,
+     "end": 117.68,
+     "words": [
+      {
+       "text": "And",
+       "start": 117.147,
+       "end": 117.2
+      },
+      {
+       "text": "this",
+       "start": 117.28,
+       "end": 117.44
+      },
+      {
+       "text": "one",
+       "start": 117.56,
+       "end": 117.68
+      }
+     ]
+    },
+    {
+     "show": "was already looking at me.",
+     "start": 117.76,
+     "end": 119.08,
+     "words": [
+      {
+       "text": "was",
+       "start": 117.76,
+       "end": 117.84
+      },
+      {
+       "text": "already",
+       "start": 117.92,
+       "end": 118.32
+      },
+      {
+       "text": "looking",
+       "start": 118.44,
+       "end": 118.56
+      },
+      {
+       "text": "at",
+       "start": 118.64,
+       "end": 118.72
+      },
+      {
+       "text": "me.",
+       "start": 118.88,
+       "end": 119.08
+      }
+     ]
+    },
+    {
+     "show": "So now I need your help.",
+     "start": 119.12,
+     "end": 120.613,
+     "words": [
+      {
+       "text": "So",
+       "start": 119.12,
+       "end": 119.28
+      },
+      {
+       "text": "now",
+       "start": 119.36,
+       "end": 119.6
+      },
+      {
+       "text": "I",
+       "start": 119.76,
+       "end": 119.84
+      },
+      {
+       "text": "need",
+       "start": 119.92,
+       "end": 120.0
+      },
+      {
+       "text": "your",
+       "start": 120.08,
+       "end": 120.16
+      },
+      {
+       "text": "help.",
+       "start": 120.36,
+       "end": 120.613
+      }
+     ]
+    },
+    {
+     "show": "Should I tell {y:Lily?}",
+     "start": 120.667,
+     "end": 121.6,
+     "words": [
+      {
+       "text": "Should",
+       "start": 120.667,
+       "end": 120.72
+      },
+      {
+       "text": "I",
+       "start": 120.88,
+       "end": 120.96
+      },
+      {
+       "text": "tell",
+       "start": 121.04,
+       "end": 121.12
+      },
+      {
+       "text": "Lily?",
+       "start": 121.16,
+       "end": 121.6
+      }
+     ]
+    }
+   ],
+   "start": 114.88,
+   "end": 121.6
+  }
+ ]
+}

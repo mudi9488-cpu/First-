@@ -1,0 +1,435 @@
+{
+ "title": "The Moon That Looks Back",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "nobody is allowed"
+    },
+    {
+     "show": "to look at the {y:moon.}"
+    },
+    {
+     "show": "Not even for a second."
+    },
+    {
+     "show": "Because if you look at the moon,"
+    },
+    {
+     "show": "it looks {r:back.}"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every night at nine,"
+    },
+    {
+     "show": "the sirens go off."
+    },
+    {
+     "show": "Windows get covered."
+    },
+    {
+     "show": "Kids sleep with blindfolds."
+    },
+    {
+     "show": "And the streets stay completely empty."
+    },
+    {
+     "show": "The rule is simple."
+    },
+    {
+     "show": "Eyes on the ground."
+    },
+    {
+     "show": "{r:Always.}"
+    },
+    {
+     "show": "Even the dogs know."
+    },
+    {
+     "show": "They sleep facing the wall."
+    }
+   ]
+  },
+  {
+   "id": "park",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last year,"
+    },
+    {
+     "show": "Mr. Park forgot."
+    },
+    {
+     "show": "He looked up"
+    },
+    {
+     "show": "for just one second."
+    },
+    {
+     "show": "The next morning,"
+    },
+    {
+     "show": "his house was empty."
+    },
+    {
+     "show": "Only his glasses on the floor."
+    },
+    {
+     "show": "Still {r:warm.}"
+    },
+    {
+     "show": "The police searched for weeks."
+    },
+    {
+     "show": "Nobody ever found him."
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is Noah."
+    },
+    {
+     "show": "I'm twelve."
+    },
+    {
+     "show": "And my little sister Lily"
+    },
+    {
+     "show": "has never seen the moon."
+    },
+    {
+     "show": "She's seven."
+    },
+    {
+     "show": "She asks a hundred questions a day."
+    },
+    {
+     "show": "She always asked me"
+    },
+    {
+     "show": "what it looks like."
+    },
+    {
+     "show": "I told her:"
+    },
+    {
+     "show": "like a giant light bulb."
+    },
+    {
+     "show": "{y:Boring.}"
+    }
+   ]
+  },
+  {
+   "id": "window",
+   "label": "",
+   "lines": [
+    {
+     "show": "But one night,"
+    },
+    {
+     "show": "I heard her window open."
+    },
+    {
+     "show": "Lily was on the roof."
+    },
+    {
+     "show": "Blindfold in her hand."
+    },
+    {
+     "show": "Looking {r:straight up.}"
+    },
+    {
+     "show": "I climbed out after her."
+    },
+    {
+     "show": "Eyes on my shoes."
+    }
+   ]
+  },
+  {
+   "id": "eyes",
+   "label": "",
+   "lines": [
+    {
+     "show": "And the moon"
+    },
+    {
+     "show": "opened its {r:eyes.}"
+    },
+    {
+     "show": "Two huge white eyes."
+    },
+    {
+     "show": "Staring right at her."
+    },
+    {
+     "show": "The whole town went quiet."
+    },
+    {
+     "show": "Even the wind stopped."
+    }
+   ]
+  },
+  {
+   "id": "beam",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then a beam of light came down."
+    },
+    {
+     "show": "Searching the street."
+    },
+    {
+     "show": "Window"
+    },
+    {
+     "show": "by window."
+    },
+    {
+     "show": "House"
+    },
+    {
+     "show": "by house."
+    },
+    {
+     "show": "And every time it touched a house,"
+    },
+    {
+     "show": "the lights inside went out."
+    }
+   ]
+  },
+  {
+   "id": "run",
+   "label": "",
+   "lines": [
+    {
+     "show": "I grabbed Lily and ran."
+    },
+    {
+     "show": "The beam followed us."
+    },
+    {
+     "show": "Every streetlight"
+    },
+    {
+     "show": "{y:exploded} as it passed."
+    },
+    {
+     "show": "The sirens went off."
+    },
+    {
+     "show": "Police cars everywhere."
+    },
+    {
+     "show": "People screaming"
+    },
+    {
+     "show": "behind their curtains."
+    }
+   ]
+  },
+  {
+   "id": "shop",
+   "label": "",
+   "lines": [
+    {
+     "show": "We hid in the old mirror shop"
+    },
+    {
+     "show": "at the end of our street."
+    },
+    {
+     "show": "Hundreds of {b:mirrors.}"
+    },
+    {
+     "show": "Dark and dusty."
+    },
+    {
+     "show": "Lily was shaking."
+    },
+    {
+     "show": "The beam stopped"
+    },
+    {
+     "show": "right outside the door."
+    },
+    {
+     "show": "And that's when"
+    },
+    {
+     "show": "I had an idea."
+    }
+   ]
+  },
+  {
+   "id": "idea",
+   "label": "",
+   "lines": [
+    {
+     "show": "If the moon finds you"
+    },
+    {
+     "show": "by looking at you,"
+    },
+    {
+     "show": "what happens"
+    },
+    {
+     "show": "if it sees {y:itself?}"
+    }
+   ]
+  },
+  {
+   "id": "roof",
+   "label": "",
+   "lines": [
+    {
+     "show": "We carried every mirror"
+    },
+    {
+     "show": "up to the roof."
+    },
+    {
+     "show": "All of them."
+    },
+    {
+     "show": "On the chimneys."
+    },
+    {
+     "show": "On the antennas."
+    },
+    {
+     "show": "On the edge of the roof."
+    },
+    {
+     "show": "Lily held the last one."
+    },
+    {
+     "show": "The beam came closer."
+    },
+    {
+     "show": "And closer."
+    },
+    {
+     "show": "Then it hit the mirrors."
+    }
+   ]
+  },
+  {
+   "id": "bounce",
+   "label": "",
+   "lines": [
+    {
+     "show": "The light bounced back."
+    },
+    {
+     "show": "Straight into its own eyes."
+    },
+    {
+     "show": "The moon {r:screamed.}"
+    },
+    {
+     "show": "The whole sky shook."
+    },
+    {
+     "show": "And for the first time"
+    },
+    {
+     "show": "in a hundred years,"
+    },
+    {
+     "show": "the moon closed its eyes."
+    }
+   ]
+  },
+  {
+   "id": "morning",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next morning,"
+    },
+    {
+     "show": "Mr. Park was sitting on his porch."
+    },
+    {
+     "show": "Confused."
+    },
+    {
+     "show": "Hungry."
+    },
+    {
+     "show": "And {g:alive.}"
+    },
+    {
+     "show": "And so was everyone else"
+    },
+    {
+     "show": "who had ever looked up."
+    }
+   ]
+  },
+  {
+   "id": "now",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now we're allowed to look up again."
+    },
+    {
+     "show": "Lily looks at the moon every night."
+    },
+    {
+     "show": "She says it looks"
+    },
+    {
+     "show": "like a giant sleeping light bulb."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "But last night,"
+    },
+    {
+     "show": "I saw a {r:second moon.}"
+    },
+    {
+     "show": "And this one"
+    },
+    {
+     "show": "was already looking at me."
+    },
+    {
+     "show": "So now I need your help."
+    },
+    {
+     "show": "Should I tell {y:Lily?}"
+    }
+   ]
+  }
+ ]
+}
