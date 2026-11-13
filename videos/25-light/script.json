@@ -1,0 +1,441 @@
+{
+ "title": "Lightless",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "a light appears above your head"
+    },
+    {
+     "show": "whenever someone is {y:thinking about you.}"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "label": "",
+   "lines": [
+    {
+     "show": "One person thinking about you?"
+    },
+    {
+     "show": "A tiny spark."
+    },
+    {
+     "show": "Your whole family?"
+    },
+    {
+     "show": "A warm little lamp."
+    },
+    {
+     "show": "The popular kids at my school"
+    },
+    {
+     "show": "glow like {y:streetlights.}"
+    },
+    {
+     "show": "And the mayor glows so bright,"
+    },
+    {
+     "show": "you can't even look at him."
+    },
+    {
+     "show": "And when nobody thinks about you?"
+    },
+    {
+     "show": "Nothing."
+    },
+    {
+     "show": "Just {r:darkness.}"
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is Ben."
+    },
+    {
+     "show": "I'm thirteen."
+    },
+    {
+     "show": "And my light"
+    },
+    {
+     "show": "has never turned on."
+    },
+    {
+     "show": "{r:Not once.}"
+    }
+   ]
+  },
+  {
+   "id": "never",
+   "label": "",
+   "lines": [
+    {
+     "show": "Not on my birthday."
+    },
+    {
+     "show": "Not when I won the science fair."
+    },
+    {
+     "show": "Not even when I broke my arm."
+    },
+    {
+     "show": "At school,"
+    },
+    {
+     "show": "they call me {r:Lightless.}"
+    },
+    {
+     "show": "Every night,"
+    },
+    {
+     "show": "I'd stare at the dark above my head."
+    },
+    {
+     "show": "Hoping."
+    },
+    {
+     "show": "Just once."
+    }
+   ]
+  },
+  {
+   "id": "uncle",
+   "label": "",
+   "lines": [
+    {
+     "show": "I live with my uncle."
+    },
+    {
+     "show": "My mom left when I was three."
+    },
+    {
+     "show": "That's all he ever told me."
+    },
+    {
+     "show": "He never talks about her."
+    },
+    {
+     "show": "He just looks away."
+    }
+   ]
+  },
+  {
+   "id": "night",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then one night,"
+    },
+    {
+     "show": "at {y:3:12 a.m.},"
+    },
+    {
+     "show": "my room turned white."
+    }
+   ]
+  },
+  {
+   "id": "look",
+   "label": "",
+   "lines": [
+    {
+     "show": "I looked up."
+    },
+    {
+     "show": "There was a light above my head."
+    },
+    {
+     "show": "Not a spark."
+    },
+    {
+     "show": "Not a lamp."
+    },
+    {
+     "show": "The {y:brightest light}"
+    },
+    {
+     "show": "this town had ever seen."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "label": "",
+   "lines": [
+    {
+     "show": "The neighbors ran outside in their pajamas."
+    },
+    {
+     "show": "Cars stopped in the middle of the street."
+    },
+    {
+     "show": "Somebody called the {r:news.}"
+    },
+    {
+     "show": "Even the mayor's light"
+    },
+    {
+     "show": "looked tiny next to mine."
+    }
+   ]
+  },
+  {
+   "id": "school",
+   "label": "",
+   "lines": [
+    {
+     "show": "And it didn't turn off."
+    },
+    {
+     "show": "Not that night."
+    },
+    {
+     "show": "Not the next morning."
+    },
+    {
+     "show": "At school,"
+    },
+    {
+     "show": "nobody called me Lightless anymore."
+    },
+    {
+     "show": "Even Jake,"
+    },
+    {
+     "show": "the most popular kid in school,"
+    },
+    {
+     "show": "just stared."
+    },
+    {
+     "show": "Kids took pictures."
+    },
+    {
+     "show": "Girls who never talked to me"
+    },
+    {
+     "show": "suddenly said hi."
+    }
+   ]
+  },
+  {
+   "id": "pulse",
+   "label": "",
+   "lines": [
+    {
+     "show": "But something was strange."
+    },
+    {
+     "show": "The light was {r:pulsing.}"
+    },
+    {
+     "show": "Slowly."
+    },
+    {
+     "show": "Like a heartbeat."
+    },
+    {
+     "show": "And a thin beam"
+    },
+    {
+     "show": "was shooting out of it."
+    },
+    {
+     "show": "Pointing north."
+    },
+    {
+     "show": "Like it wanted me to {y:follow.}"
+    }
+   ]
+  },
+  {
+   "id": "follow",
+   "label": "",
+   "lines": [
+    {
+     "show": "So that night,"
+    },
+    {
+     "show": "I followed it."
+    },
+    {
+     "show": "Past the school."
+    },
+    {
+     "show": "Through the forest."
+    },
+    {
+     "show": "Up the hill."
+    },
+    {
+     "show": "To the {r:old hospital}"
+    },
+    {
+     "show": "nobody visits anymore."
+    },
+    {
+     "show": "The beam got brighter"
+    },
+    {
+     "show": "with every step."
+    }
+   ]
+  },
+  {
+   "id": "room",
+   "label": "",
+   "lines": [
+    {
+     "show": "The beam went through a door"
+    },
+    {
+     "show": "on the top floor."
+    },
+    {
+     "show": "Room {y:312.}"
+    },
+    {
+     "show": "The light above my head"
+    },
+    {
+     "show": "was beating faster now."
+    }
+   ]
+  },
+  {
+   "id": "mom",
+   "label": "",
+   "lines": [
+    {
+     "show": "Inside was a woman."
+    },
+    {
+     "show": "Thin."
+    },
+    {
+     "show": "Pale."
+    },
+    {
+     "show": "Surrounded by machines."
+    },
+    {
+     "show": "Her eyes were open."
+    },
+    {
+     "show": "She looked at me,"
+    },
+    {
+     "show": "and whispered my name."
+    },
+    {
+     "show": "The heart monitor next to her"
+    },
+    {
+     "show": "was beeping"
+    },
+    {
+     "show": "in the same rhythm"
+    },
+    {
+     "show": "as my {y:light.}"
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "label": "",
+   "lines": [
+    {
+     "show": "It was my {y:mom.}"
+    },
+    {
+     "show": "She never left."
+    },
+    {
+     "show": "She'd been in a coma."
+    },
+    {
+     "show": "For {r:ten years.}"
+    },
+    {
+     "show": "Ten years in the dark."
+    },
+    {
+     "show": "Just like me."
+    },
+    {
+     "show": "And that first night,"
+    },
+    {
+     "show": "at 3:12 a.m.,"
+    },
+    {
+     "show": "she woke up."
+    },
+    {
+     "show": "And the very first thing"
+    },
+    {
+     "show": "she thought about"
+    },
+    {
+     "show": "was {y:me.}"
+    }
+   ]
+  },
+  {
+   "id": "cry",
+   "label": "",
+   "lines": [
+    {
+     "show": "My uncle cried when he saw us."
+    },
+    {
+     "show": "He'd visited her every Sunday."
+    },
+    {
+     "show": "He just never knew"
+    },
+    {
+     "show": "how to tell me."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now my light never turns off."
+    },
+    {
+     "show": "Not even for a second."
+    },
+    {
+     "show": "But this morning,"
+    },
+    {
+     "show": "a second light appeared above my head."
+    },
+    {
+     "show": "And this one"
+    },
+    {
+     "show": "is {r:red.}"
+    }
+   ]
+  }
+ ]
+}
