@@ -113,3 +113,13 @@ Pro Beat ein neuer Ort (Straße, Schulflur mit Spinden, Stadion, Dorf, Wohnzimme
 - **Whoosh/Rauschen bei Schnitten weglassen** – höchstens ganz selten und sehr leise (Volume ≤ 0.08). Video 21 hatte 25 Whooshes, das nervt.
 - Alle übrigen Effekte deutlich leiser als bisher: etwa halbe Lautstärke (Sparkle/Chime/Pop/Klick ≤ 0.12, Bass-Impacts ≤ 0.2, Riser ≤ 0.12).
 - Lieber wenige gezielte Effekte an Story-Höhepunkten (Schock, Brüllen, Fußstapfen) als ein Effekt pro Schnitt.
+
+## Dritte Referenz-Runde (Nov. 2026): 3 Videos (Kanal „zaylento“)
+
+Gemessen: 112–143 s, −18 LUFS, **94–126 Schnitte = ein Schnitt alle ~1,2 s** (viel schneller als unsere ~2 s!).
+- Ref H: knallbunte Pastell-Stadt (Wolkenkratzer, Werbetafel mit „$“, Markisen, Brunnen), Schule, Lava, Mammut, „Academy“ – sehr viele Orte.
+- Ref I + J (Teil 1 + 2 einer Serie): Nachtstadt, riesiges Licht-Monster (Steinkopf mit runden Augen + Zahnmaul, lange schwarze Spinnenbeine),
+  Flutlichtmasten mit **sichtbaren Lichtkegeln**, Wachleute (Kappe, Funkgerät), Generatoren, Uhr „2:13 AM“, Polizeiautos (rot/blau), Regen, Funken,
+  Glühwürmchen im Hangar. Teil 1 endet mit Cliffhanger → Teil 2.
+Umsetzen: Schnitt ~1,2 s (`cams`-Liste pro Einstellung), Lichtkegel als additive Kegel, Nachtstadt mit vielen beleuchteten Fenstern im Hintergrund,
+Monster riesig + Froschperspektive, Serien-Cliffhanger am Ende.
