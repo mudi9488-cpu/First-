@@ -1,0 +1,435 @@
+{
+ "title": "The Mirror Rule",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "every mirror has to be covered"
+    },
+    {
+     "show": "at {r:midnight.}"
+    },
+    {
+     "show": "Every single one."
+    },
+    {
+     "show": "Bathrooms."
+    },
+    {
+     "show": "Hallways."
+    },
+    {
+     "show": "Even car mirrors."
+    },
+    {
+     "show": "Because after midnight,"
+    },
+    {
+     "show": "your reflection"
+    },
+    {
+     "show": "stops {r:copying you.}"
+    },
+    {
+     "show": "It moves on its own."
+    },
+    {
+     "show": "It smiles when you're sad."
+    },
+    {
+     "show": "And if you stare at it for too long,"
+    },
+    {
+     "show": "it remembers your face."
+    }
+   ]
+  },
+  {
+   "id": "hale",
+   "label": "",
+   "lines": [
+    {
+     "show": "But Mrs. Hale from next door"
+    },
+    {
+     "show": "forgot."
+    },
+    {
+     "show": "Just once."
+    },
+    {
+     "show": "The next morning,"
+    },
+    {
+     "show": "she looked totally normal."
+    },
+    {
+     "show": "Same smile."
+    },
+    {
+     "show": "Same voice."
+    },
+    {
+     "show": "But she was writing"
+    },
+    {
+     "show": "with her {r:left hand.}"
+    },
+    {
+     "show": "And she'd been right-handed"
+    },
+    {
+     "show": "for seventy years."
+    },
+    {
+     "show": "Nobody said anything."
+    },
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "you just don't ask."
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "My name is Theo."
+    },
+    {
+     "show": "I'm twelve."
+    },
+    {
+     "show": "And for the last week,"
+    },
+    {
+     "show": "something has been wrong"
+    },
+    {
+     "show": "with my sister {y:Emma.}"
+    },
+    {
+     "show": "She's fifteen."
+    },
+    {
+     "show": "She's annoying,"
+    },
+    {
+     "show": "but she's the best sister in the world."
+    }
+   ]
+  },
+  {
+   "id": "weird",
+   "label": "",
+   "lines": [
+    {
+     "show": "She stopped calling me Teddy."
+    },
+    {
+     "show": "She forgot our dog's name."
+    },
+    {
+     "show": "And this morning,"
+    },
+    {
+     "show": "she buttered her toast"
+    },
+    {
+     "show": "with her {r:left hand.}"
+    },
+    {
+     "show": "When I asked her about it,"
+    },
+    {
+     "show": "she just smiled."
+    },
+    {
+     "show": "Like she was {r:practicing.}"
+    }
+   ]
+  },
+  {
+   "id": "night",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then one night,"
+    },
+    {
+     "show": "I heard a sound in the hallway."
+    },
+    {
+     "show": "The cloth on the big mirror"
+    },
+    {
+     "show": "had fallen down."
+    },
+    {
+     "show": "The clock said {r:12:01.}"
+    },
+    {
+     "show": "I knew I shouldn't look."
+    },
+    {
+     "show": "But I did."
+    }
+   ]
+  },
+  {
+   "id": "mirror",
+   "label": "",
+   "lines": [
+    {
+     "show": "My reflection was standing there."
+    },
+    {
+     "show": "Not moving."
+    },
+    {
+     "show": "Not copying me."
+    },
+    {
+     "show": "Just {r:staring.}"
+    },
+    {
+     "show": "And behind it,"
+    },
+    {
+     "show": "in the mirror's hallway,"
+    },
+    {
+     "show": "was Emma."
+    },
+    {
+     "show": "The {y:real} Emma."
+    },
+    {
+     "show": "Crying."
+    },
+    {
+     "show": "Banging on the glass."
+    },
+    {
+     "show": "But there was no {r:sound.}"
+    }
+   ]
+  },
+  {
+   "id": "write",
+   "label": "",
+   "lines": [
+    {
+     "show": "She breathed on the mirror"
+    },
+    {
+     "show": "and wrote with her finger."
+    },
+    {
+     "show": "Backwards."
+    },
+    {
+     "show": "{r:It's not me.}"
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "label": "",
+   "lines": [
+    {
+     "show": "That's when I understood."
+    },
+    {
+     "show": "The girl sleeping in Emma's room"
+    },
+    {
+     "show": "wasn't my sister."
+    },
+    {
+     "show": "It was her {r:reflection.}"
+    },
+    {
+     "show": "And it had switched places with her."
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "label": "",
+   "lines": [
+    {
+     "show": "The only way to switch back"
+    },
+    {
+     "show": "is at midnight."
+    },
+    {
+     "show": "Both of them have to touch"
+    },
+    {
+     "show": "the same mirror"
+    },
+    {
+     "show": "at the same time."
+    },
+    {
+     "show": "I wasn't scared of the dark anymore."
+    },
+    {
+     "show": "I was scared of my own sister."
+    },
+    {
+     "show": "So the next night,"
+    },
+    {
+     "show": "I took the cover off"
+    },
+    {
+     "show": "every mirror in the house."
+    }
+   ]
+  },
+  {
+   "id": "trick",
+   "label": "",
+   "lines": [
+    {
+     "show": "At 11:59,"
+    },
+    {
+     "show": "I woke up the fake Emma."
+    },
+    {
+     "show": "I told her I had a nightmare."
+    },
+    {
+     "show": "I asked her to walk me"
+    },
+    {
+     "show": "to the bathroom."
+    },
+    {
+     "show": "She smiled."
+    },
+    {
+     "show": "But only {r:half} of her face moved."
+    },
+    {
+     "show": "And her hair was parted"
+    },
+    {
+     "show": "on the wrong side."
+    }
+   ]
+  },
+  {
+   "id": "swap",
+   "label": "",
+   "lines": [
+    {
+     "show": "At exactly midnight,"
+    },
+    {
+     "show": "she looked into the mirror."
+    },
+    {
+     "show": "And the real Emma"
+    },
+    {
+     "show": "pressed her hand against the glass"
+    },
+    {
+     "show": "from the other side."
+    },
+    {
+     "show": "The fake Emma screamed."
+    },
+    {
+     "show": "Every light in the house flickered."
+    },
+    {
+     "show": "The glass rippled"
+    },
+    {
+     "show": "like {b:water.}"
+    },
+    {
+     "show": "And then it pulled her in."
+    }
+   ]
+  },
+  {
+   "id": "back",
+   "label": "",
+   "lines": [
+    {
+     "show": "Emma fell into my arms."
+    },
+    {
+     "show": "Warm."
+    },
+    {
+     "show": "Real."
+    },
+    {
+     "show": "Calling me {y:Teddy.}"
+    },
+    {
+     "show": "The mirror cracked"
+    },
+    {
+     "show": "from corner to corner."
+    },
+    {
+     "show": "Inside,"
+    },
+    {
+     "show": "the reflection was banging on the glass."
+    },
+    {
+     "show": "Then it was gone."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Our dog finally stopped"
+    },
+    {
+     "show": "growling at her."
+    },
+    {
+     "show": "Emma writes with her right hand again."
+    },
+    {
+     "show": "And we still cover every mirror at midnight."
+    },
+    {
+     "show": "But this morning,"
+    },
+    {
+     "show": "when I brushed my teeth,"
+    },
+    {
+     "show": "my reflection"
+    },
+    {
+     "show": "finished {r:before I did.}"
+    }
+   ]
+  }
+ ]
+}
