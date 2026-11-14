@@ -1488,7 +1488,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const chGlow = new THREE.Sprite(new THREE.SpriteMaterial({ map: GLOW, color: 0xFFC531, blending: THREE.AdditiveBlending, depthWrite: false, transparent: true, toneMapped: false })); chGlow.scale.set(3, 3, 1); scene.add(chGlow); chGlow.visible = false;
   const chLight = new THREE.PointLight(0xFFB830, 0, 9, 1.4); scene.add(chLight);
   const rayT = tex(64, 256, 511, (g) => { const gr = g.createLinearGradient(0, 256, 0, 0); gr.addColorStop(0, "rgba(255,220,120,0.9)"); gr.addColorStop(1, "rgba(255,220,120,0)"); g.fillStyle = gr; g.fillRect(0, 0, 64, 256); });
-  const RAYS = []; for (let i = 0; i < 9; i++) { const r = new THREE.Mesh(new THREE.PlaneGeometry(0.22, 3.2), new THREE.MeshBasicMaterial({ map: rayT, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide, toneMapped: false }));
+  const RAYS = []; for (let i = 0; i < 7; i++) { const r = new THREE.Mesh(new THREE.PlaneGeometry(0.22, 3.2), new THREE.MeshBasicMaterial({ map: rayT, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide, toneMapped: false }));
     r.geometry.translate(0, 1.6, 0); r.userData = { a: i / 9 * 6.28, tilt: 0.25 + (i % 3) * 0.12 }; scene.add(r); r.visible = false; RAYS.push(r); }
   const GSPK = []; for (let i = 0; i < 26; i++) { const sp = new THREE.Mesh(new THREE.OctahedronGeometry(0.035, 0), basic({ color: 0xFFE27A, toneMapped: false })); sp.userData = { a: i * 2.4, r: 0.2 + (i % 5) * 0.12, o: (i * 0.137) % 1 }; scene.add(sp); sp.visible = false; GSPK.push(sp); }
   // Gold-Gegenstände
@@ -1521,7 +1521,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     const q = mulberry(541); for (let i = 0; i < 26; i++) { const x = LKX + (q() - 0.5) * 18, z = -2 - q() * 14; if (Math.abs(x - LKX) < 1.6 && z > -6) continue; const wd = new THREE.Group(); wd.position.set(x, 0, z); lake.add(wd);
       let par = wd; for (let k = 0; k < 5; k++) { const holder = new THREE.Group(); holder.position.y = k ? 0.55 : 0; par.add(holder); box(0.16, 0.6, 0.06, std({ color: [0x2F8F46, 0x3BA55C, 0x26773A][k % 3] }), 0, 0.3, 0, holder, false); par = holder; }
       wd.userData = { o: q() * 6 }; WEED.push(wd); }
-    for (let i = 0; i < 9; i++) { const rk = add(new THREE.Mesh(new THREE.DodecahedronGeometry(0.3 + q() * 0.6, 0), std({ color: 0x6A7A80, flatShading: true })), lake); rk.position.set(LKX + (q() - 0.5) * 12, 0.1, -1 - q() * 12); }
+    for (let i = 0; i < 9; i++) { const rk = add(new THREE.Mesh(new THREE.DodecahedronGeometry(0.3 + q() * 0.6, 0), std({ color: 0x6A7A80, flatShading: true })), lake); rk.position.set(LKX + (q() - 0.5) * 12, 0.1, -6 - q() * 8); }
     for (let i = 0; i < 40; i++) { const b = new THREE.Mesh(new THREE.SphereGeometry(0.04 + q() * 0.05, 8, 6), new THREE.MeshBasicMaterial({ color: 0xDFF6FF, transparent: true, opacity: 0.6 })); b.userData = { x: LKX + (q() - 0.5) * 6, z: -q() * 6 + 1, o: q(), sp: 0.4 + q() * 0.5 }; lake.add(b); BUB.push(b); }
     for (let i = 0; i < 6; i++) { const r = new THREE.Mesh(new THREE.PlaneGeometry(1.2, 14), new THREE.MeshBasicMaterial({ map: rayT, color: 0xBFEFFF, transparent: true, opacity: 0.35, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide })); r.position.set(LKX - 5 + i * 2, 7, -6 - (i % 3) * 3); r.rotation.set(0, 0.4, 0.25); r.geometry.translate(0, 0, 0); r.rotation.x = Math.PI; lake.add(r); }
     const fish = []; for (let i = 0; i < 4; i++) { const fg = new THREE.Group(); box(0.3, 0.18, 0.08, std({ color: [0xFFBE0B, 0xFF4D8D, 0x3A86FF, 0x06D6A0][i] }), 0, 0, 0, fg, false); const tl = add(new THREE.Mesh(new THREE.ConeGeometry(0.1, 0.16, 3), std({ color: 0xFF8A00 })), fg); tl.rotation.z = Math.PI / 2; tl.position.x = -0.2; fg.userData = { o: i * 1.7, y: 1.2 + i * 0.6, r: 2.5 + i }; lake.add(fg); fish.push(fg); } lake.userData = { fish }; }
@@ -1569,7 +1569,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const MANY = []; for (let i = 0; i < 16; i++) { const c = chest(scene, 0, 0, 0, 0, 1); c.visible = false; MANY.push(c); }
   const LAY = {
     town: [[-5.6, 22, 30], [5.4, 18, -40], [-5.2, 12, 10], [5.6, 6, -20], [-3.0, 15, 60], [2.6, 9, -70], [-5.4, -2, 20], [5.2, -6, -30], [0.6, 20, 0], [-1.8, 4, 80], [3.6, 26, -10], [-5.8, 30, 40], [5.4, 32, -50], [1.5, -10, 15]],
-    linda: [[-4.2, 19.2, 70], [-3.3, 17.6, 30], [-4.6, 15.6, 120], [-3.0, 20.6, -20], [-2.6, 16.2, 160], [-5.0, 21.4, 40]],
+    linda: [[-4.6, 8.6, 70], [-5.0, 6.4, 30], [-4.2, 4.6, 120], [-2.6, 9.4, -20], [-5.4, 10.4, 160], [-1.8, 4.4, 40]],
     row: [[-3.0, 28, 0], [-1.5, 26, 0], [0, 24, 0], [1.5, 22, 0], [3.0, 20, 0], [-3.0, 18, 0], [-1.5, 16, 0], [0, 14, 0], [1.5, 12, 0], [3.0, 10, 0]],
     pile: [[-1.2, 20.6, 20], [1.1, 20.3, -30], [-0.4, 21.6, 60], [0.6, 21.4, 100], [-1.8, 19.4, -60], [1.9, 19.2, 30], [-0.2, 19.0, 140], [0.0, 20.4, 0, 1.2]],
   };
@@ -1597,51 +1597,51 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const ME = (x, z, r, p, e, o) => ["me", x, z, r, p, e, o];
   const S = [
     /* L0 */ { m: "day", cam: { p: [14, 22, 34], p2: [10, 17, 27], t: [0, 8, -30], fov: 52 } },
-    /* L1 */ { m: "day", tok: [0, 2.6, 16, 0, 1.3], tokGlow: 1, tokSpin: 1, cams: [{ p: [0.3, 2.75, 18.6], p2: [0.2, 2.68, 17.7], t: [0, 2.6, 16], fov: 40 }, { p: [-1.6, 1.8, 19.5], p2: [-1.2, 2.0, 18.6], t: [0, 2.6, 16], fov: 44 }] },
+    /* L1 */ { m: "day", tok: [0, 2.6, 16, 0, 1.3], tokGlow: 0.7, tokSpin: 1, cams: [{ p: [0.3, 2.75, 19.2], p2: [0.2, 2.68, 18.3], t: [0, 2.6, 16], fov: 40 }, { p: [-1.6, 1.8, 19.8], p2: [-1.2, 2.0, 19.0], t: [0, 2.6, 16], fov: 44 }] },
     /* L2 */ { m: "day", many: "town", cams: [{ p: [0, 9, 36], p2: [0, 8, 31], t: [0, 0, 14], fov: 50 }, { p: [-3.4, 0.7, 27], p2: [-3.6, 0.7, 25.6], t: [-5.4, 0.4, 12], fov: 46 }] },
-    /* L3 */ { m: "day", chest: [0, 0, 20, 20, 1], cam: { p: [1.3, 1.3, 22.6], p2: [1.0, 1.1, 21.9], t: [0, 0.5, 20], fov: 42 } },
+    /* L3 */ { m: "day", chest: [0, 0, 20, 20, 1], cam: { p: [1.6, 1.8, 24.2], p2: [1.2, 1.6, 23.2], t: [0, 0.4, 20], fov: 44 } },
     /* L4 */ { m: "day", cast: [ME(0, 14, 0, "holdUp", "grin", { h27: "token", tokGlow: 0.8 })], cams: [{ face: "me", d: 1.5, fov: 44, orbit: 0.3 }, { p: [0.9, 1.3, 16.6], p2: [0.8, 1.2, 16.2], t: [0, 2.9, 14], fov: 46 }] },
-    /* L6 */ { m: "day", chest: [0, 0, 20, 0, 1], open: 1, glow: 1.4, cam: { p: [0.9, 0.9, 21.8], p2: [0.6, 0.9, 21.3], t: [0, 0.9, 20], fov: 46 } },
-    /* L7 */ { m: "day", bb: "token27", cams: [{ p: [-2, 7, -21], p2: [-1, 7.5, -21.6], t: [7, 9.9, -24], fov: 46 }, { p: [1.8, 9.6, -23.2], p2: [2.3, 9.7, -23.4], t: [7, 9.9, -24], fov: 40 }] },
-    /* L9 */ { m: "day", many: "linda", manyOpen: 1, cast: [["linda", -4.4, 18, 90, "idle", "neutral"]], cam: { face: "linda", d: 1.5, fov: 44, orbit: 0.3 } },
-    /* L10 */ { m: "day", many: "linda", manyOpen: 1, cast: [["linda", -4.4, 18, 90, "point", "smile"]], cam: { p: [0.6, 2.7, 22.6], p2: [0.2, 2.4, 21.4], t: [-4, 0.8, 18], fov: 48 } },
-    /* L11 */ { m: "day", many: "linda", manyOpen: 1, socks: [-3.6, 16.4], cast: [["linda", -4.4, 18, 120, "sad2", "sad"]], cams: [{ p: [-1.0, 1.6, 19.4], p2: [-1.3, 1.5, 19.0], t: [-3.8, 0.6, 16.8], fov: 46 }, { face: "linda", d: 1.2, fov: 42, orbit: -0.3 }] },
+    /* L6 */ { m: "day", chest: [0, 0, 20, 0, 1], open: 1, glow: 1.2, cam: { p: [1.0, 1.6, 23.4], p2: [0.7, 1.5, 22.8], t: [0, 0.8, 20], fov: 46 } },
+    /* L7 */ { m: "kitchen", tvKey: "token27", cams: [{ p: [KX + 0.4, 2.0, 0.6], p2: [KX - 0.2, 2.1, 0.2], t: [KX - 4.3, 2.2, -0.6], fov: 44 }, { p: [KX - 1.3, 2.2, -0.6], p2: [KX - 1.6, 2.2, -0.6], t: [KX - 4.3, 2.2, -0.6], fov: 40 }] },
+    /* L9 */ { m: "day", many: "linda", manyOpen: 1, cast: [["linda", -3.4, 7, 90, "idle", "neutral"]], cam: { face: "linda", d: 1.5, fov: 44, orbit: 0.3 } },
+    /* L10 */ { m: "day", many: "linda", manyOpen: 1, cast: [["linda", -3.4, 7, 70, "point", "smile"]], cam: { p: [2.6, 3.4, 11.5], p2: [2.0, 3.0, 10.6], t: [-3.6, 0.6, 7], fov: 48 } },
+    /* L11 */ { m: "day", many: "linda", manyOpen: 1, socks: [-2.4, 5.4], cast: [["linda", -3.4, 7, 110, "sad2", "sad"]], cams: [{ p: [0.8, 2.2, 7.2], p2: [0.5, 2.0, 7.0], t: [-2.8, 0.6, 5.8], fov: 46 }, { face: "linda", d: 1.3, fov: 42, orbit: -0.3 }] },
     /* L12 */ { m: "day", nest: [3.0, -14.2, -70], cast: [["granny", 4.4, -13.4, -100, "hands", "shock"]], cams: [{ p: [0.4, 1.9, -10.6], p2: [0.7, 1.8, -11.2], t: [3.3, 0.7, -14], fov: 46 }, { p: [1.5, 1.3, -12.6], p2: [1.7, 1.3, -12.9], t: [3.1, 0.9, -14.2], fov: 40 }] },
     /* L14 */ { m: "day", cast: [["kevin", 1, 12, 0, "wave", "grin"]], cam: { face: "kevin", d: 1.5, fov: 44, orbit: 0.3 } },
     /* L15 */ { m: "day", chest: [1.6, 0, 13.6, -30, 1], open: 1, racc: [1.6, 0.3, 13.6, -30, 0.9], cast: [["kevin", 0.4, 12.6, 30, "hands", "shock"]], cam: { p: [3.4, 1.6, 17], p2: [3.0, 1.5, 16.3], t: [1.3, 0.8, 13.3], fov: 44 } },
-    /* L16 */ { m: "kitchen", racc: [KX + 0.35, 1.05, -0.6, 180, 0.8], cast: [["kevin", KX + 0.35, -1.75, 0, "sitEat", "smile"]], cams: [{ p: [KX + 2.3, 1.9, 1.6], p2: [KX + 2.0, 1.8, 1.2], t: [KX + 0.2, 1.2, -0.9], fov: 46 }, { p: [KX - 0.6, 1.6, 0.6], p2: [KX - 0.5, 1.6, 0.4], t: [KX + 0.35, 1.3, -0.9], fov: 42 }] },
+    /* L16 */ { m: "kitchen", racc: [KX + 0.35, 1.05, -0.6, 180, 0.8], cast: [["kevin", KX + 0.35, -1.75, 0, "sitEat", "smile"]], cams: [{ p: [KX + 2.6, 2.1, 2.0], p2: [KX + 2.2, 2.0, 1.6], t: [KX + 0.2, 1.2, -0.9], fov: 46 }, { p: [KX - 1.8, 2.0, 1.6], p2: [KX - 1.6, 2.0, 1.3], t: [KX + 0.35, 1.3, -1.0], fov: 44 }] },
     /* L17 */ { m: "day", many: "town", manyOpen: 1, cr: "lookAway", cam: { p: [2, 3, 27], p2: [1.6, 2.8, 25.5], t: [0, 1.2, 10], fov: 50 } },
     /* L18 */ { m: "party", cr: "party", conf: [0, -4], cams: [{ p: [10, 14, 22], p2: [8, 11, 18], t: [0, 1, -3], fov: 50 }, { p: [2, 2.2, 10], p2: [1.6, 2.0, 8.6], t: [0, 1.6, -4], fov: 48 }] },
     /* L20 */ { m: "party", cr: "party", conf: [0, -4], cam: { p: [-1, 1.8, 3], p2: [-0.8, 1.8, 2.2], t: [0, 1.7, -6], fov: 44 } },
     /* L21 */ { m: "party", cr: "party", cast: [ME(0, 30, 0, "torch", "serious", { h27: "flash" })], cam: { face: "me", d: 1.7, fov: 44, orbit: 0.25 } },
     /* L22 */ { m: "party", cr: "party", conf: [0, -4], cams: [{ p: [3, 1.7, 4], p2: [2.6, 1.7, 3.2], t: [-1, 1.5, -5], fov: 46 }, { p: [-3, 2.4, 2], p2: [-2.6, 2.3, 1.4], t: [1, 1.4, -6], fov: 46 }] },
     /* L23 */ { m: "party", cr: "party", cast: [ME(0, 30, 0, "idle", "serious", { h27: "flash" })], cam: { face: "me", d: 1.15, fov: 42, orbit: -0.15 } },
-    /* L25 */ { m: "party", cr: "party", chest: [0, 0, 31.6, 180, 1], cast: [ME(0, 30.5, 0, "peek", "neutral", { h27: "flash" })], cam: { p: [2.6, 1.6, 33.2], p2: [2.3, 1.5, 32.8], t: [0, 0.7, 31], fov: 44 } },
-    /* L26 */ { m: "party", chest: [0, 0, 31.6, 180, 1], cast: [ME(0.7, 30.2, 15, "torch", "neutral", { h27: "flash" })], cam: { p: [0.5, 1.0, 33.4], p2: [0.4, 0.9, 33.0], t: [0, 0.45, 31.6], fov: 40 } },
-    /* L27 */ { m: "party", chest: [0, 0, 31.6, 180, 1], open: [0, 0.6], glow: [0.15, 0.5], cast: [ME(0, 30.5, 0, "open", "wide")], cam: { p: [0.4, 1.4, 33.6], p2: [0.3, 1.3, 33.0], t: [0, 0.6, 31.6], fov: 42 } },
-    /* L28 */ { m: "party", chest: [0, 0, 31.6, 180, 1], open: 1, glow: 1.4, cast: [ME(0, 30.5, 0, "hands", "wide")], cam: { face: "me", d: 1.35, dy: -0.15, fov: 44, orbit: 0.2 } },
-    /* L29 */ { m: "party", chest: [0, 0, 31.6, 180, 1], open: 1, glow: 1.4, glowOff: 0.2, item: "potato", itemRise: [0, 0.45], cast: [ME(0, 30.5, 0, "peek", "sad")], cam: { p: [-0.6, 2.4, 29.3], p2: [-0.5, 2.3, 29.6], t: [0, 1.0, 31.6], fov: 42 } },
+    /* L25 */ { m: "party", cr: "party", chest: [0, 0, 31.6, 180, 1], cast: [ME(0, 30.5, 0, "peek", "neutral", { h27: "flash" })], cam: { p: [3.6, 2.0, 30.4], p2: [3.3, 1.9, 30.6], t: [0, 0.9, 31.0], fov: 46 } },
+    /* L26 */ { m: "party", chest: [0, 0, 31.6, 180, 1], cast: [ME(0.7, 30.2, 15, "torch", "neutral", { h27: "flash" })], cam: { p: [0.8, 1.9, 34.8], p2: [0.6, 1.7, 34.2], t: [0, 0.4, 31.4], fov: 42 } },
+    /* L27 */ { m: "party", chest: [0, 0, 31.6, 180, 1], open: [0, 0.6], glow: [0.15, 0.5], cast: [ME(0, 30.5, 0, "open", "wide")], cam: { p: [0.9, 2.3, 35.0], p2: [0.7, 2.1, 34.3], t: [0, 0.9, 31.2], fov: 44 } },
+    /* L28 */ { m: "party", chest: [0, 0, 31.6, 180, 1], open: 1, glow: 1.0, cast: [ME(0, 30.5, 0, "hands", "wide")], cam: { face: "me", d: 1.6, dy: 0.1, fov: 44, orbit: 0.2 } },
+    /* L29 */ { m: "party", chest: [0, 0, 31.6, 180, 1], open: 1, glow: 1.0, glowOff: 0.2, item: "potato", itemRise: [0, 0.45], itemSc: 1.4, cast: [ME(0, 30.5, 0, "peek", "sad")], cam: { p: [-1.0, 3.4, 28.6], p2: [-0.9, 3.3, 28.9], t: [0, 0.8, 31.6], fov: 44 } },
     /* L30 */ { m: "party", chest: [0, 0, 31.6, 180, 1], open: 1, glow: 0.2, item: "potato", cast: [ME(0, 30.5, 0, "sad", "sad")], cam: { face: "me", d: 1.0, fov: 40, orbit: -0.2 } },
-    /* L31 */ { m: "party", chest: [0, 0, 31.6, 180, 1], open: 1, glow: 0.25, item: "potato", itemSc: 1.2, cam: { p: [0.4, 1.45, 33.0], p2: [0.3, 1.42, 32.6], t: [0, 1.3, 31.6], fov: 36 } },
-    /* L32 */ { m: "lake", chest: [LKX, 0, -4, 0, 1], cast: [ME(LKX - 0.8, -1.5, 160, "swim", "neutral", { y: 1.4, to: [LKX - 0.3, -2.4], dur: 1.4, goggles: 1 })], cams: [{ p: [LKX + 3, 2.6, 3], p2: [LKX + 2.6, 2.3, 2.2], t: [LKX, 0.9, -3.5], fov: 50 }, { p: [LKX + 1.2, 0.7, -1.2], p2: [LKX + 1.0, 0.7, -1.5], t: [LKX, 0.4, -4], fov: 44 }] },
-    /* L33 */ { m: "lake", chest: [LKX, 0, -4, 0, 1], open: [0, 0.4], glow: [0.1, 0.3, 1.4], cast: [ME(LKX, -2.8, 180, "hands", "wide", { goggles: 1 })], cam: { face: "me", d: 1.4, dy: -0.1, fov: 44, orbit: 0.2 } },
-    /* L34 */ { m: "lake", chest: [LKX, 0, -4, 0, 1], open: 1, glow: 1.4, glowOff: 0.2, item: "duck", itemRise: [0, 0.45], cast: [ME(LKX, -2.8, 180, "peek", "sad", { goggles: 1 })], cam: { p: [LKX - 0.6, 2.3, -1.6], p2: [LKX - 0.5, 2.2, -1.9], t: [LKX, 0.9, -4], fov: 42 } },
+    /* L31 */ { m: "party", chest: [0, 0, 31.6, 180, 1], open: 1, glow: 0.25, item: "potato", itemSc: 1.6, cam: { p: [0.6, 2.0, 34.0], p2: [0.5, 1.9, 33.6], t: [0, 1.4, 31.6], fov: 36 } },
+    /* L32 */ { m: "lake", chest: [LKX, 0, -4, 0, 1], cast: [ME(LKX - 0.8, -1.5, 160, "swim", "neutral", { y: 1.4, to: [LKX - 0.3, -2.4], dur: 1.4, goggles: 1 })], cams: [{ p: [LKX + 3.4, 2.8, 3.4], p2: [LKX + 3.0, 2.5, 2.6], t: [LKX, 0.9, -3.5], fov: 50 }, { p: [LKX + 2.0, 1.1, 0.0], p2: [LKX + 1.8, 1.0, -0.4], t: [LKX, 0.4, -4], fov: 44 }] },
+    /* L33 */ { m: "lake", chest: [LKX, 0, -4, 0, 1], open: [0, 0.4], glow: [0.1, 0.3, 1.0], cast: [ME(LKX, -2.8, 180, "hands", "wide", { goggles: 1 })], cam: { face: "me", d: 1.6, dy: 0.1, fov: 44, orbit: 0.2 } },
+    /* L34 */ { m: "lake", chest: [LKX, 0, -4, 0, 1], open: 1, glow: 1.0, glowOff: 0.2, item: "duck", itemRise: [0, 0.45], itemSc: 1.4, cast: [ME(LKX, -2.8, 180, "peek", "sad", { goggles: 1 })], cam: { p: [LKX - 1.0, 3.4, -0.7], p2: [LKX - 0.9, 3.3, -1.0], t: [LKX, 0.8, -4], fov: 44 } },
     /* L35 */ { m: "lake", chest: [LKX, 0, -4, 0, 1], open: 1, glow: 0.2, item: "duck", cast: [ME(LKX, -2.8, 180, "sad", "sad", { goggles: 1 })], cam: { face: "me", d: 1.0, fov: 40, orbit: -0.2 } },
-    /* L36 */ { m: "lake", chest: [LKX, 0, -4, 0, 1], open: 1, glow: 0.25, item: "duck", itemSc: 1.2, cam: { p: [LKX + 0.4, 1.5, -2.6], p2: [LKX + 0.3, 1.45, -2.9], t: [LKX, 1.3, -4], fov: 36 } },
+    /* L36 */ { m: "lake", chest: [LKX, 0, -4, 0, 1], open: 1, glow: 0.25, item: "duck", itemSc: 1.6, cam: { p: [LKX + 0.6, 2.0, -1.6], p2: [LKX + 0.5, 1.9, -2.0], t: [LKX, 1.4, -4], fov: 36 } },
     /* L37 */ { m: "roof27", chest: [RFX + 1, 0, -2, 0, 1], cast: [ME(RFX - 2, 4, 160, "walk", "neutral", { to: [RFX + 0.8, -0.6], dur: 1.4, h27: "flash" })], cams: [{ p: [RFX + 5, 5, 8], p2: [RFX + 4.4, 4.4, 7], t: [RFX, 0.5, -2], fov: 50 }, { p: [RFX + 2.8, 1.2, 1.0], p2: [RFX + 2.6, 1.2, 0.7], t: [RFX + 1, 0.5, -2], fov: 44 }] },
-    /* L38 */ { m: "roof27", chest: [RFX + 1, 0, -2, 0, 1], open: [0, 0.4], glow: [0.1, 0.3, 1.4], cast: [ME(RFX + 1, -0.9, 180, "hands", "wide")], cam: { face: "me", d: 1.4, dy: -0.1, fov: 44, orbit: 0.2 } },
-    /* L39 */ { m: "roof27", chest: [RFX + 1, 0, -2, 0, 1], open: 1, glow: 1.4, glowOff: 0.2, item: "seat", itemRise: [0, 0.45], cast: [ME(RFX + 1, -0.9, 180, "peek", "sad")], cam: { p: [RFX + 1.6, 2.3, 0.5], p2: [RFX + 1.5, 2.2, 0.2], t: [RFX + 1, 0.9, -2], fov: 42 } },
+    /* L38 */ { m: "roof27", chest: [RFX + 1, 0, -2, 0, 1], open: [0, 0.4], glow: [0.1, 0.3, 1.0], cast: [ME(RFX + 1, -0.9, 180, "hands", "wide")], cam: { face: "me", d: 1.6, dy: 0.1, fov: 44, orbit: 0.2 } },
+    /* L39 */ { m: "roof27", chest: [RFX + 1, 0, -2, 0, 1], open: 1, glow: 1.0, glowOff: 0.2, item: "seat", itemRise: [0, 0.45], itemSc: 1.3, cast: [ME(RFX + 1, -0.9, 180, "peek", "sad")], cam: { p: [RFX + 2.0, 3.4, 1.4], p2: [RFX + 1.9, 3.3, 1.1], t: [RFX + 1, 0.8, -2], fov: 44 } },
     /* L40 */ { m: "roof27", chest: [RFX + 1, 0, -2, 0, 1], open: 1, glow: 0.2, item: "seat", cast: [ME(RFX + 1, -0.9, 180, "sad", "sad")], cam: { face: "me", d: 1.0, fov: 40, orbit: -0.2 } },
-    /* L41 */ { m: "roof27", chest: [RFX + 1, 0, -2, 0, 1], open: 1, glow: 0.25, item: "seat", itemSc: 1.15, cam: { p: [RFX + 1.4, 1.55, -0.7], p2: [RFX + 1.3, 1.5, -1.0], t: [RFX + 1, 1.3, -2], fov: 36 } },
+    /* L41 */ { m: "roof27", chest: [RFX + 1, 0, -2, 0, 1], open: 1, glow: 0.25, item: "seat", itemSc: 1.5, cam: { p: [RFX + 1.6, 2.0, 0.4], p2: [RFX + 1.5, 1.9, 0.0], t: [RFX + 1, 1.4, -2], fov: 36 } },
     /* L42 */ { m: "roof27", cast: [ME(RFX + 1, -0.9, 0, "idle", "serious")], cam: { face: "me", d: 1.1, fov: 40, orbit: 0.1 } },
     /* L43 */ { m: "night", many: "row", cast: [ME(0.8, 31, 180, "walk", "neutral", { to: [0.8, 28], dur: 1.0, h27: "flash" })], cam: { p: [3.0, 2.3, 34], p2: [2.6, 2.2, 33], t: [0, 0.8, 22], fov: 46 } },
-    /* L44 */ { m: "night", many: "row", manyOpen: "seq", manyGlow: 1, cam: { p: [-4.6, 0.8, 30], p2: [-4.3, 0.8, 29], t: [2, 0.4, 12], fov: 46 } },
+    /* L44 */ { m: "night", many: "row", manyOpen: "seq", manyGlow: 1, cam: { p: [-5.6, 1.4, 31], p2: [-5.3, 1.3, 30], t: [2, 0.4, 12], fov: 46 } },
     /* L45 */ { m: "party", cr: "party", conf: [0, -2], cast: [["kevin", 0, 2, 0, "point", "grin", { hat: 1 }]], cam: { face: "kevin", d: 1.4, fov: 44, orbit: 0.3 } },
     /* L46 */ { m: "party", cr: "party", cast: [["linda", 0.5, 2, -20, "no", "smirk", { hat: 1 }]], cam: { face: "linda", d: 1.3, fov: 44, orbit: -0.3 } },
     /* L47 */ { m: "party", cr: "party", cast: [["granny", 0, 2, 10, "idle", "neutral", { hat: 1 }]], cam: { face: "granny", d: 1.1, fov: 42, orbit: 0.2 } },
     /* L48 */ { m: "party", cr: "party", conf: [0.5, 0], cast: [["granny", 0.5, 1.5, 15, "dance", "grin", { hat: 1 }]], cams: [{ p: [2.4, 1.8, 6.2], p2: [2.0, 1.7, 5.4], t: [0.5, 1.4, 1.5], fov: 46 }, { face: "granny", d: 1.3, fov: 44, orbit: 0.4 }] },
     /* L49 */ { m: "day", many: "pile", manyOpen: 1, cast: [ME(0, 22.6, 0, "sit", "sad")], cams: [{ p: [1.3, 2.6, 26.4], p2: [1.0, 2.4, 25.6], t: [0, 0.8, 21], fov: 46 }] },
-    /* L50 */ { m: "day", bb: "left1", cams: [{ p: [-2, 7, -21], p2: [-1, 7.5, -21.6], t: [7, 9.9, -24], fov: 46 }, { p: [2.4, 9.7, -23.3], p2: [2.8, 9.8, -23.5], t: [7, 9.9, -24], fov: 38 }] },
+    /* L50 */ { m: "kitchen", tvKey: "left1", cast: [ME(KX - 1.2, 0.6, -110, "idle", "shock")], cams: [{ p: [KX + 0.6, 2.2, 1.6], p2: [KX + 0.2, 2.2, 1.2], t: [KX - 4.3, 2.0, -0.6], fov: 46 }, { p: [KX - 1.4, 2.2, -0.6], p2: [KX - 1.7, 2.2, -0.6], t: [KX - 4.3, 2.2, -0.6], fov: 40 }] },
     /* L51 */ { m: "night", win: "on", cam: { p: [2.2, 1.4, -22], p2: [1.8, 1.6, -26], t: [0, 21, -46], fov: 50 } },
     /* L52 */ { m: "night", win: "on", lab: ["NO ENTRY", "r", [0, 3.4, -39.6]], cam: { p: [0.8, 2.0, -32.5], p2: [0.6, 2.1, -34], t: [0, 2.6, -40], fov: 44 } },
     /* L53 */ { m: "night", win: "on", cam: { p: [0, 21.5, -37.5], p2: [0, 21.5, -39.5], t: [0, 21.5, -46], fov: 30 } },
@@ -1701,7 +1701,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const nightC = new THREE.Color(0x101730), dayC = new THREE.Color(0x8CCBF7);
 
   function setMode27(m, s, t) {
-    party.visible = m === "party"; lake.visible = m === "lake"; towerIn.visible = m === "tower"; lakeL.intensity = 0;
+    skyStreet.visible = false; party.visible = m === "party"; lake.visible = m === "lake"; towerIn.visible = m === "tower"; lakeL.intensity = 0;
     if (m === "party") { renderer.toneMappingExposure = 1.35; }
     if (m === "lake") { shopIn.visible = false; scene.background = new THREE.Color(0x2380B0); scene.fog.color.set(0x2380B0); scene.fog.near = 2; scene.fog.far = 24;
       hemi.intensity = 1.1; hemi.color.set(0xBFEFFF); hemi.groundColor.set(0x2A5A6A); sun.intensity = 0.9; sun.color.set(0xCFF4FF); lakeL.intensity = 1.0; shopL.intensity = 0; renderer.toneMappingExposure = 1.1; }
@@ -1853,9 +1853,9 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     { const val = (v, def) => v === undefined ? def : Array.isArray(v) ? clamp((u - v[0]) / v[1], 0, 1) * (v[2] === undefined ? 1 : v[2]) : v;
       const ac = s.chest; ch27.visible = !!ac; chGlow.visible = false; chLight.intensity = 0; RAYS.forEach((r) => (r.visible = false)); GSPK.forEach((g2) => (g2.visible = false));
       [potato, duck, seat27, gTok, gTokSmall, socks, nest27, raccoon, cup27, flash27, goggles].forEach((o) => (o.visible = false)); dustLid.visible = false; puff.forEach((pf) => (pf.visible = false)); flSpot.intensity = 0;
-      const glowAt = (pos, sc, gl) => { chGlow.visible = true; chGlow.position.copy(pos); chGlow.scale.setScalar(3.4 * sc * gl * (1 + 0.08 * Math.sin(t * 9))); chGlow.material.opacity = Math.min(1, gl);
-        chLight.position.copy(pos).add(new THREE.Vector3(0, 0.4, 0)); chLight.intensity = 30 * gl;
-        RAYS.forEach((r, k) => { r.visible = true; r.position.copy(pos); const a = r.userData.a + t * 0.6; r.rotation.set(r.userData.tilt * Math.cos(a), a, r.userData.tilt * Math.sin(a), "YXZ"); r.scale.set(sc, sc * gl * (0.8 + 0.2 * Math.sin(t * 5 + k)), sc); r.material.opacity = Math.min(1, gl); });
+      const glowAt = (pos, sc, gl) => { const g1 = Math.min(1.2, gl); chGlow.visible = true; chGlow.position.copy(pos); chGlow.scale.setScalar(2.0 * sc * g1 * (1 + 0.08 * Math.sin(t * 9))); chGlow.material.opacity = 0.7 * Math.min(1, gl);
+        chLight.position.copy(pos).add(new THREE.Vector3(0, 0.4, 0)); chLight.intensity = 10 * g1;
+        RAYS.forEach((r, k) => { r.visible = true; r.position.copy(pos); const a = r.userData.a + t * 0.6; r.rotation.set(r.userData.tilt * Math.cos(a), a, r.userData.tilt * Math.sin(a), "YXZ"); r.scale.set(sc * 0.8, sc * 0.6 * Math.min(1.2, gl) * (0.8 + 0.2 * Math.sin(t * 5 + k)), sc * 0.8); r.material.opacity = 0.35 * Math.min(1, gl); });
         GSPK.forEach((sp) => { const q = (u * 0.7 + sp.userData.o) % 1; sp.visible = true; sp.position.set(pos.x + Math.cos(sp.userData.a + q * 3) * sp.userData.r * sc, pos.y + q * 1.6 * sc, pos.z + Math.sin(sp.userData.a + q * 3) * sp.userData.r * sc); sp.scale.setScalar(Math.max(0.01, 1.5 * (1 - q) * sc)); }); };
       if (ac) { ch27.position.set(ac[0], ac[1], ac[2]); ch27.rotation.y = (ac[3] || 0) * D2R; const sc = ac[4] || 1; ch27.scale.setScalar(sc); ch27.updateMatrixWorld(true);
         let op = ease(val(s.open, 0)); if (s.close) op *= 1 - ease(clamp((u - s.close[0]) / s.close[1], 0, 1)); let gl = val(s.glow, 0); if (s.glowOff !== undefined && u > s.glowOff) gl *= Math.max(0.15, 1 - (u - s.glowOff) / 0.35);
