@@ -1,0 +1,360 @@
+{
+ "title": "Almost Almost",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "there's one {y:golden token.}"
+    },
+    {
+     "show": "It's hidden in one of a thousand"
+    },
+    {
+     "show": "treasure chests."
+    },
+    {
+     "show": "Whoever finds it"
+    },
+    {
+     "show": "gets one wish."
+    },
+    {
+     "show": "{y:Anything.}"
+    },
+    {
+     "show": "But nobody has found it"
+    },
+    {
+     "show": "in fifty years."
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "My neighbor Linda"
+    },
+    {
+     "show": "opened hundreds of chests."
+    },
+    {
+     "show": "She found hundreds of {r:socks.}"
+    },
+    {
+     "show": "My grandma found a chest"
+    },
+    {
+     "show": "full of smaller chests."
+    },
+    {
+     "show": "My best friend Kevin"
+    },
+    {
+     "show": "found a {r:raccoon.}"
+    },
+    {
+     "show": "They live together now."
+    }
+   ]
+  },
+  {
+   "id": "quit",
+   "label": "",
+   "lines": [
+    {
+     "show": "So everybody gave up."
+    },
+    {
+     "show": "Every Friday night,"
+    },
+    {
+     "show": "the whole town goes {b:partying.}"
+    },
+    {
+     "show": "Everybody"
+    },
+    {
+     "show": "except me."
+    }
+   ]
+  },
+  {
+   "id": "meme",
+   "label": "",
+   "lines": [
+    {
+     "show": "While they're out partying,"
+    },
+    {
+     "show": "by the way,"
+    },
+    {
+     "show": "I'm out here"
+    },
+    {
+     "show": "opening {y:chests.}"
+    },
+    {
+     "show": "First chest."
+    },
+    {
+     "show": "Golden glow."
+    },
+    {
+     "show": "{y:Ahhh\u2026}"
+    },
+    {
+     "show": "{r:almost.}"
+    },
+    {
+     "show": "{r:Almost.}"
+    },
+    {
+     "show": "It was a golden potato."
+    }
+   ]
+  },
+  {
+   "id": "montage",
+   "label": "",
+   "lines": [
+    {
+     "show": "Chest at the bottom of the lake."
+    },
+    {
+     "show": "{y:Ahhh\u2026}"
+    },
+    {
+     "show": "{r:almost.}"
+    },
+    {
+     "show": "{r:Almost.}"
+    },
+    {
+     "show": "Golden rubber duck."
+    },
+    {
+     "show": "Chest on the school roof."
+    },
+    {
+     "show": "{y:Ahhh\u2026}"
+    },
+    {
+     "show": "{r:almost.}"
+    },
+    {
+     "show": "{r:Almost.}"
+    },
+    {
+     "show": "Golden toilet seat."
+    },
+    {
+     "show": "Don't ask."
+    }
+   ]
+  },
+  {
+   "id": "years",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every night."
+    },
+    {
+     "show": "Every chest."
+    },
+    {
+     "show": "Kevin said I was crazy."
+    },
+    {
+     "show": "Linda said I needed a hobby."
+    },
+    {
+     "show": "Grandma said nothing."
+    },
+    {
+     "show": "She was at the party."
+    }
+   ]
+  },
+  {
+   "id": "last",
+   "label": "",
+   "lines": [
+    {
+     "show": "After three years,"
+    },
+    {
+     "show": "there was only one chest left."
+    },
+    {
+     "show": "Inside the old {r:clock tower.}"
+    },
+    {
+     "show": "Where nobody is allowed"
+    },
+    {
+     "show": "after midnight."
+    }
+   ]
+  },
+  {
+   "id": "tower",
+   "label": "",
+   "lines": [
+    {
+     "show": "So at midnight,"
+    },
+    {
+     "show": "I climbed up."
+    },
+    {
+     "show": "The chest was covered in dust."
+    },
+    {
+     "show": "I opened it."
+    },
+    {
+     "show": "And there it was."
+    },
+    {
+     "show": "The golden token."
+    },
+    {
+     "show": "No almost."
+    },
+    {
+     "show": "{y:Found.}"
+    }
+   ]
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the lights turned on."
+    },
+    {
+     "show": "The mayor was standing behind me."
+    },
+    {
+     "show": "Clapping."
+    },
+    {
+     "show": "He said,"
+    },
+    {
+     "show": "fifty years ago,"
+    },
+    {
+     "show": "I found it too."
+    },
+    {
+     "show": "And my wish was"
+    },
+    {
+     "show": "for this town"
+    },
+    {
+     "show": "to never stop {b:partying.}"
+    },
+    {
+     "show": "But the real prize"
+    },
+    {
+     "show": "isn't the wish."
+    },
+    {
+     "show": "It's the {y:job.}"
+    },
+    {
+     "show": "You hide it now."
+    }
+   ]
+  },
+  {
+   "id": "hide",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I needed a place"
+    },
+    {
+     "show": "nobody would ever look."
+    },
+    {
+     "show": "The searchers never go to parties."
+    },
+    {
+     "show": "And the partiers never search."
+    },
+    {
+     "show": "So I hid it"
+    },
+    {
+     "show": "in the {b:punch bowl.}"
+    },
+    {
+     "show": "At the party."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last Friday,"
+    },
+    {
+     "show": "Kevin was drinking punch."
+    },
+    {
+     "show": "Something golden"
+    },
+    {
+     "show": "bumped his lip."
+    },
+    {
+     "show": "He looked down"
+    },
+    {
+     "show": "and said,"
+    },
+    {
+     "show": "{y:Ahhh\u2026}"
+    },
+    {
+     "show": "{r:almost.}"
+    },
+    {
+     "show": "{r:Almost.}"
+    },
+    {
+     "show": "Then he put the cup down"
+    },
+    {
+     "show": "and went dancing."
+    },
+    {
+     "show": "While he's out partying,"
+    },
+    {
+     "show": "by the way,"
+    },
+    {
+     "show": "I'm hiding the {y:next one.}"
+    }
+   ]
+  }
+ ]
+}

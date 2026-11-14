@@ -1,0 +1,2330 @@
+{
+ "duration": 95.399,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "there's one {y:golden token.}",
+     "start": 0.84,
+     "end": 2.4,
+     "words": [
+      {
+       "text": "there's",
+       "start": 0.84,
+       "end": 1.12
+      },
+      {
+       "text": "one",
+       "start": 1.24,
+       "end": 1.36
+      },
+      {
+       "text": "golden",
+       "start": 1.52,
+       "end": 1.84
+      },
+      {
+       "text": "token.",
+       "start": 1.92,
+       "end": 2.4
+      }
+     ]
+    },
+    {
+     "show": "It's hidden in one of a thousand",
+     "start": 2.44,
+     "end": 3.76,
+     "words": [
+      {
+       "text": "It's",
+       "start": 2.44,
+       "end": 2.56
+      },
+      {
+       "text": "hidden",
+       "start": 2.68,
+       "end": 2.8
+      },
+      {
+       "text": "in",
+       "start": 2.88,
+       "end": 2.96
+      },
+      {
+       "text": "one",
+       "start": 3.0,
+       "end": 3.04
+      },
+      {
+       "text": "of",
+       "start": 3.08,
+       "end": 3.12
+      },
+      {
+       "text": "a",
+       "start": 3.2,
+       "end": 3.28
+      },
+      {
+       "text": "thousand",
+       "start": 3.36,
+       "end": 3.76
+      }
+     ]
+    },
+    {
+     "show": "treasure chests.",
+     "start": 3.84,
+     "end": 4.64,
+     "words": [
+      {
+       "text": "treasure",
+       "start": 3.84,
+       "end": 4.0
+      },
+      {
+       "text": "chests.",
+       "start": 4.08,
+       "end": 4.64
+      }
+     ]
+    },
+    {
+     "show": "Whoever finds it",
+     "start": 4.72,
+     "end": 5.36,
+     "words": [
+      {
+       "text": "Whoever",
+       "start": 4.72,
+       "end": 4.88
+      },
+      {
+       "text": "finds",
+       "start": 5.04,
+       "end": 5.28
+      },
+      {
+       "text": "it",
+       "start": 5.32,
+       "end": 5.36
+      }
+     ]
+    },
+    {
+     "show": "gets one wish.",
+     "start": 5.44,
+     "end": 6.48,
+     "words": [
+      {
+       "text": "gets",
+       "start": 5.44,
+       "end": 5.68
+      },
+      {
+       "text": "one",
+       "start": 5.76,
+       "end": 5.92
+      },
+      {
+       "text": "wish.",
+       "start": 6.0,
+       "end": 6.48
+      }
+     ]
+    },
+    {
+     "show": "{y:Anything.}",
+     "start": 6.72,
+     "end": 7.04,
+     "words": [
+      {
+       "text": "Anything.",
+       "start": 6.72,
+       "end": 7.04
+      }
+     ]
+    },
+    {
+     "show": "But nobody has found it",
+     "start": 7.12,
+     "end": 8.08,
+     "words": [
+      {
+       "text": "But",
+       "start": 7.12,
+       "end": 7.2
+      },
+      {
+       "text": "nobody",
+       "start": 7.28,
+       "end": 7.6
+      },
+      {
+       "text": "has",
+       "start": 7.68,
+       "end": 7.76
+      },
+      {
+       "text": "found",
+       "start": 7.84,
+       "end": 8.0
+      },
+      {
+       "text": "it",
+       "start": 8.04,
+       "end": 8.08
+      }
+     ]
+    },
+    {
+     "show": "in fifty years.",
+     "start": 8.2,
+     "end": 9.28,
+     "words": [
+      {
+       "text": "in",
+       "start": 8.2,
+       "end": 8.32
+      },
+      {
+       "text": "fifty",
+       "start": 8.427,
+       "end": 8.64
+      },
+      {
+       "text": "years.",
+       "start": 8.72,
+       "end": 9.28
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 9.28
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "My neighbor Linda",
+     "start": 9.32,
+     "end": 10.0,
+     "words": [
+      {
+       "text": "My",
+       "start": 9.32,
+       "end": 9.36
+      },
+      {
+       "text": "neighbor",
+       "start": 9.44,
+       "end": 9.6
+      },
+      {
+       "text": "Linda",
+       "start": 9.68,
+       "end": 10.0
+      }
+     ]
+    },
+    {
+     "show": "opened hundreds of chests.",
+     "start": 10.2,
+     "end": 11.44,
+     "words": [
+      {
+       "text": "opened",
+       "start": 10.2,
+       "end": 10.4
+      },
+      {
+       "text": "hundreds",
+       "start": 10.44,
+       "end": 10.72
+      },
+      {
+       "text": "of",
+       "start": 10.8,
+       "end": 10.88
+      },
+      {
+       "text": "chests.",
+       "start": 10.96,
+       "end": 11.44
+      }
+     ]
+    },
+    {
+     "show": "She found hundreds of {r:socks.}",
+     "start": 11.52,
+     "end": 13.013,
+     "words": [
+      {
+       "text": "She",
+       "start": 11.52,
+       "end": 11.6
+      },
+      {
+       "text": "found",
+       "start": 11.72,
+       "end": 11.84
+      },
+      {
+       "text": "hundreds",
+       "start": 11.88,
+       "end": 12.16
+      },
+      {
+       "text": "of",
+       "start": 12.24,
+       "end": 12.4
+      },
+      {
+       "text": "socks.",
+       "start": 12.56,
+       "end": 13.013
+      }
+     ]
+    },
+    {
+     "show": "My grandma found a chest",
+     "start": 13.067,
+     "end": 14.08,
+     "words": [
+      {
+       "text": "My",
+       "start": 13.067,
+       "end": 13.12
+      },
+      {
+       "text": "grandma",
+       "start": 13.24,
+       "end": 13.52
+      },
+      {
+       "text": "found",
+       "start": 13.6,
+       "end": 13.68
+      },
+      {
+       "text": "a",
+       "start": 13.76,
+       "end": 13.84
+      },
+      {
+       "text": "chest",
+       "start": 13.96,
+       "end": 14.08
+      }
+     ]
+    },
+    {
+     "show": "full of smaller chests.",
+     "start": 14.16,
+     "end": 15.28,
+     "words": [
+      {
+       "text": "full",
+       "start": 14.16,
+       "end": 14.24
+      },
+      {
+       "text": "of",
+       "start": 14.32,
+       "end": 14.4
+      },
+      {
+       "text": "smaller",
+       "start": 14.52,
+       "end": 14.72
+      },
+      {
+       "text": "chests.",
+       "start": 14.8,
+       "end": 15.28
+      }
+     ]
+    },
+    {
+     "show": "My best friend Kevin",
+     "start": 15.36,
+     "end": 16.24,
+     "words": [
+      {
+       "text": "My",
+       "start": 15.36,
+       "end": 15.44
+      },
+      {
+       "text": "best",
+       "start": 15.52,
+       "end": 15.6
+      },
+      {
+       "text": "friend",
+       "start": 15.72,
+       "end": 15.84
+      },
+      {
+       "text": "Kevin",
+       "start": 15.92,
+       "end": 16.24
+      }
+     ]
+    },
+    {
+     "show": "found a {r:raccoon.}",
+     "start": 16.32,
+     "end": 17.12,
+     "words": [
+      {
+       "text": "found",
+       "start": 16.32,
+       "end": 16.4
+      },
+      {
+       "text": "a",
+       "start": 16.44,
+       "end": 16.48
+      },
+      {
+       "text": "raccoon.",
+       "start": 16.52,
+       "end": 17.12
+      }
+     ]
+    },
+    {
+     "show": "They live together now.",
+     "start": 17.2,
+     "end": 18.293,
+     "words": [
+      {
+       "text": "They",
+       "start": 17.2,
+       "end": 17.28
+      },
+      {
+       "text": "live",
+       "start": 17.36,
+       "end": 17.44
+      },
+      {
+       "text": "together",
+       "start": 17.48,
+       "end": 17.76
+      },
+      {
+       "text": "now.",
+       "start": 17.96,
+       "end": 18.293
+      }
+     ]
+    }
+   ],
+   "start": 9.32,
+   "end": 18.293
+  },
+  {
+   "id": "quit",
+   "label": "",
+   "lines": [
+    {
+     "show": "So everybody gave up.",
+     "start": 18.427,
+     "end": 19.68,
+     "words": [
+      {
+       "text": "So",
+       "start": 18.427,
+       "end": 18.56
+      },
+      {
+       "text": "everybody",
+       "start": 18.64,
+       "end": 18.96
+      },
+      {
+       "text": "gave",
+       "start": 19.04,
+       "end": 19.2
+      },
+      {
+       "text": "up.",
+       "start": 19.28,
+       "end": 19.68
+      }
+     ]
+    },
+    {
+     "show": "Every Friday night,",
+     "start": 19.76,
+     "end": 20.44,
+     "words": [
+      {
+       "text": "Every",
+       "start": 19.76,
+       "end": 19.84
+      },
+      {
+       "text": "Friday",
+       "start": 19.92,
+       "end": 20.16
+      },
+      {
+       "text": "night,",
+       "start": 20.28,
+       "end": 20.44
+      }
+     ]
+    },
+    {
+     "show": "the whole town goes {b:partying.}",
+     "start": 20.48,
+     "end": 21.96,
+     "words": [
+      {
+       "text": "the",
+       "start": 20.48,
+       "end": 20.56
+      },
+      {
+       "text": "whole",
+       "start": 20.64,
+       "end": 20.88
+      },
+      {
+       "text": "town",
+       "start": 21.04,
+       "end": 21.2
+      },
+      {
+       "text": "goes",
+       "start": 21.24,
+       "end": 21.44
+      },
+      {
+       "text": "partying.",
+       "start": 21.56,
+       "end": 21.96
+      }
+     ]
+    },
+    {
+     "show": "Everybody",
+     "start": 22.0,
+     "end": 22.4,
+     "words": [
+      {
+       "text": "Everybody",
+       "start": 22.0,
+       "end": 22.4
+      }
+     ]
+    },
+    {
+     "show": "except me.",
+     "start": 22.56,
+     "end": 23.28,
+     "words": [
+      {
+       "text": "except",
+       "start": 22.56,
+       "end": 22.88
+      },
+      {
+       "text": "me.",
+       "start": 22.96,
+       "end": 23.28
+      }
+     ]
+    }
+   ],
+   "start": 18.427,
+   "end": 23.28
+  },
+  {
+   "id": "meme",
+   "label": "",
+   "lines": [
+    {
+     "show": "While they're out partying,",
+     "start": 23.36,
+     "end": 24.28,
+     "words": [
+      {
+       "text": "While",
+       "start": 23.36,
+       "end": 23.44
+      },
+      {
+       "text": "they're",
+       "start": 23.52,
+       "end": 23.6
+      },
+      {
+       "text": "out",
+       "start": 23.68,
+       "end": 23.84
+      },
+      {
+       "text": "partying,",
+       "start": 23.96,
+       "end": 24.28
+      }
+     ]
+    },
+    {
+     "show": "by the way,",
+     "start": 24.32,
+     "end": 24.88,
+     "words": [
+      {
+       "text": "by",
+       "start": 24.32,
+       "end": 24.4
+      },
+      {
+       "text": "the",
+       "start": 24.44,
+       "end": 24.48
+      },
+      {
+       "text": "way,",
+       "start": 24.56,
+       "end": 24.88
+      }
+     ]
+    },
+    {
+     "show": "I'm out here",
+     "start": 24.96,
+     "end": 25.44,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 24.96,
+       "end": 25.04
+      },
+      {
+       "text": "out",
+       "start": 25.12,
+       "end": 25.2
+      },
+      {
+       "text": "here",
+       "start": 25.32,
+       "end": 25.44
+      }
+     ]
+    },
+    {
+     "show": "opening {y:chests.}",
+     "start": 25.52,
+     "end": 26.48,
+     "words": [
+      {
+       "text": "opening",
+       "start": 25.52,
+       "end": 25.84
+      },
+      {
+       "text": "chests.",
+       "start": 25.92,
+       "end": 26.48
+      }
+     ]
+    },
+    {
+     "show": "First chest.",
+     "start": 26.56,
+     "end": 27.36,
+     "words": [
+      {
+       "text": "First",
+       "start": 26.56,
+       "end": 26.8
+      },
+      {
+       "text": "chest.",
+       "start": 27.0,
+       "end": 27.36
+      }
+     ]
+    },
+    {
+     "show": "Golden glow.",
+     "start": 27.56,
+     "end": 28.32,
+     "words": [
+      {
+       "text": "Golden",
+       "start": 27.56,
+       "end": 27.76
+      },
+      {
+       "text": "glow.",
+       "start": 27.84,
+       "end": 28.32
+      }
+     ]
+    },
+    {
+     "show": "{y:Ahhh…}",
+     "start": 28.48,
+     "end": 29.211,
+     "words": [
+      {
+       "text": "Ahhh…",
+       "start": 28.48,
+       "end": 29.211
+      }
+     ]
+    },
+    {
+     "show": "{r:almost.}",
+     "start": 29.28,
+     "end": 30.0,
+     "words": [
+      {
+       "text": "almost.",
+       "start": 29.28,
+       "end": 30.0
+      }
+     ]
+    },
+    {
+     "show": "{r:Almost.}",
+     "start": 30.32,
+     "end": 30.72,
+     "words": [
+      {
+       "text": "Almost.",
+       "start": 30.32,
+       "end": 30.72
+      }
+     ]
+    },
+    {
+     "show": "It was a golden potato.",
+     "start": 30.8,
+     "end": 32.08,
+     "words": [
+      {
+       "text": "It",
+       "start": 30.8,
+       "end": 30.84
+      },
+      {
+       "text": "was",
+       "start": 30.88,
+       "end": 30.96
+      },
+      {
+       "text": "a",
+       "start": 31.013,
+       "end": 31.067
+      },
+      {
+       "text": "golden",
+       "start": 31.12,
+       "end": 31.36
+      },
+      {
+       "text": "potato.",
+       "start": 31.44,
+       "end": 32.08
+      }
+     ]
+    }
+   ],
+   "start": 23.36,
+   "end": 32.08
+  },
+  {
+   "id": "montage",
+   "label": "",
+   "lines": [
+    {
+     "show": "Chest at the bottom of the lake.",
+     "start": 32.16,
+     "end": 33.52,
+     "words": [
+      {
+       "text": "Chest",
+       "start": 32.16,
+       "end": 32.4
+      },
+      {
+       "text": "at",
+       "start": 32.48,
+       "end": 32.56
+      },
+      {
+       "text": "the",
+       "start": 32.6,
+       "end": 32.64
+      },
+      {
+       "text": "bottom",
+       "start": 32.72,
+       "end": 32.88
+      },
+      {
+       "text": "of",
+       "start": 32.96,
+       "end": 33.0
+      },
+      {
+       "text": "the",
+       "start": 33.04,
+       "end": 33.12
+      },
+      {
+       "text": "lake.",
+       "start": 33.24,
+       "end": 33.52
+      }
+     ]
+    },
+    {
+     "show": "{y:Ahhh…}",
+     "start": 33.6,
+     "end": 34.4,
+     "words": [
+      {
+       "text": "Ahhh…",
+       "start": 33.6,
+       "end": 34.4
+      }
+     ]
+    },
+    {
+     "show": "{r:almost.}",
+     "start": 34.48,
+     "end": 35.2,
+     "words": [
+      {
+       "text": "almost.",
+       "start": 34.48,
+       "end": 35.2
+      }
+     ]
+    },
+    {
+     "show": "{r:Almost.}",
+     "start": 35.48,
+     "end": 35.92,
+     "words": [
+      {
+       "text": "Almost.",
+       "start": 35.48,
+       "end": 35.92
+      }
+     ]
+    },
+    {
+     "show": "Golden rubber duck.",
+     "start": 36.0,
+     "end": 37.12,
+     "words": [
+      {
+       "text": "Golden",
+       "start": 36.0,
+       "end": 36.24
+      },
+      {
+       "text": "rubber",
+       "start": 36.4,
+       "end": 36.64
+      },
+      {
+       "text": "duck.",
+       "start": 36.72,
+       "end": 37.12
+      }
+     ]
+    },
+    {
+     "show": "Chest on the school roof.",
+     "start": 37.2,
+     "end": 38.56,
+     "words": [
+      {
+       "text": "Chest",
+       "start": 37.2,
+       "end": 37.44
+      },
+      {
+       "text": "on",
+       "start": 37.52,
+       "end": 37.6
+      },
+      {
+       "text": "the",
+       "start": 37.64,
+       "end": 37.68
+      },
+      {
+       "text": "school",
+       "start": 37.76,
+       "end": 38.0
+      },
+      {
+       "text": "roof.",
+       "start": 38.08,
+       "end": 38.56
+      }
+     ]
+    },
+    {
+     "show": "{y:Ahhh…}",
+     "start": 38.64,
+     "end": 39.36,
+     "words": [
+      {
+       "text": "Ahhh…",
+       "start": 38.64,
+       "end": 39.36
+      }
+     ]
+    },
+    {
+     "show": "{r:almost.}",
+     "start": 39.44,
+     "end": 40.16,
+     "words": [
+      {
+       "text": "almost.",
+       "start": 39.44,
+       "end": 40.16
+      }
+     ]
+    },
+    {
+     "show": "{r:Almost.}",
+     "start": 40.24,
+     "end": 40.96,
+     "words": [
+      {
+       "text": "Almost.",
+       "start": 40.24,
+       "end": 40.96
+      }
+     ]
+    },
+    {
+     "show": "Golden toilet seat.",
+     "start": 41.12,
+     "end": 42.24,
+     "words": [
+      {
+       "text": "Golden",
+       "start": 41.12,
+       "end": 41.28
+      },
+      {
+       "text": "toilet",
+       "start": 41.36,
+       "end": 41.76
+      },
+      {
+       "text": "seat.",
+       "start": 41.84,
+       "end": 42.24
+      }
+     ]
+    },
+    {
+     "show": "Don't ask.",
+     "start": 42.32,
+     "end": 42.96,
+     "words": [
+      {
+       "text": "Don't",
+       "start": 42.32,
+       "end": 42.48
+      },
+      {
+       "text": "ask.",
+       "start": 42.56,
+       "end": 42.96
+      }
+     ]
+    }
+   ],
+   "start": 32.16,
+   "end": 42.96
+  },
+  {
+   "id": "years",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every night.",
+     "start": 43.08,
+     "end": 43.68,
+     "words": [
+      {
+       "text": "Every",
+       "start": 43.08,
+       "end": 43.2
+      },
+      {
+       "text": "night.",
+       "start": 43.28,
+       "end": 43.68
+      }
+     ]
+    },
+    {
+     "show": "Every chest.",
+     "start": 43.8,
+     "end": 44.56,
+     "words": [
+      {
+       "text": "Every",
+       "start": 43.8,
+       "end": 43.92
+      },
+      {
+       "text": "chest.",
+       "start": 44.08,
+       "end": 44.56
+      }
+     ]
+    },
+    {
+     "show": "Kevin said I was crazy.",
+     "start": 44.72,
+     "end": 45.92,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 44.72,
+       "end": 44.88
+      },
+      {
+       "text": "said",
+       "start": 44.96,
+       "end": 45.04
+      },
+      {
+       "text": "I",
+       "start": 45.12,
+       "end": 45.173
+      },
+      {
+       "text": "was",
+       "start": 45.227,
+       "end": 45.28
+      },
+      {
+       "text": "crazy.",
+       "start": 45.36,
+       "end": 45.92
+      }
+     ]
+    },
+    {
+     "show": "Linda said I needed a hobby.",
+     "start": 45.96,
+     "end": 47.28,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 45.96,
+       "end": 46.24
+      },
+      {
+       "text": "said",
+       "start": 46.32,
+       "end": 46.4
+      },
+      {
+       "text": "I",
+       "start": 46.48,
+       "end": 46.52
+      },
+      {
+       "text": "needed",
+       "start": 46.56,
+       "end": 46.72
+      },
+      {
+       "text": "a",
+       "start": 46.76,
+       "end": 46.8
+      },
+      {
+       "text": "hobby.",
+       "start": 46.84,
+       "end": 47.28
+      }
+     ]
+    },
+    {
+     "show": "Grandma said nothing.",
+     "start": 47.4,
+     "end": 48.4,
+     "words": [
+      {
+       "text": "Grandma",
+       "start": 47.4,
+       "end": 47.68
+      },
+      {
+       "text": "said",
+       "start": 47.76,
+       "end": 47.92
+      },
+      {
+       "text": "nothing.",
+       "start": 48.0,
+       "end": 48.4
+      }
+     ]
+    },
+    {
+     "show": "She was at the party.",
+     "start": 48.48,
+     "end": 49.36,
+     "words": [
+      {
+       "text": "She",
+       "start": 48.48,
+       "end": 48.56
+      },
+      {
+       "text": "was",
+       "start": 48.6,
+       "end": 48.64
+      },
+      {
+       "text": "at",
+       "start": 48.72,
+       "end": 48.76
+      },
+      {
+       "text": "the",
+       "start": 48.8,
+       "end": 48.88
+      },
+      {
+       "text": "party.",
+       "start": 49.04,
+       "end": 49.36
+      }
+     ]
+    }
+   ],
+   "start": 43.08,
+   "end": 49.36
+  },
+  {
+   "id": "last",
+   "label": "",
+   "lines": [
+    {
+     "show": "After three years,",
+     "start": 49.48,
+     "end": 50.32,
+     "words": [
+      {
+       "text": "After",
+       "start": 49.48,
+       "end": 49.6
+      },
+      {
+       "text": "three",
+       "start": 49.68,
+       "end": 49.92
+      },
+      {
+       "text": "years,",
+       "start": 50.0,
+       "end": 50.32
+      }
+     ]
+    },
+    {
+     "show": "there was only one chest left.",
+     "start": 50.36,
+     "end": 51.92,
+     "words": [
+      {
+       "text": "there",
+       "start": 50.36,
+       "end": 50.4
+      },
+      {
+       "text": "was",
+       "start": 50.48,
+       "end": 50.56
+      },
+      {
+       "text": "only",
+       "start": 50.72,
+       "end": 50.88
+      },
+      {
+       "text": "one",
+       "start": 50.96,
+       "end": 51.12
+      },
+      {
+       "text": "chest",
+       "start": 51.2,
+       "end": 51.44
+      },
+      {
+       "text": "left.",
+       "start": 51.52,
+       "end": 51.92
+      }
+     ]
+    },
+    {
+     "show": "Inside the old {r:clock tower.}",
+     "start": 52.12,
+     "end": 53.44,
+     "words": [
+      {
+       "text": "Inside",
+       "start": 52.12,
+       "end": 52.32
+      },
+      {
+       "text": "the",
+       "start": 52.4,
+       "end": 52.48
+      },
+      {
+       "text": "old",
+       "start": 52.56,
+       "end": 52.72
+      },
+      {
+       "text": "clock",
+       "start": 52.8,
+       "end": 53.04
+      },
+      {
+       "text": "tower.",
+       "start": 53.2,
+       "end": 53.44
+      }
+     ]
+    },
+    {
+     "show": "Where nobody is allowed",
+     "start": 53.56,
+     "end": 54.48,
+     "words": [
+      {
+       "text": "Where",
+       "start": 53.56,
+       "end": 53.68
+      },
+      {
+       "text": "nobody",
+       "start": 53.76,
+       "end": 54.08
+      },
+      {
+       "text": "is",
+       "start": 54.12,
+       "end": 54.16
+      },
+      {
+       "text": "allowed",
+       "start": 54.24,
+       "end": 54.48
+      }
+     ]
+    },
+    {
+     "show": "after midnight.",
+     "start": 54.56,
+     "end": 55.36,
+     "words": [
+      {
+       "text": "after",
+       "start": 54.56,
+       "end": 54.72
+      },
+      {
+       "text": "midnight.",
+       "start": 54.8,
+       "end": 55.36
+      }
+     ]
+    }
+   ],
+   "start": 49.48,
+   "end": 55.36
+  },
+  {
+   "id": "tower",
+   "label": "",
+   "lines": [
+    {
+     "show": "So at midnight,",
+     "start": 55.4,
+     "end": 56.16,
+     "words": [
+      {
+       "text": "So",
+       "start": 55.4,
+       "end": 55.44
+      },
+      {
+       "text": "at",
+       "start": 55.52,
+       "end": 55.6
+      },
+      {
+       "text": "midnight,",
+       "start": 55.68,
+       "end": 56.16
+      }
+     ]
+    },
+    {
+     "show": "I climbed up.",
+     "start": 56.32,
+     "end": 57.04,
+     "words": [
+      {
+       "text": "I",
+       "start": 56.32,
+       "end": 56.36
+      },
+      {
+       "text": "climbed",
+       "start": 56.4,
+       "end": 56.64
+      },
+      {
+       "text": "up.",
+       "start": 56.72,
+       "end": 57.04
+      }
+     ]
+    },
+    {
+     "show": "The chest was covered in dust.",
+     "start": 57.12,
+     "end": 58.8,
+     "words": [
+      {
+       "text": "The",
+       "start": 57.12,
+       "end": 57.2
+      },
+      {
+       "text": "chest",
+       "start": 57.36,
+       "end": 57.52
+      },
+      {
+       "text": "was",
+       "start": 57.64,
+       "end": 57.76
+      },
+      {
+       "text": "covered",
+       "start": 57.84,
+       "end": 58.08
+      },
+      {
+       "text": "in",
+       "start": 58.16,
+       "end": 58.24
+      },
+      {
+       "text": "dust.",
+       "start": 58.28,
+       "end": 58.8
+      }
+     ]
+    },
+    {
+     "show": "I opened it.",
+     "start": 58.84,
+     "end": 59.52,
+     "words": [
+      {
+       "text": "I",
+       "start": 58.84,
+       "end": 58.88
+      },
+      {
+       "text": "opened",
+       "start": 58.96,
+       "end": 59.2
+      },
+      {
+       "text": "it.",
+       "start": 59.28,
+       "end": 59.52
+      }
+     ]
+    },
+    {
+     "show": "And there it was.",
+     "start": 59.6,
+     "end": 60.56,
+     "words": [
+      {
+       "text": "And",
+       "start": 59.6,
+       "end": 59.68
+      },
+      {
+       "text": "there",
+       "start": 59.76,
+       "end": 59.92
+      },
+      {
+       "text": "it",
+       "start": 60.0,
+       "end": 60.08
+      },
+      {
+       "text": "was.",
+       "start": 60.28,
+       "end": 60.56
+      }
+     ]
+    },
+    {
+     "show": "The golden token.",
+     "start": 60.64,
+     "end": 61.84,
+     "words": [
+      {
+       "text": "The",
+       "start": 60.64,
+       "end": 60.72
+      },
+      {
+       "text": "golden",
+       "start": 60.8,
+       "end": 61.2
+      },
+      {
+       "text": "token.",
+       "start": 61.28,
+       "end": 61.84
+      }
+     ]
+    },
+    {
+     "show": "No almost.",
+     "start": 61.92,
+     "end": 62.96,
+     "words": [
+      {
+       "text": "No",
+       "start": 61.92,
+       "end": 62.16
+      },
+      {
+       "text": "almost.",
+       "start": 62.24,
+       "end": 62.96
+      }
+     ]
+    },
+    {
+     "show": "{y:Found.}",
+     "start": 63.04,
+     "end": 63.76,
+     "words": [
+      {
+       "text": "Found.",
+       "start": 63.04,
+       "end": 63.76
+      }
+     ]
+    }
+   ],
+   "start": 55.4,
+   "end": 63.76
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the lights turned on.",
+     "start": 63.88,
+     "end": 65.0,
+     "words": [
+      {
+       "text": "Then",
+       "start": 63.88,
+       "end": 64.0
+      },
+      {
+       "text": "the",
+       "start": 64.08,
+       "end": 64.16
+      },
+      {
+       "text": "lights",
+       "start": 64.28,
+       "end": 64.4
+      },
+      {
+       "text": "turned",
+       "start": 64.48,
+       "end": 64.64
+      },
+      {
+       "text": "on.",
+       "start": 64.72,
+       "end": 65.0
+      }
+     ]
+    },
+    {
+     "show": "The mayor was standing behind me.",
+     "start": 65.04,
+     "end": 66.613,
+     "words": [
+      {
+       "text": "The",
+       "start": 65.04,
+       "end": 65.2
+      },
+      {
+       "text": "mayor",
+       "start": 65.28,
+       "end": 65.44
+      },
+      {
+       "text": "was",
+       "start": 65.52,
+       "end": 65.6
+      },
+      {
+       "text": "standing",
+       "start": 65.68,
+       "end": 65.92
+      },
+      {
+       "text": "behind",
+       "start": 66.0,
+       "end": 66.32
+      },
+      {
+       "text": "me.",
+       "start": 66.44,
+       "end": 66.613
+      }
+     ]
+    },
+    {
+     "show": "Clapping.",
+     "start": 66.667,
+     "end": 67.253,
+     "words": [
+      {
+       "text": "Clapping.",
+       "start": 66.667,
+       "end": 67.253
+      }
+     ]
+    },
+    {
+     "show": "He said,",
+     "start": 67.307,
+     "end": 67.707,
+     "words": [
+      {
+       "text": "He",
+       "start": 67.307,
+       "end": 67.36
+      },
+      {
+       "text": "said,",
+       "start": 67.52,
+       "end": 67.707
+      }
+     ]
+    },
+    {
+     "show": "fifty years ago,",
+     "start": 67.733,
+     "end": 68.68,
+     "words": [
+      {
+       "text": "fifty",
+       "start": 67.733,
+       "end": 68.0
+      },
+      {
+       "text": "years",
+       "start": 68.12,
+       "end": 68.24
+      },
+      {
+       "text": "ago,",
+       "start": 68.4,
+       "end": 68.68
+      }
+     ]
+    },
+    {
+     "show": "I found it too.",
+     "start": 68.8,
+     "end": 69.573,
+     "words": [
+      {
+       "text": "I",
+       "start": 68.8,
+       "end": 68.853
+      },
+      {
+       "text": "found",
+       "start": 68.907,
+       "end": 68.96
+      },
+      {
+       "text": "it",
+       "start": 69.04,
+       "end": 69.12
+      },
+      {
+       "text": "too.",
+       "start": 69.2,
+       "end": 69.573
+      }
+     ]
+    },
+    {
+     "show": "And my wish was",
+     "start": 69.627,
+     "end": 70.32,
+     "words": [
+      {
+       "text": "And",
+       "start": 69.627,
+       "end": 69.68
+      },
+      {
+       "text": "my",
+       "start": 69.76,
+       "end": 69.84
+      },
+      {
+       "text": "wish",
+       "start": 69.92,
+       "end": 70.16
+      },
+      {
+       "text": "was",
+       "start": 70.24,
+       "end": 70.32
+      }
+     ]
+    },
+    {
+     "show": "for this town",
+     "start": 70.36,
+     "end": 70.96,
+     "words": [
+      {
+       "text": "for",
+       "start": 70.36,
+       "end": 70.4
+      },
+      {
+       "text": "this",
+       "start": 70.48,
+       "end": 70.64
+      },
+      {
+       "text": "town",
+       "start": 70.8,
+       "end": 70.96
+      }
+     ]
+    },
+    {
+     "show": "to never stop {b:partying.}",
+     "start": 71.08,
+     "end": 72.28,
+     "words": [
+      {
+       "text": "to",
+       "start": 71.08,
+       "end": 71.2
+      },
+      {
+       "text": "never",
+       "start": 71.28,
+       "end": 71.44
+      },
+      {
+       "text": "stop",
+       "start": 71.52,
+       "end": 71.76
+      },
+      {
+       "text": "partying.",
+       "start": 71.88,
+       "end": 72.28
+      }
+     ]
+    },
+    {
+     "show": "But the real prize",
+     "start": 72.32,
+     "end": 73.12,
+     "words": [
+      {
+       "text": "But",
+       "start": 72.32,
+       "end": 72.4
+      },
+      {
+       "text": "the",
+       "start": 72.48,
+       "end": 72.56
+      },
+      {
+       "text": "real",
+       "start": 72.68,
+       "end": 72.8
+      },
+      {
+       "text": "prize",
+       "start": 72.88,
+       "end": 73.12
+      }
+     ]
+    },
+    {
+     "show": "isn't the wish.",
+     "start": 73.2,
+     "end": 73.947,
+     "words": [
+      {
+       "text": "isn't",
+       "start": 73.2,
+       "end": 73.36
+      },
+      {
+       "text": "the",
+       "start": 73.4,
+       "end": 73.44
+      },
+      {
+       "text": "wish.",
+       "start": 73.52,
+       "end": 73.947
+      }
+     ]
+    },
+    {
+     "show": "It's the {y:job.}",
+     "start": 73.973,
+     "end": 74.8,
+     "words": [
+      {
+       "text": "It's",
+       "start": 73.973,
+       "end": 74.08
+      },
+      {
+       "text": "the",
+       "start": 74.16,
+       "end": 74.24
+      },
+      {
+       "text": "job.",
+       "start": 74.32,
+       "end": 74.8
+      }
+     ]
+    },
+    {
+     "show": "You hide it now.",
+     "start": 74.92,
+     "end": 75.8,
+     "words": [
+      {
+       "text": "You",
+       "start": 74.92,
+       "end": 75.04
+      },
+      {
+       "text": "hide",
+       "start": 75.12,
+       "end": 75.2
+      },
+      {
+       "text": "it",
+       "start": 75.28,
+       "end": 75.36
+      },
+      {
+       "text": "now.",
+       "start": 75.44,
+       "end": 75.8
+      }
+     ]
+    }
+   ],
+   "start": 63.88,
+   "end": 75.8
+  },
+  {
+   "id": "hide",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I needed a place",
+     "start": 75.84,
+     "end": 76.72,
+     "words": [
+      {
+       "text": "So",
+       "start": 75.84,
+       "end": 75.92
+      },
+      {
+       "text": "I",
+       "start": 76.08,
+       "end": 76.16
+      },
+      {
+       "text": "needed",
+       "start": 76.24,
+       "end": 76.32
+      },
+      {
+       "text": "a",
+       "start": 76.4,
+       "end": 76.507
+      },
+      {
+       "text": "place",
+       "start": 76.613,
+       "end": 76.72
+      }
+     ]
+    },
+    {
+     "show": "nobody would ever look.",
+     "start": 76.8,
+     "end": 77.96,
+     "words": [
+      {
+       "text": "nobody",
+       "start": 76.8,
+       "end": 77.12
+      },
+      {
+       "text": "would",
+       "start": 77.2,
+       "end": 77.28
+      },
+      {
+       "text": "ever",
+       "start": 77.36,
+       "end": 77.6
+      },
+      {
+       "text": "look.",
+       "start": 77.76,
+       "end": 77.96
+      }
+     ]
+    },
+    {
+     "show": "The searchers never go to parties.",
+     "start": 78.0,
+     "end": 79.48,
+     "words": [
+      {
+       "text": "The",
+       "start": 78.0,
+       "end": 78.08
+      },
+      {
+       "text": "searchers",
+       "start": 78.2,
+       "end": 78.56
+      },
+      {
+       "text": "never",
+       "start": 78.64,
+       "end": 78.8
+      },
+      {
+       "text": "go",
+       "start": 78.84,
+       "end": 78.88
+      },
+      {
+       "text": "to",
+       "start": 78.92,
+       "end": 78.96
+      },
+      {
+       "text": "parties.",
+       "start": 79.04,
+       "end": 79.48
+      }
+     ]
+    },
+    {
+     "show": "And the partiers never search.",
+     "start": 79.52,
+     "end": 81.147,
+     "words": [
+      {
+       "text": "And",
+       "start": 79.52,
+       "end": 79.6
+      },
+      {
+       "text": "the",
+       "start": 79.64,
+       "end": 79.68
+      },
+      {
+       "text": "partiers",
+       "start": 79.76,
+       "end": 80.24
+      },
+      {
+       "text": "never",
+       "start": 80.32,
+       "end": 80.56
+      },
+      {
+       "text": "search.",
+       "start": 80.8,
+       "end": 81.147
+      }
+     ]
+    },
+    {
+     "show": "So I hid it",
+     "start": 81.253,
+     "end": 81.84,
+     "words": [
+      {
+       "text": "So",
+       "start": 81.253,
+       "end": 81.36
+      },
+      {
+       "text": "I",
+       "start": 81.6,
+       "end": 81.627
+      },
+      {
+       "text": "hid",
+       "start": 81.653,
+       "end": 81.68
+      },
+      {
+       "text": "it",
+       "start": 81.76,
+       "end": 81.84
+      }
+     ]
+    },
+    {
+     "show": "in the {b:punch bowl.}",
+     "start": 81.88,
+     "end": 82.68,
+     "words": [
+      {
+       "text": "in",
+       "start": 81.88,
+       "end": 81.92
+      },
+      {
+       "text": "the",
+       "start": 82.0,
+       "end": 82.08
+      },
+      {
+       "text": "punch",
+       "start": 82.12,
+       "end": 82.32
+      },
+      {
+       "text": "bowl.",
+       "start": 82.36,
+       "end": 82.68
+      }
+     ]
+    },
+    {
+     "show": "At the party.",
+     "start": 82.72,
+     "end": 83.6,
+     "words": [
+      {
+       "text": "At",
+       "start": 82.72,
+       "end": 82.8
+      },
+      {
+       "text": "the",
+       "start": 82.88,
+       "end": 82.96
+      },
+      {
+       "text": "party.",
+       "start": 83.24,
+       "end": 83.6
+      }
+     ]
+    }
+   ],
+   "start": 75.84,
+   "end": 83.6
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last Friday,",
+     "start": 83.68,
+     "end": 84.2,
+     "words": [
+      {
+       "text": "Last",
+       "start": 83.68,
+       "end": 83.76
+      },
+      {
+       "text": "Friday,",
+       "start": 83.84,
+       "end": 84.2
+      }
+     ]
+    },
+    {
+     "show": "Kevin was drinking punch.",
+     "start": 84.24,
+     "end": 85.48,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 84.24,
+       "end": 84.48
+      },
+      {
+       "text": "was",
+       "start": 84.56,
+       "end": 84.64
+      },
+      {
+       "text": "drinking",
+       "start": 84.68,
+       "end": 84.96
+      },
+      {
+       "text": "punch.",
+       "start": 85.0,
+       "end": 85.48
+      }
+     ]
+    },
+    {
+     "show": "Something golden",
+     "start": 85.52,
+     "end": 86.32,
+     "words": [
+      {
+       "text": "Something",
+       "start": 85.52,
+       "end": 85.92
+      },
+      {
+       "text": "golden",
+       "start": 86.12,
+       "end": 86.32
+      }
+     ]
+    },
+    {
+     "show": "bumped his lip.",
+     "start": 86.373,
+     "end": 87.093,
+     "words": [
+      {
+       "text": "bumped",
+       "start": 86.373,
+       "end": 86.48
+      },
+      {
+       "text": "his",
+       "start": 86.56,
+       "end": 86.72
+      },
+      {
+       "text": "lip.",
+       "start": 86.88,
+       "end": 87.093
+      }
+     ]
+    },
+    {
+     "show": "He looked down",
+     "start": 87.147,
+     "end": 87.6,
+     "words": [
+      {
+       "text": "He",
+       "start": 87.147,
+       "end": 87.2
+      },
+      {
+       "text": "looked",
+       "start": 87.28,
+       "end": 87.4
+      },
+      {
+       "text": "down",
+       "start": 87.44,
+       "end": 87.6
+      }
+     ]
+    },
+    {
+     "show": "and said,",
+     "start": 87.68,
+     "end": 88.16,
+     "words": [
+      {
+       "text": "and",
+       "start": 87.68,
+       "end": 87.76
+      },
+      {
+       "text": "said,",
+       "start": 87.84,
+       "end": 88.16
+      }
+     ]
+    },
+    {
+     "show": "{y:Ahhh…}",
+     "start": 88.24,
+     "end": 88.971,
+     "words": [
+      {
+       "text": "Ahhh…",
+       "start": 88.24,
+       "end": 88.971
+      }
+     ]
+    },
+    {
+     "show": "{r:almost.}",
+     "start": 89.04,
+     "end": 89.76,
+     "words": [
+      {
+       "text": "almost.",
+       "start": 89.04,
+       "end": 89.76
+      }
+     ]
+    },
+    {
+     "show": "{r:Almost.}",
+     "start": 89.84,
+     "end": 90.56,
+     "words": [
+      {
+       "text": "Almost.",
+       "start": 89.84,
+       "end": 90.56
+      }
+     ]
+    },
+    {
+     "show": "Then he put the cup down",
+     "start": 90.64,
+     "end": 91.68,
+     "words": [
+      {
+       "text": "Then",
+       "start": 90.64,
+       "end": 90.8
+      },
+      {
+       "text": "he",
+       "start": 90.88,
+       "end": 90.96
+      },
+      {
+       "text": "put",
+       "start": 91.04,
+       "end": 91.12
+      },
+      {
+       "text": "the",
+       "start": 91.16,
+       "end": 91.2
+      },
+      {
+       "text": "cup",
+       "start": 91.28,
+       "end": 91.36
+      },
+      {
+       "text": "down",
+       "start": 91.44,
+       "end": 91.68
+      }
+     ]
+    },
+    {
+     "show": "and went dancing.",
+     "start": 91.76,
+     "end": 92.693,
+     "words": [
+      {
+       "text": "and",
+       "start": 91.76,
+       "end": 91.84
+      },
+      {
+       "text": "went",
+       "start": 91.96,
+       "end": 92.08
+      },
+      {
+       "text": "dancing.",
+       "start": 92.12,
+       "end": 92.693
+      }
+     ]
+    },
+    {
+     "show": "While he's out partying,",
+     "start": 92.747,
+     "end": 93.627,
+     "words": [
+      {
+       "text": "While",
+       "start": 92.747,
+       "end": 92.8
+      },
+      {
+       "text": "he's",
+       "start": 92.84,
+       "end": 92.96
+      },
+      {
+       "text": "out",
+       "start": 93.04,
+       "end": 93.2
+      },
+      {
+       "text": "partying,",
+       "start": 93.32,
+       "end": 93.627
+      }
+     ]
+    },
+    {
+     "show": "by the way,",
+     "start": 93.653,
+     "end": 94.24,
+     "words": [
+      {
+       "text": "by",
+       "start": 93.653,
+       "end": 93.68
+      },
+      {
+       "text": "the",
+       "start": 93.76,
+       "end": 93.84
+      },
+      {
+       "text": "way,",
+       "start": 94.0,
+       "end": 94.24
+      }
+     ]
+    },
+    {
+     "show": "I'm hiding the {y:next one.}",
+     "start": 94.32,
+     "end": 95.44,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 94.32,
+       "end": 94.4
+      },
+      {
+       "text": "hiding",
+       "start": 94.44,
+       "end": 94.64
+      },
+      {
+       "text": "the",
+       "start": 94.72,
+       "end": 94.8
+      },
+      {
+       "text": "next",
+       "start": 94.92,
+       "end": 95.04
+      },
+      {
+       "text": "one.",
+       "start": 95.12,
+       "end": 95.44
+      }
+     ]
+    }
+   ],
+   "start": 83.68,
+   "end": 95.44
+  }
+ ]
+}

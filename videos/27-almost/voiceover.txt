@@ -1,0 +1,11 @@
+hook|In this town,|there's one {y:golden token.}|It's hidden in one of a thousand|treasure chests.|Whoever finds it|gets one wish.|{y:Anything.}|But nobody has found it|in fifty years.
+world|My neighbor Linda|opened hundreds of chests.|She found hundreds of {r:socks.}|My grandma found a chest|full of smaller chests.|My best friend Kevin|found a {r:raccoon.}|They live together now.
+quit|So everybody gave up.|Every Friday night,|the whole town goes {b:partying.}|Everybody|except me.
+meme|While they're out partying,|by the way,|I'm out here|opening {y:chests.}|First chest.|Golden glow.|{y:Ahhh…}|{r:almost.}|{r:Almost.}|It was a golden potato.
+montage|Chest at the bottom of the lake.|{y:Ahhh…}|{r:almost.}|{r:Almost.}|Golden rubber duck.|Chest on the school roof.|{y:Ahhh…}|{r:almost.}|{r:Almost.}|Golden toilet seat.|Don't ask.
+years|Every night.|Every chest.|Kevin said I was crazy.|Linda said I needed a hobby.|Grandma said nothing.|She was at the party.
+last|After three years,|there was only one chest left.|Inside the old {r:clock tower.}|Where nobody is allowed|after midnight.
+tower|So at midnight,|I climbed up.|The chest was covered in dust.|I opened it.|And there it was.|The golden token.|No almost.|{y:Found.}
+mayor|Then the lights turned on.|The mayor was standing behind me.|Clapping.|He said,|fifty years ago,|I found it too.|And my wish was|for this town|to never stop {b:partying.}|But the real prize|isn't the wish.|It's the {y:job.}|You hide it now.
+hide|So I needed a place|nobody would ever look.|The searchers never go to parties.|And the partiers never search.|So I hid it|in the {b:punch bowl.}|At the party.
+end|Last Friday,|Kevin was drinking punch.|Something golden|bumped his lip.|He looked down|and said,|{y:Ahhh…}|{r:almost.}|{r:Almost.}|Then he put the cup down|and went dancing.|While he's out partying,|by the way,|I'm hiding the {y:next one.}
