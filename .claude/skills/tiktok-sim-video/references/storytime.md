@@ -123,3 +123,33 @@ Gemessen: 112–143 s, −18 LUFS, **94–126 Schnitte = ein Schnitt alle ~1,2 s
   Glühwürmchen im Hangar. Teil 1 endet mit Cliffhanger → Teil 2.
 Umsetzen: Schnitt ~1,2 s (`cams`-Liste pro Einstellung), Lichtkegel als additive Kegel, Nachtstadt mit vielen beleuchteten Fenstern im Hintergrund,
 Monster riesig + Froschperspektive, Serien-Cliffhanger am Ende.
+
+## Vierte Referenz-Runde (Nov. 2026): 3 Videos (Kanal „larpiverse“) – Meme-Comedy statt Horror
+Videos: „Duschen kosten 1 Mio. $“ (1:31), „Tung Tung Sahur ist die Polizei“ (1:48), „while they're out partying“ (1:15).
+Länge nur **75–110 s** (kürzer als unsere 2:00+). Schnitt alle ~2–3 s (gemessen), aber jede Einstellung hat Bewegung/Mimik.
+
+**Story-Formel (alle drei identisch):**
+1. **Absurde Regel/Zustand in Satz 1** – „In this town, everybody stinks because showers cost a million dollars.“ / „…Tung Tung Tung Sahur is the police and there's no prison.“ / „…everybody's out partying except me. HUSS!“
+2. **Welt-Beispiele mit Namen** (3–5 schnelle Gags, je 1 Satz + 1 Bild): Mailman trägt Gasmaske, Oma winkt → Fliegen fallen; „Mr. X crossed on a red light – now he's a tree“; „my best friend Kevin…“, „old Linda…“, „my grandma…“. Wiederkehrende Nebenfiguren (Kevin, Linda, Oma) = Kanal-Universum.
+3. **Die eine verbotene Regel** („never go near the Gooner mansion“, „never be outside after midnight“).
+4. **Ich-Erzähler bricht sie** → Entdeckung, die alles umdreht (Dusche ist nur ein Rohr zum Fluss – gratis; Tung gießt nachts heimlich alle Baum-Menschen).
+5. **Payoff für die ganze Stadt** (Schlauch über die Mauer, ganze Stadt duscht; der Bösewicht wird verhaftet / der Strenge zeigt sein gutes Herz).
+6. **Callback-Pointe statt Horror-Cliffhanger:** ein Detail vom Anfang kehrt verdreht zurück (Fliege folgt jetzt Mr. Gooner; die einzige Party-Gästin ist der Goldfisch des Bürgermeisters – „he's actually a good dancer“; „like and subscribe“ als Tung-Gag).
+
+**Meme-Einbau (Wunsch des Creators, „while they're out partying“):** das Meme ist nicht nur Zitat, sondern **Motor der Story**:
+- Meme-Laut als eigenes Untertitel-Wort in GROSS („HUSS!“) mit Basketball-Dribbel-Bild, kommt ~10× wieder (Running Gag, Rhythmus-Taktgeber).
+- Der Meme-Satz fällt genau einmal **wörtlich als Pointe** im Höhepunkt („I told him the truth: while you were out partying…“).
+- Danach **Umkehrung**: die ganze Stadt grindet (aus jedem Fenster „HUSS“), und der Erzähler ist nun der Einzige ohne Plan → ironisches Ende.
+- Andere Trend-Figuren (Tung Tung Sahur / Italian Brainrot) als Stadt-Bewohner mit eigener Regel = sofort erkennbarer Hook für die Zielgruppe.
+
+**Visuell:**
+- Stimmung **hell & freundlich** (Tagstadt, Pastellhäuser, Wiese, Hügel), nur der Mittelteil wird Nacht (Abenteuer-Akt) – Tag→Nacht→Tag als Akt-Wechsel.
+- **Erzähler-Avatar** mit Markenzeichen (blaue Mütze mit Stern, Hoodie mit „in this town!“-Schrift) spricht oft direkt in die Kamera, Close-up. Wir sollten einen festen Erzähler mit Kanal-Hoodie einführen.
+- **Comic-Gesichter mit großer Mimik**: XD-Lachen, ^_^, Tränen, offener Mund, schiefer Mund – Gesichter wechseln pro Satz.
+- **Visuelle Gags als Partikel**: grüne Stinkwolken über Figuren, Fliegen, Sterne-Glitzer bei den Reichen, Konfetti/Wimpelketten bei Partys.
+- Wörtliche Bebilderung jedes Satzes (Schild „SHOWERS $1,000,000 EACH“, „JAIL – CLOSED“, Anzeigetafel „GUEST 0 HOME 50“, Uhr auf Mitternacht).
+- Kamera: viele Low-Angle-Aufnahmen vom „Monster“/Riesen, Vogelperspektive über die ganze Stadt bei „the whole town…“.
+- Untertitel bei diesem Kanal: weiß, schwarzer Rand, klein, Bildmitte, 1 Wort (bei uns bleibt Neon-Gelb – unser Markenzeichen).
+- Endkarte (TikTok-Logo) ist nur der Export-Abspann, nicht nachbauen.
+
+**Was wir übernehmen:** kürzer (~1:30–1:50), lustige Meme-Stories im Wechsel mit Horror, Ich-Erzähler mit Freunden-Universum (Kevin, Linda, Oma), Running-Gag-Laut als Großbuchstaben-Caption, Callback-Ende.
