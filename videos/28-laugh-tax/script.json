@@ -1,0 +1,270 @@
+{
+ "title": "The Laugh Tax",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "{r:laughing} costs five dollars."
+    },
+    {
+     "show": "Every single laugh."
+    },
+    {
+     "show": "Giggles are two fifty."
+    },
+    {
+     "show": "And if you snort,"
+    },
+    {
+     "show": "that's ten."
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "My best friend Kevin"
+    },
+    {
+     "show": "watched one cat video,"
+    },
+    {
+     "show": "and now he owes {r:four thousand dollars.}"
+    },
+    {
+     "show": "My neighbor Linda"
+    },
+    {
+     "show": "laughed at her own joke."
+    },
+    {
+     "show": "She's still paying it off."
+    },
+    {
+     "show": "And my grandma"
+    },
+    {
+     "show": "hasn't laughed in thirty years."
+    },
+    {
+     "show": "She's the {y:richest} person in town."
+    }
+   ]
+  },
+  {
+   "id": "police",
+   "label": "",
+   "lines": [
+    {
+     "show": "The laugh police"
+    },
+    {
+     "show": "walk around with {y:HA-meters.}"
+    },
+    {
+     "show": "One giggle,"
+    },
+    {
+     "show": "{r:beep.}"
+    },
+    {
+     "show": "Five dollars."
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "And there's one rule"
+    },
+    {
+     "show": "nobody ever breaks."
+    },
+    {
+     "show": "Never go inside"
+    },
+    {
+     "show": "the mayor's {r:tower.}"
+    }
+   ]
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "But last week,"
+    },
+    {
+     "show": "I heard something"
+    },
+    {
+     "show": "coming from up there."
+    },
+    {
+     "show": "Laughing."
+    },
+    {
+     "show": "Loud laughing."
+    },
+    {
+     "show": "For {y:hours.}"
+    }
+   ]
+  },
+  {
+   "id": "sneak",
+   "label": "",
+   "lines": [
+    {
+     "show": "So one night,"
+    },
+    {
+     "show": "I climbed the tower,"
+    },
+    {
+     "show": "and I opened the door."
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor was sitting"
+    },
+    {
+     "show": "in front of a hundred TVs,"
+    },
+    {
+     "show": "watching cat videos,"
+    },
+    {
+     "show": "laughing his head off."
+    },
+    {
+     "show": "For {y:free.}"
+    },
+    {
+     "show": "And all around him"
+    },
+    {
+     "show": "were jars,"
+    },
+    {
+     "show": "filled with everybody's"
+    },
+    {
+     "show": "{r:laugh money.}"
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then I saw a big red button."
+    },
+    {
+     "show": "Town speakers."
+    },
+    {
+     "show": "So I pressed it."
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor's laugh"
+    },
+    {
+     "show": "went out over the whole town."
+    },
+    {
+     "show": "The HA-meters went crazy."
+    },
+    {
+     "show": "{r:Beep. Beep. Beep.}"
+    },
+    {
+     "show": "Everyone heard the mayor laughing."
+    },
+    {
+     "show": "And that was so funny,"
+    },
+    {
+     "show": "that everybody laughed."
+    },
+    {
+     "show": "All at once."
+    },
+    {
+     "show": "And every HA-meter"
+    },
+    {
+     "show": "in town {r:exploded.}"
+    }
+   ]
+  },
+  {
+   "id": "after",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now laughing is free."
+    },
+    {
+     "show": "Kevin laughs at everything."
+    },
+    {
+     "show": "Linda laughs at her own jokes again."
+    },
+    {
+     "show": "And my grandma"
+    },
+    {
+     "show": "laughed for the first time in thirty years."
+    },
+    {
+     "show": "Her teeth flew out."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "And the mayor?"
+    },
+    {
+     "show": "He owes the town"
+    },
+    {
+     "show": "so much money,"
+    },
+    {
+     "show": "he works for Kevin now."
+    },
+    {
+     "show": "Walking his {y:cat.}"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+hook|In this town,|{r:laughing} costs five dollars.|Every single laugh.|Giggles are two fifty.|And if you snort,|that's ten.
+world|My best friend Kevin|watched one cat video,|and now he owes {r:four thousand dollars.}|My neighbor Linda|laughed at her own joke.|She's still paying it off.|And my grandma|hasn't laughed in thirty years.|She's the {y:richest} person in town.
+police|The laugh police|walk around with {y:HA-meters.}|One giggle,|{r:beep.}|Five dollars.
+rule|And there's one rule|nobody ever breaks.|Never go inside|the mayor's {r:tower.}
+break|But last week,|I heard something|coming from up there.|Laughing.|Loud laughing.|For {y:hours.}
+sneak|So one night,|I climbed the tower,|and I opened the door.
+twist|The mayor was sitting|in front of a hundred TVs,|watching cat videos,|laughing his head off.|For {y:free.}|And all around him|were jars,|filled with everybody's|{r:laugh money.}
+plan|Then I saw a big red button.|Town speakers.|So I pressed it.
+payoff|The mayor's laugh|went out over the whole town.|The HA-meters went crazy.|{r:Beep. Beep. Beep.}|Everyone heard the mayor laughing.|And that was so funny,|that everybody laughed.|All at once.|And every HA-meter|in town {r:exploded.}
+after|Now laughing is free.|Kevin laughs at everything.|Linda laughs at her own jokes again.|And my grandma|laughed for the first time in thirty years.|Her teeth flew out.
+end|And the mayor?|He owes the town|so much money,|he works for Kevin now.|Walking his {y:cat.}

@@ -1,0 +1,1770 @@
+{
+ "duration": 73.326,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.48,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "{r:laughing} costs five dollars.",
+     "start": 0.88,
+     "end": 2.72,
+     "words": [
+      {
+       "text": "laughing",
+       "start": 0.88,
+       "end": 1.28
+      },
+      {
+       "text": "costs",
+       "start": 1.44,
+       "end": 1.68
+      },
+      {
+       "text": "five",
+       "start": 1.76,
+       "end": 2.0
+      },
+      {
+       "text": "dollars.",
+       "start": 2.08,
+       "end": 2.72
+      }
+     ]
+    },
+    {
+     "show": "Every single laugh.",
+     "start": 2.88,
+     "end": 4.0,
+     "words": [
+      {
+       "text": "Every",
+       "start": 2.88,
+       "end": 3.04
+      },
+      {
+       "text": "single",
+       "start": 3.2,
+       "end": 3.52
+      },
+      {
+       "text": "laugh.",
+       "start": 3.6,
+       "end": 4.0
+      }
+     ]
+    },
+    {
+     "show": "Giggles are two fifty.",
+     "start": 4.08,
+     "end": 5.12,
+     "words": [
+      {
+       "text": "Giggles",
+       "start": 4.08,
+       "end": 4.4
+      },
+      {
+       "text": "are",
+       "start": 4.44,
+       "end": 4.48
+      },
+      {
+       "text": "two",
+       "start": 4.56,
+       "end": 4.72
+      },
+      {
+       "text": "fifty.",
+       "start": 4.76,
+       "end": 5.12
+      }
+     ]
+    },
+    {
+     "show": "And if you snort,",
+     "start": 5.16,
+     "end": 5.84,
+     "words": [
+      {
+       "text": "And",
+       "start": 5.16,
+       "end": 5.2
+      },
+      {
+       "text": "if",
+       "start": 5.24,
+       "end": 5.28
+      },
+      {
+       "text": "you",
+       "start": 5.36,
+       "end": 5.44
+      },
+      {
+       "text": "snort,",
+       "start": 5.48,
+       "end": 5.84
+      }
+     ]
+    },
+    {
+     "show": "that's ten.",
+     "start": 5.92,
+     "end": 6.56,
+     "words": [
+      {
+       "text": "that's",
+       "start": 5.92,
+       "end": 6.08
+      },
+      {
+       "text": "ten.",
+       "start": 6.16,
+       "end": 6.56
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 6.56
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "My best friend Kevin",
+     "start": 6.64,
+     "end": 7.44,
+     "words": [
+      {
+       "text": "My",
+       "start": 6.64,
+       "end": 6.72
+      },
+      {
+       "text": "best",
+       "start": 6.8,
+       "end": 6.88
+      },
+      {
+       "text": "friend",
+       "start": 7.0,
+       "end": 7.12
+      },
+      {
+       "text": "Kevin",
+       "start": 7.2,
+       "end": 7.44
+      }
+     ]
+    },
+    {
+     "show": "watched one cat video,",
+     "start": 7.56,
+     "end": 8.773,
+     "words": [
+      {
+       "text": "watched",
+       "start": 7.56,
+       "end": 7.84
+      },
+      {
+       "text": "one",
+       "start": 7.92,
+       "end": 8.0
+      },
+      {
+       "text": "cat",
+       "start": 8.16,
+       "end": 8.32
+      },
+      {
+       "text": "video,",
+       "start": 8.4,
+       "end": 8.773
+      }
+     ]
+    },
+    {
+     "show": "and now he owes {r:four thousand dollars.}",
+     "start": 8.827,
+     "end": 10.8,
+     "words": [
+      {
+       "text": "and",
+       "start": 8.827,
+       "end": 8.88
+      },
+      {
+       "text": "now",
+       "start": 8.96,
+       "end": 9.04
+      },
+      {
+       "text": "he",
+       "start": 9.12,
+       "end": 9.2
+      },
+      {
+       "text": "owes",
+       "start": 9.24,
+       "end": 9.44
+      },
+      {
+       "text": "four",
+       "start": 9.52,
+       "end": 9.68
+      },
+      {
+       "text": "thousand",
+       "start": 9.84,
+       "end": 10.24
+      },
+      {
+       "text": "dollars.",
+       "start": 10.32,
+       "end": 10.8
+      }
+     ]
+    },
+    {
+     "show": "My neighbor Linda",
+     "start": 10.88,
+     "end": 11.6,
+     "words": [
+      {
+       "text": "My",
+       "start": 10.88,
+       "end": 10.96
+      },
+      {
+       "text": "neighbor",
+       "start": 11.08,
+       "end": 11.2
+      },
+      {
+       "text": "Linda",
+       "start": 11.28,
+       "end": 11.6
+      }
+     ]
+    },
+    {
+     "show": "laughed at her own joke.",
+     "start": 11.64,
+     "end": 12.8,
+     "words": [
+      {
+       "text": "laughed",
+       "start": 11.64,
+       "end": 11.84
+      },
+      {
+       "text": "at",
+       "start": 11.88,
+       "end": 11.92
+      },
+      {
+       "text": "her",
+       "start": 12.0,
+       "end": 12.08
+      },
+      {
+       "text": "own",
+       "start": 12.2,
+       "end": 12.32
+      },
+      {
+       "text": "joke.",
+       "start": 12.4,
+       "end": 12.8
+      }
+     ]
+    },
+    {
+     "show": "She's still paying it off.",
+     "start": 12.84,
+     "end": 13.92,
+     "words": [
+      {
+       "text": "She's",
+       "start": 12.84,
+       "end": 12.96
+      },
+      {
+       "text": "still",
+       "start": 13.04,
+       "end": 13.28
+      },
+      {
+       "text": "paying",
+       "start": 13.32,
+       "end": 13.44
+      },
+      {
+       "text": "it",
+       "start": 13.52,
+       "end": 13.6
+      },
+      {
+       "text": "off.",
+       "start": 13.72,
+       "end": 13.92
+      }
+     ]
+    },
+    {
+     "show": "And my grandma",
+     "start": 13.96,
+     "end": 14.56,
+     "words": [
+      {
+       "text": "And",
+       "start": 13.96,
+       "end": 14.0
+      },
+      {
+       "text": "my",
+       "start": 14.08,
+       "end": 14.16
+      },
+      {
+       "text": "grandma",
+       "start": 14.28,
+       "end": 14.56
+      }
+     ]
+    },
+    {
+     "show": "hasn't laughed in thirty years.",
+     "start": 14.64,
+     "end": 16.24,
+     "words": [
+      {
+       "text": "hasn't",
+       "start": 14.64,
+       "end": 14.8
+      },
+      {
+       "text": "laughed",
+       "start": 14.88,
+       "end": 15.12
+      },
+      {
+       "text": "in",
+       "start": 15.24,
+       "end": 15.36
+      },
+      {
+       "text": "thirty",
+       "start": 15.44,
+       "end": 15.68
+      },
+      {
+       "text": "years.",
+       "start": 15.76,
+       "end": 16.24
+      }
+     ]
+    },
+    {
+     "show": "She's the {y:richest} person in town.",
+     "start": 16.32,
+     "end": 17.84,
+     "words": [
+      {
+       "text": "She's",
+       "start": 16.32,
+       "end": 16.48
+      },
+      {
+       "text": "the",
+       "start": 16.56,
+       "end": 16.64
+      },
+      {
+       "text": "richest",
+       "start": 16.72,
+       "end": 16.96
+      },
+      {
+       "text": "person",
+       "start": 17.08,
+       "end": 17.2
+      },
+      {
+       "text": "in",
+       "start": 17.28,
+       "end": 17.36
+      },
+      {
+       "text": "town.",
+       "start": 17.52,
+       "end": 17.84
+      }
+     ]
+    }
+   ],
+   "start": 6.64,
+   "end": 17.84
+  },
+  {
+   "id": "police",
+   "label": "",
+   "lines": [
+    {
+     "show": "The laugh police",
+     "start": 17.88,
+     "end": 18.48,
+     "words": [
+      {
+       "text": "The",
+       "start": 17.88,
+       "end": 17.92
+      },
+      {
+       "text": "laugh",
+       "start": 18.0,
+       "end": 18.16
+      },
+      {
+       "text": "police",
+       "start": 18.24,
+       "end": 18.48
+      }
+     ]
+    },
+    {
+     "show": "walk around with {y:HA-meters.}",
+     "start": 18.56,
+     "end": 19.92,
+     "words": [
+      {
+       "text": "walk",
+       "start": 18.56,
+       "end": 18.72
+      },
+      {
+       "text": "around",
+       "start": 18.84,
+       "end": 18.96
+      },
+      {
+       "text": "with",
+       "start": 19.04,
+       "end": 19.12
+      },
+      {
+       "text": "HA-meters.",
+       "start": 19.2,
+       "end": 19.92
+      }
+     ]
+    },
+    {
+     "show": "One giggle,",
+     "start": 19.96,
+     "end": 20.48,
+     "words": [
+      {
+       "text": "One",
+       "start": 19.96,
+       "end": 20.0
+      },
+      {
+       "text": "giggle,",
+       "start": 20.08,
+       "end": 20.48
+      }
+     ]
+    },
+    {
+     "show": "{r:beep.}",
+     "start": 20.52,
+     "end": 20.96,
+     "words": [
+      {
+       "text": "beep.",
+       "start": 20.52,
+       "end": 20.96
+      }
+     ]
+    },
+    {
+     "show": "Five dollars.",
+     "start": 21.04,
+     "end": 21.76,
+     "words": [
+      {
+       "text": "Five",
+       "start": 21.04,
+       "end": 21.12
+      },
+      {
+       "text": "dollars.",
+       "start": 21.2,
+       "end": 21.76
+      }
+     ]
+    }
+   ],
+   "start": 17.88,
+   "end": 21.76
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "And there's one rule",
+     "start": 21.8,
+     "end": 22.64,
+     "words": [
+      {
+       "text": "And",
+       "start": 21.8,
+       "end": 21.84
+      },
+      {
+       "text": "there's",
+       "start": 21.88,
+       "end": 22.08
+      },
+      {
+       "text": "one",
+       "start": 22.16,
+       "end": 22.32
+      },
+      {
+       "text": "rule",
+       "start": 22.4,
+       "end": 22.64
+      }
+     ]
+    },
+    {
+     "show": "nobody ever breaks.",
+     "start": 22.8,
+     "end": 24.08,
+     "words": [
+      {
+       "text": "nobody",
+       "start": 22.8,
+       "end": 23.2
+      },
+      {
+       "text": "ever",
+       "start": 23.28,
+       "end": 23.44
+      },
+      {
+       "text": "breaks.",
+       "start": 23.52,
+       "end": 24.08
+      }
+     ]
+    },
+    {
+     "show": "Never go inside",
+     "start": 24.16,
+     "end": 24.96,
+     "words": [
+      {
+       "text": "Never",
+       "start": 24.16,
+       "end": 24.4
+      },
+      {
+       "text": "go",
+       "start": 24.48,
+       "end": 24.56
+      },
+      {
+       "text": "inside",
+       "start": 24.64,
+       "end": 24.96
+      }
+     ]
+    },
+    {
+     "show": "the mayor's {r:tower.}",
+     "start": 25.04,
+     "end": 25.92,
+     "words": [
+      {
+       "text": "the",
+       "start": 25.04,
+       "end": 25.12
+      },
+      {
+       "text": "mayor's",
+       "start": 25.16,
+       "end": 25.44
+      },
+      {
+       "text": "tower.",
+       "start": 25.6,
+       "end": 25.92
+      }
+     ]
+    }
+   ],
+   "start": 21.8,
+   "end": 25.92
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "But last week,",
+     "start": 26.0,
+     "end": 26.72,
+     "words": [
+      {
+       "text": "But",
+       "start": 26.0,
+       "end": 26.08
+      },
+      {
+       "text": "last",
+       "start": 26.2,
+       "end": 26.32
+      },
+      {
+       "text": "week,",
+       "start": 26.4,
+       "end": 26.72
+      }
+     ]
+    },
+    {
+     "show": "I heard something",
+     "start": 26.88,
+     "end": 27.44,
+     "words": [
+      {
+       "text": "I",
+       "start": 26.88,
+       "end": 26.96
+      },
+      {
+       "text": "heard",
+       "start": 27.04,
+       "end": 27.12
+      },
+      {
+       "text": "something",
+       "start": 27.28,
+       "end": 27.44
+      }
+     ]
+    },
+    {
+     "show": "coming from up there.",
+     "start": 27.56,
+     "end": 28.4,
+     "words": [
+      {
+       "text": "coming",
+       "start": 27.56,
+       "end": 27.68
+      },
+      {
+       "text": "from",
+       "start": 27.76,
+       "end": 27.84
+      },
+      {
+       "text": "up",
+       "start": 27.92,
+       "end": 28.0
+      },
+      {
+       "text": "there.",
+       "start": 28.12,
+       "end": 28.4
+      }
+     ]
+    },
+    {
+     "show": "Laughing.",
+     "start": 28.48,
+     "end": 29.12,
+     "words": [
+      {
+       "text": "Laughing.",
+       "start": 28.48,
+       "end": 29.12
+      }
+     ]
+    },
+    {
+     "show": "Loud laughing.",
+     "start": 29.2,
+     "end": 30.24,
+     "words": [
+      {
+       "text": "Loud",
+       "start": 29.2,
+       "end": 29.52
+      },
+      {
+       "text": "laughing.",
+       "start": 29.6,
+       "end": 30.24
+      }
+     ]
+    },
+    {
+     "show": "For {y:hours.}",
+     "start": 30.36,
+     "end": 31.28,
+     "words": [
+      {
+       "text": "For",
+       "start": 30.36,
+       "end": 30.48
+      },
+      {
+       "text": "hours.",
+       "start": 30.56,
+       "end": 31.28
+      }
+     ]
+    }
+   ],
+   "start": 26.0,
+   "end": 31.28
+  },
+  {
+   "id": "sneak",
+   "label": "",
+   "lines": [
+    {
+     "show": "So one night,",
+     "start": 31.36,
+     "end": 32.08,
+     "words": [
+      {
+       "text": "So",
+       "start": 31.36,
+       "end": 31.44
+      },
+      {
+       "text": "one",
+       "start": 31.52,
+       "end": 31.68
+      },
+      {
+       "text": "night,",
+       "start": 31.76,
+       "end": 32.08
+      }
+     ]
+    },
+    {
+     "show": "I climbed the tower,",
+     "start": 32.24,
+     "end": 33.2,
+     "words": [
+      {
+       "text": "I",
+       "start": 32.24,
+       "end": 32.28
+      },
+      {
+       "text": "climbed",
+       "start": 32.32,
+       "end": 32.56
+      },
+      {
+       "text": "the",
+       "start": 32.6,
+       "end": 32.64
+      },
+      {
+       "text": "tower,",
+       "start": 32.72,
+       "end": 33.2
+      }
+     ]
+    },
+    {
+     "show": "and I opened the door.",
+     "start": 33.24,
+     "end": 34.32,
+     "words": [
+      {
+       "text": "and",
+       "start": 33.24,
+       "end": 33.28
+      },
+      {
+       "text": "I",
+       "start": 33.44,
+       "end": 33.52
+      },
+      {
+       "text": "opened",
+       "start": 33.6,
+       "end": 33.68
+      },
+      {
+       "text": "the",
+       "start": 33.76,
+       "end": 33.84
+      },
+      {
+       "text": "door.",
+       "start": 34.0,
+       "end": 34.32
+      }
+     ]
+    }
+   ],
+   "start": 31.36,
+   "end": 34.32
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor was sitting",
+     "start": 34.4,
+     "end": 35.12,
+     "words": [
+      {
+       "text": "The",
+       "start": 34.4,
+       "end": 34.48
+      },
+      {
+       "text": "mayor",
+       "start": 34.56,
+       "end": 34.72
+      },
+      {
+       "text": "was",
+       "start": 34.8,
+       "end": 34.88
+      },
+      {
+       "text": "sitting",
+       "start": 34.96,
+       "end": 35.12
+      }
+     ]
+    },
+    {
+     "show": "in front of a hundred TVs,",
+     "start": 35.16,
+     "end": 36.64,
+     "words": [
+      {
+       "text": "in",
+       "start": 35.16,
+       "end": 35.2
+      },
+      {
+       "text": "front",
+       "start": 35.28,
+       "end": 35.36
+      },
+      {
+       "text": "of",
+       "start": 35.4,
+       "end": 35.44
+      },
+      {
+       "text": "a",
+       "start": 35.52,
+       "end": 35.6
+      },
+      {
+       "text": "hundred",
+       "start": 35.68,
+       "end": 36.0
+      },
+      {
+       "text": "TVs,",
+       "start": 36.08,
+       "end": 36.64
+      }
+     ]
+    },
+    {
+     "show": "watching cat videos,",
+     "start": 36.72,
+     "end": 37.92,
+     "words": [
+      {
+       "text": "watching",
+       "start": 36.72,
+       "end": 37.04
+      },
+      {
+       "text": "cat",
+       "start": 37.16,
+       "end": 37.28
+      },
+      {
+       "text": "videos,",
+       "start": 37.36,
+       "end": 37.92
+      }
+     ]
+    },
+    {
+     "show": "laughing his head off.",
+     "start": 37.96,
+     "end": 39.04,
+     "words": [
+      {
+       "text": "laughing",
+       "start": 37.96,
+       "end": 38.24
+      },
+      {
+       "text": "his",
+       "start": 38.32,
+       "end": 38.4
+      },
+      {
+       "text": "head",
+       "start": 38.48,
+       "end": 38.64
+      },
+      {
+       "text": "off.",
+       "start": 38.72,
+       "end": 39.04
+      }
+     ]
+    },
+    {
+     "show": "For {y:free.}",
+     "start": 40.28,
+     "end": 40.96,
+     "words": [
+      {
+       "text": "For",
+       "start": 40.28,
+       "end": 40.4
+      },
+      {
+       "text": "free.",
+       "start": 40.6,
+       "end": 40.96
+      }
+     ]
+    },
+    {
+     "show": "And all around him",
+     "start": 41.04,
+     "end": 41.76,
+     "words": [
+      {
+       "text": "And",
+       "start": 41.04,
+       "end": 41.12
+      },
+      {
+       "text": "all",
+       "start": 41.2,
+       "end": 41.28
+      },
+      {
+       "text": "around",
+       "start": 41.36,
+       "end": 41.6
+      },
+      {
+       "text": "him",
+       "start": 41.68,
+       "end": 41.76
+      }
+     ]
+    },
+    {
+     "show": "were jars,",
+     "start": 41.88,
+     "end": 42.56,
+     "words": [
+      {
+       "text": "were",
+       "start": 41.88,
+       "end": 42.0
+      },
+      {
+       "text": "jars,",
+       "start": 42.08,
+       "end": 42.56
+      }
+     ]
+    },
+    {
+     "show": "filled with everybody's",
+     "start": 42.64,
+     "end": 43.68,
+     "words": [
+      {
+       "text": "filled",
+       "start": 42.64,
+       "end": 42.88
+      },
+      {
+       "text": "with",
+       "start": 43.0,
+       "end": 43.12
+      },
+      {
+       "text": "everybody's",
+       "start": 43.2,
+       "end": 43.68
+      }
+     ]
+    },
+    {
+     "show": "{r:laugh money.}",
+     "start": 43.76,
+     "end": 44.4,
+     "words": [
+      {
+       "text": "laugh",
+       "start": 43.76,
+       "end": 43.92
+      },
+      {
+       "text": "money.",
+       "start": 44.0,
+       "end": 44.4
+      }
+     ]
+    }
+   ],
+   "start": 34.4,
+   "end": 44.4
+  },
+  {
+   "id": "plan",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then I saw a big red button.",
+     "start": 44.48,
+     "end": 46.4,
+     "words": [
+      {
+       "text": "Then",
+       "start": 44.48,
+       "end": 44.8
+      },
+      {
+       "text": "I",
+       "start": 44.96,
+       "end": 44.987
+      },
+      {
+       "text": "saw",
+       "start": 45.013,
+       "end": 45.12
+      },
+      {
+       "text": "a",
+       "start": 45.24,
+       "end": 45.36
+      },
+      {
+       "text": "big",
+       "start": 45.48,
+       "end": 45.6
+      },
+      {
+       "text": "red",
+       "start": 45.68,
+       "end": 45.92
+      },
+      {
+       "text": "button.",
+       "start": 46.0,
+       "end": 46.4
+      }
+     ]
+    },
+    {
+     "show": "Town speakers.",
+     "start": 46.48,
+     "end": 47.52,
+     "words": [
+      {
+       "text": "Town",
+       "start": 46.48,
+       "end": 46.72
+      },
+      {
+       "text": "speakers.",
+       "start": 46.8,
+       "end": 47.52
+      }
+     ]
+    },
+    {
+     "show": "So I pressed it.",
+     "start": 47.6,
+     "end": 48.853,
+     "words": [
+      {
+       "text": "So",
+       "start": 47.6,
+       "end": 47.76
+      },
+      {
+       "text": "I",
+       "start": 48.0,
+       "end": 48.04
+      },
+      {
+       "text": "pressed",
+       "start": 48.08,
+       "end": 48.4
+      },
+      {
+       "text": "it.",
+       "start": 48.48,
+       "end": 48.853
+      }
+     ]
+    }
+   ],
+   "start": 44.48,
+   "end": 48.853
+  },
+  {
+   "id": "payoff",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor's laugh",
+     "start": 48.907,
+     "end": 49.52,
+     "words": [
+      {
+       "text": "The",
+       "start": 48.907,
+       "end": 48.96
+      },
+      {
+       "text": "mayor's",
+       "start": 49.04,
+       "end": 49.28
+      },
+      {
+       "text": "laugh",
+       "start": 49.36,
+       "end": 49.52
+      }
+     ]
+    },
+    {
+     "show": "went out over the whole town.",
+     "start": 49.6,
+     "end": 50.96,
+     "words": [
+      {
+       "text": "went",
+       "start": 49.6,
+       "end": 49.68
+      },
+      {
+       "text": "out",
+       "start": 49.76,
+       "end": 49.84
+      },
+      {
+       "text": "over",
+       "start": 49.92,
+       "end": 50.08
+      },
+      {
+       "text": "the",
+       "start": 50.16,
+       "end": 50.24
+      },
+      {
+       "text": "whole",
+       "start": 50.36,
+       "end": 50.48
+      },
+      {
+       "text": "town.",
+       "start": 50.56,
+       "end": 50.96
+      }
+     ]
+    },
+    {
+     "show": "The HA-meters went crazy.",
+     "start": 51.04,
+     "end": 52.427,
+     "words": [
+      {
+       "text": "The",
+       "start": 51.04,
+       "end": 51.12
+      },
+      {
+       "text": "HA-meters",
+       "start": 51.2,
+       "end": 51.6
+      },
+      {
+       "text": "went",
+       "start": 51.72,
+       "end": 51.84
+      },
+      {
+       "text": "crazy.",
+       "start": 51.88,
+       "end": 52.427
+      }
+     ]
+    },
+    {
+     "show": "{r:Beep. Beep. Beep.}",
+     "start": 52.453,
+     "end": 53.6,
+     "words": [
+      {
+       "text": "Beep.",
+       "start": 52.453,
+       "end": 52.76
+      },
+      {
+       "text": "Beep.",
+       "start": 52.8,
+       "end": 53.16
+      },
+      {
+       "text": "Beep.",
+       "start": 53.2,
+       "end": 53.6
+      }
+     ]
+    },
+    {
+     "show": "Everyone heard the mayor laughing.",
+     "start": 53.68,
+     "end": 55.147,
+     "words": [
+      {
+       "text": "Everyone",
+       "start": 53.68,
+       "end": 54.08
+      },
+      {
+       "text": "heard",
+       "start": 54.16,
+       "end": 54.24
+      },
+      {
+       "text": "the",
+       "start": 54.28,
+       "end": 54.32
+      },
+      {
+       "text": "mayor",
+       "start": 54.4,
+       "end": 54.64
+      },
+      {
+       "text": "laughing.",
+       "start": 54.68,
+       "end": 55.147
+      }
+     ]
+    },
+    {
+     "show": "And that was so funny,",
+     "start": 55.173,
+     "end": 56.32,
+     "words": [
+      {
+       "text": "And",
+       "start": 55.173,
+       "end": 55.2
+      },
+      {
+       "text": "that",
+       "start": 55.28,
+       "end": 55.36
+      },
+      {
+       "text": "was",
+       "start": 55.48,
+       "end": 55.6
+      },
+      {
+       "text": "so",
+       "start": 55.72,
+       "end": 55.84
+      },
+      {
+       "text": "funny,",
+       "start": 55.92,
+       "end": 56.32
+      }
+     ]
+    },
+    {
+     "show": "that everybody laughed.",
+     "start": 56.4,
+     "end": 57.48,
+     "words": [
+      {
+       "text": "that",
+       "start": 56.4,
+       "end": 56.48
+      },
+      {
+       "text": "everybody",
+       "start": 56.64,
+       "end": 56.96
+      },
+      {
+       "text": "laughed.",
+       "start": 57.04,
+       "end": 57.48
+      }
+     ]
+    },
+    {
+     "show": "All at once.",
+     "start": 57.52,
+     "end": 58.4,
+     "words": [
+      {
+       "text": "All",
+       "start": 57.52,
+       "end": 57.6
+      },
+      {
+       "text": "at",
+       "start": 57.68,
+       "end": 57.84
+      },
+      {
+       "text": "once.",
+       "start": 57.92,
+       "end": 58.4
+      }
+     ]
+    },
+    {
+     "show": "And every HA-meter",
+     "start": 58.48,
+     "end": 59.36,
+     "words": [
+      {
+       "text": "And",
+       "start": 58.48,
+       "end": 58.56
+      },
+      {
+       "text": "every",
+       "start": 58.72,
+       "end": 58.88
+      },
+      {
+       "text": "HA-meter",
+       "start": 58.96,
+       "end": 59.36
+      }
+     ]
+    },
+    {
+     "show": "in town {r:exploded.}",
+     "start": 59.44,
+     "end": 60.72,
+     "words": [
+      {
+       "text": "in",
+       "start": 59.44,
+       "end": 59.52
+      },
+      {
+       "text": "town",
+       "start": 59.68,
+       "end": 59.84
+      },
+      {
+       "text": "exploded.",
+       "start": 59.92,
+       "end": 60.72
+      }
+     ]
+    }
+   ],
+   "start": 48.907,
+   "end": 60.72
+  },
+  {
+   "id": "after",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now laughing is free.",
+     "start": 60.8,
+     "end": 62.04,
+     "words": [
+      {
+       "text": "Now",
+       "start": 60.8,
+       "end": 61.04
+      },
+      {
+       "text": "laughing",
+       "start": 61.08,
+       "end": 61.36
+      },
+      {
+       "text": "is",
+       "start": 61.44,
+       "end": 61.52
+      },
+      {
+       "text": "free.",
+       "start": 61.6,
+       "end": 62.04
+      }
+     ]
+    },
+    {
+     "show": "Kevin laughs at everything.",
+     "start": 62.08,
+     "end": 63.4,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 62.08,
+       "end": 62.32
+      },
+      {
+       "text": "laughs",
+       "start": 62.4,
+       "end": 62.56
+      },
+      {
+       "text": "at",
+       "start": 62.64,
+       "end": 62.8
+      },
+      {
+       "text": "everything.",
+       "start": 62.88,
+       "end": 63.4
+      }
+     ]
+    },
+    {
+     "show": "Linda laughs at her own jokes again.",
+     "start": 63.44,
+     "end": 65.067,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 63.44,
+       "end": 63.76
+      },
+      {
+       "text": "laughs",
+       "start": 63.88,
+       "end": 64.0
+      },
+      {
+       "text": "at",
+       "start": 64.04,
+       "end": 64.08
+      },
+      {
+       "text": "her",
+       "start": 64.12,
+       "end": 64.16
+      },
+      {
+       "text": "own",
+       "start": 64.24,
+       "end": 64.32
+      },
+      {
+       "text": "jokes",
+       "start": 64.4,
+       "end": 64.64
+      },
+      {
+       "text": "again.",
+       "start": 64.84,
+       "end": 65.067
+      }
+     ]
+    },
+    {
+     "show": "And my grandma",
+     "start": 65.093,
+     "end": 65.68,
+     "words": [
+      {
+       "text": "And",
+       "start": 65.093,
+       "end": 65.12
+      },
+      {
+       "text": "my",
+       "start": 65.2,
+       "end": 65.28
+      },
+      {
+       "text": "grandma",
+       "start": 65.4,
+       "end": 65.68
+      }
+     ]
+    },
+    {
+     "show": "laughed for the first time in thirty years.",
+     "start": 65.76,
+     "end": 67.96,
+     "words": [
+      {
+       "text": "laughed",
+       "start": 65.76,
+       "end": 66.0
+      },
+      {
+       "text": "for",
+       "start": 66.04,
+       "end": 66.08
+      },
+      {
+       "text": "the",
+       "start": 66.16,
+       "end": 66.24
+      },
+      {
+       "text": "first",
+       "start": 66.32,
+       "end": 66.56
+      },
+      {
+       "text": "time",
+       "start": 66.68,
+       "end": 66.8
+      },
+      {
+       "text": "in",
+       "start": 66.88,
+       "end": 67.12
+      },
+      {
+       "text": "thirty",
+       "start": 67.227,
+       "end": 67.44
+      },
+      {
+       "text": "years.",
+       "start": 67.52,
+       "end": 67.96
+      }
+     ]
+    },
+    {
+     "show": "Her teeth flew out.",
+     "start": 68.0,
+     "end": 69.067,
+     "words": [
+      {
+       "text": "Her",
+       "start": 68.0,
+       "end": 68.16
+      },
+      {
+       "text": "teeth",
+       "start": 68.24,
+       "end": 68.48
+      },
+      {
+       "text": "flew",
+       "start": 68.52,
+       "end": 68.64
+      },
+      {
+       "text": "out.",
+       "start": 68.72,
+       "end": 69.067
+      }
+     ]
+    }
+   ],
+   "start": 60.8,
+   "end": 69.067
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "And the mayor?",
+     "start": 69.093,
+     "end": 69.64,
+     "words": [
+      {
+       "text": "And",
+       "start": 69.093,
+       "end": 69.12
+      },
+      {
+       "text": "the",
+       "start": 69.16,
+       "end": 69.2
+      },
+      {
+       "text": "mayor?",
+       "start": 69.28,
+       "end": 69.64
+      }
+     ]
+    },
+    {
+     "show": "He owes the town",
+     "start": 69.68,
+     "end": 70.4,
+     "words": [
+      {
+       "text": "He",
+       "start": 69.68,
+       "end": 69.76
+      },
+      {
+       "text": "owes",
+       "start": 69.84,
+       "end": 69.92
+      },
+      {
+       "text": "the",
+       "start": 70.0,
+       "end": 70.08
+      },
+      {
+       "text": "town",
+       "start": 70.24,
+       "end": 70.4
+      }
+     ]
+    },
+    {
+     "show": "so much money,",
+     "start": 70.48,
+     "end": 71.16,
+     "words": [
+      {
+       "text": "so",
+       "start": 70.48,
+       "end": 70.56
+      },
+      {
+       "text": "much",
+       "start": 70.64,
+       "end": 70.8
+      },
+      {
+       "text": "money,",
+       "start": 70.88,
+       "end": 71.16
+      }
+     ]
+    },
+    {
+     "show": "he works for Kevin now.",
+     "start": 71.2,
+     "end": 72.28,
+     "words": [
+      {
+       "text": "he",
+       "start": 71.2,
+       "end": 71.28
+      },
+      {
+       "text": "works",
+       "start": 71.36,
+       "end": 71.44
+      },
+      {
+       "text": "for",
+       "start": 71.52,
+       "end": 71.6
+      },
+      {
+       "text": "Kevin",
+       "start": 71.76,
+       "end": 71.92
+      },
+      {
+       "text": "now.",
+       "start": 72.08,
+       "end": 72.28
+      }
+     ]
+    },
+    {
+     "show": "Walking his {y:cat.}",
+     "start": 72.32,
+     "end": 73.36,
+     "words": [
+      {
+       "text": "Walking",
+       "start": 72.32,
+       "end": 72.64
+      },
+      {
+       "text": "his",
+       "start": 72.72,
+       "end": 72.8
+      },
+      {
+       "text": "cat.",
+       "start": 72.88,
+       "end": 73.36
+      }
+     ]
+    }
+   ],
+   "start": 69.093,
+   "end": 73.36
+  }
+ ]
+}
