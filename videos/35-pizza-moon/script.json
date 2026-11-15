@@ -1,0 +1,150 @@
+{
+ "title": "Pizza Moon",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "the moon is a {y:pizza.}"
+    },
+    {
+     "show": "And every Friday,"
+    },
+    {
+     "show": "you can order one slice."
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin only eats moon pizza."
+    },
+    {
+     "show": "Linda's cat"
+    },
+    {
+     "show": "howls at it every night."
+    },
+    {
+     "show": "And my grandma says"
+    },
+    {
+     "show": "it tasted better"
+    },
+    {
+     "show": "in the sixties."
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "There's only one rule."
+    },
+    {
+     "show": "Never order"
+    },
+    {
+     "show": "the {r:whole} moon."
+    }
+   ]
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last Friday,"
+    },
+    {
+     "show": "I was ordering my slice,"
+    },
+    {
+     "show": "and my thumb slipped."
+    },
+    {
+     "show": "Whole moon."
+    },
+    {
+     "show": "{r:Order confirmed.}"
+    }
+   ]
+  },
+  {
+   "id": "dark",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next night,"
+    },
+    {
+     "show": "the sky was completely dark."
+    },
+    {
+     "show": "Everyone was screaming."
+    },
+    {
+     "show": "Then the doorbell rang."
+    }
+   ]
+  },
+  {
+   "id": "tung",
+   "label": "",
+   "lines": [
+    {
+     "show": "It was Tung Tung Tung Sahur."
+    },
+    {
+     "show": "Holding the {y:biggest} pizza box"
+    },
+    {
+     "show": "I have ever seen."
+    },
+    {
+     "show": "He said,"
+    },
+    {
+     "show": "that will cost your allowance."
+    },
+    {
+     "show": "{r:Forever.}"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So we shared it"
+    },
+    {
+     "show": "with the whole town."
+    },
+    {
+     "show": "Best night ever."
+    },
+    {
+     "show": "And the next night,"
+    },
+    {
+     "show": "there was a new moon."
+    },
+    {
+     "show": "It was a {y:donut.}"
+    }
+   ]
+  }
+ ]
+}

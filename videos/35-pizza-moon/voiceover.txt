@@ -1,0 +1,7 @@
+hook|In this town,|the moon is a {y:pizza.}|And every Friday,|you can order one slice.
+world|Kevin only eats moon pizza.|Linda's cat|howls at it every night.|And my grandma says|it tasted better|in the sixties.
+rule|There's only one rule.|Never order|the {r:whole} moon.
+break|Last Friday,|I was ordering my slice,|and my thumb slipped.|Whole moon.|{r:Order confirmed.}
+dark|The next night,|the sky was completely dark.|Everyone was screaming.|Then the doorbell rang.
+tung|It was Tung Tung Tung Sahur.|Holding the {y:biggest} pizza box|I have ever seen.|He said,|that will cost your allowance.|{r:Forever.}
+end|So we shared it|with the whole town.|Best night ever.|And the next night,|there was a new moon.|It was a {y:donut.}
