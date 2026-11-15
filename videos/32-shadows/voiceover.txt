@@ -1,0 +1,8 @@
+hook|In this town,|your shadow does|what you {r:really} want to do.
+world|Kevin's shadow|dances in the middle of math class.|Linda's shadow eats ice cream|while she's on a diet.|And my grandma's shadow|never came home from the {b:club.}
+rule|There's only one rule.|Never let your shadow out|after {r:sunset.}
+break|Yesterday,|I stayed outside too long.|The sun went down,|and my shadow|{r:let go of my feet.}
+chase|It ran down the street.|I chased it|all the way to the town hall.
+reveal|And there,|every shadow in town|was having a meeting.|At the front|stood the mayor's shadow.|It said,|tonight,|we take their {r:places.}
+twist|Every shadow cheered.|Except one.|{y:Mine.}|It walked over to me,|and held out a basketball.
+end|It didn't want my place.|It just wanted someone to play with.|So now we play every night.|And honestly,|my shadow is {y:way} better than me.

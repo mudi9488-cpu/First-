@@ -1,0 +1,168 @@
+{
+ "title": "Shadow Night",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "your shadow does"
+    },
+    {
+     "show": "what you {r:really} want to do."
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin's shadow"
+    },
+    {
+     "show": "dances in the middle of math class."
+    },
+    {
+     "show": "Linda's shadow eats ice cream"
+    },
+    {
+     "show": "while she's on a diet."
+    },
+    {
+     "show": "And my grandma's shadow"
+    },
+    {
+     "show": "never came home from the {b:club.}"
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "There's only one rule."
+    },
+    {
+     "show": "Never let your shadow out"
+    },
+    {
+     "show": "after {r:sunset.}"
+    }
+   ]
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "Yesterday,"
+    },
+    {
+     "show": "I stayed outside too long."
+    },
+    {
+     "show": "The sun went down,"
+    },
+    {
+     "show": "and my shadow"
+    },
+    {
+     "show": "{r:let go of my feet.}"
+    }
+   ]
+  },
+  {
+   "id": "chase",
+   "label": "",
+   "lines": [
+    {
+     "show": "It ran down the street."
+    },
+    {
+     "show": "I chased it"
+    },
+    {
+     "show": "all the way to the town hall."
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "label": "",
+   "lines": [
+    {
+     "show": "And there,"
+    },
+    {
+     "show": "every shadow in town"
+    },
+    {
+     "show": "was having a meeting."
+    },
+    {
+     "show": "At the front"
+    },
+    {
+     "show": "stood the mayor's shadow."
+    },
+    {
+     "show": "It said,"
+    },
+    {
+     "show": "tonight,"
+    },
+    {
+     "show": "we take their {r:places.}"
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every shadow cheered."
+    },
+    {
+     "show": "Except one."
+    },
+    {
+     "show": "{y:Mine.}"
+    },
+    {
+     "show": "It walked over to me,"
+    },
+    {
+     "show": "and held out a basketball."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "It didn't want my place."
+    },
+    {
+     "show": "It just wanted someone to play with."
+    },
+    {
+     "show": "So now we play every night."
+    },
+    {
+     "show": "And honestly,"
+    },
+    {
+     "show": "my shadow is {y:way} better than me."
+    }
+   ]
+  }
+ ]
+}

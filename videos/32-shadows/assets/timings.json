@@ -1,0 +1,1095 @@
+{
+ "duration": 40.438,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "your shadow does",
+     "start": 0.88,
+     "end": 1.52,
+     "words": [
+      {
+       "text": "your",
+       "start": 0.88,
+       "end": 1.04
+      },
+      {
+       "text": "shadow",
+       "start": 1.2,
+       "end": 1.36
+      },
+      {
+       "text": "does",
+       "start": 1.44,
+       "end": 1.52
+      }
+     ]
+    },
+    {
+     "show": "what you {r:really} want to do.",
+     "start": 1.6,
+     "end": 2.88,
+     "words": [
+      {
+       "text": "what",
+       "start": 1.6,
+       "end": 1.68
+      },
+      {
+       "text": "you",
+       "start": 1.8,
+       "end": 1.92
+      },
+      {
+       "text": "really",
+       "start": 2.08,
+       "end": 2.24
+      },
+      {
+       "text": "want",
+       "start": 2.32,
+       "end": 2.4
+      },
+      {
+       "text": "to",
+       "start": 2.44,
+       "end": 2.48
+      },
+      {
+       "text": "do.",
+       "start": 2.56,
+       "end": 2.88
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 2.88
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin's shadow",
+     "start": 3.0,
+     "end": 3.52,
+     "words": [
+      {
+       "text": "Kevin's",
+       "start": 3.0,
+       "end": 3.2
+      },
+      {
+       "text": "shadow",
+       "start": 3.36,
+       "end": 3.52
+      }
+     ]
+    },
+    {
+     "show": "dances in the middle of math class.",
+     "start": 3.6,
+     "end": 5.12,
+     "words": [
+      {
+       "text": "dances",
+       "start": 3.6,
+       "end": 3.92
+      },
+      {
+       "text": "in",
+       "start": 3.96,
+       "end": 4.0
+      },
+      {
+       "text": "the",
+       "start": 4.04,
+       "end": 4.08
+      },
+      {
+       "text": "middle",
+       "start": 4.16,
+       "end": 4.24
+      },
+      {
+       "text": "of",
+       "start": 4.32,
+       "end": 4.4
+      },
+      {
+       "text": "math",
+       "start": 4.52,
+       "end": 4.64
+      },
+      {
+       "text": "class.",
+       "start": 4.72,
+       "end": 5.12
+      }
+     ]
+    },
+    {
+     "show": "Linda's shadow eats ice cream",
+     "start": 5.2,
+     "end": 6.56,
+     "words": [
+      {
+       "text": "Linda's",
+       "start": 5.2,
+       "end": 5.52
+      },
+      {
+       "text": "shadow",
+       "start": 5.68,
+       "end": 5.84
+      },
+      {
+       "text": "eats",
+       "start": 5.88,
+       "end": 6.08
+      },
+      {
+       "text": "ice",
+       "start": 6.16,
+       "end": 6.32
+      },
+      {
+       "text": "cream",
+       "start": 6.44,
+       "end": 6.56
+      }
+     ]
+    },
+    {
+     "show": "while she's on a diet.",
+     "start": 6.64,
+     "end": 7.52,
+     "words": [
+      {
+       "text": "while",
+       "start": 6.64,
+       "end": 6.72
+      },
+      {
+       "text": "she's",
+       "start": 6.76,
+       "end": 6.84
+      },
+      {
+       "text": "on",
+       "start": 6.88,
+       "end": 6.96
+      },
+      {
+       "text": "a",
+       "start": 7.0,
+       "end": 7.04
+      },
+      {
+       "text": "diet.",
+       "start": 7.12,
+       "end": 7.52
+      }
+     ]
+    },
+    {
+     "show": "And my grandma's shadow",
+     "start": 7.56,
+     "end": 8.56,
+     "words": [
+      {
+       "text": "And",
+       "start": 7.56,
+       "end": 7.6
+      },
+      {
+       "text": "my",
+       "start": 7.68,
+       "end": 7.76
+      },
+      {
+       "text": "grandma's",
+       "start": 7.88,
+       "end": 8.24
+      },
+      {
+       "text": "shadow",
+       "start": 8.4,
+       "end": 8.56
+      }
+     ]
+    },
+    {
+     "show": "never came home from the {b:club.}",
+     "start": 8.64,
+     "end": 10.0,
+     "words": [
+      {
+       "text": "never",
+       "start": 8.64,
+       "end": 8.88
+      },
+      {
+       "text": "came",
+       "start": 8.96,
+       "end": 9.04
+      },
+      {
+       "text": "home",
+       "start": 9.12,
+       "end": 9.28
+      },
+      {
+       "text": "from",
+       "start": 9.36,
+       "end": 9.44
+      },
+      {
+       "text": "the",
+       "start": 9.48,
+       "end": 9.52
+      },
+      {
+       "text": "club.",
+       "start": 9.6,
+       "end": 10.0
+      }
+     ]
+    }
+   ],
+   "start": 3.0,
+   "end": 10.0
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "There's only one rule.",
+     "start": 10.08,
+     "end": 11.4,
+     "words": [
+      {
+       "text": "There's",
+       "start": 10.08,
+       "end": 10.24
+      },
+      {
+       "text": "only",
+       "start": 10.4,
+       "end": 10.56
+      },
+      {
+       "text": "one",
+       "start": 10.64,
+       "end": 10.8
+      },
+      {
+       "text": "rule.",
+       "start": 10.88,
+       "end": 11.4
+      }
+     ]
+    },
+    {
+     "show": "Never let your shadow out",
+     "start": 11.44,
+     "end": 12.72,
+     "words": [
+      {
+       "text": "Never",
+       "start": 11.44,
+       "end": 11.68
+      },
+      {
+       "text": "let",
+       "start": 11.76,
+       "end": 11.84
+      },
+      {
+       "text": "your",
+       "start": 11.96,
+       "end": 12.08
+      },
+      {
+       "text": "shadow",
+       "start": 12.24,
+       "end": 12.4
+      },
+      {
+       "text": "out",
+       "start": 12.48,
+       "end": 12.72
+      }
+     ]
+    },
+    {
+     "show": "after {r:sunset.}",
+     "start": 12.8,
+     "end": 13.947,
+     "words": [
+      {
+       "text": "after",
+       "start": 12.8,
+       "end": 13.04
+      },
+      {
+       "text": "sunset.",
+       "start": 13.12,
+       "end": 13.947
+      }
+     ]
+    }
+   ],
+   "start": 10.08,
+   "end": 13.947
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "Yesterday,",
+     "start": 14.133,
+     "end": 14.4,
+     "words": [
+      {
+       "text": "Yesterday,",
+       "start": 14.133,
+       "end": 14.4
+      }
+     ]
+    },
+    {
+     "show": "I stayed outside too long.",
+     "start": 14.48,
+     "end": 15.813,
+     "words": [
+      {
+       "text": "I",
+       "start": 14.48,
+       "end": 14.52
+      },
+      {
+       "text": "stayed",
+       "start": 14.56,
+       "end": 14.72
+      },
+      {
+       "text": "outside",
+       "start": 14.96,
+       "end": 15.2
+      },
+      {
+       "text": "too",
+       "start": 15.28,
+       "end": 15.36
+      },
+      {
+       "text": "long.",
+       "start": 15.56,
+       "end": 15.813
+      }
+     ]
+    },
+    {
+     "show": "The sun went down,",
+     "start": 15.867,
+     "end": 16.747,
+     "words": [
+      {
+       "text": "The",
+       "start": 15.867,
+       "end": 15.92
+      },
+      {
+       "text": "sun",
+       "start": 16.0,
+       "end": 16.08
+      },
+      {
+       "text": "went",
+       "start": 16.16,
+       "end": 16.32
+      },
+      {
+       "text": "down,",
+       "start": 16.52,
+       "end": 16.747
+      }
+     ]
+    },
+    {
+     "show": "and my shadow",
+     "start": 16.773,
+     "end": 17.36,
+     "words": [
+      {
+       "text": "and",
+       "start": 16.773,
+       "end": 16.8
+      },
+      {
+       "text": "my",
+       "start": 16.88,
+       "end": 17.04
+      },
+      {
+       "text": "shadow",
+       "start": 17.2,
+       "end": 17.36
+      }
+     ]
+    },
+    {
+     "show": "{r:let go of my feet.}",
+     "start": 17.44,
+     "end": 18.453,
+     "words": [
+      {
+       "text": "let",
+       "start": 17.44,
+       "end": 17.52
+      },
+      {
+       "text": "go",
+       "start": 17.6,
+       "end": 17.68
+      },
+      {
+       "text": "of",
+       "start": 17.72,
+       "end": 17.76
+      },
+      {
+       "text": "my",
+       "start": 17.84,
+       "end": 18.0
+      },
+      {
+       "text": "feet.",
+       "start": 18.04,
+       "end": 18.453
+      }
+     ]
+    }
+   ],
+   "start": 14.133,
+   "end": 18.453
+  },
+  {
+   "id": "chase",
+   "label": "",
+   "lines": [
+    {
+     "show": "It ran down the street.",
+     "start": 18.507,
+     "end": 19.76,
+     "words": [
+      {
+       "text": "It",
+       "start": 18.507,
+       "end": 18.56
+      },
+      {
+       "text": "ran",
+       "start": 18.64,
+       "end": 18.88
+      },
+      {
+       "text": "down",
+       "start": 18.96,
+       "end": 19.04
+      },
+      {
+       "text": "the",
+       "start": 19.12,
+       "end": 19.2
+      },
+      {
+       "text": "street.",
+       "start": 19.28,
+       "end": 19.76
+      }
+     ]
+    },
+    {
+     "show": "I chased it",
+     "start": 19.84,
+     "end": 20.24,
+     "words": [
+      {
+       "text": "I",
+       "start": 19.84,
+       "end": 19.867
+      },
+      {
+       "text": "chased",
+       "start": 19.893,
+       "end": 20.08
+      },
+      {
+       "text": "it",
+       "start": 20.16,
+       "end": 20.24
+      }
+     ]
+    },
+    {
+     "show": "all the way to the town hall.",
+     "start": 20.32,
+     "end": 21.62,
+     "words": [
+      {
+       "text": "all",
+       "start": 20.32,
+       "end": 20.4
+      },
+      {
+       "text": "the",
+       "start": 20.44,
+       "end": 20.48
+      },
+      {
+       "text": "way",
+       "start": 20.56,
+       "end": 20.64
+      },
+      {
+       "text": "to",
+       "start": 20.68,
+       "end": 20.72
+      },
+      {
+       "text": "the",
+       "start": 20.8,
+       "end": 20.88
+      },
+      {
+       "text": "town",
+       "start": 21.0,
+       "end": 21.12
+      },
+      {
+       "text": "hall.",
+       "start": 21.36,
+       "end": 21.62
+      }
+     ]
+    }
+   ],
+   "start": 18.507,
+   "end": 21.62
+  },
+  {
+   "id": "reveal",
+   "label": "",
+   "lines": [
+    {
+     "show": "And there,",
+     "start": 21.74,
+     "end": 22.28,
+     "words": [
+      {
+       "text": "And",
+       "start": 21.74,
+       "end": 21.76
+      },
+      {
+       "text": "there,",
+       "start": 21.84,
+       "end": 22.28
+      }
+     ]
+    },
+    {
+     "show": "every shadow in town",
+     "start": 22.32,
+     "end": 23.36,
+     "words": [
+      {
+       "text": "every",
+       "start": 22.32,
+       "end": 22.56
+      },
+      {
+       "text": "shadow",
+       "start": 22.64,
+       "end": 22.88
+      },
+      {
+       "text": "in",
+       "start": 22.96,
+       "end": 23.04
+      },
+      {
+       "text": "town",
+       "start": 23.12,
+       "end": 23.36
+      }
+     ]
+    },
+    {
+     "show": "was having a meeting.",
+     "start": 23.44,
+     "end": 24.427,
+     "words": [
+      {
+       "text": "was",
+       "start": 23.44,
+       "end": 23.52
+      },
+      {
+       "text": "having",
+       "start": 23.64,
+       "end": 23.76
+      },
+      {
+       "text": "a",
+       "start": 23.84,
+       "end": 23.88
+      },
+      {
+       "text": "meeting.",
+       "start": 23.92,
+       "end": 24.427
+      }
+     ]
+    },
+    {
+     "show": "At the front",
+     "start": 24.453,
+     "end": 25.04,
+     "words": [
+      {
+       "text": "At",
+       "start": 24.453,
+       "end": 24.48
+      },
+      {
+       "text": "the",
+       "start": 24.56,
+       "end": 24.64
+      },
+      {
+       "text": "front",
+       "start": 24.72,
+       "end": 25.04
+      }
+     ]
+    },
+    {
+     "show": "stood the mayor's shadow.",
+     "start": 25.12,
+     "end": 26.213,
+     "words": [
+      {
+       "text": "stood",
+       "start": 25.12,
+       "end": 25.2
+      },
+      {
+       "text": "the",
+       "start": 25.28,
+       "end": 25.36
+      },
+      {
+       "text": "mayor's",
+       "start": 25.44,
+       "end": 25.68
+      },
+      {
+       "text": "shadow.",
+       "start": 25.92,
+       "end": 26.213
+      }
+     ]
+    },
+    {
+     "show": "It said,",
+     "start": 26.267,
+     "end": 26.72,
+     "words": [
+      {
+       "text": "It",
+       "start": 26.267,
+       "end": 26.32
+      },
+      {
+       "text": "said,",
+       "start": 26.44,
+       "end": 26.72
+      }
+     ]
+    },
+    {
+     "show": "tonight,",
+     "start": 26.93,
+     "end": 27.413,
+     "words": [
+      {
+       "text": "tonight,",
+       "start": 26.93,
+       "end": 27.413
+      }
+     ]
+    },
+    {
+     "show": "we take their {r:places.}",
+     "start": 27.467,
+     "end": 28.76,
+     "words": [
+      {
+       "text": "we",
+       "start": 27.467,
+       "end": 27.52
+      },
+      {
+       "text": "take",
+       "start": 27.6,
+       "end": 27.76
+      },
+      {
+       "text": "their",
+       "start": 27.84,
+       "end": 28.0
+      },
+      {
+       "text": "places.",
+       "start": 28.36,
+       "end": 28.76
+      }
+     ]
+    }
+   ],
+   "start": 21.74,
+   "end": 28.76
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every shadow cheered.",
+     "start": 28.8,
+     "end": 30.107,
+     "words": [
+      {
+       "text": "Every",
+       "start": 28.8,
+       "end": 29.04
+      },
+      {
+       "text": "shadow",
+       "start": 29.12,
+       "end": 29.44
+      },
+      {
+       "text": "cheered.",
+       "start": 29.52,
+       "end": 30.107
+      }
+     ]
+    },
+    {
+     "show": "Except one.",
+     "start": 30.213,
+     "end": 30.987,
+     "words": [
+      {
+       "text": "Except",
+       "start": 30.213,
+       "end": 30.32
+      },
+      {
+       "text": "one.",
+       "start": 30.4,
+       "end": 30.987
+      }
+     ]
+    },
+    {
+     "show": "{y:Mine.}",
+     "start": 31.173,
+     "end": 31.387,
+     "words": [
+      {
+       "text": "Mine.",
+       "start": 31.173,
+       "end": 31.387
+      }
+     ]
+    },
+    {
+     "show": "It walked over to me,",
+     "start": 31.413,
+     "end": 32.373,
+     "words": [
+      {
+       "text": "It",
+       "start": 31.413,
+       "end": 31.44
+      },
+      {
+       "text": "walked",
+       "start": 31.52,
+       "end": 31.76
+      },
+      {
+       "text": "over",
+       "start": 31.84,
+       "end": 31.92
+      },
+      {
+       "text": "to",
+       "start": 32.0,
+       "end": 32.08
+      },
+      {
+       "text": "me,",
+       "start": 32.2,
+       "end": 32.373
+      }
+     ]
+    },
+    {
+     "show": "and held out a basketball.",
+     "start": 32.427,
+     "end": 33.62,
+     "words": [
+      {
+       "text": "and",
+       "start": 32.427,
+       "end": 32.48
+      },
+      {
+       "text": "held",
+       "start": 32.56,
+       "end": 32.64
+      },
+      {
+       "text": "out",
+       "start": 32.72,
+       "end": 32.8
+      },
+      {
+       "text": "a",
+       "start": 32.88,
+       "end": 32.987
+      },
+      {
+       "text": "basketball.",
+       "start": 33.093,
+       "end": 33.62
+      }
+     ]
+    }
+   ],
+   "start": 28.8,
+   "end": 33.62
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "It didn't want my place.",
+     "start": 33.74,
+     "end": 34.933,
+     "words": [
+      {
+       "text": "It",
+       "start": 33.74,
+       "end": 33.76
+      },
+      {
+       "text": "didn't",
+       "start": 33.84,
+       "end": 34.0
+      },
+      {
+       "text": "want",
+       "start": 34.08,
+       "end": 34.16
+      },
+      {
+       "text": "my",
+       "start": 34.24,
+       "end": 34.32
+      },
+      {
+       "text": "place.",
+       "start": 34.4,
+       "end": 34.933
+      }
+     ]
+    },
+    {
+     "show": "It just wanted someone to play with.",
+     "start": 34.987,
+     "end": 36.52,
+     "words": [
+      {
+       "text": "It",
+       "start": 34.987,
+       "end": 35.04
+      },
+      {
+       "text": "just",
+       "start": 35.12,
+       "end": 35.2
+      },
+      {
+       "text": "wanted",
+       "start": 35.28,
+       "end": 35.52
+      },
+      {
+       "text": "someone",
+       "start": 35.64,
+       "end": 35.76
+      },
+      {
+       "text": "to",
+       "start": 35.8,
+       "end": 35.84
+      },
+      {
+       "text": "play",
+       "start": 35.92,
+       "end": 36.08
+      },
+      {
+       "text": "with.",
+       "start": 36.16,
+       "end": 36.52
+      }
+     ]
+    },
+    {
+     "show": "So now we play every night.",
+     "start": 36.56,
+     "end": 38.107,
+     "words": [
+      {
+       "text": "So",
+       "start": 36.56,
+       "end": 36.72
+      },
+      {
+       "text": "now",
+       "start": 36.8,
+       "end": 36.96
+      },
+      {
+       "text": "we",
+       "start": 37.04,
+       "end": 37.12
+      },
+      {
+       "text": "play",
+       "start": 37.24,
+       "end": 37.36
+      },
+      {
+       "text": "every",
+       "start": 37.44,
+       "end": 37.68
+      },
+      {
+       "text": "night.",
+       "start": 37.76,
+       "end": 38.107
+      }
+     ]
+    },
+    {
+     "show": "And honestly,",
+     "start": 38.133,
+     "end": 38.773,
+     "words": [
+      {
+       "text": "And",
+       "start": 38.133,
+       "end": 38.16
+      },
+      {
+       "text": "honestly,",
+       "start": 38.24,
+       "end": 38.773
+      }
+     ]
+    },
+    {
+     "show": "my shadow is {y:way} better than me.",
+     "start": 38.827,
+     "end": 40.48,
+     "words": [
+      {
+       "text": "my",
+       "start": 38.827,
+       "end": 38.88
+      },
+      {
+       "text": "shadow",
+       "start": 39.04,
+       "end": 39.2
+      },
+      {
+       "text": "is",
+       "start": 39.32,
+       "end": 39.44
+      },
+      {
+       "text": "way",
+       "start": 39.52,
+       "end": 39.68
+      },
+      {
+       "text": "better",
+       "start": 39.76,
+       "end": 39.84
+      },
+      {
+       "text": "than",
+       "start": 39.92,
+       "end": 40.0
+      },
+      {
+       "text": "me.",
+       "start": 40.08,
+       "end": 40.48
+      }
+     ]
+    }
+   ],
+   "start": 33.74,
+   "end": 40.48
+  }
+ ]
+}
