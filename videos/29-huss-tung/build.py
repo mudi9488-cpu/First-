@@ -1730,7 +1730,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const tung = new THREE.Group(); scene.add(tung); tung.visible = false;
   { const wm = std({ map: woodT, color: 0xC08850 }); const lm = std({ color: 0x8A5226 });
     const bd = add(new THREE.Mesh(new THREE.CylinderGeometry(0.62, 0.66, 2.9, 24), wm), tung); bd.position.y = 2.65; const top = add(new THREE.Mesh(new THREE.SphereGeometry(0.62, 24, 12, 0, 6.3, 0, Math.PI / 2), wm), tung); top.position.y = 4.1;
-    const fM = new THREE.MeshStandardMaterial({ map: TFACE.smile, roughness: 0.8 }); const face = new THREE.Mesh(new THREE.CylinderGeometry(0.63, 0.63, 1.7, 24, 1, true, -0.95, 1.9), fM); face.position.y = 3.15; tung.add(face);
+    const fM = new THREE.MeshStandardMaterial({ map: TFACE.smile, roughness: 0.8 }); const face = new THREE.Mesh(new THREE.CylinderGeometry(0.665, 0.665, 1.7, 24, 1, true, -0.95, 1.9), fM); face.position.y = 3.15; tung.add(face);
     const limb = (len, r) => { const gq = new THREE.Group(); const m = add(new THREE.Mesh(new THREE.CylinderGeometry(r, r * 0.8, len, 10), lm), gq); m.position.y = -len / 2; return gq; };
     const armL = limb(1.5, 0.09), armR = limb(1.5, 0.09), legL = limb(1.25, 0.12), legR = limb(1.25, 0.12); armL.position.set(0.7, 2.5, 0); armR.position.set(-0.7, 2.5, 0); legL.position.set(0.28, 1.25, 0); legR.position.set(-0.28, 1.25, 0); [armL, armR, legL, legR].forEach((x) => tung.add(x));
     for (const l of [legL, legR]) box(0.3, 0.12, 0.42, lm, 0, -1.25, 0.08, l);
@@ -1747,7 +1747,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     if (p === "watch") { d.armR.rotation.x = -0.3; }
     tung.position.y = bob; }
   // Schnee/Regen + Partyhut-Publikum
-  const FALL = []; for (let i = 0; i < 160; i++) { const m = new THREE.Mesh(new THREE.BoxGeometry(0.03, 0.4, 0.03), new THREE.MeshBasicMaterial({ color: 0xBFD8FF, transparent: true, opacity: 0.6 })); const q = mulberry(850 + i); m.userData = { x: (q() - 0.5) * 16, z: (q() - 0.5) * 16, o: q(), sp: 0.6 + q() * 0.6 }; m.visible = false; scene.add(m); FALL.push(m); }
+  const FALL = []; for (let i = 0; i < 320; i++) { const m = new THREE.Mesh(new THREE.BoxGeometry(0.07, 0.9, 0.07), new THREE.MeshBasicMaterial({ color: 0xBFD8FF, transparent: true, opacity: 0.6 })); const q = mulberry(850 + i); m.userData = { x: (q() - 0.5) * 16, z: (q() - 0.5) * 16, o: q(), sp: 0.6 + q() * 0.6 }; m.visible = false; scene.add(m); FALL.push(m); }
 
   // ---------- Licht
   const hemi = new THREE.HemisphereLight(0xD8E8FF, 0x6B5A40, 0.9); scene.add(hemi);
@@ -1779,14 +1779,14 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L18 */ { m: "court", score: "0-999", tung: [CTX, -10.5, 0, "block", "smile"], cams: [{ p: [CTX + 4, 1.0, -1], p2: [CTX + 3.6, 1.1, -1.8], t: [CTX, 5.5, -10.5], fov: 52 }] },
     /* L20 */ { m: "court", tung: [CTX, -10.5, 0, "block", "smile"], ballAt: [CTX + 1.4, 7.4, -10.0], cast: [["seeker", CTX + 0.4, -8, 180, "shoot", "shock"]], cam: { p: [CTX + 6, 2.2, -2.6], p2: [CTX + 5.6, 2.4, -3.2], t: [CTX + 0.3, 4.4, -9.5], fov: 54 } },
     /* L21 */ { m: "court", tung: [CTX, -10.5, 0, "watch", "side"], cam: { p: [CTX + 0.4, 5.5, -6.0], p2: [CTX + 0.35, 5.45, -6.5], t: [CTX, 5.4, -10.5], fov: 44 } },
-    /* L22 */ { m: "court", score: "0-999", cam: { p: [CTX - 4.6, 5.2, 0.3], p2: [CTX - 5.2, 5.2, 0.2], t: [CTX - 8.3, 5.2, 0], fov: 44 } },
+    /* L22 */ { m: "court", score: "0-999", cam: { p: [CTX - 2.2, 5.2, 0.3], p2: [CTX - 2.8, 5.2, 0.2], t: [CTX - 8.3, 5.2, 0], fov: 44 } },
     /* L23 */ { m: "party", cr: "party", conf: [0, -4], cams: [{ p: [3, 1.7, 4], p2: [2.6, 1.7, 3.2], t: [-1, 1.5, -5], fov: 46 }, { m2: "court", face: "me", d: 1.3, fov: 42, orbit: 0.1 }], cast: [ME(CTX + 1, -7, 0, "idle", "serious")] },
     /* L25 */ { m: "court", dribble: "me", cast: [ME(CTX + 1, -7, 180, "dribble", "serious")], cam: { p: [CTX - 3.5, 2.2, -2.5], p2: [CTX - 3.0, 2.0, -3.2], t: [CTX + 0.8, 1.0, -8], fov: 48 } },
     /* L26 */ { m: "court", dribble: "me", cast: [ME(CTX + 1, -7, 180, "dribble", "serious")], pops: [["HUSS!", CTX + 1 + -0.3, 2.90, -7.4, 0.00, 1.1], ["HUSS!", CTX + 1 + 0.0, 3.15, -7.4, 0.37, 1.1]], cam: { p: [CTX + 2.2, 1.0, -9.6], p2: [CTX + 2.0, 1.0, -9.4], t: [CTX + 1, 1.2, -7], fov: 50 } },
     /* L27 */ { m: "court", shot: ["me", 0.15, RZ], shotFrom: [CTX + 1, 2.6, -7.3], cast: [ME(CTX + 1, -7, 180, "shoot", "grin")], pops: [["HUSS!", CTX + 1.3, 3.2, -7.3, 0.0, 1.1]], cam: { p: [CTX + 3.4, 1.4, -3.4], p2: [CTX + 3.2, 1.6, -3.8], t: [CTX + 0.5, 2.4, -10], fov: 52 } },
     /* L28 */ { m: "court", dribble: "me", cast: [ME(CTX + 1, -7, 180, "dribble", "serious")], cam: { p: [CTX - 6, 9, 6], p2: [CTX - 5.4, 8.4, 5], t: [CTX, 0, -6], fov: 50 } },
-    /* L29 */ { m: "court", fall: "rain", dribble: "me", cast: [ME(CTX + 1, -7, 180, "dribble", "sad")], cam: { p: [CTX + 3.2, 1.8, -4.2], p2: [CTX + 2.9, 1.8, -4.6], t: [CTX + 1, 1.4, -7], fov: 48 } },
-    /* L30 */ { m: "court", fall: "snow", dribble: "me", cast: [ME(CTX + 1, -7, 180, "dribble", "serious")], cam: { p: [CTX - 2.0, 1.8, -4.4], p2: [CTX - 1.7, 1.8, -4.8], t: [CTX + 1, 1.4, -7], fov: 48 } },
+    /* L29 */ { m: "court", fall: "rain", dribble: "me", cast: [ME(CTX + 1, -7, 180, "dribble", "sad")], cam: { p: [CTX + 5.0, 2.4, -2.4], p2: [CTX + 4.6, 2.4, -2.9], t: [CTX + 1, 1.4, -7], fov: 50 } },
+    /* L30 */ { m: "court", fall: "snow", dribble: "me", cast: [ME(CTX + 1, -7, 180, "dribble", "serious")], cam: { p: [CTX - 3.6, 2.4, -2.6], p2: [CTX - 3.2, 2.4, -3.0], t: [CTX + 1, 1.4, -7], fov: 50 } },
     /* L31 */ { m: "court", fall: "snow", shot: ["me", 0.1, RZ], shotFrom: [CTX + 1, 2.6, -7.3], cast: [ME(CTX + 1, -7, 180, "shoot", "grin")], pops: [["HUSS!", CTX + 1.3 + -0.3, 3.20, -7.3, 0.00, 1.1], ["HUSS!", CTX + 1.3 + 0.0, 3.45, -7.3, 0.37, 1.1], ["HUSS!", CTX + 1.3 + 0.3, 3.70, -7.3, 0.74, 1.1]], cam: { p: [CTX + 2.6, 1.0, -4.6], p2: [CTX + 2.4, 1.1, -5.0], t: [CTX + 0.8, 2.4, -9], fov: 52 } },
     /* L32 */ { m: "court", cast: [ME(CTX + 1, -7, 140, "idle", "scared", { turn: [180, 120, 0.4, 0.6] })], ballAt: [CTX + 1.4, 0.13, -7.6], cams: [{ face: "me", d: 1.5, fov: 44, orbit: 0.3 }, { p: [CTX + 5, 2.0, -2], p2: [CTX + 4.6, 2.0, -2.6], t: [CTX + 1, 1.3, -7], fov: 46 }] },
     /* L35 */ { m: "court", tung: [CTX - 10, -9, 90, "tap", "smile"], pops: [["TUNG.", CTX - 9.3, 1.2, -8.6, 0.0, 0.8]], cam: { p: [CTX - 2, 1.6, -6], p2: [CTX - 2.4, 1.7, -6.4], t: [CTX - 10, 5.2, -9], fov: 44 } },
@@ -1806,7 +1806,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L51 */ { m: "court", tung: [CTX - 0.4, -3.6, 180, "block", "shock", { sc: 2.4 }], shot: ["me", 5, RZ], cast: [ME(CTX + 2.0, -7.6, 180, "shoot", "serious")], cam: { p: [CTX + 4.6, 0.6, -5.2], p2: [CTX + 4.5, 0.7, -5.5], t: [CTX + 1.8, 2.6, -8], fov: 52 } },
     /* L52 */ { m: "court", tung: [CTX - 0.4, -3.6, 180, "block", "shock", { sc: 2.4 }], shot: ["me", 0.0, RZ], shotFrom: [CTX + 2.0, 3.4, -7.8], cast: [ME(CTX + 2.0, -7.6, 180, "shoot", "grin")], pops: [["HUSS!", CTX + 2.2 + -0.3, 3.60, -7.6, 0.00, 1.1], ["HUSS!", CTX + 2.2 + 0.0, 3.85, -7.6, 0.37, 1.1], ["HUSS!", CTX + 2.2 + 0.3, 4.10, -7.6, 0.74, 1.1]], cam: { p: [CTX + 3.6, 1.2, -4.0], p2: [CTX + 3.4, 1.3, -4.4], t: [CTX + 0.8, 2.8, -11], fov: 54 } },
     /* L53 */ { m: "court", score: "0-0", shot: ["me", -0.75, RZ], shotFrom: [CTX + 2.0, 3.4, -7.8], cam: { p: [CTX + 0.9, 2.6, -10.6], p2: [CTX + 0.8, 2.6, -10.8], t: [CTX, 2.9, -12.7], fov: 42 } },
-    /* L54 */ { m: "court", score: "1-0", cam: { p: [CTX - 5.0, 5.2, 0.6], p2: [CTX - 5.6, 5.2, 0.3], t: [CTX - 8.3, 5.2, 0], fov: 44 } },
+    /* L54 */ { m: "court", score: "1-0", cam: { p: [CTX - 2.4, 5.2, 0.6], p2: [CTX - 3.0, 5.2, 0.3], t: [CTX - 8.3, 5.2, 0], fov: 44 } },
     /* L55 */ { m: "court", cr: "bleachSilent", score: "1-0", cam: { p: [CTX + 5.5, 3.0, 2.4], p2: [CTX + 5.8, 3.0, 1.6], t: [CTX + 11, 2.3, -1], fov: 46 } },
     /* L56 */ { m: "court", tung: [CTX - 0.4, -3.6, 180, "drop", "shock", { sc: 2.4 }], cam: { p: [CTX - 0.2, 7.6, -11.6], p2: [CTX - 0.25, 7.6, -11.0], t: [CTX - 0.4, 7.6, -3.6], fov: 46 } },
     /* L57 */ { m: "court", tung: [CTX - 0.4, -3.6, 180, "drop", "shock", { sc: 2.4 }], looseBat: [CTX + 0.4, -4.6, 0.05], cam: { p: [CTX + 1.6, 1.0, -7.4], p2: [CTX + 1.5, 1.0, -7.0], t: [CTX + 0.2, 0.6, -4.6], fov: 46 } },
@@ -2085,7 +2085,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
         else { const q = clamp((u - at) / 0.9, 0, 1); const from = s.shotFrom ? new THREE.Vector3(...s.shotFrom) : rim.clone().add(new THREE.Vector3(0, -0.6, 4.5)); ball29.position.lerpVectors(from, rim, q); ball29.position.y += Math.sin(q * Math.PI) * 2.2; if (q >= 1) ball29.position.y = 3.05 - Math.min(2.9, (u - at - 0.9) * (u - at - 0.9) * 5); ball29.rotation.x = u * 10; } }
       if (s.ballAt) { ball29.visible = true; ball29.position.set(...s.ballAt); }
       if (s.fall) { const snow = s.fall === "snow"; FALL.forEach((f) => { f.visible = true; const q = (t * f.userData.sp * (snow ? 0.25 : 1.6) + f.userData.o) % 1; f.position.set(P[0] + (Tg[0] - P[0]) * 0.5 + f.userData.x * 0.6 + (snow ? Math.sin(t + f.userData.o * 9) * 0.3 : 0), 7 - q * 8, P[2] + (Tg[2] - P[2]) * 0.5 + f.userData.z * 0.6);
-          f.scale.set(snow ? 2.5 : 1, snow ? 0.18 : 1, snow ? 2.5 : 1); f.material.color.set(snow ? 0xFFFFFF : 0xBFD8FF); f.material.opacity = snow ? 0.95 : 0.55; }); }
+          f.scale.set(snow ? 1.6 : 1, snow ? 0.11 : 1, snow ? 1.6 : 1); f.material.color.set(snow ? 0xFFFFFF : 0xCFE4FF); f.material.opacity = snow ? 1 : 0.8; }); }
     }
     // ---- Video 25: Bens Licht, Strahl, Uhr, EKG ----
     { const beat = s.pulse ? (() => { const ph = (t * s.pulse) % 1; return 0.72 + 0.28 * (Math.exp(-((ph - 0.1) ** 2) / 0.003) + 0.6 * Math.exp(-((ph - 0.28) ** 2) / 0.003)); })() : 1;
