@@ -1,0 +1,264 @@
+{
+ "title": "Gravity Off",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "gravity turns off"
+    },
+    {
+     "show": "for one minute."
+    },
+    {
+     "show": "Every day."
+    },
+    {
+     "show": "At exactly {r:twelve o'clock.}"
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "I'm {y:Townie.}"
+    },
+    {
+     "show": "And I've never been late"
+    },
+    {
+     "show": "for twelve o'clock."
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "My best friend Kevin"
+    },
+    {
+     "show": "eats cereal at noon."
+    },
+    {
+     "show": "Every day."
+    },
+    {
+     "show": "The milk ends up on his face."
+    },
+    {
+     "show": "Linda's cat"
+    },
+    {
+     "show": "has been stuck on the ceiling"
+    },
+    {
+     "show": "for three years."
+    },
+    {
+     "show": "And my grandma's teeth"
+    },
+    {
+     "show": "fly away"
+    },
+    {
+     "show": "every single day."
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "So everybody holds on."
+    },
+    {
+     "show": "To lamp posts."
+    },
+    {
+     "show": "To trees."
+    },
+    {
+     "show": "To each other."
+    },
+    {
+     "show": "Because there's one rule."
+    },
+    {
+     "show": "{r:Never let go.}"
+    },
+    {
+     "show": "If you let go,"
+    },
+    {
+     "show": "you fall up,"
+    },
+    {
+     "show": "and you never come back."
+    }
+   ]
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "Yesterday at noon,"
+    },
+    {
+     "show": "my basketball floated away."
+    },
+    {
+     "show": "I reached for it."
+    },
+    {
+     "show": "And I {r:let go.}"
+    }
+   ]
+  },
+  {
+   "id": "fly",
+   "label": "",
+   "lines": [
+    {
+     "show": "I flew past the roofs."
+    },
+    {
+     "show": "Past the birds."
+    },
+    {
+     "show": "Past the clouds."
+    },
+    {
+     "show": "{y:HUSS! HUSS! HUSS!}"
+    }
+   ]
+  },
+  {
+   "id": "island",
+   "label": "",
+   "lines": [
+    {
+     "show": "And above the clouds,"
+    },
+    {
+     "show": "there was an {y:island.}"
+    },
+    {
+     "show": "Made of everything"
+    },
+    {
+     "show": "this town ever lost."
+    },
+    {
+     "show": "A million socks."
+    },
+    {
+     "show": "Hundreds of teeth."
+    },
+    {
+     "show": "Every balloon."
+    },
+    {
+     "show": "And all the people"
+    },
+    {
+     "show": "who let go,"
+    },
+    {
+     "show": "having the best party ever."
+    }
+   ]
+  },
+  {
+   "id": "tung",
+   "label": "",
+   "lines": [
+    {
+     "show": "And in the middle"
+    },
+    {
+     "show": "stood a giant bell."
+    },
+    {
+     "show": "And {r:Tung Tung Tung Sahur.}"
+    },
+    {
+     "show": "Every day at noon,"
+    },
+    {
+     "show": "he hit the bell."
+    },
+    {
+     "show": "{r:TUNG.}"
+    },
+    {
+     "show": "And gravity turned off."
+    },
+    {
+     "show": "He did it"
+    },
+    {
+     "show": "so people would come up"
+    },
+    {
+     "show": "and be his friends."
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I told him,"
+    },
+    {
+     "show": "you don't need a bell"
+    },
+    {
+     "show": "to make friends."
+    },
+    {
+     "show": "You just have to ask."
+    },
+    {
+     "show": "He put down his bat,"
+    },
+    {
+     "show": "and everybody floated back home."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now gravity only turns off"
+    },
+    {
+     "show": "for one second a day."
+    },
+    {
+     "show": "Just long enough"
+    },
+    {
+     "show": "for grandma's teeth"
+    },
+    {
+     "show": "to do a little {y:jump.}"
+    }
+   ]
+  }
+ ]
+}
