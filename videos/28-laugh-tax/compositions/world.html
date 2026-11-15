@@ -1595,7 +1595,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     g.fillStyle = "#1B1410"; g.fillRect(cx - s * 0.5, cy - s * 0.3, s * 0.22, s * 0.3); g.fillRect(cx + s * 0.28, cy - s * 0.3, s * 0.22, s * 0.3); g.fillStyle = "#FF8FB8"; g.fillRect(cx - s * 0.1, cy + s * 0.1, s * 0.2, s * 0.14);
     g.strokeStyle = "#1B1410"; g.lineWidth = s * 0.06; g.beginPath(); g.moveTo(cx - s * 1.3, cy + s * 0.1); g.lineTo(cx - s * 0.6, cy + s * 0.2); g.moveTo(cx + s * 1.3, cy + s * 0.1); g.lineTo(cx + s * 0.6, cy + s * 0.2); g.stroke(); }
   const phone28 = new THREE.Group(); scene.add(phone28); box(0.2, 0.36, 0.03, std({ color: 0x111111, roughness: 0.3 }), 0, 0, 0, phone28, false);
-  const phoneCat = screen(0.18, 0.32, 180, 320, (g, k, w, h) => { g.fillStyle = "#8EC9F2"; g.fillRect(0, 0, w, h); drawCat(g, w / 2, h * 0.55, w * 0.3); big(g, "LOL", w / 2, h * 0.15, w * 0.2, "#FFF", "#000"); }); phoneCat.position.z = -0.018; phoneCat.rotation.y = Math.PI; phone28.add(phoneCat); phoneCat.userData.set("x"); phone28.visible = false;
+  const phoneCat = screen(0.18, 0.32, 180, 320, (g, k, w, h) => { g.fillStyle = "#8EC9F2"; g.fillRect(0, 0, w, h); drawCat(g, w / 2, h * 0.55, w * 0.3);  }); phoneCat.position.z = -0.018; phoneCat.rotation.y = Math.PI; phoneCat.material.side = THREE.DoubleSide; phone28.add(phoneCat); phoneCat.userData.set("x"); phone28.visible = false;
   // Katze (Kevins Katze)
   const cat = new THREE.Group(); scene.add(cat); { const om = std({ color: 0xF4A261 }), wm = std({ color: 0xFFF4E6 }); box(0.42, 0.36, 0.8, om, 0, 0.42, 0, cat); const hd = new THREE.Group(); hd.position.set(0, 0.72, 0.4); cat.add(hd);
     box(0.44, 0.38, 0.36, om, 0, 0, 0, hd); box(0.24, 0.14, 0.06, wm, 0, -0.08, 0.19, hd, false); for (const sx of [-1, 1]) { const ear = add(new THREE.Mesh(new THREE.ConeGeometry(0.09, 0.18, 4), om), hd); ear.position.set(sx * 0.14, 0.26, 0); ear.rotation.y = Math.PI / 4; box(0.06, 0.09, 0.02, basic({ color: 0x111111 }), sx * 0.1, 0.04, 0.185, hd, false); }
@@ -1621,7 +1621,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   // Stadtlautsprecher (Trichter) an Laternen + Uhrturm, Schallringe
   const SPK28 = []; const hornM = std({ color: 0xBFC5CE, metalness: 0.6, roughness: 0.35 });
   for (const [x, y, z, ry] of [[-4.6, 4.9, 14, Math.PI / 2], [4.6, 4.9, -11, -Math.PI / 2], [-4.6, 4.9, -6, Math.PI / 2], [4.6, 4.9, -16, -Math.PI / 2], [0, 25.4, -42.7, 0], [-4.6, 4.9, 24, Math.PI / 2]]) {
-    const hg = new THREE.Group(); hg.position.set(x, y, z); hg.rotation.y = ry; street.add(hg); const hn = add(new THREE.Mesh(new THREE.ConeGeometry(y > 20 ? 0.9 : 0.35, y > 20 ? 1.4 : 0.6, 16, 1, true), hornM), hg); hn.rotation.x = -Math.PI / 2; hn.position.z = y > 20 ? 0.6 : 0.3; SPK28.push(hg); }
+    const hg = new THREE.Group(); hg.position.set(x, y, z); hg.rotation.y = ry; street.add(hg); const hn = add(new THREE.Mesh(new THREE.ConeGeometry(y > 20 ? 0.9 : 0.35, y > 20 ? 1.4 : 0.6, 16, 1, true), hornM), hg); hornM.side = THREE.DoubleSide; hn.rotation.x = -Math.PI / 2; hn.position.z = y > 20 ? 0.6 : 0.3; SPK28.push(hg); }
   const RINGS = []; for (let i = 0; i < 12; i++) { const r = new THREE.Mesh(new THREE.TorusGeometry(1, 0.04, 6, 32), new THREE.MeshBasicMaterial({ color: 0xFFE27A, transparent: true, depthWrite: false, toneMapped: false })); r.visible = false; scene.add(r); RINGS.push(r); }
   // Zähne
   const teeth = new THREE.Group(); scene.add(teeth); { const pm = std({ color: 0xFF8FA6 }), wm2 = std({ color: 0xFFFFFF }); box(0.34, 0.06, 0.2, pm, 0, 0, 0, teeth, false); for (let k = 0; k < 6; k++) box(0.05, 0.07, 0.04, wm2, -0.13 + k * 0.052, 0.06, 0.08, teeth, false); } teeth.visible = false;
@@ -1661,7 +1661,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L3 */ { m: "day", cast: [["linda", -1.4, 12, 20, "giggle", "grin"]], pops: [["hehe", -1.0, 3.0, 12.4, 0.1, 0.7], ["-$2.50", -1.6, 3.3, 12.3, 0.5, 0.8]], cam: { face: "linda", d: 1.7, fov: 46, orbit: 0.3 } },
     /* L4 */ { m: "day", cast: [["snorter", 1.2, 10, 200, "laughBig", "laugh"]], pops: [["SNORT!", 1.0, 3.0, 10.4, 0.3, 0.9], ["-$10", 1.4, 3.3, 10.2, 0.9, 1.0]], cams: [{ face: "snorter", d: 1.3, fov: 44, orbit: 0.3 }, { face: "snorter", d: 1.9, fov: 46, orbit: -0.3 }] },
     /* L6 */ { m: "day", cast: [["kevin", 0, 12, 0, "phone", "smile", { h28: "phone" }]], cam: { face: "kevin", d: 1.5, fov: 44, orbit: 0.3 } },
-    /* L7 */ { m: "day", cast: [["kevin", 0, 12, 0, "phone", "grin", { h28: "phone" }]], cam: { p: [0.35, 2.75, 11.35], p2: [0.3, 2.7, 11.45], t: [0, 1.6, 12.6], fov: 40 } },
+    /* L7 */ { m: "day", cast: [["kevin", 0, 12, 0, "phone", "grin", { h28: "phone" }]], cam: { face: "kevin", d: 1.3, dy: -0.55, dx: -0.8, fov: 46, orbit: 0.1 } },
     /* L8 */ { m: "day", cast: [["kevin", 0, 12, 0, "laughBig", "laugh", { h28: "phone", exAfter: [9.6, "shock"], poseAfter: [9.6, "hands"] }], ["cop", 1.4, 12.6, -80, "idle", "serious", { h28: "meter", beep: 0.2 }]], pops: [["-$4,000", 0.2, 3.1, 12.4, 0.8, 1.3, 1.6]], cam: { p: [1.0, 2.2, 16.2], p2: [0.8, 2.2, 15.4], t: [0.4, 2.0, 12], fov: 46 } },
     /* L9 */ { m: "day", cast: [["linda", -3.4, 7, 90, "idle", "smile"]], cam: { face: "linda", d: 1.5, fov: 44, orbit: 0.3 } },
     /* L10 */ { m: "day", cast: [["linda", -3.4, 7, 90, "laughBig", "laugh"]], popsLoop: ["HA!", -3.0, 3.0, 7, 0.45, 0.8], cam: { face: "linda", d: 1.9, fov: 46, orbit: -0.3 } },
@@ -1670,19 +1670,19 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L13 */ { m: "day", cash: [4.4, -14], cast: [["granny", 4.4, -14, -90, "sit", "serious", { y: 1.0 }], ["kevin", 2.6, -14.2, 90, "dance", "laugh"]], cams: [{ p: [0.6, 2.4, -14.6], p2: [0.9, 2.4, -14.5], t: [3.6, 1.9, -14.1], fov: 46 }, { face: "granny", d: 1.1, dy: -0.3, fov: 42, orbit: -0.2 }] },
     /* L14 */ { m: "day", cash: [4.4, -14], cast: [["granny", 4.4, -14, -90, "sit", "smirk", { y: 1.0 }]], pops: [["$$$", 4.4, 3.8, -14, 0.3, 1.0, 1.5]], cam: { p: [0.4, 0.9, -12.6], p2: [0.7, 1.0, -12.8], t: [4.2, 2.0, -14], fov: 50 } },
     /* L15 */ { m: "day", cast: [["cop", 0, 4, 0, "walk", "serious", { h28: "meter", to: [0, 6], dur: 1.0 }]], cam: { p: [0.6, 0.6, 9.5], p2: [0.5, 0.6, 9.2], t: [0, 2.4, 5], fov: 50 } },
-    /* L16 */ { m: "day", cast: [["cop", 0, 6, 0, "idle", "smirk", { h28: "meter" }]], cams: [{ p: [0.2, 1.6, 7.6], p2: [0.15, 1.55, 7.35], t: [-0.25, 1.3, 6.5], fov: 40 }] },
+    /* L16 */ { m: "day", cast: [["cop", 0, 6, 0, "money", "smirk", { h28: "meter" }]], cam: { face: "cop", d: 1.6, dy: -0.8, dx: -0.95, fov: 48, orbit: 0.2 } },
     /* L17 */ { m: "day", cast: [["seeker", 0.8, 8, 200, "giggle", "grin"], ["cop", -0.6, 6.6, 40, "idle", "serious", { h28: "meter" }]], pops: [["hehe", 0.9, 3.0, 8.2, 0.1, 0.7]], cam: { face: "seeker", d: 1.7, fov: 46, orbit: 0.3 } },
-    /* L18 */ { m: "day", cast: [["cop", -0.6, 6.6, 40, "idle", "serious", { h28: "meter", beep: 0 }]], pops: [["BEEP!", -0.2, 2.0, 7.4, 0.05, 0.6]], cam: { p: [-0.05, 1.5, 7.9], p2: [-0.05, 1.45, 7.7], t: [-0.3, 1.25, 6.8], fov: 40 } },
+    /* L18 */ { m: "day", cast: [["cop", -0.6, 6.6, 40, "money", "serious", { h28: "meter", beep: 0 }]], pops: [["BEEP!", -0.2, 2.0, 7.4, 0.05, 0.6]], cam: { face: "cop", d: 1.6, dy: -0.8, dx: -0.95, fov: 48, orbit: -0.2 } },
     /* L19 */ { m: "day", cast: [["seeker", 0.8, 8, 200, "sad", "sad"], ["cop", -0.6, 6.6, 40, "idle", "smirk", { h28: "meter", beep: 0 }]], pops: [["-$5", 0.8, 3.0, 8.0, 0.0, 1.0]], cam: { face: "seeker", d: 1.6, fov: 44, orbit: -0.3 } },
     /* L20 */ { m: "day", cams: [{ p: [3, 1.2, -24], p2: [2.4, 1.4, -27], t: [0, 22, -46], fov: 52 }] },
-    /* L22 */ { m: "day", lab: ["KEEP OUT", "r", [0, 3.4, -39.6]], cams: [{ p: [1.2, 1.7, -31], p2: [1.0, 1.8, -32.5], t: [0, 4.5, -40], fov: 50 }, { p: [0, 21.5, -33], p2: [0, 21.5, -35], t: [0, 21.5, -46], fov: 46 }] },
+    /* L22 */ { m: "day", lab: ["KEEP OUT", "r", [0, 3.4, -39.6]], cams: [{ p: [1.2, 1.7, -31], p2: [1.0, 1.8, -32.5], t: [0, 4.5, -40], fov: 50 }] },
     /* L24 */ { m: "day", cast: [ME(0.5, 6, 180, "walk", "neutral", { to: [0.5, 3], dur: 1.0 })], cam: { face: "me", d: 1.8, fov: 46, orbit: 0.3 } },
     /* L25 */ { m: "day", cast: [ME(0.5, 3, 180, "lookUp", "shock")], cams: [{ p: [1.6, 1.0, 6.6], p2: [1.4, 1.1, 6.0], t: [0, 16, -40], fov: 56 }, { face: "me", d: 1.5, dy: -0.2, fov: 44, orbit: 0.3 }] },
     /* L27 */ { m: "day", popsLoop: ["HA!", 0, 23, -42, 0.35, 3.5], cam: { p: [2, 14, -20], p2: [1.6, 15, -23], t: [0, 21.5, -46], fov: 50 } },
-    /* L28 */ { m: "day", shake: 1, popsLoop: ["HAHA!", 0, 24, -41.5, 0.25, 5], cam: { p: [0, 21, -28], p2: [0, 21.2, -30], t: [0, 22, -46], fov: 50 } },
+    /* L28 */ { m: "day", shake: 1, popsLoop: ["HAHA!", 0, 24, -41.5, 0.25, 3.5], cam: { p: [0, 21, -28], p2: [0, 21.2, -30], t: [0, 22, -46], fov: 50 } },
     /* L29 */ { m: "night", win: "on", popsLoop: ["HA!", 0, 23, -42, 0.3, 4], cam: { p: [6, 12, -14], p2: [5, 12.5, -17], t: [0, 20, -46], fov: 50 } },
     /* L30 */ { m: "night", win: "on", cast: [ME(1.0, -28, 180, "walk", "serious", { to: [1.0, -34], dur: 1.2 })], cam: { p: [2.6, 1.3, -24], p2: [2.4, 1.4, -25], t: [0.6, 3.5, -40], fov: 50 } },
-    /* L31 */ { m: "tower", towerOn: 1, tv28: 1, cast: [ME(TWX2 + 2.4, 3.0, -150, "climb", "serious", { rise: 0.05 })], cam: { p: [TWX2 - 0.6, 2.2, 4.6], p2: [TWX2 - 0.4, 2.1, 4.3], t: [TWX2 + 2.4, 1.4, 2.6], fov: 46 } },
+    /* L31 */ { m: "tower", towerOn: 1, tv28: 1, cast: [ME(TWX2 + 2.4, 3.0, -150, "climb", "serious", { rise: 0.05 })], cam: { p: [TWX2 - 1.8, 2.4, 4.5], p2: [TWX2 - 1.6, 2.3, 4.2], t: [TWX2 + 2.4, 1.4, 2.6], fov: 46 } },
     /* L32 */ { m: "tower", towerOn: 1, tv28: 1, cast: [ME(TWX2 + 2.4, 3.0, -120, "hands", "shock")], cam: { face: "me", d: 1.5, fov: 44, orbit: 0.3 } },
     /* L33 */ { m: "tower", towerOn: 1, tv28: 1, jars: 1, cast: [["mayor", TWX2 - 1.3, -0.6, -90, "sit", "laugh", { y: 0.42 }]], cam: { p: [TWX2 + 2.6, 2.6, -0.4], p2: [TWX2 + 2.2, 2.5, -0.5], t: [TWX2 - 3.5, 2.0, -0.6], fov: 48 } },
     /* L34 */ { m: "tower", towerOn: 1, tv28: 1, cams: [{ p: [TWX2 - 1.6, 2.5, 2.4], p2: [TWX2 - 1.6, 2.6, 1.2], t: [TWX2 - 4.7, 2.6, -0.6], fov: 50 }] },
@@ -1692,16 +1692,16 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L38 */ { m: "tower", towerOn: 1, tv28: 1, jars: 1, cast: [["mayor", TWX2 - 1.3, -0.6, -90, "sit", "laugh", { y: 0.42 }]], cam: { p: [TWX2 + 3.8, 3.4, 3.6], p2: [TWX2 + 3.2, 3.0, 3.0], t: [TWX2 - 1.2, 0.6, -0.6], fov: 50 } },
     /* L40 */ { m: "tower", towerOn: 1, tv28: 1, jars: 1, cams: [{ p: [TWX2 + 0.6, 1.3, 2.2], p2: [TWX2 + 0.5, 1.25, 1.9], t: [TWX2 + 0.9, 0.6, 1.0], fov: 40 }, { p: [TWX2 - 1.0, 1.5, 3.4], p2: [TWX2 - 1.0, 1.4, 3.0], t: [TWX2 - 1.4, 0.6, 1.6], fov: 42 }] },
     /* L42 */ { m: "tower", towerOn: 1, tv28: 1, cam: { p: [TWX2 + 2.6, 1.7, -1.0], p2: [TWX2 + 2.6, 1.55, -1.4], t: [TWX2 + 2.6, 0.9, -2.6], fov: 40 } },
-    /* L43 */ { m: "night", win: "on", cam: { p: [-2.6, 4.4, 15.6], p2: [-2.9, 4.6, 15.0], t: [-4.6, 4.9, 14], fov: 40 } },
-    /* L44 */ { m: "tower", towerOn: 1, tv28: 1, btn: 0.4, cast: [ME(TWX2 + 2.6, -1.6, 180, "press", "smirk")], cams: [{ face: "me", d: 1.4, fov: 44, orbit: 0.3 }, { p: [TWX2 + 3.5, 1.9, -1.2], p2: [TWX2 + 3.3, 1.8, -1.5], t: [TWX2 + 2.6, 1.0, -2.6], fov: 42 }] },
+    /* L43 */ { m: "night", win: "on", cam: { p: [-0.6, 4.0, 17.6], p2: [-0.9, 4.1, 17.0], t: [-4.6, 4.9, 14], fov: 40 } },
+    /* L44 */ { m: "tower", towerOn: 1, tv28: 1, btn: 0.4, cast: [ME(TWX2 + 2.6, -1.6, 180, "press", "smirk")], cam: { face: "me", d: 1.6, dy: -0.3, fov: 46, orbit: 0.4 } },
     /* L45 */ { m: "night", win: "on", rings: 1, popsLoop: ["HAHA!", 0, 26, -41, 0.3, 5], cams: [{ p: [8, 14, 22], p2: [6, 12, 18], t: [0, 6, -20], fov: 52 }, { p: [-1.6, 4.0, 18], p2: [-1.8, 4.2, 17], t: [-4.6, 4.9, 14], fov: 46 }] },
-    /* L47 */ { m: "night", win: "on", rings: 1, cast: [["cop", 0, 6, 0, "hands", "shock", { h28: "meter", beep: 0, fast: 1 }]], cam: { face: "cop", d: 1.7, dy: -0.3, fov: 46, orbit: 0.3 } },
-    /* L48 */ { m: "night", win: "on", cast: [["cop", 0, 6, 0, "shake", "scared", { h28: "meter", beep: 0, fast: 1 }]], pops: [["BEEP!", 0.4, 2.2, 7, 0.0, 0.6], ["BEEP!", -0.4, 2.4, 7, 0.4, 0.6], ["BEEP!", 0.3, 2.0, 7, 0.8, 0.6]], cams: [{ p: [0.2, 1.6, 7.6], p2: [0.15, 1.55, 7.35], t: [-0.25, 1.3, 6.5], fov: 40, roll: 0.1 }, { face: "cop", d: 1.2, fov: 42, orbit: -0.3, roll: -0.08 }] },
+    /* L47 */ { m: "night", win: "on", rings: 1, cast: [["cop", 0, 6, 0, "money", "shock", { h28: "meter", beep: 0, fast: 1 }]], cam: { face: "cop", d: 1.7, dy: -0.3, fov: 46, orbit: 0.3 } },
+    /* L48 */ { m: "night", win: "on", cast: [["cop", 0, 6, 0, "shake", "scared", { h28: "meter", beep: 0, fast: 1 }]], pops: [["BEEP!", 0.4, 2.2, 7, 0.0, 0.6], ["BEEP!", -0.4, 2.4, 7, 0.4, 0.6], ["BEEP!", 0.3, 2.0, 7, 0.8, 0.6]], cams: [{ face: "cop", d: 1.4, dy: -0.75, fov: 46, orbit: 0.2, roll: 0.1 }, { face: "cop", d: 1.2, fov: 42, orbit: -0.3, roll: -0.08 }] },
     /* L49 */ { m: "night", win: "on", rings: 1, cr: "lookUpN", cams: [{ p: [1.8, 1.4, 10.6], p2: [1.6, 1.5, 9.8], t: [0, 4, -10], fov: 50 }] },
     /* L50 */ { m: "night", win: "on", cast: [["kevin", 0, 8, 0, "cover", "holdin"]], cam: { face: "kevin", d: 1.4, fov: 44, orbit: 0.3 } },
     /* L51 */ { m: "night", win: "on", cr: "laugh", haCrowd: 1, cams: [{ p: [2.6, 2.2, 11], p2: [2.2, 2.1, 10], t: [0, 1.6, 0], fov: 50 }] },
     /* L52 */ { m: "night", win: "on", cr: "laugh", haCrowd: 1, rings: 1, cam: { p: [9, 13, 18], p2: [7, 11, 15], t: [0, 1, 0], fov: 50 } },
-    /* L53 */ { m: "night", win: "on", cast: [["cop", 0, 6, 0, "shake", "scared", { h28: "meter", beep: 0, fast: 1 }]], cam: { p: [0.2, 1.6, 7.6], p2: [0.15, 1.55, 7.35], t: [-0.25, 1.3, 6.5], fov: 40 } },
+    /* L53 */ { m: "night", win: "on", cast: [["cop", 0, 6, 0, "money", "scared", { h28: "meter", beep: 0, fast: 1 }]], cam: { face: "cop", d: 1.6, dy: -0.8, dx: -0.95, fov: 48, orbit: 0.2, roll: 0.08 } },
     /* L54 */ { m: "night", win: "on", shake: 1, cast: [["cop", 0, 6, 0, "hands", "shock", { h28: "meter", boom: 0.4 }]], pops: [["BOOM!", 0.2, 2.6, 7, 0.4, 1.0]], cams: [{ face: "cop", d: 1.8, dy: -0.3, fov: 46, orbit: 0.3 }] },
     /* L55 */ { m: "kitchen", tvKey: "free28", cams: [{ p: [KX + 0.4, 2.1, 0.8], p2: [KX - 0.3, 2.15, 0.3], t: [KX - 4.3, 2.2, -0.6], fov: 44 }, { p: [KX - 1.2, 2.2, -0.6], p2: [KX - 1.5, 2.2, -0.6], t: [KX - 4.3, 2.2, -0.6], fov: 42 }] },
     /* L56 */ { m: "day", cast: [["kevin", 0.6, 10, 200, "laughBig", "laugh"]], popsLoop: ["HA!", 0.6, 3.0, 10, 0.35, 0.8], cams: [{ p: [-0.6, 1.8, 6.6], p2: [-0.5, 1.8, 7.0], t: [0.6, 1.9, 10], fov: 46 }] },
@@ -1710,7 +1710,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L59 */ { m: "day", cash: [4.4, -14], cast: [["granny", 4.4, -14, -90, "laughBig", "laugh", { y: 1.0 }]], popsLoop: ["HAHA!", 4.2, 4.0, -14, 0.4, 1.0], cams: [{ face: "granny", d: 1.7, dy: -0.2, fov: 46, orbit: -0.3 }, { p: [0.6, 2.0, -12.4], p2: [0.9, 2.0, -12.7], t: [4.2, 2.4, -14], fov: 48 }] },
     /* L60 */ { m: "day", cash: [4.4, -14], cast: [["granny", 4.4, -14, -90, "laughBig", "toothless", { y: 1.0, teeth: 0.05 }]], cam: { p: [1.4, 2.7, -14.6], p2: [1.6, 2.7, -14.5], t: [3.6, 2.9, -14.1], fov: 46 } },
     /* L61 */ { m: "day", cast: [["mayor", 0, 4, 0, "sad", "sad"]], cam: { face: "mayor", d: 1.5, fov: 44, orbit: 0.3 } },
-    /* L62 */ { m: "day", bb: "tax", cast: [["mayor", 0, 4, 0, "sad2", "sad"]], pops: [["-$50,000,000", 0, 3.4, 4.2, 0.2, 1.5, 2.2]], cam: { p: [0.6, 2.4, 8.6], p2: [0.5, 2.4, 8.0], t: [0, 2.4, 4], fov: 46 } },
+    /* L62 */ { m: "day", bb: "tax", cast: [["mayor", 0, 4, 0, "sad2", "sad"]], pops: [["-$50,000,000", 0, 3.4, 4.2, 0.2, 0.95, 2.2]], cam: { p: [0.6, 2.4, 8.6], p2: [0.5, 2.4, 8.0], t: [0, 2.4, 4], fov: 46 } },
     /* L64 */ { m: "day", cat: [0.6, 4.6, 0, 0], cast: [["kevin", -1.4, 6, 90, "point", "grin"], ["mayor", 0.4, 2.8, 0, "hold", "sad", { leash: 1 }]], cam: { p: [1.2, 2.2, 10.4], p2: [1.0, 2.1, 9.6], t: [-0.2, 1.4, 4.4], fov: 46 } },
     /* L65 */ { m: "day", cat: [0.6, 5.0, 0, 1], catTo: [0.6, 8.0, 2.8], cast: [["mayor", 0.4, 3.2, 0, "walk", "sad", { leash: 1, to: [0.4, 6.2], dur: 2.8 }]], cams: [{ p: [3.0, 1.6, 12.4], p2: [2.6, 1.5, 11.6], t: [0.4, 1.0, 5.6], fov: 46 }, { p: [0.9, 0.7, 10.6], p2: [0.8, 0.7, 10.4], t: [0.6, 0.7, 7.6], fov: 40 }] },
   ];
@@ -1939,7 +1939,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     { chGlow.material.color.set(0xFFC531); POPS.forEach((sp) => (sp.visible = false)); [meter, phone28, cat, leash, teeth, cash, jarG].forEach((o) => (o.visible = false)); SMOKE.forEach((sm) => (sm.visible = false)); RINGS.forEach((r) => (r.visible = false));
       turnTowerExtras(!!s.tv28); tvGlow.intensity = s.tv28 ? 14 * (0.8 + 0.2 * Math.sin(t * 13)) : 0; meterLed.material.color.set(0x3A0008); meterS.userData.set("ok");
       let pk = 0; const pop = (txt, x, y, z, at, size, life) => { if (pk >= POPS.length || u < at) return; life = life || 1.1; const q = (u - at) / life; if (q > 1) return; const sp = POPS[pk++]; sp.visible = true; sp.material.map = txtTex(txt); sp.material.needsUpdate = true;
-        sp.position.set(x, y + q * 0.9, z); const sc = (size || 1) * (0.3 + 0.7 * outBack(clamp(q / 0.25, 0, 1))); sp.scale.set(sc * 1.6, sc * 0.8, 1); sp.material.opacity = q > 0.7 ? (1 - q) / 0.3 : 1; };
+        sp.position.set(x, y - 0.35 + q * 0.4, z); const sc = (size || 1) * (0.3 + 0.7 * outBack(clamp(q / 0.25, 0, 1))); sp.scale.set(sc * 1.6, sc * 0.8, 1); sp.material.opacity = q > 0.7 ? (1 - q) / 0.3 : 1; };
       (s.pops || []).forEach(([txt, x, y, z, at, size, life]) => pop(txt, x, y, z, at, size, life));
       if (s.popsLoop) { const [txt, x, y, z, per, size] = s.popsLoop; for (let k = 0; k < 3; k++) { const at = ((u / per) | 0) * per - k * per; if (at >= 0) pop(txt, x + ((k * 37 + ((u / per) | 0) * 13) % 7 - 3) * 0.12, y, z, at, size, per * 2.2); } }
       if (s.haCrowd) { for (let i = 0; i < 14 && pk < POPS.length; i++) { const [x, z] = crowdLaughPos(i); const per = 1.1 + (i % 4) * 0.2, ph = (i * 0.37) % 1; const at = Math.floor(u / per + ph) * per - ph * per; if (at >= 0) pop(i % 3 ? "HA!" : "HAHA", x, 2.9, z, at, 0.7, per); } }
@@ -1954,7 +1954,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
         if (o.h28 === "phone") { phone28.visible = true; phone28.position.copy(hv).add(new THREE.Vector3(0, 0.1, 0)); phone28.rotation.set(-0.5, ch.root.rotation.y, 0, "YXZ"); }
         if (o.leash && s.cat) { cat.updateMatrixWorld(true); const cp = cat.userData.hd.localToWorld(tmpV.set(0, -0.1, -0.1)).clone(); const d = cp.clone().sub(hv); leash.visible = true; leash.position.copy(hv).add(cp).multiplyScalar(0.5); leash.scale.set(1, 1, d.length()); leash.lookAt(cp); }
         if (o.teeth !== undefined && u >= o.teeth) { teeth.visible = true; const q = u - o.teeth; const hp = ch.head.localToWorld(tmpV.set(0, 0.15, 0.35)).clone(); const dir = new THREE.Vector3(Math.sin(r * D2R), 0, Math.cos(r * D2R));
-          teeth.position.copy(hp).add(dir.multiplyScalar(q * 3.2)); teeth.position.y += q * 1.6 - q * q * 2.5; teeth.rotation.set(q * 9, r * D2R, q * 4); teeth.scale.setScalar(1.3); } });
+          teeth.position.copy(hp).add(dir.multiplyScalar(q * 2.0)); teeth.position.y += q * 1.6 - q * q * 2.5; teeth.rotation.set(q * 6, r * D2R, q * 3); teeth.scale.setScalar(2.2); } });
       if (s.cat) { cat.visible = true; const [cx, cz, cr, walk] = s.cat; let X = cx, Z = cz; if (s.catTo) { const q = clamp(u / s.catTo[2], 0, 1); X = cx + (s.catTo[0] - cx) * q; Z = cz + (s.catTo[1] - cz) * q; }
         cat.position.set(X, walk ? Math.abs(Math.sin(u * 10)) * 0.04 : 0, Z); cat.rotation.y = cr * D2R; cat.userData.tl.rotation.z = Math.sin(t * 5) * 0.4; cat.userData.hd.rotation.y = Math.sin(t * 1.3) * 0.2; cat.scale.setScalar(s.catSc || 1); }
       if (s.cash) { cash.visible = true; cash.position.set(s.cash[0], 0, s.cash[1]); }
