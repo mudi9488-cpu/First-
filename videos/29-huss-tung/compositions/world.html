@@ -1701,28 +1701,62 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     else { g.fillStyle = "#3A0E08"; g.beginPath(); g.moveTo(66, 245); g.quadraticCurveTo(128, 330, 190, 245); g.quadraticCurveTo(128, 280, 66, 245); g.fill(); g.fillStyle = "#FFF6E8"; g.beginPath(); g.moveTo(80, 252); g.quadraticCurveTo(128, 276, 176, 252); g.lineTo(176, 258); g.quadraticCurveTo(128, 284, 80, 258); g.fill(); }
     const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t; };
   const TFACE = { smile: tungFaceTex("smile"), cry: tungFaceTex("cry"), shock: tungFaceTex("shock"), angry: tungFaceTex("angry"), side: tungFaceTex("side") };
-  const TUNG_IMG = new Image(); const tungImgReady = new Promise((res) => { TUNG_IMG.onload = res; TUNG_IMG.onerror = res; }); TUNG_IMG.src = "assets/brand/tung-face.png";
-  const tungPhotoT = new THREE.Texture(TUNG_IMG); tungPhotoT.colorSpace = THREE.SRGBColorSpace; tungImgReady.then(() => (tungPhotoT.needsUpdate = true));
-  const tearT = tex(256, 512, 861, (g) => { g.clearRect(0, 0, 256, 512); g.fillStyle = "rgba(90,180,255,0.9)"; for (const x of [70, 160]) { g.beginPath(); g.moveTo(x - 9, 150); g.lineTo(x + 9, 150); g.lineTo(x + 12, 470); g.quadraticCurveTo(x, 495, x - 12, 470); g.closePath(); g.fill(); } });
   const tung = new THREE.Group(); scene.add(tung); tung.visible = false;
-  { const wm = std({ map: woodT, color: 0xE0A060 }); const lm = std({ color: 0xB06A30 });
-    const bd = add(new THREE.Mesh(new THREE.CylinderGeometry(0.62, 0.66, 2.9, 24), wm), tung); bd.position.y = 2.65; const top = add(new THREE.Mesh(new THREE.SphereGeometry(0.62, 24, 12, 0, 6.3, 0, Math.PI / 2), wm), tung); top.position.y = 4.1;
-    const fM = new THREE.MeshStandardMaterial({ map: tungPhotoT, roughness: 0.8, transparent: true, alphaTest: 0.05, emissive: 0xFFFFFF, emissiveMap: tungPhotoT, emissiveIntensity: 0.25 }); const face = new THREE.Mesh(new THREE.CylinderGeometry(0.668, 0.668, 2.05, 32, 1, true, -1.1, 2.2), fM); face.position.y = 3.62; tung.add(face);
-    const tearM = new THREE.MeshBasicMaterial({ map: tearT, transparent: true, depthWrite: false }); const tears = new THREE.Mesh(new THREE.CylinderGeometry(0.675, 0.675, 2.05, 32, 1, true, -1.1, 2.2), tearM); tears.position.y = 3.62; tung.add(tears); tears.visible = false;
-    const limb = (len, r) => { const gq = new THREE.Group(); const m = add(new THREE.Mesh(new THREE.CylinderGeometry(r, r * 0.8, len, 10), lm), gq); m.position.y = -len / 2; return gq; };
-    const armL = limb(1.5, 0.09), armR = limb(1.5, 0.09), legL = limb(1.25, 0.12), legR = limb(1.25, 0.12); armL.position.set(0.7, 2.5, 0); armR.position.set(-0.7, 2.5, 0); legL.position.set(0.28, 1.25, 0); legR.position.set(-0.28, 1.25, 0); [armL, armR, legL, legR].forEach((x) => tung.add(x));
-    for (const l of [legL, legR]) box(0.3, 0.12, 0.42, lm, 0, -1.25, 0.08, l);
-    const bat = new THREE.Group(); armR.add(bat); bat.position.set(0, -1.5, 0); const bm = add(new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.045, 1.5, 12), std({ color: 0xD8A86A, roughness: 0.6 })), bat); bm.position.y = -0.6;
-    tung.userData = { fM, armL, armR, legL, legR, bat, bd, tears }; }
+  { const wood = new THREE.MeshStandardMaterial({ color: 0x9A5A2A, roughness: 0.5, metalness: 0.0 }); const woodD = new THREE.MeshStandardMaterial({ color: 0x7E4620, roughness: 0.55 });
+    const dark = std({ color: 0x2A140A, roughness: 0.6 }); const W = 1.3, Hh = 3.0, R = 0.55;
+    const sh = new THREE.Shape(); sh.moveTo(-W / 2, 0); sh.lineTo(W / 2, 0); sh.lineTo(W / 2, Hh - R); sh.quadraticCurveTo(W / 2, Hh, W / 2 - R, Hh); sh.lineTo(-W / 2 + R, Hh); sh.quadraticCurveTo(-W / 2, Hh, -W / 2, Hh - R); sh.lineTo(-W / 2, 0);
+    const bg = new THREE.ExtrudeGeometry(sh, { depth: 0.8, bevelEnabled: true, bevelThickness: 0.14, bevelSize: 0.14, bevelSegments: 6, curveSegments: 16 }); bg.translate(0, 0, -0.4); bg.computeVertexNormals();
+    const bd = add(new THREE.Mesh(bg, wood), tung); bd.position.y = 1.72;
+    for (let i = 0; i < 9; i++) { const ln = box(0.012, 0.6 + (i % 3) * 0.5, 0.01, woodD, -0.5 + i * 0.13, 2.3 + (i % 4) * 0.25, 0.545, tung, false); }
+    const F = 0.55, EY = 4.0;   // Gesicht auf der Vorderseite (z = 0.54)
+    const face = new THREE.Group(); tung.add(face);
+    const pupils = [], irises = [];
+    for (const sx of [-1, 1]) { const sc = add(new THREE.Mesh(new THREE.SphereGeometry(0.22, 24, 16), std({ color: 0xFFF8EE, roughness: 0.3 })), face); sc.scale.set(1, 1.08, 0.55); sc.position.set(sx * 0.3, EY, F);
+      const ir = add(new THREE.Mesh(new THREE.CircleGeometry(0.12, 24), std({ color: 0x5A3218, roughness: 0.35 })), face, false, false); ir.position.set(sx * 0.3, EY - 0.01, F + 0.124); irises.push(ir);
+      const pu = add(new THREE.Mesh(new THREE.CircleGeometry(0.06, 20), basic({ color: 0x0A0604 })), face, false, false); pu.position.set(sx * 0.3, EY - 0.01, F + 0.127); pupils.push(pu);
+      const hl = add(new THREE.Mesh(new THREE.CircleGeometry(0.025, 12), basic({ color: 0xFFFFFF })), face, false, false); hl.position.set(sx * 0.3 - 0.04, EY + 0.04, F + 0.13); pupils.push(hl);
+      const lid = add(new THREE.Mesh(new THREE.SphereGeometry(0.225, 24, 12, 0, Math.PI * 2, 0, Math.PI * 0.2), wood), face); lid.scale.set(1, 1.08, 0.6); lid.position.set(sx * 0.3, EY + 0.01, F); lid.rotation.x = 0.1;
+      const bag = add(new THREE.Mesh(new THREE.TorusGeometry(0.21, 0.035, 8, 20, Math.PI), woodD), face); bag.position.set(sx * 0.3, EY - 0.02, F + 0.03); bag.rotation.z = Math.PI; bag.scale.set(1, 0.9, 1); }
+    const brows = [-1, 1].map((sx) => { const br = box(0.38, 0.075, 0.08, dark, sx * 0.3, EY + 0.3, F + 0.05, face, false); br.rotation.z = sx * -0.08; return br; });
+    const nb = box(0.17, 0.42, 0.16, wood, 0, EY - 0.2, F + 0.05, face); nb.rotation.x = -0.18; const nt = add(new THREE.Mesh(new THREE.SphereGeometry(0.17, 20, 14), wood), face); nt.scale.set(1.15, 0.85, 0.95); nt.position.set(0, EY - 0.42, F + 0.13);
+    for (const sx of [-1, 1]) { const nos = add(new THREE.Mesh(new THREE.SphereGeometry(0.045, 10, 8), dark), face, false, false); nos.position.set(sx * 0.08, EY - 0.5, F + 0.2); nos.scale.set(1, 0.6, 0.5);
+      const ch = add(new THREE.Mesh(new THREE.SphereGeometry(0.16, 16, 12), wood), face); ch.scale.set(1, 0.8, 0.5); ch.position.set(sx * 0.4, EY - 0.62, F + 0.02); }
+    const arc = (pts) => new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts.map(([x, y]) => new THREE.Vector3(x, y, F + 0.06 + 0.02 * Math.cos(x * 3)))), 24, 0.035, 8, false), dark);
+    const mSmile = arc([[-0.45, EY - 0.62], [-0.2, EY - 0.82], [0.1, EY - 0.84], [0.42, EY - 0.66]]), mSad = arc([[-0.36, EY - 0.86], [0, EY - 0.72], [0.36, EY - 0.86]]);
+    const mO = add(new THREE.Mesh(new THREE.CircleGeometry(0.11, 20), basic({ color: 0x2A0E06 })), face, false, false); mO.scale.set(1, 1.3, 1); mO.position.set(0, EY - 0.8, F + 0.03);
+    face.add(mSmile); face.add(mSad);
+    const tearM = new THREE.MeshBasicMaterial({ color: 0x5AB4FF, transparent: true, opacity: 0.9 }); const tears = new THREE.Group(); face.add(tears); for (const sx of [-1, 1]) { const tr = new THREE.Mesh(new THREE.CapsuleGeometry(0.04, 0.9, 4, 8), tearM); tr.position.set(sx * 0.32, EY - 0.62, F + 0.06); tears.add(tr); }
+    // Arme (Schulter > Ellbogen > Hand), Beine (Hüfte > Knie > Fuß)
+    const seg = (len, r1, r2) => { const g2 = new THREE.Group(); const m = add(new THREE.Mesh(new THREE.CylinderGeometry(r1, r2, len, 12), wood), g2); m.position.y = -len / 2; return g2; };
+    const mkArm = (sx) => { const sh2 = new THREE.Group(); sh2.position.set(sx * 0.82, 3.55, 0); tung.add(sh2); add(new THREE.Mesh(new THREE.SphereGeometry(0.1, 12, 10), wood), sh2);
+      const up = seg(0.95, 0.08, 0.065); sh2.add(up); const el = new THREE.Group(); el.position.y = -0.95; up.add(el); add(new THREE.Mesh(new THREE.SphereGeometry(0.07, 10, 8), wood), el);
+      const lo = seg(0.9, 0.065, 0.055); el.add(lo); const hd = new THREE.Group(); hd.position.y = -0.9; lo.add(hd); const pm = add(new THREE.Mesh(new THREE.SphereGeometry(0.1, 12, 10), wood), hd); pm.scale.set(0.9, 1.2, 0.7); pm.position.y = -0.06;
+      for (let k = 0; k < 4; k++) { const fg = add(new THREE.Mesh(new THREE.CapsuleGeometry(0.022, 0.12, 3, 6), wood), hd); fg.position.set(-0.05 + k * 0.035, -0.2, 0.03); }
+      sh2.userData = { el, hd }; return sh2; };
+    const armL = mkArm(1), armR = mkArm(-1);
+    const mkLeg = (sx) => { const hp = new THREE.Group(); hp.position.set(sx * 0.32, 1.78, 0); tung.add(hp); const th = seg(0.85, 0.11, 0.085); hp.add(th); const kn = new THREE.Group(); kn.position.y = -0.85; th.add(kn);
+      add(new THREE.Mesh(new THREE.SphereGeometry(0.095, 12, 10), wood), kn); const sn = seg(0.8, 0.085, 0.07); kn.add(sn); const ft = new THREE.Group(); ft.position.y = -0.8; sn.add(ft);
+      const fb = add(new THREE.Mesh(new THREE.SphereGeometry(0.16, 16, 10), wood), ft); fb.scale.set(1.0, 0.45, 1.9); fb.position.set(0, -0.08, 0.14);
+      for (let k = 0; k < 5; k++) { const to = add(new THREE.Mesh(new THREE.SphereGeometry(0.045 - Math.abs(k - (sx > 0 ? 0 : 4)) * 0.004, 8, 6), wood), ft); to.position.set(-0.11 + k * 0.055, -0.1, 0.43 - Math.abs(k - 2) * 0.03); }
+      hp.userData = { kn }; return hp; };
+    const legL = mkLeg(1), legR = mkLeg(-1);
+    const bat = new THREE.Group(); armR.userData.hd.add(bat); bat.position.set(0, -0.12, 0.02); const bmat = new THREE.MeshStandardMaterial({ color: 0x8A4E22, roughness: 0.45 });
+    const bm = add(new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.04, 1.7, 16), bmat), bat); bm.position.y = -0.75; const knob = add(new THREE.Mesh(new THREE.SphereGeometry(0.06, 10, 8), bmat), bat); knob.position.y = 0.12; const cap = add(new THREE.Mesh(new THREE.SphereGeometry(0.12, 14, 8, 0, 6.3, 0, Math.PI / 2), bmat), bat); cap.position.y = -1.6; cap.rotation.x = Math.PI;
+    tung.userData = { armL, armR, legL, legR, bat, bd, tears, brows, pupils, mSmile, mSad, mO }; }
   const looseBat = add(new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.045, 1.5, 12), std({ color: 0xD8A86A, roughness: 0.6 })), scene); looseBat.visible = false;
-  function tungPose(p, u, ex) { const d = tung.userData; d.tears.visible = ex === "cry"; d.fM.color.set(ex === "cry" ? 0xB8C4D8 : 0xFFFFFF); [d.armL, d.armR, d.legL, d.legR].forEach((q) => q.rotation.set(0, 0, 0)); d.armL.rotation.z = 0.2; d.armR.rotation.z = -0.2; d.bat.visible = true; tung.rotation.x = 0; tung.rotation.z = 0; let bob = 0;
-    if (p === "tap") { const k = Math.pow(Math.max(0, Math.sin(u * 7.5)), 3); d.armR.rotation.x = -0.9 + k * 0.9; d.armR.rotation.z = -0.25; }
-    if (p === "walk") { const s = Math.sin(u * 6); d.legL.rotation.x = s * 0.5; d.legR.rotation.x = -s * 0.5; d.armL.rotation.x = -s * 0.4; d.armR.rotation.x = s * 0.3 - 0.3; bob = Math.abs(Math.cos(u * 6)) * 0.06; }
-    if (p === "block") { d.armL.rotation.z = 2.8; d.armR.rotation.z = -2.8; d.bat.visible = false; const s = Math.sin(u * 5); bob = Math.max(0, s) * 0.3; }
-    if (p === "cry") { d.bat.visible = false; d.armL.rotation.x = -2.4; d.armR.rotation.x = -2.4; d.armL.rotation.z = -0.4; d.armR.rotation.z = 0.4; tung.rotation.z = Math.sin(u * 14) * 0.02; }
-    if (p === "drop") { d.bat.visible = false; d.armL.rotation.z = 0.15; d.armR.rotation.z = -0.15; tung.rotation.x = 0.08; }
-    if (p === "play") { d.bat.visible = false; const s = Math.sin(u * 7); d.armR.rotation.x = -1.0 - Math.max(0, s) * 0.5; d.legL.rotation.x = s * 0.3; d.legR.rotation.x = -s * 0.3; bob = Math.abs(s) * 0.05; }
-    if (p === "watch") { d.armR.rotation.x = -0.3; }
+  function tungPose(p, u, ex) { const d = tung.userData; ex = ex || "smile";
+    d.tears.visible = ex === "cry"; d.mSmile.visible = ex === "smile" || ex === "side" || ex === "angry"; d.mSad.visible = ex === "cry"; d.mO.visible = ex === "shock";
+    const bA = ex === "cry" ? 0.3 : ex === "angry" ? -0.35 : ex === "shock" ? 0.05 : -0.08; d.brows.forEach((br, k) => { const sx = k ? 1 : -1; br.rotation.z = sx * bA; br.position.y = 4.3 + (ex === "shock" ? 0.08 : 0); });
+    d.pupils.forEach((pp, k) => { pp.position.x = (k < 2 ? -0.3 : 0.3) - (k % 2 ? 0.04 : 0) + (ex === "side" ? 0.06 : 0); });
+    [d.armL, d.armR, d.legL, d.legR].forEach((q) => { q.rotation.set(0, 0, 0); }); [d.armL, d.armR].forEach((q) => q.userData.el.rotation.set(0, 0, 0)); [d.legL, d.legR].forEach((q) => q.userData.kn.rotation.set(0, 0, 0));
+    d.armL.rotation.z = 0.12; d.armR.rotation.z = -0.12; d.armL.userData.el.rotation.x = -0.25; d.armR.userData.el.rotation.x = -0.35; d.bat.visible = true; d.bat.rotation.set(0.3, 0, 0); tung.rotation.x = 0; tung.rotation.z = 0; let bob = 0;
+    if (p === "tap") { const k = Math.pow(Math.max(0, Math.sin(u * 7.5)), 3); d.armR.rotation.x = -0.5 + k * 0.4; d.armR.userData.el.rotation.x = -0.6 + k * 0.5; d.bat.rotation.x = 0.9 - k * 0.6; }
+    if (p === "walk") { const s2 = Math.sin(u * 6); d.legL.rotation.x = s2 * 0.45; d.legR.rotation.x = -s2 * 0.45; d.legL.userData.kn.rotation.x = Math.max(0, -s2) * 0.6; d.legR.userData.kn.rotation.x = Math.max(0, s2) * 0.6; d.armL.rotation.x = -s2 * 0.35; d.armR.rotation.x = s2 * 0.25 - 0.2; bob = Math.abs(Math.cos(u * 6)) * 0.08; }
+    if (p === "block") { d.armL.rotation.z = 2.7; d.armR.rotation.z = -2.7; d.armL.userData.el.rotation.x = 0; d.armR.userData.el.rotation.x = 0; d.bat.visible = false; const s2 = Math.sin(u * 5); bob = Math.max(0, s2) * 0.3; d.legL.userData.kn.rotation.x = 0.2; d.legR.userData.kn.rotation.x = 0.2; }
+    if (p === "cry") { d.bat.visible = false; d.armL.rotation.x = -1.2; d.armR.rotation.x = -1.2; d.armL.rotation.z = -0.35; d.armR.rotation.z = 0.35; d.armL.userData.el.rotation.x = -1.9; d.armR.userData.el.rotation.x = -1.9; tung.rotation.z = Math.sin(u * 14) * 0.02; }
+    if (p === "drop") { d.bat.visible = false; d.armL.rotation.z = 0.15; d.armR.rotation.z = -0.15; tung.rotation.x = 0.06; }
+    if (p === "play") { d.bat.visible = false; const s2 = Math.sin(u * 7); d.armR.rotation.x = -0.8 - Math.max(0, s2) * 0.4; d.legL.rotation.x = s2 * 0.25; d.legR.rotation.x = -s2 * 0.25; bob = Math.abs(s2) * 0.05; }
+    if (p === "watch") { d.armR.rotation.x = -0.25; }
     tung.position.y = bob; }
   // Schnee/Regen + Partyhut-Publikum
   const FALL = []; for (let i = 0; i < 320; i++) { const m = new THREE.Mesh(new THREE.BoxGeometry(0.07, 0.9, 0.07), new THREE.MeshBasicMaterial({ color: 0xBFD8FF, transparent: true, opacity: 0.6 })); const q = mulberry(850 + i); m.userData = { x: (q() - 0.5) * 16, z: (q() - 0.5) * 16, o: q(), sp: 0.6 + q() * 0.6 }; m.visible = false; scene.add(m); FALL.push(m); }
@@ -2129,7 +2163,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const tl = gsap.timeline({ paused: true });
   tl.to(st, { t: DUR, duration: DUR, ease: "none", onUpdate: () => render(st.t) }, 0);
   window.__timelines["world"] = tl;
-  return Promise.all([document.fonts.load("80px Lilita"), shirtImgReady, tungImgReady]).then(() => render(0));
+  return Promise.all([document.fonts.load("80px Lilita"), shirtImgReady]).then(() => render(0));
 }).catch((e) => { console.error("world build failed", e); throw e; });
 
   </script>
