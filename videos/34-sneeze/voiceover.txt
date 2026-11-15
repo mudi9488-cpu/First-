@@ -1,0 +1,6 @@
+hook|In this town,|when you sneeze,|you swap bodies|with whoever's {r:closest.}
+world|Kevin sneezed next to his dog.|He was a dog for a week.|Linda sneezed next to the mayor.|Now she runs the town.|And my grandma|sneezed at a rock concert.|Nobody knows where she is.
+rule|So there's one rule.|Never sneeze|near {r:Tung Tung Tung Sahur.}
+break|Yesterday at the court,|Kevin threw pepper at me.|My nose started to tickle.|And Tung was right behind me.|{r:Achoo!}
+swap|When I opened my eyes,|I was {y:huge.}|I was made of wood.|And I was holding a bat.|And my body|was running around|in my rainbow cap.
+end|We tried to sneeze back.|But then I dunked|for the first time ever.|And he ate his first ice cream.|So honestly,|we're {y:not} switching back.

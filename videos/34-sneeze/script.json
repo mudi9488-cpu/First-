@@ -1,0 +1,138 @@
+{
+ "title": "Sneeze Swap",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "when you sneeze,"
+    },
+    {
+     "show": "you swap bodies"
+    },
+    {
+     "show": "with whoever's {r:closest.}"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin sneezed next to his dog."
+    },
+    {
+     "show": "He was a dog for a week."
+    },
+    {
+     "show": "Linda sneezed next to the mayor."
+    },
+    {
+     "show": "Now she runs the town."
+    },
+    {
+     "show": "And my grandma"
+    },
+    {
+     "show": "sneezed at a rock concert."
+    },
+    {
+     "show": "Nobody knows where she is."
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "So there's one rule."
+    },
+    {
+     "show": "Never sneeze"
+    },
+    {
+     "show": "near {r:Tung Tung Tung Sahur.}"
+    }
+   ]
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "Yesterday at the court,"
+    },
+    {
+     "show": "Kevin threw pepper at me."
+    },
+    {
+     "show": "My nose started to tickle."
+    },
+    {
+     "show": "And Tung was right behind me."
+    },
+    {
+     "show": "{r:Achoo!}"
+    }
+   ]
+  },
+  {
+   "id": "swap",
+   "label": "",
+   "lines": [
+    {
+     "show": "When I opened my eyes,"
+    },
+    {
+     "show": "I was {y:huge.}"
+    },
+    {
+     "show": "I was made of wood."
+    },
+    {
+     "show": "And I was holding a bat."
+    },
+    {
+     "show": "And my body"
+    },
+    {
+     "show": "was running around"
+    },
+    {
+     "show": "in my rainbow cap."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "We tried to sneeze back."
+    },
+    {
+     "show": "But then I dunked"
+    },
+    {
+     "show": "for the first time ever."
+    },
+    {
+     "show": "And he ate his first ice cream."
+    },
+    {
+     "show": "So honestly,"
+    },
+    {
+     "show": "we're {y:not} switching back."
+    }
+   ]
+  }
+ ]
+}
