@@ -1,0 +1,6 @@
+hook|In this town,|nobody is allowed to say {r:no.}
+world|Kevin asked Linda to marry him.|They're kids.|They're married now.|The mayor asked if he could raise taxes.|Everyone had to say yes.|Grandma got asked if she wanted to run a marathon.|She's still running.
+me|Then a bully asked for my lunch money.|Every day.|For a whole year.
+twist|So I found a loophole.|Next time he asked,|I said, {y:nope.}
+react|The whole town gasped.|The mayor checked the rulebook.|Nope wasn't in there.
+end|Now everybody says {y:nope.}|The bully lost all his money.|And grandma finally stopped running.

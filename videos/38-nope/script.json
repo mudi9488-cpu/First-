@@ -1,0 +1,105 @@
+{
+ "title": "Nope",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "nobody is allowed to say {r:no.}"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin asked Linda to marry him."
+    },
+    {
+     "show": "They're kids."
+    },
+    {
+     "show": "They're married now."
+    },
+    {
+     "show": "The mayor asked if he could raise taxes."
+    },
+    {
+     "show": "Everyone had to say yes."
+    },
+    {
+     "show": "Grandma got asked if she wanted to run a marathon."
+    },
+    {
+     "show": "She's still running."
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then a bully asked for my lunch money."
+    },
+    {
+     "show": "Every day."
+    },
+    {
+     "show": "For a whole year."
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I found a loophole."
+    },
+    {
+     "show": "Next time he asked,"
+    },
+    {
+     "show": "I said, {y:nope.}"
+    }
+   ]
+  },
+  {
+   "id": "react",
+   "label": "",
+   "lines": [
+    {
+     "show": "The whole town gasped."
+    },
+    {
+     "show": "The mayor checked the rulebook."
+    },
+    {
+     "show": "Nope wasn't in there."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now everybody says {y:nope.}"
+    },
+    {
+     "show": "The bully lost all his money."
+    },
+    {
+     "show": "And grandma finally stopped running."
+    }
+   ]
+  }
+ ]
+}
