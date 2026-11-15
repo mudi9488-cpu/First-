@@ -1,5 +1,5 @@
 {
- "duration": 35.971,
+ "duration": 62.38,
  "beats": [
   {
    "id": "hook",
@@ -914,6 +914,646 @@
    ],
    "start": 30.773,
    "end": 36.0
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the donut moon had a problem.",
+     "start": 36.321,
+     "end": 38.081,
+     "words": [
+      {
+       "text": "But",
+       "start": 36.321,
+       "end": 36.481
+      },
+      {
+       "text": "the",
+       "start": 36.521,
+       "end": 36.561
+      },
+      {
+       "text": "donut",
+       "start": 36.641,
+       "end": 36.961
+      },
+      {
+       "text": "moon",
+       "start": 37.041,
+       "end": 37.281
+      },
+      {
+       "text": "had",
+       "start": 37.321,
+       "end": 37.441
+      },
+      {
+       "text": "a",
+       "start": 37.441,
+       "end": 37.481
+      },
+      {
+       "text": "problem.",
+       "start": 37.521,
+       "end": 38.081
+      }
+     ]
+    },
+    {
+     "show": "It had a hole in the middle.",
+     "start": 38.121,
+     "end": 39.281,
+     "words": [
+      {
+       "text": "It",
+       "start": 38.121,
+       "end": 38.161
+      },
+      {
+       "text": "had",
+       "start": 38.241,
+       "end": 38.321
+      },
+      {
+       "text": "a",
+       "start": 38.374,
+       "end": 38.428
+      },
+      {
+       "text": "hole",
+       "start": 38.481,
+       "end": 38.721
+      },
+      {
+       "text": "in",
+       "start": 38.761,
+       "end": 38.801
+      },
+      {
+       "text": "the",
+       "start": 38.881,
+       "end": 38.921
+      },
+      {
+       "text": "middle.",
+       "start": 38.961,
+       "end": 39.281
+      }
+     ]
+    },
+    {
+     "show": "And every night,",
+     "start": 39.361,
+     "end": 40.241,
+     "words": [
+      {
+       "text": "And",
+       "start": 39.361,
+       "end": 39.441
+      },
+      {
+       "text": "every",
+       "start": 39.521,
+       "end": 39.761
+      },
+      {
+       "text": "night,",
+       "start": 39.841,
+       "end": 40.241
+      }
+     ]
+    },
+    {
+     "show": "something fell through it.",
+     "start": 40.321,
+     "end": 41.441,
+     "words": [
+      {
+       "text": "something",
+       "start": 40.321,
+       "end": 40.641
+      },
+      {
+       "text": "fell",
+       "start": 40.721,
+       "end": 40.881
+      },
+      {
+       "text": "through",
+       "start": 40.961,
+       "end": 41.121
+      },
+      {
+       "text": "it.",
+       "start": 41.201,
+       "end": 41.441
+      }
+     ]
+    },
+    {
+     "show": "First, it was Kevin's kite.",
+     "start": 41.641,
+     "end": 43.121,
+     "words": [
+      {
+       "text": "First,",
+       "start": 41.641,
+       "end": 42.001
+      },
+      {
+       "text": "it",
+       "start": 42.041,
+       "end": 42.081
+      },
+      {
+       "text": "was",
+       "start": 42.161,
+       "end": 42.241
+      },
+      {
+       "text": "Kevin's",
+       "start": 42.321,
+       "end": 42.561
+      },
+      {
+       "text": "kite.",
+       "start": 42.641,
+       "end": 43.121
+      }
+     ]
+    },
+    {
+     "show": "Then it was the mayor's hat.",
+     "start": 43.281,
+     "end": 44.721,
+     "words": [
+      {
+       "text": "Then",
+       "start": 43.281,
+       "end": 43.441
+      },
+      {
+       "text": "it",
+       "start": 43.601,
+       "end": 43.681
+      },
+      {
+       "text": "was",
+       "start": 43.761,
+       "end": 43.841
+      },
+      {
+       "text": "the",
+       "start": 43.894,
+       "end": 43.948
+      },
+      {
+       "text": "mayor's",
+       "start": 44.001,
+       "end": 44.321
+      },
+      {
+       "text": "hat.",
+       "start": 44.481,
+       "end": 44.721
+      }
+     ]
+    },
+    {
+     "show": "Then it was {r:the mayor.}",
+     "start": 44.934,
+     "end": 46.161,
+     "words": [
+      {
+       "text": "Then",
+       "start": 44.934,
+       "end": 44.961
+      },
+      {
+       "text": "it",
+       "start": 45.041,
+       "end": 45.121
+      },
+      {
+       "text": "was",
+       "start": 45.201,
+       "end": 45.361
+      },
+      {
+       "text": "the",
+       "start": 45.401,
+       "end": 45.441
+      },
+      {
+       "text": "mayor.",
+       "start": 45.601,
+       "end": 46.161
+      }
+     ]
+    }
+   ],
+   "start": 36.321,
+   "end": 46.161
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "Everyone looked at me.",
+     "start": 46.401,
+     "end": 47.548,
+     "words": [
+      {
+       "text": "Everyone",
+       "start": 46.401,
+       "end": 46.721
+      },
+      {
+       "text": "looked",
+       "start": 46.801,
+       "end": 46.961
+      },
+      {
+       "text": "at",
+       "start": 47.001,
+       "end": 47.041
+      },
+      {
+       "text": "me.",
+       "start": 47.121,
+       "end": 47.548
+      }
+     ]
+    },
+    {
+     "show": "Because I ordered the last moon.",
+     "start": 47.654,
+     "end": 49.468,
+     "words": [
+      {
+       "text": "Because",
+       "start": 47.654,
+       "end": 47.761
+      },
+      {
+       "text": "I",
+       "start": 48.081,
+       "end": 48.121
+      },
+      {
+       "text": "ordered",
+       "start": 48.161,
+       "end": 48.401
+      },
+      {
+       "text": "the",
+       "start": 48.481,
+       "end": 48.561
+      },
+      {
+       "text": "last",
+       "start": 48.721,
+       "end": 48.881
+      },
+      {
+       "text": "moon.",
+       "start": 48.961,
+       "end": 49.468
+      }
+     ]
+    },
+    {
+     "show": "So I climbed onto Tung's shoulders.",
+     "start": 49.494,
+     "end": 51.081,
+     "words": [
+      {
+       "text": "So",
+       "start": 49.494,
+       "end": 49.521
+      },
+      {
+       "text": "I",
+       "start": 49.681,
+       "end": 49.734
+      },
+      {
+       "text": "climbed",
+       "start": 49.788,
+       "end": 50.001
+      },
+      {
+       "text": "onto",
+       "start": 50.121,
+       "end": 50.241
+      },
+      {
+       "text": "Tung's",
+       "start": 50.281,
+       "end": 50.561
+      },
+      {
+       "text": "shoulders.",
+       "start": 50.681,
+       "end": 51.081
+      }
+     ]
+    },
+    {
+     "show": "And Tung climbed onto the clock tower.",
+     "start": 51.121,
+     "end": 52.801,
+     "words": [
+      {
+       "text": "And",
+       "start": 51.121,
+       "end": 51.201
+      },
+      {
+       "text": "Tung",
+       "start": 51.281,
+       "end": 51.521
+      },
+      {
+       "text": "climbed",
+       "start": 51.601,
+       "end": 51.841
+      },
+      {
+       "text": "onto",
+       "start": 51.921,
+       "end": 52.001
+      },
+      {
+       "text": "the",
+       "start": 52.041,
+       "end": 52.081
+      },
+      {
+       "text": "clock",
+       "start": 52.161,
+       "end": 52.321
+      },
+      {
+       "text": "tower.",
+       "start": 52.401,
+       "end": 52.801
+      }
+     ]
+    },
+    {
+     "show": "I reached up as high as I could.",
+     "start": 52.881,
+     "end": 54.412,
+     "words": [
+      {
+       "text": "I",
+       "start": 52.881,
+       "end": 52.921
+      },
+      {
+       "text": "reached",
+       "start": 52.961,
+       "end": 53.201
+      },
+      {
+       "text": "up",
+       "start": 53.281,
+       "end": 53.361
+      },
+      {
+       "text": "as",
+       "start": 53.481,
+       "end": 53.601
+      },
+      {
+       "text": "high",
+       "start": 53.681,
+       "end": 53.761
+      },
+      {
+       "text": "as",
+       "start": 53.841,
+       "end": 53.921
+      },
+      {
+       "text": "I",
+       "start": 54.081,
+       "end": 54.188
+      },
+      {
+       "text": "could.",
+       "start": 54.294,
+       "end": 54.412
+      }
+     ]
+    },
+    {
+     "show": "And I pulled the mayor out of the hole.",
+     "start": 54.481,
+     "end": 56.201,
+     "words": [
+      {
+       "text": "And",
+       "start": 54.481,
+       "end": 54.561
+      },
+      {
+       "text": "I",
+       "start": 54.721,
+       "end": 54.761
+      },
+      {
+       "text": "pulled",
+       "start": 54.801,
+       "end": 54.961
+      },
+      {
+       "text": "the",
+       "start": 55.041,
+       "end": 55.121
+      },
+      {
+       "text": "mayor",
+       "start": 55.201,
+       "end": 55.441
+      },
+      {
+       "text": "out",
+       "start": 55.521,
+       "end": 55.601
+      },
+      {
+       "text": "of",
+       "start": 55.641,
+       "end": 55.681
+      },
+      {
+       "text": "the",
+       "start": 55.721,
+       "end": 55.761
+      },
+      {
+       "text": "hole.",
+       "start": 55.841,
+       "end": 56.201
+      }
+     ]
+    },
+    {
+     "show": "He was covered in {y:sprinkles.}",
+     "start": 56.241,
+     "end": 57.841,
+     "words": [
+      {
+       "text": "He",
+       "start": 56.241,
+       "end": 56.321
+      },
+      {
+       "text": "was",
+       "start": 56.441,
+       "end": 56.561
+      },
+      {
+       "text": "covered",
+       "start": 56.641,
+       "end": 56.881
+      },
+      {
+       "text": "in",
+       "start": 56.961,
+       "end": 57.041
+      },
+      {
+       "text": "sprinkles.",
+       "start": 57.121,
+       "end": 57.841
+      }
+     ]
+    }
+   ],
+   "start": 46.401,
+   "end": 57.841
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now the mayor wants a donut moon",
+     "start": 57.974,
+     "end": 59.281,
+     "words": [
+      {
+       "text": "Now",
+       "start": 57.974,
+       "end": 58.001
+      },
+      {
+       "text": "the",
+       "start": 58.081,
+       "end": 58.161
+      },
+      {
+       "text": "mayor",
+       "start": 58.201,
+       "end": 58.401
+      },
+      {
+       "text": "wants",
+       "start": 58.454,
+       "end": 58.561
+      },
+      {
+       "text": "a",
+       "start": 58.721,
+       "end": 58.774
+      },
+      {
+       "text": "donut",
+       "start": 58.828,
+       "end": 58.961
+      },
+      {
+       "text": "moon",
+       "start": 59.041,
+       "end": 59.281
+      }
+     ]
+    },
+    {
+     "show": "every night.",
+     "start": 59.361,
+     "end": 59.961,
+     "words": [
+      {
+       "text": "every",
+       "start": 59.361,
+       "end": 59.601
+      },
+      {
+       "text": "night.",
+       "start": 59.761,
+       "end": 59.961
+      }
+     ]
+    },
+    {
+     "show": "And Tung charges him his allowance.",
+     "start": 60.001,
+     "end": 61.761,
+     "words": [
+      {
+       "text": "And",
+       "start": 60.001,
+       "end": 60.161
+      },
+      {
+       "text": "Tung",
+       "start": 60.201,
+       "end": 60.481
+      },
+      {
+       "text": "charges",
+       "start": 60.641,
+       "end": 60.801
+      },
+      {
+       "text": "him",
+       "start": 60.881,
+       "end": 60.961
+      },
+      {
+       "text": "his",
+       "start": 61.001,
+       "end": 61.041
+      },
+      {
+       "text": "allowance.",
+       "start": 61.121,
+       "end": 61.761
+      }
+     ]
+    },
+    {
+     "show": "{r:Forever.}",
+     "start": 62.001,
+     "end": 62.481,
+     "words": [
+      {
+       "text": "Forever.",
+       "start": 62.001,
+       "end": 62.481
+      }
+     ]
+    }
+   ],
+   "start": 57.974,
+   "end": 62.481
   }
  ]
 }

@@ -133,6 +133,90 @@
      "show": "we're {y:not} switching back."
     }
    ]
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "But being Tung is not easy."
+    },
+    {
+     "show": "Everybody runs away when you say hi."
+    },
+    {
+     "show": "Dogs bark at you."
+    },
+    {
+     "show": "And every night,"
+    },
+    {
+     "show": "your arms start drumming by themselves."
+    },
+    {
+     "show": "Tung, tung, tung."
+    },
+    {
+     "show": "The whole street wakes up."
+    }
+   ]
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "Meanwhile, Tung was in my body,"
+    },
+    {
+     "show": "getting straight A's at school."
+    }
+   ]
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I made a plan."
+    },
+    {
+     "show": "I grabbed Kevin's pepper."
+    },
+    {
+     "show": "I stood right next to Tung."
+    },
+    {
+     "show": "And I sneezed."
+    }
+   ]
+  },
+  {
+   "id": "p2d",
+   "label": "",
+   "lines": [
+    {
+     "show": "But Kevin walked in"
+    },
+    {
+     "show": "at the exact same time."
+    },
+    {
+     "show": "{r:Achoo!}"
+    },
+    {
+     "show": "Now Kevin is Tung."
+    },
+    {
+     "show": "Tung is Kevin."
+    },
+    {
+     "show": "And I'm finally {y:me} again."
+    },
+    {
+     "show": "Kevin hasn't stopped drumming since."
+    }
+   ]
   }
  ]
 }

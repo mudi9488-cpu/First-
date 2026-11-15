@@ -145,6 +145,78 @@
      "show": "It was a {y:donut.}"
     }
    ]
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "But the donut moon had a problem."
+    },
+    {
+     "show": "It had a hole in the middle."
+    },
+    {
+     "show": "And every night,"
+    },
+    {
+     "show": "something fell through it."
+    },
+    {
+     "show": "First, it was Kevin's kite."
+    },
+    {
+     "show": "Then it was the mayor's hat."
+    },
+    {
+     "show": "Then it was {r:the mayor.}"
+    }
+   ]
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "Everyone looked at me."
+    },
+    {
+     "show": "Because I ordered the last moon."
+    },
+    {
+     "show": "So I climbed onto Tung's shoulders."
+    },
+    {
+     "show": "And Tung climbed onto the clock tower."
+    },
+    {
+     "show": "I reached up as high as I could."
+    },
+    {
+     "show": "And I pulled the mayor out of the hole."
+    },
+    {
+     "show": "He was covered in {y:sprinkles.}"
+    }
+   ]
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now the mayor wants a donut moon"
+    },
+    {
+     "show": "every night."
+    },
+    {
+     "show": "And Tung charges him his allowance."
+    },
+    {
+     "show": "{r:Forever.}"
+    }
+   ]
   }
  ]
 }

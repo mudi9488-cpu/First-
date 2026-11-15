@@ -4,3 +4,7 @@ rule|So there's one rule.|Never sneeze|near {r:Tung Tung Tung Sahur.}
 break|Yesterday at the court,|Kevin threw pepper at me.|My nose started to tickle.|And Tung was right behind me.|{r:Achoo!}
 swap|When I opened my eyes,|I was {y:huge.}|I was made of wood.|And I was holding a bat.|And my body|was running around|in my rainbow cap.
 end|We tried to sneeze back.|But then I dunked|for the first time ever.|And he ate his first ice cream.|So honestly,|we're {y:not} switching back.
+p2a|But being Tung is not easy.|Everybody runs away when you say hi.|Dogs bark at you.|And every night,|your arms start drumming by themselves.|Tung, tung, tung.|The whole street wakes up.
+p2b|Meanwhile, Tung was in my body,|getting straight A's at school.
+p2c|So I made a plan.|I grabbed Kevin's pepper.|I stood right next to Tung.|And I sneezed.
+p2d|But Kevin walked in|at the exact same time.|{r:Achoo!}|Now Kevin is Tung.|Tung is Kevin.|And I'm finally {y:me} again.|Kevin hasn't stopped drumming since.

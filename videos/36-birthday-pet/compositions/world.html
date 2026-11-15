@@ -7,13 +7,13 @@
     #lab span { display:inline-block; font-family:'Lilita',sans-serif; font-size:76px; letter-spacing:0.01em;
       -webkit-text-stroke:12px #000; paint-order:stroke fill; text-shadow:0 6px 0 #000; }
   </style>
-  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="39" data-layout-allow-overlap>
+  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="66.1" data-layout-allow-overlap>
     <canvas id="w-canvas" width="1080" height="1920"></canvas>
     <div id="lab"><span>LABEL</span></div>
   </div>
   <script>
 
-const LS = [0.0, 0.74, 1.82, 3.14, 4.14, 5.06, 6.1, 7.1, 8.66, 10.084, 11.46, 12.34, 13.14, 14.1, 15.197, 15.86, 18.14, 19.58, 20.42, 21.986, 22.46, 23.94, 24.66, 25.98, 27.364, 28.127, 29.38, 30.34, 31.54, 33.193, 34.5, 35.593], DUR = 39.0, KW = {"random": 2.24, "raccoon": 3.6, "ceiling": 6.72, "keep": 12.56, "opened": 14.32, "tiny": 16.44, "bed": 21.52, "bigger": 22.84, "not": 25.24, "fetch": 28.56, "nice": 32.52, "me": 36.84};
+const LS = [0.0, 0.74, 1.82, 3.14, 4.14, 5.06, 6.1, 7.1, 8.66, 10.084, 11.46, 12.34, 13.14, 14.1, 15.197, 15.86, 18.14, 19.58, 20.42, 21.986, 22.46, 23.94, 24.66, 25.98, 27.364, 28.127, 29.38, 30.34, 31.54, 33.193, 34.5, 35.593, 37.436, 38.556, 39.596, 40.716, 42.924, 44.636, 45.516, 46.476, 47.969, 49.036, 50.756, 51.596, 52.636, 53.889, 55.036, 56.133, 57.476, 59.143, 60.356, 61.036, 63.196], DUR = 66.1, KW = {"random": 2.24, "raccoon": 3.6, "ceiling": 6.72, "keep": 12.56, "opened": 14.32, "tiny": 16.44, "bed": 21.52, "bigger": 22.84, "not": 25.24, "fetch": 28.56, "nice": 32.52, "me": 36.84, "sick": 39.096, "moon2": 48.296, "goodbye": 59.656, "tung3": 61.856};
 window.__hf = window.__hf || {}; window.__hf.buildReady = window.__hf.buildReady || {};
 window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THREE) => {
   const W = 1080, H = 1920, HX = 200, RX = -200, VZ = 400;
@@ -1851,7 +1851,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const stage = new THREE.Group(); scene.add(stage); stage.position.set(0, 0, -9);
   { const wm = std({ color: 0xC81E3A }); box(7, 1.0, 3.4, wm, 0, 0.5, 0, stage); box(7.2, 0.08, 3.6, std({ color: 0xFFD23F }), 0, 1.04, 0, stage, false); for (let k = 0; k < 3; k++) box(1.6, 0.33 * (k + 1), 0.4, std({ color: 0x8A1C2B }), 0, 0.165 * (k + 1), 1.9 + (2 - k) * 0.4, stage);
     box(0.9, 1.2, 0.6, std({ map: woodT }), 0, 1.6, 0.6, stage); box(0.15, 4.5, 0.15, std({ color: 0x5A606C }), -3.3, 2.25, -1.4, stage); box(0.15, 4.5, 0.15, std({ color: 0x5A606C }), 3.3, 2.25, -1.4, stage);
-    const ban = screen(6.4, 1.3, 800, 160, (g) => { g.fillStyle = "#1E3A8A"; g.fillRect(0, 0, 800, 160); glowText(g, "MUSTACHE CONTEST", 400, 84, 92, "#FFD23F"); g.strokeStyle = "#FFD23F"; g.lineWidth = 8; g.strokeRect(4, 4, 792, 152); }); ban.position.set(0, 3.9, -1.38); stage.add(ban); ban.userData.set("x");
+    const ban = screen(6.4, 1.3, 800, 160, (g) => { g.fillStyle = "#1E3A8A"; g.fillRect(0, 0, 800, 160); glowText(g, "TOWN MEETING", 400, 84, 92, "#FFD23F"); g.strokeStyle = "#FFD23F"; g.lineWidth = 8; g.strokeRect(4, 4, 792, 152); }); ban.position.set(0, 3.9, -1.38); stage.add(ban); ban.userData.set("x");
     const fc = [0xFF4D8D, 0xFFBE0B, 0x3A86FF, 0x06D6A0]; for (let i = 0; i < 14; i++) { const f = new THREE.Mesh(new THREE.ConeGeometry(0.2, 0.45, 3), basic({ color: fc[i % 4] })); f.position.set(-3.2 + i * 0.49, 4.75, -1.3); f.rotation.x = Math.PI; stage.add(f); } }
   const stM = std({ color: 0x15100C, roughness: 0.8 });
   function mkStache(sc, col) { const g = new THREE.Group(); scene.add(g); const m = col ? std({ color: col, roughness: 0.9 }) : stM;
@@ -1911,6 +1911,9 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const bullies = [0, 1, 2].map((k) => makeChar({ shirt: [0x2B2B33, 0x4A4A6A, 0x6A2E2E][k], pants: 0x1E2A4A, design: "zip", hair: ["cap", "short", "messy"][k], capCol: 0xE63946, skin: [0xC68642, 0xF1C27D, 0x8D5524][k] }));
   Object.assign(A, { bully1: bullies[0], bully2: bullies[1], bully3: bullies[2] });
 
+  // ---- Video 36 Teil 2: Leiter ----
+  const ladder36 = new THREE.Group(); scene.add(ladder36); { const lw = std({ color: 0xA0703C }); box(0.18, 70, 0.18, lw, -0.6, 35, 0, ladder36); box(0.18, 70, 0.18, lw, 0.6, 35, 0, ladder36); for (let i = 0; i < 116; i++) box(1.2, 0.1, 0.12, lw, 0, 0.5 + i * 0.6, 0, ladder36, false); } ladder36.visible = false;
+
   // ---------- Licht
   const hemi = new THREE.HemisphereLight(0xD8E8FF, 0x6B5A40, 0.9); scene.add(hemi);
   const sun = new THREE.DirectionalLight(0xFFF1D8, 2.6); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
@@ -1958,6 +1961,28 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L29 */ { m: "day", tung: [-3.2, 10.0, 90, "watch", "smile", { sc: TS }], cast: [["kevin", 1.4, 12.6, -110, "point", "wide"], ["linda", 2.2, 10.6, -80, "lookUp", "shock"], ["granny", 2.0, 14.0, -120, "lookUp", "smile"], ["mayor", 3.0, 12.0, -95, "point", "wide"]], pops: [["WANT", 2.0, 3.2, 12.2, 0.3, 0.8, 1.4]], cam: { p: [6.6, 2.0, 20], p2: [6.2, 2.0, 19.4], t: [-0.6, 3.2, 11.5], fov: 54 } },
     /* L30 */ { m: "day", tung: [-3.2, 10.0, 90, "watch", "smile", { sc: TS }], pops: [["ONLY ONE", -3.2, 9.6, 10, 0.2, 1.2, 1.4]], cam: { p: [3.2, 6.6, 11.2], p2: [2.6, 6.6, 11.0], t: [-3.2, 6.8, 10], fov: 48 } },
     /* L31 */ { m: "dusk", tung: [-3.2, 10.0, 90, "watch", "smile", { sc: TS }], cast: [ME(-0.8, 11.0, 70, "wave", "grin")], cams: [{ p: [1.8, 1.7, 13.6], p2: [1.6, 1.7, 13.2], t: [-0.8, 1.5, 11], fov: 46 }, { p: [3.4, 2.6, 19], p2: [4.2, 3.6, 23], t: [-2.4, 3.6, 10], fov: 52 }] },
+    /* EXT */
+    /* L32 */ { m: "dusk", tung: [-7.2, 10.0, 90, "cry", "cry", { sc: 0.9 }], tungY: 5.6, cam: { p: [3, 2.4, 20], p2: [2.6, 2.6, 19], t: [-6, 5.5, 10], fov: 50 } },
+    /* L33 */ { m: "dusk", tung: [-7.2, 10.0, 90, "cry", "cry", { sc: 0.9 }], tungY: 5.6, pops: [["SICK", -7.2, 10.8, 10, 0.2, 1.0, 1.4]], cam: { p: [-3.0, 8.4, 11.6], p2: [-3.2, 8.4, 11.4], t: [-7.2, 8.8, 10], fov: 44 } },
+    /* L34 */ { m: "dusk", tung: [-7.2, 10.0, 90, "cry", "cry", { sc: 0.9 }], tungY: 5.6, looseBat: [0.4, 12.6], cast: [ME(1.4, 12.6, -100, "point", "sad")], pops: [["FETCH?", 1.4, 3.3, 12.6, 0.2, 0.6, 1.4]], cam: { p: [4.6, 1.8, 18.4], p2: [4.2, 1.9, 17.8], t: [-1.4, 3.2, 11], fov: 54 } },
+    /* L35 */ { m: "dusk", tung: [-7.2, 10.0, 90, "cry", "cry", { sc: 0.9 }], tungY: 5.6, pops: [["SIGH", -7.2, 10.6, 10, 0.3, 1.0, 1.4]], cam: { p: [2, 1.6, 22], p2: [1.4, 2.2, 20.4], t: [-6, 6, 10], fov: 52 } },
+    /* L36 */ { m: "day", cast: [["linda", 0.6, 8.2, -30, "point", "serious"], ME(-0.6, 8.0, 30, "idle", "sad")], pops: [["HOMESICK", 0, 3.4, 8.2, 0.3, 0.6, 1.4]], cam: { p: [0.2, 2.0, 14.2], p2: [0.1, 1.9, 13.6], t: [0, 1.8, 8.1], fov: 50 } },
+    /* L37 */ { m: "dusk", tung: [-3.2, 10.0, 90, "watch", "cry", { sc: 1.6 }], cast: [ME(0.4, 12.4, -110, "lookUp", "sad")], cam: { p: [4.4, 1.4, 17], p2: [4.0, 1.5, 16.4], t: [-1.4, 4.0, 11], fov: 54 } },
+    /* L38 */ { m: "dusk", cast: [ME(0.4, 12.4, -110, "lookUp", "serious")], pops: [["HOME?", 0.4, 3.4, 12.4, 0.2, 0.7, 1.4]], cam: { face: "me", d: 1.8, fov: 44, orbit: 0.4 } },
+    /* L39 */ { m: "night", win: "on", tung: [-3.2, 10.0, 160, "block", "side", { sc: 1.6 }], cast: [ME(0.4, 12.4, -160, "lookUp", "shock")], cam: { p: [2.6, 1.0, 19], p2: [2.4, 1.2, 18.4], t: [-6, 9, -10], fov: 56 } },
+    /* L40 */ { m: "night", win: "on", pops: [["MOON", -25, 47, -88, 0.3, 8, 1.4]], cam: { p: [1, 1.6, 10], p2: [0.8, 2.0, 9], t: [-25, 40, -90], fov: 24 } },
+    /* L41 */ { m: "day", ladder: [-2, 4, 0, 0.12], cast: [["kevin", -0.6, 5.2, -60, "hold", "grin"], ["linda", -3.4, 5.0, 60, "hold", "smile"], ME(-2, 6.6, 180, "point", "grin")], pops: [["LADDER", -2, 9.6, 4, 0.3, 0.8, 1.4]], cam: { p: [1.2, 3.0, 15], p2: [0.8, 3.2, 14], t: [-2, 4, 4], fov: 54 } },
+    /* L42 */ { m: "day", ladder: [-2, 4, 0, 0.14], cast: [["kevin", -0.6, 5.6, -40, "carry", "grin"]], pops: [["WOOD", -0.6, 3.4, 5.6, 0.2, 0.6, 1.4]], cam: { face: "kevin", d: 2.4, fov: 46, orbit: 0.4 } },
+    /* L43 */ { m: "day", ladder: [-2, 4, 0, 0.16], cast: [["linda", -3.4, 5.4, 40, "hold", "smile"]], pops: [["NAILS", -3.4, 3.4, 5.4, 0.2, 0.6, 1.4]], cam: { face: "linda", d: 2.4, fov: 46, orbit: -0.4 } },
+    /* L44 */ { m: "day", ladder: [-2, 4, 0, 0.18], cast: [["granny", -1.0, 6.0, 0, "give", "grin"]], pops: [["SNACKS", -1.0, 3.4, 6.0, 0.2, 0.6, 1.4]], cam: { face: "granny", d: 2.4, fov: 46, orbit: 0.3 } },
+    /* L45 */ { m: "day", stage: 1, cast: [["mayor", 0, -9.4, 0, "point", "grin", { y: 1.04 }]], pops: [["BLAH BLAH", 0, 4.8, -9.2, 0.3, 0.6, 1.4]], cam: { p: [0.6, 3.8, -4.6], p2: [0.5, 3.6, -5.2], t: [0, 2.8, -9.4], fov: 48 } },
+    /* L46 */ { m: "day", stage: 1, cast: [["mayor", 0, -9.4, 0, "idle", "sad", { y: 1.04 }], ["kevin", -1.2, -4.2, 0, "idle", "sleep"], ["linda", 1.0, -4.0, 0, "phone", "neutral"]], pops: [["ZZZ", -1.2, 3.0, -4.2, 0.3, 0.6, 1.4]], cam: { p: [0.4, 3.2, -1.0], p2: [0.4, 3.3, -0.4], t: [0, 2.6, -8], fov: 52 } },
+    /* L47 */ { m: "dusk", ladder: [-2, 4, 0, 1], cast: [ME(0.2, 8.6, -30, "cheer", "grin"), ["kevin", 1.2, 9.2, -40, "cheer", "laugh"], ["granny", -0.8, 9.6, -10, "clap", "smile"]], pops: [["DONE!", 0.2, 3.4, 8.6, 0.4, 0.8, 1.4]], cams: [{ p: [3, 1.2, 18], p2: [3.2, 1.4, 19], t: [-2, 12, 0], fov: 60 }] },
+    /* L48 */ { m: "night", win: "on", ladder: [-2, 4, 0, 1], tung: [-2, 4.9, 180, "walk", "smile", { sc: 1.2 }], tungClimb: [0, 14, 1.6], cam: { p: [3, 1.0, 20], p2: [3.2, 1.0, 21], t: [-2, 14, 2], fov: 60 } },
+    /* L49 */ { m: "night", win: "on", ladder: [-2, 4, 0, 1], tung: [-2, 4.9, 180, "block", "smile", { sc: 1.2 }], tungY: 30, cast: [ME(0.4, 8.6, -150, "wave", "cry")], pops: [["BYE!", 0.4, 3.3, 8.6, 0.3, 0.6, 1.4]], cam: { p: [1.4, 1.2, 12.4], p2: [1.3, 1.3, 12], t: [-2, 18, 2], fov: 60 } },
+    /* L50 */ { m: "night", win: "on", cam: { p: [6, 6, 22], p2: [5, 8, 18], t: [-12, 22, -50], fov: 52 } },
+    /* L51 */ { m: "night", win: "on", tung: [-25, -86.5, 0, "tap", "smile", { sc: 0.9 }], tungY: 43.6, pops: [["TUNG!", -23, 50, -86, 0.1, 1.6], ["TUNG!", -27, 52, -86, 0.4, 1.6], ["TUNG!", -24, 54, -86, 0.7, 1.6]], cam: { p: [1, 1.6, 10], p2: [0.9, 1.7, 9.6], t: [-25, 45, -88], fov: 18 } },
+    /* L52 */ { m: "night", win: "on", tung: [-25, -86.5, 0, "tap", "smile", { sc: 0.9 }], tungY: 43.6, cast: [ME(3.0, 9.0, 200, "wave", "grin")], cams: [{ p: [4.6, 1.2, 13.4], p2: [4.4, 1.3, 13.0], t: [1.6, 2.6, 6], fov: 54 }, { p: [1, 1.6, 10], p2: [0.9, 1.7, 9.6], t: [-25, 44, -88], fov: 20 }] },
   ];
   function LS0(i) { return LS[i]; }
 
@@ -2302,7 +2327,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     // ---- Video 35: Pizza-Mond ----
     { pizzaM.visible = false; pzGlow.visible = false; donutM.visible = false; phone35.visible = false; pbox.visible = false; slice.visible = false;
       const skyOn = s.m === "night" || s.m === "party" || c.m2 === "night";
-      if (skyOn) moon.visible = false;
+      if (skyOn && s.pizza !== undefined) moon.visible = false;
       if (skyOn && s.pizza !== undefined && s.pizza !== "dark") { if (s.pizza === "donut") { donutM.visible = true; donutM.lookAt(P[0], P[1], P[2]); } else { pizzaM.visible = true; pizzaM.material.map = PZT[s.pizza]; pizzaM.lookAt(P[0], P[1], P[2]); pzGlow.visible = true; pzGlow.position.copy(pizzaM.position); } }
       if (s.pizza === "dark") { scene.background = new THREE.Color(0x020204); stars.visible = false; }
       (s.cast || []).forEach(([name, x, z, r, ps, ex, o]) => { o = o || {}; const ch = A[name]; if (!ch || !ch.root.visible) return; ch.root.updateMatrixWorld(true);
@@ -2319,6 +2344,12 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
       if (s.bowl) { fishBowl.visible = true; fishBowl.position.set(...s.bowl); fishBowl.userData.fish.position.set(Math.sin(t * 1.5) * 0.15, Math.sin(t * 2) * 0.05, Math.cos(t * 1.5) * 0.1); fishBowl.userData.fish.rotation.y = -t * 1.5 + Math.PI / 2; }
       if (s.tung) tung.position.y += s.tungY || 0;
       if (s.tung && s.tungGrow) { const [s0, s1, d] = s.tungGrow; const q = ease(clamp(u / d, 0, 1)); tung.scale.setScalar(s0 + (s1 - s0) * q); }
+    }
+
+    // ---- Video 36 Teil 2 ----
+    { ladder36.visible = false;
+      if (s.ladder) { ladder36.visible = true; const [x, z, ry, h] = s.ladder; ladder36.position.set(x, 0, z); ladder36.rotation.y = (ry || 0) * D2R; ladder36.scale.set(1, h === undefined ? 1 : h, 1); }
+      if (s.tung && s.tungClimb) { const [y0, y1, d] = s.tungClimb; tung.position.y += y0 + (y1 - y0) * clamp(u / d, 0, 1); }
     }
 
     // ---- Video 25: Bens Licht, Strahl, Uhr, EKG ----

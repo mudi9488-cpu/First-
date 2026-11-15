@@ -115,6 +115,84 @@
      "show": "And I grew {y:even taller.}"
     }
    ]
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now I'm so tall,"
+    },
+    {
+     "show": "I have to duck under the clouds."
+    },
+    {
+     "show": "Birds keep landing on my head."
+    },
+    {
+     "show": "Then the mayor came to see me."
+    },
+    {
+     "show": "He was tiny."
+    },
+    {
+     "show": "He was standing on a stamp."
+    },
+    {
+     "show": "He asked me,"
+    },
+    {
+     "show": "will you help me get my real size back?"
+    }
+   ]
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "I said,"
+    },
+    {
+     "show": "only if you tell the {y:truth.}"
+    },
+    {
+     "show": "He took a deep breath."
+    },
+    {
+     "show": "And he said,"
+    },
+    {
+     "show": "I never paid my {r:taxes.}"
+    },
+    {
+     "show": "He grew back instantly."
+    },
+    {
+     "show": "Then Kevin admitted"
+    },
+    {
+     "show": "he never did his homework."
+    },
+    {
+     "show": "He grew right out of his shoebox."
+    }
+   ]
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now everyone in town tells the truth."
+    },
+    {
+     "show": "And grandma knits ugly sweaters"
+    },
+    {
+     "show": "for {y:everybody.}"
+    }
+   ]
   }
  ]
 }

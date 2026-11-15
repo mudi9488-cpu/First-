@@ -145,6 +145,87 @@
      "show": "And he only listens to {y:me.}"
     }
    ]
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "But last week,"
+    },
+    {
+     "show": "Tung got {r:sick.}"
+    },
+    {
+     "show": "He wouldn't play fetch."
+    },
+    {
+     "show": "He just sat on our roof and sighed."
+    },
+    {
+     "show": "The doctor said he was homesick."
+    },
+    {
+     "show": "So I asked him,"
+    },
+    {
+     "show": "where is home?"
+    },
+    {
+     "show": "He pointed at the sky."
+    },
+    {
+     "show": "At the {y:moon.}"
+    }
+   ]
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "So the whole town built a ladder."
+    },
+    {
+     "show": "Kevin brought wood."
+    },
+    {
+     "show": "Linda brought nails."
+    },
+    {
+     "show": "Grandma brought snacks."
+    },
+    {
+     "show": "And the mayor gave a speech"
+    },
+    {
+     "show": "nobody listened to."
+    },
+    {
+     "show": "It took us a whole week."
+    },
+    {
+     "show": "Then Tung climbed all the way up,"
+    },
+    {
+     "show": "and waved goodbye."
+    }
+   ]
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now every night,"
+    },
+    {
+     "show": "the moon goes tung, tung, tung."
+    },
+    {
+     "show": "And I wave {y:back.}"
+    }
+   ]
   }
  ]
 }

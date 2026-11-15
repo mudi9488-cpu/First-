@@ -34,7 +34,7 @@ def wt(line, prefix, n=1):
     raise KeyError((line, prefix))
 
 
-KW = {"no": wt(1, "no"), "married": wt(4, "married"), "yes": wt(6, "yes"), "running": wt(8, "running"), "money": wt(9, "money"), "loophole": wt(12, "loophole"), "nope": wt(14, "nope"), "gasped": wt(15, "gasped"), "rulebook": wt(16, "rulebook"), "nope2": wt(18, "nope"), "lost": wt(19, "lost"), "finally": wt(20, "finally")}
+KW = {"no": wt(1, "no"), "married": wt(4, "married"), "yes": wt(6, "yes"), "running": wt(8, "running"), "money": wt(9, "money"), "loophole": wt(12, "loophole"), "nope": wt(14, "nope"), "gasped": wt(15, "gasped"), "rulebook": wt(16, "rulebook"), "nope2": wt(18, "nope"), "lost": wt(19, "lost"), "finally": wt(20, "finally"), "weird": wt(21, "weird"), "garbage": wt(31, "garbage"), "yes2": wt(38, "yes"), "mondays": wt(43, "mondays")}
 
 WORLD_JS = r"""
 const LS = __LS__, DUR = __DUR__, KW = __KW__;
@@ -1957,6 +1957,10 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     const R = new THREE.Mesh(new THREE.PlaneGeometry(0.48, 0.62), pg(["", "NO \"NOPE\"?", "", "...", ""])); R.rotation.x = -Math.PI / 2; R.position.set(0.26, 0.02, 0); book38.add(R); } book38.visible = false;
   const coins38 = []; for (let i = 0; i < 14; i++) { const cn = add(new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 0.02, 14), std({ color: 0xFFC83D, metalness: 0.6, roughness: 0.3 })), scene); cn.visible = false; cn.userData = { a: i * 2.4, o: (i * 0.29) % 1 }; coins38.push(cn); }
 
+  // ---- Video 38 Teil 2: Müllberg ----
+  const trash38 = new THREE.Group(); scene.add(trash38); { const cols = [0x2B2B33, 0x3A3A44, 0x4A5A3A, 0x6A4A2A, 0x22304A, 0x8A8A8A, 0xC89B6A]; for (let i = 0; i < 260; i++) { const q = mulberry(7700 + i); const h = Math.pow(q(), 0.7); const r = (1 - h) * 6 * q() + 0.3, a = q() * 6.28; const sz = 0.6 + q() * 0.9;
+    const b = i % 3 ? add(new THREE.Mesh(new THREE.SphereGeometry(sz * 0.6, 8, 6), std({ color: cols[i % 3 === 1 ? 0 : 1], roughness: 0.6 })), trash38) : box(sz, sz * 0.8, sz, std({ color: cols[2 + (i % 5)] }), 0, 0, 0, trash38); b.position.set(Math.cos(a) * r, h * 14, Math.sin(a) * r); b.rotation.set(q() * 3, q() * 3, 0); } } trash38.visible = false;
+
   // ---------- Licht
   const hemi = new THREE.HemisphereLight(0xD8E8FF, 0x6B5A40, 0.9); scene.add(hemi);
   const sun = new THREE.DirectionalLight(0xFFF1D8, 2.6); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
@@ -1996,6 +2000,29 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L18 */ { m: "day", cast: CROWD38("cheer", "laugh").concat([ME(0, 9.4, 0, "cheer", "grin")]), pops: [["NOPE", -1.6, 3.4, 11, 0.1, 0.5, 1.2], ["NOPE", 0.6, 3.6, 11.4, 0.35, 0.5, 1.2], ["NOPE", 1.6, 3.4, 10.9, 0.6, 0.5, 1.2]], cam: { p: [0.4, 2.3, 18.6], p2: [0.2, 2.2, 18.0], t: [0, 1.8, 10.6], fov: 54 } },
     /* L19 */ { m: "day", cast: [["bully1", 0, 8, 0, "money", "cry"]], coins: [0, 1.6, 8.4], pops: [["$0", 0, 3.3, 8.3, 0.3, 0.6, 1.4]], cam: { face: "bully1", d: 2.0, fov: 46, orbit: 0.3 } },
     /* L20 */ { m: "dusk", cast: [["granny", 0, 8, 0, "idle", "laugh"], ME(1.2, 8.4, -20, "wave", "grin")], pops: [["FINALLY", 0, 3.3, 8.3, 0.3, 0.7, 1.4]], cams: [{ p: [0.6, 1.8, 12], p2: [0.5, 1.8, 11.4], t: [0.4, 1.6, 8.2], fov: 48 }, { p: [1.4, 3, 15], p2: [2, 5, 19], t: [0.4, 2, 8], fov: 52 }] },
+    /* EXT */
+    /* L21 */ { m: "day", cast: [ME(0, 8, 0, "idle", "side")], cam: { face: "me", d: 2.0, fov: 46, orbit: 0.3 } },
+    /* L22 */ { m: "day", cast: [["bully1", 0, 8, 0, "idle", "evil"]], pops: [["NOPE?", 0, 3.4, 8.3, 0.3, 0.6, 1.4]], cam: { face: "bully1", d: 2.2, fov: 46, orbit: -0.3 } },
+    /* L23 */ { m: "room", cast: [["granny", RX - 0.9, 0.6, 50, "point", "serious"], ["bully1", RX + 0.8, 0.8, -50, "idle", "smirk"]], pops: [["HOMEWORK?", RX - 0.9, 3.4, 0.6, 0.2, 0.5, 1.4]], cam: { p: [RX, 2.0, 5.2], p2: [RX, 1.9, 4.6], t: [RX, 1.7, 0.7], fov: 52 } },
+    /* L24 */ { m: "room", cast: [["bully1", RX + 0.8, 0.8, -20, "no", "smirk"]], pops: [["NOPE", RX + 0.8, 3.4, 0.8, 0.3, 0.7, 1.4]], cam: { face: "bully1", d: 2.0, fov: 46, orbit: 0.3 } },
+    /* L25 */ { m: "room", cast: [["mom", RX - 0.9, 0.6, 50, "point", "angry"], ["bully1", RX + 0.8, 0.8, -50, "idle", "smirk"]], cam: { p: [RX, 2.0, 5.2], p2: [RX, 1.9, 4.6], t: [RX, 1.7, 0.7], fov: 52 } },
+    /* L26 */ { m: "room", cast: [["mom", RX - 0.9, 0.6, 30, "point", "angry"]], pops: [["CLEAN YOUR ROOM", RX - 0.9, 3.4, 0.6, 0.1, 0.4, 1.4]], cam: { face: "mom", d: 2.0, fov: 46, orbit: 0.3 } },
+    /* L27 */ { m: "room", cast: [["bully1", RX + 0.8, 0.8, -20, "no", "smirk"]], pops: [["NOPE", RX + 0.8, 3.4, 0.8, 0.1, 0.7, 1.4]], cam: { face: "bully1", d: 1.7, fov: 44, orbit: -0.2 } },
+    /* L28 */ { m: "day", cast: CROWD38("no", "smirk"), pops: [["NOPE", -1.6, 3.4, 11, 0.1, 0.5, 1.2], ["NOPE", 0.6, 3.6, 11.4, 0.3, 0.5, 1.2], ["NOPE", 1.6, 3.4, 10.9, 0.5, 0.5, 1.2], ["NOPE", -0.5, 3.9, 11.6, 0.7, 0.5, 1.2]], cam: { p: [0.2, 2.2, 18.6], p2: [0.1, 2.1, 18.0], t: [0, 1.7, 11.2], fov: 52 } },
+    /* L29 */ { m: "day", cast: [["kevin", -1.2, 9, 20, "sitSleep", "sleep"], ["linda", 1.0, 9.2, -20, "phone", "neutral"]], pops: [["NO WORK", 0, 3.2, 9, 0.2, 0.6, 1.4]], cam: { p: [0.2, 1.8, 14.6], p2: [0.1, 1.7, 14.0], t: [0, 1.0, 9], fov: 50 } },
+    /* L30 */ { m: "day", trash: [2.4, 6, 0.12], cast: [["kevin", -1.2, 9, 20, "sitSleep", "sleep"]], pops: [["TRASH", 2.4, 2.6, 6, 0.3, 0.6, 1.4]], cam: { p: [0.6, 1.8, 14.6], p2: [0.5, 1.7, 14.0], t: [0.6, 1.0, 8], fov: 50 } },
+    /* L31 */ { m: "day", trash: [0, -30, 0.15, 0.9, 1.4], cam: { p: [0.8, 2.0, 4], p2: [0.9, 2.4, 6], t: [0, 6, -30], fov: 56 } },
+    /* L32 */ { m: "day", trash: [0, -30, 0.9, 1.6, 1.2], pops: [["TO THE TOP", 0, 26, -28, 0.4, 3.0, 1.4]], cam: { p: [0.6, 1.6, 12], p2: [0.6, 2.0, 16], t: [0, 12, -30], fov: 60 } },
+    /* L33 */ { m: "day", stage: 1, trash: [0, -30, 1.6], cast: [MAY38("point", "shock")], pops: [["EMERGENCY", 0, 4.8, -9.2, 0.2, 0.6, 1.4]], cam: { p: [0.6, 3.6, -2.6], p2: [0.5, 3.6, -3.4], t: [0, 4.0, -9.4], fov: 52 } },
+    /* L34 */ { m: "day", stage: 1, trash: [0, -30, 1.6], cast: [MAY38("point", "serious"), ME(0.4, -4.4, 180, "idle", "neutral")], cam: { p: [2.0, 2.4, -1.4], p2: [1.8, 2.4, -1.8], t: [0, 2.4, -7], fov: 50 } },
+    /* L35 */ { m: "day", stage: 1, trash: [0, -30, 1.6], cast: [MAY38("hands", "sad")], pops: [["FIX IT?", 0, 4.8, -9.2, 0.2, 0.6, 1.4]], cam: STG38 },
+    /* L36 */ { m: "day", stage: 1, trash: [0, -30, 1.6], cast: [ME(0.4, -4.4, 180, "idle", "side")], cam: { p: [0.2, 2.6, -7.6], p2: [0.25, 2.6, -7.2], t: [0.4, 2.4, -4.4], fov: 46 } },
+    /* L37 */ { m: "day", stage: 1, trash: [0, -30, 1.6], cast: [ME(0.4, -4.4, 180, "idle", "smirk")], pops: [["NOPE?", 0.4, 3.4, -4.4, 0.3, 0.6, 1.4]], cam: { p: [0.3, 2.5, -6.8], p2: [0.32, 2.5, -6.5], t: [0.4, 2.5, -4.4], fov: 46 } },
+    /* L38 */ { m: "day", stage: 1, trash: [0, -30, 1.6], cast: [ME(0.4, -4.4, 180, "cheer", "grin"), MAY38("cheer", "laugh")], pops: [["YES!", 0.4, 3.4, -4.4, 0.1, 0.8, 1.4]], cam: { p: [2.6, 2.2, -1.2], p2: [2.2, 2.2, -1.6], t: [0.2, 2.4, -6.6], fov: 54 } },
+    /* L39 */ { m: "day", stage: 1, cast: [["me", 0, -9.4, 0, "idle", "serious", { y: 1.04 }]], book: [0, 2.23, -8.45, -12, 0], pops: [["NEW RULE", 0, 3.0, -8.45, 0.2, 0.3, 1.4]], cam: { p: [0.05, 3.5, -7.3], p2: [0.04, 3.4, -7.45], t: [0, 2.2, -8.45], fov: 50 } },
+    /* L40 */ { m: "day", cast: CROWD38("no", "grin"), pops: [["NOPE", 0.6, 3.6, 11.4, 0.2, 0.6, 1.2]], cam: { p: [0.2, 2.2, 18.6], p2: [0.1, 2.1, 18.0], t: [0, 1.7, 11.2], fov: 52 } },
+    /* L41 */ { m: "day", cast: [ME(0, 8, 0, "point", "grin")], pops: [["ONCE A DAY", 0, 3.4, 8.3, 0.2, 0.6, 1.4]], cam: { face: "me", d: 2.0, fov: 46, orbit: -0.3 } },
+    /* L42 */ { m: "dusk", cast: CROWD38("cheer", "laugh").concat([ME(0, 9.4, 0, "cheer", "grin")]), pops: [["MONDAY", 0, 4.0, 10.6, 0.5, 0.8, 1.4]], cams: [{ p: [0.4, 2.3, 18.6], p2: [0.2, 2.2, 18.0], t: [0, 1.8, 10.6], fov: 54 }, { p: [0.4, 3.4, 20], p2: [0.4, 5, 24], t: [0, 2, 10], fov: 54 }] },
   ];
   function LS0(i) { return LS[i]; }
 
@@ -2375,6 +2402,11 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
       if (s.grow) for (const [nm, s0, s1, at, d] of s.grow) { const ch = A[nm]; if (!ch) continue; const q = ease(clamp((u - at) / d, 0, 1)); ch.root.scale.setScalar(s0 + (s1 - s0) * q); }
     }
 
+    // ---- Video 38 Teil 2 ----
+    { trash38.visible = false;
+      if (s.trash) { trash38.visible = true; const [x, z, h0, h1, d] = s.trash; const q = d ? ease(clamp(u / d, 0, 1)) : 1; const h = h0 + ((h1 === undefined ? h0 : h1) - h0) * q; trash38.position.set(x, 0, z); trash38.scale.set(0.4 + h * 0.6, h, 0.4 + h * 0.6); }
+    }
+
     // ---- Video 25: Bens Licht, Strahl, Uhr, EKG ----
     { const beat = s.pulse ? (() => { const ph = (t * s.pulse) % 1; return 0.72 + 0.28 * (Math.exp(-((ph - 0.1) ** 2) / 0.003) + 0.6 * Math.exp(-((ph - 0.28) ** 2) / 0.003)); })() : 1;
       benL.intensity = 0; benFlare.visible = false; thinBeam.visible = false; redLamp.visible = false;
@@ -2525,6 +2557,7 @@ def line_word(i, prefix, n=1):
 SFX = []
 # leise, keine Whooshes
 for t, f, v in [
+    (KW["weird"], "glitch-1.mp3", 0.06), (KW["garbage"], "impact-bass-2.mp3", 0.1), (KW["yes2"], "chime.mp3", 0.1), (KW["mondays"], "sparkle.mp3", 0.1),
     (KW["no"], "error.mp3", 0.07), (KW["married"], "chime.mp3", 0.09), (KW["yes"], "click-soft.mp3", 0.08), (KW["running"], "pop.mp3", 0.07), (KW["money"], "click.mp3", 0.08), (KW["loophole"], "sparkle.mp3", 0.09),
     (KW["nope"], "impact-bass-1.mp3", 0.12), (KW["gasped"], "impact-bass-2.mp3", 0.1), (KW["rulebook"], "click-soft.mp3", 0.08), (KW["nope2"], "pop.mp3", 0.09), (KW["lost"], "error.mp3", 0.06), (KW["finally"], "chime.mp3", 0.09),
 ]:

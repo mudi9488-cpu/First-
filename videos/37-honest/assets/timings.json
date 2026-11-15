@@ -1,5 +1,5 @@
 {
- "duration": 34.691,
+ "duration": 61.571,
  "beats": [
   {
    "id": "hook",
@@ -850,6 +850,665 @@
    ],
    "start": 25.787,
    "end": 34.72
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now I'm so tall,",
+     "start": 35.191,
+     "end": 36.471,
+     "words": [
+      {
+       "text": "Now",
+       "start": 35.191,
+       "end": 35.431
+      },
+      {
+       "text": "I'm",
+       "start": 35.471,
+       "end": 35.671
+      },
+      {
+       "text": "so",
+       "start": 35.791,
+       "end": 35.911
+      },
+      {
+       "text": "tall,",
+       "start": 35.991,
+       "end": 36.471
+      }
+     ]
+    },
+    {
+     "show": "I have to duck under the clouds.",
+     "start": 36.511,
+     "end": 38.071,
+     "words": [
+      {
+       "text": "I",
+       "start": 36.511,
+       "end": 36.551
+      },
+      {
+       "text": "have",
+       "start": 36.631,
+       "end": 36.711
+      },
+      {
+       "text": "to",
+       "start": 36.751,
+       "end": 36.791
+      },
+      {
+       "text": "duck",
+       "start": 36.951,
+       "end": 37.111
+      },
+      {
+       "text": "under",
+       "start": 37.191,
+       "end": 37.271
+      },
+      {
+       "text": "the",
+       "start": 37.351,
+       "end": 37.431
+      },
+      {
+       "text": "clouds.",
+       "start": 37.671,
+       "end": 38.071
+      }
+     ]
+    },
+    {
+     "show": "Birds keep landing on my head.",
+     "start": 38.151,
+     "end": 39.791,
+     "words": [
+      {
+       "text": "Birds",
+       "start": 38.151,
+       "end": 38.431
+      },
+      {
+       "text": "keep",
+       "start": 38.471,
+       "end": 38.631
+      },
+      {
+       "text": "landing",
+       "start": 38.711,
+       "end": 38.951
+      },
+      {
+       "text": "on",
+       "start": 38.991,
+       "end": 39.031
+      },
+      {
+       "text": "my",
+       "start": 39.111,
+       "end": 39.271
+      },
+      {
+       "text": "head.",
+       "start": 39.431,
+       "end": 39.791
+      }
+     ]
+    },
+    {
+     "show": "Then the mayor came to see me.",
+     "start": 40.119,
+     "end": 41.391,
+     "words": [
+      {
+       "text": "Then",
+       "start": 40.119,
+       "end": 40.151
+      },
+      {
+       "text": "the",
+       "start": 40.191,
+       "end": 40.231
+      },
+      {
+       "text": "mayor",
+       "start": 40.311,
+       "end": 40.631
+      },
+      {
+       "text": "came",
+       "start": 40.711,
+       "end": 40.791
+      },
+      {
+       "text": "to",
+       "start": 40.871,
+       "end": 40.951
+      },
+      {
+       "text": "see",
+       "start": 41.031,
+       "end": 41.111
+      },
+      {
+       "text": "me.",
+       "start": 41.191,
+       "end": 41.391
+      }
+     ]
+    },
+    {
+     "show": "He was tiny.",
+     "start": 41.511,
+     "end": 42.498,
+     "words": [
+      {
+       "text": "He",
+       "start": 41.511,
+       "end": 41.591
+      },
+      {
+       "text": "was",
+       "start": 41.711,
+       "end": 41.831
+      },
+      {
+       "text": "tiny.",
+       "start": 42.151,
+       "end": 42.498
+      }
+     ]
+    },
+    {
+     "show": "He was standing on a stamp.",
+     "start": 42.524,
+     "end": 43.911,
+     "words": [
+      {
+       "text": "He",
+       "start": 42.524,
+       "end": 42.551
+      },
+      {
+       "text": "was",
+       "start": 42.631,
+       "end": 42.711
+      },
+      {
+       "text": "standing",
+       "start": 42.791,
+       "end": 43.031
+      },
+      {
+       "text": "on",
+       "start": 43.111,
+       "end": 43.151
+      },
+      {
+       "text": "a",
+       "start": 43.191,
+       "end": 43.271
+      },
+      {
+       "text": "stamp.",
+       "start": 43.431,
+       "end": 43.911
+      }
+     ]
+    },
+    {
+     "show": "He asked me,",
+     "start": 43.991,
+     "end": 44.631,
+     "words": [
+      {
+       "text": "He",
+       "start": 43.991,
+       "end": 44.071
+      },
+      {
+       "text": "asked",
+       "start": 44.151,
+       "end": 44.311
+      },
+      {
+       "text": "me,",
+       "start": 44.351,
+       "end": 44.631
+      }
+     ]
+    },
+    {
+     "show": "will you help me get my real size back?",
+     "start": 44.711,
+     "end": 46.551,
+     "words": [
+      {
+       "text": "will",
+       "start": 44.711,
+       "end": 44.791
+      },
+      {
+       "text": "you",
+       "start": 44.871,
+       "end": 44.951
+      },
+      {
+       "text": "help",
+       "start": 45.031,
+       "end": 45.111
+      },
+      {
+       "text": "me",
+       "start": 45.151,
+       "end": 45.191
+      },
+      {
+       "text": "get",
+       "start": 45.271,
+       "end": 45.351
+      },
+      {
+       "text": "my",
+       "start": 45.431,
+       "end": 45.591
+      },
+      {
+       "text": "real",
+       "start": 45.711,
+       "end": 45.831
+      },
+      {
+       "text": "size",
+       "start": 45.951,
+       "end": 46.071
+      },
+      {
+       "text": "back?",
+       "start": 46.151,
+       "end": 46.551
+      }
+     ]
+    }
+   ],
+   "start": 35.191,
+   "end": 46.551
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "I said,",
+     "start": 46.631,
+     "end": 47.191,
+     "words": [
+      {
+       "text": "I",
+       "start": 46.631,
+       "end": 46.791
+      },
+      {
+       "text": "said,",
+       "start": 46.911,
+       "end": 47.191
+      }
+     ]
+    },
+    {
+     "show": "only if you tell the {y:truth.}",
+     "start": 47.271,
+     "end": 48.631,
+     "words": [
+      {
+       "text": "only",
+       "start": 47.271,
+       "end": 47.511
+      },
+      {
+       "text": "if",
+       "start": 47.551,
+       "end": 47.591
+      },
+      {
+       "text": "you",
+       "start": 47.671,
+       "end": 47.751
+      },
+      {
+       "text": "tell",
+       "start": 47.831,
+       "end": 47.911
+      },
+      {
+       "text": "the",
+       "start": 47.991,
+       "end": 48.071
+      },
+      {
+       "text": "truth.",
+       "start": 48.271,
+       "end": 48.631
+      }
+     ]
+    },
+    {
+     "show": "He took a deep breath.",
+     "start": 48.711,
+     "end": 49.991,
+     "words": [
+      {
+       "text": "He",
+       "start": 48.711,
+       "end": 48.791
+      },
+      {
+       "text": "took",
+       "start": 48.871,
+       "end": 48.951
+      },
+      {
+       "text": "a",
+       "start": 49.031,
+       "end": 49.111
+      },
+      {
+       "text": "deep",
+       "start": 49.231,
+       "end": 49.351
+      },
+      {
+       "text": "breath.",
+       "start": 49.431,
+       "end": 49.991
+      }
+     ]
+    },
+    {
+     "show": "And he said,",
+     "start": 50.031,
+     "end": 50.711,
+     "words": [
+      {
+       "text": "And",
+       "start": 50.031,
+       "end": 50.071
+      },
+      {
+       "text": "he",
+       "start": 50.151,
+       "end": 50.231
+      },
+      {
+       "text": "said,",
+       "start": 50.311,
+       "end": 50.711
+      }
+     ]
+    },
+    {
+     "show": "I never paid my {r:taxes.}",
+     "start": 50.791,
+     "end": 52.391,
+     "words": [
+      {
+       "text": "I",
+       "start": 50.791,
+       "end": 50.951
+      },
+      {
+       "text": "never",
+       "start": 51.071,
+       "end": 51.191
+      },
+      {
+       "text": "paid",
+       "start": 51.311,
+       "end": 51.431
+      },
+      {
+       "text": "my",
+       "start": 51.511,
+       "end": 51.591
+      },
+      {
+       "text": "taxes.",
+       "start": 51.671,
+       "end": 52.391
+      }
+     ]
+    },
+    {
+     "show": "He grew back instantly.",
+     "start": 52.471,
+     "end": 53.831,
+     "words": [
+      {
+       "text": "He",
+       "start": 52.471,
+       "end": 52.551
+      },
+      {
+       "text": "grew",
+       "start": 52.591,
+       "end": 52.791
+      },
+      {
+       "text": "back",
+       "start": 52.911,
+       "end": 53.031
+      },
+      {
+       "text": "instantly.",
+       "start": 53.111,
+       "end": 53.831
+      }
+     ]
+    },
+    {
+     "show": "Then Kevin admitted",
+     "start": 53.911,
+     "end": 54.631,
+     "words": [
+      {
+       "text": "Then",
+       "start": 53.911,
+       "end": 53.991
+      },
+      {
+       "text": "Kevin",
+       "start": 54.071,
+       "end": 54.231
+      },
+      {
+       "text": "admitted",
+       "start": 54.311,
+       "end": 54.631
+      }
+     ]
+    },
+    {
+     "show": "he never did his homework.",
+     "start": 54.711,
+     "end": 55.831,
+     "words": [
+      {
+       "text": "he",
+       "start": 54.711,
+       "end": 54.791
+      },
+      {
+       "text": "never",
+       "start": 54.871,
+       "end": 55.031
+      },
+      {
+       "text": "did",
+       "start": 55.071,
+       "end": 55.111
+      },
+      {
+       "text": "his",
+       "start": 55.191,
+       "end": 55.271
+      },
+      {
+       "text": "homework.",
+       "start": 55.351,
+       "end": 55.831
+      }
+     ]
+    },
+    {
+     "show": "He grew right out of his shoebox.",
+     "start": 55.911,
+     "end": 57.431,
+     "words": [
+      {
+       "text": "He",
+       "start": 55.911,
+       "end": 55.991
+      },
+      {
+       "text": "grew",
+       "start": 56.071,
+       "end": 56.231
+      },
+      {
+       "text": "right",
+       "start": 56.311,
+       "end": 56.471
+      },
+      {
+       "text": "out",
+       "start": 56.511,
+       "end": 56.551
+      },
+      {
+       "text": "of",
+       "start": 56.591,
+       "end": 56.631
+      },
+      {
+       "text": "his",
+       "start": 56.711,
+       "end": 56.791
+      },
+      {
+       "text": "shoebox.",
+       "start": 56.831,
+       "end": 57.431
+      }
+     ]
+    }
+   ],
+   "start": 46.631,
+   "end": 57.431
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now everyone in town tells the truth.",
+     "start": 57.511,
+     "end": 59.404,
+     "words": [
+      {
+       "text": "Now",
+       "start": 57.511,
+       "end": 57.751
+      },
+      {
+       "text": "everyone",
+       "start": 57.831,
+       "end": 58.151
+      },
+      {
+       "text": "in",
+       "start": 58.231,
+       "end": 58.311
+      },
+      {
+       "text": "town",
+       "start": 58.431,
+       "end": 58.551
+      },
+      {
+       "text": "tells",
+       "start": 58.631,
+       "end": 58.791
+      },
+      {
+       "text": "the",
+       "start": 58.831,
+       "end": 58.871
+      },
+      {
+       "text": "truth.",
+       "start": 58.951,
+       "end": 59.404
+      }
+     ]
+    },
+    {
+     "show": "And grandma knits ugly sweaters",
+     "start": 59.458,
+     "end": 60.791,
+     "words": [
+      {
+       "text": "And",
+       "start": 59.458,
+       "end": 59.511
+      },
+      {
+       "text": "grandma",
+       "start": 59.631,
+       "end": 59.831
+      },
+      {
+       "text": "knits",
+       "start": 59.911,
+       "end": 60.151
+      },
+      {
+       "text": "ugly",
+       "start": 60.231,
+       "end": 60.391
+      },
+      {
+       "text": "sweaters",
+       "start": 60.471,
+       "end": 60.791
+      }
+     ]
+    },
+    {
+     "show": "for {y:everybody.}",
+     "start": 60.871,
+     "end": 61.671,
+     "words": [
+      {
+       "text": "for",
+       "start": 60.871,
+       "end": 60.951
+      },
+      {
+       "text": "everybody.",
+       "start": 61.031,
+       "end": 61.671
+      }
+     ]
+    }
+   ],
+   "start": 57.511,
+   "end": 61.671
   }
  ]
 }

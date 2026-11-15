@@ -1,5 +1,5 @@
 {
- "duration": 36.754,
+ "duration": 64.392,
  "beats": [
   {
    "id": "hook",
@@ -957,6 +957,628 @@
    ],
    "start": 29.52,
    "end": 36.8
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "But being Tung is not easy.",
+     "start": 37.104,
+     "end": 38.864,
+     "words": [
+      {
+       "text": "But",
+       "start": 37.104,
+       "end": 37.237
+      },
+      {
+       "text": "being",
+       "start": 37.264,
+       "end": 37.48
+      },
+      {
+       "text": "Tung",
+       "start": 37.504,
+       "end": 37.824
+      },
+      {
+       "text": "is",
+       "start": 37.904,
+       "end": 38.064
+      },
+      {
+       "text": "not",
+       "start": 38.144,
+       "end": 38.331
+      },
+      {
+       "text": "easy.",
+       "start": 38.384,
+       "end": 38.864
+      }
+     ]
+    },
+    {
+     "show": "Everybody runs away when you say hi.",
+     "start": 38.984,
+     "end": 40.864,
+     "words": [
+      {
+       "text": "Everybody",
+       "start": 38.984,
+       "end": 39.424
+      },
+      {
+       "text": "runs",
+       "start": 39.504,
+       "end": 39.664
+      },
+      {
+       "text": "away",
+       "start": 39.744,
+       "end": 39.984
+      },
+      {
+       "text": "when",
+       "start": 40.064,
+       "end": 40.144
+      },
+      {
+       "text": "you",
+       "start": 40.184,
+       "end": 40.224
+      },
+      {
+       "text": "say",
+       "start": 40.304,
+       "end": 40.384
+      },
+      {
+       "text": "hi.",
+       "start": 40.464,
+       "end": 40.864
+      }
+     ]
+    },
+    {
+     "show": "Dogs bark at you.",
+     "start": 40.944,
+     "end": 41.984,
+     "words": [
+      {
+       "text": "Dogs",
+       "start": 40.944,
+       "end": 41.264
+      },
+      {
+       "text": "bark",
+       "start": 41.344,
+       "end": 41.584
+      },
+      {
+       "text": "at",
+       "start": 41.624,
+       "end": 41.664
+      },
+      {
+       "text": "you.",
+       "start": 41.744,
+       "end": 41.984
+      }
+     ]
+    },
+    {
+     "show": "And every night,",
+     "start": 42.064,
+     "end": 42.784,
+     "words": [
+      {
+       "text": "And",
+       "start": 42.064,
+       "end": 42.144
+      },
+      {
+       "text": "every",
+       "start": 42.224,
+       "end": 42.384
+      },
+      {
+       "text": "night,",
+       "start": 42.544,
+       "end": 42.784
+      }
+     ]
+    },
+    {
+     "show": "your arms start drumming by themselves.",
+     "start": 42.904,
+     "end": 44.944,
+     "words": [
+      {
+       "text": "your",
+       "start": 42.904,
+       "end": 43.024
+      },
+      {
+       "text": "arms",
+       "start": 43.104,
+       "end": 43.344
+      },
+      {
+       "text": "start",
+       "start": 43.464,
+       "end": 43.584
+      },
+      {
+       "text": "drumming",
+       "start": 43.664,
+       "end": 44.064
+      },
+      {
+       "text": "by",
+       "start": 44.144,
+       "end": 44.224
+      },
+      {
+       "text": "themselves.",
+       "start": 44.264,
+       "end": 44.944
+      }
+     ]
+    },
+    {
+     "show": "Tung, tung, tung.",
+     "start": 45.024,
+     "end": 46.224,
+     "words": [
+      {
+       "text": "Tung,",
+       "start": 45.024,
+       "end": 45.344
+      },
+      {
+       "text": "tung,",
+       "start": 45.424,
+       "end": 45.744
+      },
+      {
+       "text": "tung.",
+       "start": 45.824,
+       "end": 46.224
+      }
+     ]
+    },
+    {
+     "show": "The whole street wakes up.",
+     "start": 46.304,
+     "end": 47.744,
+     "words": [
+      {
+       "text": "The",
+       "start": 46.304,
+       "end": 46.384
+      },
+      {
+       "text": "whole",
+       "start": 46.464,
+       "end": 46.704
+      },
+      {
+       "text": "street",
+       "start": 46.784,
+       "end": 47.104
+      },
+      {
+       "text": "wakes",
+       "start": 47.184,
+       "end": 47.424
+      },
+      {
+       "text": "up.",
+       "start": 47.504,
+       "end": 47.744
+      }
+     ]
+    }
+   ],
+   "start": 37.104,
+   "end": 47.744
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "Meanwhile, Tung was in my body,",
+     "start": 47.984,
+     "end": 49.584,
+     "words": [
+      {
+       "text": "Meanwhile,",
+       "start": 47.984,
+       "end": 48.464
+      },
+      {
+       "text": "Tung",
+       "start": 48.544,
+       "end": 48.704
+      },
+      {
+       "text": "was",
+       "start": 48.784,
+       "end": 48.864
+      },
+      {
+       "text": "in",
+       "start": 48.944,
+       "end": 49.024
+      },
+      {
+       "text": "my",
+       "start": 49.104,
+       "end": 49.184
+      },
+      {
+       "text": "body,",
+       "start": 49.264,
+       "end": 49.584
+      }
+     ]
+    },
+    {
+     "show": "getting straight A's at school.",
+     "start": 49.704,
+     "end": 50.984,
+     "words": [
+      {
+       "text": "getting",
+       "start": 49.704,
+       "end": 49.824
+      },
+      {
+       "text": "straight",
+       "start": 49.904,
+       "end": 50.144
+      },
+      {
+       "text": "A's",
+       "start": 50.224,
+       "end": 50.384
+      },
+      {
+       "text": "at",
+       "start": 50.424,
+       "end": 50.464
+      },
+      {
+       "text": "school.",
+       "start": 50.544,
+       "end": 50.984
+      }
+     ]
+    }
+   ],
+   "start": 47.984,
+   "end": 50.984
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I made a plan.",
+     "start": 51.168,
+     "end": 52.144,
+     "words": [
+      {
+       "text": "So",
+       "start": 51.168,
+       "end": 51.184
+      },
+      {
+       "text": "I",
+       "start": 51.264,
+       "end": 51.344
+      },
+      {
+       "text": "made",
+       "start": 51.424,
+       "end": 51.504
+      },
+      {
+       "text": "a",
+       "start": 51.544,
+       "end": 51.584
+      },
+      {
+       "text": "plan.",
+       "start": 51.664,
+       "end": 52.144
+      }
+     ]
+    },
+    {
+     "show": "I grabbed Kevin's pepper.",
+     "start": 52.224,
+     "end": 53.344,
+     "words": [
+      {
+       "text": "I",
+       "start": 52.224,
+       "end": 52.304
+      },
+      {
+       "text": "grabbed",
+       "start": 52.384,
+       "end": 52.624
+      },
+      {
+       "text": "Kevin's",
+       "start": 52.744,
+       "end": 52.944
+      },
+      {
+       "text": "pepper.",
+       "start": 53.024,
+       "end": 53.344
+      }
+     ]
+    },
+    {
+     "show": "I stood right next to Tung.",
+     "start": 53.424,
+     "end": 54.784,
+     "words": [
+      {
+       "text": "I",
+       "start": 53.424,
+       "end": 53.504
+      },
+      {
+       "text": "stood",
+       "start": 53.624,
+       "end": 53.744
+      },
+      {
+       "text": "right",
+       "start": 53.824,
+       "end": 53.984
+      },
+      {
+       "text": "next",
+       "start": 54.064,
+       "end": 54.224
+      },
+      {
+       "text": "to",
+       "start": 54.264,
+       "end": 54.304
+      },
+      {
+       "text": "Tung.",
+       "start": 54.384,
+       "end": 54.784
+      }
+     ]
+    },
+    {
+     "show": "And I sneezed.",
+     "start": 54.824,
+     "end": 55.744,
+     "words": [
+      {
+       "text": "And",
+       "start": 54.824,
+       "end": 54.864
+      },
+      {
+       "text": "I",
+       "start": 54.984,
+       "end": 55.104
+      },
+      {
+       "text": "sneezed.",
+       "start": 55.144,
+       "end": 55.744
+      }
+     ]
+    }
+   ],
+   "start": 51.168,
+   "end": 55.744
+  },
+  {
+   "id": "p2d",
+   "label": "",
+   "lines": [
+    {
+     "show": "But Kevin walked in",
+     "start": 55.881,
+     "end": 56.544,
+     "words": [
+      {
+       "text": "But",
+       "start": 55.881,
+       "end": 55.904
+      },
+      {
+       "text": "Kevin",
+       "start": 55.984,
+       "end": 56.224
+      },
+      {
+       "text": "walked",
+       "start": 56.304,
+       "end": 56.464
+      },
+      {
+       "text": "in",
+       "start": 56.504,
+       "end": 56.544
+      }
+     ]
+    },
+    {
+     "show": "at the exact same time.",
+     "start": 56.624,
+     "end": 57.904,
+     "words": [
+      {
+       "text": "at",
+       "start": 56.624,
+       "end": 56.664
+      },
+      {
+       "text": "the",
+       "start": 56.704,
+       "end": 56.784
+      },
+      {
+       "text": "exact",
+       "start": 56.944,
+       "end": 57.104
+      },
+      {
+       "text": "same",
+       "start": 57.184,
+       "end": 57.424
+      },
+      {
+       "text": "time.",
+       "start": 57.624,
+       "end": 57.904
+      }
+     ]
+    },
+    {
+     "show": "{r:Achoo!}",
+     "start": 58.024,
+     "end": 58.624,
+     "words": [
+      {
+       "text": "Achoo!",
+       "start": 58.024,
+       "end": 58.624
+      }
+     ]
+    },
+    {
+     "show": "Now Kevin is Tung.",
+     "start": 58.704,
+     "end": 59.904,
+     "words": [
+      {
+       "text": "Now",
+       "start": 58.704,
+       "end": 58.944
+      },
+      {
+       "text": "Kevin",
+       "start": 59.024,
+       "end": 59.264
+      },
+      {
+       "text": "is",
+       "start": 59.344,
+       "end": 59.424
+      },
+      {
+       "text": "Tung.",
+       "start": 59.504,
+       "end": 59.904
+      }
+     ]
+    },
+    {
+     "show": "Tung is Kevin.",
+     "start": 59.944,
+     "end": 60.904,
+     "words": [
+      {
+       "text": "Tung",
+       "start": 59.944,
+       "end": 60.224
+      },
+      {
+       "text": "is",
+       "start": 60.304,
+       "end": 60.464
+      },
+      {
+       "text": "Kevin.",
+       "start": 60.664,
+       "end": 60.904
+      }
+     ]
+    },
+    {
+     "show": "And I'm finally {y:me} again.",
+     "start": 60.944,
+     "end": 62.624,
+     "words": [
+      {
+       "text": "And",
+       "start": 60.944,
+       "end": 61.104
+      },
+      {
+       "text": "I'm",
+       "start": 61.264,
+       "end": 61.504
+      },
+      {
+       "text": "finally",
+       "start": 61.584,
+       "end": 61.984
+      },
+      {
+       "text": "me",
+       "start": 62.064,
+       "end": 62.144
+      },
+      {
+       "text": "again.",
+       "start": 62.304,
+       "end": 62.624
+      }
+     ]
+    },
+    {
+     "show": "Kevin hasn't stopped drumming since.",
+     "start": 62.704,
+     "end": 64.464,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 62.704,
+       "end": 62.944
+      },
+      {
+       "text": "hasn't",
+       "start": 63.024,
+       "end": 63.184
+      },
+      {
+       "text": "stopped",
+       "start": 63.264,
+       "end": 63.424
+      },
+      {
+       "text": "drumming",
+       "start": 63.504,
+       "end": 63.824
+      },
+      {
+       "text": "since.",
+       "start": 63.904,
+       "end": 64.464
+      }
+     ]
+    }
+   ],
+   "start": 55.881,
+   "end": 64.464
   }
  ]
 }

@@ -34,7 +34,7 @@ def wt(line, prefix, n=1):
     raise KeyError((line, prefix))
 
 
-KW = {"smaller": wt(2, "smaller"), "shoebox": wt(4, "shoebox"), "cat": wt(6, "cat"), "find": wt(8, "find"), "tallest": wt(10, "tallest"), "ugliest": wt(12, "ugliest"), "cries": wt(16, "cries"), "shrink": wt(18, "shrink"), "world": wt(21, "world"), "honest": wt(23, "honest"), "cookie": wt(24, "cookie"), "taller": wt(25, "taller")}
+KW = {"smaller": wt(2, "smaller"), "shoebox": wt(4, "shoebox"), "cat": wt(6, "cat"), "find": wt(8, "find"), "tallest": wt(10, "tallest"), "ugliest": wt(12, "ugliest"), "cries": wt(16, "cries"), "shrink": wt(18, "shrink"), "world": wt(21, "world"), "honest": wt(23, "honest"), "cookie": wt(24, "cookie"), "taller": wt(25, "taller"), "taxes2": wt(38, "taxes"), "instantly": wt(39, "instantly"), "everybody": wt(45, "everybody")}
 
 WORLD_JS = r"""
 const LS = __LS__, DUR = __DUR__, KW = __KW__;
@@ -1948,6 +1948,11 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const sweater = new THREE.Mesh(new THREE.PlaneGeometry(1.0, 0.9), new THREE.MeshStandardMaterial({ map: sweaterTex, transparent: true, alphaTest: 0.5, side: THREE.DoubleSide, roughness: 0.9 })); scene.add(sweater); sweater.visible = false;
   const cookie = new THREE.Group(); scene.add(cookie); { const ck = add(new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.14, 0.04, 20), std({ color: 0xD9A25B })), cookie); ck.rotation.x = Math.PI / 2; for (let i = 0; i < 6; i++) box(0.035, 0.035, 0.02, std({ color: 0x3B2210 }), Math.cos(i * 1.7) * 0.08, Math.sin(i * 1.7) * 0.08, 0.02, cookie, false); } cookie.visible = false;
 
+  // ---- Video 37 Teil 2: Briefmarke, Pullover für alle ----
+  const stamp37 = (() => { const c = document.createElement("canvas"); c.width = 200; c.height = 240; const g = c.getContext("2d"); g.fillStyle = "#FFFFFF"; g.fillRect(0, 0, 200, 240); g.fillStyle = "#E63946"; g.fillRect(16, 16, 168, 208); g.fillStyle = "#FFD23F"; g.beginPath(); g.arc(100, 110, 50, 0, 7); g.fill(); g.fillStyle = "#FFFFFF"; g.font = "bold 40px Lilita"; g.textAlign = "center"; g.fillText("50c", 100, 205);
+    const tx = new THREE.CanvasTexture(c); tx.colorSpace = THREE.SRGBColorSpace; const m = new THREE.Mesh(new THREE.BoxGeometry(0.5, 0.02, 0.6), [std({ color: 0xFFFFFF }), std({ color: 0xFFFFFF }), std({ map: tx }), std({ color: 0xFFFFFF }), std({ color: 0xFFFFFF }), std({ color: 0xFFFFFF })]); scene.add(m); m.visible = false; return m; })();
+  const sweaters37 = []; for (let i = 0; i < 6; i++) { const sw = sweater.clone(); sw.visible = false; scene.add(sw); sweaters37.push(sw); }
+
   // ---------- Licht
   const hemi = new THREE.HemisphereLight(0xD8E8FF, 0x6B5A40, 0.9); scene.add(hemi);
   const sun = new THREE.DirectionalLight(0xFFF1D8, 2.6); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
@@ -1990,6 +1995,25 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L23 */ { m: "kitchen", cast: [GR("clap", "laugh"), MEK("idle", "grin")], pops: [["HONEST", KX + 0.7, 3.0, 0.9, 0.4, 0.4, 1.4]], cam: { p: [KX + 0.1, 2.3, 3.2], p2: [KX + 0.1, 2.2, 2.9], t: [KX + 0.1, 1.85, 0.9], fov: 62 } },
     /* L24 */ { m: "kitchen", cookie: [KX + 0.35, 1.3, 1.4, -15], cast: [GR("give", "smile"), MEK("idle", "grin")], cam: { p: [KX + 0.2, 1.5, 2.4], p2: [KX + 0.25, 1.45, 2.2], t: [KX + 0.35, 1.3, 1.4], fov: 42 } },
     /* L25 */ { m: "dusk", cast: [ME(0, 8, 0, "cheer", "laugh"), ["kevin", -1.6, 8.6, 20, "lookUp", "shock", { sc: 0.3 }], ["linda", 1.6, 8.6, -20, "lookUp", "shock", { sc: 0.3 }]], grow: [["me", 1, 1.9, 0.2, 0.8]], pops: [["TALLER", 0, 6.4, 8.3, 0.5, 0.8, 1.4]], cams: [{ p: [0.8, 1.0, 13.6], p2: [0.6, 1.2, 13.0], t: [0, 2.6, 8], fov: 54 }, { p: [1.2, 0.8, 16], p2: [1.4, 1.0, 18], t: [0, 3.6, 8], fov: 56 }] },
+    /* EXT */
+    /* L26 */ { m: "day", cast: [ME(0, 6, 0, "idle", "grin", { sc: 4.5 }), ["kevin", 1.6, 10, -20, "lookUp", "shock"]], pops: [["SO TALL", 0, 14.5, 6.5, 0.2, 2.0, 1.4]], cam: { p: [2.6, 1.2, 16], p2: [2.4, 1.4, 15.2], t: [0, 7, 6], fov: 60 } },
+    /* L27 */ { m: "day", cast: [ME(0, 6, 0, "crouch", "scared", { sc: 4.5 })], pops: [["DUCK", 0, 13, 6.5, 0.3, 1.8, 1.4]], cam: { p: [6, 9, 22], p2: [6.4, 10, 24], t: [0, 8, 6], fov: 56 } },
+    /* L28 */ { m: "day", cast: [ME(0, 6, 0, "idle", "side", { sc: 4.5 })], pops: [["TWEET", -1.2, 13.4, 6.2, 0.1, 0.8], ["TWEET", 1.0, 13.8, 6.2, 0.4, 0.8], ["TWEET", 0, 14.4, 6.2, 0.7, 0.8]], cam: { p: [3.6, 10.6, 19], p2: [3.4, 10.6, 18.4], t: [0, 10.8, 6], fov: 50 } },
+    /* L29 */ { m: "day", cast: [ME(0, 6, 0, "idle", "neutral", { sc: 4.5 }), ["mayor", 0.4, 9.2, 180, "walk", "serious", { sc: 0.08, y: 0.02, to: [0.4, 8.6], dur: 1.2 }]], stamp: [0.4, 8.6, 0], cam: { p: [0.9, 0.35, 10.6], p2: [0.85, 0.3, 10.2], t: [0.3, 2.2, 6], fov: 60 } },
+    /* L30 */ { m: "day", cast: [["mayor", 0.4, 8.6, 0, "idle", "serious", { sc: 0.08, y: 0.02 }]], stamp: [0.4, 8.6, 0], pops: [["TINY", 0.4, 0.42, 8.6, 0.2, 0.08, 1.4]], cam: { p: [0.5, 0.2, 9.4], p2: [0.48, 0.18, 9.2], t: [0.4, 0.12, 8.6], fov: 40 } },
+    /* L31 */ { m: "day", cast: [["mayor", 0.4, 8.6, 0, "idle", "smirk", { sc: 0.08, y: 0.02 }]], stamp: [0.4, 8.6, 0], pops: [["STAMP", 0.4, 0.4, 8.6, 0.2, 0.08, 1.4]], cam: { p: [0.6, 0.55, 9.2], p2: [0.58, 0.5, 9.1], t: [0.4, 0.05, 8.6], fov: 44 } },
+    /* L32 */ { m: "day", cast: [["mayor", 0.4, 8.6, 0, "point", "serious", { sc: 0.08, y: 0.02 }]], stamp: [0.4, 8.6, 0], cam: { p: [0.45, 0.18, 9.1], p2: [0.44, 0.17, 9.0], t: [0.4, 0.14, 8.6], fov: 40 } },
+    /* L33 */ { m: "day", cast: [["mayor", 0.4, 8.6, 0, "hands", "sad", { sc: 0.08, y: 0.02 }]], stamp: [0.4, 8.6, 0], pops: [["HELP?", 0.4, 0.4, 8.6, 0.2, 0.08, 1.4]], cam: { p: [0.45, 0.18, 9.0], p2: [0.44, 0.17, 8.95], t: [0.4, 0.14, 8.6], fov: 40 } },
+    /* L34 */ { m: "day", cast: [ME(0, 6, 0, "idle", "serious", { sc: 4.5 })], cam: { p: [0.6, 8.6, 13.6], p2: [0.5, 8.6, 13.0], t: [0, 9.2, 6], fov: 46 } },
+    /* L35 */ { m: "day", cast: [ME(0, 6, 0, "point", "serious", { sc: 4.5 })], pops: [["TRUTH", 0, 14.6, 6.5, 0.3, 2.0, 1.4]], cam: { p: [0.6, 8.6, 15.4], p2: [0.5, 8.6, 14.8], t: [0, 9.6, 6], fov: 50 } },
+    /* L36 */ { m: "day", cast: [["mayor", 0.4, 8.6, 0, "idle", "holdin", { sc: 0.08, y: 0.02 }]], stamp: [0.4, 8.6, 0], cam: { p: [0.45, 0.18, 9.0], p2: [0.44, 0.17, 8.95], t: [0.4, 0.14, 8.6], fov: 40 } },
+    /* L38 */ { m: "day", cast: [["mayor", 0.4, 8.6, 0, "hands", "cry", { sc: 0.08, y: 0.02 }]], stamp: [0.4, 8.6, 0], pops: [["NO TAXES", 0.4, 0.42, 8.6, 0.3, 0.08, 1.4]], cam: { p: [0.45, 0.18, 9.0], p2: [0.44, 0.17, 8.95], t: [0.4, 0.14, 8.6], fov: 40 } },
+    /* L39 */ { m: "day", cast: [["mayor", 0.4, 8.6, 0, "cheer", "shock", { y: 0.02 }]], grow: [["mayor", 0.08, 1, 0.1, 0.5]], stamp: [0.4, 8.6, 0], pops: [["POP!", 0.4, 3.4, 8.6, 0.4, 0.8, 1.4]], cam: { p: [0.8, 1.4, 13], p2: [0.7, 1.5, 12.6], t: [0.4, 1.6, 8.6], fov: 50 } },
+    /* L40 */ { m: "room", shoebox: [RX + 0.4, 0.8, 10], cast: [["kevin", RX + 0.3, 0.8, 10, "hands", "sad", { sc: 0.15, y: 0.04 }]], pops: [["I LIED", RX + 0.4, 0.9, 0.8, 0.3, 0.2, 1.4]], cam: { p: [RX + 0.5, 1.5, 2.2], p2: [RX + 0.45, 1.3, 1.9], t: [RX + 0.4, 0.1, 0.8], fov: 44 } },
+    /* L42 */ { m: "room", shoebox: [RX + 0.4, 0.8, 10], cast: [["kevin", RX + 0.3, 0.8, 10, "cheer", "laugh", { y: 0.04 }]], grow: [["kevin", 0.15, 1, 0.15, 0.6]], pops: [["FREE!", RX + 0.3, 3.4, 0.8, 0.5, 0.6, 1.4]], cam: { p: [RX + 0.6, 1.9, 4.8], p2: [RX + 0.5, 1.8, 4.4], t: [RX + 0.3, 1.4, 0.8], fov: 50 } },
+    /* L43 */ { m: "day", cast: [["kevin", -1.6, 8.4, 20, "cheer", "grin"], ["mayor", -0.5, 8.0, 5, "clap", "smile"], ["linda", 0.6, 8.1, -5, "cheer", "smile"], ["mom", 1.7, 8.4, -20, "clap", "grin"]], pops: [["TRUTH", 0, 3.6, 8.2, 0.3, 0.8, 1.4]], cam: { p: [0.2, 2.2, 15.4], p2: [0.1, 2.1, 14.8], t: [0, 1.7, 8.2], fov: 52 } },
+    /* L44 */ { m: "kitchen", sweater: SW, cast: [GR("give", "grin")], pops: [["KNIT KNIT", KX + 0.7, 3.0, 0.9, 0.2, 0.4, 1.4]], cam: { face: "granny", d: 2.2, fov: 46, orbit: 0.3 } },
+    /* L45 */ { m: "dusk", cast: [ME(0, 8.6, 0, "cheer", "laugh"), ["kevin", -1.6, 8.2, 15, "cheer", "grin"], ["mayor", -0.8, 7.4, 5, "clap", "smile"], ["linda", 0.9, 7.4, -5, "cheer", "smile"], ["granny", 1.7, 8.2, -15, "clap", "laugh"]], swAll: ["me", "kevin", "mayor", "linda", "granny"], pops: [["UGLY SWEATERS", 0, 3.8, 8, 0.4, 0.7, 1.4]], cams: [{ p: [0.2, 2.2, 15.4], p2: [0.1, 2.1, 14.8], t: [0, 1.7, 8.2], fov: 52 }, { p: [0.2, 3.4, 18], p2: [0.2, 5, 22], t: [0, 2, 8], fov: 54 }] },
   ];
   function LS0(i) { return LS[i]; }
 
@@ -2361,6 +2385,12 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
       if (s.grow) for (const [nm, s0, s1, at, d] of s.grow) { const ch = A[nm]; if (!ch) continue; const q = ease(clamp((u - at) / d, 0, 1)); ch.root.scale.setScalar(s0 + (s1 - s0) * q); }
     }
 
+    // ---- Video 37 Teil 2 ----
+    { stamp37.visible = false; sweaters37.forEach((w) => (w.visible = false));
+      if (s.stamp) { stamp37.visible = true; stamp37.position.set(s.stamp[0], 0.01, s.stamp[1]); stamp37.rotation.y = (s.stamp[2] || 0) * D2R; }
+      if (s.swAll) s.swAll.forEach((nm, k) => { const ch = A[nm]; if (!ch || !ch.root.visible) return; const w = sweaters37[k]; w.visible = true; const sc = ch.root.scale.x, ry = ch.root.rotation.y; w.position.set(ch.root.position.x + Math.sin(ry) * 0.33 * sc, ch.root.position.y + 1.42 * sc, ch.root.position.z + Math.cos(ry) * 0.33 * sc); w.rotation.set(0, ry, 0); w.scale.setScalar(sc * 1.15); });
+    }
+
     // ---- Video 25: Bens Licht, Strahl, Uhr, EKG ----
     { const beat = s.pulse ? (() => { const ph = (t * s.pulse) % 1; return 0.72 + 0.28 * (Math.exp(-((ph - 0.1) ** 2) / 0.003) + 0.6 * Math.exp(-((ph - 0.28) ** 2) / 0.003)); })() : 1;
       benL.intensity = 0; benFlare.visible = false; thinBeam.visible = false; redLamp.visible = false;
@@ -2511,6 +2541,7 @@ def line_word(i, prefix, n=1):
 SFX = []
 # leise, keine Whooshes
 for t, f, v in [
+    (KW["taxes2"], "impact-bass-1.mp3", 0.1), (KW["instantly"], "pop.mp3", 0.1), (KW["everybody"], "sparkle.mp3", 0.1),
     (KW["smaller"], "pop.mp3", 0.08), (KW["shoebox"], "click-soft.mp3", 0.08), (KW["find"], "glitch-1.mp3", 0.06), (KW["tallest"], "sparkle.mp3", 0.09), (KW["ugliest"], "impact-bass-1.mp3", 0.1),
     (KW["cries"], "error.mp3", 0.06), (KW["shrink"], "pop.mp3", 0.09), (KW["world"], "impact-bass-2.mp3", 0.12), (KW["honest"], "chime.mp3", 0.1), (KW["cookie"], "click.mp3", 0.08), (KW["taller"], "sparkle.mp3", 0.1),
 ]:

@@ -34,7 +34,7 @@ def wt(line, prefix, n=1):
     raise KeyError((line, prefix))
 
 
-KW = {"pizza": wt(1, "pizza"), "whole": wt(12, "whole"), "slipped": wt(15, "slipped"), "confirmed": wt(17, "order"), "dark": wt(19, "dark"), "rang": wt(21, "rang"), "biggest": wt(23, "biggest"), "forever": wt(27, "forever"), "donut": wt(33, "donut")}
+KW = {"pizza": wt(1, "pizza"), "whole": wt(12, "whole"), "slipped": wt(15, "slipped"), "confirmed": wt(17, "order"), "dark": wt(19, "dark"), "rang": wt(21, "rang"), "biggest": wt(23, "biggest"), "forever": wt(27, "forever"), "donut": wt(33, "donut"), "mayor2": wt(40, "mayor"), "sprinkles": wt(47, "sprinkles"), "forever2": wt(51, "forever")}
 
 WORLD_JS = r"""
 const LS = __LS__, DUR = __DUR__, KW = __KW__;
@@ -1924,6 +1924,11 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     const ig = new THREE.PointLight(0xFFD27A, 0, 12, 1.4); ig.position.set(0, 2, 0); pbox.add(ig); pbox.userData.ig = ig; } pbox.visible = false;
   const slice = new THREE.Mesh(new THREE.CircleGeometry(0.35, 12, -0.4, 0.8), new THREE.MeshStandardMaterial({ map: PZT[0], side: THREE.DoubleSide })); scene.add(slice); slice.visible = false;
 
+  // ---- Video 35 Teil 2: Drachen, Hut, Streusel ----
+  const kite35 = new THREE.Group(); scene.add(kite35); { const km = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), basic({ color: 0xFF4D8D, side: THREE.DoubleSide })); km.rotation.z = Math.PI / 4; km.scale.set(0.9, 1.2, 1); kite35.add(km); for (let i = 0; i < 6; i++) { const b = box(0.12, 0.05, 0.02, basic({ color: [0xFFBE0B, 0x3A86FF][i % 2] }), 0, -0.8 - i * 0.3, 0, kite35, false); b.rotation.z = i % 2 ? 0.5 : -0.5; } } kite35.visible = false;
+  const hat35 = new THREE.Group(); scene.add(hat35); { const hm = std({ color: 0x15151C }); add(new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.3, 0.5, 16), hm), hat35).position.y = 0.25; add(new THREE.Mesh(new THREE.CylinderGeometry(0.48, 0.48, 0.04, 16), hm), hat35); add(new THREE.Mesh(new THREE.CylinderGeometry(0.31, 0.31, 0.08, 16), std({ color: 0x6A2BD9 })), hat35).position.y = 0.06; } hat35.visible = false;
+  const sprk35 = new THREE.Group(); scene.add(sprk35); for (let i = 0; i < 70; i++) { const q = mulberry(4400 + i); const a = q() * 6.28, b = q() * 3.14; const sp = box(0.1, 0.03, 0.03, basic({ color: [0xFF4D8D, 0xFFBE0B, 0x3A86FF, 0x06D6A0, 0xFFFFFF][i % 5] }), Math.cos(a) * Math.sin(b) * 0.55, 1.2 + Math.cos(b) * 1.1, Math.sin(a) * Math.sin(b) * 0.55 + 0.25, sprk35, false); sp.rotation.set(q() * 3, q() * 3, q() * 3); } sprk35.visible = false;
+
   // ---------- Licht
   const hemi = new THREE.HemisphereLight(0xD8E8FF, 0x6B5A40, 0.9); scene.add(hemi);
   const sun = new THREE.DirectionalLight(0xFFF1D8, 2.6); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
@@ -1960,6 +1965,24 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L27 */ { m: "night", win: "on", pizza: "dark", cast: [ME(-6.0, 10.4, 90, "hands", "cry")], pops: [["FOREVER", -6.0, 3.3, 10.6, 0.05, 0.9]], cam: { face: "me", d: 1.3, fov: 42, orbit: 0.3 } },
     /* L28 */ { m: "party", cr: "party", conf: [0, -2], pizza: "dark", pbox: [0, 2, 0], lidOpen: 0.0, cast: [ME(1.6, 5.4, 200, "cheer", "laugh"), ["kevin", -1.8, 5.0, 160, "drink", "grin", { slice: 1, hat: 1 }]], cams: [{ p: [4, 3.4, 10], p2: [3.4, 3.2, 9], t: [0, 0.8, 1], fov: 50 }, { p: [-6, 8, 12], p2: [-5, 7, 10], t: [0, 0.6, 0], fov: 50 }] },
     /* L31 */ { m: "night", win: "on", pizza: "donut", cast: [ME(0, 8, 160, "lookUp", "grin")], cams: [{ p: [1.4, 1.2, 11], p2: [1.2, 1.4, 10.4], t: [-6, 12, -20], fov: 50 }, { p: [2.2, 1.6, 12.4], p2: [2.0, 2.0, 11.4], t: MOONT, fov: 26 }] },
+    /* EXT */
+    /* L34 */ { m: "night", win: "on", pizza: "donut", cast: [ME(0, 8, 160, "lookUp", "serious")], pops: [["PROBLEM", -25, 47, -88, 0.3, 10, 1.4]], cams: [{ p: [1, 1.6, 10], p2: [0.8, 2.0, 9], t: MOONT, fov: 26 }] },
+    /* L35 */ { m: "night", win: "on", pizza: "donut", pops: [["HOLE", -25, 40, -86, 0.3, 4, 1.4]], cam: { p: [0.6, 3.2, 8], p2: [0.55, 3.25, 7.8], t: MOONT, fov: 11 } },
+    /* L36 */ { m: "night", win: "on", pizza: "donut", cam: { p: [6, 6, 22], p2: [5, 8, 18], t: [-12, 22, -50], fov: 52 } },
+    /* L37 */ { m: "night", win: "on", pizza: "donut", kite: [-2, 4, 4, 30, 2.2], cam: { p: [1.4, 1.0, 12], p2: [1.2, 1.2, 11.4], t: [-2, 9, 2], fov: 56 } },
+    /* L38 */ { m: "night", win: "on", pizza: "donut", kite: [0.6, 3, 7.4, 9, 1.4], cast: [["kevin", 0, 8, 0, "lookUp", "shock"]], pops: [["MY KITE!", 0, 3.4, 8.3, 0.2, 0.7, 1.4]], cam: { p: [0.8, 1.2, 13], p2: [0.6, 1.4, 12.4], t: [0.2, 3.2, 7.6], fov: 52 } },
+    /* L39 */ { m: "night", win: "on", pizza: "donut", hat35: [0.3, 3.4, 8.2, 12, 1.4], cast: [["mayor", 0, 8, 0, "lookUp", "shock"]], pops: [["MY HAT!", 0, 3.6, 8.3, 0.3, 0.7, 1.4]], cam: { p: [0.8, 1.4, 13.2], p2: [0.6, 1.6, 12.6], t: [0.2, 3.6, 7.6], fov: 52 } },
+    /* L40 */ { m: "night", win: "on", pizza: "donut", cast: [["mayor", 0, 8, 0, "up", "scared"]], flyC: [["mayor", 0, 0, 8, 14, 1.8, 0.1]], pops: [["HELP!", 0, 4.2, 8.3, 0.4, 0.8, 1.4]], cam: { p: [1.6, 1.4, 16], p2: [1.4, 1.6, 15.6], t: [0, 5, 8], fov: 58 } },
+    /* L41 */ { m: "night", win: "on", pizza: "donut", cast: [ME(0, 8, 0, "idle", "scared"), ["kevin", -1.4, 11.2, 170, "point", "angry"], ["linda", 0.2, 11.6, 180, "point", "angry"], ["granny", 1.5, 11.2, 195, "no", "angry"]], cam: { p: [0.5, 3.6, 15.8], p2: [0.4, 3.5, 15.4], t: [0, 1.6, 8], fov: 50 } },
+    /* L42 */ { m: "night", win: "on", pizza: "donut", cast: [ME(0, 8, 0, "phone", "sad", { ph35: "ok" })], pops: [["OOPS", 0, 3.3, 8.3, 0.3, 0.6, 1.4]], cam: { face: "me", d: 1.7, fov: 44, orbit: 0.3 } },
+    /* L43 */ { m: "night", win: "on", pizza: "donut", tung: [-3.2, 10.0, 0, "watch", "smile", { sc: 1.4 }], cast: [ME(-3.2, 10.0, 0, "cheer", "grin", { y: 6.9 })], cam: { p: [-1.0, 3.0, 19], p2: [-1.2, 3.4, 18], t: [-3.2, 5.6, 10], fov: 52 } },
+    /* L44 */ { m: "night", win: "on", pizza: "donut", tung: [-3.2, 10.0, 0, "block", "smile", { sc: 1.4 }], cast: [ME(-3.2, 10.0, 0, "up", "grin", { y: 6.9 })], pops: [["HIGHER", -3.2, 11.2, 10, 0.3, 1.2, 1.4]], cam: { p: [-1.6, 0.6, 15], p2: [-1.8, 0.7, 14.4], t: [-3.4, 9, 6], fov: 62 } },
+    /* L45 */ { m: "night", win: "on", pizza: "donut", tung: [-3.2, 10.0, 0, "block", "smile", { sc: 1.4 }], cast: [ME(-3.2, 10.0, 0, "up", "serious", { y: 6.9 })], cam: { p: [-2.0, 8.4, 13.4], p2: [-2.2, 8.6, 13.0], t: [-3.2, 9.0, 10], fov: 48 } },
+    /* L46 */ { m: "night", win: "on", pizza: "donut", tung: [-3.2, 10.0, 0, "block", "smile", { sc: 1.4 }], cast: [ME(-3.2, 10.0, 0, "up", "grin", { y: 6.9 }), ["mayor", -3.0, 10.2, 0, "up", "shock"]], flyC: [["mayor", -3.0, 14, 10.2, 9.6, 1.2, 0.2]], sprk: "mayor", cam: { p: [-1.0, 9.0, 16.6], p2: [-1.2, 9.2, 16.2], t: [-3.1, 10.4, 10], fov: 52 } },
+    /* L47 */ { m: "night", win: "on", pizza: "donut", cast: [["mayor", 0, 8, 0, "hands", "shock"]], sprk: "mayor", pops: [["SPRINKLES", 0, 3.4, 8.3, 0.3, 0.6, 1.4]], cam: { face: "mayor", d: 1.8, fov: 44, orbit: 0.3 } },
+    /* L48 */ { m: "night", win: "on", pizza: "donut", cast: [["mayor", 0, 8, 160, "point", "grin"]], sprk: "mayor", cams: [{ p: [1, 1.2, 11.4], p2: [0.8, 1.4, 10.8], t: [-6, 12, -20], fov: 50 }] },
+    /* L50 */ { m: "night", win: "on", pizza: "donut", tung: [-3.2, 10.0, 90, "block", "smirk", { sc: 1.4 }], pbox: [-3.2, 10.0, -90], pboxY: 7.0, cast: [["mayor", 0, 10.4, -90, "hands", "sad"]], sprk: "mayor", pops: [["ALLOWANCE", -1.6, 6.6, 10, 0.2, 1.0, 1.6]], cam: { p: [3.2, 3.0, 19], p2: [2.8, 3.2, 18.2], t: [-1.6, 3.6, 10], fov: 54 } },
+    /* L51 */ { m: "night", win: "on", pizza: "donut", cast: [["mayor", 0, 8, 0, "hands", "cry"]], sprk: "mayor", pops: [["FOREVER", 0, 3.4, 8.3, 0.1, 0.8, 1.6]], cams: [{ face: "mayor", d: 1.6, fov: 44, orbit: -0.3 }, { p: [1.4, 3, 15], p2: [2, 5, 19], t: [0, 2.6, 8], fov: 52 }] },
   ];
   function LS0(i) { return LS[i]; }
 
@@ -2314,6 +2337,15 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
       if (s.phoneShot) { phone35.visible = true; phone35.position.set(0.15, 1.65, 9.0); phone35.rotation.set(-0.1, 0, 0.05); phS.userData.set(s.phoneShot === "ok" && (s.okAt === undefined || u >= s.okAt) ? "ok" : "menu"); }
       if (s.pbox) { pbox.visible = true; pbox.scale.setScalar(1); pbox.position.set(s.pbox[0], s.pboxY || 0, s.pbox[1]); pbox.rotation.set(0, (s.pbox[2] || 0) * D2R, 0); const q = s.lidOpen !== undefined ? ease(clamp((u - s.lidOpen) / 0.8, 0, 1)) : 0; pbox.userData.lid.rotation.x = -q * 1.9; pbox.userData.ig.intensity = q * 30; }
     }
+    // ---- Video 35 Teil 2 ----
+    { kite35.visible = false; hat35.visible = false; sprk35.visible = false;
+      const flyQ = (f) => { const [x, y0, z, y1, d, at] = f; const q = ease(clamp((u - (at || 0)) / d, 0, 1)); return [x + Math.sin(t * 2) * 0.3, y0 + (y1 - y0) * q, z]; };
+      if (s.kite) { kite35.visible = true; kite35.position.set(...flyQ(s.kite)); kite35.rotation.z = Math.sin(t * 3) * 0.3; }
+      if (s.hat35) { hat35.visible = true; hat35.position.set(...flyQ(s.hat35)); hat35.rotation.set(Math.sin(t * 2) * 0.4, t, 0); }
+      if (s.flyC) for (const f of s.flyC) { const ch = A[f[0]]; if (!ch) continue; const [x, y, z] = flyQ(f.slice(1)); ch.root.position.y = y; }
+      if (s.sprk) { const ch = A[s.sprk]; if (ch) { sprk35.visible = true; sprk35.position.copy(ch.root.position); sprk35.rotation.y = ch.root.rotation.y; sprk35.scale.setScalar(ch.root.scale.x); } }
+    }
+
     // ---- Video 25: Bens Licht, Strahl, Uhr, EKG ----
     { const beat = s.pulse ? (() => { const ph = (t * s.pulse) % 1; return 0.72 + 0.28 * (Math.exp(-((ph - 0.1) ** 2) / 0.003) + 0.6 * Math.exp(-((ph - 0.28) ** 2) / 0.003)); })() : 1;
       benL.intensity = 0; benFlare.visible = false; thinBeam.visible = false; redLamp.visible = false;
@@ -2464,6 +2496,7 @@ def line_word(i, prefix, n=1):
 SFX = []
 # leise, keine Whooshes
 for t, f, v in [
+    (KW["mayor2"], "impact-bass-2.mp3", 0.1), (KW["sprinkles"], "sparkle.mp3", 0.1), (KW["forever2"], "error.mp3", 0.07),
     (KW["pizza"], "pop.mp3", 0.08), (KW["whole"], "impact-bass-1.mp3", 0.1), (KW["slipped"], "click.mp3", 0.1), (KW["confirmed"], "notification.mp3", 0.1), (KW["dark"], "impact-bass-2.mp3", 0.14),
     (KW["rang"], "chime.mp3", 0.1), (KW["biggest"], "impact-bass-1.mp3", 0.12), (KW["forever"], "error.mp3", 0.07), (KW["donut"], "sparkle.mp3", 0.1),
 ]:

@@ -1,5 +1,5 @@
 {
- "duration": 28.447,
+ "duration": 59.611,
  "beats": [
   {
    "id": "hook",
@@ -695,6 +695,759 @@
    ],
    "start": 23.68,
    "end": 28.48
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "But then things got weird.",
+     "start": 29.847,
+     "end": 31.567,
+     "words": [
+      {
+       "text": "But",
+       "start": 29.847,
+       "end": 30.007
+      },
+      {
+       "text": "then",
+       "start": 30.127,
+       "end": 30.247
+      },
+      {
+       "text": "things",
+       "start": 30.487,
+       "end": 30.727
+      },
+      {
+       "text": "got",
+       "start": 30.847,
+       "end": 30.967
+      },
+      {
+       "text": "weird.",
+       "start": 31.047,
+       "end": 31.567
+      }
+     ]
+    },
+    {
+     "show": "The bully learned the trick too.",
+     "start": 31.687,
+     "end": 33.207,
+     "words": [
+      {
+       "text": "The",
+       "start": 31.687,
+       "end": 31.847
+      },
+      {
+       "text": "bully",
+       "start": 31.927,
+       "end": 32.247
+      },
+      {
+       "text": "learned",
+       "start": 32.327,
+       "end": 32.447
+      },
+      {
+       "text": "the",
+       "start": 32.487,
+       "end": 32.527
+      },
+      {
+       "text": "trick",
+       "start": 32.567,
+       "end": 32.807
+      },
+      {
+       "text": "too.",
+       "start": 32.887,
+       "end": 33.207
+      }
+     ]
+    },
+    {
+     "show": "When the teacher asked for his homework,",
+     "start": 33.247,
+     "end": 34.727,
+     "words": [
+      {
+       "text": "When",
+       "start": 33.247,
+       "end": 33.287
+      },
+      {
+       "text": "the",
+       "start": 33.367,
+       "end": 33.447
+      },
+      {
+       "text": "teacher",
+       "start": 33.567,
+       "end": 33.687
+      },
+      {
+       "text": "asked",
+       "start": 33.767,
+       "end": 33.967
+      },
+      {
+       "text": "for",
+       "start": 34.007,
+       "end": 34.047
+      },
+      {
+       "text": "his",
+       "start": 34.087,
+       "end": 34.167
+      },
+      {
+       "text": "homework,",
+       "start": 34.247,
+       "end": 34.727
+      }
+     ]
+    },
+    {
+     "show": "he said, nope.",
+     "start": 34.807,
+     "end": 35.767,
+     "words": [
+      {
+       "text": "he",
+       "start": 34.807,
+       "end": 34.887
+      },
+      {
+       "text": "said,",
+       "start": 34.967,
+       "end": 35.207
+      },
+      {
+       "text": "nope.",
+       "start": 35.367,
+       "end": 35.767
+      }
+     ]
+    },
+    {
+     "show": "When his mom said,",
+     "start": 35.807,
+     "end": 36.567,
+     "words": [
+      {
+       "text": "When",
+       "start": 35.807,
+       "end": 35.847
+      },
+      {
+       "text": "his",
+       "start": 35.927,
+       "end": 36.007
+      },
+      {
+       "text": "mom",
+       "start": 36.087,
+       "end": 36.247
+      },
+      {
+       "text": "said,",
+       "start": 36.327,
+       "end": 36.567
+      }
+     ]
+    },
+    {
+     "show": "clean your room,",
+     "start": 36.647,
+     "end": 37.607,
+     "words": [
+      {
+       "text": "clean",
+       "start": 36.647,
+       "end": 36.887
+      },
+      {
+       "text": "your",
+       "start": 36.967,
+       "end": 37.047
+      },
+      {
+       "text": "room,",
+       "start": 37.207,
+       "end": 37.607
+      }
+     ]
+    },
+    {
+     "show": "nope.",
+     "start": 37.767,
+     "end": 38.247,
+     "words": [
+      {
+       "text": "nope.",
+       "start": 37.767,
+       "end": 38.247
+      }
+     ]
+    }
+   ],
+   "start": 29.847,
+   "end": 38.247
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the whole town started saying it.",
+     "start": 38.471,
+     "end": 40.367,
+     "words": [
+      {
+       "text": "Then",
+       "start": 38.471,
+       "end": 38.487
+      },
+      {
+       "text": "the",
+       "start": 38.567,
+       "end": 38.727
+      },
+      {
+       "text": "whole",
+       "start": 38.847,
+       "end": 38.967
+      },
+      {
+       "text": "town",
+       "start": 39.047,
+       "end": 39.367
+      },
+      {
+       "text": "started",
+       "start": 39.447,
+       "end": 39.767
+      },
+      {
+       "text": "saying",
+       "start": 39.807,
+       "end": 40.007
+      },
+      {
+       "text": "it.",
+       "start": 40.087,
+       "end": 40.367
+      }
+     ]
+    },
+    {
+     "show": "Nobody went to work.",
+     "start": 40.487,
+     "end": 41.527,
+     "words": [
+      {
+       "text": "Nobody",
+       "start": 40.487,
+       "end": 40.807
+      },
+      {
+       "text": "went",
+       "start": 40.887,
+       "end": 40.967
+      },
+      {
+       "text": "to",
+       "start": 41.047,
+       "end": 41.127
+      },
+      {
+       "text": "work.",
+       "start": 41.247,
+       "end": 41.527
+      }
+     ]
+    },
+    {
+     "show": "Nobody took out the trash.",
+     "start": 41.607,
+     "end": 42.847,
+     "words": [
+      {
+       "text": "Nobody",
+       "start": 41.607,
+       "end": 41.927
+      },
+      {
+       "text": "took",
+       "start": 42.007,
+       "end": 42.087
+      },
+      {
+       "text": "out",
+       "start": 42.127,
+       "end": 42.167
+      },
+      {
+       "text": "the",
+       "start": 42.247,
+       "end": 42.327
+      },
+      {
+       "text": "trash.",
+       "start": 42.567,
+       "end": 42.847
+      }
+     ]
+    },
+    {
+     "show": "The garbage piled up",
+     "start": 42.887,
+     "end": 43.927,
+     "words": [
+      {
+       "text": "The",
+       "start": 42.887,
+       "end": 42.967
+      },
+      {
+       "text": "garbage",
+       "start": 43.047,
+       "end": 43.447
+      },
+      {
+       "text": "piled",
+       "start": 43.487,
+       "end": 43.687
+      },
+      {
+       "text": "up",
+       "start": 43.767,
+       "end": 43.927
+      }
+     ]
+    },
+    {
+     "show": "all the way to the clock tower.",
+     "start": 44.007,
+     "end": 45.367,
+     "words": [
+      {
+       "text": "all",
+       "start": 44.007,
+       "end": 44.087
+      },
+      {
+       "text": "the",
+       "start": 44.167,
+       "end": 44.247
+      },
+      {
+       "text": "way",
+       "start": 44.287,
+       "end": 44.327
+      },
+      {
+       "text": "to",
+       "start": 44.367,
+       "end": 44.407
+      },
+      {
+       "text": "the",
+       "start": 44.487,
+       "end": 44.567
+      },
+      {
+       "text": "clock",
+       "start": 44.687,
+       "end": 44.807
+      },
+      {
+       "text": "tower.",
+       "start": 44.887,
+       "end": 45.367
+      }
+     ]
+    }
+   ],
+   "start": 38.471,
+   "end": 45.367
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "So the mayor called an emergency meeting.",
+     "start": 45.447,
+     "end": 47.287,
+     "words": [
+      {
+       "text": "So",
+       "start": 45.447,
+       "end": 45.527
+      },
+      {
+       "text": "the",
+       "start": 45.607,
+       "end": 45.687
+      },
+      {
+       "text": "mayor",
+       "start": 45.767,
+       "end": 46.007
+      },
+      {
+       "text": "called",
+       "start": 46.087,
+       "end": 46.167
+      },
+      {
+       "text": "an",
+       "start": 46.207,
+       "end": 46.247
+      },
+      {
+       "text": "emergency",
+       "start": 46.527,
+       "end": 46.807
+      },
+      {
+       "text": "meeting.",
+       "start": 46.887,
+       "end": 47.287
+      }
+     ]
+    },
+    {
+     "show": "He looked at me and asked,",
+     "start": 47.367,
+     "end": 48.327,
+     "words": [
+      {
+       "text": "He",
+       "start": 47.367,
+       "end": 47.447
+      },
+      {
+       "text": "looked",
+       "start": 47.487,
+       "end": 47.607
+      },
+      {
+       "text": "at",
+       "start": 47.647,
+       "end": 47.687
+      },
+      {
+       "text": "me",
+       "start": 47.767,
+       "end": 47.847
+      },
+      {
+       "text": "and",
+       "start": 47.887,
+       "end": 47.927
+      },
+      {
+       "text": "asked,",
+       "start": 48.007,
+       "end": 48.327
+      }
+     ]
+    },
+    {
+     "show": "can you fix this?",
+     "start": 48.407,
+     "end": 49.447,
+     "words": [
+      {
+       "text": "can",
+       "start": 48.407,
+       "end": 48.487
+      },
+      {
+       "text": "you",
+       "start": 48.567,
+       "end": 48.727
+      },
+      {
+       "text": "fix",
+       "start": 48.847,
+       "end": 48.967
+      },
+      {
+       "text": "this?",
+       "start": 49.047,
+       "end": 49.447
+      }
+     ]
+    },
+    {
+     "show": "And for the first time ever,",
+     "start": 49.584,
+     "end": 50.967,
+     "words": [
+      {
+       "text": "And",
+       "start": 49.584,
+       "end": 49.607
+      },
+      {
+       "text": "for",
+       "start": 49.647,
+       "end": 49.687
+      },
+      {
+       "text": "the",
+       "start": 49.767,
+       "end": 49.847
+      },
+      {
+       "text": "first",
+       "start": 49.927,
+       "end": 50.167
+      },
+      {
+       "text": "time",
+       "start": 50.287,
+       "end": 50.407
+      },
+      {
+       "text": "ever,",
+       "start": 50.487,
+       "end": 50.967
+      }
+     ]
+    },
+    {
+     "show": "I wanted to say {r:nope.}",
+     "start": 51.047,
+     "end": 52.327,
+     "words": [
+      {
+       "text": "I",
+       "start": 51.047,
+       "end": 51.127
+      },
+      {
+       "text": "wanted",
+       "start": 51.247,
+       "end": 51.367
+      },
+      {
+       "text": "to",
+       "start": 51.447,
+       "end": 51.527
+      },
+      {
+       "text": "say",
+       "start": 51.607,
+       "end": 51.687
+      },
+      {
+       "text": "nope.",
+       "start": 51.847,
+       "end": 52.327
+      }
+     ]
+    }
+   ],
+   "start": 45.447,
+   "end": 52.327
+  },
+  {
+   "id": "p2d",
+   "label": "",
+   "lines": [
+    {
+     "show": "But I said {y:yes.}",
+     "start": 52.407,
+     "end": 53.447,
+     "words": [
+      {
+       "text": "But",
+       "start": 52.407,
+       "end": 52.487
+      },
+      {
+       "text": "I",
+       "start": 52.527,
+       "end": 52.567
+      },
+      {
+       "text": "said",
+       "start": 52.647,
+       "end": 52.887
+      },
+      {
+       "text": "yes.",
+       "start": 52.967,
+       "end": 53.447
+      }
+     ]
+    },
+    {
+     "show": "I wrote one new rule in the rulebook.",
+     "start": 53.487,
+     "end": 55.207,
+     "words": [
+      {
+       "text": "I",
+       "start": 53.487,
+       "end": 53.527
+      },
+      {
+       "text": "wrote",
+       "start": 53.567,
+       "end": 53.847
+      },
+      {
+       "text": "one",
+       "start": 53.927,
+       "end": 54.007
+      },
+      {
+       "text": "new",
+       "start": 54.087,
+       "end": 54.247
+      },
+      {
+       "text": "rule",
+       "start": 54.327,
+       "end": 54.487
+      },
+      {
+       "text": "in",
+       "start": 54.567,
+       "end": 54.607
+      },
+      {
+       "text": "the",
+       "start": 54.647,
+       "end": 54.727
+      },
+      {
+       "text": "rulebook.",
+       "start": 54.807,
+       "end": 55.207
+      }
+     ]
+    },
+    {
+     "show": "You can say nope,",
+     "start": 55.287,
+     "end": 56.087,
+     "words": [
+      {
+       "text": "You",
+       "start": 55.287,
+       "end": 55.367
+      },
+      {
+       "text": "can",
+       "start": 55.447,
+       "end": 55.527
+      },
+      {
+       "text": "say",
+       "start": 55.607,
+       "end": 55.687
+      },
+      {
+       "text": "nope,",
+       "start": 55.767,
+       "end": 56.087
+      }
+     ]
+    },
+    {
+     "show": "but only once a day.",
+     "start": 56.207,
+     "end": 57.367,
+     "words": [
+      {
+       "text": "but",
+       "start": 56.207,
+       "end": 56.327
+      },
+      {
+       "text": "only",
+       "start": 56.407,
+       "end": 56.647
+      },
+      {
+       "text": "once",
+       "start": 56.727,
+       "end": 56.887
+      },
+      {
+       "text": "a",
+       "start": 56.927,
+       "end": 56.967
+      },
+      {
+       "text": "day.",
+       "start": 57.047,
+       "end": 57.367
+      }
+     ]
+    },
+    {
+     "show": "Now everybody saves their nope",
+     "start": 57.487,
+     "end": 58.807,
+     "words": [
+      {
+       "text": "Now",
+       "start": 57.487,
+       "end": 57.607
+      },
+      {
+       "text": "everybody",
+       "start": 57.687,
+       "end": 58.087
+      },
+      {
+       "text": "saves",
+       "start": 58.167,
+       "end": 58.327
+      },
+      {
+       "text": "their",
+       "start": 58.407,
+       "end": 58.567
+      },
+      {
+       "text": "nope",
+       "start": 58.607,
+       "end": 58.807
+      }
+     ]
+    },
+    {
+     "show": "for {y:Mondays.}",
+     "start": 58.887,
+     "end": 59.687,
+     "words": [
+      {
+       "text": "for",
+       "start": 58.887,
+       "end": 58.967
+      },
+      {
+       "text": "Mondays.",
+       "start": 59.047,
+       "end": 59.687
+      }
+     ]
+    }
+   ],
+   "start": 52.407,
+   "end": 59.687
   }
  ]
 }

@@ -5,3 +5,6 @@ break|Last Friday,|I was ordering my slice,|and my thumb slipped.|Whole moon.|{r
 dark|The next night,|the sky was completely dark.|Everyone was screaming.|Then the doorbell rang.
 tung|It was Tung Tung Tung Sahur.|Holding the {y:biggest} pizza box|I have ever seen.|He said,|that will cost your allowance.|{r:Forever.}
 end|So we shared it|with the whole town.|Best night ever.|And the next night,|there was a new moon.|It was a {y:donut.}
+p2a|But the donut moon had a problem.|It had a hole in the middle.|And every night,|something fell through it.|First, it was Kevin's kite.|Then it was the mayor's hat.|Then it was {r:the mayor.}
+p2b|Everyone looked at me.|Because I ordered the last moon.|So I climbed onto Tung's shoulders.|And Tung climbed onto the clock tower.|I reached up as high as I could.|And I pulled the mayor out of the hole.|He was covered in {y:sprinkles.}
+p2c|Now the mayor wants a donut moon|every night.|And Tung charges him his allowance.|{r:Forever.}

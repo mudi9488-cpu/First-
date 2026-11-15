@@ -1,5 +1,5 @@
 {
- "duration": 37.146,
+ "duration": 64.235,
  "beats": [
   {
    "id": "hook",
@@ -1023,6 +1023,642 @@
    ],
    "start": 33.253,
    "end": 37.2
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "But last week,",
+     "start": 37.496,
+     "end": 38.536,
+     "words": [
+      {
+       "text": "But",
+       "start": 37.496,
+       "end": 37.656
+      },
+      {
+       "text": "last",
+       "start": 37.816,
+       "end": 37.976
+      },
+      {
+       "text": "week,",
+       "start": 38.056,
+       "end": 38.536
+      }
+     ]
+    },
+    {
+     "show": "Tung got {r:sick.}",
+     "start": 38.616,
+     "end": 39.536,
+     "words": [
+      {
+       "text": "Tung",
+       "start": 38.616,
+       "end": 38.776
+      },
+      {
+       "text": "got",
+       "start": 38.856,
+       "end": 39.016
+      },
+      {
+       "text": "sick.",
+       "start": 39.096,
+       "end": 39.536
+      }
+     ]
+    },
+    {
+     "show": "He wouldn't play fetch.",
+     "start": 39.656,
+     "end": 40.696,
+     "words": [
+      {
+       "text": "He",
+       "start": 39.656,
+       "end": 39.736
+      },
+      {
+       "text": "wouldn't",
+       "start": 39.816,
+       "end": 39.976
+      },
+      {
+       "text": "play",
+       "start": 40.056,
+       "end": 40.136
+      },
+      {
+       "text": "fetch.",
+       "start": 40.216,
+       "end": 40.696
+      }
+     ]
+    },
+    {
+     "show": "He just sat on our roof and sighed.",
+     "start": 40.776,
+     "end": 42.696,
+     "words": [
+      {
+       "text": "He",
+       "start": 40.776,
+       "end": 40.856
+      },
+      {
+       "text": "just",
+       "start": 40.976,
+       "end": 41.096
+      },
+      {
+       "text": "sat",
+       "start": 41.176,
+       "end": 41.336
+      },
+      {
+       "text": "on",
+       "start": 41.376,
+       "end": 41.416
+      },
+      {
+       "text": "our",
+       "start": 41.496,
+       "end": 41.576
+      },
+      {
+       "text": "roof",
+       "start": 41.656,
+       "end": 41.896
+      },
+      {
+       "text": "and",
+       "start": 42.016,
+       "end": 42.136
+      },
+      {
+       "text": "sighed.",
+       "start": 42.176,
+       "end": 42.696
+      }
+     ]
+    },
+    {
+     "show": "The doctor said he was homesick.",
+     "start": 42.984,
+     "end": 44.616,
+     "words": [
+      {
+       "text": "The",
+       "start": 42.984,
+       "end": 43.016
+      },
+      {
+       "text": "doctor",
+       "start": 43.176,
+       "end": 43.336
+      },
+      {
+       "text": "said",
+       "start": 43.416,
+       "end": 43.496
+      },
+      {
+       "text": "he",
+       "start": 43.576,
+       "end": 43.616
+      },
+      {
+       "text": "was",
+       "start": 43.656,
+       "end": 43.816
+      },
+      {
+       "text": "homesick.",
+       "start": 43.976,
+       "end": 44.616
+      }
+     ]
+    },
+    {
+     "show": "So I asked him,",
+     "start": 44.696,
+     "end": 45.496,
+     "words": [
+      {
+       "text": "So",
+       "start": 44.696,
+       "end": 44.776
+      },
+      {
+       "text": "I",
+       "start": 44.856,
+       "end": 44.896
+      },
+      {
+       "text": "asked",
+       "start": 44.936,
+       "end": 45.096
+      },
+      {
+       "text": "him,",
+       "start": 45.176,
+       "end": 45.496
+      }
+     ]
+    },
+    {
+     "show": "where is home?",
+     "start": 45.576,
+     "end": 46.456,
+     "words": [
+      {
+       "text": "where",
+       "start": 45.576,
+       "end": 45.736
+      },
+      {
+       "text": "is",
+       "start": 45.816,
+       "end": 45.896
+      },
+      {
+       "text": "home?",
+       "start": 45.976,
+       "end": 46.456
+      }
+     ]
+    },
+    {
+     "show": "He pointed at the sky.",
+     "start": 46.536,
+     "end": 47.736,
+     "words": [
+      {
+       "text": "He",
+       "start": 46.536,
+       "end": 46.616
+      },
+      {
+       "text": "pointed",
+       "start": 46.696,
+       "end": 46.936
+      },
+      {
+       "text": "at",
+       "start": 46.976,
+       "end": 47.016
+      },
+      {
+       "text": "the",
+       "start": 47.096,
+       "end": 47.176
+      },
+      {
+       "text": "sky.",
+       "start": 47.376,
+       "end": 47.736
+      }
+     ]
+    },
+    {
+     "show": "At the {y:moon.}",
+     "start": 48.029,
+     "end": 49.016,
+     "words": [
+      {
+       "text": "At",
+       "start": 48.029,
+       "end": 48.056
+      },
+      {
+       "text": "the",
+       "start": 48.136,
+       "end": 48.216
+      },
+      {
+       "text": "moon.",
+       "start": 48.296,
+       "end": 49.016
+      }
+     ]
+    }
+   ],
+   "start": 37.496,
+   "end": 49.016
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "So the whole town built a ladder.",
+     "start": 49.096,
+     "end": 50.696,
+     "words": [
+      {
+       "text": "So",
+       "start": 49.096,
+       "end": 49.176
+      },
+      {
+       "text": "the",
+       "start": 49.256,
+       "end": 49.336
+      },
+      {
+       "text": "whole",
+       "start": 49.456,
+       "end": 49.576
+      },
+      {
+       "text": "town",
+       "start": 49.736,
+       "end": 49.896
+      },
+      {
+       "text": "built",
+       "start": 49.976,
+       "end": 50.136
+      },
+      {
+       "text": "a",
+       "start": 50.176,
+       "end": 50.216
+      },
+      {
+       "text": "ladder.",
+       "start": 50.256,
+       "end": 50.696
+      }
+     ]
+    },
+    {
+     "show": "Kevin brought wood.",
+     "start": 50.816,
+     "end": 51.576,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 50.816,
+       "end": 50.936
+      },
+      {
+       "text": "brought",
+       "start": 51.016,
+       "end": 51.176
+      },
+      {
+       "text": "wood.",
+       "start": 51.256,
+       "end": 51.576
+      }
+     ]
+    },
+    {
+     "show": "Linda brought nails.",
+     "start": 51.656,
+     "end": 52.656,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 51.656,
+       "end": 51.896
+      },
+      {
+       "text": "brought",
+       "start": 51.976,
+       "end": 52.136
+      },
+      {
+       "text": "nails.",
+       "start": 52.216,
+       "end": 52.656
+      }
+     ]
+    },
+    {
+     "show": "Grandma brought snacks.",
+     "start": 52.696,
+     "end": 53.923,
+     "words": [
+      {
+       "text": "Grandma",
+       "start": 52.696,
+       "end": 53.096
+      },
+      {
+       "text": "brought",
+       "start": 53.149,
+       "end": 53.256
+      },
+      {
+       "text": "snacks.",
+       "start": 53.416,
+       "end": 53.923
+      }
+     ]
+    },
+    {
+     "show": "And the mayor gave a speech",
+     "start": 53.949,
+     "end": 55.016,
+     "words": [
+      {
+       "text": "And",
+       "start": 53.949,
+       "end": 53.976
+      },
+      {
+       "text": "the",
+       "start": 54.056,
+       "end": 54.136
+      },
+      {
+       "text": "mayor",
+       "start": 54.216,
+       "end": 54.376
+      },
+      {
+       "text": "gave",
+       "start": 54.456,
+       "end": 54.536
+      },
+      {
+       "text": "a",
+       "start": 54.616,
+       "end": 54.696
+      },
+      {
+       "text": "speech",
+       "start": 54.856,
+       "end": 55.016
+      }
+     ]
+    },
+    {
+     "show": "nobody listened to.",
+     "start": 55.096,
+     "end": 56.056,
+     "words": [
+      {
+       "text": "nobody",
+       "start": 55.096,
+       "end": 55.496
+      },
+      {
+       "text": "listened",
+       "start": 55.576,
+       "end": 55.736
+      },
+      {
+       "text": "to.",
+       "start": 55.816,
+       "end": 56.056
+      }
+     ]
+    },
+    {
+     "show": "It took us a whole week.",
+     "start": 56.193,
+     "end": 57.416,
+     "words": [
+      {
+       "text": "It",
+       "start": 56.193,
+       "end": 56.216
+      },
+      {
+       "text": "took",
+       "start": 56.296,
+       "end": 56.376
+      },
+      {
+       "text": "us",
+       "start": 56.456,
+       "end": 56.536
+      },
+      {
+       "text": "a",
+       "start": 56.616,
+       "end": 56.696
+      },
+      {
+       "text": "whole",
+       "start": 56.776,
+       "end": 57.016
+      },
+      {
+       "text": "week.",
+       "start": 57.176,
+       "end": 57.416
+      }
+     ]
+    },
+    {
+     "show": "Then Tung climbed all the way up,",
+     "start": 57.536,
+     "end": 59.149,
+     "words": [
+      {
+       "text": "Then",
+       "start": 57.536,
+       "end": 57.656
+      },
+      {
+       "text": "Tung",
+       "start": 57.736,
+       "end": 57.976
+      },
+      {
+       "text": "climbed",
+       "start": 58.056,
+       "end": 58.376
+      },
+      {
+       "text": "all",
+       "start": 58.456,
+       "end": 58.536
+      },
+      {
+       "text": "the",
+       "start": 58.616,
+       "end": 58.696
+      },
+      {
+       "text": "way",
+       "start": 58.776,
+       "end": 58.856
+      },
+      {
+       "text": "up,",
+       "start": 58.976,
+       "end": 59.149
+      }
+     ]
+    },
+    {
+     "show": "and waved goodbye.",
+     "start": 59.203,
+     "end": 60.216,
+     "words": [
+      {
+       "text": "and",
+       "start": 59.203,
+       "end": 59.256
+      },
+      {
+       "text": "waved",
+       "start": 59.336,
+       "end": 59.576
+      },
+      {
+       "text": "goodbye.",
+       "start": 59.656,
+       "end": 60.216
+      }
+     ]
+    }
+   ],
+   "start": 49.096,
+   "end": 60.216
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now every night,",
+     "start": 60.416,
+     "end": 61.056,
+     "words": [
+      {
+       "text": "Now",
+       "start": 60.416,
+       "end": 60.456
+      },
+      {
+       "text": "every",
+       "start": 60.536,
+       "end": 60.776
+      },
+      {
+       "text": "night,",
+       "start": 60.896,
+       "end": 61.056
+      }
+     ]
+    },
+    {
+     "show": "the moon goes tung, tung, tung.",
+     "start": 61.096,
+     "end": 63.176,
+     "words": [
+      {
+       "text": "the",
+       "start": 61.096,
+       "end": 61.176
+      },
+      {
+       "text": "moon",
+       "start": 61.256,
+       "end": 61.416
+      },
+      {
+       "text": "goes",
+       "start": 61.496,
+       "end": 61.816
+      },
+      {
+       "text": "tung,",
+       "start": 61.856,
+       "end": 62.296
+      },
+      {
+       "text": "tung,",
+       "start": 62.403,
+       "end": 62.696
+      },
+      {
+       "text": "tung.",
+       "start": 62.776,
+       "end": 63.176
+      }
+     ]
+    },
+    {
+     "show": "And I wave {y:back.}",
+     "start": 63.256,
+     "end": 64.296,
+     "words": [
+      {
+       "text": "And",
+       "start": 63.256,
+       "end": 63.336
+      },
+      {
+       "text": "I",
+       "start": 63.416,
+       "end": 63.496
+      },
+      {
+       "text": "wave",
+       "start": 63.616,
+       "end": 63.736
+      },
+      {
+       "text": "back.",
+       "start": 63.896,
+       "end": 64.296
+      }
+     ]
+    }
+   ],
+   "start": 60.416,
+   "end": 64.296
   }
  ]
 }

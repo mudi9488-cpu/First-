@@ -4,3 +4,6 @@ me|I have never told a lie.|So I'm the {y:tallest} kid in town.
 twist|Then grandma knitted me a sweater.|It was the {r:ugliest} sweater I have ever seen.|She asked,|do you like it?
 choice|If I say no,|grandma cries.|If I say yes,|I {r:shrink.}
 end|So I said,|grandma,|it's the ugliest sweater in the world.|She smiled and said,|finally, an honest boy.|Then she gave me a cookie.|And I grew {y:even taller.}
+p2a|Now I'm so tall,|I have to duck under the clouds.|Birds keep landing on my head.|Then the mayor came to see me.|He was tiny.|He was standing on a stamp.|He asked me,|will you help me get my real size back?
+p2b|I said,|only if you tell the {y:truth.}|He took a deep breath.|And he said,|I never paid my {r:taxes.}|He grew back instantly.|Then Kevin admitted|he never did his homework.|He grew right out of his shoebox.
+p2c|Now everyone in town tells the truth.|And grandma knits ugly sweaters|for {y:everybody.}

@@ -100,6 +100,99 @@
      "show": "And grandma finally stopped running."
     }
    ]
+  },
+  {
+   "id": "p2a",
+   "label": "",
+   "lines": [
+    {
+     "show": "But then things got weird."
+    },
+    {
+     "show": "The bully learned the trick too."
+    },
+    {
+     "show": "When the teacher asked for his homework,"
+    },
+    {
+     "show": "he said, nope."
+    },
+    {
+     "show": "When his mom said,"
+    },
+    {
+     "show": "clean your room,"
+    },
+    {
+     "show": "nope."
+    }
+   ]
+  },
+  {
+   "id": "p2b",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then the whole town started saying it."
+    },
+    {
+     "show": "Nobody went to work."
+    },
+    {
+     "show": "Nobody took out the trash."
+    },
+    {
+     "show": "The garbage piled up"
+    },
+    {
+     "show": "all the way to the clock tower."
+    }
+   ]
+  },
+  {
+   "id": "p2c",
+   "label": "",
+   "lines": [
+    {
+     "show": "So the mayor called an emergency meeting."
+    },
+    {
+     "show": "He looked at me and asked,"
+    },
+    {
+     "show": "can you fix this?"
+    },
+    {
+     "show": "And for the first time ever,"
+    },
+    {
+     "show": "I wanted to say {r:nope.}"
+    }
+   ]
+  },
+  {
+   "id": "p2d",
+   "label": "",
+   "lines": [
+    {
+     "show": "But I said {y:yes.}"
+    },
+    {
+     "show": "I wrote one new rule in the rulebook."
+    },
+    {
+     "show": "You can say nope,"
+    },
+    {
+     "show": "but only once a day."
+    },
+    {
+     "show": "Now everybody saves their nope"
+    },
+    {
+     "show": "for {y:Mondays.}"
+    }
+   ]
   }
  ]
 }

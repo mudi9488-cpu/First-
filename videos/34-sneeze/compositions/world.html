@@ -7,13 +7,13 @@
     #lab span { display:inline-block; font-family:'Lilita',sans-serif; font-size:76px; letter-spacing:0.01em;
       -webkit-text-stroke:12px #000; paint-order:stroke fill; text-shadow:0 6px 0 #000; }
   </style>
-  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="38.6" data-layout-allow-overlap>
+  <div id="root" data-composition-id="world" data-width="1080" data-height="1920" data-duration="66.26" data-layout-allow-overlap>
     <canvas id="w-canvas" width="1080" height="1920"></canvas>
     <div id="lab"><span>LABEL</span></div>
   </div>
   <script>
 
-const LS = [0.0, 0.78, 3.62, 6.46, 9.327, 12.82, 14.1, 16.9, 19.14, 20.447, 22.14, 22.82, 23.86, 24.78, 27.02, 29.46, 30.793, 32.94, 34.74], DUR = 38.6, KW = {"closest": 2.96, "dog": 5.6, "runs": 8.6, "never": 14.16, "pepper": 18.48, "achoo": 22.2, "huge": 24.24, "dunked": 31.413, "not": 35.8};
+const LS = [0.0, 0.78, 3.62, 6.46, 9.327, 12.82, 14.1, 16.9, 19.14, 20.447, 22.14, 22.82, 23.86, 24.78, 27.02, 29.46, 30.793, 32.94, 34.74, 37.044, 38.924, 40.884, 42.004, 42.844, 44.964, 46.244, 47.924, 51.108, 52.164, 53.364, 54.764, 55.821, 57.964, 58.644, 59.884, 60.884, 62.644], DUR = 66.26, KW = {"closest": 2.96, "dog": 5.6, "runs": 8.6, "never": 14.16, "pepper": 18.48, "achoo": 22.2, "huge": 24.24, "dunked": 31.413, "not": 35.8, "achoo2": 58.024, "tungs": 45.024, "kevin2": 59.024};
 window.__hf = window.__hf || {}; window.__hf.buildReady = window.__hf.buildReady || {};
 window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THREE) => {
   const W = 1080, H = 1920, HX = 200, RX = -200, VZ = 400;
@@ -1906,6 +1906,25 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L27 */ { m: "court", ballAt: [CTX, 3.25, -12.5], tung: [CTX, -10.6, 180, "block", "smile", { sc: 1.4 }], pops: [["DUNK!", CTX - 0.6, 4.6, -11.4, 0.3, 1.4]], cam: { p: [CTX + 2.6, 1.0, -5.4], p2: [CTX + 2.4, 1.2, -5.8], t: [CTX, 4.6, -11], fov: 56 } },
     /* L29 */ { m: "day", cast: [ME(0.4, 8, 0, "hold", "grin", { hold: "cone" })], pops: [["FIRST EVER", 0.4, 3.3, 8.3, 0.4, 0.9, 1.4]], cam: { face: "me", d: 1.6, dy: -0.3, fov: 46, orbit: 0.3 } },
     /* L30 */ { m: "day", tung: [-2.2, 5.8, 20, "tap", "smile", { sc: 1.4 }], cast: [ME(0.6, 8, -10, "hold", "grin", { hold: "cone" })], cams: [{ p: [0.6, 1.6, 15], p2: [0.4, 1.8, 14], t: [-0.6, 3.0, 6.6], fov: 52 }] },
+    /* EXT */
+    /* L32 */ { m: "day", tung: [0, 8, 0, "watch", "cry", { sc: 1.4 }], cam: { p: [1.2, 2.4, 17], p2: [1.0, 2.6, 16], t: [0, 4.5, 8], fov: 52 } },
+    /* L33 */ { m: "day", tung: [0, 3.5, 0, "walk", "smile", { sc: 1.4, to: [0, 6.5], dur: 1.6 }], cast: [["kevin", -1.2, 10, 0, "run", "scared", { to: [-1.6, 15], dur: 1.4 }], ["linda", 1.3, 10.6, 10, "run", "scared", { to: [1.8, 15.6], dur: 1.4 }]], pops: [["HI!", 0, 8.4, 5.5, 0.2, 1.0, 1.4]], cam: { p: [2.6, 2.4, 21], p2: [2.4, 2.6, 20], t: [0, 3.2, 9], fov: 54 } },
+    /* L34 */ { m: "day", dogKev: [0.6, 10.6, 180], tung: [-2.4, 6, 20, "watch", "shock", { sc: 1.4 }], pops: [["WOOF!", 0.6, 1.6, 10.6, 0.1, 0.6], ["WOOF!", 0.9, 1.9, 10.6, 0.5, 0.6]], cam: { p: [1.6, 1.0, 14.2], p2: [1.5, 1.1, 13.8], t: [0.3, 1.6, 9.4], fov: 52 } },
+    /* L35 */ { m: "night", win: "off", tung: [0, 8, 0, "tap", "side", { sc: 1.4 }], cam: { p: [6, 6, 24], p2: [5, 7, 19], t: [-1, 4, 6], fov: 52 } },
+    /* L36 */ { m: "night", win: "off", tung: [0, 8, 0, "tap", "shock", { sc: 1.4 }], cam: { p: [1.4, 2.2, 14], p2: [1.2, 2.4, 13.2], t: [0, 4.2, 8], fov: 50 } },
+    /* L37 */ { m: "night", win: "on", tung: [0, 8, 0, "tap", "side", { sc: 1.4 }], pops: [["TUNG!", 0.8, 3.0, 9.2, 0.0, 0.8], ["TUNG!", -0.8, 3.8, 9.2, 0.3, 0.8], ["TUNG!", 0.6, 4.6, 9.2, 0.6, 0.8]], cam: { p: [1.0, 1.6, 15], p2: [0.8, 1.6, 14.6], t: [0, 3.8, 8], fov: 52 } },
+    /* L38 */ { m: "night", win: "on", cast: [["kevin", -1.4, 9, 10, "hands", "angry"], ["granny", 0, 8.6, 0, "no", "angry"], ["linda", 1.4, 9, -10, "hands", "angry"]], pops: [["SHHH!", 0, 3.4, 8.8, 0.2, 0.8, 1.4]], cam: { p: [0.3, 2.0, 15.2], p2: [0.2, 1.9, 14.6], t: [0, 1.7, 8.8], fov: 50 } },
+    /* L39 */ { m: "room", cast: [ME(RX, 0.5, 0, "idle", "smirk")], pops: [["A+", RX - 0.8, 3.0, 0.6, 0.3, 0.6, 1.4], ["A+", RX + 0.8, 3.3, 0.6, 0.8, 0.6, 1.4], ["A+", RX, 3.6, 0.6, 1.3, 0.6, 1.4]], cam: { face: "me", d: 1.9, fov: 46, orbit: 0.3 } },
+    /* L41 */ { m: "court", tung: [CTX + 0.6, 1.4, 180, "watch", "angry", { sc: 1.4 }], cam: { p: [CTX + 0.8, 6.6, -6.2], p2: [CTX + 0.78, 6.7, -5.6], t: [CTX + 0.6, 6.6, 1.4], fov: 44 } },
+    /* L42 */ { m: "court", pepper: [CTX + 2.6, 2.0, -3.4, CTX + 0.7, 6.8, 0.6], tung: [CTX + 0.6, 1.4, 180, "watch", "side", { sc: 1.4 }], pops: [["PEPPER", CTX + 1.6, 4.6, -1.6, 0.2, 0.8, 1.4]], cam: { p: [CTX + 3.6, 3.0, -6.4], p2: [CTX + 3.4, 3.2, -6.0], t: [CTX + 1.0, 4.4, -0.6], fov: 54 } },
+    /* L43 */ { m: "court", tung: [CTX + 0.6, 1.4, 180, "watch", "smile", { sc: 1.4 }], cast: [ME(CTX + 2.0, 0.4, 180, "idle", "smile")], cam: { p: [CTX + 3.6, 1.6, -7.0], p2: [CTX + 3.4, 1.7, -6.6], t: [CTX + 1.2, 3.4, -0.4], fov: 54 } },
+    /* L44 */ { m: "court", tung: [CTX + 0.6, 1.4, 180, "watch", "shock", { sc: 1.4 }], cast: [ME(CTX + 2.0, 0.4, 180, "idle", "smile")], cam: { p: [CTX + 0.8, 6.6, -6.2], p2: [CTX + 0.78, 6.6, -5.8], t: [CTX + 0.6, 6.6, 1.4], fov: 44 } },
+    /* L45 */ { m: "court", tung: [CTX + 0.6, 1.4, 180, "watch", "shock", { sc: 1.4 }], cast: [ME(CTX + 2.0, 0.4, 180, "idle", "smile"), ["kevin", CTX + 4.2, -3.2, -50, "walk", "grin", { to: [CTX + 1.4, -0.8], dur: 1.6 }]], cam: { p: [CTX + 4.6, 2.4, -8.0], p2: [CTX + 4.4, 2.4, -7.6], t: [CTX + 1.6, 2.6, -0.8], fov: 54 } },
+    /* L47 */ { m: "court", shake: 1, flash34: 0.25, sneeze: [CTX + 0.6, 6.7, 0.2, 180, 0.0], tung: [CTX + 0.6, 1.4, 180, "watch", "shock", { sc: 1.4 }], cast: [ME(CTX + 2.0, 0.4, 180, "idle", "shock"), ["kevin", CTX + 1.4, -0.8, -50, "idle", "shock"]], pops: [["ACHOO!", CTX + 0.6, 8.4, 0.0, 0.0, 1.4]], cam: { p: [CTX + 4.6, 2.4, -8.0], p2: [CTX + 4.4, 2.6, -7.6], t: [CTX + 1.2, 3.4, -0.4], fov: 56 } },
+    /* L48 */ { m: "court", tung: [CTX + 0.6, 1.4, 180, "tap", "shock", { sc: 1.4 }], pops: [["KEVIN?", CTX + 0.6, 9.0, 1.4, 0.2, 1.2, 1.4]], cam: { p: [CTX + 2.4, 0.8, -5.6], p2: [CTX + 2.2, 0.9, -5.2], t: [CTX + 0.6, 5.4, 1.4], fov: 56 } },
+    /* L49 */ { m: "court", cast: [["kevin", CTX + 1.4, -0.8, -20, "tap", "smile"]], pops: [["TUNG?", CTX + 1.4, 3.4, -0.8, 0.2, 0.8, 1.4]], cam: { face: "kevin", d: 2.5, fov: 46, orbit: 0.3 } },
+    /* L50 */ { m: "court", cast: [ME(CTX + 2.0, 0.4, 180, "cheer", "laugh")], pops: [["ME!", CTX + 2.0, 3.4, 0.4, 0.3, 0.8, 1.4]], cam: { face: "me", d: 1.7, fov: 46, orbit: -0.3 } },
+    /* L51 */ { m: "night", win: "on", tung: [0, 8, 0, "tap", "smile", { sc: 1.4 }], cast: [ME(1.8, 10, -20, "hands", "laugh")], pops: [["TUNG!", 0.8, 3.0, 9.2, 0.2, 0.8], ["TUNG!", -0.8, 3.8, 9.2, 0.6, 0.8], ["TUNG!", 0.6, 4.6, 9.2, 1.0, 0.8]], cams: [{ p: [1.6, 1.8, 15], p2: [1.4, 1.8, 14.4], t: [0.4, 3.0, 8.4], fov: 52 }, { p: [3, 4, 20], p2: [5, 7, 26], t: [0, 3.5, 8], fov: 54 }] },
   ];
   function LS0(i) { return LS[i]; }
 

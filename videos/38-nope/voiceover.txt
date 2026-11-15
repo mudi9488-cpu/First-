@@ -4,3 +4,7 @@ me|Then a bully asked for my lunch money.|Every day.|For a whole year.
 twist|So I found a loophole.|Next time he asked,|I said, {y:nope.}
 react|The whole town gasped.|The mayor checked the rulebook.|Nope wasn't in there.
 end|Now everybody says {y:nope.}|The bully lost all his money.|And grandma finally stopped running.
+p2a|But then things got weird.|The bully learned the trick too.|When the teacher asked for his homework,|he said, nope.|When his mom said,|clean your room,|nope.
+p2b|Then the whole town started saying it.|Nobody went to work.|Nobody took out the trash.|The garbage piled up|all the way to the clock tower.
+p2c|So the mayor called an emergency meeting.|He looked at me and asked,|can you fix this?|And for the first time ever,|I wanted to say {r:nope.}
+p2d|But I said {y:yes.}|I wrote one new rule in the rulebook.|You can say nope,|but only once a day.|Now everybody saves their nope|for {y:Mondays.}

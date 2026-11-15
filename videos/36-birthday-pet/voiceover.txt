@@ -6,3 +6,6 @@ grow|He was the size of a sock.|By the next morning,|he was the size of my bed.|
 mom|My mom said,|we are not keeping that.|But the rule is the rule.
 good|So I trained him.|He plays fetch with his bat.|He walks me to school.|And every bully in town|is suddenly {y:very} nice to me.
 end|Now everybody wants a Tung.|But there's only one.|And he only listens to {y:me.}
+p2a|But last week,|Tung got {r:sick.}|He wouldn't play fetch.|He just sat on our roof and sighed.|The doctor said he was homesick.|So I asked him,|where is home?|He pointed at the sky.|At the {y:moon.}
+p2b|So the whole town built a ladder.|Kevin brought wood.|Linda brought nails.|Grandma brought snacks.|And the mayor gave a speech|nobody listened to.|It took us a whole week.|Then Tung climbed all the way up,|and waved goodbye.
+p2c|Now every night,|the moon goes tung, tung, tung.|And I wave {y:back.}
