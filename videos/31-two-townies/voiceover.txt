@@ -1,0 +1,10 @@
+hook|In this town,|whatever you throw into the lake|comes back the next morning.|But {r:twice.}
+world|Kevin threw in his homework.|Now he has to do it twice.|Linda threw in her cat.|Now she has two cats on the ceiling.|And my grandma threw in her teeth.|Now she has a {y:spare.}
+rule|There's only one rule.|Never, ever|fall into the lake yourself.
+break|Last Sunday,|I was skipping stones.|I slipped.|{r:Splash.}
+morning|The next morning,|I woke up,|and someone was already in my bed.|{r:Me.}
+twin|Another Townie.|Same rainbow cap.|Same hoodie.|But he was better at everything.|He made my bed.|He did my homework.|He even scored on {y:Tung Tung Tung Sahur.}
+others|My mom liked him more.|Kevin liked him more.|Even my dog liked him more.
+plan|So I went back to the lake,|and threw in a note.|Please take him back.
+twist|The next morning,|the lake gave me {r:two notes.}|The first one said,|sorry, no returns.|The second one said,|he jumped in too.
+end|I looked out the window.|There were {r:three} of us now.|And they were all|looking at me.

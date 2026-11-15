@@ -1,0 +1,1338 @@
+{
+ "duration": 51.069,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "whatever you throw into the lake",
+     "start": 0.96,
+     "end": 2.08,
+     "words": [
+      {
+       "text": "whatever",
+       "start": 0.96,
+       "end": 1.12
+      },
+      {
+       "text": "you",
+       "start": 1.2,
+       "end": 1.28
+      },
+      {
+       "text": "throw",
+       "start": 1.36,
+       "end": 1.44
+      },
+      {
+       "text": "into",
+       "start": 1.52,
+       "end": 1.6
+      },
+      {
+       "text": "the",
+       "start": 1.68,
+       "end": 1.76
+      },
+      {
+       "text": "lake",
+       "start": 1.92,
+       "end": 2.08
+      }
+     ]
+    },
+    {
+     "show": "comes back the next morning.",
+     "start": 2.2,
+     "end": 3.52,
+     "words": [
+      {
+       "text": "comes",
+       "start": 2.2,
+       "end": 2.32
+      },
+      {
+       "text": "back",
+       "start": 2.4,
+       "end": 2.64
+      },
+      {
+       "text": "the",
+       "start": 2.68,
+       "end": 2.72
+      },
+      {
+       "text": "next",
+       "start": 2.84,
+       "end": 2.96
+      },
+      {
+       "text": "morning.",
+       "start": 3.04,
+       "end": 3.52
+      }
+     ]
+    },
+    {
+     "show": "But {r:twice.}",
+     "start": 3.6,
+     "end": 4.32,
+     "words": [
+      {
+       "text": "But",
+       "start": 3.6,
+       "end": 3.68
+      },
+      {
+       "text": "twice.",
+       "start": 3.76,
+       "end": 4.32
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 4.32
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin threw in his homework.",
+     "start": 4.4,
+     "end": 5.68,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 4.4,
+       "end": 4.64
+      },
+      {
+       "text": "threw",
+       "start": 4.72,
+       "end": 4.8
+      },
+      {
+       "text": "in",
+       "start": 4.88,
+       "end": 4.96
+      },
+      {
+       "text": "his",
+       "start": 5.04,
+       "end": 5.12
+      },
+      {
+       "text": "homework.",
+       "start": 5.2,
+       "end": 5.68
+      }
+     ]
+    },
+    {
+     "show": "Now he has to do it twice.",
+     "start": 5.76,
+     "end": 7.04,
+     "words": [
+      {
+       "text": "Now",
+       "start": 5.76,
+       "end": 5.84
+      },
+      {
+       "text": "he",
+       "start": 5.92,
+       "end": 6.0
+      },
+      {
+       "text": "has",
+       "start": 6.08,
+       "end": 6.16
+      },
+      {
+       "text": "to",
+       "start": 6.2,
+       "end": 6.24
+      },
+      {
+       "text": "do",
+       "start": 6.28,
+       "end": 6.32
+      },
+      {
+       "text": "it",
+       "start": 6.4,
+       "end": 6.48
+      },
+      {
+       "text": "twice.",
+       "start": 6.52,
+       "end": 7.04
+      }
+     ]
+    },
+    {
+     "show": "Linda threw in her cat.",
+     "start": 7.12,
+     "end": 8.32,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 7.12,
+       "end": 7.36
+      },
+      {
+       "text": "threw",
+       "start": 7.44,
+       "end": 7.6
+      },
+      {
+       "text": "in",
+       "start": 7.64,
+       "end": 7.68
+      },
+      {
+       "text": "her",
+       "start": 7.76,
+       "end": 7.84
+      },
+      {
+       "text": "cat.",
+       "start": 7.92,
+       "end": 8.32
+      }
+     ]
+    },
+    {
+     "show": "Now she has two cats on the ceiling.",
+     "start": 8.4,
+     "end": 10.027,
+     "words": [
+      {
+       "text": "Now",
+       "start": 8.4,
+       "end": 8.48
+      },
+      {
+       "text": "she",
+       "start": 8.56,
+       "end": 8.72
+      },
+      {
+       "text": "has",
+       "start": 8.84,
+       "end": 8.96
+      },
+      {
+       "text": "two",
+       "start": 9.0,
+       "end": 9.04
+      },
+      {
+       "text": "cats",
+       "start": 9.2,
+       "end": 9.36
+      },
+      {
+       "text": "on",
+       "start": 9.44,
+       "end": 9.52
+      },
+      {
+       "text": "the",
+       "start": 9.56,
+       "end": 9.6
+      },
+      {
+       "text": "ceiling.",
+       "start": 9.68,
+       "end": 10.027
+      }
+     ]
+    },
+    {
+     "show": "And my grandma threw in her teeth.",
+     "start": 10.053,
+     "end": 11.76,
+     "words": [
+      {
+       "text": "And",
+       "start": 10.053,
+       "end": 10.08
+      },
+      {
+       "text": "my",
+       "start": 10.16,
+       "end": 10.24
+      },
+      {
+       "text": "grandma",
+       "start": 10.4,
+       "end": 10.72
+      },
+      {
+       "text": "threw",
+       "start": 10.76,
+       "end": 10.88
+      },
+      {
+       "text": "in",
+       "start": 10.96,
+       "end": 11.0
+      },
+      {
+       "text": "her",
+       "start": 11.04,
+       "end": 11.2
+      },
+      {
+       "text": "teeth.",
+       "start": 11.28,
+       "end": 11.76
+      }
+     ]
+    },
+    {
+     "show": "Now she has a {y:spare.}",
+     "start": 11.84,
+     "end": 12.88,
+     "words": [
+      {
+       "text": "Now",
+       "start": 11.84,
+       "end": 11.92
+      },
+      {
+       "text": "she",
+       "start": 12.0,
+       "end": 12.08
+      },
+      {
+       "text": "has",
+       "start": 12.12,
+       "end": 12.16
+      },
+      {
+       "text": "a",
+       "start": 12.24,
+       "end": 12.32
+      },
+      {
+       "text": "spare.",
+       "start": 12.4,
+       "end": 12.88
+      }
+     ]
+    }
+   ],
+   "start": 4.4,
+   "end": 12.88
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "There's only one rule.",
+     "start": 13.013,
+     "end": 14.24,
+     "words": [
+      {
+       "text": "There's",
+       "start": 13.013,
+       "end": 13.12
+      },
+      {
+       "text": "only",
+       "start": 13.28,
+       "end": 13.44
+      },
+      {
+       "text": "one",
+       "start": 13.52,
+       "end": 13.68
+      },
+      {
+       "text": "rule.",
+       "start": 13.76,
+       "end": 14.24
+      }
+     ]
+    },
+    {
+     "show": "Never, ever",
+     "start": 14.4,
+     "end": 15.2,
+     "words": [
+      {
+       "text": "Never,",
+       "start": 14.4,
+       "end": 14.84
+      },
+      {
+       "text": "ever",
+       "start": 14.88,
+       "end": 15.2
+      }
+     ]
+    },
+    {
+     "show": "fall into the lake yourself.",
+     "start": 15.32,
+     "end": 16.72,
+     "words": [
+      {
+       "text": "fall",
+       "start": 15.32,
+       "end": 15.44
+      },
+      {
+       "text": "into",
+       "start": 15.52,
+       "end": 15.6
+      },
+      {
+       "text": "the",
+       "start": 15.68,
+       "end": 15.76
+      },
+      {
+       "text": "lake",
+       "start": 15.84,
+       "end": 15.92
+      },
+      {
+       "text": "yourself.",
+       "start": 16.0,
+       "end": 16.72
+      }
+     ]
+    }
+   ],
+   "start": 13.013,
+   "end": 16.72
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last Sunday,",
+     "start": 16.8,
+     "end": 17.56,
+     "words": [
+      {
+       "text": "Last",
+       "start": 16.8,
+       "end": 17.04
+      },
+      {
+       "text": "Sunday,",
+       "start": 17.28,
+       "end": 17.56
+      }
+     ]
+    },
+    {
+     "show": "I was skipping stones.",
+     "start": 17.6,
+     "end": 18.8,
+     "words": [
+      {
+       "text": "I",
+       "start": 17.6,
+       "end": 17.653
+      },
+      {
+       "text": "was",
+       "start": 17.707,
+       "end": 17.76
+      },
+      {
+       "text": "skipping",
+       "start": 17.8,
+       "end": 18.08
+      },
+      {
+       "text": "stones.",
+       "start": 18.16,
+       "end": 18.8
+      }
+     ]
+    },
+    {
+     "show": "I slipped.",
+     "start": 18.88,
+     "end": 19.52,
+     "words": [
+      {
+       "text": "I",
+       "start": 18.88,
+       "end": 18.96
+      },
+      {
+       "text": "slipped.",
+       "start": 19.0,
+       "end": 19.52
+      }
+     ]
+    },
+    {
+     "show": "{r:Splash.}",
+     "start": 19.84,
+     "end": 20.4,
+     "words": [
+      {
+       "text": "Splash.",
+       "start": 19.84,
+       "end": 20.4
+      }
+     ]
+    }
+   ],
+   "start": 16.8,
+   "end": 20.4
+  },
+  {
+   "id": "morning",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next morning,",
+     "start": 20.537,
+     "end": 21.36,
+     "words": [
+      {
+       "text": "The",
+       "start": 20.537,
+       "end": 20.56
+      },
+      {
+       "text": "next",
+       "start": 20.68,
+       "end": 20.8
+      },
+      {
+       "text": "morning,",
+       "start": 20.88,
+       "end": 21.36
+      }
+     ]
+    },
+    {
+     "show": "I woke up,",
+     "start": 21.44,
+     "end": 22.133,
+     "words": [
+      {
+       "text": "I",
+       "start": 21.44,
+       "end": 21.52
+      },
+      {
+       "text": "woke",
+       "start": 21.6,
+       "end": 21.68
+      },
+      {
+       "text": "up,",
+       "start": 21.76,
+       "end": 22.133
+      }
+     ]
+    },
+    {
+     "show": "and someone was already in my bed.",
+     "start": 22.187,
+     "end": 24.16,
+     "words": [
+      {
+       "text": "and",
+       "start": 22.187,
+       "end": 22.24
+      },
+      {
+       "text": "someone",
+       "start": 22.32,
+       "end": 22.56
+      },
+      {
+       "text": "was",
+       "start": 22.64,
+       "end": 22.8
+      },
+      {
+       "text": "already",
+       "start": 22.88,
+       "end": 23.2
+      },
+      {
+       "text": "in",
+       "start": 23.28,
+       "end": 23.36
+      },
+      {
+       "text": "my",
+       "start": 23.44,
+       "end": 23.52
+      },
+      {
+       "text": "bed.",
+       "start": 23.6,
+       "end": 24.16
+      }
+     ]
+    },
+    {
+     "show": "{r:Me.}",
+     "start": 24.24,
+     "end": 24.773,
+     "words": [
+      {
+       "text": "Me.",
+       "start": 24.24,
+       "end": 24.773
+      }
+     ]
+    }
+   ],
+   "start": 20.537,
+   "end": 24.773
+  },
+  {
+   "id": "twin",
+   "label": "",
+   "lines": [
+    {
+     "show": "Another Townie.",
+     "start": 24.907,
+     "end": 25.6,
+     "words": [
+      {
+       "text": "Another",
+       "start": 24.907,
+       "end": 25.04
+      },
+      {
+       "text": "Townie.",
+       "start": 25.12,
+       "end": 25.6
+      }
+     ]
+    },
+    {
+     "show": "Same rainbow cap.",
+     "start": 25.72,
+     "end": 26.72,
+     "words": [
+      {
+       "text": "Same",
+       "start": 25.72,
+       "end": 25.84
+      },
+      {
+       "text": "rainbow",
+       "start": 25.92,
+       "end": 26.24
+      },
+      {
+       "text": "cap.",
+       "start": 26.36,
+       "end": 26.72
+      }
+     ]
+    },
+    {
+     "show": "Same hoodie.",
+     "start": 26.84,
+     "end": 27.387,
+     "words": [
+      {
+       "text": "Same",
+       "start": 26.84,
+       "end": 26.96
+      },
+      {
+       "text": "hoodie.",
+       "start": 27.04,
+       "end": 27.387
+      }
+     ]
+    },
+    {
+     "show": "But he was better at everything.",
+     "start": 27.413,
+     "end": 28.88,
+     "words": [
+      {
+       "text": "But",
+       "start": 27.413,
+       "end": 27.44
+      },
+      {
+       "text": "he",
+       "start": 27.52,
+       "end": 27.6
+      },
+      {
+       "text": "was",
+       "start": 27.72,
+       "end": 27.84
+      },
+      {
+       "text": "better",
+       "start": 27.96,
+       "end": 28.08
+      },
+      {
+       "text": "at",
+       "start": 28.16,
+       "end": 28.24
+      },
+      {
+       "text": "everything.",
+       "start": 28.32,
+       "end": 28.88
+      }
+     ]
+    },
+    {
+     "show": "He made my bed.",
+     "start": 28.96,
+     "end": 29.867,
+     "words": [
+      {
+       "text": "He",
+       "start": 28.96,
+       "end": 29.04
+      },
+      {
+       "text": "made",
+       "start": 29.12,
+       "end": 29.2
+      },
+      {
+       "text": "my",
+       "start": 29.32,
+       "end": 29.44
+      },
+      {
+       "text": "bed.",
+       "start": 29.64,
+       "end": 29.867
+      }
+     ]
+    },
+    {
+     "show": "He did my homework.",
+     "start": 29.893,
+     "end": 30.853,
+     "words": [
+      {
+       "text": "He",
+       "start": 29.893,
+       "end": 29.92
+      },
+      {
+       "text": "did",
+       "start": 30.0,
+       "end": 30.08
+      },
+      {
+       "text": "my",
+       "start": 30.16,
+       "end": 30.24
+      },
+      {
+       "text": "homework.",
+       "start": 30.32,
+       "end": 30.853
+      }
+     ]
+    },
+    {
+     "show": "He even scored on {y:Tung Tung Tung Sahur.}",
+     "start": 30.907,
+     "end": 32.88,
+     "words": [
+      {
+       "text": "He",
+       "start": 30.907,
+       "end": 30.96
+      },
+      {
+       "text": "even",
+       "start": 31.08,
+       "end": 31.2
+      },
+      {
+       "text": "scored",
+       "start": 31.28,
+       "end": 31.573
+      },
+      {
+       "text": "on",
+       "start": 31.627,
+       "end": 31.68
+      },
+      {
+       "text": "Tung",
+       "start": 31.76,
+       "end": 31.84
+      },
+      {
+       "text": "Tung",
+       "start": 31.92,
+       "end": 32.08
+      },
+      {
+       "text": "Tung",
+       "start": 32.16,
+       "end": 32.24
+      },
+      {
+       "text": "Sahur.",
+       "start": 32.32,
+       "end": 32.88
+      }
+     ]
+    }
+   ],
+   "start": 24.907,
+   "end": 32.88
+  },
+  {
+   "id": "others",
+   "label": "",
+   "lines": [
+    {
+     "show": "My mom liked him more.",
+     "start": 32.96,
+     "end": 34.12,
+     "words": [
+      {
+       "text": "My",
+       "start": 32.96,
+       "end": 33.12
+      },
+      {
+       "text": "mom",
+       "start": 33.24,
+       "end": 33.36
+      },
+      {
+       "text": "liked",
+       "start": 33.44,
+       "end": 33.6
+      },
+      {
+       "text": "him",
+       "start": 33.68,
+       "end": 33.76
+      },
+      {
+       "text": "more.",
+       "start": 33.92,
+       "end": 34.12
+      }
+     ]
+    },
+    {
+     "show": "Kevin liked him more.",
+     "start": 34.16,
+     "end": 35.16,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 34.16,
+       "end": 34.48
+      },
+      {
+       "text": "liked",
+       "start": 34.56,
+       "end": 34.64
+      },
+      {
+       "text": "him",
+       "start": 34.72,
+       "end": 34.8
+      },
+      {
+       "text": "more.",
+       "start": 34.88,
+       "end": 35.16
+      }
+     ]
+    },
+    {
+     "show": "Even my dog liked him more.",
+     "start": 35.2,
+     "end": 36.72,
+     "words": [
+      {
+       "text": "Even",
+       "start": 35.2,
+       "end": 35.36
+      },
+      {
+       "text": "my",
+       "start": 35.48,
+       "end": 35.6
+      },
+      {
+       "text": "dog",
+       "start": 35.76,
+       "end": 35.92
+      },
+      {
+       "text": "liked",
+       "start": 36.0,
+       "end": 36.08
+      },
+      {
+       "text": "him",
+       "start": 36.16,
+       "end": 36.24
+      },
+      {
+       "text": "more.",
+       "start": 36.32,
+       "end": 36.72
+      }
+     ]
+    }
+   ],
+   "start": 32.96,
+   "end": 36.72
+  },
+  {
+   "id": "plan",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I went back to the lake,",
+     "start": 36.76,
+     "end": 37.893,
+     "words": [
+      {
+       "text": "So",
+       "start": 36.76,
+       "end": 36.8
+      },
+      {
+       "text": "I",
+       "start": 36.96,
+       "end": 37.013
+      },
+      {
+       "text": "went",
+       "start": 37.067,
+       "end": 37.12
+      },
+      {
+       "text": "back",
+       "start": 37.2,
+       "end": 37.28
+      },
+      {
+       "text": "to",
+       "start": 37.32,
+       "end": 37.36
+      },
+      {
+       "text": "the",
+       "start": 37.44,
+       "end": 37.52
+      },
+      {
+       "text": "lake,",
+       "start": 37.68,
+       "end": 37.893
+      }
+     ]
+    },
+    {
+     "show": "and threw in a note.",
+     "start": 37.947,
+     "end": 38.84,
+     "words": [
+      {
+       "text": "and",
+       "start": 37.947,
+       "end": 38.0
+      },
+      {
+       "text": "threw",
+       "start": 38.08,
+       "end": 38.24
+      },
+      {
+       "text": "in",
+       "start": 38.28,
+       "end": 38.32
+      },
+      {
+       "text": "a",
+       "start": 38.36,
+       "end": 38.4
+      },
+      {
+       "text": "note.",
+       "start": 38.48,
+       "end": 38.84
+      }
+     ]
+    },
+    {
+     "show": "Please take him back.",
+     "start": 38.88,
+     "end": 40.2,
+     "words": [
+      {
+       "text": "Please",
+       "start": 38.88,
+       "end": 39.28
+      },
+      {
+       "text": "take",
+       "start": 39.36,
+       "end": 39.44
+      },
+      {
+       "text": "him",
+       "start": 39.52,
+       "end": 39.6
+      },
+      {
+       "text": "back.",
+       "start": 39.68,
+       "end": 40.2
+      }
+     ]
+    }
+   ],
+   "start": 36.76,
+   "end": 40.2
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next morning,",
+     "start": 40.24,
+     "end": 40.92,
+     "words": [
+      {
+       "text": "The",
+       "start": 40.24,
+       "end": 40.28
+      },
+      {
+       "text": "next",
+       "start": 40.32,
+       "end": 40.48
+      },
+      {
+       "text": "morning,",
+       "start": 40.56,
+       "end": 40.92
+      }
+     ]
+    },
+    {
+     "show": "the lake gave me {r:two notes.}",
+     "start": 40.96,
+     "end": 42.28,
+     "words": [
+      {
+       "text": "the",
+       "start": 40.96,
+       "end": 41.04
+      },
+      {
+       "text": "lake",
+       "start": 41.16,
+       "end": 41.28
+      },
+      {
+       "text": "gave",
+       "start": 41.32,
+       "end": 41.44
+      },
+      {
+       "text": "me",
+       "start": 41.56,
+       "end": 41.68
+      },
+      {
+       "text": "two",
+       "start": 41.76,
+       "end": 41.84
+      },
+      {
+       "text": "notes.",
+       "start": 41.92,
+       "end": 42.28
+      }
+     ]
+    },
+    {
+     "show": "The first one said,",
+     "start": 42.32,
+     "end": 43.24,
+     "words": [
+      {
+       "text": "The",
+       "start": 42.32,
+       "end": 42.4
+      },
+      {
+       "text": "first",
+       "start": 42.52,
+       "end": 42.64
+      },
+      {
+       "text": "one",
+       "start": 42.72,
+       "end": 42.8
+      },
+      {
+       "text": "said,",
+       "start": 42.88,
+       "end": 43.24
+      }
+     ]
+    },
+    {
+     "show": "sorry, no returns.",
+     "start": 43.28,
+     "end": 44.4,
+     "words": [
+      {
+       "text": "sorry,",
+       "start": 43.28,
+       "end": 43.707
+      },
+      {
+       "text": "no",
+       "start": 43.733,
+       "end": 43.76
+      },
+      {
+       "text": "returns.",
+       "start": 43.84,
+       "end": 44.4
+      }
+     ]
+    },
+    {
+     "show": "The second one said,",
+     "start": 44.48,
+     "end": 45.44,
+     "words": [
+      {
+       "text": "The",
+       "start": 44.48,
+       "end": 44.56
+      },
+      {
+       "text": "second",
+       "start": 44.68,
+       "end": 44.8
+      },
+      {
+       "text": "one",
+       "start": 44.88,
+       "end": 45.04
+      },
+      {
+       "text": "said,",
+       "start": 45.16,
+       "end": 45.44
+      }
+     ]
+    },
+    {
+     "show": "he jumped in too.",
+     "start": 45.52,
+     "end": 46.571,
+     "words": [
+      {
+       "text": "he",
+       "start": 45.52,
+       "end": 45.6
+      },
+      {
+       "text": "jumped",
+       "start": 45.68,
+       "end": 45.88
+      },
+      {
+       "text": "in",
+       "start": 45.92,
+       "end": 46.08
+      },
+      {
+       "text": "too.",
+       "start": 46.32,
+       "end": 46.571
+      }
+     ]
+    }
+   ],
+   "start": 40.24,
+   "end": 46.571
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "I looked out the window.",
+     "start": 46.64,
+     "end": 47.8,
+     "words": [
+      {
+       "text": "I",
+       "start": 46.64,
+       "end": 46.72
+      },
+      {
+       "text": "looked",
+       "start": 46.8,
+       "end": 46.92
+      },
+      {
+       "text": "out",
+       "start": 46.96,
+       "end": 47.04
+      },
+      {
+       "text": "the",
+       "start": 47.12,
+       "end": 47.2
+      },
+      {
+       "text": "window.",
+       "start": 47.48,
+       "end": 47.8
+      }
+     ]
+    },
+    {
+     "show": "There were {r:three} of us now.",
+     "start": 47.84,
+     "end": 49.253,
+     "words": [
+      {
+       "text": "There",
+       "start": 47.84,
+       "end": 47.92
+      },
+      {
+       "text": "were",
+       "start": 48.04,
+       "end": 48.16
+      },
+      {
+       "text": "three",
+       "start": 48.28,
+       "end": 48.4
+      },
+      {
+       "text": "of",
+       "start": 48.48,
+       "end": 48.56
+      },
+      {
+       "text": "us",
+       "start": 48.64,
+       "end": 48.72
+      },
+      {
+       "text": "now.",
+       "start": 48.8,
+       "end": 49.253
+      }
+     ]
+    },
+    {
+     "show": "And they were all",
+     "start": 49.307,
+     "end": 50.0,
+     "words": [
+      {
+       "text": "And",
+       "start": 49.307,
+       "end": 49.36
+      },
+      {
+       "text": "they",
+       "start": 49.4,
+       "end": 49.44
+      },
+      {
+       "text": "were",
+       "start": 49.52,
+       "end": 49.68
+      },
+      {
+       "text": "all",
+       "start": 49.76,
+       "end": 50.0
+      }
+     ]
+    },
+    {
+     "show": "looking at me.",
+     "start": 50.12,
+     "end": 51.12,
+     "words": [
+      {
+       "text": "looking",
+       "start": 50.12,
+       "end": 50.24
+      },
+      {
+       "text": "at",
+       "start": 50.32,
+       "end": 50.48
+      },
+      {
+       "text": "me.",
+       "start": 50.76,
+       "end": 51.12
+      }
+     ]
+    }
+   ],
+   "start": 46.64,
+   "end": 51.12
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "title": "Two Townies",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "whatever you throw into the lake"
+    },
+    {
+     "show": "comes back the next morning."
+    },
+    {
+     "show": "But {r:twice.}"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin threw in his homework."
+    },
+    {
+     "show": "Now he has to do it twice."
+    },
+    {
+     "show": "Linda threw in her cat."
+    },
+    {
+     "show": "Now she has two cats on the ceiling."
+    },
+    {
+     "show": "And my grandma threw in her teeth."
+    },
+    {
+     "show": "Now she has a {y:spare.}"
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "There's only one rule."
+    },
+    {
+     "show": "Never, ever"
+    },
+    {
+     "show": "fall into the lake yourself."
+    }
+   ]
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last Sunday,"
+    },
+    {
+     "show": "I was skipping stones."
+    },
+    {
+     "show": "I slipped."
+    },
+    {
+     "show": "{r:Splash.}"
+    }
+   ]
+  },
+  {
+   "id": "morning",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next morning,"
+    },
+    {
+     "show": "I woke up,"
+    },
+    {
+     "show": "and someone was already in my bed."
+    },
+    {
+     "show": "{r:Me.}"
+    }
+   ]
+  },
+  {
+   "id": "twin",
+   "label": "",
+   "lines": [
+    {
+     "show": "Another Townie."
+    },
+    {
+     "show": "Same rainbow cap."
+    },
+    {
+     "show": "Same hoodie."
+    },
+    {
+     "show": "But he was better at everything."
+    },
+    {
+     "show": "He made my bed."
+    },
+    {
+     "show": "He did my homework."
+    },
+    {
+     "show": "He even scored on {y:Tung Tung Tung Sahur.}"
+    }
+   ]
+  },
+  {
+   "id": "others",
+   "label": "",
+   "lines": [
+    {
+     "show": "My mom liked him more."
+    },
+    {
+     "show": "Kevin liked him more."
+    },
+    {
+     "show": "Even my dog liked him more."
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I went back to the lake,"
+    },
+    {
+     "show": "and threw in a note."
+    },
+    {
+     "show": "Please take him back."
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next morning,"
+    },
+    {
+     "show": "the lake gave me {r:two notes.}"
+    },
+    {
+     "show": "The first one said,"
+    },
+    {
+     "show": "sorry, no returns."
+    },
+    {
+     "show": "The second one said,"
+    },
+    {
+     "show": "he jumped in too."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "I looked out the window."
+    },
+    {
+     "show": "There were {r:three} of us now."
+    },
+    {
+     "show": "And they were all"
+    },
+    {
+     "show": "looking at me."
+    }
+   ]
+  }
+ ]
+}
