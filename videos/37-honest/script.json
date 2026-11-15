@@ -1,0 +1,120 @@
+{
+ "title": "Honest",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "every time you lie,"
+    },
+    {
+     "show": "you get {r:smaller.}"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin said he did his homework."
+    },
+    {
+     "show": "Now he lives in a shoebox."
+    },
+    {
+     "show": "Linda said she loved grandma's soup."
+    },
+    {
+     "show": "She has to ride the cat to school."
+    },
+    {
+     "show": "The mayor gave a speech about taxes."
+    },
+    {
+     "show": "We still can't find him."
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "I have never told a lie."
+    },
+    {
+     "show": "So I'm the {y:tallest} kid in town."
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then grandma knitted me a sweater."
+    },
+    {
+     "show": "It was the {r:ugliest} sweater I have ever seen."
+    },
+    {
+     "show": "She asked,"
+    },
+    {
+     "show": "do you like it?"
+    }
+   ]
+  },
+  {
+   "id": "choice",
+   "label": "",
+   "lines": [
+    {
+     "show": "If I say no,"
+    },
+    {
+     "show": "grandma cries."
+    },
+    {
+     "show": "If I say yes,"
+    },
+    {
+     "show": "I {r:shrink.}"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I said,"
+    },
+    {
+     "show": "grandma,"
+    },
+    {
+     "show": "it's the ugliest sweater in the world."
+    },
+    {
+     "show": "She smiled and said,"
+    },
+    {
+     "show": "finally, an honest boy."
+    },
+    {
+     "show": "Then she gave me a cookie."
+    },
+    {
+     "show": "And I grew {y:even taller.}"
+    }
+   ]
+  }
+ ]
+}

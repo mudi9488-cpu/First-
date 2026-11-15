@@ -1,0 +1,6 @@
+hook|In this town,|every time you lie,|you get {r:smaller.}
+world|Kevin said he did his homework.|Now he lives in a shoebox.|Linda said she loved grandma's soup.|She has to ride the cat to school.|The mayor gave a speech about taxes.|We still can't find him.
+me|I have never told a lie.|So I'm the {y:tallest} kid in town.
+twist|Then grandma knitted me a sweater.|It was the {r:ugliest} sweater I have ever seen.|She asked,|do you like it?
+choice|If I say no,|grandma cries.|If I say yes,|I {r:shrink.}
+end|So I said,|grandma,|it's the ugliest sweater in the world.|She smiled and said,|finally, an honest boy.|Then she gave me a cookie.|And I grew {y:even taller.}

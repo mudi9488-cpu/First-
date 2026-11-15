@@ -1,0 +1,855 @@
+{
+ "duration": 34.691,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "every time you lie,",
+     "start": 0.88,
+     "end": 1.92,
+     "words": [
+      {
+       "text": "every",
+       "start": 0.88,
+       "end": 1.04
+      },
+      {
+       "text": "time",
+       "start": 1.12,
+       "end": 1.28
+      },
+      {
+       "text": "you",
+       "start": 1.36,
+       "end": 1.44
+      },
+      {
+       "text": "lie,",
+       "start": 1.6,
+       "end": 1.92
+      }
+     ]
+    },
+    {
+     "show": "you get {r:smaller.}",
+     "start": 1.96,
+     "end": 2.8,
+     "words": [
+      {
+       "text": "you",
+       "start": 1.96,
+       "end": 2.0
+      },
+      {
+       "text": "get",
+       "start": 2.08,
+       "end": 2.16
+      },
+      {
+       "text": "smaller.",
+       "start": 2.24,
+       "end": 2.8
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 2.8
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin said he did his homework.",
+     "start": 2.96,
+     "end": 4.32,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 2.96,
+       "end": 3.12
+      },
+      {
+       "text": "said",
+       "start": 3.2,
+       "end": 3.28
+      },
+      {
+       "text": "he",
+       "start": 3.36,
+       "end": 3.44
+      },
+      {
+       "text": "did",
+       "start": 3.48,
+       "end": 3.52
+      },
+      {
+       "text": "his",
+       "start": 3.6,
+       "end": 3.68
+      },
+      {
+       "text": "homework.",
+       "start": 3.76,
+       "end": 4.32
+      }
+     ]
+    },
+    {
+     "show": "Now he lives in a shoebox.",
+     "start": 4.44,
+     "end": 5.84,
+     "words": [
+      {
+       "text": "Now",
+       "start": 4.44,
+       "end": 4.56
+      },
+      {
+       "text": "he",
+       "start": 4.64,
+       "end": 4.72
+      },
+      {
+       "text": "lives",
+       "start": 4.8,
+       "end": 4.88
+      },
+      {
+       "text": "in",
+       "start": 4.96,
+       "end": 5.0
+      },
+      {
+       "text": "a",
+       "start": 5.04,
+       "end": 5.2
+      },
+      {
+       "text": "shoebox.",
+       "start": 5.24,
+       "end": 5.84
+      }
+     ]
+    },
+    {
+     "show": "Linda said she loved grandma's soup.",
+     "start": 5.92,
+     "end": 7.84,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 5.92,
+       "end": 6.16
+      },
+      {
+       "text": "said",
+       "start": 6.24,
+       "end": 6.4
+      },
+      {
+       "text": "she",
+       "start": 6.48,
+       "end": 6.64
+      },
+      {
+       "text": "loved",
+       "start": 6.72,
+       "end": 6.96
+      },
+      {
+       "text": "grandma's",
+       "start": 7.04,
+       "end": 7.44
+      },
+      {
+       "text": "soup.",
+       "start": 7.6,
+       "end": 7.84
+      }
+     ]
+    },
+    {
+     "show": "She has to ride the cat to school.",
+     "start": 7.92,
+     "end": 9.44,
+     "words": [
+      {
+       "text": "She",
+       "start": 7.92,
+       "end": 8.0
+      },
+      {
+       "text": "has",
+       "start": 8.08,
+       "end": 8.16
+      },
+      {
+       "text": "to",
+       "start": 8.2,
+       "end": 8.24
+      },
+      {
+       "text": "ride",
+       "start": 8.32,
+       "end": 8.48
+      },
+      {
+       "text": "the",
+       "start": 8.52,
+       "end": 8.56
+      },
+      {
+       "text": "cat",
+       "start": 8.64,
+       "end": 8.88
+      },
+      {
+       "text": "to",
+       "start": 8.92,
+       "end": 8.96
+      },
+      {
+       "text": "school.",
+       "start": 9.04,
+       "end": 9.44
+      }
+     ]
+    },
+    {
+     "show": "The mayor gave a speech about taxes.",
+     "start": 9.52,
+     "end": 11.36,
+     "words": [
+      {
+       "text": "The",
+       "start": 9.52,
+       "end": 9.6
+      },
+      {
+       "text": "mayor",
+       "start": 9.68,
+       "end": 9.84
+      },
+      {
+       "text": "gave",
+       "start": 9.92,
+       "end": 10.0
+      },
+      {
+       "text": "a",
+       "start": 10.08,
+       "end": 10.16
+      },
+      {
+       "text": "speech",
+       "start": 10.28,
+       "end": 10.4
+      },
+      {
+       "text": "about",
+       "start": 10.56,
+       "end": 10.72
+      },
+      {
+       "text": "taxes.",
+       "start": 10.88,
+       "end": 11.36
+      }
+     ]
+    },
+    {
+     "show": "We still can't find him.",
+     "start": 11.44,
+     "end": 12.96,
+     "words": [
+      {
+       "text": "We",
+       "start": 11.44,
+       "end": 11.6
+      },
+      {
+       "text": "still",
+       "start": 11.68,
+       "end": 11.92
+      },
+      {
+       "text": "can't",
+       "start": 12.0,
+       "end": 12.24
+      },
+      {
+       "text": "find",
+       "start": 12.4,
+       "end": 12.56
+      },
+      {
+       "text": "him.",
+       "start": 12.64,
+       "end": 12.96
+      }
+     ]
+    }
+   ],
+   "start": 2.96,
+   "end": 12.96
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "I have never told a lie.",
+     "start": 13.04,
+     "end": 14.72,
+     "words": [
+      {
+       "text": "I",
+       "start": 13.04,
+       "end": 13.2
+      },
+      {
+       "text": "have",
+       "start": 13.28,
+       "end": 13.6
+      },
+      {
+       "text": "never",
+       "start": 13.76,
+       "end": 13.92
+      },
+      {
+       "text": "told",
+       "start": 13.96,
+       "end": 14.16
+      },
+      {
+       "text": "a",
+       "start": 14.2,
+       "end": 14.24
+      },
+      {
+       "text": "lie.",
+       "start": 14.4,
+       "end": 14.72
+      }
+     ]
+    },
+    {
+     "show": "So I'm the {y:tallest} kid in town.",
+     "start": 14.84,
+     "end": 16.56,
+     "words": [
+      {
+       "text": "So",
+       "start": 14.84,
+       "end": 14.96
+      },
+      {
+       "text": "I'm",
+       "start": 15.04,
+       "end": 15.2
+      },
+      {
+       "text": "the",
+       "start": 15.28,
+       "end": 15.36
+      },
+      {
+       "text": "tallest",
+       "start": 15.4,
+       "end": 15.76
+      },
+      {
+       "text": "kid",
+       "start": 15.84,
+       "end": 15.92
+      },
+      {
+       "text": "in",
+       "start": 16.0,
+       "end": 16.08
+      },
+      {
+       "text": "town.",
+       "start": 16.24,
+       "end": 16.56
+      }
+     ]
+    }
+   ],
+   "start": 13.04,
+   "end": 16.56
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then grandma knitted me a sweater.",
+     "start": 16.76,
+     "end": 18.32,
+     "words": [
+      {
+       "text": "Then",
+       "start": 16.76,
+       "end": 16.8
+      },
+      {
+       "text": "grandma",
+       "start": 16.96,
+       "end": 17.28
+      },
+      {
+       "text": "knitted",
+       "start": 17.36,
+       "end": 17.6
+      },
+      {
+       "text": "me",
+       "start": 17.64,
+       "end": 17.68
+      },
+      {
+       "text": "a",
+       "start": 17.76,
+       "end": 17.84
+      },
+      {
+       "text": "sweater.",
+       "start": 17.88,
+       "end": 18.32
+      }
+     ]
+    },
+    {
+     "show": "It was the {r:ugliest} sweater I have ever seen.",
+     "start": 18.36,
+     "end": 20.933,
+     "words": [
+      {
+       "text": "It",
+       "start": 18.36,
+       "end": 18.4
+      },
+      {
+       "text": "was",
+       "start": 18.48,
+       "end": 18.56
+      },
+      {
+       "text": "the",
+       "start": 18.64,
+       "end": 18.88
+      },
+      {
+       "text": "ugliest",
+       "start": 18.96,
+       "end": 19.36
+      },
+      {
+       "text": "sweater",
+       "start": 19.44,
+       "end": 19.76
+      },
+      {
+       "text": "I",
+       "start": 19.84,
+       "end": 19.88
+      },
+      {
+       "text": "have",
+       "start": 19.92,
+       "end": 20.16
+      },
+      {
+       "text": "ever",
+       "start": 20.32,
+       "end": 20.48
+      },
+      {
+       "text": "seen.",
+       "start": 20.68,
+       "end": 20.933
+      }
+     ]
+    },
+    {
+     "show": "She asked,",
+     "start": 20.987,
+     "end": 21.44,
+     "words": [
+      {
+       "text": "She",
+       "start": 20.987,
+       "end": 21.04
+      },
+      {
+       "text": "asked,",
+       "start": 21.12,
+       "end": 21.44
+      }
+     ]
+    },
+    {
+     "show": "do you like it?",
+     "start": 21.48,
+     "end": 22.08,
+     "words": [
+      {
+       "text": "do",
+       "start": 21.48,
+       "end": 21.52
+      },
+      {
+       "text": "you",
+       "start": 21.6,
+       "end": 21.68
+      },
+      {
+       "text": "like",
+       "start": 21.76,
+       "end": 21.84
+      },
+      {
+       "text": "it?",
+       "start": 21.92,
+       "end": 22.08
+      }
+     ]
+    }
+   ],
+   "start": 16.76,
+   "end": 22.08
+  },
+  {
+   "id": "choice",
+   "label": "",
+   "lines": [
+    {
+     "show": "If I say no,",
+     "start": 22.16,
+     "end": 23.04,
+     "words": [
+      {
+       "text": "If",
+       "start": 22.16,
+       "end": 22.24
+      },
+      {
+       "text": "I",
+       "start": 22.32,
+       "end": 22.4
+      },
+      {
+       "text": "say",
+       "start": 22.48,
+       "end": 22.56
+      },
+      {
+       "text": "no,",
+       "start": 22.64,
+       "end": 23.04
+      }
+     ]
+    },
+    {
+     "show": "grandma cries.",
+     "start": 23.12,
+     "end": 24.08,
+     "words": [
+      {
+       "text": "grandma",
+       "start": 23.12,
+       "end": 23.44
+      },
+      {
+       "text": "cries.",
+       "start": 23.52,
+       "end": 24.08
+      }
+     ]
+    },
+    {
+     "show": "If I say yes,",
+     "start": 24.12,
+     "end": 24.96,
+     "words": [
+      {
+       "text": "If",
+       "start": 24.12,
+       "end": 24.16
+      },
+      {
+       "text": "I",
+       "start": 24.32,
+       "end": 24.373
+      },
+      {
+       "text": "say",
+       "start": 24.427,
+       "end": 24.48
+      },
+      {
+       "text": "yes,",
+       "start": 24.56,
+       "end": 24.96
+      }
+     ]
+    },
+    {
+     "show": "I {r:shrink.}",
+     "start": 25.12,
+     "end": 25.733,
+     "words": [
+      {
+       "text": "I",
+       "start": 25.12,
+       "end": 25.16
+      },
+      {
+       "text": "shrink.",
+       "start": 25.2,
+       "end": 25.733
+      }
+     ]
+    }
+   ],
+   "start": 22.16,
+   "end": 25.733
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I said,",
+     "start": 25.787,
+     "end": 26.32,
+     "words": [
+      {
+       "text": "So",
+       "start": 25.787,
+       "end": 25.84
+      },
+      {
+       "text": "I",
+       "start": 26.0,
+       "end": 26.053
+      },
+      {
+       "text": "said,",
+       "start": 26.107,
+       "end": 26.32
+      }
+     ]
+    },
+    {
+     "show": "grandma,",
+     "start": 26.44,
+     "end": 26.88,
+     "words": [
+      {
+       "text": "grandma,",
+       "start": 26.44,
+       "end": 26.88
+      }
+     ]
+    },
+    {
+     "show": "it's the ugliest sweater in the world.",
+     "start": 26.92,
+     "end": 28.96,
+     "words": [
+      {
+       "text": "it's",
+       "start": 26.92,
+       "end": 27.04
+      },
+      {
+       "text": "the",
+       "start": 27.16,
+       "end": 27.28
+      },
+      {
+       "text": "ugliest",
+       "start": 27.36,
+       "end": 27.76
+      },
+      {
+       "text": "sweater",
+       "start": 27.84,
+       "end": 28.16
+      },
+      {
+       "text": "in",
+       "start": 28.2,
+       "end": 28.24
+      },
+      {
+       "text": "the",
+       "start": 28.32,
+       "end": 28.48
+      },
+      {
+       "text": "world.",
+       "start": 28.68,
+       "end": 28.96
+      }
+     ]
+    },
+    {
+     "show": "She smiled and said,",
+     "start": 29.04,
+     "end": 30.16,
+     "words": [
+      {
+       "text": "She",
+       "start": 29.04,
+       "end": 29.2
+      },
+      {
+       "text": "smiled",
+       "start": 29.28,
+       "end": 29.6
+      },
+      {
+       "text": "and",
+       "start": 29.68,
+       "end": 29.76
+      },
+      {
+       "text": "said,",
+       "start": 29.88,
+       "end": 30.16
+      }
+     ]
+    },
+    {
+     "show": "finally, an honest boy.",
+     "start": 30.24,
+     "end": 31.92,
+     "words": [
+      {
+       "text": "finally,",
+       "start": 30.24,
+       "end": 30.76
+      },
+      {
+       "text": "an",
+       "start": 30.8,
+       "end": 31.04
+      },
+      {
+       "text": "honest",
+       "start": 31.08,
+       "end": 31.44
+      },
+      {
+       "text": "boy.",
+       "start": 31.64,
+       "end": 31.92
+      }
+     ]
+    },
+    {
+     "show": "Then she gave me a cookie.",
+     "start": 32.0,
+     "end": 33.2,
+     "words": [
+      {
+       "text": "Then",
+       "start": 32.0,
+       "end": 32.08
+      },
+      {
+       "text": "she",
+       "start": 32.16,
+       "end": 32.24
+      },
+      {
+       "text": "gave",
+       "start": 32.28,
+       "end": 32.4
+      },
+      {
+       "text": "me",
+       "start": 32.48,
+       "end": 32.56
+      },
+      {
+       "text": "a",
+       "start": 32.64,
+       "end": 32.8
+      },
+      {
+       "text": "cookie.",
+       "start": 32.96,
+       "end": 33.2
+      }
+     ]
+    },
+    {
+     "show": "And I grew {y:even taller.}",
+     "start": 33.28,
+     "end": 34.72,
+     "words": [
+      {
+       "text": "And",
+       "start": 33.28,
+       "end": 33.36
+      },
+      {
+       "text": "I",
+       "start": 33.52,
+       "end": 33.547
+      },
+      {
+       "text": "grew",
+       "start": 33.573,
+       "end": 33.76
+      },
+      {
+       "text": "even",
+       "start": 33.84,
+       "end": 34.08
+      },
+      {
+       "text": "taller.",
+       "start": 34.12,
+       "end": 34.72
+      }
+     ]
+    }
+   ],
+   "start": 25.787,
+   "end": 34.72
+  }
+ ]
+}
