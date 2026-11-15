@@ -1,0 +1,9 @@
+hook|In this town,|everybody's out {b:partying}|every single night.|Everybody…|except me.|{y:HUSS!}
+world|My best friend Kevin|parties so much,|he forgot his own {r:birthday.}|Linda threw a party|for her cat's cat.|And my grandma|goes clubbing on Tuesdays.
+tung|The only other one|awake at night|is {r:Tung Tung Tung Sahur.}|A giant wooden log|with a baseball bat.|He's the town's|basketball champion.|Nobody has ever scored on him.|Not once.|In fifty years.
+grind|So while they're out partying,|by the way…|I'm out here practicing.|{y:HUSS!}|{y:HUSS!}|Every night.|Rain.|Snow.|{y:HUSS!}
+watch|But every night,|at three in the morning,|I heard something.|{r:Tung.}|{r:Tung.}|{r:Tung.}|Someone was watching me.
+game|Then came the big game.|The whole town showed up,|still wearing party hats.|Everybody laughed at me.|Then Tung Tung Tung Sahur|stepped onto the court.|He's taller than a {r:house.}|{r:Tung.}|{r:Tung.}|{r:Tung.}
+score|I got the ball.|{y:HUSS!}|I jumped.|{y:HUSS!}|And I {y:scored.}|The first point in fifty years.|The crowd went silent.|Then Tung Tung Tung Sahur|dropped his bat,|and started {b:crying.}
+twist|He said,|every night, I watched you play.|Nobody ever stays home|to play with me.|They're always out partying.
+end|So now,|we practice together.|And while they're out partying,|by the way…|you can hear it all over town.|{y:HUSS!}|{y:HUSS!}|{r:Tung.}|{r:Tung.}|{r:Tung.}
