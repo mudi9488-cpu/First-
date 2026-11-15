@@ -288,6 +288,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     gr.addColorStop(0, "rgba(255,255,255,1)"); gr.addColorStop(0.22, "rgba(140,230,255,0.9)"); gr.addColorStop(1, "rgba(0,120,255,0)"); g.fillStyle = gr; g.fillRect(0, 0, 128, 128); return new THREE.CanvasTexture(c); })();
   function lampSet(ch, on, at, u) { ch.lamp.visible = on && (at === undefined || u >= at); if (ch.lamp.visible) { const q = at === undefined ? 1 : outBack((u - at) / 0.25);
       ch.lamp.scale.setScalar(Math.max(0.01, q) * (1 + 0.06 * Math.sin(u * 8))); } }
+  const SHIRT_IMG = new Image(); const shirtImgReady = new Promise((res) => { SHIRT_IMG.onload = res; SHIRT_IMG.onerror = res; }); SHIRT_IMG.src = "assets/brand/townie-shirt.jpg";
   function makeChar(o) {
     const root = new THREE.Group(); scene.add(root);
     const sk = std({ color: o.skin || 0xF1C27D }), sh = std({ color: o.shirt }), pa = std({ color: o.pants || 0x2E3A59 }), shoe = std({ color: o.shoe || 0x222222 });
@@ -308,7 +309,12 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
       for (const ex of [57, 71]) { g.fillStyle = "#FFF"; g.beginPath(); g.ellipse(ex, 44, 6, 7, 0, 0, 6.3); g.fill(); g.fillStyle = "#1B1410"; g.beginPath(); g.arc(ex, 45, 3, 0, 6.3); g.fill(); }
       g.fillStyle = "#5A3216"; g.fillRect(62, 48, 4, 10); g.strokeStyle = "#1B1410"; g.lineWidth = 2.5; g.beginPath(); g.arc(64, 62, 9, 0.15 * Math.PI, 0.85 * Math.PI); g.stroke();
       g.strokeStyle = "#C98B3C"; g.lineWidth = 4; g.beginPath(); g.moveTo(84, 40); g.lineTo(100, 74); g.stroke(); g.fillStyle = "#FFD23F"; g.font = "bold 13px sans-serif"; g.textAlign = "center"; g.fillText("TUNG TUNG", 64, 100); g.fillText("SAHUR", 64, 114); }
-    const ct = new THREE.CanvasTexture(c); ct.colorSpace = THREE.SRGBColorSpace; const front = std({ map: ct });
+    let ct = new THREE.CanvasTexture(c);
+    if (o.design === "tungimg") { const c2 = cv(512, 512), g2 = c2.getContext("2d"); ct = new THREE.CanvasTexture(c2);
+      const paint = () => { g2.fillStyle = "#" + new THREE.Color(o.shirt).getHexString(); g2.fillRect(0, 0, 512, 512); g2.strokeStyle = "#FFF"; g2.lineWidth = 12; g2.beginPath(); g2.moveTo(200, 0); g2.lineTo(200, 70); g2.moveTo(312, 0); g2.lineTo(312, 70); g2.stroke();
+        g2.fillStyle = "rgba(0,0,0,0.18)"; g2.fillRect(130, 400, 252, 100); if (SHIRT_IMG.naturalWidth) { g2.fillStyle = "#FFFFFF"; g2.fillRect(142, 76, 228, 285); g2.drawImage(SHIRT_IMG, 150, 84, 212, 269); } ct.needsUpdate = true; };
+      paint(); shirtImgReady.then(paint); }
+    ct.colorSpace = THREE.SRGBColorSpace; const front = std({ map: ct });
     const torso = add(new THREE.Mesh(new THREE.BoxGeometry(1, 1, 0.5), [sh, sh, sh, sh, front, sh]), root); torso.position.y = 1.5;
     const limb = (x, y, mats) => { const p = new THREE.Group(); p.position.set(x, y, 0); root.add(p); return p; };
     const armL = limb(0.75, 1.97), armR = limb(-0.75, 1.97), legL = limb(0.25, 1.0), legR = limb(-0.25, 1.0);
@@ -1583,7 +1589,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     row: [[-3.0, 28, 0], [-1.5, 26, 0], [0, 24, 0], [1.5, 22, 0], [3.0, 20, 0], [-3.0, 18, 0], [-1.5, 16, 0], [0, 14, 0], [1.5, 12, 0], [3.0, 10, 0]],
     pile: [[-1.2, 20.6, 20], [1.1, 20.3, -30], [-0.4, 21.6, 60], [0.6, 21.4, 100], [-1.8, 19.4, -60], [1.9, 19.2, 30], [-0.2, 19.0, 140], [0.0, 20.4, 0, 1.2]],
   };
-  const NARR = { shirt: 0x2BB673, pants: 0x22304A, design: "tung", hair: "rainbowcap", hairCol: 0x3A2214, skin: 0xE0AC69 }; // Townie – Kanal-Erzähler
+  const NARR = { shirt: 0x2BB673, pants: 0x22304A, design: "tungimg", hair: "rainbowcap", hairCol: 0x3A2214, skin: 0xE0AC69 }; // Townie – Kanal-Erzähler
   Object.assign(A, {
     me: makeChar(NARR),
     kevin: makeChar({ shirt: 0xE63946, pants: 0x2E3A59, design: "star", hair: "messy", hairCol: 0xE8C66A, skin: 0xFFDBAC }),
@@ -2059,7 +2065,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
   const tl = gsap.timeline({ paused: true });
   tl.to(st, { t: DUR, duration: DUR, ease: "none", onUpdate: () => render(st.t) }, 0);
   window.__timelines["world"] = tl;
-  return document.fonts.load("80px Lilita").then(() => render(0));
+  return Promise.all([document.fonts.load("80px Lilita"), shirtImgReady]).then(() => render(0));
 }).catch((e) => { console.error("world build failed", e); throw e; });
 """
 
