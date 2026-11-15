@@ -161,3 +161,10 @@ Länge nur **75–110 s** (kürzer als unsere 2:00+). Schnitt alle ~2–3 s (gem
 - Feste Nebenfiguren: Kevin (bester Freund, rotes Stern-Shirt, blond), Linda (Nachbarin), Oma (lila, Brille, Dutt), Bürgermeister (Zylinder, Schnurrbart).
 - **Neongelbe Untertitel bleiben** (unser Erkennungszeichen, nicht weiß wie bei larpiverse).
 - Stil sonst wie die vierte Referenz-Runde: helle Tagstadt, Comic-Mimik, Text-Popups („HA!“, „-$5“), Callback-Ende.
+
+## Feedback des Creators (Video 30)
+- Jedes Video beginnt mit „In this town, …“. Townie stellt sich NICHT selbst vor (kein „I'm Townie“).
+- „HUSS“ / schnelles „HUSS HUSS HUSS“ war nur für Video 29 (Meme-Video) – nicht mehr standardmäßig einbauen.
+- Townie soll trotzdem im Mittelpunkt stehen (Held der Story, oft im Bild).
+- Tung Tung Sahur: modelliertes 3D-Modell aus Video 29 (`tung`-Gruppe in `videos/29-huss-tung/build.py`), nicht Foto-Textur.
+- Vor neuen Videos die Idee kurz vorstellen und Freigabe abwarten.
