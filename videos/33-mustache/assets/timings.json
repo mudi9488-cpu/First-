@@ -1,0 +1,1033 @@
+{
+ "duration": 39.158,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "whoever has the biggest {y:mustache}",
+     "start": 0.88,
+     "end": 2.32,
+     "words": [
+      {
+       "text": "whoever",
+       "start": 0.88,
+       "end": 1.12
+      },
+      {
+       "text": "has",
+       "start": 1.2,
+       "end": 1.28
+      },
+      {
+       "text": "the",
+       "start": 1.36,
+       "end": 1.52
+      },
+      {
+       "text": "biggest",
+       "start": 1.6,
+       "end": 1.84
+      },
+      {
+       "text": "mustache",
+       "start": 1.96,
+       "end": 2.32
+      }
+     ]
+    },
+    {
+     "show": "becomes the mayor.",
+     "start": 2.4,
+     "end": 3.28,
+     "words": [
+      {
+       "text": "becomes",
+       "start": 2.4,
+       "end": 2.64
+      },
+      {
+       "text": "the",
+       "start": 2.72,
+       "end": 2.8
+      },
+      {
+       "text": "mayor.",
+       "start": 2.88,
+       "end": 3.28
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 3.28
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin glued a broom to his face.",
+     "start": 3.4,
+     "end": 4.96,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 3.4,
+       "end": 3.52
+      },
+      {
+       "text": "glued",
+       "start": 3.6,
+       "end": 3.76
+      },
+      {
+       "text": "a",
+       "start": 3.8,
+       "end": 3.84
+      },
+      {
+       "text": "broom",
+       "start": 3.92,
+       "end": 4.16
+      },
+      {
+       "text": "to",
+       "start": 4.2,
+       "end": 4.24
+      },
+      {
+       "text": "his",
+       "start": 4.32,
+       "end": 4.4
+      },
+      {
+       "text": "face.",
+       "start": 4.48,
+       "end": 4.96
+      }
+     ]
+    },
+    {
+     "show": "He lost.",
+     "start": 5.04,
+     "end": 5.68,
+     "words": [
+      {
+       "text": "He",
+       "start": 5.04,
+       "end": 5.12
+      },
+      {
+       "text": "lost.",
+       "start": 5.32,
+       "end": 5.68
+      }
+     ]
+    },
+    {
+     "show": "Linda drew one on with a marker.",
+     "start": 5.72,
+     "end": 7.2,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 5.72,
+       "end": 6.0
+      },
+      {
+       "text": "drew",
+       "start": 6.053,
+       "end": 6.16
+      },
+      {
+       "text": "one",
+       "start": 6.24,
+       "end": 6.32
+      },
+      {
+       "text": "on",
+       "start": 6.4,
+       "end": 6.48
+      },
+      {
+       "text": "with",
+       "start": 6.52,
+       "end": 6.56
+      },
+      {
+       "text": "a",
+       "start": 6.6,
+       "end": 6.64
+      },
+      {
+       "text": "marker.",
+       "start": 6.72,
+       "end": 7.2
+      }
+     ]
+    },
+    {
+     "show": "She lost too.",
+     "start": 7.28,
+     "end": 8.107,
+     "words": [
+      {
+       "text": "She",
+       "start": 7.28,
+       "end": 7.36
+      },
+      {
+       "text": "lost",
+       "start": 7.44,
+       "end": 7.68
+      },
+      {
+       "text": "too.",
+       "start": 7.88,
+       "end": 8.107
+      }
+     ]
+    },
+    {
+     "show": "And my grandma",
+     "start": 8.133,
+     "end": 8.72,
+     "words": [
+      {
+       "text": "And",
+       "start": 8.133,
+       "end": 8.16
+      },
+      {
+       "text": "my",
+       "start": 8.24,
+       "end": 8.32
+      },
+      {
+       "text": "grandma",
+       "start": 8.44,
+       "end": 8.72
+      }
+     ]
+    },
+    {
+     "show": "has a {r:real} one.",
+     "start": 8.76,
+     "end": 9.573,
+     "words": [
+      {
+       "text": "has",
+       "start": 8.76,
+       "end": 8.8
+      },
+      {
+       "text": "a",
+       "start": 8.88,
+       "end": 8.96
+      },
+      {
+       "text": "real",
+       "start": 9.04,
+       "end": 9.2
+      },
+      {
+       "text": "one.",
+       "start": 9.28,
+       "end": 9.573
+      }
+     ]
+    },
+    {
+     "show": "She came in second.",
+     "start": 9.627,
+     "end": 10.56,
+     "words": [
+      {
+       "text": "She",
+       "start": 9.627,
+       "end": 9.68
+      },
+      {
+       "text": "came",
+       "start": 9.76,
+       "end": 9.84
+      },
+      {
+       "text": "in",
+       "start": 9.92,
+       "end": 10.0
+      },
+      {
+       "text": "second.",
+       "start": 10.08,
+       "end": 10.56
+      }
+     ]
+    }
+   ],
+   "start": 3.4,
+   "end": 10.56
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "Our mayor has had",
+     "start": 10.68,
+     "end": 11.36,
+     "words": [
+      {
+       "text": "Our",
+       "start": 10.68,
+       "end": 10.8
+      },
+      {
+       "text": "mayor",
+       "start": 10.88,
+       "end": 11.04
+      },
+      {
+       "text": "has",
+       "start": 11.12,
+       "end": 11.2
+      },
+      {
+       "text": "had",
+       "start": 11.28,
+       "end": 11.36
+      }
+     ]
+    },
+    {
+     "show": "the biggest mustache in town",
+     "start": 11.44,
+     "end": 12.64,
+     "words": [
+      {
+       "text": "the",
+       "start": 11.44,
+       "end": 11.52
+      },
+      {
+       "text": "biggest",
+       "start": 11.6,
+       "end": 11.84
+      },
+      {
+       "text": "mustache",
+       "start": 11.96,
+       "end": 12.24
+      },
+      {
+       "text": "in",
+       "start": 12.32,
+       "end": 12.4
+      },
+      {
+       "text": "town",
+       "start": 12.52,
+       "end": 12.64
+      }
+     ]
+    },
+    {
+     "show": "for forty years.",
+     "start": 12.72,
+     "end": 13.76,
+     "words": [
+      {
+       "text": "for",
+       "start": 12.72,
+       "end": 12.88
+      },
+      {
+       "text": "forty",
+       "start": 12.96,
+       "end": 13.24
+      },
+      {
+       "text": "years.",
+       "start": 13.28,
+       "end": 13.76
+      }
+     ]
+    },
+    {
+     "show": "It's so big,",
+     "start": 13.8,
+     "end": 14.64,
+     "words": [
+      {
+       "text": "It's",
+       "start": 13.8,
+       "end": 14.0
+      },
+      {
+       "text": "so",
+       "start": 14.12,
+       "end": 14.24
+      },
+      {
+       "text": "big,",
+       "start": 14.36,
+       "end": 14.64
+      }
+     ]
+    },
+    {
+     "show": "{y:birds} live in it.",
+     "start": 14.8,
+     "end": 15.52,
+     "words": [
+      {
+       "text": "birds",
+       "start": 14.8,
+       "end": 14.96
+      },
+      {
+       "text": "live",
+       "start": 15.04,
+       "end": 15.12
+      },
+      {
+       "text": "in",
+       "start": 15.16,
+       "end": 15.2
+      },
+      {
+       "text": "it.",
+       "start": 15.28,
+       "end": 15.52
+      }
+     ]
+    }
+   ],
+   "start": 10.68,
+   "end": 15.52
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "There's only one rule.",
+     "start": 15.653,
+     "end": 16.96,
+     "words": [
+      {
+       "text": "There's",
+       "start": 15.653,
+       "end": 15.76
+      },
+      {
+       "text": "only",
+       "start": 15.92,
+       "end": 16.08
+      },
+      {
+       "text": "one",
+       "start": 16.16,
+       "end": 16.32
+      },
+      {
+       "text": "rule.",
+       "start": 16.4,
+       "end": 16.96
+      }
+     ]
+    },
+    {
+     "show": "Never touch",
+     "start": 17.04,
+     "end": 17.76,
+     "words": [
+      {
+       "text": "Never",
+       "start": 17.04,
+       "end": 17.44
+      },
+      {
+       "text": "touch",
+       "start": 17.6,
+       "end": 17.76
+      }
+     ]
+    },
+    {
+     "show": "the mayor's mustache.",
+     "start": 17.84,
+     "end": 19.12,
+     "words": [
+      {
+       "text": "the",
+       "start": 17.84,
+       "end": 17.92
+      },
+      {
+       "text": "mayor's",
+       "start": 17.96,
+       "end": 18.24
+      },
+      {
+       "text": "mustache.",
+       "start": 18.36,
+       "end": 19.12
+      }
+     ]
+    }
+   ],
+   "start": 15.653,
+   "end": 19.12
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "At the town parade,",
+     "start": 19.2,
+     "end": 20.133,
+     "words": [
+      {
+       "text": "At",
+       "start": 19.2,
+       "end": 19.28
+      },
+      {
+       "text": "the",
+       "start": 19.32,
+       "end": 19.36
+      },
+      {
+       "text": "town",
+       "start": 19.44,
+       "end": 19.6
+      },
+      {
+       "text": "parade,",
+       "start": 19.68,
+       "end": 20.133
+      }
+     ]
+    },
+    {
+     "show": "a bird flew out of it,",
+     "start": 20.187,
+     "end": 21.173,
+     "words": [
+      {
+       "text": "a",
+       "start": 20.187,
+       "end": 20.24
+      },
+      {
+       "text": "bird",
+       "start": 20.4,
+       "end": 20.56
+      },
+      {
+       "text": "flew",
+       "start": 20.6,
+       "end": 20.72
+      },
+      {
+       "text": "out",
+       "start": 20.8,
+       "end": 20.88
+      },
+      {
+       "text": "of",
+       "start": 20.96,
+       "end": 21.0
+      },
+      {
+       "text": "it,",
+       "start": 21.04,
+       "end": 21.173
+      }
+     ]
+    },
+    {
+     "show": "and landed on my head.",
+     "start": 21.227,
+     "end": 22.32,
+     "words": [
+      {
+       "text": "and",
+       "start": 21.227,
+       "end": 21.28
+      },
+      {
+       "text": "landed",
+       "start": 21.36,
+       "end": 21.52
+      },
+      {
+       "text": "on",
+       "start": 21.6,
+       "end": 21.68
+      },
+      {
+       "text": "my",
+       "start": 21.76,
+       "end": 21.84
+      },
+      {
+       "text": "head.",
+       "start": 22.04,
+       "end": 22.32
+      }
+     ]
+    },
+    {
+     "show": "I tried to give it back.",
+     "start": 22.4,
+     "end": 23.48,
+     "words": [
+      {
+       "text": "I",
+       "start": 22.4,
+       "end": 22.427
+      },
+      {
+       "text": "tried",
+       "start": 22.453,
+       "end": 22.56
+      },
+      {
+       "text": "to",
+       "start": 22.64,
+       "end": 22.72
+      },
+      {
+       "text": "give",
+       "start": 22.76,
+       "end": 22.8
+      },
+      {
+       "text": "it",
+       "start": 22.88,
+       "end": 22.96
+      },
+      {
+       "text": "back.",
+       "start": 23.16,
+       "end": 23.48
+      }
+     ]
+    },
+    {
+     "show": "I touched the mustache.",
+     "start": 23.6,
+     "end": 24.73,
+     "words": [
+      {
+       "text": "I",
+       "start": 23.6,
+       "end": 23.627
+      },
+      {
+       "text": "touched",
+       "start": 23.653,
+       "end": 23.84
+      },
+      {
+       "text": "the",
+       "start": 23.92,
+       "end": 24.0
+      },
+      {
+       "text": "mustache.",
+       "start": 24.16,
+       "end": 24.73
+      }
+     ]
+    },
+    {
+     "show": "And it {r:fell off.}",
+     "start": 24.79,
+     "end": 25.707,
+     "words": [
+      {
+       "text": "And",
+       "start": 24.79,
+       "end": 24.8
+      },
+      {
+       "text": "it",
+       "start": 24.88,
+       "end": 24.96
+      },
+      {
+       "text": "fell",
+       "start": 25.04,
+       "end": 25.2
+      },
+      {
+       "text": "off.",
+       "start": 25.28,
+       "end": 25.707
+      }
+     ]
+    }
+   ],
+   "start": 19.2,
+   "end": 25.707
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "It was {r:fake.}",
+     "start": 25.733,
+     "end": 26.52,
+     "words": [
+      {
+       "text": "It",
+       "start": 25.733,
+       "end": 25.76
+      },
+      {
+       "text": "was",
+       "start": 25.88,
+       "end": 26.0
+      },
+      {
+       "text": "fake.",
+       "start": 26.08,
+       "end": 26.52
+      }
+     ]
+    },
+    {
+     "show": "Under it,",
+     "start": 26.56,
+     "end": 26.96,
+     "words": [
+      {
+       "text": "Under",
+       "start": 26.56,
+       "end": 26.72
+      },
+      {
+       "text": "it,",
+       "start": 26.8,
+       "end": 26.96
+      }
+     ]
+    },
+    {
+     "show": "the mayor had no mustache at all.",
+     "start": 27.04,
+     "end": 28.76,
+     "words": [
+      {
+       "text": "the",
+       "start": 27.04,
+       "end": 27.12
+      },
+      {
+       "text": "mayor",
+       "start": 27.2,
+       "end": 27.36
+      },
+      {
+       "text": "had",
+       "start": 27.44,
+       "end": 27.68
+      },
+      {
+       "text": "no",
+       "start": 27.76,
+       "end": 27.84
+      },
+      {
+       "text": "mustache",
+       "start": 27.96,
+       "end": 28.24
+      },
+      {
+       "text": "at",
+       "start": 28.28,
+       "end": 28.32
+      },
+      {
+       "text": "all.",
+       "start": 28.4,
+       "end": 28.76
+      }
+     ]
+    },
+    {
+     "show": "Everybody gasped.",
+     "start": 28.8,
+     "end": 29.973,
+     "words": [
+      {
+       "text": "Everybody",
+       "start": 28.8,
+       "end": 29.28
+      },
+      {
+       "text": "gasped.",
+       "start": 29.44,
+       "end": 29.973
+      }
+     ]
+    },
+    {
+     "show": "And then,",
+     "start": 30.027,
+     "end": 30.52,
+     "words": [
+      {
+       "text": "And",
+       "start": 30.027,
+       "end": 30.08
+      },
+      {
+       "text": "then,",
+       "start": 30.16,
+       "end": 30.52
+      }
+     ]
+    },
+    {
+     "show": "everybody looked at my grandma.",
+     "start": 30.56,
+     "end": 32.133,
+     "words": [
+      {
+       "text": "everybody",
+       "start": 30.56,
+       "end": 31.04
+      },
+      {
+       "text": "looked",
+       "start": 31.08,
+       "end": 31.2
+      },
+      {
+       "text": "at",
+       "start": 31.24,
+       "end": 31.28
+      },
+      {
+       "text": "my",
+       "start": 31.36,
+       "end": 31.44
+      },
+      {
+       "text": "grandma.",
+       "start": 31.56,
+       "end": 32.133
+      }
+     ]
+    }
+   ],
+   "start": 25.733,
+   "end": 32.133
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So now,",
+     "start": 32.187,
+     "end": 32.68,
+     "words": [
+      {
+       "text": "So",
+       "start": 32.187,
+       "end": 32.24
+      },
+      {
+       "text": "now,",
+       "start": 32.32,
+       "end": 32.68
+      }
+     ]
+    },
+    {
+     "show": "my grandma is the mayor.",
+     "start": 32.72,
+     "end": 33.947,
+     "words": [
+      {
+       "text": "my",
+       "start": 32.72,
+       "end": 32.8
+      },
+      {
+       "text": "grandma",
+       "start": 32.88,
+       "end": 33.28
+      },
+      {
+       "text": "is",
+       "start": 33.32,
+       "end": 33.36
+      },
+      {
+       "text": "the",
+       "start": 33.44,
+       "end": 33.52
+      },
+      {
+       "text": "mayor.",
+       "start": 33.6,
+       "end": 33.947
+      }
+     ]
+    },
+    {
+     "show": "And her first law?",
+     "start": 33.973,
+     "end": 34.88,
+     "words": [
+      {
+       "text": "And",
+       "start": 33.973,
+       "end": 34.0
+      },
+      {
+       "text": "her",
+       "start": 34.08,
+       "end": 34.16
+      },
+      {
+       "text": "first",
+       "start": 34.28,
+       "end": 34.4
+      },
+      {
+       "text": "law?",
+       "start": 34.48,
+       "end": 34.88
+      }
+     ]
+    },
+    {
+     "show": "No more mustache contests.",
+     "start": 34.96,
+     "end": 36.52,
+     "words": [
+      {
+       "text": "No",
+       "start": 34.96,
+       "end": 35.04
+      },
+      {
+       "text": "more",
+       "start": 35.12,
+       "end": 35.28
+      },
+      {
+       "text": "mustache",
+       "start": 35.36,
+       "end": 35.76
+      },
+      {
+       "text": "contests.",
+       "start": 35.84,
+       "end": 36.52
+      }
+     ]
+    },
+    {
+     "show": "Now it's a {y:beard} contest.",
+     "start": 36.56,
+     "end": 37.867,
+     "words": [
+      {
+       "text": "Now",
+       "start": 36.56,
+       "end": 36.72
+      },
+      {
+       "text": "it's",
+       "start": 36.76,
+       "end": 36.88
+      },
+      {
+       "text": "a",
+       "start": 36.92,
+       "end": 36.96
+      },
+      {
+       "text": "beard",
+       "start": 37.0,
+       "end": 37.2
+      },
+      {
+       "text": "contest.",
+       "start": 37.28,
+       "end": 37.867
+      }
+     ]
+    },
+    {
+     "show": "And she's winning that too.",
+     "start": 37.893,
+     "end": 39.2,
+     "words": [
+      {
+       "text": "And",
+       "start": 37.893,
+       "end": 37.92
+      },
+      {
+       "text": "she's",
+       "start": 38.0,
+       "end": 38.16
+      },
+      {
+       "text": "winning",
+       "start": 38.24,
+       "end": 38.4
+      },
+      {
+       "text": "that",
+       "start": 38.48,
+       "end": 38.64
+      },
+      {
+       "text": "too.",
+       "start": 38.72,
+       "end": 39.2
+      }
+     ]
+    }
+   ],
+   "start": 32.187,
+   "end": 39.2
+  }
+ ]
+}

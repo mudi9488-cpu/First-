@@ -1,0 +1,156 @@
+{
+ "title": "Mustache Mayor",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "whoever has the biggest {y:mustache}"
+    },
+    {
+     "show": "becomes the mayor."
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin glued a broom to his face."
+    },
+    {
+     "show": "He lost."
+    },
+    {
+     "show": "Linda drew one on with a marker."
+    },
+    {
+     "show": "She lost too."
+    },
+    {
+     "show": "And my grandma"
+    },
+    {
+     "show": "has a {r:real} one."
+    },
+    {
+     "show": "She came in second."
+    }
+   ]
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "Our mayor has had"
+    },
+    {
+     "show": "the biggest mustache in town"
+    },
+    {
+     "show": "for forty years."
+    },
+    {
+     "show": "It's so big,"
+    },
+    {
+     "show": "{y:birds} live in it."
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "There's only one rule."
+    },
+    {
+     "show": "Never touch"
+    },
+    {
+     "show": "the mayor's mustache."
+    }
+   ]
+  },
+  {
+   "id": "break",
+   "label": "",
+   "lines": [
+    {
+     "show": "At the town parade,"
+    },
+    {
+     "show": "a bird flew out of it,"
+    },
+    {
+     "show": "and landed on my head."
+    },
+    {
+     "show": "I tried to give it back."
+    },
+    {
+     "show": "I touched the mustache."
+    },
+    {
+     "show": "And it {r:fell off.}"
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "It was {r:fake.}"
+    },
+    {
+     "show": "Under it,"
+    },
+    {
+     "show": "the mayor had no mustache at all."
+    },
+    {
+     "show": "Everybody gasped."
+    },
+    {
+     "show": "And then,"
+    },
+    {
+     "show": "everybody looked at my grandma."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So now,"
+    },
+    {
+     "show": "my grandma is the mayor."
+    },
+    {
+     "show": "And her first law?"
+    },
+    {
+     "show": "No more mustache contests."
+    },
+    {
+     "show": "Now it's a {y:beard} contest."
+    },
+    {
+     "show": "And she's winning that too."
+    }
+   ]
+  }
+ ]
+}

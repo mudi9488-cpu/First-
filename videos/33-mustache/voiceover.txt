@@ -1,0 +1,7 @@
+hook|In this town,|whoever has the biggest {y:mustache}|becomes the mayor.
+world|Kevin glued a broom to his face.|He lost.|Linda drew one on with a marker.|She lost too.|And my grandma|has a {r:real} one.|She came in second.
+mayor|Our mayor has had|the biggest mustache in town|for forty years.|It's so big,|{y:birds} live in it.
+rule|There's only one rule.|Never touch|the mayor's mustache.
+break|At the town parade,|a bird flew out of it,|and landed on my head.|I tried to give it back.|I touched the mustache.|And it {r:fell off.}
+twist|It was {r:fake.}|Under it,|the mayor had no mustache at all.|Everybody gasped.|And then,|everybody looked at my grandma.
+end|So now,|my grandma is the mayor.|And her first law?|No more mustache contests.|Now it's a {y:beard} contest.|And she's winning that too.
