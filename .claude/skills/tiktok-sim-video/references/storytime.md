@@ -168,3 +168,5 @@ Länge nur **75–110 s** (kürzer als unsere 2:00+). Schnitt alle ~2–3 s (gem
 - Townie soll trotzdem im Mittelpunkt stehen (Held der Story, oft im Bild).
 - Tung Tung Sahur: modelliertes 3D-Modell aus Video 29 (`tung`-Gruppe in `videos/29-huss-tung/build.py`), nicht Foto-Textur.
 - Vor neuen Videos die Idee kurz vorstellen und Freigabe abwarten.
+
+- **Länge (Feedback nach Video 38):** Jedes Video muss **über eine Minute** lang sein. Skript auf ca. 160–190 Wörter auslegen (≈ 62–70 s). Zu kurze Videos mit einem zweiten Teil verlängern: zweite Sprachaufnahme generieren, an voice-a.mp3 anhängen, Wort-Timings versetzen.
