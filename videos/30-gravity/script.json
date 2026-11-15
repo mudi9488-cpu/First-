@@ -24,21 +24,6 @@
    ]
   },
   {
-   "id": "me",
-   "label": "",
-   "lines": [
-    {
-     "show": "I'm {y:Townie.}"
-    },
-    {
-     "show": "And I've never been late"
-    },
-    {
-     "show": "for twelve o'clock."
-    }
-   ]
-  },
-  {
    "id": "world",
    "label": "",
    "lines": [
@@ -137,9 +122,6 @@
     },
     {
      "show": "Past the clouds."
-    },
-    {
-     "show": "{y:HUSS! HUSS! HUSS!}"
     }
    ]
   },

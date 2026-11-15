@@ -1,9 +1,8 @@
 hook|In this town,|gravity turns off|for one minute.|Every day.|At exactly {r:twelve o'clock.}
-me|I'm {y:Townie.}|And I've never been late|for twelve o'clock.
 world|My best friend Kevin|eats cereal at noon.|Every day.|The milk ends up on his face.|Linda's cat|has been stuck on the ceiling|for three years.|And my grandma's teeth|fly away|every single day.
 rule|So everybody holds on.|To lamp posts.|To trees.|To each other.|Because there's one rule.|{r:Never let go.}|If you let go,|you fall up,|and you never come back.
 break|Yesterday at noon,|my basketball floated away.|I reached for it.|And I {r:let go.}
-fly|I flew past the roofs.|Past the birds.|Past the clouds.|{y:HUSS!}
+fly|I flew past the roofs.|Past the birds.|Past the clouds.
 island|And above the clouds,|there was an {y:island.}|Made of everything|this town ever lost.|A million socks.|Hundreds of teeth.|Every balloon.|And all the people|who let go,|having the best party ever.
 tung|And in the middle|stood a giant bell.|And {r:Tung Tung Tung Sahur.}|Every day at noon,|he hit the bell.|{r:TUNG.}|And gravity turned off.|He did it|so people would come up|and be his friends.
 fix|So I told him,|you don't need a bell|to make friends.|You just have to ask.|He put down his bat,|and everybody floated back home.
