@@ -153,3 +153,11 @@ Länge nur **75–110 s** (kürzer als unsere 2:00+). Schnitt alle ~2–3 s (gem
 - Endkarte (TikTok-Logo) ist nur der Export-Abspann, nicht nachbauen.
 
 **Was wir übernehmen:** kürzer (~1:30–1:50), lustige Meme-Stories im Wechsel mit Horror, Ich-Erzähler mit Freunden-Universum (Kevin, Linda, Oma), Running-Gag-Laut als Großbuchstaben-Caption, Callback-Ende.
+
+## Kanal-Markenzeichen (ab Video 29, Wunsch des Creators)
+- **Erzähler „Townie“** – in jedem Video der Ich-Erzähler, spricht oft direkt in die Kamera (wie der Maskottchen-Erzähler bei larpiverse, aber eigener Look).
+  - Look: **Regenbogen-Cap** (`hair: "rainbowcap"`) + **grüner Hoodie mit Tung-Tung-Tung-Sahur-Logo** (`design: "tung"`), Hautton 0xE0AC69.
+  - Code: `const NARR = { shirt: 0x2BB673, pants: 0x22304A, design: "tung", hair: "rainbowcap", hairCol: 0x3A2214, skin: 0xE0AC69 }` (Vorlage: `videos/28-laugh-tax/build.py`).
+- Feste Nebenfiguren: Kevin (bester Freund, rotes Stern-Shirt, blond), Linda (Nachbarin), Oma (lila, Brille, Dutt), Bürgermeister (Zylinder, Schnurrbart).
+- **Neongelbe Untertitel bleiben** (unser Erkennungszeichen, nicht weiß wie bei larpiverse).
+- Stil sonst wie die vierte Referenz-Runde: helle Tagstadt, Comic-Mimik, Text-Popups („HA!“, „-$5“), Callback-Ende.

@@ -303,6 +303,11 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     if (o.design === "zip") { g.strokeStyle = "rgba(0,0,0,0.35)"; g.lineWidth = 4; g.beginPath(); g.moveTo(64, 0); g.lineTo(64, 128); g.stroke(); g.fillStyle = "rgba(0,0,0,0.25)"; g.fillRect(0, 100, 128, 8); }
     if (o.design === "suitG") { g.fillStyle = "#F4F4F4"; g.beginPath(); g.moveTo(44, 0); g.lineTo(84, 0); g.lineTo(64, 64); g.fill(); g.fillStyle = "#15121C"; g.fillRect(59, 6, 10, 52); }
     if (o.design === "coat") { g.fillStyle = "rgba(255,255,255,0.12)"; g.beginPath(); g.moveTo(40, 0); g.lineTo(64, 70); g.lineTo(88, 0); g.fill(); g.strokeStyle = "rgba(255,255,255,0.25)"; g.lineWidth = 3; g.beginPath(); g.moveTo(64, 70); g.lineTo(64, 128); g.stroke(); }
+    if (o.design === "tung") { g.fillStyle = "rgba(0,0,0,0.18)"; g.fillRect(36, 92, 56, 30); g.strokeStyle = "#FFF"; g.lineWidth = 3; g.beginPath(); g.moveTo(52, 0); g.lineTo(52, 22); g.moveTo(76, 0); g.lineTo(76, 22); g.stroke();
+      g.fillStyle = "#8A5226"; g.beginPath(); g.roundRect(46, 24, 36, 62, 12); g.fill(); g.strokeStyle = "#5A3216"; g.lineWidth = 2; g.stroke(); g.fillStyle = "#6E3E1A"; g.fillRect(50, 30, 28, 4);
+      for (const ex of [57, 71]) { g.fillStyle = "#FFF"; g.beginPath(); g.ellipse(ex, 44, 6, 7, 0, 0, 6.3); g.fill(); g.fillStyle = "#1B1410"; g.beginPath(); g.arc(ex, 45, 3, 0, 6.3); g.fill(); }
+      g.fillStyle = "#5A3216"; g.fillRect(62, 48, 4, 10); g.strokeStyle = "#1B1410"; g.lineWidth = 2.5; g.beginPath(); g.arc(64, 62, 9, 0.15 * Math.PI, 0.85 * Math.PI); g.stroke();
+      g.strokeStyle = "#C98B3C"; g.lineWidth = 4; g.beginPath(); g.moveTo(84, 40); g.lineTo(100, 74); g.stroke(); g.fillStyle = "#FFD23F"; g.font = "bold 13px sans-serif"; g.textAlign = "center"; g.fillText("TUNG TUNG", 64, 100); g.fillText("SAHUR", 64, 114); }
     const ct = new THREE.CanvasTexture(c); ct.colorSpace = THREE.SRGBColorSpace; const front = std({ map: ct });
     const torso = add(new THREE.Mesh(new THREE.BoxGeometry(1, 1, 0.5), [sh, sh, sh, sh, front, sh]), root); torso.position.y = 1.5;
     const limb = (x, y, mats) => { const p = new THREE.Group(); p.position.set(x, y, 0); root.add(p); return p; };
@@ -324,6 +329,8 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     if (hs === "hood") { box(0.7, 0.72, 0.62, hm, 0, 0.34, -0.06, head); }
     if (hs === "tophat") { const hat = std({ color: 0x15121C, roughness: 0.6 }); const c1 = add(new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.5, 0.05, 24), hat), head); c1.position.y = 0.64;
       const c2 = add(new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.32, 0.55, 24), hat), head); c2.position.y = 0.92; const band = add(new THREE.Mesh(new THREE.CylinderGeometry(0.325, 0.325, 0.1, 24), std({ color: 0x7C3AED })), head); band.position.y = 0.72; }
+    if (hs === "rainbowcap") { const RB = [0xE63946, 0xFB8500, 0xFFD23F, 0x2BB673, 0x3A86FF, 0x8338EC]; RB.forEach((col, k) => box(0.68 / 6 + 0.002, 0.22, 0.68, std({ color: col, roughness: 0.6 }), -0.34 + 0.68 / 12 + k * 0.68 / 6, 0.71, 0, head));
+      box(0.6, 0.05, 0.32, std({ color: 0xFFFFFF }), 0, 0.62, 0.44, head); const bt = add(new THREE.Mesh(new THREE.SphereGeometry(0.06, 10, 8), std({ color: 0xFFFFFF })), head); bt.position.y = 0.83; box(0.68, 0.16, 0.14, hm, 0, 0.52, -0.29, head); }
     if (hs === "cap") { const cm = std({ color: o.capCol || 0xD62828 }); box(0.68, 0.2, 0.68, cm, 0, 0.7, 0, head); box(0.6, 0.05, 0.3, cm, 0, 0.62, 0.42, head); }
     if (hs === "bowl") { box(0.76, 0.3, 0.76, hm, 0, 0.66, 0, head); box(0.76, 0.16, 0.12, hm, 0, 0.5, 0.33, head); box(0.12, 0.3, 0.7, hm, 0.35, 0.48, 0, head); box(0.12, 0.3, 0.7, hm, -0.35, 0.48, 0, head);
       for (let i = 0; i < 5; i++) { const b = box(0.12, 0.34, 0.12, hm, -0.24 + i * 0.12, 0.92, -0.05 + (i % 2) * 0.1, head); b.rotation.z = (i - 2) * 0.3; } }
@@ -1576,7 +1583,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     row: [[-3.0, 28, 0], [-1.5, 26, 0], [0, 24, 0], [1.5, 22, 0], [3.0, 20, 0], [-3.0, 18, 0], [-1.5, 16, 0], [0, 14, 0], [1.5, 12, 0], [3.0, 10, 0]],
     pile: [[-1.2, 20.6, 20], [1.1, 20.3, -30], [-0.4, 21.6, 60], [0.6, 21.4, 100], [-1.8, 19.4, -60], [1.9, 19.2, 30], [-0.2, 19.0, 140], [0.0, 20.4, 0, 1.2]],
   };
-  const NARR = { shirt: 0x2BB673, pants: 0x22304A, design: "hoodie", hair: "cap", capCol: 0xFFBE0B, skin: 0xE0AC69 };
+  const NARR = { shirt: 0x2BB673, pants: 0x22304A, design: "tung", hair: "rainbowcap", hairCol: 0x3A2214, skin: 0xE0AC69 }; // Townie – Kanal-Erzähler
   Object.assign(A, {
     me: makeChar(NARR),
     kevin: makeChar({ shirt: 0xE63946, pants: 0x2E3A59, design: "star", hair: "messy", hairCol: 0xE8C66A, skin: 0xFFDBAC }),
