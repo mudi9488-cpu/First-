@@ -1,0 +1,8 @@
+hook|In this town,|on your tenth birthday,|you get a {y:random} pet.
+world|Kevin got a raccoon.|They live together now.|Linda got a cat.|It lives on the ceiling.|And my grandma got a goldfish.|It's older than she is.
+rule|There's only one rule.|Whatever you get,|you {r:keep it.}
+me|On my birthday,|I opened the box.|And inside|was a {r:tiny} Tung Tung Tung Sahur.
+grow|He was the size of a sock.|By the next morning,|he was the size of my bed.|By lunch,|he was {r:bigger than our house.}
+mom|My mom said,|we are not keeping that.|But the rule is the rule.
+good|So I trained him.|He plays fetch with his bat.|He walks me to school.|And every bully in town|is suddenly {y:very} nice to me.
+end|Now everybody wants a Tung.|But there's only one.|And he only listens to {y:me.}

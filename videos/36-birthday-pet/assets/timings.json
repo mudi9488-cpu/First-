@@ -1,0 +1,1028 @@
+{
+ "duration": 37.146,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.72,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.72
+      }
+     ]
+    },
+    {
+     "show": "on your tenth birthday,",
+     "start": 0.8,
+     "end": 1.84,
+     "words": [
+      {
+       "text": "on",
+       "start": 0.8,
+       "end": 0.84
+      },
+      {
+       "text": "your",
+       "start": 0.88,
+       "end": 0.96
+      },
+      {
+       "text": "tenth",
+       "start": 1.04,
+       "end": 1.2
+      },
+      {
+       "text": "birthday,",
+       "start": 1.28,
+       "end": 1.84
+      }
+     ]
+    },
+    {
+     "show": "you get a {y:random} pet.",
+     "start": 1.88,
+     "end": 3.04,
+     "words": [
+      {
+       "text": "you",
+       "start": 1.88,
+       "end": 1.92
+      },
+      {
+       "text": "get",
+       "start": 2.0,
+       "end": 2.08
+      },
+      {
+       "text": "a",
+       "start": 2.12,
+       "end": 2.16
+      },
+      {
+       "text": "random",
+       "start": 2.24,
+       "end": 2.56
+      },
+      {
+       "text": "pet.",
+       "start": 2.64,
+       "end": 3.04
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 3.04
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin got a raccoon.",
+     "start": 3.2,
+     "end": 4.16,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 3.2,
+       "end": 3.36
+      },
+      {
+       "text": "got",
+       "start": 3.44,
+       "end": 3.52
+      },
+      {
+       "text": "a",
+       "start": 3.547,
+       "end": 3.573
+      },
+      {
+       "text": "raccoon.",
+       "start": 3.6,
+       "end": 4.16
+      }
+     ]
+    },
+    {
+     "show": "They live together now.",
+     "start": 4.2,
+     "end": 5.04,
+     "words": [
+      {
+       "text": "They",
+       "start": 4.2,
+       "end": 4.24
+      },
+      {
+       "text": "live",
+       "start": 4.32,
+       "end": 4.4
+      },
+      {
+       "text": "together",
+       "start": 4.48,
+       "end": 4.72
+      },
+      {
+       "text": "now.",
+       "start": 4.84,
+       "end": 5.04
+      }
+     ]
+    },
+    {
+     "show": "Linda got a cat.",
+     "start": 5.12,
+     "end": 6.08,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 5.12,
+       "end": 5.44
+      },
+      {
+       "text": "got",
+       "start": 5.52,
+       "end": 5.6
+      },
+      {
+       "text": "a",
+       "start": 5.64,
+       "end": 5.68
+      },
+      {
+       "text": "cat.",
+       "start": 5.76,
+       "end": 6.08
+      }
+     ]
+    },
+    {
+     "show": "It lives on the ceiling.",
+     "start": 6.16,
+     "end": 7.12,
+     "words": [
+      {
+       "text": "It",
+       "start": 6.16,
+       "end": 6.24
+      },
+      {
+       "text": "lives",
+       "start": 6.293,
+       "end": 6.4
+      },
+      {
+       "text": "on",
+       "start": 6.48,
+       "end": 6.52
+      },
+      {
+       "text": "the",
+       "start": 6.56,
+       "end": 6.64
+      },
+      {
+       "text": "ceiling.",
+       "start": 6.72,
+       "end": 7.12
+      }
+     ]
+    },
+    {
+     "show": "And my grandma got a goldfish.",
+     "start": 7.16,
+     "end": 8.64,
+     "words": [
+      {
+       "text": "And",
+       "start": 7.16,
+       "end": 7.2
+      },
+      {
+       "text": "my",
+       "start": 7.28,
+       "end": 7.36
+      },
+      {
+       "text": "grandma",
+       "start": 7.48,
+       "end": 7.76
+      },
+      {
+       "text": "got",
+       "start": 7.84,
+       "end": 7.92
+      },
+      {
+       "text": "a",
+       "start": 7.96,
+       "end": 8.0
+      },
+      {
+       "text": "goldfish.",
+       "start": 8.08,
+       "end": 8.64
+      }
+     ]
+    },
+    {
+     "show": "It's older than she is.",
+     "start": 8.72,
+     "end": 9.84,
+     "words": [
+      {
+       "text": "It's",
+       "start": 8.72,
+       "end": 8.88
+      },
+      {
+       "text": "older",
+       "start": 9.0,
+       "end": 9.12
+      },
+      {
+       "text": "than",
+       "start": 9.2,
+       "end": 9.28
+      },
+      {
+       "text": "she",
+       "start": 9.36,
+       "end": 9.52
+      },
+      {
+       "text": "is.",
+       "start": 9.6,
+       "end": 9.84
+      }
+     ]
+    }
+   ],
+   "start": 3.2,
+   "end": 9.84
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "There's only one rule.",
+     "start": 10.144,
+     "end": 11.36,
+     "words": [
+      {
+       "text": "There's",
+       "start": 10.144,
+       "end": 10.24
+      },
+      {
+       "text": "only",
+       "start": 10.36,
+       "end": 10.48
+      },
+      {
+       "text": "one",
+       "start": 10.64,
+       "end": 10.8
+      },
+      {
+       "text": "rule.",
+       "start": 10.88,
+       "end": 11.36
+      }
+     ]
+    },
+    {
+     "show": "Whatever you get,",
+     "start": 11.52,
+     "end": 12.32,
+     "words": [
+      {
+       "text": "Whatever",
+       "start": 11.52,
+       "end": 11.68
+      },
+      {
+       "text": "you",
+       "start": 11.76,
+       "end": 11.84
+      },
+      {
+       "text": "get,",
+       "start": 11.92,
+       "end": 12.32
+      }
+     ]
+    },
+    {
+     "show": "you {r:keep it.}",
+     "start": 12.4,
+     "end": 13.12,
+     "words": [
+      {
+       "text": "you",
+       "start": 12.4,
+       "end": 12.48
+      },
+      {
+       "text": "keep",
+       "start": 12.56,
+       "end": 12.72
+      },
+      {
+       "text": "it.",
+       "start": 12.8,
+       "end": 13.12
+      }
+     ]
+    }
+   ],
+   "start": 10.144,
+   "end": 13.12
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "On my birthday,",
+     "start": 13.2,
+     "end": 14.0,
+     "words": [
+      {
+       "text": "On",
+       "start": 13.2,
+       "end": 13.28
+      },
+      {
+       "text": "my",
+       "start": 13.36,
+       "end": 13.44
+      },
+      {
+       "text": "birthday,",
+       "start": 13.64,
+       "end": 14.0
+      }
+     ]
+    },
+    {
+     "show": "I opened the box.",
+     "start": 14.16,
+     "end": 15.12,
+     "words": [
+      {
+       "text": "I",
+       "start": 14.16,
+       "end": 14.24
+      },
+      {
+       "text": "opened",
+       "start": 14.32,
+       "end": 14.4
+      },
+      {
+       "text": "the",
+       "start": 14.44,
+       "end": 14.48
+      },
+      {
+       "text": "box.",
+       "start": 14.56,
+       "end": 15.12
+      }
+     ]
+    },
+    {
+     "show": "And inside",
+     "start": 15.257,
+     "end": 15.84,
+     "words": [
+      {
+       "text": "And",
+       "start": 15.257,
+       "end": 15.28
+      },
+      {
+       "text": "inside",
+       "start": 15.56,
+       "end": 15.84
+      }
+     ]
+    },
+    {
+     "show": "was a {r:tiny} Tung Tung Tung Sahur.",
+     "start": 15.92,
+     "end": 18.16,
+     "words": [
+      {
+       "text": "was",
+       "start": 15.92,
+       "end": 16.0
+      },
+      {
+       "text": "a",
+       "start": 16.08,
+       "end": 16.24
+      },
+      {
+       "text": "tiny",
+       "start": 16.44,
+       "end": 16.64
+      },
+      {
+       "text": "Tung",
+       "start": 16.72,
+       "end": 16.88
+      },
+      {
+       "text": "Tung",
+       "start": 16.96,
+       "end": 17.12
+      },
+      {
+       "text": "Tung",
+       "start": 17.2,
+       "end": 17.44
+      },
+      {
+       "text": "Sahur.",
+       "start": 17.52,
+       "end": 18.16
+      }
+     ]
+    }
+   ],
+   "start": 13.2,
+   "end": 18.16
+  },
+  {
+   "id": "grow",
+   "label": "",
+   "lines": [
+    {
+     "show": "He was the size of a sock.",
+     "start": 18.2,
+     "end": 19.6,
+     "words": [
+      {
+       "text": "He",
+       "start": 18.2,
+       "end": 18.24
+      },
+      {
+       "text": "was",
+       "start": 18.32,
+       "end": 18.4
+      },
+      {
+       "text": "the",
+       "start": 18.48,
+       "end": 18.56
+      },
+      {
+       "text": "size",
+       "start": 18.64,
+       "end": 18.8
+      },
+      {
+       "text": "of",
+       "start": 18.88,
+       "end": 18.92
+      },
+      {
+       "text": "a",
+       "start": 18.96,
+       "end": 19.12
+      },
+      {
+       "text": "sock.",
+       "start": 19.28,
+       "end": 19.6
+      }
+     ]
+    },
+    {
+     "show": "By the next morning,",
+     "start": 19.64,
+     "end": 20.44,
+     "words": [
+      {
+       "text": "By",
+       "start": 19.64,
+       "end": 19.68
+      },
+      {
+       "text": "the",
+       "start": 19.76,
+       "end": 19.84
+      },
+      {
+       "text": "next",
+       "start": 19.92,
+       "end": 20.0
+      },
+      {
+       "text": "morning,",
+       "start": 20.08,
+       "end": 20.44
+      }
+     ]
+    },
+    {
+     "show": "he was the size of my bed.",
+     "start": 20.48,
+     "end": 21.84,
+     "words": [
+      {
+       "text": "he",
+       "start": 20.48,
+       "end": 20.56
+      },
+      {
+       "text": "was",
+       "start": 20.6,
+       "end": 20.64
+      },
+      {
+       "text": "the",
+       "start": 20.72,
+       "end": 20.8
+      },
+      {
+       "text": "size",
+       "start": 20.88,
+       "end": 21.04
+      },
+      {
+       "text": "of",
+       "start": 21.08,
+       "end": 21.12
+      },
+      {
+       "text": "my",
+       "start": 21.2,
+       "end": 21.36
+      },
+      {
+       "text": "bed.",
+       "start": 21.52,
+       "end": 21.84
+      }
+     ]
+    },
+    {
+     "show": "By lunch,",
+     "start": 22.046,
+     "end": 22.48,
+     "words": [
+      {
+       "text": "By",
+       "start": 22.046,
+       "end": 22.08
+      },
+      {
+       "text": "lunch,",
+       "start": 22.12,
+       "end": 22.48
+      }
+     ]
+    },
+    {
+     "show": "he was {r:bigger than our house.}",
+     "start": 22.52,
+     "end": 23.92,
+     "words": [
+      {
+       "text": "he",
+       "start": 22.52,
+       "end": 22.56
+      },
+      {
+       "text": "was",
+       "start": 22.64,
+       "end": 22.8
+      },
+      {
+       "text": "bigger",
+       "start": 22.84,
+       "end": 23.04
+      },
+      {
+       "text": "than",
+       "start": 23.08,
+       "end": 23.12
+      },
+      {
+       "text": "our",
+       "start": 23.24,
+       "end": 23.36
+      },
+      {
+       "text": "house.",
+       "start": 23.56,
+       "end": 23.92
+      }
+     ]
+    }
+   ],
+   "start": 18.2,
+   "end": 23.92
+  },
+  {
+   "id": "mom",
+   "label": "",
+   "lines": [
+    {
+     "show": "My mom said,",
+     "start": 24.0,
+     "end": 24.64,
+     "words": [
+      {
+       "text": "My",
+       "start": 24.0,
+       "end": 24.08
+      },
+      {
+       "text": "mom",
+       "start": 24.16,
+       "end": 24.24
+      },
+      {
+       "text": "said,",
+       "start": 24.32,
+       "end": 24.64
+      }
+     ]
+    },
+    {
+     "show": "we are not keeping that.",
+     "start": 24.72,
+     "end": 26.0,
+     "words": [
+      {
+       "text": "we",
+       "start": 24.72,
+       "end": 24.8
+      },
+      {
+       "text": "are",
+       "start": 24.88,
+       "end": 25.12
+      },
+      {
+       "text": "not",
+       "start": 25.24,
+       "end": 25.36
+      },
+      {
+       "text": "keeping",
+       "start": 25.44,
+       "end": 25.68
+      },
+      {
+       "text": "that.",
+       "start": 25.8,
+       "end": 26.0
+      }
+     ]
+    },
+    {
+     "show": "But the rule is the rule.",
+     "start": 26.04,
+     "end": 27.28,
+     "words": [
+      {
+       "text": "But",
+       "start": 26.04,
+       "end": 26.08
+      },
+      {
+       "text": "the",
+       "start": 26.16,
+       "end": 26.24
+      },
+      {
+       "text": "rule",
+       "start": 26.4,
+       "end": 26.56
+      },
+      {
+       "text": "is",
+       "start": 26.64,
+       "end": 26.72
+      },
+      {
+       "text": "the",
+       "start": 26.8,
+       "end": 26.88
+      },
+      {
+       "text": "rule.",
+       "start": 27.0,
+       "end": 27.28
+      }
+     ]
+    }
+   ],
+   "start": 24.0,
+   "end": 27.28
+  },
+  {
+   "id": "good",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I trained him.",
+     "start": 27.424,
+     "end": 28.133,
+     "words": [
+      {
+       "text": "So",
+       "start": 27.424,
+       "end": 27.44
+      },
+      {
+       "text": "I",
+       "start": 27.6,
+       "end": 27.68
+      },
+      {
+       "text": "trained",
+       "start": 27.76,
+       "end": 27.84
+      },
+      {
+       "text": "him.",
+       "start": 27.96,
+       "end": 28.133
+      }
+     ]
+    },
+    {
+     "show": "He plays fetch with his bat.",
+     "start": 28.187,
+     "end": 29.36,
+     "words": [
+      {
+       "text": "He",
+       "start": 28.187,
+       "end": 28.24
+      },
+      {
+       "text": "plays",
+       "start": 28.36,
+       "end": 28.48
+      },
+      {
+       "text": "fetch",
+       "start": 28.56,
+       "end": 28.72
+      },
+      {
+       "text": "with",
+       "start": 28.8,
+       "end": 28.88
+      },
+      {
+       "text": "his",
+       "start": 28.96,
+       "end": 29.04
+      },
+      {
+       "text": "bat.",
+       "start": 29.16,
+       "end": 29.36
+      }
+     ]
+    },
+    {
+     "show": "He walks me to school.",
+     "start": 29.44,
+     "end": 30.36,
+     "words": [
+      {
+       "text": "He",
+       "start": 29.44,
+       "end": 29.52
+      },
+      {
+       "text": "walks",
+       "start": 29.6,
+       "end": 29.72
+      },
+      {
+       "text": "me",
+       "start": 29.76,
+       "end": 29.84
+      },
+      {
+       "text": "to",
+       "start": 29.88,
+       "end": 29.92
+      },
+      {
+       "text": "school.",
+       "start": 30.0,
+       "end": 30.36
+      }
+     ]
+    },
+    {
+     "show": "And every bully in town",
+     "start": 30.4,
+     "end": 31.52,
+     "words": [
+      {
+       "text": "And",
+       "start": 30.4,
+       "end": 30.56
+      },
+      {
+       "text": "every",
+       "start": 30.64,
+       "end": 30.88
+      },
+      {
+       "text": "bully",
+       "start": 30.92,
+       "end": 31.12
+      },
+      {
+       "text": "in",
+       "start": 31.2,
+       "end": 31.28
+      },
+      {
+       "text": "town",
+       "start": 31.4,
+       "end": 31.52
+      }
+     ]
+    },
+    {
+     "show": "is suddenly {y:very} nice to me.",
+     "start": 31.6,
+     "end": 33.147,
+     "words": [
+      {
+       "text": "is",
+       "start": 31.6,
+       "end": 31.68
+      },
+      {
+       "text": "suddenly",
+       "start": 31.72,
+       "end": 32.16
+      },
+      {
+       "text": "very",
+       "start": 32.28,
+       "end": 32.4
+      },
+      {
+       "text": "nice",
+       "start": 32.52,
+       "end": 32.64
+      },
+      {
+       "text": "to",
+       "start": 32.68,
+       "end": 32.72
+      },
+      {
+       "text": "me.",
+       "start": 32.88,
+       "end": 33.147
+      }
+     ]
+    }
+   ],
+   "start": 27.424,
+   "end": 33.147
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now everybody wants a Tung.",
+     "start": 33.253,
+     "end": 34.52,
+     "words": [
+      {
+       "text": "Now",
+       "start": 33.253,
+       "end": 33.36
+      },
+      {
+       "text": "everybody",
+       "start": 33.44,
+       "end": 33.84
+      },
+      {
+       "text": "wants",
+       "start": 33.92,
+       "end": 34.0
+      },
+      {
+       "text": "a",
+       "start": 34.08,
+       "end": 34.16
+      },
+      {
+       "text": "Tung.",
+       "start": 34.2,
+       "end": 34.52
+      }
+     ]
+    },
+    {
+     "show": "But there's only one.",
+     "start": 34.56,
+     "end": 35.627,
+     "words": [
+      {
+       "text": "But",
+       "start": 34.56,
+       "end": 34.64
+      },
+      {
+       "text": "there's",
+       "start": 34.68,
+       "end": 34.88
+      },
+      {
+       "text": "only",
+       "start": 35.04,
+       "end": 35.2
+      },
+      {
+       "text": "one.",
+       "start": 35.28,
+       "end": 35.627
+      }
+     ]
+    },
+    {
+     "show": "And he only listens to {y:me.}",
+     "start": 35.653,
+     "end": 37.2,
+     "words": [
+      {
+       "text": "And",
+       "start": 35.653,
+       "end": 35.68
+      },
+      {
+       "text": "he",
+       "start": 35.8,
+       "end": 35.92
+      },
+      {
+       "text": "only",
+       "start": 36.08,
+       "end": 36.24
+      },
+      {
+       "text": "listens",
+       "start": 36.32,
+       "end": 36.56
+      },
+      {
+       "text": "to",
+       "start": 36.64,
+       "end": 36.72
+      },
+      {
+       "text": "me.",
+       "start": 36.84,
+       "end": 37.2
+      }
+     ]
+    }
+   ],
+   "start": 33.253,
+   "end": 37.2
+  }
+ ]
+}

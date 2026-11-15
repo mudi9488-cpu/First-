@@ -1,0 +1,150 @@
+{
+ "title": "Birthday Pet",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "on your tenth birthday,"
+    },
+    {
+     "show": "you get a {y:random} pet."
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Kevin got a raccoon."
+    },
+    {
+     "show": "They live together now."
+    },
+    {
+     "show": "Linda got a cat."
+    },
+    {
+     "show": "It lives on the ceiling."
+    },
+    {
+     "show": "And my grandma got a goldfish."
+    },
+    {
+     "show": "It's older than she is."
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "There's only one rule."
+    },
+    {
+     "show": "Whatever you get,"
+    },
+    {
+     "show": "you {r:keep it.}"
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "On my birthday,"
+    },
+    {
+     "show": "I opened the box."
+    },
+    {
+     "show": "And inside"
+    },
+    {
+     "show": "was a {r:tiny} Tung Tung Tung Sahur."
+    }
+   ]
+  },
+  {
+   "id": "grow",
+   "label": "",
+   "lines": [
+    {
+     "show": "He was the size of a sock."
+    },
+    {
+     "show": "By the next morning,"
+    },
+    {
+     "show": "he was the size of my bed."
+    },
+    {
+     "show": "By lunch,"
+    },
+    {
+     "show": "he was {r:bigger than our house.}"
+    }
+   ]
+  },
+  {
+   "id": "mom",
+   "label": "",
+   "lines": [
+    {
+     "show": "My mom said,"
+    },
+    {
+     "show": "we are not keeping that."
+    },
+    {
+     "show": "But the rule is the rule."
+    }
+   ]
+  },
+  {
+   "id": "good",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I trained him."
+    },
+    {
+     "show": "He plays fetch with his bat."
+    },
+    {
+     "show": "He walks me to school."
+    },
+    {
+     "show": "And every bully in town"
+    },
+    {
+     "show": "is suddenly {y:very} nice to me."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now everybody wants a Tung."
+    },
+    {
+     "show": "But there's only one."
+    },
+    {
+     "show": "And he only listens to {y:me.}"
+    }
+   ]
+  }
+ ]
+}
