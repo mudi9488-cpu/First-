@@ -288,7 +288,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     gr.addColorStop(0, "rgba(255,255,255,1)"); gr.addColorStop(0.22, "rgba(140,230,255,0.9)"); gr.addColorStop(1, "rgba(0,120,255,0)"); g.fillStyle = gr; g.fillRect(0, 0, 128, 128); return new THREE.CanvasTexture(c); })();
   function lampSet(ch, on, at, u) { ch.lamp.visible = on && (at === undefined || u >= at); if (ch.lamp.visible) { const q = at === undefined ? 1 : outBack((u - at) / 0.25);
       ch.lamp.scale.setScalar(Math.max(0.01, q) * (1 + 0.06 * Math.sin(u * 8))); } }
-  const SHIRT_IMG = new Image(); const shirtImgReady = new Promise((res) => { SHIRT_IMG.onload = res; SHIRT_IMG.onerror = res; }); SHIRT_IMG.src = "assets/brand/townie-shirt.jpg";
+  const SHIRT_IMG = new Image(); const shirtImgReady = new Promise((res) => { SHIRT_IMG.onload = res; SHIRT_IMG.onerror = res; }); SHIRT_IMG.src = "assets/brand/townie-shirt.png";
   function makeChar(o) {
     const root = new THREE.Group(); scene.add(root);
     const sk = std({ color: o.skin || 0xF1C27D }), sh = std({ color: o.shirt }), pa = std({ color: o.pants || 0x2E3A59 }), shoe = std({ color: o.shoe || 0x222222 });
@@ -312,7 +312,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     let ct = new THREE.CanvasTexture(c);
     if (o.design === "tungimg") { const c2 = cv(512, 512), g2 = c2.getContext("2d"); ct = new THREE.CanvasTexture(c2);
       const paint = () => { g2.fillStyle = "#" + new THREE.Color(o.shirt).getHexString(); g2.fillRect(0, 0, 512, 512); g2.strokeStyle = "#FFF"; g2.lineWidth = 12; g2.beginPath(); g2.moveTo(200, 0); g2.lineTo(200, 70); g2.moveTo(312, 0); g2.lineTo(312, 70); g2.stroke();
-        g2.fillStyle = "rgba(0,0,0,0.18)"; g2.fillRect(130, 400, 252, 100); if (SHIRT_IMG.naturalWidth) { g2.fillStyle = "#FFFFFF"; g2.fillRect(142, 76, 228, 285); g2.drawImage(SHIRT_IMG, 150, 84, 212, 269); } ct.needsUpdate = true; };
+        if (SHIRT_IMG.naturalWidth) { const hh = 400, ww = hh * SHIRT_IMG.naturalWidth / SHIRT_IMG.naturalHeight; g2.drawImage(SHIRT_IMG, 256 - ww / 2, 64, ww, hh); } ct.needsUpdate = true; };
       paint(); shirtImgReady.then(paint); }
     ct.colorSpace = THREE.SRGBColorSpace; const front = std({ map: ct });
     const torso = add(new THREE.Mesh(new THREE.BoxGeometry(1, 1, 0.5), [sh, sh, sh, sh, front, sh]), root); torso.position.y = 1.5;
