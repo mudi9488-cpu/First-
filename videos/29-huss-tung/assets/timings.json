@@ -1,5 +1,5 @@
 {
- "duration": 72.986,
+ "duration": 75.572,
  "beats": [
   {
    "id": "hook",
@@ -101,20 +101,30 @@
      ]
     },
     {
-     "show": "{y:HUSS!}",
+     "show": "{y:HUSS! HUSS! HUSS!}",
      "start": 5.2,
-     "end": 5.68,
+     "end": 6.273,
      "words": [
       {
        "text": "HUSS!",
        "start": 5.2,
-       "end": 5.68
+       "end": 5.524
+      },
+      {
+       "text": "HUSS!",
+       "start": 5.574,
+       "end": 5.898
+      },
+      {
+       "text": "HUSS!",
+       "start": 5.948,
+       "end": 6.273
       }
      ]
     }
    ],
    "start": 0.0,
-   "end": 5.68
+   "end": 6.273
   },
   {
    "id": "world",
@@ -122,191 +132,191 @@
    "lines": [
     {
      "show": "My best friend Kevin",
-     "start": 5.92,
-     "end": 6.72,
+     "start": 6.503,
+     "end": 7.303,
      "words": [
       {
        "text": "My",
-       "start": 5.92,
-       "end": 6.0
+       "start": 6.503,
+       "end": 6.583
       },
       {
        "text": "best",
-       "start": 6.08,
-       "end": 6.16
+       "start": 6.663,
+       "end": 6.743
       },
       {
        "text": "friend",
-       "start": 6.28,
-       "end": 6.4
+       "start": 6.863,
+       "end": 6.983
       },
       {
        "text": "Kevin",
-       "start": 6.48,
-       "end": 6.72
+       "start": 7.063,
+       "end": 7.303
       }
      ]
     },
     {
      "show": "parties so much,",
-     "start": 6.8,
-     "end": 7.68,
+     "start": 7.383,
+     "end": 8.263,
      "words": [
       {
        "text": "parties",
-       "start": 6.8,
-       "end": 7.2
+       "start": 7.383,
+       "end": 7.783
       },
       {
        "text": "so",
-       "start": 7.28,
-       "end": 7.36
+       "start": 7.863,
+       "end": 7.943
       },
       {
        "text": "much,",
-       "start": 7.44,
-       "end": 7.68
+       "start": 8.023,
+       "end": 8.263
       }
      ]
     },
     {
      "show": "he forgot his own {r:birthday.}",
-     "start": 7.76,
-     "end": 8.96,
+     "start": 8.343,
+     "end": 9.543,
      "words": [
       {
        "text": "he",
-       "start": 7.76,
-       "end": 7.84
+       "start": 8.343,
+       "end": 8.423
       },
       {
        "text": "forgot",
-       "start": 7.96,
-       "end": 8.08
+       "start": 8.543,
+       "end": 8.663
       },
       {
        "text": "his",
-       "start": 8.12,
-       "end": 8.16
+       "start": 8.703,
+       "end": 8.743
       },
       {
        "text": "own",
-       "start": 8.24,
-       "end": 8.32
+       "start": 8.823,
+       "end": 8.903
       },
       {
        "text": "birthday.",
-       "start": 8.4,
-       "end": 8.96
+       "start": 8.983,
+       "end": 9.543
       }
      ]
     },
     {
      "show": "Linda threw a party",
-     "start": 9.04,
-     "end": 9.84,
+     "start": 9.623,
+     "end": 10.423,
      "words": [
       {
        "text": "Linda",
-       "start": 9.04,
-       "end": 9.28
+       "start": 9.623,
+       "end": 9.863
       },
       {
        "text": "threw",
-       "start": 9.36,
-       "end": 9.44
+       "start": 9.943,
+       "end": 10.023
       },
       {
        "text": "a",
-       "start": 9.52,
-       "end": 9.6
+       "start": 10.103,
+       "end": 10.183
       },
       {
        "text": "party",
-       "start": 9.72,
-       "end": 9.84
+       "start": 10.303,
+       "end": 10.423
       }
      ]
     },
     {
      "show": "for her cat's cat.",
-     "start": 9.92,
-     "end": 11.04,
+     "start": 10.503,
+     "end": 11.623,
      "words": [
       {
        "text": "for",
-       "start": 9.92,
-       "end": 10.0
+       "start": 10.503,
+       "end": 10.583
       },
       {
        "text": "her",
-       "start": 10.08,
-       "end": 10.16
+       "start": 10.663,
+       "end": 10.743
       },
       {
        "text": "cat's",
-       "start": 10.24,
-       "end": 10.56
+       "start": 10.823,
+       "end": 11.143
       },
       {
        "text": "cat.",
-       "start": 10.76,
-       "end": 11.04
+       "start": 11.343,
+       "end": 11.623
       }
      ]
     },
     {
      "show": "And my grandma",
-     "start": 11.08,
-     "end": 11.68,
+     "start": 11.663,
+     "end": 12.263,
      "words": [
       {
        "text": "And",
-       "start": 11.08,
-       "end": 11.12
+       "start": 11.663,
+       "end": 11.703
       },
       {
        "text": "my",
-       "start": 11.2,
-       "end": 11.28
+       "start": 11.783,
+       "end": 11.863
       },
       {
        "text": "grandma",
-       "start": 11.4,
-       "end": 11.68
+       "start": 11.983,
+       "end": 12.263
       }
      ]
     },
     {
      "show": "goes clubbing on Tuesdays.",
-     "start": 11.76,
-     "end": 13.2,
+     "start": 12.343,
+     "end": 13.783,
      "words": [
       {
        "text": "goes",
-       "start": 11.76,
-       "end": 11.92
+       "start": 12.343,
+       "end": 12.503
       },
       {
        "text": "clubbing",
-       "start": 12.0,
-       "end": 12.32
+       "start": 12.583,
+       "end": 12.903
       },
       {
        "text": "on",
-       "start": 12.4,
-       "end": 12.48
+       "start": 12.983,
+       "end": 13.063
       },
       {
        "text": "Tuesdays.",
-       "start": 12.52,
-       "end": 13.2
+       "start": 13.103,
+       "end": 13.783
       }
      ]
     }
    ],
-   "start": 5.92,
-   "end": 13.2
+   "start": 6.503,
+   "end": 13.783
   },
   {
    "id": "tung",
@@ -314,257 +324,257 @@
    "lines": [
     {
      "show": "The only other one",
-     "start": 13.24,
-     "end": 13.84,
+     "start": 13.823,
+     "end": 14.423,
      "words": [
       {
        "text": "The",
-       "start": 13.24,
-       "end": 13.28
+       "start": 13.823,
+       "end": 13.863
       },
       {
        "text": "only",
-       "start": 13.36,
-       "end": 13.52
+       "start": 13.943,
+       "end": 14.103
       },
       {
        "text": "other",
-       "start": 13.6,
-       "end": 13.68
+       "start": 14.183,
+       "end": 14.263
       },
       {
        "text": "one",
-       "start": 13.76,
-       "end": 13.84
+       "start": 14.343,
+       "end": 14.423
       }
      ]
     },
     {
      "show": "awake at night",
-     "start": 13.92,
-     "end": 14.48,
+     "start": 14.503,
+     "end": 15.063,
      "words": [
       {
        "text": "awake",
-       "start": 13.92,
-       "end": 14.16
+       "start": 14.503,
+       "end": 14.743
       },
       {
        "text": "at",
-       "start": 14.2,
-       "end": 14.24
+       "start": 14.783,
+       "end": 14.823
       },
       {
        "text": "night",
-       "start": 14.32,
-       "end": 14.48
+       "start": 14.903,
+       "end": 15.063
       }
      ]
     },
     {
      "show": "is {r:Tung Tung Tung Sahur.}",
-     "start": 14.56,
-     "end": 16.0,
+     "start": 15.143,
+     "end": 16.583,
      "words": [
       {
        "text": "is",
-       "start": 14.56,
-       "end": 14.64
+       "start": 15.143,
+       "end": 15.223
       },
       {
        "text": "Tung",
-       "start": 14.72,
-       "end": 14.88
+       "start": 15.303,
+       "end": 15.463
       },
       {
        "text": "Tung",
-       "start": 14.96,
-       "end": 15.12
+       "start": 15.543,
+       "end": 15.703
       },
       {
        "text": "Tung",
-       "start": 15.2,
-       "end": 15.36
+       "start": 15.783,
+       "end": 15.943
       },
       {
        "text": "Sahur.",
-       "start": 15.44,
-       "end": 16.0
+       "start": 16.023,
+       "end": 16.583
       }
      ]
     },
     {
      "show": "A giant wooden log",
-     "start": 16.08,
-     "end": 17.12,
+     "start": 16.663,
+     "end": 17.703,
      "words": [
       {
        "text": "A",
-       "start": 16.08,
-       "end": 16.16
+       "start": 16.663,
+       "end": 16.743
       },
       {
        "text": "giant",
-       "start": 16.24,
-       "end": 16.56
+       "start": 16.823,
+       "end": 17.143
       },
       {
        "text": "wooden",
-       "start": 16.64,
-       "end": 16.88
+       "start": 17.223,
+       "end": 17.463
       },
       {
        "text": "log",
-       "start": 17.0,
-       "end": 17.12
+       "start": 17.583,
+       "end": 17.703
       }
      ]
     },
     {
      "show": "with a baseball bat.",
-     "start": 17.2,
-     "end": 18.24,
+     "start": 17.783,
+     "end": 18.823,
      "words": [
       {
        "text": "with",
-       "start": 17.2,
-       "end": 17.28
+       "start": 17.783,
+       "end": 17.863
       },
       {
        "text": "a",
-       "start": 17.36,
-       "end": 17.44
+       "start": 17.943,
+       "end": 18.023
       },
       {
        "text": "baseball",
-       "start": 17.56,
-       "end": 17.84
+       "start": 18.143,
+       "end": 18.423
       },
       {
        "text": "bat.",
-       "start": 17.92,
-       "end": 18.24
+       "start": 18.503,
+       "end": 18.823
       }
      ]
     },
     {
      "show": "He's the town's",
-     "start": 18.28,
-     "end": 18.8,
+     "start": 18.863,
+     "end": 19.383,
      "words": [
       {
        "text": "He's",
-       "start": 18.28,
-       "end": 18.4
+       "start": 18.863,
+       "end": 18.983
       },
       {
        "text": "the",
-       "start": 18.44,
-       "end": 18.48
+       "start": 19.023,
+       "end": 19.063
       },
       {
        "text": "town's",
-       "start": 18.6,
-       "end": 18.8
+       "start": 19.183,
+       "end": 19.383
       }
      ]
     },
     {
      "show": "basketball champion.",
-     "start": 18.96,
-     "end": 19.84,
+     "start": 19.543,
+     "end": 20.423,
      "words": [
       {
        "text": "basketball",
-       "start": 18.96,
-       "end": 19.28
+       "start": 19.543,
+       "end": 19.863
       },
       {
        "text": "champion.",
-       "start": 19.36,
-       "end": 19.84
+       "start": 19.943,
+       "end": 20.423
       }
      ]
     },
     {
      "show": "Nobody has ever scored on him.",
-     "start": 19.92,
-     "end": 21.56,
+     "start": 20.503,
+     "end": 22.143,
      "words": [
       {
        "text": "Nobody",
-       "start": 19.92,
-       "end": 20.24
+       "start": 20.503,
+       "end": 20.823
       },
       {
        "text": "has",
-       "start": 20.32,
-       "end": 20.56
+       "start": 20.903,
+       "end": 21.143
       },
       {
        "text": "ever",
-       "start": 20.68,
-       "end": 20.8
+       "start": 21.263,
+       "end": 21.383
       },
       {
        "text": "scored",
-       "start": 20.88,
-       "end": 21.16
+       "start": 21.463,
+       "end": 21.743
       },
       {
        "text": "on",
-       "start": 21.2,
-       "end": 21.28
+       "start": 21.783,
+       "end": 21.863
       },
       {
        "text": "him.",
-       "start": 21.4,
-       "end": 21.56
+       "start": 21.983,
+       "end": 22.143
       }
      ]
     },
     {
      "show": "Not once.",
-     "start": 21.6,
-     "end": 22.24,
+     "start": 22.183,
+     "end": 22.823,
      "words": [
       {
        "text": "Not",
-       "start": 21.6,
-       "end": 21.76
+       "start": 22.183,
+       "end": 22.343
       },
       {
        "text": "once.",
-       "start": 21.84,
-       "end": 22.24
+       "start": 22.423,
+       "end": 22.823
       }
      ]
     },
     {
      "show": "In fifty years.",
-     "start": 22.32,
-     "end": 23.6,
+     "start": 22.903,
+     "end": 24.183,
      "words": [
       {
        "text": "In",
-       "start": 22.32,
-       "end": 22.48
+       "start": 22.903,
+       "end": 23.063
       },
       {
        "text": "fifty",
-       "start": 22.56,
-       "end": 22.88
+       "start": 23.143,
+       "end": 23.463
       },
       {
        "text": "years.",
-       "start": 23.04,
-       "end": 23.6
+       "start": 23.623,
+       "end": 24.183
       }
      ]
     }
    ],
-   "start": 13.24,
-   "end": 23.6
+   "start": 13.823,
+   "end": 24.183
   },
   {
    "id": "grind",
@@ -572,165 +582,180 @@
    "lines": [
     {
      "show": "So while they're out partying,",
-     "start": 23.68,
-     "end": 24.92,
+     "start": 24.263,
+     "end": 25.503,
      "words": [
       {
        "text": "So",
-       "start": 23.68,
-       "end": 23.76
+       "start": 24.263,
+       "end": 24.343
       },
       {
        "text": "while",
-       "start": 23.84,
-       "end": 24.0
+       "start": 24.423,
+       "end": 24.583
       },
       {
        "text": "they're",
-       "start": 24.04,
-       "end": 24.16
+       "start": 24.623,
+       "end": 24.743
       },
       {
        "text": "out",
-       "start": 24.28,
-       "end": 24.4
+       "start": 24.863,
+       "end": 24.983
       },
       {
        "text": "partying,",
-       "start": 24.52,
-       "end": 24.92
+       "start": 25.103,
+       "end": 25.503
       }
      ]
     },
     {
      "show": "by the way…",
-     "start": 24.96,
-     "end": 25.6,
+     "start": 25.543,
+     "end": 26.183,
      "words": [
       {
        "text": "by",
-       "start": 24.96,
-       "end": 25.04
+       "start": 25.543,
+       "end": 25.623
       },
       {
        "text": "the",
-       "start": 25.12,
-       "end": 25.2
+       "start": 25.703,
+       "end": 25.783
       },
       {
        "text": "way…",
-       "start": 25.28,
-       "end": 25.6
+       "start": 25.863,
+       "end": 26.183
       }
      ]
     },
     {
      "show": "I'm out here practicing.",
-     "start": 25.64,
-     "end": 26.88,
+     "start": 26.223,
+     "end": 27.463,
      "words": [
       {
        "text": "I'm",
-       "start": 25.64,
-       "end": 25.76
+       "start": 26.223,
+       "end": 26.343
       },
       {
        "text": "out",
-       "start": 25.84,
-       "end": 25.92
+       "start": 26.423,
+       "end": 26.503
       },
       {
        "text": "here",
-       "start": 26.04,
-       "end": 26.16
+       "start": 26.623,
+       "end": 26.743
       },
       {
        "text": "practicing.",
-       "start": 26.24,
-       "end": 26.88
+       "start": 26.823,
+       "end": 27.463
+      }
+     ]
+    },
+    {
+     "show": "{y:HUSS! HUSS!}",
+     "start": 27.543,
+     "end": 28.241,
+     "words": [
+      {
+       "text": "HUSS!",
+       "start": 27.543,
+       "end": 27.867
+      },
+      {
+       "text": "HUSS!",
+       "start": 27.917,
+       "end": 28.241
       }
      ]
     },
     {
      "show": "{y:HUSS!}",
-     "start": 26.96,
-     "end": 27.44,
+     "start": 28.291,
+     "end": 28.615,
      "words": [
       {
        "text": "HUSS!",
-       "start": 26.96,
-       "end": 27.44
-      }
-     ]
-    },
-    {
-     "show": "{y:HUSS!}",
-     "start": 27.52,
-     "end": 28.08,
-     "words": [
-      {
-       "text": "HUSS!",
-       "start": 27.52,
-       "end": 28.08
+       "start": 28.291,
+       "end": 28.615
       }
      ]
     },
     {
      "show": "Every night.",
-     "start": 28.16,
-     "end": 28.88,
+     "start": 28.705,
+     "end": 29.425,
      "words": [
       {
        "text": "Every",
-       "start": 28.16,
-       "end": 28.4
+       "start": 28.705,
+       "end": 28.945
       },
       {
        "text": "night.",
-       "start": 28.48,
-       "end": 28.88
+       "start": 29.025,
+       "end": 29.425
       }
      ]
     },
     {
      "show": "Rain.",
-     "start": 29.08,
-     "end": 29.44,
+     "start": 29.625,
+     "end": 29.985,
      "words": [
       {
        "text": "Rain.",
-       "start": 29.08,
-       "end": 29.44
+       "start": 29.625,
+       "end": 29.985
       }
      ]
     },
     {
      "show": "Snow.",
-     "start": 29.68,
-     "end": 30.0,
+     "start": 30.225,
+     "end": 30.545,
      "words": [
       {
        "text": "Snow.",
-       "start": 29.68,
-       "end": 30.0
+       "start": 30.225,
+       "end": 30.545
       }
      ]
     },
     {
-     "show": "{y:HUSS!}",
-     "start": 30.12,
-     "end": 30.64,
+     "show": "{y:HUSS! HUSS! HUSS!}",
+     "start": 30.665,
+     "end": 31.738,
      "words": [
       {
        "text": "HUSS!",
-       "start": 30.12,
-       "end": 30.64
+       "start": 30.665,
+       "end": 30.989
+      },
+      {
+       "text": "HUSS!",
+       "start": 31.039,
+       "end": 31.363
+      },
+      {
+       "text": "HUSS!",
+       "start": 31.413,
+       "end": 31.738
       }
      ]
     }
    ],
-   "start": 23.68,
-   "end": 30.64
+   "start": 24.263,
+   "end": 31.738
   },
   {
    "id": "watch",
@@ -738,146 +763,146 @@
    "lines": [
     {
      "show": "But every night,",
-     "start": 30.777,
-     "end": 31.6,
+     "start": 31.885,
+     "end": 32.708,
      "words": [
       {
        "text": "But",
-       "start": 30.777,
-       "end": 30.8
+       "start": 31.885,
+       "end": 31.908
       },
       {
        "text": "every",
-       "start": 30.88,
-       "end": 31.12
+       "start": 31.988,
+       "end": 32.228
       },
       {
        "text": "night,",
-       "start": 31.28,
-       "end": 31.6
+       "start": 32.388,
+       "end": 32.708
       }
      ]
     },
     {
      "show": "at three in the morning,",
-     "start": 31.68,
-     "end": 32.64,
+     "start": 32.788,
+     "end": 33.748,
      "words": [
       {
        "text": "at",
-       "start": 31.68,
-       "end": 31.76
+       "start": 32.788,
+       "end": 32.868
       },
       {
        "text": "three",
-       "start": 31.84,
-       "end": 31.92
+       "start": 32.948,
+       "end": 33.028
       },
       {
        "text": "in",
-       "start": 32.0,
-       "end": 32.08
+       "start": 33.108,
+       "end": 33.188
       },
       {
        "text": "the",
-       "start": 32.12,
-       "end": 32.16
+       "start": 33.228,
+       "end": 33.268
       },
       {
        "text": "morning,",
-       "start": 32.24,
-       "end": 32.64
+       "start": 33.348,
+       "end": 33.748
       }
      ]
     },
     {
      "show": "I heard something.",
-     "start": 32.72,
-     "end": 33.76,
+     "start": 33.828,
+     "end": 34.868,
      "words": [
       {
        "text": "I",
-       "start": 32.72,
-       "end": 32.88
+       "start": 33.828,
+       "end": 33.988
       },
       {
        "text": "heard",
-       "start": 33.0,
-       "end": 33.12
+       "start": 34.108,
+       "end": 34.228
       },
       {
        "text": "something.",
-       "start": 33.2,
-       "end": 33.76
+       "start": 34.308,
+       "end": 34.868
       }
      ]
     },
     {
      "show": "{r:Tung.}",
-     "start": 33.83,
-     "end": 34.4,
+     "start": 34.938,
+     "end": 35.508,
      "words": [
       {
        "text": "Tung.",
-       "start": 33.83,
-       "end": 34.4
+       "start": 34.938,
+       "end": 35.508
       }
      ]
     },
     {
      "show": "{r:Tung.}",
-     "start": 34.44,
-     "end": 35.04,
+     "start": 35.548,
+     "end": 36.148,
      "words": [
       {
        "text": "Tung.",
-       "start": 34.44,
-       "end": 35.04
+       "start": 35.548,
+       "end": 36.148
       }
      ]
     },
     {
      "show": "{r:Tung.}",
-     "start": 35.08,
-     "end": 35.52,
+     "start": 36.188,
+     "end": 36.628,
      "words": [
       {
        "text": "Tung.",
-       "start": 35.08,
-       "end": 35.52
+       "start": 36.188,
+       "end": 36.628
       }
      ]
     },
     {
      "show": "Someone was watching me.",
-     "start": 35.84,
-     "end": 37.2,
+     "start": 36.948,
+     "end": 38.308,
      "words": [
       {
        "text": "Someone",
-       "start": 35.84,
-       "end": 36.16
+       "start": 36.948,
+       "end": 37.268
       },
       {
        "text": "was",
-       "start": 36.24,
-       "end": 36.4
+       "start": 37.348,
+       "end": 37.508
       },
       {
        "text": "watching",
-       "start": 36.48,
-       "end": 36.8
+       "start": 37.588,
+       "end": 37.908
       },
       {
        "text": "me.",
-       "start": 36.88,
-       "end": 37.2
+       "start": 37.988,
+       "end": 38.308
       }
      ]
     }
    ],
-   "start": 30.777,
-   "end": 37.2
+   "start": 31.885,
+   "end": 38.308
   },
   {
    "id": "game",
@@ -885,252 +910,252 @@
    "lines": [
     {
      "show": "Then came the big game.",
-     "start": 37.28,
-     "end": 38.64,
+     "start": 38.388,
+     "end": 39.748,
      "words": [
       {
        "text": "Then",
-       "start": 37.28,
-       "end": 37.52
+       "start": 38.388,
+       "end": 38.628
       },
       {
        "text": "came",
-       "start": 37.64,
-       "end": 37.76
+       "start": 38.748,
+       "end": 38.868
       },
       {
        "text": "the",
-       "start": 37.84,
-       "end": 37.92
+       "start": 38.948,
+       "end": 39.028
       },
       {
        "text": "big",
-       "start": 38.0,
-       "end": 38.16
+       "start": 39.108,
+       "end": 39.268
       },
       {
        "text": "game.",
-       "start": 38.24,
-       "end": 38.64
+       "start": 39.348,
+       "end": 39.748
       }
      ]
     },
     {
      "show": "The whole town showed up,",
-     "start": 38.72,
-     "end": 39.92,
+     "start": 39.828,
+     "end": 41.028,
      "words": [
       {
        "text": "The",
-       "start": 38.72,
-       "end": 38.8
+       "start": 39.828,
+       "end": 39.908
       },
       {
        "text": "whole",
-       "start": 38.92,
-       "end": 39.04
+       "start": 40.028,
+       "end": 40.148
       },
       {
        "text": "town",
-       "start": 39.2,
-       "end": 39.36
+       "start": 40.308,
+       "end": 40.468
       },
       {
        "text": "showed",
-       "start": 39.44,
-       "end": 39.6
+       "start": 40.548,
+       "end": 40.708
       },
       {
        "text": "up,",
-       "start": 39.68,
-       "end": 39.92
+       "start": 40.788,
+       "end": 41.028
       }
      ]
     },
     {
      "show": "still wearing party hats.",
-     "start": 40.04,
-     "end": 41.2,
+     "start": 41.148,
+     "end": 42.308,
      "words": [
       {
        "text": "still",
-       "start": 40.04,
-       "end": 40.16
+       "start": 41.148,
+       "end": 41.268
       },
       {
        "text": "wearing",
-       "start": 40.24,
-       "end": 40.4
+       "start": 41.348,
+       "end": 41.508
       },
       {
        "text": "party",
-       "start": 40.48,
-       "end": 40.72
+       "start": 41.588,
+       "end": 41.828
       },
       {
        "text": "hats.",
-       "start": 40.8,
-       "end": 41.2
+       "start": 41.908,
+       "end": 42.308
       }
      ]
     },
     {
      "show": "Everybody laughed at me.",
-     "start": 41.28,
-     "end": 42.4,
+     "start": 42.388,
+     "end": 43.508,
      "words": [
       {
        "text": "Everybody",
-       "start": 41.28,
-       "end": 41.68
+       "start": 42.388,
+       "end": 42.788
       },
       {
        "text": "laughed",
-       "start": 41.76,
-       "end": 42.0
+       "start": 42.868,
+       "end": 43.108
       },
       {
        "text": "at",
-       "start": 42.04,
-       "end": 42.08
+       "start": 43.148,
+       "end": 43.188
       },
       {
        "text": "me.",
-       "start": 42.16,
-       "end": 42.4
+       "start": 43.268,
+       "end": 43.508
       }
      ]
     },
     {
      "show": "Then Tung Tung Tung Sahur",
-     "start": 42.48,
-     "end": 44.0,
+     "start": 43.588,
+     "end": 45.108,
      "words": [
       {
        "text": "Then",
-       "start": 42.48,
-       "end": 42.64
+       "start": 43.588,
+       "end": 43.748
       },
       {
        "text": "Tung",
-       "start": 42.8,
-       "end": 42.96
+       "start": 43.908,
+       "end": 44.068
       },
       {
        "text": "Tung",
-       "start": 43.04,
-       "end": 43.2
+       "start": 44.148,
+       "end": 44.308
       },
       {
        "text": "Tung",
-       "start": 43.28,
-       "end": 43.44
+       "start": 44.388,
+       "end": 44.548
       },
       {
        "text": "Sahur",
-       "start": 43.52,
-       "end": 44.0
+       "start": 44.628,
+       "end": 45.108
       }
      ]
     },
     {
      "show": "stepped onto the court.",
-     "start": 44.08,
-     "end": 44.96,
+     "start": 45.188,
+     "end": 46.068,
      "words": [
       {
        "text": "stepped",
-       "start": 44.08,
-       "end": 44.24
+       "start": 45.188,
+       "end": 45.348
       },
       {
        "text": "onto",
-       "start": 44.32,
-       "end": 44.48
+       "start": 45.428,
+       "end": 45.588
       },
       {
        "text": "the",
-       "start": 44.52,
-       "end": 44.56
+       "start": 45.628,
+       "end": 45.668
       },
       {
        "text": "court.",
-       "start": 44.64,
-       "end": 44.96
+       "start": 45.748,
+       "end": 46.068
       }
      ]
     },
     {
      "show": "He's taller than a {r:house.}",
-     "start": 45.0,
-     "end": 46.32,
+     "start": 46.108,
+     "end": 47.428,
      "words": [
       {
        "text": "He's",
-       "start": 45.0,
-       "end": 45.2
+       "start": 46.108,
+       "end": 46.308
       },
       {
        "text": "taller",
-       "start": 45.24,
-       "end": 45.52
+       "start": 46.348,
+       "end": 46.628
       },
       {
        "text": "than",
-       "start": 45.56,
-       "end": 45.6
+       "start": 46.668,
+       "end": 46.708
       },
       {
        "text": "a",
-       "start": 45.68,
-       "end": 45.76
+       "start": 46.788,
+       "end": 46.868
       },
       {
        "text": "house.",
-       "start": 45.84,
-       "end": 46.32
+       "start": 46.948,
+       "end": 47.428
       }
      ]
     },
     {
      "show": "{r:Tung.}",
-     "start": 46.4,
-     "end": 46.96,
+     "start": 47.508,
+     "end": 48.068,
      "words": [
       {
        "text": "Tung.",
-       "start": 46.4,
-       "end": 46.96
+       "start": 47.508,
+       "end": 48.068
       }
      ]
     },
     {
      "show": "{r:Tung.}",
-     "start": 47.04,
-     "end": 47.6,
+     "start": 48.148,
+     "end": 48.708,
      "words": [
       {
        "text": "Tung.",
-       "start": 47.04,
-       "end": 47.6
+       "start": 48.148,
+       "end": 48.708
       }
      ]
     },
     {
      "show": "{r:Tung.}",
-     "start": 47.64,
-     "end": 48.24,
+     "start": 48.748,
+     "end": 49.348,
      "words": [
       {
        "text": "Tung.",
-       "start": 47.64,
-       "end": 48.24
+       "start": 48.748,
+       "end": 49.348
       }
      ]
     }
    ],
-   "start": 37.28,
-   "end": 48.24
+   "start": 38.388,
+   "end": 49.348
   },
   {
    "id": "score",
@@ -1138,237 +1163,257 @@
    "lines": [
     {
      "show": "I got the ball.",
-     "start": 48.28,
-     "end": 49.04,
+     "start": 49.388,
+     "end": 50.148,
      "words": [
       {
        "text": "I",
-       "start": 48.28,
-       "end": 48.32
+       "start": 49.388,
+       "end": 49.428
       },
       {
        "text": "got",
-       "start": 48.4,
-       "end": 48.48
+       "start": 49.508,
+       "end": 49.588
       },
       {
        "text": "the",
-       "start": 48.56,
-       "end": 48.64
+       "start": 49.668,
+       "end": 49.748
       },
       {
        "text": "ball.",
-       "start": 48.8,
-       "end": 49.04
+       "start": 49.908,
+       "end": 50.148
       }
      ]
     },
     {
-     "show": "{y:HUSS!}",
-     "start": 49.246,
-     "end": 49.6,
+     "show": "{y:HUSS! HUSS! HUSS!}",
+     "start": 50.358,
+     "end": 51.43,
      "words": [
       {
        "text": "HUSS!",
-       "start": 49.246,
-       "end": 49.6
+       "start": 50.358,
+       "end": 50.682
+      },
+      {
+       "text": "HUSS!",
+       "start": 50.732,
+       "end": 51.056
+      },
+      {
+       "text": "HUSS!",
+       "start": 51.106,
+       "end": 51.43
       }
      ]
     },
     {
      "show": "I jumped.",
-     "start": 49.68,
-     "end": 50.32,
+     "start": 51.51,
+     "end": 52.15,
      "words": [
       {
        "text": "I",
-       "start": 49.68,
-       "end": 49.76
+       "start": 51.51,
+       "end": 51.59
       },
       {
        "text": "jumped.",
-       "start": 49.84,
-       "end": 50.32
+       "start": 51.67,
+       "end": 52.15
       }
      ]
     },
     {
-     "show": "{y:HUSS!}",
-     "start": 50.44,
-     "end": 50.88,
+     "show": "{y:HUSS! HUSS! HUSS!}",
+     "start": 52.27,
+     "end": 53.343,
      "words": [
       {
        "text": "HUSS!",
-       "start": 50.44,
-       "end": 50.88
+       "start": 52.27,
+       "end": 52.594
+      },
+      {
+       "text": "HUSS!",
+       "start": 52.644,
+       "end": 52.968
+      },
+      {
+       "text": "HUSS!",
+       "start": 53.018,
+       "end": 53.343
       }
      ]
     },
     {
      "show": "And I {y:scored.}",
-     "start": 50.92,
-     "end": 51.84,
+     "start": 53.393,
+     "end": 54.313,
      "words": [
       {
        "text": "And",
-       "start": 50.92,
-       "end": 50.96
+       "start": 53.393,
+       "end": 53.433
       },
       {
        "text": "I",
-       "start": 51.04,
-       "end": 51.2
+       "start": 53.513,
+       "end": 53.673
       },
       {
        "text": "scored.",
-       "start": 51.28,
-       "end": 51.84
+       "start": 53.753,
+       "end": 54.313
       }
      ]
     },
     {
      "show": "The first point in fifty years.",
-     "start": 51.92,
-     "end": 53.84,
+     "start": 54.393,
+     "end": 56.313,
      "words": [
       {
        "text": "The",
-       "start": 51.92,
-       "end": 52.0
+       "start": 54.393,
+       "end": 54.473
       },
       {
        "text": "first",
-       "start": 52.08,
-       "end": 52.24
+       "start": 54.553,
+       "end": 54.713
       },
       {
        "text": "point",
-       "start": 52.4,
-       "end": 52.64
+       "start": 54.873,
+       "end": 55.113
       },
       {
        "text": "in",
-       "start": 52.76,
-       "end": 52.88
+       "start": 55.233,
+       "end": 55.353
       },
       {
        "text": "fifty",
-       "start": 52.96,
-       "end": 53.2
+       "start": 55.433,
+       "end": 55.673
       },
       {
        "text": "years.",
-       "start": 53.36,
-       "end": 53.84
+       "start": 55.833,
+       "end": 56.313
       }
      ]
     },
     {
      "show": "The crowd went silent.",
-     "start": 53.92,
-     "end": 55.2,
+     "start": 56.393,
+     "end": 57.673,
      "words": [
       {
        "text": "The",
-       "start": 53.92,
-       "end": 54.0
+       "start": 56.393,
+       "end": 56.473
       },
       {
        "text": "crowd",
-       "start": 54.08,
-       "end": 54.32
+       "start": 56.553,
+       "end": 56.793
       },
       {
        "text": "went",
-       "start": 54.4,
-       "end": 54.56
+       "start": 56.873,
+       "end": 57.033
       },
       {
        "text": "silent.",
-       "start": 54.72,
-       "end": 55.2
+       "start": 57.193,
+       "end": 57.673
       }
      ]
     },
     {
      "show": "Then Tung Tung Tung Sahur",
-     "start": 55.28,
-     "end": 56.8,
+     "start": 57.753,
+     "end": 59.273,
      "words": [
       {
        "text": "Then",
-       "start": 55.28,
-       "end": 55.52
+       "start": 57.753,
+       "end": 57.993
       },
       {
        "text": "Tung",
-       "start": 55.68,
-       "end": 55.84
+       "start": 58.153,
+       "end": 58.313
       },
       {
        "text": "Tung",
-       "start": 55.92,
-       "end": 56.08
+       "start": 58.393,
+       "end": 58.553
       },
       {
        "text": "Tung",
-       "start": 56.16,
-       "end": 56.32
+       "start": 58.633,
+       "end": 58.793
       },
       {
        "text": "Sahur",
-       "start": 56.4,
-       "end": 56.8
+       "start": 58.873,
+       "end": 59.273
       }
      ]
     },
     {
      "show": "dropped his bat,",
-     "start": 56.88,
-     "end": 57.6,
+     "start": 59.353,
+     "end": 60.073,
      "words": [
       {
        "text": "dropped",
-       "start": 56.88,
-       "end": 57.12
+       "start": 59.353,
+       "end": 59.593
       },
       {
        "text": "his",
-       "start": 57.2,
-       "end": 57.28
+       "start": 59.673,
+       "end": 59.753
       },
       {
        "text": "bat,",
-       "start": 57.36,
-       "end": 57.6
+       "start": 59.833,
+       "end": 60.073
       }
      ]
     },
     {
      "show": "and started {b:crying.}",
-     "start": 57.68,
-     "end": 58.72,
+     "start": 60.153,
+     "end": 61.193,
      "words": [
       {
        "text": "and",
-       "start": 57.68,
-       "end": 57.76
+       "start": 60.153,
+       "end": 60.233
       },
       {
        "text": "started",
-       "start": 57.84,
-       "end": 58.16
+       "start": 60.313,
+       "end": 60.633
       },
       {
        "text": "crying.",
-       "start": 58.2,
-       "end": 58.72
+       "start": 60.673,
+       "end": 61.193
       }
      ]
     }
    ],
-   "start": 48.28,
-   "end": 58.72
+   "start": 49.388,
+   "end": 61.193
   },
   {
    "id": "twist",
@@ -1376,142 +1421,142 @@
    "lines": [
     {
      "show": "He said,",
-     "start": 58.8,
-     "end": 59.2,
+     "start": 61.273,
+     "end": 61.673,
      "words": [
       {
        "text": "He",
-       "start": 58.8,
-       "end": 58.88
+       "start": 61.273,
+       "end": 61.353
       },
       {
        "text": "said,",
-       "start": 58.96,
-       "end": 59.2
+       "start": 61.433,
+       "end": 61.673
       }
      ]
     },
     {
      "show": "every night, I watched you play.",
-     "start": 59.36,
-     "end": 61.04,
+     "start": 61.833,
+     "end": 63.513,
      "words": [
       {
        "text": "every",
-       "start": 59.36,
-       "end": 59.52
+       "start": 61.833,
+       "end": 61.993
       },
       {
        "text": "night,",
-       "start": 59.6,
-       "end": 59.92
+       "start": 62.073,
+       "end": 62.393
       },
       {
        "text": "I",
-       "start": 60.0,
-       "end": 60.08
+       "start": 62.473,
+       "end": 62.553
       },
       {
        "text": "watched",
-       "start": 60.2,
-       "end": 60.4
+       "start": 62.673,
+       "end": 62.873
       },
       {
        "text": "you",
-       "start": 60.48,
-       "end": 60.56
+       "start": 62.953,
+       "end": 63.033
       },
       {
        "text": "play.",
-       "start": 60.72,
-       "end": 61.04
+       "start": 63.193,
+       "end": 63.513
       }
      ]
     },
     {
      "show": "Nobody ever stays home",
-     "start": 61.2,
-     "end": 62.24,
+     "start": 63.673,
+     "end": 64.713,
      "words": [
       {
        "text": "Nobody",
-       "start": 61.2,
-       "end": 61.36
+       "start": 63.673,
+       "end": 63.833
       },
       {
        "text": "ever",
-       "start": 61.52,
-       "end": 61.68
+       "start": 63.993,
+       "end": 64.153
       },
       {
        "text": "stays",
-       "start": 61.76,
-       "end": 62.0
+       "start": 64.233,
+       "end": 64.473
       },
       {
        "text": "home",
-       "start": 62.08,
-       "end": 62.24
+       "start": 64.553,
+       "end": 64.713
       }
      ]
     },
     {
      "show": "to play with me.",
-     "start": 62.32,
-     "end": 63.04,
+     "start": 64.793,
+     "end": 65.513,
      "words": [
       {
        "text": "to",
-       "start": 62.32,
-       "end": 62.4
+       "start": 64.793,
+       "end": 64.873
       },
       {
        "text": "play",
-       "start": 62.48,
-       "end": 62.56
+       "start": 64.953,
+       "end": 65.033
       },
       {
        "text": "with",
-       "start": 62.64,
-       "end": 62.72
+       "start": 65.113,
+       "end": 65.193
       },
       {
        "text": "me.",
-       "start": 62.8,
-       "end": 63.04
+       "start": 65.273,
+       "end": 65.513
       }
      ]
     },
     {
      "show": "They're always out partying.",
-     "start": 63.08,
-     "end": 64.48,
+     "start": 65.553,
+     "end": 66.953,
      "words": [
       {
        "text": "They're",
-       "start": 63.08,
-       "end": 63.2
+       "start": 65.553,
+       "end": 65.673
       },
       {
        "text": "always",
-       "start": 63.28,
-       "end": 63.52
+       "start": 65.753,
+       "end": 65.993
       },
       {
        "text": "out",
-       "start": 63.6,
-       "end": 63.76
+       "start": 66.073,
+       "end": 66.233
       },
       {
        "text": "partying.",
-       "start": 63.84,
-       "end": 64.48
+       "start": 66.313,
+       "end": 66.953
       }
      ]
     }
    ],
-   "start": 58.8,
-   "end": 64.48
+   "start": 61.273,
+   "end": 66.953
   },
   {
    "id": "end",
@@ -1519,202 +1564,207 @@
    "lines": [
     {
      "show": "So now,",
-     "start": 64.56,
-     "end": 65.04,
+     "start": 67.033,
+     "end": 67.513,
      "words": [
       {
        "text": "So",
-       "start": 64.56,
-       "end": 64.64
+       "start": 67.033,
+       "end": 67.113
       },
       {
        "text": "now,",
-       "start": 64.72,
-       "end": 65.04
+       "start": 67.193,
+       "end": 67.513
       }
      ]
     },
     {
      "show": "we practice together.",
-     "start": 65.12,
-     "end": 66.24,
+     "start": 67.593,
+     "end": 68.713,
      "words": [
       {
        "text": "we",
-       "start": 65.12,
-       "end": 65.2
+       "start": 67.593,
+       "end": 67.673
       },
       {
        "text": "practice",
-       "start": 65.28,
-       "end": 65.6
+       "start": 67.753,
+       "end": 68.073
       },
       {
        "text": "together.",
-       "start": 65.68,
-       "end": 66.24
+       "start": 68.153,
+       "end": 68.713
       }
      ]
     },
     {
      "show": "And while they're out partying,",
-     "start": 66.377,
-     "end": 67.48,
+     "start": 68.85,
+     "end": 69.953,
      "words": [
       {
        "text": "And",
-       "start": 66.377,
-       "end": 66.4
+       "start": 68.85,
+       "end": 68.873
       },
       {
        "text": "while",
-       "start": 66.48,
-       "end": 66.56
+       "start": 68.953,
+       "end": 69.033
       },
       {
        "text": "they're",
-       "start": 66.64,
-       "end": 66.72
+       "start": 69.113,
+       "end": 69.193
       },
       {
        "text": "out",
-       "start": 66.8,
-       "end": 66.96
+       "start": 69.273,
+       "end": 69.433
       },
       {
        "text": "partying,",
-       "start": 67.04,
-       "end": 67.48
+       "start": 69.513,
+       "end": 69.953
       }
      ]
     },
     {
      "show": "by the way…",
-     "start": 67.52,
-     "end": 68.16,
+     "start": 69.993,
+     "end": 70.633,
      "words": [
       {
        "text": "by",
-       "start": 67.52,
-       "end": 67.6
+       "start": 69.993,
+       "end": 70.073
       },
       {
        "text": "the",
-       "start": 67.68,
-       "end": 67.76
+       "start": 70.153,
+       "end": 70.233
       },
       {
        "text": "way…",
-       "start": 67.84,
-       "end": 68.16
+       "start": 70.313,
+       "end": 70.633
       }
      ]
     },
     {
      "show": "you can hear it all over town.",
-     "start": 68.24,
-     "end": 69.92,
+     "start": 70.713,
+     "end": 72.393,
      "words": [
       {
        "text": "you",
-       "start": 68.24,
-       "end": 68.28
+       "start": 70.713,
+       "end": 70.753
       },
       {
        "text": "can",
-       "start": 68.32,
-       "end": 68.48
+       "start": 70.793,
+       "end": 70.953
       },
       {
        "text": "hear",
-       "start": 68.56,
-       "end": 68.64
+       "start": 71.033,
+       "end": 71.113
       },
       {
        "text": "it",
-       "start": 68.72,
-       "end": 68.88
+       "start": 71.193,
+       "end": 71.353
       },
       {
        "text": "all",
-       "start": 68.96,
-       "end": 69.04
+       "start": 71.433,
+       "end": 71.513
       },
       {
        "text": "over",
-       "start": 69.12,
-       "end": 69.36
+       "start": 71.593,
+       "end": 71.833
       },
       {
        "text": "town.",
-       "start": 69.56,
-       "end": 69.92
+       "start": 72.033,
+       "end": 72.393
+      }
+     ]
+    },
+    {
+     "show": "{y:HUSS! HUSS!}",
+     "start": 72.533,
+     "end": 73.231,
+     "words": [
+      {
+       "text": "HUSS!",
+       "start": 72.533,
+       "end": 72.857
+      },
+      {
+       "text": "HUSS!",
+       "start": 72.907,
+       "end": 73.231
       }
      ]
     },
     {
      "show": "{y:HUSS!}",
-     "start": 70.057,
-     "end": 70.48,
+     "start": 73.281,
+     "end": 73.605,
      "words": [
       {
        "text": "HUSS!",
-       "start": 70.057,
-       "end": 70.48
-      }
-     ]
-    },
-    {
-     "show": "{y:HUSS!}",
-     "start": 70.6,
-     "end": 71.04,
-     "words": [
-      {
-       "text": "HUSS!",
-       "start": 70.6,
-       "end": 71.04
+       "start": 73.281,
+       "end": 73.605
       }
      ]
     },
     {
      "show": "{r:Tung.}",
-     "start": 71.12,
-     "end": 71.68,
+     "start": 73.695,
+     "end": 74.255,
      "words": [
       {
        "text": "Tung.",
-       "start": 71.12,
-       "end": 71.68
+       "start": 73.695,
+       "end": 74.255
       }
      ]
     },
     {
      "show": "{r:Tung.}",
-     "start": 71.76,
-     "end": 72.32,
+     "start": 74.335,
+     "end": 74.895,
      "words": [
       {
        "text": "Tung.",
-       "start": 71.76,
-       "end": 72.32
+       "start": 74.335,
+       "end": 74.895
       }
      ]
     },
     {
      "show": "{r:Tung.}",
-     "start": 72.4,
-     "end": 73.04,
+     "start": 74.975,
+     "end": 75.615,
      "words": [
       {
        "text": "Tung.",
-       "start": 72.4,
-       "end": 73.04
+       "start": 74.975,
+       "end": 75.615
       }
      ]
     }
    ],
-   "start": 64.56,
-   "end": 73.04
+   "start": 67.033,
+   "end": 75.615
   }
  ]
 }

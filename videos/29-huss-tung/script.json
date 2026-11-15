@@ -22,7 +22,7 @@
      "show": "except me."
     },
     {
-     "show": "{y:HUSS!}"
+     "show": "{y:HUSS! HUSS! HUSS!}"
     }
    ]
   },
@@ -103,7 +103,7 @@
      "show": "I'm out here practicing."
     },
     {
-     "show": "{y:HUSS!}"
+     "show": "{y:HUSS! HUSS!}"
     },
     {
      "show": "{y:HUSS!}"
@@ -118,7 +118,7 @@
      "show": "Snow."
     },
     {
-     "show": "{y:HUSS!}"
+     "show": "{y:HUSS! HUSS! HUSS!}"
     }
    ]
   },
@@ -193,13 +193,13 @@
      "show": "I got the ball."
     },
     {
-     "show": "{y:HUSS!}"
+     "show": "{y:HUSS! HUSS! HUSS!}"
     },
     {
      "show": "I jumped."
     },
     {
-     "show": "{y:HUSS!}"
+     "show": "{y:HUSS! HUSS! HUSS!}"
     },
     {
      "show": "And I {y:scored.}"
@@ -262,7 +262,7 @@
      "show": "you can hear it all over town."
     },
     {
-     "show": "{y:HUSS!}"
+     "show": "{y:HUSS! HUSS!}"
     },
     {
      "show": "{y:HUSS!}"

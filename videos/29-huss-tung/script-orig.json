@@ -1,0 +1,282 @@
+{
+ "title": "Huss vs Tung",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "everybody's out {b:partying}"
+    },
+    {
+     "show": "every single night."
+    },
+    {
+     "show": "Everybody\u2026"
+    },
+    {
+     "show": "except me."
+    },
+    {
+     "show": "{y:HUSS!}"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "My best friend Kevin"
+    },
+    {
+     "show": "parties so much,"
+    },
+    {
+     "show": "he forgot his own {r:birthday.}"
+    },
+    {
+     "show": "Linda threw a party"
+    },
+    {
+     "show": "for her cat's cat."
+    },
+    {
+     "show": "And my grandma"
+    },
+    {
+     "show": "goes clubbing on Tuesdays."
+    }
+   ]
+  },
+  {
+   "id": "tung",
+   "label": "",
+   "lines": [
+    {
+     "show": "The only other one"
+    },
+    {
+     "show": "awake at night"
+    },
+    {
+     "show": "is {r:Tung Tung Tung Sahur.}"
+    },
+    {
+     "show": "A giant wooden log"
+    },
+    {
+     "show": "with a baseball bat."
+    },
+    {
+     "show": "He's the town's"
+    },
+    {
+     "show": "basketball champion."
+    },
+    {
+     "show": "Nobody has ever scored on him."
+    },
+    {
+     "show": "Not once."
+    },
+    {
+     "show": "In fifty years."
+    }
+   ]
+  },
+  {
+   "id": "grind",
+   "label": "",
+   "lines": [
+    {
+     "show": "So while they're out partying,"
+    },
+    {
+     "show": "by the way\u2026"
+    },
+    {
+     "show": "I'm out here practicing."
+    },
+    {
+     "show": "{y:HUSS!}"
+    },
+    {
+     "show": "{y:HUSS!}"
+    },
+    {
+     "show": "Every night."
+    },
+    {
+     "show": "Rain."
+    },
+    {
+     "show": "Snow."
+    },
+    {
+     "show": "{y:HUSS!}"
+    }
+   ]
+  },
+  {
+   "id": "watch",
+   "label": "",
+   "lines": [
+    {
+     "show": "But every night,"
+    },
+    {
+     "show": "at three in the morning,"
+    },
+    {
+     "show": "I heard something."
+    },
+    {
+     "show": "{r:Tung.}"
+    },
+    {
+     "show": "{r:Tung.}"
+    },
+    {
+     "show": "{r:Tung.}"
+    },
+    {
+     "show": "Someone was watching me."
+    }
+   ]
+  },
+  {
+   "id": "game",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then came the big game."
+    },
+    {
+     "show": "The whole town showed up,"
+    },
+    {
+     "show": "still wearing party hats."
+    },
+    {
+     "show": "Everybody laughed at me."
+    },
+    {
+     "show": "Then Tung Tung Tung Sahur"
+    },
+    {
+     "show": "stepped onto the court."
+    },
+    {
+     "show": "He's taller than a {r:house.}"
+    },
+    {
+     "show": "{r:Tung.}"
+    },
+    {
+     "show": "{r:Tung.}"
+    },
+    {
+     "show": "{r:Tung.}"
+    }
+   ]
+  },
+  {
+   "id": "score",
+   "label": "",
+   "lines": [
+    {
+     "show": "I got the ball."
+    },
+    {
+     "show": "{y:HUSS!}"
+    },
+    {
+     "show": "I jumped."
+    },
+    {
+     "show": "{y:HUSS!}"
+    },
+    {
+     "show": "And I {y:scored.}"
+    },
+    {
+     "show": "The first point in fifty years."
+    },
+    {
+     "show": "The crowd went silent."
+    },
+    {
+     "show": "Then Tung Tung Tung Sahur"
+    },
+    {
+     "show": "dropped his bat,"
+    },
+    {
+     "show": "and started {b:crying.}"
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "He said,"
+    },
+    {
+     "show": "every night, I watched you play."
+    },
+    {
+     "show": "Nobody ever stays home"
+    },
+    {
+     "show": "to play with me."
+    },
+    {
+     "show": "They're always out partying."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So now,"
+    },
+    {
+     "show": "we practice together."
+    },
+    {
+     "show": "And while they're out partying,"
+    },
+    {
+     "show": "by the way\u2026"
+    },
+    {
+     "show": "you can hear it all over town."
+    },
+    {
+     "show": "{y:HUSS!}"
+    },
+    {
+     "show": "{y:HUSS!}"
+    },
+    {
+     "show": "{r:Tung.}"
+    },
+    {
+     "show": "{r:Tung.}"
+    },
+    {
+     "show": "{r:Tung.}"
+    }
+   ]
+  }
+ ]
+}
