@@ -20,3 +20,12 @@ die neuesten Videos in diesem Ordner an und übernimmt Struktur und Look.
 
 **Konsequenz für die nächsten Videos:** neben Haus & Garten auch „You built …“-Themen aus Geschichte/Technik;
 mehr Maßstabsfiguren, Maßlinien und Versalien-Labels; Untertitel Title Case, etwas kleiner.
+
+## Nov. 2026 – Serienformat „Die Community entscheidet“ (`2026-11-serie/`)
+
+**@kevin.und.karla (DE, Folgen 1–8 + 17, je 63–89 s)** – Dateien `kevin-folge-NN.mp4` + Kontaktbögen `-uebersicht.jpg`.
+- Interaktive 2D-Cartoon-Serie: Ziel mit Frist („Noch 30 Tage bis zum Date“), jede Folge ein Tag,
+  am Ende A/B-Abstimmung in den Kommentaren, nächste Folge zeigt Ergebnis in Prozent.
+- HUD oben: Folge + Countdown, Stat-Balken, Kasse in €; wächst mit der Serie.
+- Thema Glow-up wird **nicht** übernommen – eigene Serie: `serien/kiosk-kalle/`.
+- Vollständige Analyse und Bauplan: Skill `.claude/skills/tiktok-community-serie/`.

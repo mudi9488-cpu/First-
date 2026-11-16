@@ -1,0 +1,20 @@
+{
+  "serie": "Kiosk-Kalle – 30 Tage bis zur Räumung",
+  "slug": "kiosk-kalle",
+  "ziel_euro": 3000,
+  "letzte_folge": 0,
+  "naechste_folge": {
+    "folge": 1,
+    "noch_tage": 30,
+    "kunden_sterne": 1.2,
+    "kasse_euro": 0,
+    "hud_elemente": ["folge", "countdown"]
+  },
+  "offene_abstimmung": null,
+  "abstimmungen": [],
+  "kanon": [
+    "Kalle ist 24, hat den Kiosk von Oma Erika geerbt.",
+    "Vermieter Herr Geier: 3.000 € Mietschulden in 30 Tagen, sonst Räumung.",
+    "Der Kühlschrank brummt und die Tür klemmt."
+  ]
+}

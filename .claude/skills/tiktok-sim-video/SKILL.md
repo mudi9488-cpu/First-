@@ -5,6 +5,8 @@ description: Erstellt ein deutsches TikTok-Video (9:16) im Stil „Was wäre, we
 
 # TikTok-Simulationsvideos (immer auf Deutsch)
 
+> Für die interaktive Cartoon-Serie („Noch 30 Tage …“, A/B-Abstimmung) gilt stattdessen der Skill `tiktok-community-serie`.
+
 Dieser Skill baut Videos, die aussehen wie die drei Referenzen des Creators
 („Rennen vs. Gehen“, „Alle Frauen gestorben – bis auf Greta“, „Elektronen verschwinden“).
 Der komplette Look ist in `references/style.md` beschrieben – **vor jedem Video lesen.**
