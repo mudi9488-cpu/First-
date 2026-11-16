@@ -1,0 +1,220 @@
+{
+ "title": "Kiosk-Kalle – Folge 1",
+ "voice": "elevenlabs:Timon - Energetic and Clear (0i5UT3fATBWphA0jBZug)",
+ "length_scale": 0.95,
+ "serie": "kiosk-kalle",
+ "folge": 1,
+ "hud": {
+  "noch_tage": 30,
+  "kunden_sterne": 1.2,
+  "kasse_euro": 0
+ },
+ "abstimmung": {
+  "titel": [
+   "WAS SOLL",
+   "KALLE TUN?"
+  ],
+  "a": {
+   "titel": "Konsole verkaufen",
+   "unter": "neuer Kühlschrank",
+   "icon": "konsole"
+  },
+  "b": {
+   "titel": "Kredit bei Dennis",
+   "unter": "500 € – mit Zinsen",
+   "icon": "geldsack"
+  }
+ },
+ "beats": [
+  {
+   "id": "praemisse",
+   "label": "",
+   "lines": [
+    {
+     "show": "{y:30 Tage.}",
+     "say": "Dreißig Tage."
+    },
+    {
+     "show": "So lange hat {y:Kalle} Zeit,"
+    },
+    {
+     "show": "um den Kiosk"
+    },
+    {
+     "show": "seiner {y:Oma} zu retten."
+    },
+    {
+     "show": "Er hat ihn {y:geerbt} –"
+    },
+    {
+     "show": "samt {r:3.000 Euro}",
+     "say": "samt dreitausend Euro"
+    },
+    {
+     "show": "{r:Mietschulden.}"
+    },
+    {
+     "show": "Vermieter {y:Herr Geier}"
+    },
+    {
+     "show": "gibt ihm 30 Tage.",
+     "say": "gibt ihm dreißig Tage."
+    },
+    {
+     "show": "Sonst wird {r:geräumt.}"
+    }
+   ]
+  },
+  {
+   "id": "szene1",
+   "label": "",
+   "lines": [
+    {
+     "show": "Schau dir {y:Kalle} an."
+    },
+    {
+     "show": "{y:Null Ahnung} vom Geschäft,"
+    },
+    {
+     "show": "Kontostand: {r:0 Euro.}",
+     "say": "Kontostand: null Euro."
+    },
+    {
+     "show": "Erster Tag:"
+    },
+    {
+     "show": "der Rollladen {y:klemmt.}"
+    },
+    {
+     "show": "Um {y:elf Uhr}"
+    },
+    {
+     "show": "ist er endlich offen."
+    }
+   ]
+  },
+  {
+   "id": "szene2",
+   "label": "",
+   "lines": [
+    {
+     "show": "Stammkunde {y:Horst}"
+    },
+    {
+     "show": "will Lotto spielen."
+    },
+    {
+     "show": "Kalle findet"
+    },
+    {
+     "show": "die {y:Scheine} nicht."
+    },
+    {
+     "show": "Die {y:Schulkinder}"
+    },
+    {
+     "show": "kaufen für {y:30 Cent}",
+     "say": "kaufen für dreißig Cent"
+    },
+    {
+     "show": "und zählen"
+    },
+    {
+     "show": "{y:zehn Minuten} Kleingeld."
+    }
+   ]
+  },
+  {
+   "id": "szene3",
+   "label": "",
+   "lines": [
+    {
+     "show": "Dann gibt"
+    },
+    {
+     "show": "der {y:Kühlschrank} auf."
+    },
+    {
+     "show": "Alle Getränke"
+    },
+    {
+     "show": "werden {r:warm.}"
+    },
+    {
+     "show": "Und gegenüber"
+    },
+    {
+     "show": "eröffnet {y:Dennis}"
+    },
+    {
+     "show": "seinen {r:Mega-Späti.}"
+    }
+   ]
+  },
+  {
+   "id": "wendung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Abends zählt Kalle"
+    },
+    {
+     "show": "die Kasse:"
+    },
+    {
+     "show": "{r:3 Euro 40.}",
+     "say": "drei Euro vierzig."
+    },
+    {
+     "show": "Dann {y:vibriert} sein Handy."
+    },
+    {
+     "show": "{y:Herr Geier:}"
+    },
+    {
+     "show": "„Noch {r:29 Tage.}",
+     "say": "Noch neunundzwanzig Tage."
+    },
+    {
+     "show": "Tick, tack.“"
+    },
+    {
+     "show": "Kalle merkt:"
+    },
+    {
+     "show": "Er braucht {y:einen Plan.}"
+    },
+    {
+     "show": "Und {y:du} entscheidest ihn."
+    }
+   ]
+  },
+  {
+   "id": "abstimmung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Soll Kalle"
+    },
+    {
+     "show": "seine {y:Konsole} verkaufen"
+    },
+    {
+     "show": "für einen {y:neuen Kühlschrank}"
+    },
+    {
+     "show": "oder bei {y:Dennis}"
+    },
+    {
+     "show": "einen {r:Kredit} aufnehmen?"
+    },
+    {
+     "show": "{y:A} oder {y:B}?"
+    },
+    {
+     "show": "Dein Kommentar {y:zählt.}"
+    }
+   ]
+  }
+ ]
+}

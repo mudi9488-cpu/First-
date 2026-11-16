@@ -1,0 +1,79 @@
+<template>
+  <style>
+
+#root { position:absolute; inset:0; overflow:hidden; font-family:'Inter', sans-serif; color:#fff; }
+.abs { position:absolute; }
+.fig { position:absolute; }
+.pop { position:absolute; font-family:'Inter', sans-serif; font-weight:900; text-transform:uppercase; white-space:nowrap;
+  -webkit-text-stroke:12px #1B1530; paint-order:stroke fill; letter-spacing:0.01em; text-shadow:0 6px 0 #1B1530; }
+.bubble { position:absolute; background:#fff; color:#1B1530; font-weight:800; border:6px solid #1B1530;
+  border-radius:34px; padding:18px 30px; font-size:40px; white-space:nowrap; }
+.card { position:absolute; background:#fff; color:#1B1530; border:7px solid #1B1530; border-radius:30px; }
+
+#root { background:#12333A; }
+
+.phone { position:absolute; left:150px; top:330px; width:780px; height:1020px; background:#15122A; border-radius:80px;
+  border:10px solid #2C2747; box-shadow:0 30px 0 rgba(0,0,0,0.25); overflow:hidden; }
+.phone .scr { position:absolute; inset:18px; border-radius:62px; background:#F6F4FB; overflow:hidden; }
+.phone .hd { height:150px; background:#24304A; display:flex; align-items:flex-end; gap:20px; padding:0 34px 22px; }
+.phone .av { width:84px; height:84px; border-radius:50%; background:#9AA0AE; overflow:hidden; border:4px solid #fff; flex:none; }
+.phone .nm { color:#fff; font-weight:900; font-size:40px; } .phone .st { color:#9FE3B5; font-size:26px; font-weight:700; }
+.phone .msgs { padding:40px 30px; display:flex; flex-direction:column; gap:26px; }
+.brow { display:flex; }
+.bb { font-size:44px; font-weight:800; padding:22px 30px; border-radius:30px; max-width:560px; line-height:1.15; }
+.phone .typ { position:absolute; left:48px; bottom:150px; display:flex; gap:12px; background:#EDEAF5; padding:20px 26px; border-radius:30px; }
+.phone .typ i { width:18px; height:18px; border-radius:50%; background:#8A84A8; display:block; }
+.phone .inp { position:absolute; left:30px; right:30px; bottom:36px; height:84px; border-radius:42px; background:#fff;
+  border:3px solid #DDD8EA; color:#B3ADC8; font-size:30px; display:flex; align-items:center; padding-left:34px; }
+
+  </style>
+  <div id="root" data-composition-id="handy" data-width="1080" data-height="1920">
+<svg id="handy-bg" class="abs" style="left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920"><rect width="1080" height="1920" fill="#12333A"/><g id="handy-bg-r"><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(0.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(22.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(45.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(67.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(90.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(112.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(135.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(157.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(180.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(202.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(225.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(247.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(270.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(292.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(315.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#163E46" transform="rotate(337.5 540 1000)"/></g></svg><div id="handy-phone" class="phone"><div class="scr"><div class="hd"><div class="av"><svg id="handy-gav" class="fig" viewBox="-110 -770 220 230" width="84" data-h="184" style="width:84px;height:84px">
+  <ellipse cx="0" cy="2" rx="95" ry="14" fill="rgba(0,0,0,0.18)"/>
+  <rect x="-48" y="-260" width="38" height="252" rx="14" fill="#2C2F3D" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <rect x="10" y="-260" width="38" height="252" rx="14" fill="#2C2F3D" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <ellipse cx="-34" cy="-8" rx="40" ry="14" fill="#111" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <ellipse cx="34" cy="-8" rx="40" ry="14" fill="#111" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M -85 -520 Q -95 -380 -70 -240 L 70 -240 Q 95 -380 85 -520 Q 0 -545 -85 -520 Z" fill="#5E6275" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M -60 -500 L -60 -250 M -30 -510 L -30 -245 M 30 -510 L 30 -245 M 60 -500 L 60 -250" stroke="#7B8095" stroke-width="3"/>
+  <path d="M -26 -525 L 0 -470 L 26 -525 Z" fill="#fff" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-width='4'/>
+  <path d="M 0 -505 L -12 -470 L 0 -380 L 12 -470 Z" fill="#C0202E" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-width='4'/>
+  <path d="M 80 -500 Q 140 -420 110 -330" fill="none" stroke="#1B1530" stroke-width="44" stroke-linecap="round"/>
+  <path d="M 80 -500 Q 140 -420 110 -330" fill="none" stroke="#5E6275" stroke-width="30" stroke-linecap="round"/>
+  <g id="handy-gav-clip">
+    <rect x="60" y="-420" width="120" height="160" rx="10" fill="#A8743A" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+    <rect x="75" y="-400" width="90" height="125" fill="#fff"/>
+    <rect x="98" y="-432" width="44" height="22" rx="5" fill="#9AA0AE" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-width='4'/>
+    <path d="M 85 -380 L 150 -380 M 85 -360 L 150 -360 M 85 -340 L 130 -340" stroke="#9AA0AE" stroke-width="5"/>
+    <g id="handy-gav-stamp" opacity="0"><rect x="70" y="-330" width="104" height="40" rx="6" fill="none" stroke="#E0202E" stroke-width="6" transform="rotate(-12 122 -310)"/>
+      <text x="122" y="-300" text-anchor="middle" font-family="Inter" font-weight="900" font-size="22" fill="#E0202E" transform="rotate(-12 122 -310)">RÄUMUNG</text></g>
+  </g>
+  <circle cx="110" cy="-330" r="20" fill="#F4DCC4" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M -80 -500 Q -120 -420 -95 -320" fill="none" stroke="#1B1530" stroke-width="44" stroke-linecap="round"/>
+  <path d="M -80 -500 Q -120 -420 -95 -320" fill="none" stroke="#5E6275" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="-95" cy="-315" r="20" fill="#F4DCC4" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <ellipse cx="0" cy="-640" rx="88" ry="110" fill="#F4DCC4" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M -40 -720 Q -10 -738 20 -728" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <path d="M -88 -640 q -14 -30 4 -50 M 88 -640 q 14 -30 -4 -50" fill="none" stroke="#9AA0AE" stroke-width="12" stroke-linecap="round"/>
+  <path d="M -58 -680 L -14 -664 M 58 -680 L 14 -664" stroke="#1B1530" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="-34" cy="-648" rx="14" ry="10" fill="#fff" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-width='4'/><circle cx="-32" cy="-647" r="6" fill="#1B1530"/>
+  <ellipse cx="34" cy="-648" rx="14" ry="10" fill="#fff" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-width='4'/><circle cx="32" cy="-647" r="6" fill="#1B1530"/>
+  <path d="M 0 -640 Q 34 -600 30 -580 Q 14 -566 -4 -584" fill="#EBC3A4" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <g id="handy-gav-m-grin" opacity="0" transform="translate(0,-560)"><path d="M -34.5 0 Q 0 43.5 34.5 0 Z" fill="#7A2230" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /><path d="M -27.0 3.0 L 27.0 3.0 L 22.5 12.0 L -22.5 12.0 Z" fill="#fff"/></g><g id="handy-gav-m-shock" opacity="0" transform="translate(0,-560)"><ellipse cx="0" cy="9.0" rx="22.5" ry="28.5" fill="#7A2230" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /><ellipse cx="0" cy="22.5" rx="12.0" ry="9.0" fill="#FF7A8A"/></g><g id="handy-gav-m-sad" opacity="0" transform="translate(0,-560)"><path d="M -25.5 13.5 Q 0 -10.5 25.5 13.5" fill="none" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /></g><g id="handy-gav-m-flat" opacity="0" transform="translate(0,-560)"><path d="M -19.5 4.5 L 19.5 4.5" fill="none" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /></g><g id="handy-gav-m-smirk" opacity="1" transform="translate(0,-560)"><path d="M -22.5 3.0 Q 4.5 19.5 27.0 -6.0" fill="none" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /></g><g id="handy-gav-m-open" opacity="0" transform="translate(0,-560)"><path d="M -25.5 0 Q 0 34.5 25.5 0 Q 0 9.0 -25.5 0 Z" fill="#7A2230" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /></g>
+</svg></div><div><div class="nm">Herr Geier</div><div class="st">online</div></div></div><div class="msgs"><div class="brow" style="justify-content:flex-start"><div id="handy-m1" class="bb" style="background:#EDEAF5;color:#1B1530;opacity:0">Noch 29 Tage.</div></div><div class="brow" style="justify-content:flex-start"><div id="handy-m2" class="bb" style="background:#EDEAF5;color:#1B1530;opacity:0">Tick, tack. Herr Kalle.</div></div></div><div id="handy-typ" class="typ" style="opacity:0"><i></i><i></i><i></i></div><div class="inp">Nachricht</div></div></div><div id="handy-bz" class="pop" style="z-index:6;left:640px;top:300px;font-size:100px;color:#FFE14A;transform:rotate(10deg);opacity:0">BZZZ!</div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+tl.fromTo("#handy-phone",{y:900,rotation:8},{y:0,rotation:0,duration:0.4,ease:"back.out(1.4)"},0);
+tl.fromTo("#handy-bz",{scale:0,opacity:0,rotation:-2},{scale:1.0,opacity:1,rotation:10,duration:0.32,ease:"back.out(2.6)"},0.25);
+tl.fromTo("#handy-phone",{x:-9},{x:9,duration:0.04,ease:"sine.inOut",yoyo:true,repeat:11},0.3);
+tl.set("#handy-phone",{x:0},0.78);
+tl.to("#handy-bz",{scale:0,opacity:0,duration:0.18,ease:"back.in(2)"},1);
+tl.fromTo("#handy-typ",{scale:0,opacity:0,rotation:-12},{scale:1.0,opacity:1,rotation:0,duration:0.32,ease:"back.out(2.6)"},1.415);
+tl.set("#handy-typ",{opacity:0},2.146);
+tl.fromTo("#handy-m1",{scale:0,opacity:0,rotation:-12},{scale:1.0,opacity:1,rotation:0,duration:0.32,ease:"back.out(2.6)"},2.146);
+tl.fromTo("#handy-m2",{scale:0,opacity:0,rotation:-12},{scale:1.0,opacity:1,rotation:0,duration:0.32,ease:"back.out(2.6)"},3.89);
+
+    window.__timelines["handy"] = tl;
+  </script>
+</template>

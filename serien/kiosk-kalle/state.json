@@ -2,19 +2,36 @@
   "serie": "Kiosk-Kalle – 30 Tage bis zur Räumung",
   "slug": "kiosk-kalle",
   "ziel_euro": 3000,
-  "letzte_folge": 0,
+  "letzte_folge": 1,
   "naechste_folge": {
-    "folge": 1,
-    "noch_tage": 30,
+    "folge": 2,
+    "noch_tage": 29,
     "kunden_sterne": 1.2,
-    "kasse_euro": 0,
-    "hud_elemente": ["folge", "countdown"]
+    "kasse_euro": 3.4,
+    "hud_elemente": [
+      "folge",
+      "countdown",
+      "kasse"
+    ]
   },
-  "offene_abstimmung": null,
+  "offene_abstimmung": {
+    "folge": 1,
+    "frage": "Was soll Kalle tun?",
+    "A": "Konsole verkaufen – neuer Kühlschrank",
+    "B": "Kredit bei Dennis – 500 € mit Zinsen",
+    "ergebnis": null
+  },
   "abstimmungen": [],
   "kanon": [
     "Kalle ist 24, hat den Kiosk von Oma Erika geerbt.",
     "Vermieter Herr Geier: 3.000 € Mietschulden in 30 Tagen, sonst Räumung.",
-    "Der Kühlschrank brummt und die Tür klemmt."
-  ]
+    "Der Kühlschrank brummt und die Tür klemmt.",
+    "Folge 1: erster Tag 3,40 € Umsatz; Kühlschrank kaputt; Dennis eröffnet gegenüber den Mega-Späti.",
+    "Horst will täglich Lotto; Kalle findet die Lottoscheine nicht.",
+    "Herr Geier schreibt per Messenger: „Noch 29 Tage. Tick, tack.“"
+  ],
+  "produktion": {
+    "stimme": "ElevenLabs „Timon – Energetic and Clear“ (voice_id 0i5UT3fATBWphA0jBZug), Modell eleven_v4",
+    "musik": "ElevenLabs eleven_music_v2_5, verspielter Cartoon-Loop, Lautstärke 0.16 unter der Stimme"
+  }
 }

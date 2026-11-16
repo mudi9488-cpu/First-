@@ -51,10 +51,17 @@ Ordner: Serie `serien/<serien-slug>/` (Bibel, `state.json`, Figuren-SVGs), Folge
 2. **Skript** `script.json` (gleiches Format wie die übrigen Projekte, siehe `tools/tts.py`):
    **jede `line` = 2–4 Wörter** (so erscheinen die Untertitel), Schlüsselwort mit `{y:…}` (gelb), selten `{r:…}`/`{g:…}`.
    Beat-IDs: `recap`, `ergebnis`, `szene1…n`, `wendung`, `abstimmung`.
-3. **Stimme**: bevorzugt ElevenLabs-Datei vom Creator → `python3 tools/align.py videos/<projekt> <datei>`;
-   Platzhalter: `python3 tools/tts.py videos/<projekt>` (Piper thorsten). Sprechertext dem Creator als
-   eine Zeile pro Beat geben.
-4. **Szenen** in `build.py` mit `tools/simkit.py` (`scene_html`, `write_project`, `captions_html`).
+3. **Stimme über das ElevenLabs-MCP** (`creative_generate_speech`, Modell `eleven_v4`, Stimme
+   **„Timon – Energetic and Clear“, voice_id `0i5UT3fATBWphA0jBZug`** – feste Seriensstimme, nicht wechseln).
+   Prompt = Sprechertext aller Beats (Zahlen ausgeschrieben, Absatz pro Beat), 2 Takes, den flüssigeren nehmen.
+   MP3 per `curl` nach `assets/source/` laden → `python3 tools/align.py videos/<projekt> assets/source/take1.mp3`.
+   **Musik:** `creative_generate_in_flow` (node_type `music`, Modell `eleven_music_v2_5`, 1 Take, „instrumental,
+   playful quirky cartoon, pizzicato, ukulele, glockenspiel, 115 BPM, loopable“) → auf Videolänge kürzen,
+   Fade-out, `loudnorm` −16 → `assets/music.mp3` (build.py mischt sie mit 0.16 unter die Stimme).
+4. **Szenen** in `build.py` mit `tools/seriekit.py` (`scene`, `hud_html`, `captions_html`, `vote_cards`,
+   `chat_phone`, `strahlen`, Helfer `pop_in/pop_out/shake/hop/breathe/punch/walk_in/lautmalerei`, `write_project`).
+   Figuren: `serien/<slug>/figuren.py`, Orte: `serien/<slug>/orte.py`. **Vorlage: `videos/16-kiosk-kalle-f01/build.py`**
+   (Folge kopieren, Szenenfunktionen anpassen). `scene()` präfixt alle IDs automatisch mit der Szenen-ID.
    Alle Zeiten über die Timings (`w(beat, zeile, wort)`), nie hart codieren.
    - Figuren als **wiederverwendbare Flat-SVG-Funktionen** in `serien/<slug>/figuren.py`
      (Posen: steht, jubelt, erschrocken, Nahaufnahme-Gesicht; Ausdrücke als austauschbare Mund/Augen-Gruppen).

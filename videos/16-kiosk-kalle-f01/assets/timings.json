@@ -1,0 +1,1107 @@
+{
+ "duration": 52.35,
+ "source": "take1.mp3",
+ "beats": [
+  {
+   "id": "praemisse",
+   "label": "",
+   "lines": [
+    {
+     "show": "{y:30 Tage.}",
+     "start": 0.0,
+     "end": 1.05,
+     "words": [
+      {
+       "text": "30",
+       "start": 0.0,
+       "end": 0.408
+      },
+      {
+       "text": "Tage.",
+       "start": 0.408,
+       "end": 1.05
+      }
+     ]
+    },
+    {
+     "show": "So lange hat {y:Kalle} Zeit,",
+     "start": 1.24,
+     "end": 2.436,
+     "words": [
+      {
+       "text": "So",
+       "start": 1.24,
+       "end": 1.398
+      },
+      {
+       "text": "lange",
+       "start": 1.398,
+       "end": 1.691
+      },
+      {
+       "text": "hat",
+       "start": 1.691,
+       "end": 1.895
+      },
+      {
+       "text": "Kalle",
+       "start": 1.895,
+       "end": 2.188
+      },
+      {
+       "text": "Zeit,",
+       "start": 2.188,
+       "end": 2.436
+      }
+     ]
+    },
+    {
+     "show": "um den Kiosk",
+     "start": 2.436,
+     "end": 2.995,
+     "words": [
+      {
+       "text": "um",
+       "start": 2.436,
+       "end": 2.571
+      },
+      {
+       "text": "den",
+       "start": 2.571,
+       "end": 2.745
+      },
+      {
+       "text": "Kiosk",
+       "start": 2.745,
+       "end": 2.995
+      }
+     ]
+    },
+    {
+     "show": "seiner {y:Oma} zu retten.",
+     "start": 2.995,
+     "end": 4.191,
+     "words": [
+      {
+       "text": "seiner",
+       "start": 2.995,
+       "end": 3.385
+      },
+      {
+       "text": "Oma",
+       "start": 3.385,
+       "end": 3.619
+      },
+      {
+       "text": "zu",
+       "start": 3.619,
+       "end": 3.801
+      },
+      {
+       "text": "retten.",
+       "start": 3.801,
+       "end": 4.191
+      }
+     ]
+    },
+    {
+     "show": "Er hat ihn {y:geerbt} –",
+     "start": 4.52,
+     "end": 5.317,
+     "words": [
+      {
+       "text": "Er",
+       "start": 4.52,
+       "end": 4.649
+      },
+      {
+       "text": "hat",
+       "start": 4.649,
+       "end": 4.816
+      },
+      {
+       "text": "ihn",
+       "start": 4.816,
+       "end": 4.983
+      },
+      {
+       "text": "geerbt",
+       "start": 4.983,
+       "end": 5.261
+      },
+      {
+       "text": "–",
+       "start": 5.261,
+       "end": 5.317
+      }
+     ]
+    },
+    {
+     "show": "samt {r:3.000 Euro}",
+     "start": 5.6,
+     "end": 6.794,
+     "words": [
+      {
+       "text": "samt",
+       "start": 5.6,
+       "end": 5.998
+      },
+      {
+       "text": "3.000",
+       "start": 5.998,
+       "end": 6.396
+      },
+      {
+       "text": "Euro",
+       "start": 6.396,
+       "end": 6.794
+      }
+     ]
+    },
+    {
+     "show": "{r:Mietschulden.}",
+     "start": 6.794,
+     "end": 7.437,
+     "words": [
+      {
+       "text": "Mietschulden.",
+       "start": 6.794,
+       "end": 7.437
+      }
+     ]
+    },
+    {
+     "show": "Vermieter {y:Herr Geier}",
+     "start": 7.758,
+     "end": 8.692,
+     "words": [
+      {
+       "text": "Vermieter",
+       "start": 7.758,
+       "end": 8.194
+      },
+      {
+       "text": "Herr",
+       "start": 8.194,
+       "end": 8.422
+      },
+      {
+       "text": "Geier",
+       "start": 8.422,
+       "end": 8.692
+      }
+     ]
+    },
+    {
+     "show": "gibt ihm 30 Tage.",
+     "start": 8.692,
+     "end": 9.796,
+     "words": [
+      {
+       "text": "gibt",
+       "start": 8.692,
+       "end": 9.012
+      },
+      {
+       "text": "ihm",
+       "start": 9.012,
+       "end": 9.273
+      },
+      {
+       "text": "30",
+       "start": 9.273,
+       "end": 9.476
+      },
+      {
+       "text": "Tage.",
+       "start": 9.476,
+       "end": 9.796
+      }
+     ]
+    },
+    {
+     "show": "Sonst wird {r:geräumt.}",
+     "start": 10.045,
+     "end": 11.083,
+     "words": [
+      {
+       "text": "Sonst",
+       "start": 10.045,
+       "end": 10.374
+      },
+      {
+       "text": "wird",
+       "start": 10.374,
+       "end": 10.652
+      },
+      {
+       "text": "geräumt.",
+       "start": 10.652,
+       "end": 11.083
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 11.083
+  },
+  {
+   "id": "szene1",
+   "label": "",
+   "lines": [
+    {
+     "show": "Schau dir {y:Kalle} an.",
+     "start": 11.513,
+     "end": 12.393,
+     "words": [
+      {
+       "text": "Schau",
+       "start": 11.513,
+       "end": 11.786
+      },
+      {
+       "text": "dir",
+       "start": 11.786,
+       "end": 11.974
+      },
+      {
+       "text": "Kalle",
+       "start": 11.974,
+       "end": 12.247
+      },
+      {
+       "text": "an.",
+       "start": 12.247,
+       "end": 12.393
+      }
+     ]
+    },
+    {
+     "show": "{y:Null Ahnung} vom Geschäft,",
+     "start": 12.602,
+     "end": 13.95,
+     "words": [
+      {
+       "text": "Null",
+       "start": 12.602,
+       "end": 12.877
+      },
+      {
+       "text": "Ahnung",
+       "start": 12.877,
+       "end": 13.251
+      },
+      {
+       "text": "vom",
+       "start": 13.251,
+       "end": 13.476
+      },
+      {
+       "text": "Geschäft,",
+       "start": 13.476,
+       "end": 13.95
+      }
+     ]
+    },
+    {
+     "show": "Kontostand: {r:0 Euro.}",
+     "start": 14.118,
+     "end": 15.652,
+     "words": [
+      {
+       "text": "Kontostand:",
+       "start": 14.118,
+       "end": 15.023
+      },
+      {
+       "text": "0",
+       "start": 15.023,
+       "end": 15.219
+      },
+      {
+       "text": "Euro.",
+       "start": 15.219,
+       "end": 15.652
+      }
+     ]
+    },
+    {
+     "show": "Erster Tag:",
+     "start": 16.086,
+     "end": 16.74,
+     "words": [
+      {
+       "text": "Erster",
+       "start": 16.086,
+       "end": 16.495
+      },
+      {
+       "text": "Tag:",
+       "start": 16.495,
+       "end": 16.74
+      }
+     ]
+    },
+    {
+     "show": "der Rollladen {y:klemmt.}",
+     "start": 17.036,
+     "end": 17.952,
+     "words": [
+      {
+       "text": "der",
+       "start": 17.036,
+       "end": 17.219
+      },
+      {
+       "text": "Rollladen",
+       "start": 17.219,
+       "end": 17.646
+      },
+      {
+       "text": "klemmt.",
+       "start": 17.646,
+       "end": 17.952
+      }
+     ]
+    },
+    {
+     "show": "Um {y:elf Uhr}",
+     "start": 18.178,
+     "end": 18.761,
+     "words": [
+      {
+       "text": "Um",
+       "start": 18.178,
+       "end": 18.341
+      },
+      {
+       "text": "elf",
+       "start": 18.341,
+       "end": 18.551
+      },
+      {
+       "text": "Uhr",
+       "start": 18.551,
+       "end": 18.761
+      }
+     ]
+    },
+    {
+     "show": "ist er endlich offen.",
+     "start": 18.761,
+     "end": 19.845,
+     "words": [
+      {
+       "text": "ist",
+       "start": 18.761,
+       "end": 18.973
+      },
+      {
+       "text": "er",
+       "start": 18.973,
+       "end": 19.138
+      },
+      {
+       "text": "endlich",
+       "start": 19.138,
+       "end": 19.539
+      },
+      {
+       "text": "offen.",
+       "start": 19.539,
+       "end": 19.845
+      }
+     ]
+    }
+   ],
+   "start": 11.513,
+   "end": 19.845
+  },
+  {
+   "id": "szene2",
+   "label": "",
+   "lines": [
+    {
+     "show": "Stammkunde {y:Horst}",
+     "start": 20.14,
+     "end": 20.909,
+     "words": [
+      {
+       "text": "Stammkunde",
+       "start": 20.14,
+       "end": 20.631
+      },
+      {
+       "text": "Horst",
+       "start": 20.631,
+       "end": 20.909
+      }
+     ]
+    },
+    {
+     "show": "will Lotto spielen.",
+     "start": 20.909,
+     "end": 21.848,
+     "words": [
+      {
+       "text": "will",
+       "start": 20.909,
+       "end": 21.161
+      },
+      {
+       "text": "Lotto",
+       "start": 21.161,
+       "end": 21.459
+      },
+      {
+       "text": "spielen.",
+       "start": 21.459,
+       "end": 21.848
+      }
+     ]
+    },
+    {
+     "show": "Kalle findet",
+     "start": 22.052,
+     "end": 22.663,
+     "words": [
+      {
+       "text": "Kalle",
+       "start": 22.052,
+       "end": 22.335
+      },
+      {
+       "text": "findet",
+       "start": 22.335,
+       "end": 22.663
+      }
+     ]
+    },
+    {
+     "show": "die {y:Scheine} nicht.",
+     "start": 22.663,
+     "end": 23.273,
+     "words": [
+      {
+       "text": "die",
+       "start": 22.663,
+       "end": 22.803
+      },
+      {
+       "text": "Scheine",
+       "start": 22.803,
+       "end": 23.07
+      },
+      {
+       "text": "nicht.",
+       "start": 23.07,
+       "end": 23.273
+      }
+     ]
+    },
+    {
+     "show": "Die {y:Schulkinder}",
+     "start": 23.58,
+     "end": 24.317,
+     "words": [
+      {
+       "text": "Die",
+       "start": 23.58,
+       "end": 23.775
+      },
+      {
+       "text": "Schulkinder",
+       "start": 23.775,
+       "end": 24.317
+      }
+     ]
+    },
+    {
+     "show": "kaufen für {y:30 Cent}",
+     "start": 24.317,
+     "end": 25.382,
+     "words": [
+      {
+       "text": "kaufen",
+       "start": 24.317,
+       "end": 24.697
+      },
+      {
+       "text": "für",
+       "start": 24.697,
+       "end": 24.925
+      },
+      {
+       "text": "30",
+       "start": 24.925,
+       "end": 25.103
+      },
+      {
+       "text": "Cent",
+       "start": 25.103,
+       "end": 25.382
+      }
+     ]
+    },
+    {
+     "show": "und zählen",
+     "start": 25.382,
+     "end": 25.955,
+     "words": [
+      {
+       "text": "und",
+       "start": 25.382,
+       "end": 25.597
+      },
+      {
+       "text": "zählen",
+       "start": 25.597,
+       "end": 25.955
+      }
+     ]
+    },
+    {
+     "show": "{y:zehn Minuten} Kleingeld.",
+     "start": 25.955,
+     "end": 27.02,
+     "words": [
+      {
+       "text": "zehn",
+       "start": 25.955,
+       "end": 26.194
+      },
+      {
+       "text": "Minuten",
+       "start": 26.194,
+       "end": 26.563
+      },
+      {
+       "text": "Kleingeld.",
+       "start": 26.563,
+       "end": 27.02
+      }
+     ]
+    }
+   ],
+   "start": 20.14,
+   "end": 27.02
+  },
+  {
+   "id": "szene3",
+   "label": "",
+   "lines": [
+    {
+     "show": "Dann gibt",
+     "start": 27.281,
+     "end": 27.739,
+     "words": [
+      {
+       "text": "Dann",
+       "start": 27.281,
+       "end": 27.51
+      },
+      {
+       "text": "gibt",
+       "start": 27.51,
+       "end": 27.739
+      }
+     ]
+    },
+    {
+     "show": "der {y:Kühlschrank} auf.",
+     "start": 27.739,
+     "end": 28.564,
+     "words": [
+      {
+       "text": "der",
+       "start": 27.739,
+       "end": 27.912
+      },
+      {
+       "text": "Kühlschrank",
+       "start": 27.912,
+       "end": 28.391
+      },
+      {
+       "text": "auf.",
+       "start": 28.391,
+       "end": 28.564
+      }
+     ]
+    },
+    {
+     "show": "Alle Getränke",
+     "start": 28.723,
+     "end": 29.498,
+     "words": [
+      {
+       "text": "Alle",
+       "start": 28.723,
+       "end": 29.007
+      },
+      {
+       "text": "Getränke",
+       "start": 29.007,
+       "end": 29.498
+      }
+     ]
+    },
+    {
+     "show": "werden {r:warm.}",
+     "start": 29.498,
+     "end": 29.991,
+     "words": [
+      {
+       "text": "werden",
+       "start": 29.498,
+       "end": 29.782
+      },
+      {
+       "text": "warm.",
+       "start": 29.782,
+       "end": 29.991
+      }
+     ]
+    },
+    {
+     "show": "Und gegenüber",
+     "start": 30.244,
+     "end": 31.061,
+     "words": [
+      {
+       "text": "Und",
+       "start": 30.244,
+       "end": 30.489
+      },
+      {
+       "text": "gegenüber",
+       "start": 30.489,
+       "end": 31.061
+      }
+     ]
+    },
+    {
+     "show": "eröffnet {y:Dennis}",
+     "start": 31.061,
+     "end": 31.879,
+     "words": [
+      {
+       "text": "eröffnet",
+       "start": 31.061,
+       "end": 31.518
+      },
+      {
+       "text": "Dennis",
+       "start": 31.518,
+       "end": 31.879
+      }
+     ]
+    },
+    {
+     "show": "seinen {r:Mega-Späti.}",
+     "start": 31.879,
+     "end": 32.845,
+     "words": [
+      {
+       "text": "seinen",
+       "start": 31.879,
+       "end": 32.282
+      },
+      {
+       "text": "Mega-Späti.",
+       "start": 32.282,
+       "end": 32.845
+      }
+     ]
+    }
+   ],
+   "start": 27.281,
+   "end": 32.845
+  },
+  {
+   "id": "wendung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Abends zählt Kalle",
+     "start": 33.149,
+     "end": 34.001,
+     "words": [
+      {
+       "text": "Abends",
+       "start": 33.149,
+       "end": 33.461
+      },
+      {
+       "text": "zählt",
+       "start": 33.461,
+       "end": 33.731
+      },
+      {
+       "text": "Kalle",
+       "start": 33.731,
+       "end": 34.001
+      }
+     ]
+    },
+    {
+     "show": "die Kasse:",
+     "start": 34.001,
+     "end": 34.544,
+     "words": [
+      {
+       "text": "die",
+       "start": 34.001,
+       "end": 34.223
+      },
+      {
+       "text": "Kasse:",
+       "start": 34.223,
+       "end": 34.544
+      }
+     ]
+    },
+    {
+     "show": "{r:3 Euro 40.}",
+     "start": 34.819,
+     "end": 35.895,
+     "words": [
+      {
+       "text": "3",
+       "start": 34.819,
+       "end": 35.053
+      },
+      {
+       "text": "Euro",
+       "start": 35.053,
+       "end": 35.567
+      },
+      {
+       "text": "40.",
+       "start": 35.567,
+       "end": 35.895
+      }
+     ]
+    },
+    {
+     "show": "Dann {y:vibriert} sein Handy.",
+     "start": 36.163,
+     "end": 37.199,
+     "words": [
+      {
+       "text": "Dann",
+       "start": 36.163,
+       "end": 36.374
+      },
+      {
+       "text": "vibriert",
+       "start": 36.374,
+       "end": 36.738
+      },
+      {
+       "text": "sein",
+       "start": 36.738,
+       "end": 36.949
+      },
+      {
+       "text": "Handy.",
+       "start": 36.949,
+       "end": 37.199
+      }
+     ]
+    },
+    {
+     "show": "{y:Herr Geier:}",
+     "start": 37.498,
+     "end": 37.973,
+     "words": [
+      {
+       "text": "Herr",
+       "start": 37.498,
+       "end": 37.716
+      },
+      {
+       "text": "Geier:",
+       "start": 37.716,
+       "end": 37.973
+      }
+     ]
+    },
+    {
+     "show": "„Noch {r:29 Tage.}",
+     "start": 38.229,
+     "end": 39.612,
+     "words": [
+      {
+       "text": "„Noch",
+       "start": 38.229,
+       "end": 38.754
+      },
+      {
+       "text": "29",
+       "start": 38.754,
+       "end": 39.087
+      },
+      {
+       "text": "Tage.",
+       "start": 39.087,
+       "end": 39.612
+      }
+     ]
+    },
+    {
+     "show": "Tick, tack.“",
+     "start": 39.973,
+     "end": 40.221,
+     "words": [
+      {
+       "text": "Tick,",
+       "start": 39.973,
+       "end": 40.097
+      },
+      {
+       "text": "tack.“",
+       "start": 40.097,
+       "end": 40.221
+      }
+     ]
+    },
+    {
+     "show": "Kalle merkt:",
+     "start": 40.547,
+     "end": 40.889,
+     "words": [
+      {
+       "text": "Kalle",
+       "start": 40.547,
+       "end": 40.718
+      },
+      {
+       "text": "merkt:",
+       "start": 40.718,
+       "end": 40.889
+      }
+     ]
+    },
+    {
+     "show": "Er braucht {y:einen Plan.}",
+     "start": 41.197,
+     "end": 41.825,
+     "words": [
+      {
+       "text": "Er",
+       "start": 41.197,
+       "end": 41.289
+      },
+      {
+       "text": "braucht",
+       "start": 41.289,
+       "end": 41.511
+      },
+      {
+       "text": "einen",
+       "start": 41.511,
+       "end": 41.681
+      },
+      {
+       "text": "Plan.",
+       "start": 41.681,
+       "end": 41.825
+      }
+     ]
+    },
+    {
+     "show": "Und {y:du} entscheidest ihn.",
+     "start": 42.068,
+     "end": 43.02,
+     "words": [
+      {
+       "text": "Und",
+       "start": 42.068,
+       "end": 42.233
+      },
+      {
+       "text": "du",
+       "start": 42.233,
+       "end": 42.361
+      },
+      {
+       "text": "entscheidest",
+       "start": 42.361,
+       "end": 42.856
+      },
+      {
+       "text": "ihn.",
+       "start": 42.856,
+       "end": 43.02
+      }
+     ]
+    }
+   ],
+   "start": 33.149,
+   "end": 43.02
+  },
+  {
+   "id": "abstimmung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Soll Kalle",
+     "start": 43.326,
+     "end": 44.503,
+     "words": [
+      {
+       "text": "Soll",
+       "start": 43.326,
+       "end": 43.865
+      },
+      {
+       "text": "Kalle",
+       "start": 43.865,
+       "end": 44.503
+      }
+     ]
+    },
+    {
+     "show": "seine {y:Konsole} verkaufen",
+     "start": 44.811,
+     "end": 46.218,
+     "words": [
+      {
+       "text": "seine",
+       "start": 44.811,
+       "end": 45.17
+      },
+      {
+       "text": "Konsole",
+       "start": 45.17,
+       "end": 45.639
+      },
+      {
+       "text": "verkaufen",
+       "start": 45.639,
+       "end": 46.218
+      }
+     ]
+    },
+    {
+     "show": "für einen {y:neuen Kühlschrank}",
+     "start": 46.218,
+     "end": 47.295,
+     "words": [
+      {
+       "text": "für",
+       "start": 46.218,
+       "end": 46.38
+      },
+      {
+       "text": "einen",
+       "start": 46.38,
+       "end": 46.613
+      },
+      {
+       "text": "neuen",
+       "start": 46.613,
+       "end": 46.846
+      },
+      {
+       "text": "Kühlschrank",
+       "start": 46.846,
+       "end": 47.295
+      }
+     ]
+    },
+    {
+     "show": "oder bei {y:Dennis}",
+     "start": 47.295,
+     "end": 48.328,
+     "words": [
+      {
+       "text": "oder",
+       "start": 47.295,
+       "end": 47.62
+      },
+      {
+       "text": "bei",
+       "start": 47.62,
+       "end": 47.885
+      },
+      {
+       "text": "Dennis",
+       "start": 47.885,
+       "end": 48.328
+      }
+     ]
+    },
+    {
+     "show": "einen {r:Kredit} aufnehmen?",
+     "start": 48.328,
+     "end": 49.57,
+     "words": [
+      {
+       "text": "einen",
+       "start": 48.328,
+       "end": 48.657
+      },
+      {
+       "text": "Kredit",
+       "start": 48.657,
+       "end": 49.037
+      },
+      {
+       "text": "aufnehmen?",
+       "start": 49.037,
+       "end": 49.57
+      }
+     ]
+    },
+    {
+     "show": "{y:A} oder {y:B}?",
+     "start": 49.841,
+     "end": 50.792,
+     "words": [
+      {
+       "text": "A",
+       "start": 49.841,
+       "end": 50.067
+      },
+      {
+       "text": "oder",
+       "start": 50.067,
+       "end": 50.565
+      },
+      {
+       "text": "B?",
+       "start": 50.565,
+       "end": 50.792
+      }
+     ]
+    },
+    {
+     "show": "Dein Kommentar {y:zählt.}",
+     "start": 51.077,
+     "end": 52.14,
+     "words": [
+      {
+       "text": "Dein",
+       "start": 51.077,
+       "end": 51.337
+      },
+      {
+       "text": "Kommentar",
+       "start": 51.337,
+       "end": 51.833
+      },
+      {
+       "text": "zählt.",
+       "start": 51.833,
+       "end": 52.14
+      }
+     ]
+    }
+   ],
+   "start": 43.326,
+   "end": 52.14
+  }
+ ]
+}
