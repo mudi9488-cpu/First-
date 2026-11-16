@@ -4,3 +4,4 @@ __pycache__/
 szenario-projekt.zip
 videos/*/renders/work-*/
 videos/*/renders/.*hf-transaction*
+videos/*/renders/render.log
