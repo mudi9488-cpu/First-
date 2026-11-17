@@ -1,0 +1,288 @@
+{
+ "title": "Giant Baby",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "a giant baby sleeps behind the mountain."
+    },
+    {
+     "show": "And if she ever wakes up and starts crying,"
+    },
+    {
+     "show": "her tears will {r:flood} the entire town."
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "So everybody whispers."
+    },
+    {
+     "show": "All the time."
+    },
+    {
+     "show": "Our cars have tires made of pillows."
+    },
+    {
+     "show": "The school bell is a tiny feather."
+    },
+    {
+     "show": "Fireworks are illegal."
+    },
+    {
+     "show": "Even the birds learned to whisper."
+    },
+    {
+     "show": "Dogs are trained to wag their tails"
+    },
+    {
+     "show": "instead of barking."
+    },
+    {
+     "show": "Kevin sneezed once in the library."
+    },
+    {
+     "show": "They made him live on the roof"
+    },
+    {
+     "show": "for a whole month."
+    },
+    {
+     "show": "And every single night,"
+    },
+    {
+     "show": "the whole town walks up the hill"
+    },
+    {
+     "show": "and sings her a {y:lullaby.}"
+    },
+    {
+     "show": "Even the mayor."
+    },
+    {
+     "show": "He sings terribly."
+    },
+    {
+     "show": "But nobody tells him."
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "My grandma always told me one thing."
+    },
+    {
+     "show": "If you ever hear her crying,"
+    },
+    {
+     "show": "don't look back."
+    },
+    {
+     "show": "Just run to the {r:clock tower.}"
+    }
+   ]
+  },
+  {
+   "id": "inciting",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last night,"
+    },
+    {
+     "show": "I couldn't sleep."
+    },
+    {
+     "show": "And then I heard it."
+    },
+    {
+     "show": "A tiny sniffle."
+    },
+    {
+     "show": "Then a big one."
+    },
+    {
+     "show": "The ground started shaking."
+    },
+    {
+     "show": "Water came rushing down the mountain."
+    },
+    {
+     "show": "The streets turned into rivers."
+    },
+    {
+     "show": "Our pillow cars floated away like boats."
+    },
+    {
+     "show": "Everybody ran to the tower."
+    },
+    {
+     "show": "Kevin was carrying his cat."
+    },
+    {
+     "show": "Linda was carrying her whole fridge."
+    },
+    {
+     "show": "And grandma was floating on a door."
+    }
+   ]
+  },
+  {
+   "id": "mystery",
+   "label": "",
+   "lines": [
+    {
+     "show": "But halfway there,"
+    },
+    {
+     "show": "I stopped."
+    },
+    {
+     "show": "Because I noticed something"
+    },
+    {
+     "show": "nobody had ever noticed before."
+    },
+    {
+     "show": "She wasn't crying because she was scared."
+    },
+    {
+     "show": "She was holding something."
+    },
+    {
+     "show": "A tiny broken {y:teddy bear.}"
+    },
+    {
+     "show": "And she was looking straight at our town."
+    },
+    {
+     "show": "At the kids playing together."
+    },
+    {
+     "show": "Like she wanted to play too."
+    }
+   ]
+  },
+  {
+   "id": "action",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I did the one thing"
+    },
+    {
+     "show": "nobody had done in a hundred years."
+    },
+    {
+     "show": "I climbed the {r:mountain.}"
+    },
+    {
+     "show": "Past the waterfalls of tears."
+    },
+    {
+     "show": "Past the giant rattle."
+    },
+    {
+     "show": "Every time she sobbed,"
+    },
+    {
+     "show": "the whole mountain shook,"
+    },
+    {
+     "show": "and I almost fell."
+    },
+    {
+     "show": "Her tears were as big as swimming pools."
+    },
+    {
+     "show": "All the way up to her face."
+    },
+    {
+     "show": "She was so big,"
+    },
+    {
+     "show": "my whole body was smaller than her eye."
+    },
+    {
+     "show": "I held up my own teddy bear."
+    },
+    {
+     "show": "And I said,"
+    },
+    {
+     "show": "hi."
+    },
+    {
+     "show": "Do you want to be {y:friends?}"
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "She stopped crying."
+    },
+    {
+     "show": "Then she smiled."
+    },
+    {
+     "show": "And then she laughed so loud"
+    },
+    {
+     "show": "that every window in town {r:shattered.}"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now nobody has to whisper anymore."
+    },
+    {
+     "show": "Every Saturday,"
+    },
+    {
+     "show": "the whole town climbs the mountain"
+    },
+    {
+     "show": "to play with her."
+    },
+    {
+     "show": "Kevin taught her how to play catch."
+    },
+    {
+     "show": "With a school bus."
+    },
+    {
+     "show": "The mayor still sings to her every night."
+    },
+    {
+     "show": "And she still hates it."
+    },
+    {
+     "show": "But the only one she ever listens to"
+    },
+    {
+     "show": "is {y:me.}"
+    }
+   ]
+  }
+ ]
+}

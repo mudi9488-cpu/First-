@@ -1,0 +1,2580 @@
+{
+ "duration": 108.278,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.28,
+       "end": 0.4
+      },
+      {
+       "text": "town,",
+       "start": 0.56,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "a giant baby sleeps behind the mountain.",
+     "start": 0.92,
+     "end": 3.12,
+     "words": [
+      {
+       "text": "a",
+       "start": 0.92,
+       "end": 1.04
+      },
+      {
+       "text": "giant",
+       "start": 1.08,
+       "end": 1.44
+      },
+      {
+       "text": "baby",
+       "start": 1.52,
+       "end": 1.84
+      },
+      {
+       "text": "sleeps",
+       "start": 1.92,
+       "end": 2.24
+      },
+      {
+       "text": "behind",
+       "start": 2.32,
+       "end": 2.48
+      },
+      {
+       "text": "the",
+       "start": 2.56,
+       "end": 2.6
+      },
+      {
+       "text": "mountain.",
+       "start": 2.64,
+       "end": 3.12
+      }
+     ]
+    },
+    {
+     "show": "And if she ever wakes up and starts crying,",
+     "start": 3.16,
+     "end": 4.96,
+     "words": [
+      {
+       "text": "And",
+       "start": 3.16,
+       "end": 3.2
+      },
+      {
+       "text": "if",
+       "start": 3.24,
+       "end": 3.28
+      },
+      {
+       "text": "she",
+       "start": 3.36,
+       "end": 3.44
+      },
+      {
+       "text": "ever",
+       "start": 3.52,
+       "end": 3.6
+      },
+      {
+       "text": "wakes",
+       "start": 3.68,
+       "end": 3.92
+      },
+      {
+       "text": "up",
+       "start": 4.0,
+       "end": 4.08
+      },
+      {
+       "text": "and",
+       "start": 4.16,
+       "end": 4.24
+      },
+      {
+       "text": "starts",
+       "start": 4.36,
+       "end": 4.48
+      },
+      {
+       "text": "crying,",
+       "start": 4.56,
+       "end": 4.96
+      }
+     ]
+    },
+    {
+     "show": "her tears will {r:flood} the entire town.",
+     "start": 5.08,
+     "end": 7.36,
+     "words": [
+      {
+       "text": "her",
+       "start": 5.08,
+       "end": 5.2
+      },
+      {
+       "text": "tears",
+       "start": 5.28,
+       "end": 5.52
+      },
+      {
+       "text": "will",
+       "start": 5.6,
+       "end": 5.84
+      },
+      {
+       "text": "flood",
+       "start": 5.92,
+       "end": 6.08
+      },
+      {
+       "text": "the",
+       "start": 6.12,
+       "end": 6.16
+      },
+      {
+       "text": "entire",
+       "start": 6.24,
+       "end": 6.72
+      },
+      {
+       "text": "town.",
+       "start": 6.8,
+       "end": 7.36
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 7.36
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "So everybody whispers.",
+     "start": 7.44,
+     "end": 8.96,
+     "words": [
+      {
+       "text": "So",
+       "start": 7.44,
+       "end": 7.6
+      },
+      {
+       "text": "everybody",
+       "start": 7.68,
+       "end": 8.08
+      },
+      {
+       "text": "whispers.",
+       "start": 8.16,
+       "end": 8.96
+      }
+     ]
+    },
+    {
+     "show": "All the time.",
+     "start": 9.08,
+     "end": 10.16,
+     "words": [
+      {
+       "text": "All",
+       "start": 9.08,
+       "end": 9.2
+      },
+      {
+       "text": "the",
+       "start": 9.28,
+       "end": 9.36
+      },
+      {
+       "text": "time.",
+       "start": 9.44,
+       "end": 10.16
+      }
+     ]
+    },
+    {
+     "show": "Our cars have tires made of pillows.",
+     "start": 10.24,
+     "end": 12.24,
+     "words": [
+      {
+       "text": "Our",
+       "start": 10.24,
+       "end": 10.32
+      },
+      {
+       "text": "cars",
+       "start": 10.4,
+       "end": 10.72
+      },
+      {
+       "text": "have",
+       "start": 10.8,
+       "end": 10.96
+      },
+      {
+       "text": "tires",
+       "start": 11.0,
+       "end": 11.36
+      },
+      {
+       "text": "made",
+       "start": 11.44,
+       "end": 11.52
+      },
+      {
+       "text": "of",
+       "start": 11.6,
+       "end": 11.68
+      },
+      {
+       "text": "pillows.",
+       "start": 11.76,
+       "end": 12.24
+      }
+     ]
+    },
+    {
+     "show": "The school bell is a tiny feather.",
+     "start": 12.28,
+     "end": 14.08,
+     "words": [
+      {
+       "text": "The",
+       "start": 12.28,
+       "end": 12.32
+      },
+      {
+       "text": "school",
+       "start": 12.4,
+       "end": 12.64
+      },
+      {
+       "text": "bell",
+       "start": 12.72,
+       "end": 12.96
+      },
+      {
+       "text": "is",
+       "start": 13.0,
+       "end": 13.04
+      },
+      {
+       "text": "a",
+       "start": 13.2,
+       "end": 13.333
+      },
+      {
+       "text": "tiny",
+       "start": 13.467,
+       "end": 13.6
+      },
+      {
+       "text": "feather.",
+       "start": 13.68,
+       "end": 14.08
+      }
+     ]
+    },
+    {
+     "show": "Fireworks are illegal.",
+     "start": 14.24,
+     "end": 15.36,
+     "words": [
+      {
+       "text": "Fireworks",
+       "start": 14.24,
+       "end": 14.64
+      },
+      {
+       "text": "are",
+       "start": 14.72,
+       "end": 14.8
+      },
+      {
+       "text": "illegal.",
+       "start": 15.04,
+       "end": 15.36
+      }
+     ]
+    },
+    {
+     "show": "Even the birds learned to whisper.",
+     "start": 15.44,
+     "end": 17.04,
+     "words": [
+      {
+       "text": "Even",
+       "start": 15.44,
+       "end": 15.6
+      },
+      {
+       "text": "the",
+       "start": 15.68,
+       "end": 15.76
+      },
+      {
+       "text": "birds",
+       "start": 15.96,
+       "end": 16.16
+      },
+      {
+       "text": "learned",
+       "start": 16.24,
+       "end": 16.4
+      },
+      {
+       "text": "to",
+       "start": 16.44,
+       "end": 16.48
+      },
+      {
+       "text": "whisper.",
+       "start": 16.52,
+       "end": 17.04
+      }
+     ]
+    },
+    {
+     "show": "Dogs are trained to wag their tails",
+     "start": 17.08,
+     "end": 18.72,
+     "words": [
+      {
+       "text": "Dogs",
+       "start": 17.08,
+       "end": 17.36
+      },
+      {
+       "text": "are",
+       "start": 17.44,
+       "end": 17.52
+      },
+      {
+       "text": "trained",
+       "start": 17.64,
+       "end": 17.76
+      },
+      {
+       "text": "to",
+       "start": 17.84,
+       "end": 17.92
+      },
+      {
+       "text": "wag",
+       "start": 17.973,
+       "end": 18.08
+      },
+      {
+       "text": "their",
+       "start": 18.16,
+       "end": 18.32
+      },
+      {
+       "text": "tails",
+       "start": 18.52,
+       "end": 18.72
+      }
+     ]
+    },
+    {
+     "show": "instead of barking.",
+     "start": 18.84,
+     "end": 19.627,
+     "words": [
+      {
+       "text": "instead",
+       "start": 18.84,
+       "end": 18.96
+      },
+      {
+       "text": "of",
+       "start": 19.04,
+       "end": 19.12
+      },
+      {
+       "text": "barking.",
+       "start": 19.253,
+       "end": 19.627
+      }
+     ]
+    },
+    {
+     "show": "Kevin sneezed once in the library.",
+     "start": 19.733,
+     "end": 21.44,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 19.733,
+       "end": 19.84
+      },
+      {
+       "text": "sneezed",
+       "start": 19.92,
+       "end": 20.4
+      },
+      {
+       "text": "once",
+       "start": 20.48,
+       "end": 20.72
+      },
+      {
+       "text": "in",
+       "start": 20.76,
+       "end": 20.8
+      },
+      {
+       "text": "the",
+       "start": 20.84,
+       "end": 20.88
+      },
+      {
+       "text": "library.",
+       "start": 21.12,
+       "end": 21.44
+      }
+     ]
+    },
+    {
+     "show": "They made him live on the roof",
+     "start": 21.48,
+     "end": 22.4,
+     "words": [
+      {
+       "text": "They",
+       "start": 21.48,
+       "end": 21.52
+      },
+      {
+       "text": "made",
+       "start": 21.6,
+       "end": 21.68
+      },
+      {
+       "text": "him",
+       "start": 21.72,
+       "end": 21.76
+      },
+      {
+       "text": "live",
+       "start": 21.84,
+       "end": 21.92
+      },
+      {
+       "text": "on",
+       "start": 21.96,
+       "end": 22.0
+      },
+      {
+       "text": "the",
+       "start": 22.08,
+       "end": 22.16
+      },
+      {
+       "text": "roof",
+       "start": 22.28,
+       "end": 22.4
+      }
+     ]
+    },
+    {
+     "show": "for a whole month.",
+     "start": 22.44,
+     "end": 23.36,
+     "words": [
+      {
+       "text": "for",
+       "start": 22.44,
+       "end": 22.48
+      },
+      {
+       "text": "a",
+       "start": 22.64,
+       "end": 22.72
+      },
+      {
+       "text": "whole",
+       "start": 22.8,
+       "end": 22.88
+      },
+      {
+       "text": "month.",
+       "start": 22.96,
+       "end": 23.36
+      }
+     ]
+    },
+    {
+     "show": "And every single night,",
+     "start": 23.44,
+     "end": 24.48,
+     "words": [
+      {
+       "text": "And",
+       "start": 23.44,
+       "end": 23.52
+      },
+      {
+       "text": "every",
+       "start": 23.6,
+       "end": 23.84
+      },
+      {
+       "text": "single",
+       "start": 23.92,
+       "end": 24.16
+      },
+      {
+       "text": "night,",
+       "start": 24.28,
+       "end": 24.48
+      }
+     ]
+    },
+    {
+     "show": "the whole town walks up the hill",
+     "start": 24.56,
+     "end": 26.0,
+     "words": [
+      {
+       "text": "the",
+       "start": 24.56,
+       "end": 24.64
+      },
+      {
+       "text": "whole",
+       "start": 24.76,
+       "end": 24.88
+      },
+      {
+       "text": "town",
+       "start": 25.04,
+       "end": 25.2
+      },
+      {
+       "text": "walks",
+       "start": 25.28,
+       "end": 25.48
+      },
+      {
+       "text": "up",
+       "start": 25.52,
+       "end": 25.6
+      },
+      {
+       "text": "the",
+       "start": 25.68,
+       "end": 25.76
+      },
+      {
+       "text": "hill",
+       "start": 25.88,
+       "end": 26.0
+      }
+     ]
+    },
+    {
+     "show": "and sings her a {y:lullaby.}",
+     "start": 26.12,
+     "end": 27.28,
+     "words": [
+      {
+       "text": "and",
+       "start": 26.12,
+       "end": 26.24
+      },
+      {
+       "text": "sings",
+       "start": 26.32,
+       "end": 26.48
+      },
+      {
+       "text": "her",
+       "start": 26.52,
+       "end": 26.56
+      },
+      {
+       "text": "a",
+       "start": 26.64,
+       "end": 26.667
+      },
+      {
+       "text": "lullaby.",
+       "start": 26.693,
+       "end": 27.28
+      }
+     ]
+    },
+    {
+     "show": "Even the mayor.",
+     "start": 27.36,
+     "end": 28.133,
+     "words": [
+      {
+       "text": "Even",
+       "start": 27.36,
+       "end": 27.44
+      },
+      {
+       "text": "the",
+       "start": 27.52,
+       "end": 27.6
+      },
+      {
+       "text": "mayor.",
+       "start": 27.68,
+       "end": 28.133
+      }
+     ]
+    },
+    {
+     "show": "He sings terribly.",
+     "start": 28.187,
+     "end": 29.173,
+     "words": [
+      {
+       "text": "He",
+       "start": 28.187,
+       "end": 28.24
+      },
+      {
+       "text": "sings",
+       "start": 28.28,
+       "end": 28.56
+      },
+      {
+       "text": "terribly.",
+       "start": 28.64,
+       "end": 29.173
+      }
+     ]
+    },
+    {
+     "show": "But nobody tells him.",
+     "start": 29.227,
+     "end": 30.08,
+     "words": [
+      {
+       "text": "But",
+       "start": 29.227,
+       "end": 29.28
+      },
+      {
+       "text": "nobody",
+       "start": 29.387,
+       "end": 29.6
+      },
+      {
+       "text": "tells",
+       "start": 29.68,
+       "end": 29.84
+      },
+      {
+       "text": "him.",
+       "start": 29.88,
+       "end": 30.08
+      }
+     ]
+    }
+   ],
+   "start": 7.44,
+   "end": 30.08
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "My grandma always told me one thing.",
+     "start": 30.16,
+     "end": 32.12,
+     "words": [
+      {
+       "text": "My",
+       "start": 30.16,
+       "end": 30.24
+      },
+      {
+       "text": "grandma",
+       "start": 30.32,
+       "end": 30.72
+      },
+      {
+       "text": "always",
+       "start": 30.8,
+       "end": 31.04
+      },
+      {
+       "text": "told",
+       "start": 31.12,
+       "end": 31.28
+      },
+      {
+       "text": "me",
+       "start": 31.36,
+       "end": 31.44
+      },
+      {
+       "text": "one",
+       "start": 31.52,
+       "end": 31.68
+      },
+      {
+       "text": "thing.",
+       "start": 31.76,
+       "end": 32.12
+      }
+     ]
+    },
+    {
+     "show": "If you ever hear her crying,",
+     "start": 32.16,
+     "end": 33.547,
+     "words": [
+      {
+       "text": "If",
+       "start": 32.16,
+       "end": 32.24
+      },
+      {
+       "text": "you",
+       "start": 32.32,
+       "end": 32.4
+      },
+      {
+       "text": "ever",
+       "start": 32.52,
+       "end": 32.64
+      },
+      {
+       "text": "hear",
+       "start": 32.72,
+       "end": 32.8
+      },
+      {
+       "text": "her",
+       "start": 32.88,
+       "end": 32.96
+      },
+      {
+       "text": "crying,",
+       "start": 33.04,
+       "end": 33.547
+      }
+     ]
+    },
+    {
+     "show": "don't look back.",
+     "start": 33.573,
+     "end": 34.32,
+     "words": [
+      {
+       "text": "don't",
+       "start": 33.573,
+       "end": 33.68
+      },
+      {
+       "text": "look",
+       "start": 33.76,
+       "end": 33.84
+      },
+      {
+       "text": "back.",
+       "start": 33.92,
+       "end": 34.32
+      }
+     ]
+    },
+    {
+     "show": "Just run to the {r:clock tower.}",
+     "start": 34.44,
+     "end": 35.76,
+     "words": [
+      {
+       "text": "Just",
+       "start": 34.44,
+       "end": 34.56
+      },
+      {
+       "text": "run",
+       "start": 34.64,
+       "end": 34.8
+      },
+      {
+       "text": "to",
+       "start": 34.84,
+       "end": 34.88
+      },
+      {
+       "text": "the",
+       "start": 34.96,
+       "end": 35.0
+      },
+      {
+       "text": "clock",
+       "start": 35.04,
+       "end": 35.2
+      },
+      {
+       "text": "tower.",
+       "start": 35.28,
+       "end": 35.76
+      }
+     ]
+    }
+   ],
+   "start": 30.16,
+   "end": 35.76
+  },
+  {
+   "id": "inciting",
+   "label": "",
+   "lines": [
+    {
+     "show": "Last night,",
+     "start": 35.84,
+     "end": 36.48,
+     "words": [
+      {
+       "text": "Last",
+       "start": 35.84,
+       "end": 36.08
+      },
+      {
+       "text": "night,",
+       "start": 36.24,
+       "end": 36.48
+      }
+     ]
+    },
+    {
+     "show": "I couldn't sleep.",
+     "start": 36.56,
+     "end": 37.413,
+     "words": [
+      {
+       "text": "I",
+       "start": 36.56,
+       "end": 36.613
+      },
+      {
+       "text": "couldn't",
+       "start": 36.667,
+       "end": 36.88
+      },
+      {
+       "text": "sleep.",
+       "start": 37.12,
+       "end": 37.413
+      }
+     ]
+    },
+    {
+     "show": "And then I heard it.",
+     "start": 37.467,
+     "end": 38.74,
+     "words": [
+      {
+       "text": "And",
+       "start": 37.467,
+       "end": 37.52
+      },
+      {
+       "text": "then",
+       "start": 37.72,
+       "end": 37.92
+      },
+      {
+       "text": "I",
+       "start": 38.16,
+       "end": 38.213
+      },
+      {
+       "text": "heard",
+       "start": 38.267,
+       "end": 38.32
+      },
+      {
+       "text": "it.",
+       "start": 38.4,
+       "end": 38.74
+      }
+     ]
+    },
+    {
+     "show": "A tiny sniffle.",
+     "start": 38.86,
+     "end": 40.053,
+     "words": [
+      {
+       "text": "A",
+       "start": 38.86,
+       "end": 38.88
+      },
+      {
+       "text": "tiny",
+       "start": 39.08,
+       "end": 39.28
+      },
+      {
+       "text": "sniffle.",
+       "start": 39.36,
+       "end": 40.053
+      }
+     ]
+    },
+    {
+     "show": "Then a big one.",
+     "start": 40.107,
+     "end": 40.98,
+     "words": [
+      {
+       "text": "Then",
+       "start": 40.107,
+       "end": 40.16
+      },
+      {
+       "text": "a",
+       "start": 40.32,
+       "end": 40.4
+      },
+      {
+       "text": "big",
+       "start": 40.48,
+       "end": 40.56
+      },
+      {
+       "text": "one.",
+       "start": 40.64,
+       "end": 40.98
+      }
+     ]
+    },
+    {
+     "show": "The ground started shaking.",
+     "start": 41.1,
+     "end": 42.4,
+     "words": [
+      {
+       "text": "The",
+       "start": 41.1,
+       "end": 41.12
+      },
+      {
+       "text": "ground",
+       "start": 41.28,
+       "end": 41.44
+      },
+      {
+       "text": "started",
+       "start": 41.52,
+       "end": 41.84
+      },
+      {
+       "text": "shaking.",
+       "start": 41.92,
+       "end": 42.4
+      }
+     ]
+    },
+    {
+     "show": "Water came rushing down the mountain.",
+     "start": 42.48,
+     "end": 44.053,
+     "words": [
+      {
+       "text": "Water",
+       "start": 42.48,
+       "end": 42.72
+      },
+      {
+       "text": "came",
+       "start": 42.8,
+       "end": 43.04
+      },
+      {
+       "text": "rushing",
+       "start": 43.08,
+       "end": 43.36
+      },
+      {
+       "text": "down",
+       "start": 43.44,
+       "end": 43.52
+      },
+      {
+       "text": "the",
+       "start": 43.56,
+       "end": 43.6
+      },
+      {
+       "text": "mountain.",
+       "start": 43.68,
+       "end": 44.053
+      }
+     ]
+    },
+    {
+     "show": "The streets turned into rivers.",
+     "start": 44.107,
+     "end": 45.573,
+     "words": [
+      {
+       "text": "The",
+       "start": 44.107,
+       "end": 44.16
+      },
+      {
+       "text": "streets",
+       "start": 44.24,
+       "end": 44.56
+      },
+      {
+       "text": "turned",
+       "start": 44.64,
+       "end": 44.72
+      },
+      {
+       "text": "into",
+       "start": 44.84,
+       "end": 44.96
+      },
+      {
+       "text": "rivers.",
+       "start": 45.04,
+       "end": 45.573
+      }
+     ]
+    },
+    {
+     "show": "Our pillow cars floated away like boats.",
+     "start": 45.627,
+     "end": 47.72,
+     "words": [
+      {
+       "text": "Our",
+       "start": 45.627,
+       "end": 45.68
+      },
+      {
+       "text": "pillow",
+       "start": 45.76,
+       "end": 46.0
+      },
+      {
+       "text": "cars",
+       "start": 46.08,
+       "end": 46.32
+      },
+      {
+       "text": "floated",
+       "start": 46.4,
+       "end": 46.64
+      },
+      {
+       "text": "away",
+       "start": 46.72,
+       "end": 46.96
+      },
+      {
+       "text": "like",
+       "start": 47.08,
+       "end": 47.2
+      },
+      {
+       "text": "boats.",
+       "start": 47.44,
+       "end": 47.72
+      }
+     ]
+    },
+    {
+     "show": "Everybody ran to the tower.",
+     "start": 47.76,
+     "end": 49.0,
+     "words": [
+      {
+       "text": "Everybody",
+       "start": 47.76,
+       "end": 48.16
+      },
+      {
+       "text": "ran",
+       "start": 48.24,
+       "end": 48.4
+      },
+      {
+       "text": "to",
+       "start": 48.44,
+       "end": 48.48
+      },
+      {
+       "text": "the",
+       "start": 48.52,
+       "end": 48.56
+      },
+      {
+       "text": "tower.",
+       "start": 48.64,
+       "end": 49.0
+      }
+     ]
+    },
+    {
+     "show": "Kevin was carrying his cat.",
+     "start": 49.04,
+     "end": 50.4,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 49.04,
+       "end": 49.28
+      },
+      {
+       "text": "was",
+       "start": 49.36,
+       "end": 49.44
+      },
+      {
+       "text": "carrying",
+       "start": 49.52,
+       "end": 49.76
+      },
+      {
+       "text": "his",
+       "start": 49.84,
+       "end": 49.92
+      },
+      {
+       "text": "cat.",
+       "start": 50.0,
+       "end": 50.4
+      }
+     ]
+    },
+    {
+     "show": "Linda was carrying her whole fridge.",
+     "start": 50.44,
+     "end": 52.213,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 50.44,
+       "end": 50.72
+      },
+      {
+       "text": "was",
+       "start": 50.8,
+       "end": 50.88
+      },
+      {
+       "text": "carrying",
+       "start": 50.96,
+       "end": 51.2
+      },
+      {
+       "text": "her",
+       "start": 51.28,
+       "end": 51.36
+      },
+      {
+       "text": "whole",
+       "start": 51.44,
+       "end": 51.68
+      },
+      {
+       "text": "fridge.",
+       "start": 51.76,
+       "end": 52.213
+      }
+     ]
+    },
+    {
+     "show": "And grandma was floating on a door.",
+     "start": 52.267,
+     "end": 54.011,
+     "words": [
+      {
+       "text": "And",
+       "start": 52.267,
+       "end": 52.32
+      },
+      {
+       "text": "grandma",
+       "start": 52.44,
+       "end": 52.72
+      },
+      {
+       "text": "was",
+       "start": 52.84,
+       "end": 52.96
+      },
+      {
+       "text": "floating",
+       "start": 53.08,
+       "end": 53.2
+      },
+      {
+       "text": "on",
+       "start": 53.24,
+       "end": 53.28
+      },
+      {
+       "text": "a",
+       "start": 53.52,
+       "end": 53.68
+      },
+      {
+       "text": "door.",
+       "start": 53.84,
+       "end": 54.011
+      }
+     ]
+    }
+   ],
+   "start": 35.84,
+   "end": 54.011
+  },
+  {
+   "id": "mystery",
+   "label": "",
+   "lines": [
+    {
+     "show": "But halfway there,",
+     "start": 54.08,
+     "end": 55.12,
+     "words": [
+      {
+       "text": "But",
+       "start": 54.08,
+       "end": 54.16
+      },
+      {
+       "text": "halfway",
+       "start": 54.24,
+       "end": 54.56
+      },
+      {
+       "text": "there,",
+       "start": 54.64,
+       "end": 55.12
+      }
+     ]
+    },
+    {
+     "show": "I stopped.",
+     "start": 55.2,
+     "end": 55.813,
+     "words": [
+      {
+       "text": "I",
+       "start": 55.2,
+       "end": 55.24
+      },
+      {
+       "text": "stopped.",
+       "start": 55.28,
+       "end": 55.813
+      }
+     ]
+    },
+    {
+     "show": "Because I noticed something",
+     "start": 55.867,
+     "end": 56.8,
+     "words": [
+      {
+       "text": "Because",
+       "start": 55.867,
+       "end": 55.92
+      },
+      {
+       "text": "I",
+       "start": 56.08,
+       "end": 56.187
+      },
+      {
+       "text": "noticed",
+       "start": 56.293,
+       "end": 56.4
+      },
+      {
+       "text": "something",
+       "start": 56.6,
+       "end": 56.8
+      }
+     ]
+    },
+    {
+     "show": "nobody had ever noticed before.",
+     "start": 56.88,
+     "end": 58.613,
+     "words": [
+      {
+       "text": "nobody",
+       "start": 56.88,
+       "end": 57.2
+      },
+      {
+       "text": "had",
+       "start": 57.28,
+       "end": 57.36
+      },
+      {
+       "text": "ever",
+       "start": 57.44,
+       "end": 57.68
+      },
+      {
+       "text": "noticed",
+       "start": 57.84,
+       "end": 58.0
+      },
+      {
+       "text": "before.",
+       "start": 58.28,
+       "end": 58.613
+      }
+     ]
+    },
+    {
+     "show": "She wasn't crying because she was scared.",
+     "start": 58.667,
+     "end": 60.52,
+     "words": [
+      {
+       "text": "She",
+       "start": 58.667,
+       "end": 58.72
+      },
+      {
+       "text": "wasn't",
+       "start": 58.8,
+       "end": 58.96
+      },
+      {
+       "text": "crying",
+       "start": 59.04,
+       "end": 59.36
+      },
+      {
+       "text": "because",
+       "start": 59.48,
+       "end": 59.6
+      },
+      {
+       "text": "she",
+       "start": 59.64,
+       "end": 59.68
+      },
+      {
+       "text": "was",
+       "start": 59.76,
+       "end": 59.92
+      },
+      {
+       "text": "scared.",
+       "start": 60.0,
+       "end": 60.52
+      }
+     ]
+    },
+    {
+     "show": "She was holding something.",
+     "start": 60.56,
+     "end": 61.72,
+     "words": [
+      {
+       "text": "She",
+       "start": 60.56,
+       "end": 60.64
+      },
+      {
+       "text": "was",
+       "start": 60.72,
+       "end": 60.8
+      },
+      {
+       "text": "holding",
+       "start": 60.88,
+       "end": 61.2
+      },
+      {
+       "text": "something.",
+       "start": 61.28,
+       "end": 61.72
+      }
+     ]
+    },
+    {
+     "show": "A tiny broken {y:teddy bear.}",
+     "start": 61.76,
+     "end": 63.467,
+     "words": [
+      {
+       "text": "A",
+       "start": 61.76,
+       "end": 61.92
+      },
+      {
+       "text": "tiny",
+       "start": 62.16,
+       "end": 62.4
+      },
+      {
+       "text": "broken",
+       "start": 62.6,
+       "end": 62.8
+      },
+      {
+       "text": "teddy",
+       "start": 62.88,
+       "end": 63.04
+      },
+      {
+       "text": "bear.",
+       "start": 63.12,
+       "end": 63.467
+      }
+     ]
+    },
+    {
+     "show": "And she was looking straight at our town.",
+     "start": 63.493,
+     "end": 65.32,
+     "words": [
+      {
+       "text": "And",
+       "start": 63.493,
+       "end": 63.52
+      },
+      {
+       "text": "she",
+       "start": 63.6,
+       "end": 63.68
+      },
+      {
+       "text": "was",
+       "start": 63.76,
+       "end": 63.84
+      },
+      {
+       "text": "looking",
+       "start": 64.0,
+       "end": 64.16
+      },
+      {
+       "text": "straight",
+       "start": 64.32,
+       "end": 64.56
+      },
+      {
+       "text": "at",
+       "start": 64.6,
+       "end": 64.64
+      },
+      {
+       "text": "our",
+       "start": 64.72,
+       "end": 64.8
+      },
+      {
+       "text": "town.",
+       "start": 64.88,
+       "end": 65.32
+      }
+     ]
+    },
+    {
+     "show": "At the kids playing together.",
+     "start": 65.36,
+     "end": 66.773,
+     "words": [
+      {
+       "text": "At",
+       "start": 65.36,
+       "end": 65.4
+      },
+      {
+       "text": "the",
+       "start": 65.44,
+       "end": 65.52
+      },
+      {
+       "text": "kids",
+       "start": 65.6,
+       "end": 65.92
+      },
+      {
+       "text": "playing",
+       "start": 66.04,
+       "end": 66.16
+      },
+      {
+       "text": "together.",
+       "start": 66.24,
+       "end": 66.773
+      }
+     ]
+    },
+    {
+     "show": "Like she wanted to play too.",
+     "start": 66.827,
+     "end": 68.263,
+     "words": [
+      {
+       "text": "Like",
+       "start": 66.827,
+       "end": 66.88
+      },
+      {
+       "text": "she",
+       "start": 67.0,
+       "end": 67.12
+      },
+      {
+       "text": "wanted",
+       "start": 67.2,
+       "end": 67.28
+      },
+      {
+       "text": "to",
+       "start": 67.36,
+       "end": 67.44
+      },
+      {
+       "text": "play",
+       "start": 67.56,
+       "end": 67.68
+      },
+      {
+       "text": "too.",
+       "start": 67.76,
+       "end": 68.263
+      }
+     ]
+    }
+   ],
+   "start": 54.08,
+   "end": 68.263
+  },
+  {
+   "id": "action",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I did the one thing",
+     "start": 68.377,
+     "end": 69.52,
+     "words": [
+      {
+       "text": "So",
+       "start": 68.377,
+       "end": 68.4
+      },
+      {
+       "text": "I",
+       "start": 68.56,
+       "end": 68.613
+      },
+      {
+       "text": "did",
+       "start": 68.667,
+       "end": 68.72
+      },
+      {
+       "text": "the",
+       "start": 68.8,
+       "end": 68.88
+      },
+      {
+       "text": "one",
+       "start": 68.96,
+       "end": 69.12
+      },
+      {
+       "text": "thing",
+       "start": 69.2,
+       "end": 69.52
+      }
+     ]
+    },
+    {
+     "show": "nobody had done in a hundred years.",
+     "start": 69.56,
+     "end": 71.56,
+     "words": [
+      {
+       "text": "nobody",
+       "start": 69.56,
+       "end": 69.92
+      },
+      {
+       "text": "had",
+       "start": 70.0,
+       "end": 70.08
+      },
+      {
+       "text": "done",
+       "start": 70.2,
+       "end": 70.32
+      },
+      {
+       "text": "in",
+       "start": 70.36,
+       "end": 70.4
+      },
+      {
+       "text": "a",
+       "start": 70.64,
+       "end": 70.667
+      },
+      {
+       "text": "hundred",
+       "start": 70.693,
+       "end": 70.96
+      },
+      {
+       "text": "years.",
+       "start": 71.04,
+       "end": 71.56
+      }
+     ]
+    },
+    {
+     "show": "I climbed the {r:mountain.}",
+     "start": 71.68,
+     "end": 72.56,
+     "words": [
+      {
+       "text": "I",
+       "start": 71.68,
+       "end": 71.733
+      },
+      {
+       "text": "climbed",
+       "start": 71.787,
+       "end": 72.0
+      },
+      {
+       "text": "the",
+       "start": 72.04,
+       "end": 72.08
+      },
+      {
+       "text": "mountain.",
+       "start": 72.2,
+       "end": 72.56
+      }
+     ]
+    },
+    {
+     "show": "Past the waterfalls of tears.",
+     "start": 72.68,
+     "end": 74.12,
+     "words": [
+      {
+       "text": "Past",
+       "start": 72.68,
+       "end": 72.8
+      },
+      {
+       "text": "the",
+       "start": 72.88,
+       "end": 72.96
+      },
+      {
+       "text": "waterfalls",
+       "start": 73.08,
+       "end": 73.44
+      },
+      {
+       "text": "of",
+       "start": 73.52,
+       "end": 73.6
+      },
+      {
+       "text": "tears.",
+       "start": 73.68,
+       "end": 74.12
+      }
+     ]
+    },
+    {
+     "show": "Past the giant rattle.",
+     "start": 74.16,
+     "end": 75.4,
+     "words": [
+      {
+       "text": "Past",
+       "start": 74.16,
+       "end": 74.4
+      },
+      {
+       "text": "the",
+       "start": 74.48,
+       "end": 74.56
+      },
+      {
+       "text": "giant",
+       "start": 74.64,
+       "end": 74.96
+      },
+      {
+       "text": "rattle.",
+       "start": 75.0,
+       "end": 75.4
+      }
+     ]
+    },
+    {
+     "show": "Every time she sobbed,",
+     "start": 75.44,
+     "end": 76.533,
+     "words": [
+      {
+       "text": "Every",
+       "start": 75.44,
+       "end": 75.68
+      },
+      {
+       "text": "time",
+       "start": 75.76,
+       "end": 75.84
+      },
+      {
+       "text": "she",
+       "start": 75.92,
+       "end": 76.08
+      },
+      {
+       "text": "sobbed,",
+       "start": 76.16,
+       "end": 76.533
+      }
+     ]
+    },
+    {
+     "show": "the whole mountain shook,",
+     "start": 76.587,
+     "end": 77.76,
+     "words": [
+      {
+       "text": "the",
+       "start": 76.587,
+       "end": 76.64
+      },
+      {
+       "text": "whole",
+       "start": 76.72,
+       "end": 76.96
+      },
+      {
+       "text": "mountain",
+       "start": 77.04,
+       "end": 77.44
+      },
+      {
+       "text": "shook,",
+       "start": 77.48,
+       "end": 77.76
+      }
+     ]
+    },
+    {
+     "show": "and I almost fell.",
+     "start": 77.8,
+     "end": 78.853,
+     "words": [
+      {
+       "text": "and",
+       "start": 77.8,
+       "end": 77.84
+      },
+      {
+       "text": "I",
+       "start": 78.0,
+       "end": 78.107
+      },
+      {
+       "text": "almost",
+       "start": 78.213,
+       "end": 78.32
+      },
+      {
+       "text": "fell.",
+       "start": 78.4,
+       "end": 78.853
+      }
+     ]
+    },
+    {
+     "show": "Her tears were as big as swimming pools.",
+     "start": 78.907,
+     "end": 80.92,
+     "words": [
+      {
+       "text": "Her",
+       "start": 78.907,
+       "end": 78.96
+      },
+      {
+       "text": "tears",
+       "start": 79.04,
+       "end": 79.28
+      },
+      {
+       "text": "were",
+       "start": 79.36,
+       "end": 79.44
+      },
+      {
+       "text": "as",
+       "start": 79.56,
+       "end": 79.68
+      },
+      {
+       "text": "big",
+       "start": 79.76,
+       "end": 79.84
+      },
+      {
+       "text": "as",
+       "start": 79.92,
+       "end": 80.0
+      },
+      {
+       "text": "swimming",
+       "start": 80.08,
+       "end": 80.4
+      },
+      {
+       "text": "pools.",
+       "start": 80.44,
+       "end": 80.92
+      }
+     ]
+    },
+    {
+     "show": "All the way up to her face.",
+     "start": 80.96,
+     "end": 82.24,
+     "words": [
+      {
+       "text": "All",
+       "start": 80.96,
+       "end": 81.04
+      },
+      {
+       "text": "the",
+       "start": 81.12,
+       "end": 81.2
+      },
+      {
+       "text": "way",
+       "start": 81.24,
+       "end": 81.28
+      },
+      {
+       "text": "up",
+       "start": 81.36,
+       "end": 81.44
+      },
+      {
+       "text": "to",
+       "start": 81.48,
+       "end": 81.52
+      },
+      {
+       "text": "her",
+       "start": 81.64,
+       "end": 81.76
+      },
+      {
+       "text": "face.",
+       "start": 81.96,
+       "end": 82.24
+      }
+     ]
+    },
+    {
+     "show": "She was so big,",
+     "start": 82.28,
+     "end": 83.24,
+     "words": [
+      {
+       "text": "She",
+       "start": 82.28,
+       "end": 82.32
+      },
+      {
+       "text": "was",
+       "start": 82.4,
+       "end": 82.64
+      },
+      {
+       "text": "so",
+       "start": 82.76,
+       "end": 82.88
+      },
+      {
+       "text": "big,",
+       "start": 82.96,
+       "end": 83.24
+      }
+     ]
+    },
+    {
+     "show": "my whole body was smaller than her eye.",
+     "start": 83.28,
+     "end": 85.44,
+     "words": [
+      {
+       "text": "my",
+       "start": 83.28,
+       "end": 83.44
+      },
+      {
+       "text": "whole",
+       "start": 83.56,
+       "end": 83.68
+      },
+      {
+       "text": "body",
+       "start": 83.76,
+       "end": 84.0
+      },
+      {
+       "text": "was",
+       "start": 84.08,
+       "end": 84.24
+      },
+      {
+       "text": "smaller",
+       "start": 84.32,
+       "end": 84.56
+      },
+      {
+       "text": "than",
+       "start": 84.64,
+       "end": 84.72
+      },
+      {
+       "text": "her",
+       "start": 84.8,
+       "end": 84.88
+      },
+      {
+       "text": "eye.",
+       "start": 84.96,
+       "end": 85.44
+      }
+     ]
+    },
+    {
+     "show": "I held up my own teddy bear.",
+     "start": 85.52,
+     "end": 86.84,
+     "words": [
+      {
+       "text": "I",
+       "start": 85.52,
+       "end": 85.573
+      },
+      {
+       "text": "held",
+       "start": 85.627,
+       "end": 85.68
+      },
+      {
+       "text": "up",
+       "start": 85.76,
+       "end": 85.84
+      },
+      {
+       "text": "my",
+       "start": 85.92,
+       "end": 86.0
+      },
+      {
+       "text": "own",
+       "start": 86.08,
+       "end": 86.24
+      },
+      {
+       "text": "teddy",
+       "start": 86.32,
+       "end": 86.48
+      },
+      {
+       "text": "bear.",
+       "start": 86.64,
+       "end": 86.84
+      }
+     ]
+    },
+    {
+     "show": "And I said,",
+     "start": 86.88,
+     "end": 87.531,
+     "words": [
+      {
+       "text": "And",
+       "start": 86.88,
+       "end": 86.96
+      },
+      {
+       "text": "I",
+       "start": 87.12,
+       "end": 87.253
+      },
+      {
+       "text": "said,",
+       "start": 87.387,
+       "end": 87.531
+      }
+     ]
+    },
+    {
+     "show": "hi.",
+     "start": 87.6,
+     "end": 88.107,
+     "words": [
+      {
+       "text": "hi.",
+       "start": 87.6,
+       "end": 88.107
+      }
+     ]
+    },
+    {
+     "show": "Do you want to be {y:friends?}",
+     "start": 88.133,
+     "end": 89.293,
+     "words": [
+      {
+       "text": "Do",
+       "start": 88.133,
+       "end": 88.16
+      },
+      {
+       "text": "you",
+       "start": 88.2,
+       "end": 88.24
+      },
+      {
+       "text": "want",
+       "start": 88.28,
+       "end": 88.32
+      },
+      {
+       "text": "to",
+       "start": 88.36,
+       "end": 88.4
+      },
+      {
+       "text": "be",
+       "start": 88.48,
+       "end": 88.56
+      },
+      {
+       "text": "friends?",
+       "start": 88.64,
+       "end": 89.293
+      }
+     ]
+    }
+   ],
+   "start": 68.377,
+   "end": 89.293
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "She stopped crying.",
+     "start": 89.36,
+     "end": 90.36,
+     "words": [
+      {
+       "text": "She",
+       "start": 89.36,
+       "end": 89.52
+      },
+      {
+       "text": "stopped",
+       "start": 89.64,
+       "end": 89.76
+      },
+      {
+       "text": "crying.",
+       "start": 89.84,
+       "end": 90.36
+      }
+     ]
+    },
+    {
+     "show": "Then she smiled.",
+     "start": 90.4,
+     "end": 91.493,
+     "words": [
+      {
+       "text": "Then",
+       "start": 90.4,
+       "end": 90.64
+      },
+      {
+       "text": "she",
+       "start": 90.76,
+       "end": 90.88
+      },
+      {
+       "text": "smiled.",
+       "start": 90.96,
+       "end": 91.493
+      }
+     ]
+    },
+    {
+     "show": "And then she laughed so loud",
+     "start": 91.547,
+     "end": 92.88,
+     "words": [
+      {
+       "text": "And",
+       "start": 91.547,
+       "end": 91.6
+      },
+      {
+       "text": "then",
+       "start": 91.68,
+       "end": 91.76
+      },
+      {
+       "text": "she",
+       "start": 91.84,
+       "end": 91.92
+      },
+      {
+       "text": "laughed",
+       "start": 92.0,
+       "end": 92.32
+      },
+      {
+       "text": "so",
+       "start": 92.4,
+       "end": 92.64
+      },
+      {
+       "text": "loud",
+       "start": 92.76,
+       "end": 92.88
+      }
+     ]
+    },
+    {
+     "show": "that every window in town {r:shattered.}",
+     "start": 92.96,
+     "end": 94.92,
+     "words": [
+      {
+       "text": "that",
+       "start": 92.96,
+       "end": 93.12
+      },
+      {
+       "text": "every",
+       "start": 93.2,
+       "end": 93.44
+      },
+      {
+       "text": "window",
+       "start": 93.52,
+       "end": 93.76
+      },
+      {
+       "text": "in",
+       "start": 93.84,
+       "end": 93.92
+      },
+      {
+       "text": "town",
+       "start": 94.16,
+       "end": 94.4
+      },
+      {
+       "text": "shattered.",
+       "start": 94.48,
+       "end": 94.92
+      }
+     ]
+    }
+   ],
+   "start": 89.36,
+   "end": 94.92
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now nobody has to whisper anymore.",
+     "start": 95.04,
+     "end": 96.92,
+     "words": [
+      {
+       "text": "Now",
+       "start": 95.04,
+       "end": 95.36
+      },
+      {
+       "text": "nobody",
+       "start": 95.44,
+       "end": 95.76
+      },
+      {
+       "text": "has",
+       "start": 95.84,
+       "end": 95.92
+      },
+      {
+       "text": "to",
+       "start": 95.96,
+       "end": 96.0
+      },
+      {
+       "text": "whisper",
+       "start": 96.08,
+       "end": 96.32
+      },
+      {
+       "text": "anymore.",
+       "start": 96.4,
+       "end": 96.92
+      }
+     ]
+    },
+    {
+     "show": "Every Saturday,",
+     "start": 96.96,
+     "end": 97.64,
+     "words": [
+      {
+       "text": "Every",
+       "start": 96.96,
+       "end": 97.2
+      },
+      {
+       "text": "Saturday,",
+       "start": 97.4,
+       "end": 97.64
+      }
+     ]
+    },
+    {
+     "show": "the whole town climbs the mountain",
+     "start": 97.68,
+     "end": 99.12,
+     "words": [
+      {
+       "text": "the",
+       "start": 97.68,
+       "end": 97.84
+      },
+      {
+       "text": "whole",
+       "start": 97.96,
+       "end": 98.08
+      },
+      {
+       "text": "town",
+       "start": 98.16,
+       "end": 98.4
+      },
+      {
+       "text": "climbs",
+       "start": 98.48,
+       "end": 98.72
+      },
+      {
+       "text": "the",
+       "start": 98.76,
+       "end": 98.8
+      },
+      {
+       "text": "mountain",
+       "start": 98.88,
+       "end": 99.12
+      }
+     ]
+    },
+    {
+     "show": "to play with her.",
+     "start": 99.16,
+     "end": 99.8,
+     "words": [
+      {
+       "text": "to",
+       "start": 99.16,
+       "end": 99.2
+      },
+      {
+       "text": "play",
+       "start": 99.28,
+       "end": 99.36
+      },
+      {
+       "text": "with",
+       "start": 99.44,
+       "end": 99.52
+      },
+      {
+       "text": "her.",
+       "start": 99.64,
+       "end": 99.8
+      }
+     ]
+    },
+    {
+     "show": "Kevin taught her how to play catch.",
+     "start": 99.84,
+     "end": 101.227,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 99.84,
+       "end": 100.08
+      },
+      {
+       "text": "taught",
+       "start": 100.16,
+       "end": 100.24
+      },
+      {
+       "text": "her",
+       "start": 100.28,
+       "end": 100.32
+      },
+      {
+       "text": "how",
+       "start": 100.4,
+       "end": 100.44
+      },
+      {
+       "text": "to",
+       "start": 100.48,
+       "end": 100.56
+      },
+      {
+       "text": "play",
+       "start": 100.64,
+       "end": 100.72
+      },
+      {
+       "text": "catch.",
+       "start": 100.8,
+       "end": 101.227
+      }
+     ]
+    },
+    {
+     "show": "With a school bus.",
+     "start": 101.253,
+     "end": 102.2,
+     "words": [
+      {
+       "text": "With",
+       "start": 101.253,
+       "end": 101.28
+      },
+      {
+       "text": "a",
+       "start": 101.44,
+       "end": 101.48
+      },
+      {
+       "text": "school",
+       "start": 101.52,
+       "end": 101.76
+      },
+      {
+       "text": "bus.",
+       "start": 101.96,
+       "end": 102.2
+      }
+     ]
+    },
+    {
+     "show": "The mayor still sings to her every night.",
+     "start": 102.24,
+     "end": 104.293,
+     "words": [
+      {
+       "text": "The",
+       "start": 102.24,
+       "end": 102.32
+      },
+      {
+       "text": "mayor",
+       "start": 102.4,
+       "end": 102.64
+      },
+      {
+       "text": "still",
+       "start": 102.72,
+       "end": 102.96
+      },
+      {
+       "text": "sings",
+       "start": 103.04,
+       "end": 103.2
+      },
+      {
+       "text": "to",
+       "start": 103.28,
+       "end": 103.36
+      },
+      {
+       "text": "her",
+       "start": 103.48,
+       "end": 103.6
+      },
+      {
+       "text": "every",
+       "start": 103.68,
+       "end": 103.92
+      },
+      {
+       "text": "night.",
+       "start": 104.08,
+       "end": 104.293
+      }
+     ]
+    },
+    {
+     "show": "And she still hates it.",
+     "start": 104.347,
+     "end": 105.48,
+     "words": [
+      {
+       "text": "And",
+       "start": 104.347,
+       "end": 104.4
+      },
+      {
+       "text": "she",
+       "start": 104.48,
+       "end": 104.64
+      },
+      {
+       "text": "still",
+       "start": 104.72,
+       "end": 104.96
+      },
+      {
+       "text": "hates",
+       "start": 105.04,
+       "end": 105.2
+      },
+      {
+       "text": "it.",
+       "start": 105.28,
+       "end": 105.48
+      }
+     ]
+    },
+    {
+     "show": "But the only one she ever listens to",
+     "start": 105.52,
+     "end": 107.52,
+     "words": [
+      {
+       "text": "But",
+       "start": 105.52,
+       "end": 105.6
+      },
+      {
+       "text": "the",
+       "start": 105.68,
+       "end": 105.76
+      },
+      {
+       "text": "only",
+       "start": 105.88,
+       "end": 106.0
+      },
+      {
+       "text": "one",
+       "start": 106.08,
+       "end": 106.24
+      },
+      {
+       "text": "she",
+       "start": 106.36,
+       "end": 106.48
+      },
+      {
+       "text": "ever",
+       "start": 106.6,
+       "end": 106.72
+      },
+      {
+       "text": "listens",
+       "start": 106.8,
+       "end": 107.04
+      },
+      {
+       "text": "to",
+       "start": 107.12,
+       "end": 107.52
+      }
+     ]
+    },
+    {
+     "show": "is {y:me.}",
+     "start": 107.6,
+     "end": 108.32,
+     "words": [
+      {
+       "text": "is",
+       "start": 107.6,
+       "end": 107.76
+      },
+      {
+       "text": "me.",
+       "start": 108.0,
+       "end": 108.32
+      }
+     ]
+    }
+   ],
+   "start": 95.04,
+   "end": 108.32
+  }
+ ]
+}
