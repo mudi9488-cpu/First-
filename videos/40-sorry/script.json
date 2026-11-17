@@ -1,0 +1,306 @@
+{
+ "title": "Sorry",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "you only live as long as people say your name."
+    },
+    {
+     "show": "Every time someone says it,"
+    },
+    {
+     "show": "you get one more {y:day.}"
+    },
+    {
+     "show": "And if nobody says it anymore,"
+    },
+    {
+     "show": "you {r:disappear.}"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "That's why our soccer star never worries."
+    },
+    {
+     "show": "A whole stadium screams his name every weekend."
+    },
+    {
+     "show": "He has centuries left."
+    },
+    {
+     "show": "But old Mister Jansen in the nursing home"
+    },
+    {
+     "show": "never got any visitors."
+    },
+    {
+     "show": "His number went down,"
+    },
+    {
+     "show": "and down,"
+    },
+    {
+     "show": "until one morning,"
+    },
+    {
+     "show": "there was only his jacket on the chair."
+    },
+    {
+     "show": "Couples say each other's names all night,"
+    },
+    {
+     "show": "just to be safe."
+    },
+    {
+     "show": "And parents fight for months about baby names,"
+    },
+    {
+     "show": "because a bad name can kill you."
+    }
+   ]
+  },
+  {
+   "id": "names",
+   "label": "",
+   "lines": [
+    {
+     "show": "So names became the most expensive thing in the city."
+    },
+    {
+     "show": "Every name exists only once."
+    },
+    {
+     "show": "And the rich buy the best ones at auctions."
+    },
+    {
+     "show": "Names like Max and Emma cost more than houses."
+    },
+    {
+     "show": "The mayor paid a fortune for the name {y:Champion.}"
+    },
+    {
+     "show": "He even hired a choir"
+    },
+    {
+     "show": "that sings his name all day long."
+    }
+   ]
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "When I was born,"
+    },
+    {
+     "show": "my grandma didn't have a single coin."
+    },
+    {
+     "show": "Every name in the registry was already taken."
+    },
+    {
+     "show": "So she gave me the only word"
+    },
+    {
+     "show": "nobody had ever bought."
+    },
+    {
+     "show": "She named me {r:Sorry.}"
+    }
+   ]
+  },
+  {
+   "id": "school",
+   "label": "",
+   "lines": [
+    {
+     "show": "At school, everybody laughed."
+    },
+    {
+     "show": "Kids bumped into me on purpose and said,"
+    },
+    {
+     "show": "oops."
+    },
+    {
+     "show": "Not even sorry."
+    },
+    {
+     "show": "When teachers called the roll,"
+    },
+    {
+     "show": "they skipped me."
+    },
+    {
+     "show": "My number was always tiny."
+    },
+    {
+     "show": "But grandma kept saying,"
+    },
+    {
+     "show": "just wait."
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "Because this city is huge."
+    },
+    {
+     "show": "Millions of people."
+    },
+    {
+     "show": "Crowded trains."
+    },
+    {
+     "show": "Busy sidewalks."
+    },
+    {
+     "show": "Every elevator,"
+    },
+    {
+     "show": "every bus,"
+    },
+    {
+     "show": "every coffee shop."
+    },
+    {
+     "show": "Everybody bumps into everybody."
+    },
+    {
+     "show": "And every single time,"
+    },
+    {
+     "show": "they say my name."
+    },
+    {
+     "show": "Sorry."
+    },
+    {
+     "show": "Sorry."
+    },
+    {
+     "show": "{y:Sorry.}"
+    },
+    {
+     "show": "My number started climbing."
+    },
+    {
+     "show": "Higher,"
+    },
+    {
+     "show": "and higher,"
+    },
+    {
+     "show": "until it didn't even fit above my head."
+    }
+   ]
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then one day,"
+    },
+    {
+     "show": "the mayor's money ran out."
+    },
+    {
+     "show": "His choir went silent."
+    },
+    {
+     "show": "Nobody said Champion anymore."
+    },
+    {
+     "show": "One rainy night,"
+    },
+    {
+     "show": "he knocked on our door."
+    },
+    {
+     "show": "Old,"
+    },
+    {
+     "show": "grey,"
+    },
+    {
+     "show": "almost see-through."
+    },
+    {
+     "show": "His number was almost zero."
+    },
+    {
+     "show": "He whispered,"
+    },
+    {
+     "show": "please."
+    },
+    {
+     "show": "Say my name."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "I could have laughed at him."
+    },
+    {
+     "show": "Like everybody laughed at me."
+    },
+    {
+     "show": "But I didn't."
+    },
+    {
+     "show": "I said,"
+    },
+    {
+     "show": "Champion."
+    },
+    {
+     "show": "And then I said,"
+    },
+    {
+     "show": "I'm {y:sorry.}"
+    },
+    {
+     "show": "For the first time in weeks,"
+    },
+    {
+     "show": "his number went up."
+    },
+    {
+     "show": "Now he says sorry to everyone he meets."
+    },
+    {
+     "show": "And so does the whole city."
+    },
+    {
+     "show": "So next time you bump into someone,"
+    },
+    {
+     "show": "say my {y:name.}"
+    }
+   ]
+  }
+ ]
+}

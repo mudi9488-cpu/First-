@@ -1,0 +1,2522 @@
+{
+ "duration": 107.076,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.48,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "you only live as long as people say your name.",
+     "start": 0.88,
+     "end": 3.2,
+     "words": [
+      {
+       "text": "you",
+       "start": 0.88,
+       "end": 0.96
+      },
+      {
+       "text": "only",
+       "start": 1.04,
+       "end": 1.2
+      },
+      {
+       "text": "live",
+       "start": 1.36,
+       "end": 1.52
+      },
+      {
+       "text": "as",
+       "start": 1.6,
+       "end": 1.68
+      },
+      {
+       "text": "long",
+       "start": 1.76,
+       "end": 1.92
+      },
+      {
+       "text": "as",
+       "start": 1.96,
+       "end": 2.0
+      },
+      {
+       "text": "people",
+       "start": 2.08,
+       "end": 2.32
+      },
+      {
+       "text": "say",
+       "start": 2.4,
+       "end": 2.56
+      },
+      {
+       "text": "your",
+       "start": 2.64,
+       "end": 2.72
+      },
+      {
+       "text": "name.",
+       "start": 2.88,
+       "end": 3.2
+      }
+     ]
+    },
+    {
+     "show": "Every time someone says it,",
+     "start": 3.32,
+     "end": 4.48,
+     "words": [
+      {
+       "text": "Every",
+       "start": 3.32,
+       "end": 3.44
+      },
+      {
+       "text": "time",
+       "start": 3.56,
+       "end": 3.68
+      },
+      {
+       "text": "someone",
+       "start": 3.8,
+       "end": 3.92
+      },
+      {
+       "text": "says",
+       "start": 4.0,
+       "end": 4.24
+      },
+      {
+       "text": "it,",
+       "start": 4.28,
+       "end": 4.48
+      }
+     ]
+    },
+    {
+     "show": "you get one more {y:day.}",
+     "start": 4.52,
+     "end": 5.6,
+     "words": [
+      {
+       "text": "you",
+       "start": 4.52,
+       "end": 4.56
+      },
+      {
+       "text": "get",
+       "start": 4.68,
+       "end": 4.8
+      },
+      {
+       "text": "one",
+       "start": 4.88,
+       "end": 4.96
+      },
+      {
+       "text": "more",
+       "start": 5.04,
+       "end": 5.2
+      },
+      {
+       "text": "day.",
+       "start": 5.28,
+       "end": 5.6
+      }
+     ]
+    },
+    {
+     "show": "And if nobody says it anymore,",
+     "start": 5.64,
+     "end": 7.04,
+     "words": [
+      {
+       "text": "And",
+       "start": 5.64,
+       "end": 5.68
+      },
+      {
+       "text": "if",
+       "start": 5.76,
+       "end": 5.84
+      },
+      {
+       "text": "nobody",
+       "start": 5.92,
+       "end": 6.16
+      },
+      {
+       "text": "says",
+       "start": 6.24,
+       "end": 6.4
+      },
+      {
+       "text": "it",
+       "start": 6.44,
+       "end": 6.48
+      },
+      {
+       "text": "anymore,",
+       "start": 6.56,
+       "end": 7.04
+      }
+     ]
+    },
+    {
+     "show": "you {r:disappear.}",
+     "start": 7.12,
+     "end": 7.92,
+     "words": [
+      {
+       "text": "you",
+       "start": 7.12,
+       "end": 7.2
+      },
+      {
+       "text": "disappear.",
+       "start": 7.28,
+       "end": 7.92
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 7.92
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "That's why our soccer star never worries.",
+     "start": 8.0,
+     "end": 9.893,
+     "words": [
+      {
+       "text": "That's",
+       "start": 8.0,
+       "end": 8.12
+      },
+      {
+       "text": "why",
+       "start": 8.16,
+       "end": 8.24
+      },
+      {
+       "text": "our",
+       "start": 8.32,
+       "end": 8.48
+      },
+      {
+       "text": "soccer",
+       "start": 8.56,
+       "end": 8.72
+      },
+      {
+       "text": "star",
+       "start": 8.8,
+       "end": 9.04
+      },
+      {
+       "text": "never",
+       "start": 9.12,
+       "end": 9.36
+      },
+      {
+       "text": "worries.",
+       "start": 9.44,
+       "end": 9.893
+      }
+     ]
+    },
+    {
+     "show": "A whole stadium screams his name every weekend.",
+     "start": 9.947,
+     "end": 12.56,
+     "words": [
+      {
+       "text": "A",
+       "start": 9.947,
+       "end": 10.0
+      },
+      {
+       "text": "whole",
+       "start": 10.12,
+       "end": 10.24
+      },
+      {
+       "text": "stadium",
+       "start": 10.32,
+       "end": 10.8
+      },
+      {
+       "text": "screams",
+       "start": 10.88,
+       "end": 11.28
+      },
+      {
+       "text": "his",
+       "start": 11.36,
+       "end": 11.44
+      },
+      {
+       "text": "name",
+       "start": 11.52,
+       "end": 11.76
+      },
+      {
+       "text": "every",
+       "start": 11.88,
+       "end": 12.0
+      },
+      {
+       "text": "weekend.",
+       "start": 12.08,
+       "end": 12.56
+      }
+     ]
+    },
+    {
+     "show": "He has centuries left.",
+     "start": 12.64,
+     "end": 13.92,
+     "words": [
+      {
+       "text": "He",
+       "start": 12.64,
+       "end": 12.72
+      },
+      {
+       "text": "has",
+       "start": 12.8,
+       "end": 12.96
+      },
+      {
+       "text": "centuries",
+       "start": 13.04,
+       "end": 13.44
+      },
+      {
+       "text": "left.",
+       "start": 13.52,
+       "end": 13.92
+      }
+     ]
+    },
+    {
+     "show": "But old Mister Jansen in the nursing home",
+     "start": 13.96,
+     "end": 15.68,
+     "words": [
+      {
+       "text": "But",
+       "start": 13.96,
+       "end": 14.0
+      },
+      {
+       "text": "old",
+       "start": 14.08,
+       "end": 14.16
+      },
+      {
+       "text": "Mister",
+       "start": 14.24,
+       "end": 14.4
+      },
+      {
+       "text": "Jansen",
+       "start": 14.56,
+       "end": 14.88
+      },
+      {
+       "text": "in",
+       "start": 14.96,
+       "end": 15.0
+      },
+      {
+       "text": "the",
+       "start": 15.04,
+       "end": 15.12
+      },
+      {
+       "text": "nursing",
+       "start": 15.173,
+       "end": 15.44
+      },
+      {
+       "text": "home",
+       "start": 15.56,
+       "end": 15.68
+      }
+     ]
+    },
+    {
+     "show": "never got any visitors.",
+     "start": 15.76,
+     "end": 16.933,
+     "words": [
+      {
+       "text": "never",
+       "start": 15.76,
+       "end": 15.92
+      },
+      {
+       "text": "got",
+       "start": 16.04,
+       "end": 16.16
+      },
+      {
+       "text": "any",
+       "start": 16.24,
+       "end": 16.32
+      },
+      {
+       "text": "visitors.",
+       "start": 16.4,
+       "end": 16.933
+      }
+     ]
+    },
+    {
+     "show": "His number went down,",
+     "start": 16.987,
+     "end": 18.16,
+     "words": [
+      {
+       "text": "His",
+       "start": 16.987,
+       "end": 17.04
+      },
+      {
+       "text": "number",
+       "start": 17.12,
+       "end": 17.36
+      },
+      {
+       "text": "went",
+       "start": 17.48,
+       "end": 17.6
+      },
+      {
+       "text": "down,",
+       "start": 17.84,
+       "end": 18.16
+      }
+     ]
+    },
+    {
+     "show": "and down,",
+     "start": 18.24,
+     "end": 18.907,
+     "words": [
+      {
+       "text": "and",
+       "start": 18.24,
+       "end": 18.32
+      },
+      {
+       "text": "down,",
+       "start": 18.56,
+       "end": 18.907
+      }
+     ]
+    },
+    {
+     "show": "until one morning,",
+     "start": 19.013,
+     "end": 19.707,
+     "words": [
+      {
+       "text": "until",
+       "start": 19.013,
+       "end": 19.12
+      },
+      {
+       "text": "one",
+       "start": 19.2,
+       "end": 19.28
+      },
+      {
+       "text": "morning,",
+       "start": 19.36,
+       "end": 19.707
+      }
+     ]
+    },
+    {
+     "show": "there was only his jacket on the chair.",
+     "start": 19.733,
+     "end": 21.44,
+     "words": [
+      {
+       "text": "there",
+       "start": 19.733,
+       "end": 19.76
+      },
+      {
+       "text": "was",
+       "start": 19.84,
+       "end": 19.92
+      },
+      {
+       "text": "only",
+       "start": 20.0,
+       "end": 20.16
+      },
+      {
+       "text": "his",
+       "start": 20.28,
+       "end": 20.4
+      },
+      {
+       "text": "jacket",
+       "start": 20.44,
+       "end": 20.72
+      },
+      {
+       "text": "on",
+       "start": 20.76,
+       "end": 20.8
+      },
+      {
+       "text": "the",
+       "start": 20.84,
+       "end": 20.88
+      },
+      {
+       "text": "chair.",
+       "start": 20.96,
+       "end": 21.44
+      }
+     ]
+    },
+    {
+     "show": "Couples say each other's names all night,",
+     "start": 21.547,
+     "end": 23.32,
+     "words": [
+      {
+       "text": "Couples",
+       "start": 21.547,
+       "end": 21.76
+      },
+      {
+       "text": "say",
+       "start": 21.84,
+       "end": 21.92
+      },
+      {
+       "text": "each",
+       "start": 22.0,
+       "end": 22.08
+      },
+      {
+       "text": "other's",
+       "start": 22.16,
+       "end": 22.32
+      },
+      {
+       "text": "names",
+       "start": 22.48,
+       "end": 22.64
+      },
+      {
+       "text": "all",
+       "start": 22.72,
+       "end": 22.88
+      },
+      {
+       "text": "night,",
+       "start": 22.96,
+       "end": 23.32
+      }
+     ]
+    },
+    {
+     "show": "just to be safe.",
+     "start": 23.36,
+     "end": 24.08,
+     "words": [
+      {
+       "text": "just",
+       "start": 23.36,
+       "end": 23.44
+      },
+      {
+       "text": "to",
+       "start": 23.48,
+       "end": 23.52
+      },
+      {
+       "text": "be",
+       "start": 23.6,
+       "end": 23.68
+      },
+      {
+       "text": "safe.",
+       "start": 23.84,
+       "end": 24.08
+      }
+     ]
+    },
+    {
+     "show": "And parents fight for months about baby names,",
+     "start": 24.16,
+     "end": 26.32,
+     "words": [
+      {
+       "text": "And",
+       "start": 24.16,
+       "end": 24.24
+      },
+      {
+       "text": "parents",
+       "start": 24.4,
+       "end": 24.56
+      },
+      {
+       "text": "fight",
+       "start": 24.72,
+       "end": 24.88
+      },
+      {
+       "text": "for",
+       "start": 25.0,
+       "end": 25.12
+      },
+      {
+       "text": "months",
+       "start": 25.24,
+       "end": 25.36
+      },
+      {
+       "text": "about",
+       "start": 25.44,
+       "end": 25.68
+      },
+      {
+       "text": "baby",
+       "start": 25.8,
+       "end": 25.92
+      },
+      {
+       "text": "names,",
+       "start": 26.08,
+       "end": 26.32
+      }
+     ]
+    },
+    {
+     "show": "because a bad name can kill you.",
+     "start": 26.44,
+     "end": 28.133,
+     "words": [
+      {
+       "text": "because",
+       "start": 26.44,
+       "end": 26.56
+      },
+      {
+       "text": "a",
+       "start": 26.64,
+       "end": 26.72
+      },
+      {
+       "text": "bad",
+       "start": 26.84,
+       "end": 26.96
+      },
+      {
+       "text": "name",
+       "start": 27.04,
+       "end": 27.28
+      },
+      {
+       "text": "can",
+       "start": 27.4,
+       "end": 27.52
+      },
+      {
+       "text": "kill",
+       "start": 27.64,
+       "end": 27.76
+      },
+      {
+       "text": "you.",
+       "start": 27.92,
+       "end": 28.133
+      }
+     ]
+    }
+   ],
+   "start": 8.0,
+   "end": 28.133
+  },
+  {
+   "id": "names",
+   "label": "",
+   "lines": [
+    {
+     "show": "So names became the most expensive thing in the city.",
+     "start": 28.187,
+     "end": 30.6,
+     "words": [
+      {
+       "text": "So",
+       "start": 28.187,
+       "end": 28.24
+      },
+      {
+       "text": "names",
+       "start": 28.32,
+       "end": 28.64
+      },
+      {
+       "text": "became",
+       "start": 28.68,
+       "end": 28.88
+      },
+      {
+       "text": "the",
+       "start": 28.96,
+       "end": 29.04
+      },
+      {
+       "text": "most",
+       "start": 29.16,
+       "end": 29.28
+      },
+      {
+       "text": "expensive",
+       "start": 29.4,
+       "end": 29.84
+      },
+      {
+       "text": "thing",
+       "start": 29.92,
+       "end": 30.0
+      },
+      {
+       "text": "in",
+       "start": 30.04,
+       "end": 30.08
+      },
+      {
+       "text": "the",
+       "start": 30.16,
+       "end": 30.24
+      },
+      {
+       "text": "city.",
+       "start": 30.4,
+       "end": 30.6
+      }
+     ]
+    },
+    {
+     "show": "Every name exists only once.",
+     "start": 30.64,
+     "end": 32.427,
+     "words": [
+      {
+       "text": "Every",
+       "start": 30.64,
+       "end": 30.88
+      },
+      {
+       "text": "name",
+       "start": 31.0,
+       "end": 31.12
+      },
+      {
+       "text": "exists",
+       "start": 31.2,
+       "end": 31.6
+      },
+      {
+       "text": "only",
+       "start": 31.68,
+       "end": 31.92
+      },
+      {
+       "text": "once.",
+       "start": 32.0,
+       "end": 32.427
+      }
+     ]
+    },
+    {
+     "show": "And the rich buy the best ones at auctions.",
+     "start": 32.453,
+     "end": 34.4,
+     "words": [
+      {
+       "text": "And",
+       "start": 32.453,
+       "end": 32.48
+      },
+      {
+       "text": "the",
+       "start": 32.52,
+       "end": 32.56
+      },
+      {
+       "text": "rich",
+       "start": 32.64,
+       "end": 32.88
+      },
+      {
+       "text": "buy",
+       "start": 32.96,
+       "end": 33.04
+      },
+      {
+       "text": "the",
+       "start": 33.12,
+       "end": 33.2
+      },
+      {
+       "text": "best",
+       "start": 33.32,
+       "end": 33.44
+      },
+      {
+       "text": "ones",
+       "start": 33.52,
+       "end": 33.6
+      },
+      {
+       "text": "at",
+       "start": 33.68,
+       "end": 33.76
+      },
+      {
+       "text": "auctions.",
+       "start": 33.96,
+       "end": 34.4
+      }
+     ]
+    },
+    {
+     "show": "Names like Max and Emma cost more than houses.",
+     "start": 34.48,
+     "end": 36.92,
+     "words": [
+      {
+       "text": "Names",
+       "start": 34.48,
+       "end": 34.56
+      },
+      {
+       "text": "like",
+       "start": 34.64,
+       "end": 34.8
+      },
+      {
+       "text": "Max",
+       "start": 34.88,
+       "end": 35.2
+      },
+      {
+       "text": "and",
+       "start": 35.28,
+       "end": 35.36
+      },
+      {
+       "text": "Emma",
+       "start": 35.44,
+       "end": 35.68
+      },
+      {
+       "text": "cost",
+       "start": 35.76,
+       "end": 36.0
+      },
+      {
+       "text": "more",
+       "start": 36.08,
+       "end": 36.16
+      },
+      {
+       "text": "than",
+       "start": 36.24,
+       "end": 36.32
+      },
+      {
+       "text": "houses.",
+       "start": 36.4,
+       "end": 36.92
+      }
+     ]
+    },
+    {
+     "show": "The mayor paid a fortune for the name {y:Champion.}",
+     "start": 36.96,
+     "end": 39.12,
+     "words": [
+      {
+       "text": "The",
+       "start": 36.96,
+       "end": 37.04
+      },
+      {
+       "text": "mayor",
+       "start": 37.12,
+       "end": 37.36
+      },
+      {
+       "text": "paid",
+       "start": 37.4,
+       "end": 37.44
+      },
+      {
+       "text": "a",
+       "start": 37.6,
+       "end": 37.64
+      },
+      {
+       "text": "fortune",
+       "start": 37.68,
+       "end": 38.08
+      },
+      {
+       "text": "for",
+       "start": 38.12,
+       "end": 38.16
+      },
+      {
+       "text": "the",
+       "start": 38.2,
+       "end": 38.24
+      },
+      {
+       "text": "name",
+       "start": 38.36,
+       "end": 38.48
+      },
+      {
+       "text": "Champion.",
+       "start": 38.56,
+       "end": 39.12
+      }
+     ]
+    },
+    {
+     "show": "He even hired a choir",
+     "start": 39.16,
+     "end": 40.16,
+     "words": [
+      {
+       "text": "He",
+       "start": 39.16,
+       "end": 39.2
+      },
+      {
+       "text": "even",
+       "start": 39.28,
+       "end": 39.44
+      },
+      {
+       "text": "hired",
+       "start": 39.48,
+       "end": 39.68
+      },
+      {
+       "text": "a",
+       "start": 39.76,
+       "end": 39.8
+      },
+      {
+       "text": "choir",
+       "start": 39.84,
+       "end": 40.16
+      }
+     ]
+    },
+    {
+     "show": "that sings his name all day long.",
+     "start": 40.24,
+     "end": 42.011,
+     "words": [
+      {
+       "text": "that",
+       "start": 40.24,
+       "end": 40.32
+      },
+      {
+       "text": "sings",
+       "start": 40.4,
+       "end": 40.56
+      },
+      {
+       "text": "his",
+       "start": 40.64,
+       "end": 40.72
+      },
+      {
+       "text": "name",
+       "start": 40.8,
+       "end": 41.04
+      },
+      {
+       "text": "all",
+       "start": 41.12,
+       "end": 41.28
+      },
+      {
+       "text": "day",
+       "start": 41.36,
+       "end": 41.44
+      },
+      {
+       "text": "long.",
+       "start": 41.72,
+       "end": 42.011
+      }
+     ]
+    }
+   ],
+   "start": 28.187,
+   "end": 42.011
+  },
+  {
+   "id": "me",
+   "label": "",
+   "lines": [
+    {
+     "show": "When I was born,",
+     "start": 42.08,
+     "end": 43.013,
+     "words": [
+      {
+       "text": "When",
+       "start": 42.08,
+       "end": 42.16
+      },
+      {
+       "text": "I",
+       "start": 42.24,
+       "end": 42.28
+      },
+      {
+       "text": "was",
+       "start": 42.32,
+       "end": 42.48
+      },
+      {
+       "text": "born,",
+       "start": 42.72,
+       "end": 43.013
+      }
+     ]
+    },
+    {
+     "show": "my grandma didn't have a single coin.",
+     "start": 43.067,
+     "end": 44.84,
+     "words": [
+      {
+       "text": "my",
+       "start": 43.067,
+       "end": 43.12
+      },
+      {
+       "text": "grandma",
+       "start": 43.2,
+       "end": 43.44
+      },
+      {
+       "text": "didn't",
+       "start": 43.52,
+       "end": 43.68
+      },
+      {
+       "text": "have",
+       "start": 43.72,
+       "end": 43.76
+      },
+      {
+       "text": "a",
+       "start": 44.0,
+       "end": 44.107
+      },
+      {
+       "text": "single",
+       "start": 44.213,
+       "end": 44.32
+      },
+      {
+       "text": "coin.",
+       "start": 44.4,
+       "end": 44.84
+      }
+     ]
+    },
+    {
+     "show": "Every name in the registry was already taken.",
+     "start": 44.88,
+     "end": 47.013,
+     "words": [
+      {
+       "text": "Every",
+       "start": 44.88,
+       "end": 45.12
+      },
+      {
+       "text": "name",
+       "start": 45.2,
+       "end": 45.28
+      },
+      {
+       "text": "in",
+       "start": 45.36,
+       "end": 45.4
+      },
+      {
+       "text": "the",
+       "start": 45.44,
+       "end": 45.52
+      },
+      {
+       "text": "registry",
+       "start": 45.76,
+       "end": 46.0
+      },
+      {
+       "text": "was",
+       "start": 46.04,
+       "end": 46.08
+      },
+      {
+       "text": "already",
+       "start": 46.16,
+       "end": 46.48
+      },
+      {
+       "text": "taken.",
+       "start": 46.72,
+       "end": 47.013
+      }
+     ]
+    },
+    {
+     "show": "So she gave me the only word",
+     "start": 47.067,
+     "end": 48.56,
+     "words": [
+      {
+       "text": "So",
+       "start": 47.067,
+       "end": 47.12
+      },
+      {
+       "text": "she",
+       "start": 47.2,
+       "end": 47.28
+      },
+      {
+       "text": "gave",
+       "start": 47.32,
+       "end": 47.52
+      },
+      {
+       "text": "me",
+       "start": 47.56,
+       "end": 47.6
+      },
+      {
+       "text": "the",
+       "start": 47.68,
+       "end": 47.84
+      },
+      {
+       "text": "only",
+       "start": 48.0,
+       "end": 48.16
+      },
+      {
+       "text": "word",
+       "start": 48.36,
+       "end": 48.56
+      }
+     ]
+    },
+    {
+     "show": "nobody had ever bought.",
+     "start": 48.6,
+     "end": 49.88,
+     "words": [
+      {
+       "text": "nobody",
+       "start": 48.6,
+       "end": 48.96
+      },
+      {
+       "text": "had",
+       "start": 49.04,
+       "end": 49.12
+      },
+      {
+       "text": "ever",
+       "start": 49.2,
+       "end": 49.44
+      },
+      {
+       "text": "bought.",
+       "start": 49.48,
+       "end": 49.88
+      }
+     ]
+    },
+    {
+     "show": "She named me {r:Sorry.}",
+     "start": 49.92,
+     "end": 51.463,
+     "words": [
+      {
+       "text": "She",
+       "start": 49.92,
+       "end": 50.08
+      },
+      {
+       "text": "named",
+       "start": 50.2,
+       "end": 50.32
+      },
+      {
+       "text": "me",
+       "start": 50.4,
+       "end": 50.8
+      },
+      {
+       "text": "Sorry.",
+       "start": 51.12,
+       "end": 51.463
+      }
+     ]
+    }
+   ],
+   "start": 42.08,
+   "end": 51.463
+  },
+  {
+   "id": "school",
+   "label": "",
+   "lines": [
+    {
+     "show": "At school, everybody laughed.",
+     "start": 51.577,
+     "end": 53.36,
+     "words": [
+      {
+       "text": "At",
+       "start": 51.577,
+       "end": 51.6
+      },
+      {
+       "text": "school,",
+       "start": 51.68,
+       "end": 52.2
+      },
+      {
+       "text": "everybody",
+       "start": 52.24,
+       "end": 52.64
+      },
+      {
+       "text": "laughed.",
+       "start": 52.72,
+       "end": 53.36
+      }
+     ]
+    },
+    {
+     "show": "Kids bumped into me on purpose and said,",
+     "start": 53.44,
+     "end": 55.307,
+     "words": [
+      {
+       "text": "Kids",
+       "start": 53.44,
+       "end": 53.52
+      },
+      {
+       "text": "bumped",
+       "start": 53.6,
+       "end": 53.76
+      },
+      {
+       "text": "into",
+       "start": 53.88,
+       "end": 54.0
+      },
+      {
+       "text": "me",
+       "start": 54.04,
+       "end": 54.08
+      },
+      {
+       "text": "on",
+       "start": 54.16,
+       "end": 54.24
+      },
+      {
+       "text": "purpose",
+       "start": 54.32,
+       "end": 54.64
+      },
+      {
+       "text": "and",
+       "start": 54.72,
+       "end": 54.8
+      },
+      {
+       "text": "said,",
+       "start": 54.96,
+       "end": 55.307
+      }
+     ]
+    },
+    {
+     "show": "oops.",
+     "start": 55.493,
+     "end": 55.733,
+     "words": [
+      {
+       "text": "oops.",
+       "start": 55.493,
+       "end": 55.733
+      }
+     ]
+    },
+    {
+     "show": "Not even sorry.",
+     "start": 55.787,
+     "end": 56.693,
+     "words": [
+      {
+       "text": "Not",
+       "start": 55.787,
+       "end": 55.84
+      },
+      {
+       "text": "even",
+       "start": 56.0,
+       "end": 56.16
+      },
+      {
+       "text": "sorry.",
+       "start": 56.24,
+       "end": 56.693
+      }
+     ]
+    },
+    {
+     "show": "When teachers called the roll,",
+     "start": 56.747,
+     "end": 58.0,
+     "words": [
+      {
+       "text": "When",
+       "start": 56.747,
+       "end": 56.8
+      },
+      {
+       "text": "teachers",
+       "start": 56.88,
+       "end": 57.2
+      },
+      {
+       "text": "called",
+       "start": 57.28,
+       "end": 57.36
+      },
+      {
+       "text": "the",
+       "start": 57.44,
+       "end": 57.52
+      },
+      {
+       "text": "roll,",
+       "start": 57.72,
+       "end": 58.0
+      }
+     ]
+    },
+    {
+     "show": "they skipped me.",
+     "start": 58.08,
+     "end": 58.773,
+     "words": [
+      {
+       "text": "they",
+       "start": 58.08,
+       "end": 58.16
+      },
+      {
+       "text": "skipped",
+       "start": 58.2,
+       "end": 58.4
+      },
+      {
+       "text": "me.",
+       "start": 58.48,
+       "end": 58.773
+      }
+     ]
+    },
+    {
+     "show": "My number was always tiny.",
+     "start": 58.827,
+     "end": 60.293,
+     "words": [
+      {
+       "text": "My",
+       "start": 58.827,
+       "end": 58.88
+      },
+      {
+       "text": "number",
+       "start": 58.96,
+       "end": 59.12
+      },
+      {
+       "text": "was",
+       "start": 59.2,
+       "end": 59.36
+      },
+      {
+       "text": "always",
+       "start": 59.44,
+       "end": 59.76
+      },
+      {
+       "text": "tiny.",
+       "start": 59.84,
+       "end": 60.293
+      }
+     ]
+    },
+    {
+     "show": "But grandma kept saying,",
+     "start": 60.347,
+     "end": 61.48,
+     "words": [
+      {
+       "text": "But",
+       "start": 60.347,
+       "end": 60.4
+      },
+      {
+       "text": "grandma",
+       "start": 60.48,
+       "end": 60.72
+      },
+      {
+       "text": "kept",
+       "start": 60.8,
+       "end": 60.96
+      },
+      {
+       "text": "saying,",
+       "start": 61.04,
+       "end": 61.48
+      }
+     ]
+    },
+    {
+     "show": "just wait.",
+     "start": 61.52,
+     "end": 62.2,
+     "words": [
+      {
+       "text": "just",
+       "start": 61.52,
+       "end": 61.76
+      },
+      {
+       "text": "wait.",
+       "start": 61.96,
+       "end": 62.2
+      }
+     ]
+    }
+   ],
+   "start": 51.577,
+   "end": 62.2
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "Because this city is huge.",
+     "start": 62.44,
+     "end": 64.0,
+     "words": [
+      {
+       "text": "Because",
+       "start": 62.44,
+       "end": 62.48
+      },
+      {
+       "text": "this",
+       "start": 62.56,
+       "end": 62.72
+      },
+      {
+       "text": "city",
+       "start": 62.84,
+       "end": 62.96
+      },
+      {
+       "text": "is",
+       "start": 63.04,
+       "end": 63.28
+      },
+      {
+       "text": "huge.",
+       "start": 63.36,
+       "end": 64.0
+      }
+     ]
+    },
+    {
+     "show": "Millions of people.",
+     "start": 64.08,
+     "end": 65.0,
+     "words": [
+      {
+       "text": "Millions",
+       "start": 64.08,
+       "end": 64.4
+      },
+      {
+       "text": "of",
+       "start": 64.48,
+       "end": 64.56
+      },
+      {
+       "text": "people.",
+       "start": 64.76,
+       "end": 65.0
+      }
+     ]
+    },
+    {
+     "show": "Crowded trains.",
+     "start": 65.04,
+     "end": 66.04,
+     "words": [
+      {
+       "text": "Crowded",
+       "start": 65.04,
+       "end": 65.44
+      },
+      {
+       "text": "trains.",
+       "start": 65.52,
+       "end": 66.04
+      }
+     ]
+    },
+    {
+     "show": "Busy sidewalks.",
+     "start": 66.08,
+     "end": 67.08,
+     "words": [
+      {
+       "text": "Busy",
+       "start": 66.08,
+       "end": 66.32
+      },
+      {
+       "text": "sidewalks.",
+       "start": 66.4,
+       "end": 67.08
+      }
+     ]
+    },
+    {
+     "show": "Every elevator,",
+     "start": 67.12,
+     "end": 67.96,
+     "words": [
+      {
+       "text": "Every",
+       "start": 67.12,
+       "end": 67.36
+      },
+      {
+       "text": "elevator,",
+       "start": 67.44,
+       "end": 67.96
+      }
+     ]
+    },
+    {
+     "show": "every bus,",
+     "start": 68.0,
+     "end": 68.76,
+     "words": [
+      {
+       "text": "every",
+       "start": 68.0,
+       "end": 68.32
+      },
+      {
+       "text": "bus,",
+       "start": 68.4,
+       "end": 68.76
+      }
+     ]
+    },
+    {
+     "show": "every coffee shop.",
+     "start": 68.8,
+     "end": 69.8,
+     "words": [
+      {
+       "text": "every",
+       "start": 68.8,
+       "end": 69.04
+      },
+      {
+       "text": "coffee",
+       "start": 69.12,
+       "end": 69.36
+      },
+      {
+       "text": "shop.",
+       "start": 69.44,
+       "end": 69.8
+      }
+     ]
+    },
+    {
+     "show": "Everybody bumps into everybody.",
+     "start": 69.84,
+     "end": 71.493,
+     "words": [
+      {
+       "text": "Everybody",
+       "start": 69.84,
+       "end": 70.32
+      },
+      {
+       "text": "bumps",
+       "start": 70.4,
+       "end": 70.56
+      },
+      {
+       "text": "into",
+       "start": 70.72,
+       "end": 70.88
+      },
+      {
+       "text": "everybody.",
+       "start": 70.96,
+       "end": 71.493
+      }
+     ]
+    },
+    {
+     "show": "And every single time,",
+     "start": 71.547,
+     "end": 72.68,
+     "words": [
+      {
+       "text": "And",
+       "start": 71.547,
+       "end": 71.6
+      },
+      {
+       "text": "every",
+       "start": 71.68,
+       "end": 71.92
+      },
+      {
+       "text": "single",
+       "start": 72.0,
+       "end": 72.24
+      },
+      {
+       "text": "time,",
+       "start": 72.32,
+       "end": 72.68
+      }
+     ]
+    },
+    {
+     "show": "they say my name.",
+     "start": 72.72,
+     "end": 73.8,
+     "words": [
+      {
+       "text": "they",
+       "start": 72.72,
+       "end": 72.88
+      },
+      {
+       "text": "say",
+       "start": 72.96,
+       "end": 73.04
+      },
+      {
+       "text": "my",
+       "start": 73.12,
+       "end": 73.28
+      },
+      {
+       "text": "name.",
+       "start": 73.52,
+       "end": 73.8
+      }
+     ]
+    },
+    {
+     "show": "Sorry.",
+     "start": 73.84,
+     "end": 74.587,
+     "words": [
+      {
+       "text": "Sorry.",
+       "start": 73.84,
+       "end": 74.587
+      }
+     ]
+    },
+    {
+     "show": "Sorry.",
+     "start": 74.773,
+     "end": 75.0,
+     "words": [
+      {
+       "text": "Sorry.",
+       "start": 74.773,
+       "end": 75.0
+      }
+     ]
+    },
+    {
+     "show": "{y:Sorry.}",
+     "start": 75.04,
+     "end": 75.653,
+     "words": [
+      {
+       "text": "Sorry.",
+       "start": 75.04,
+       "end": 75.653
+      }
+     ]
+    },
+    {
+     "show": "My number started climbing.",
+     "start": 75.707,
+     "end": 76.92,
+     "words": [
+      {
+       "text": "My",
+       "start": 75.707,
+       "end": 75.76
+      },
+      {
+       "text": "number",
+       "start": 75.92,
+       "end": 76.08
+      },
+      {
+       "text": "started",
+       "start": 76.24,
+       "end": 76.4
+      },
+      {
+       "text": "climbing.",
+       "start": 76.48,
+       "end": 76.92
+      }
+     ]
+    },
+    {
+     "show": "Higher,",
+     "start": 76.96,
+     "end": 77.4,
+     "words": [
+      {
+       "text": "Higher,",
+       "start": 76.96,
+       "end": 77.4
+      }
+     ]
+    },
+    {
+     "show": "and higher,",
+     "start": 77.44,
+     "end": 78.04,
+     "words": [
+      {
+       "text": "and",
+       "start": 77.44,
+       "end": 77.6
+      },
+      {
+       "text": "higher,",
+       "start": 77.8,
+       "end": 78.04
+      }
+     ]
+    },
+    {
+     "show": "until it didn't even fit above my head.",
+     "start": 78.08,
+     "end": 79.853,
+     "words": [
+      {
+       "text": "until",
+       "start": 78.08,
+       "end": 78.24
+      },
+      {
+       "text": "it",
+       "start": 78.32,
+       "end": 78.4
+      },
+      {
+       "text": "didn't",
+       "start": 78.44,
+       "end": 78.56
+      },
+      {
+       "text": "even",
+       "start": 78.68,
+       "end": 78.8
+      },
+      {
+       "text": "fit",
+       "start": 78.88,
+       "end": 78.96
+      },
+      {
+       "text": "above",
+       "start": 79.04,
+       "end": 79.2
+      },
+      {
+       "text": "my",
+       "start": 79.28,
+       "end": 79.36
+      },
+      {
+       "text": "head.",
+       "start": 79.44,
+       "end": 79.853
+      }
+     ]
+    }
+   ],
+   "start": 62.44,
+   "end": 79.853
+  },
+  {
+   "id": "mayor",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then one day,",
+     "start": 79.92,
+     "end": 80.667,
+     "words": [
+      {
+       "text": "Then",
+       "start": 79.92,
+       "end": 80.08
+      },
+      {
+       "text": "one",
+       "start": 80.16,
+       "end": 80.24
+      },
+      {
+       "text": "day,",
+       "start": 80.32,
+       "end": 80.667
+      }
+     ]
+    },
+    {
+     "show": "the mayor's money ran out.",
+     "start": 80.693,
+     "end": 82.0,
+     "words": [
+      {
+       "text": "the",
+       "start": 80.693,
+       "end": 80.72
+      },
+      {
+       "text": "mayor's",
+       "start": 80.8,
+       "end": 81.12
+      },
+      {
+       "text": "money",
+       "start": 81.24,
+       "end": 81.36
+      },
+      {
+       "text": "ran",
+       "start": 81.44,
+       "end": 81.6
+      },
+      {
+       "text": "out.",
+       "start": 81.68,
+       "end": 82.0
+      }
+     ]
+    },
+    {
+     "show": "His choir went silent.",
+     "start": 82.08,
+     "end": 83.28,
+     "words": [
+      {
+       "text": "His",
+       "start": 82.08,
+       "end": 82.16
+      },
+      {
+       "text": "choir",
+       "start": 82.24,
+       "end": 82.48
+      },
+      {
+       "text": "went",
+       "start": 82.56,
+       "end": 82.72
+      },
+      {
+       "text": "silent.",
+       "start": 82.8,
+       "end": 83.28
+      }
+     ]
+    },
+    {
+     "show": "Nobody said Champion anymore.",
+     "start": 83.36,
+     "end": 85.0,
+     "words": [
+      {
+       "text": "Nobody",
+       "start": 83.36,
+       "end": 83.68
+      },
+      {
+       "text": "said",
+       "start": 83.8,
+       "end": 83.92
+      },
+      {
+       "text": "Champion",
+       "start": 84.0,
+       "end": 84.32
+      },
+      {
+       "text": "anymore.",
+       "start": 84.4,
+       "end": 85.0
+      }
+     ]
+    },
+    {
+     "show": "One rainy night,",
+     "start": 85.04,
+     "end": 85.893,
+     "words": [
+      {
+       "text": "One",
+       "start": 85.04,
+       "end": 85.2
+      },
+      {
+       "text": "rainy",
+       "start": 85.32,
+       "end": 85.52
+      },
+      {
+       "text": "night,",
+       "start": 85.68,
+       "end": 85.893
+      }
+     ]
+    },
+    {
+     "show": "he knocked on our door.",
+     "start": 85.947,
+     "end": 86.92,
+     "words": [
+      {
+       "text": "he",
+       "start": 85.947,
+       "end": 86.0
+      },
+      {
+       "text": "knocked",
+       "start": 86.04,
+       "end": 86.24
+      },
+      {
+       "text": "on",
+       "start": 86.28,
+       "end": 86.32
+      },
+      {
+       "text": "our",
+       "start": 86.4,
+       "end": 86.48
+      },
+      {
+       "text": "door.",
+       "start": 86.56,
+       "end": 86.92
+      }
+     ]
+    },
+    {
+     "show": "Old,",
+     "start": 86.96,
+     "end": 87.48,
+     "words": [
+      {
+       "text": "Old,",
+       "start": 86.96,
+       "end": 87.48
+      }
+     ]
+    },
+    {
+     "show": "grey,",
+     "start": 87.52,
+     "end": 88.133,
+     "words": [
+      {
+       "text": "grey,",
+       "start": 87.52,
+       "end": 88.133
+      }
+     ]
+    },
+    {
+     "show": "almost see-through.",
+     "start": 88.267,
+     "end": 89.093,
+     "words": [
+      {
+       "text": "almost",
+       "start": 88.267,
+       "end": 88.4
+      },
+      {
+       "text": "see-through.",
+       "start": 88.48,
+       "end": 89.093
+      }
+     ]
+    },
+    {
+     "show": "His number was almost zero.",
+     "start": 89.147,
+     "end": 90.68,
+     "words": [
+      {
+       "text": "His",
+       "start": 89.147,
+       "end": 89.2
+      },
+      {
+       "text": "number",
+       "start": 89.28,
+       "end": 89.52
+      },
+      {
+       "text": "was",
+       "start": 89.6,
+       "end": 89.68
+      },
+      {
+       "text": "almost",
+       "start": 89.76,
+       "end": 90.16
+      },
+      {
+       "text": "zero.",
+       "start": 90.4,
+       "end": 90.68
+      }
+     ]
+    },
+    {
+     "show": "He whispered,",
+     "start": 90.72,
+     "end": 91.371,
+     "words": [
+      {
+       "text": "He",
+       "start": 90.72,
+       "end": 90.8
+      },
+      {
+       "text": "whispered,",
+       "start": 90.84,
+       "end": 91.371
+      }
+     ]
+    },
+    {
+     "show": "please.",
+     "start": 91.44,
+     "end": 92.213,
+     "words": [
+      {
+       "text": "please.",
+       "start": 91.44,
+       "end": 92.213
+      }
+     ]
+    },
+    {
+     "show": "Say my name.",
+     "start": 92.267,
+     "end": 93.147,
+     "words": [
+      {
+       "text": "Say",
+       "start": 92.267,
+       "end": 92.32
+      },
+      {
+       "text": "my",
+       "start": 92.4,
+       "end": 92.56
+      },
+      {
+       "text": "name.",
+       "start": 92.84,
+       "end": 93.147
+      }
+     ]
+    }
+   ],
+   "start": 79.92,
+   "end": 93.147
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "I could have laughed at him.",
+     "start": 93.28,
+     "end": 94.293,
+     "words": [
+      {
+       "text": "I",
+       "start": 93.28,
+       "end": 93.307
+      },
+      {
+       "text": "could",
+       "start": 93.333,
+       "end": 93.36
+      },
+      {
+       "text": "have",
+       "start": 93.44,
+       "end": 93.6
+      },
+      {
+       "text": "laughed",
+       "start": 93.64,
+       "end": 93.84
+      },
+      {
+       "text": "at",
+       "start": 93.92,
+       "end": 94.0
+      },
+      {
+       "text": "him.",
+       "start": 94.12,
+       "end": 94.293
+      }
+     ]
+    },
+    {
+     "show": "Like everybody laughed at me.",
+     "start": 94.347,
+     "end": 95.627,
+     "words": [
+      {
+       "text": "Like",
+       "start": 94.347,
+       "end": 94.4
+      },
+      {
+       "text": "everybody",
+       "start": 94.48,
+       "end": 94.8
+      },
+      {
+       "text": "laughed",
+       "start": 94.88,
+       "end": 95.12
+      },
+      {
+       "text": "at",
+       "start": 95.16,
+       "end": 95.2
+      },
+      {
+       "text": "me.",
+       "start": 95.28,
+       "end": 95.627
+      }
+     ]
+    },
+    {
+     "show": "But I didn't.",
+     "start": 95.653,
+     "end": 96.32,
+     "words": [
+      {
+       "text": "But",
+       "start": 95.653,
+       "end": 95.68
+      },
+      {
+       "text": "I",
+       "start": 95.84,
+       "end": 95.893
+      },
+      {
+       "text": "didn't.",
+       "start": 95.947,
+       "end": 96.32
+      }
+     ]
+    },
+    {
+     "show": "I said,",
+     "start": 96.4,
+     "end": 96.84,
+     "words": [
+      {
+       "text": "I",
+       "start": 96.4,
+       "end": 96.44
+      },
+      {
+       "text": "said,",
+       "start": 96.48,
+       "end": 96.84
+      }
+     ]
+    },
+    {
+     "show": "Champion.",
+     "start": 96.88,
+     "end": 97.493,
+     "words": [
+      {
+       "text": "Champion.",
+       "start": 96.88,
+       "end": 97.493
+      }
+     ]
+    },
+    {
+     "show": "And then I said,",
+     "start": 97.547,
+     "end": 98.28,
+     "words": [
+      {
+       "text": "And",
+       "start": 97.547,
+       "end": 97.6
+      },
+      {
+       "text": "then",
+       "start": 97.64,
+       "end": 97.68
+      },
+      {
+       "text": "I",
+       "start": 97.84,
+       "end": 97.88
+      },
+      {
+       "text": "said,",
+       "start": 97.92,
+       "end": 98.28
+      }
+     ]
+    },
+    {
+     "show": "I'm {y:sorry.}",
+     "start": 98.32,
+     "end": 98.987,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 98.32,
+       "end": 98.4
+      },
+      {
+       "text": "sorry.",
+       "start": 98.48,
+       "end": 98.987
+      }
+     ]
+    },
+    {
+     "show": "For the first time in weeks,",
+     "start": 99.013,
+     "end": 100.28,
+     "words": [
+      {
+       "text": "For",
+       "start": 99.013,
+       "end": 99.04
+      },
+      {
+       "text": "the",
+       "start": 99.12,
+       "end": 99.2
+      },
+      {
+       "text": "first",
+       "start": 99.32,
+       "end": 99.44
+      },
+      {
+       "text": "time",
+       "start": 99.56,
+       "end": 99.68
+      },
+      {
+       "text": "in",
+       "start": 99.76,
+       "end": 99.84
+      },
+      {
+       "text": "weeks,",
+       "start": 99.92,
+       "end": 100.28
+      }
+     ]
+    },
+    {
+     "show": "his number went up.",
+     "start": 100.32,
+     "end": 101.36,
+     "words": [
+      {
+       "text": "his",
+       "start": 100.32,
+       "end": 100.48
+      },
+      {
+       "text": "number",
+       "start": 100.6,
+       "end": 100.72
+      },
+      {
+       "text": "went",
+       "start": 100.8,
+       "end": 100.96
+      },
+      {
+       "text": "up.",
+       "start": 101.04,
+       "end": 101.36
+      }
+     ]
+    },
+    {
+     "show": "Now he says sorry to everyone he meets.",
+     "start": 101.44,
+     "end": 103.333,
+     "words": [
+      {
+       "text": "Now",
+       "start": 101.44,
+       "end": 101.52
+      },
+      {
+       "text": "he",
+       "start": 101.6,
+       "end": 101.68
+      },
+      {
+       "text": "says",
+       "start": 101.76,
+       "end": 101.84
+      },
+      {
+       "text": "sorry",
+       "start": 101.92,
+       "end": 102.16
+      },
+      {
+       "text": "to",
+       "start": 102.24,
+       "end": 102.32
+      },
+      {
+       "text": "everyone",
+       "start": 102.48,
+       "end": 102.64
+      },
+      {
+       "text": "he",
+       "start": 102.72,
+       "end": 102.8
+      },
+      {
+       "text": "meets.",
+       "start": 102.88,
+       "end": 103.333
+      }
+     ]
+    },
+    {
+     "show": "And so does the whole city.",
+     "start": 103.387,
+     "end": 104.72,
+     "words": [
+      {
+       "text": "And",
+       "start": 103.387,
+       "end": 103.44
+      },
+      {
+       "text": "so",
+       "start": 103.52,
+       "end": 103.6
+      },
+      {
+       "text": "does",
+       "start": 103.68,
+       "end": 103.76
+      },
+      {
+       "text": "the",
+       "start": 103.84,
+       "end": 104.0
+      },
+      {
+       "text": "whole",
+       "start": 104.12,
+       "end": 104.24
+      },
+      {
+       "text": "city.",
+       "start": 104.32,
+       "end": 104.72
+      }
+     ]
+    },
+    {
+     "show": "So next time you bump into someone,",
+     "start": 104.76,
+     "end": 106.24,
+     "words": [
+      {
+       "text": "So",
+       "start": 104.76,
+       "end": 104.8
+      },
+      {
+       "text": "next",
+       "start": 104.88,
+       "end": 105.04
+      },
+      {
+       "text": "time",
+       "start": 105.12,
+       "end": 105.2
+      },
+      {
+       "text": "you",
+       "start": 105.28,
+       "end": 105.36
+      },
+      {
+       "text": "bump",
+       "start": 105.413,
+       "end": 105.52
+      },
+      {
+       "text": "into",
+       "start": 105.64,
+       "end": 105.76
+      },
+      {
+       "text": "someone,",
+       "start": 105.96,
+       "end": 106.24
+      }
+     ]
+    },
+    {
+     "show": "say my {y:name.}",
+     "start": 106.32,
+     "end": 107.12,
+     "words": [
+      {
+       "text": "say",
+       "start": 106.32,
+       "end": 106.48
+      },
+      {
+       "text": "my",
+       "start": 106.56,
+       "end": 106.64
+      },
+      {
+       "text": "name.",
+       "start": 106.76,
+       "end": 107.12
+      }
+     ]
+    }
+   ],
+   "start": 93.28,
+   "end": 107.12
+  }
+ ]
+}
