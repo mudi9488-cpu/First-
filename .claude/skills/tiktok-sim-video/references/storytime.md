@@ -170,3 +170,27 @@ Länge nur **75–110 s** (kürzer als unsere 2:00+). Schnitt alle ~2–3 s (gem
 - Vor neuen Videos die Idee kurz vorstellen und Freigabe abwarten.
 
 - **Länge (Feedback nach Video 38):** Jedes Video muss **über eine Minute** lang sein. Skript auf ca. 160–190 Wörter auslegen (≈ 62–70 s). Zu kurze Videos mit einem zweiten Teil verlängern: zweite Sprachaufnahme generieren, an voice-a.mp3 anhängen, Wort-Timings versetzen.
+
+## Fünfte Referenz-Runde (6 Top-Videos, Nov 2026) – neuer Standard
+
+Analyse per OCR der Untertitel + Bildraster (Stimmen/Branding der Creator NICHT kopieren).
+
+**Länge:** 1:40–2:40 (meist ~2:20), ca. 320–380 Wörter. Unsere 1:05 sind zu kurz.
+
+**Story-Formel (alle 6 gleich):**
+1. Hook in einem Satz: „In this town, [tödliche/absurde Überlebensregel]“ – echte Gefahr (riesige Schnecke jagt die Stadt seit 100 Jahren, Monster jagen jeden, der ein Geräusch macht / der aufhört zu lachen, Stadt lebt auf dem Rücken eines Riesen-Capybaras).
+2. Welt-Aufbau mit 6–10 konkreten, visuellen Folgen der Regel (Häuser sind LKWs, Schule ist ein Bus, Gabeln aus Gummi, Gebärdensprache, Beerdigungen sind Partys, Polizei verhaftet Langsamfahrer).
+3. „There's one rule my dad always told me …“ / „But one day …“ – persönliche Krise des Erzählers.
+4. Eskalation + Rätsel (Wovor rennt der Elefant? Warum ist der Bürgermeister nicht gealtert?).
+5. Twist, der alles umdreht (Bürgermeister machte einen Deal; eine winzige Spinne sucht ihre Babys; Lachen ist das Futter des Monsters).
+6. Erzähler handelt mutig und löst es → Stadt verändert sich.
+7. Schluss-Pointe oder Gänsehaut-Tag („…a second tiny voice giggling with him“) oder Cliffhanger für Teil 2.
+Ton: spannend, Herz + Gefahr, nicht nur Gag-Listen.
+
+**Bild:**
+- Schnitt alle ~2–2,5 s (60+ Einstellungen), Kamera fast immer in Bewegung.
+- Riesige Größenkontraste: gigantische Kreaturen vs. winzige Stadt, Drohnen-Totalen, Welt außerhalb der Stadt (Felder, Highways, Berge, Schnee, Nebel).
+- 15–25 verschiedene Orte pro Video; Nahaufnahmen starker Gesichtsausdrücke im Wechsel mit Totalen.
+- Farb-Looks pro Akt: knallig-hell → Sonnenuntergang orange → Nacht blau; Rückblenden in Sepia.
+- Untertitel: ein Wort, gelb mit dicker schwarzer Kontur, ~73 % Bildhöhe (passt zu uns).
+**Ton:** durchgehend Musik/Atmo, keine stillen Stellen; Mix eher -20 bis -22 LUFS.
