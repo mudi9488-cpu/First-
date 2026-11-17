@@ -5,70 +5,214 @@
  "serie": "kiosk-kalle",
  "folge": 2,
  "beats": [
-  {"id": "recap", "label": "", "lines": [
-   {"show": "Noch {y:29 Tage,}", "say": "Noch neunundzwanzig Tage,"},
-   {"show": "dann räumt {r:Herr Geier}"},
-   {"show": "den Kiosk."},
-   {"show": "Und Kalle hat"},
-   {"show": "erst {r:3 Euro 40.}", "say": "erst drei Euro vierzig."}
-  ]},
-  {"id": "ergebnis", "label": "", "lines": [
-   {"show": "Letzte Folge"},
-   {"show": "habt {y:ihr} entschieden:"},
-   {"show": "{y:90 Prozent} sagen:", "say": "Neunzig Prozent sagen:"},
-   {"show": "{y:Konsole verkaufen!}"},
-   {"show": "Kalle ist"},
-   {"show": "{r:am Boden zerstört.}"}
-  ]},
-  {"id": "verkauf", "label": "", "lines": [
-   {"show": "Er stellt sie"},
-   {"show": "{y:online,}"},
-   {"show": "und nach {y:zehn Minuten}"},
-   {"show": "ist sie weg."},
-   {"show": "{g:250 Euro!}", "say": "Zweihundertfünfzig Euro!"}
-  ]},
-  {"id": "kuehlschrank", "label": "", "lines": [
-   {"show": "Davon kauft er"},
-   {"show": "einen {y:gebrauchten} Kühlschrank"},
-   {"show": "für {r:180 Euro.}", "say": "für hundertachtzig Euro."},
-   {"show": "Er schleppt ihn"},
-   {"show": "{y:allein} nach Hause."},
-   {"show": "Und er {g:läuft!}"}
-  ]},
-  {"id": "bauarbeiter", "label": "", "lines": [
-   {"show": "Am Mittag"},
-   {"show": "kommen die {y:Bauarbeiter}"},
-   {"show": "von der Baustelle."},
-   {"show": "{y:Kalte Getränke}"},
-   {"show": "bei {r:30 Grad?}", "say": "bei dreißig Grad?"},
-   {"show": "Kalle verdient"},
-   {"show": "{g:64 Euro.}", "say": "vierundsechzig Euro."}
-  ]},
-  {"id": "max", "label": "", "lines": [
-   {"show": "Und dann"},
-   {"show": "steht {y:Max} im Laden."},
-   {"show": "Er hat euer Video"},
-   {"show": "{y:gesehen}"},
-   {"show": "und will helfen –"},
-   {"show": "{g:ehrenamtlich.}"},
-   {"show": "Genau wie {y:viele von euch.}"}
-  ]},
-  {"id": "wendung", "label": "", "lines": [
-   {"show": "Doch gegenüber"},
-   {"show": "schaut {y:Dennis} zu."},
-   {"show": "Am Abend"},
-   {"show": "hängt bei ihm"},
-   {"show": "ein {y:neues Schild:}"},
-   {"show": "{r:Alle Getränke}"},
-   {"show": "{r:50 Cent!}", "say": "fünfzig Cent!"}
-  ]},
-  {"id": "abstimmung", "label": "", "lines": [
-   {"show": "Soll Kalle"},
-   {"show": "die {y:Preise} auch senken"},
-   {"show": "oder was {y:Eigenes} wagen:"},
-   {"show": "Omas {y:Geheimrezept-Kakao?}"},
-   {"show": "{y:A} oder {y:B}?"},
-   {"show": "Dein Kommentar {y:zählt.}"}
-  ]}
+  {
+   "id": "recap",
+   "label": "",
+   "lines": [
+    {
+     "show": "Noch {y:29 Tage,}",
+     "say": "Noch neunundzwanzig Tage,"
+    },
+    {
+     "show": "dann räumt {r:Herr Geier}"
+    },
+    {
+     "show": "den Kiosk."
+    },
+    {
+     "show": "Und Kalle hat"
+    },
+    {
+     "show": "erst {r:3 Euro 40.}",
+     "say": "erst drei Euro vierzig."
+    },
+    {
+     "show": "Aber heute kriegt er {g:Hilfe} –"
+    },
+    {
+     "show": "von {y:Maxim} aus den Kommentaren!"
+    }
+   ]
+  },
+  {
+   "id": "ergebnis",
+   "label": "",
+   "lines": [
+    {
+     "show": "Letzte Folge"
+    },
+    {
+     "show": "habt {y:ihr} entschieden:"
+    },
+    {
+     "show": "{y:90 Prozent} sagen:",
+     "say": "Neunzig Prozent sagen:"
+    },
+    {
+     "show": "{y:Konsole verkaufen!}"
+    },
+    {
+     "show": "Kalle ist"
+    },
+    {
+     "show": "{r:am Boden zerstört.}"
+    }
+   ]
+  },
+  {
+   "id": "verkauf",
+   "label": "",
+   "lines": [
+    {
+     "show": "Er stellt sie"
+    },
+    {
+     "show": "{y:online,}"
+    },
+    {
+     "show": "und nach {y:zehn Minuten}"
+    },
+    {
+     "show": "ist sie weg."
+    },
+    {
+     "show": "{g:250 Euro!}",
+     "say": "Zweihundertfünfzig Euro!"
+    }
+   ]
+  },
+  {
+   "id": "kuehlschrank",
+   "label": "",
+   "lines": [
+    {
+     "show": "Davon kauft er"
+    },
+    {
+     "show": "einen {y:gebrauchten} Kühlschrank"
+    },
+    {
+     "show": "für {r:180 Euro.}",
+     "say": "für hundertachtzig Euro."
+    },
+    {
+     "show": "Er schleppt ihn"
+    },
+    {
+     "show": "{y:allein} nach Hause."
+    },
+    {
+     "show": "Und er {g:läuft!}"
+    }
+   ]
+  },
+  {
+   "id": "bauarbeiter",
+   "label": "",
+   "lines": [
+    {
+     "show": "Am Mittag"
+    },
+    {
+     "show": "kommen die {y:Bauarbeiter}"
+    },
+    {
+     "show": "von der Baustelle."
+    },
+    {
+     "show": "{y:Kalte Getränke}"
+    },
+    {
+     "show": "bei {r:30 Grad?}",
+     "say": "bei dreißig Grad?"
+    },
+    {
+     "show": "Kalle verdient"
+    },
+    {
+     "show": "{g:64 Euro.}",
+     "say": "vierundsechzig Euro."
+    }
+   ]
+  },
+  {
+   "id": "max",
+   "label": "",
+   "lines": [
+    {
+     "show": "Und dann"
+    },
+    {
+     "show": "steht {y:Maxim} im Laden."
+    },
+    {
+     "show": "Ja, {y:der Maxim}"
+    },
+    {
+     "show": "aus euren {y:Kommentaren!}"
+    },
+    {
+     "show": "Er will helfen –"
+    },
+    {
+     "show": "{g:ehrenamtlich.}"
+    },
+    {
+     "show": "Genau wie {y:viele von euch.}"
+    }
+   ]
+  },
+  {
+   "id": "wendung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Doch gegenüber"
+    },
+    {
+     "show": "schaut {y:Dennis} zu."
+    },
+    {
+     "show": "Am Abend"
+    },
+    {
+     "show": "hängt bei ihm"
+    },
+    {
+     "show": "ein {y:neues Schild:}"
+    },
+    {
+     "show": "{r:Alle Getränke}"
+    },
+    {
+     "show": "{r:50 Cent!}",
+     "say": "fünfzig Cent!"
+    }
+   ]
+  },
+  {
+   "id": "abstimmung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Soll Kalle"
+    },
+    {
+     "show": "die {y:Preise} auch senken"
+    },
+    {
+     "show": "oder was {y:Eigenes} wagen:"
+    },
+    {
+     "show": "Omas {y:Geheimrezept-Kakao?}"
+    },
+    {
+     "show": "{y:A} oder {y:B}?"
+    },
+    {
+     "show": "Dein Kommentar {y:zählt.}"
+    }
+   ]
+  }
  ]
 }

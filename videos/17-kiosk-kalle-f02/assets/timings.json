@@ -1,5 +1,5 @@
 {
- "duration": 48.35,
+ "duration": 53.71,
  "source": "take1.mp3",
  "beats": [
   {
@@ -9,121 +9,190 @@
     {
      "show": "Noch {y:29 Tage,}",
      "start": 0.0,
-     "end": 1.569,
+     "end": 1.029,
      "words": [
       {
        "text": "Noch",
        "start": 0.0,
-       "end": 0.595
+       "end": 0.39
       },
       {
        "text": "29",
-       "start": 0.595,
-       "end": 0.974
+       "start": 0.39,
+       "end": 0.639
       },
       {
        "text": "Tage,",
-       "start": 0.974,
-       "end": 1.569
+       "start": 0.639,
+       "end": 1.029
       }
      ]
     },
     {
      "show": "dann räumt {r:Herr Geier}",
-     "start": 1.569,
-     "end": 2.51,
+     "start": 1.029,
+     "end": 1.646,
      "words": [
       {
        "text": "dann",
-       "start": 1.569,
-       "end": 1.785
+       "start": 1.029,
+       "end": 1.17
       },
       {
        "text": "räumt",
-       "start": 1.785,
-       "end": 2.04
+       "start": 1.17,
+       "end": 1.337
       },
       {
        "text": "Herr",
-       "start": 2.04,
-       "end": 2.255
+       "start": 1.337,
+       "end": 1.479
       },
       {
        "text": "Geier",
-       "start": 2.255,
-       "end": 2.51
+       "start": 1.479,
+       "end": 1.646
       }
      ]
     },
     {
      "show": "den Kiosk.",
-     "start": 2.51,
-     "end": 3.033,
+     "start": 1.646,
+     "end": 1.989,
      "words": [
       {
        "text": "den",
-       "start": 2.51,
-       "end": 2.724
+       "start": 1.646,
+       "end": 1.786
       },
       {
        "text": "Kiosk.",
-       "start": 2.724,
-       "end": 3.033
+       "start": 1.786,
+       "end": 1.989
       }
      ]
     },
     {
      "show": "Und Kalle hat",
-     "start": 3.342,
-     "end": 4.139,
+     "start": 2.129,
+     "end": 2.823,
      "words": [
       {
        "text": "Und",
-       "start": 3.342,
-       "end": 3.573
+       "start": 2.129,
+       "end": 2.33
       },
       {
        "text": "Kalle",
-       "start": 3.573,
-       "end": 3.907
+       "start": 2.33,
+       "end": 2.622
       },
       {
        "text": "hat",
-       "start": 3.907,
-       "end": 4.139
+       "start": 2.622,
+       "end": 2.823
       }
      ]
     },
     {
      "show": "erst {r:3 Euro 40.}",
-     "start": 4.139,
-     "end": 5.289,
+     "start": 2.823,
+     "end": 3.827,
      "words": [
       {
        "text": "erst",
-       "start": 4.139,
-       "end": 4.511
+       "start": 2.823,
+       "end": 3.148
       },
       {
        "text": "3",
-       "start": 4.511,
-       "end": 4.68
+       "start": 3.148,
+       "end": 3.295
       },
       {
        "text": "Euro",
-       "start": 4.68,
-       "end": 5.052
+       "start": 3.295,
+       "end": 3.62
       },
       {
        "text": "40.",
-       "start": 5.052,
-       "end": 5.289
+       "start": 3.62,
+       "end": 3.827
+      }
+     ]
+    },
+    {
+     "show": "Aber heute kriegt er {g:Hilfe} –",
+     "start": 4.2,
+     "end": 5.55,
+     "words": [
+      {
+       "text": "Aber",
+       "start": 4.2,
+       "end": 4.44
+      },
+      {
+       "text": "heute",
+       "start": 4.44,
+       "end": 4.723
+      },
+      {
+       "text": "kriegt",
+       "start": 4.723,
+       "end": 5.049
+      },
+      {
+       "text": "er",
+       "start": 5.049,
+       "end": 5.202
+      },
+      {
+       "text": "Hilfe",
+       "start": 5.202,
+       "end": 5.485
+      },
+      {
+       "text": "–",
+       "start": 5.485,
+       "end": 5.55
+      }
+     ]
+    },
+    {
+     "show": "von {y:Maxim} aus den Kommentaren!",
+     "start": 5.6,
+     "end": 6.94,
+     "words": [
+      {
+       "text": "von",
+       "start": 5.6,
+       "end": 5.786
+      },
+      {
+       "text": "Maxim",
+       "start": 5.786,
+       "end": 6.054
+      },
+      {
+       "text": "aus",
+       "start": 6.054,
+       "end": 6.239
+      },
+      {
+       "text": "den",
+       "start": 6.239,
+       "end": 6.425
+      },
+      {
+       "text": "Kommentaren!",
+       "start": 6.425,
+       "end": 6.94
       }
      ]
     }
    ],
    "start": 0.0,
-   "end": 5.289
+   "end": 6.94
   },
   {
    "id": "ergebnis",
@@ -131,124 +200,124 @@
    "lines": [
     {
      "show": "Letzte Folge",
-     "start": 5.661,
-     "end": 6.354,
+     "start": 7.204,
+     "end": 8.545,
      "words": [
       {
        "text": "Letzte",
-       "start": 5.661,
-       "end": 6.032
+       "start": 7.204,
+       "end": 7.923
       },
       {
        "text": "Folge",
-       "start": 6.032,
-       "end": 6.354
+       "start": 7.923,
+       "end": 8.545
       }
      ]
     },
     {
      "show": "habt {y:ihr} entschieden:",
-     "start": 6.354,
-     "end": 7.2,
+     "start": 8.545,
+     "end": 10.185,
      "words": [
       {
        "text": "habt",
-       "start": 6.354,
-       "end": 6.56
+       "start": 8.545,
+       "end": 8.946
       },
       {
        "text": "ihr",
-       "start": 6.56,
-       "end": 6.73
+       "start": 8.946,
+       "end": 9.274
       },
       {
        "text": "entschieden:",
-       "start": 6.73,
-       "end": 7.2
+       "start": 9.274,
+       "end": 10.185
       }
      ]
     },
     {
      "show": "{y:90 Prozent} sagen:",
-     "start": 7.345,
-     "end": 8.47,
+     "start": 10.363,
+     "end": 12.437,
      "words": [
       {
        "text": "90",
-       "start": 7.345,
-       "end": 7.558
+       "start": 10.363,
+       "end": 10.756
       },
       {
        "text": "Prozent",
-       "start": 7.558,
-       "end": 8.075
+       "start": 10.756,
+       "end": 11.708
       },
       {
        "text": "sagen:",
-       "start": 8.075,
-       "end": 8.47
+       "start": 11.708,
+       "end": 12.437
       }
      ]
     },
     {
      "show": "{y:Konsole verkaufen!}",
-     "start": 8.618,
-     "end": 9.785,
+     "start": 12.437,
+     "end": 14.51,
      "words": [
       {
        "text": "Konsole",
-       "start": 8.618,
-       "end": 9.14
+       "start": 12.437,
+       "end": 13.364
       },
       {
        "text": "verkaufen!",
-       "start": 9.14,
-       "end": 9.785
+       "start": 13.364,
+       "end": 14.51
       }
      ]
     },
     {
      "show": "Kalle ist",
-     "start": 10.059,
-     "end": 10.668,
+     "start": 14.714,
+     "end": 15.359,
      "words": [
       {
        "text": "Kalle",
-       "start": 10.059,
-       "end": 10.419
+       "start": 14.714,
+       "end": 15.095
       },
       {
        "text": "ist",
-       "start": 10.419,
-       "end": 10.668
+       "start": 15.095,
+       "end": 15.359
       }
      ]
     },
     {
      "show": "{r:am Boden zerstört.}",
-     "start": 10.668,
-     "end": 11.624,
+     "start": 15.359,
+     "end": 16.372,
      "words": [
       {
        "text": "am",
-       "start": 10.668,
-       "end": 10.84
+       "start": 15.359,
+       "end": 15.541
       },
       {
        "text": "Boden",
-       "start": 10.84,
-       "end": 11.158
+       "start": 15.541,
+       "end": 15.878
       },
       {
        "text": "zerstört.",
-       "start": 11.158,
-       "end": 11.624
+       "start": 15.878,
+       "end": 16.372
       }
      ]
     }
    ],
-   "start": 5.661,
-   "end": 11.624
+   "start": 7.204,
+   "end": 16.372
   },
   {
    "id": "verkauf",
@@ -256,107 +325,107 @@
    "lines": [
     {
      "show": "Er stellt sie",
-     "start": 11.879,
-     "end": 12.402,
+     "start": 16.646,
+     "end": 17.18,
      "words": [
       {
        "text": "Er",
-       "start": 11.879,
-       "end": 11.997
+       "start": 16.646,
+       "end": 16.767
       },
       {
        "text": "stellt",
-       "start": 11.997,
-       "end": 12.25
+       "start": 16.767,
+       "end": 17.025
       },
       {
        "text": "sie",
-       "start": 12.25,
-       "end": 12.402
+       "start": 17.025,
+       "end": 17.18
       }
      ]
     },
     {
      "show": "{y:online,}",
-     "start": 12.402,
-     "end": 12.924,
+     "start": 17.18,
+     "end": 17.715,
      "words": [
       {
        "text": "online,",
-       "start": 12.402,
-       "end": 12.924
+       "start": 17.18,
+       "end": 17.715
       }
      ]
     },
     {
      "show": "und nach {y:zehn Minuten}",
-     "start": 12.924,
-     "end": 13.895,
+     "start": 17.715,
+     "end": 18.708,
      "words": [
       {
        "text": "und",
-       "start": 12.924,
-       "end": 13.106
+       "start": 17.715,
+       "end": 17.901
       },
       {
        "text": "nach",
-       "start": 13.106,
-       "end": 13.329
+       "start": 17.901,
+       "end": 18.129
       },
       {
        "text": "zehn",
-       "start": 13.329,
-       "end": 13.551
+       "start": 18.129,
+       "end": 18.356
       },
       {
        "text": "Minuten",
-       "start": 13.551,
-       "end": 13.895
+       "start": 18.356,
+       "end": 18.708
       }
      ]
     },
     {
      "show": "ist sie weg.",
-     "start": 13.895,
-     "end": 14.418,
+     "start": 18.708,
+     "end": 19.242,
      "words": [
       {
        "text": "ist",
-       "start": 13.895,
-       "end": 14.07
+       "start": 18.708,
+       "end": 18.886
       },
       {
        "text": "sie",
-       "start": 14.07,
-       "end": 14.244
+       "start": 18.886,
+       "end": 19.064
       },
       {
        "text": "weg.",
-       "start": 14.244,
-       "end": 14.418
+       "start": 19.064,
+       "end": 19.242
       }
      ]
     },
     {
      "show": "{g:250 Euro!}",
-     "start": 14.641,
-     "end": 16.459,
+     "start": 19.404,
+     "end": 20.723,
      "words": [
       {
        "text": "250",
-       "start": 14.641,
-       "end": 15.459
+       "start": 19.404,
+       "end": 19.998
       },
       {
        "text": "Euro!",
-       "start": 15.459,
-       "end": 16.459
+       "start": 19.998,
+       "end": 20.723
       }
      ]
     }
    ],
-   "start": 11.879,
-   "end": 16.459
+   "start": 16.646,
+   "end": 20.723
   },
   {
    "id": "kuehlschrank",
@@ -364,139 +433,139 @@
    "lines": [
     {
      "show": "Davon kauft er",
-     "start": 16.659,
-     "end": 17.36,
+     "start": 20.723,
+     "end": 21.514,
      "words": [
       {
        "text": "Davon",
-       "start": 16.659,
-       "end": 16.935
+       "start": 20.723,
+       "end": 21.035
       },
       {
        "text": "kauft",
-       "start": 16.935,
-       "end": 17.211
+       "start": 21.035,
+       "end": 21.346
       },
       {
        "text": "er",
-       "start": 17.211,
-       "end": 17.36
+       "start": 21.346,
+       "end": 21.514
       }
      ]
     },
     {
      "show": "einen {y:gebrauchten} Kühlschrank",
-     "start": 17.36,
-     "end": 18.527,
+     "start": 21.514,
+     "end": 22.833,
      "words": [
       {
        "text": "einen",
-       "start": 17.36,
-       "end": 17.601
+       "start": 21.514,
+       "end": 21.786
       },
       {
        "text": "gebrauchten",
-       "start": 17.601,
-       "end": 18.064
+       "start": 21.786,
+       "end": 22.31
       },
       {
        "text": "Kühlschrank",
-       "start": 18.064,
-       "end": 18.527
+       "start": 22.31,
+       "end": 22.833
       }
      ]
     },
     {
      "show": "für {r:180 Euro.}",
-     "start": 18.527,
-     "end": 19.695,
+     "start": 22.833,
+     "end": 24.152,
      "words": [
       {
        "text": "für",
-       "start": 18.527,
-       "end": 18.89
+       "start": 22.833,
+       "end": 23.242
       },
       {
        "text": "180",
-       "start": 18.89,
-       "end": 19.252
+       "start": 23.242,
+       "end": 23.651
       },
       {
        "text": "Euro.",
-       "start": 19.252,
-       "end": 19.695
+       "start": 23.651,
+       "end": 24.152
       }
      ]
     },
     {
      "show": "Er schleppt ihn",
-     "start": 19.909,
-     "end": 20.444,
+     "start": 24.315,
+     "end": 24.972,
      "words": [
       {
        "text": "Er",
-       "start": 19.909,
-       "end": 20.016
+       "start": 24.315,
+       "end": 24.447
       },
       {
        "text": "schleppt",
-       "start": 20.016,
-       "end": 20.306
+       "start": 24.447,
+       "end": 24.803
       },
       {
        "text": "ihn",
-       "start": 20.306,
-       "end": 20.444
+       "start": 24.803,
+       "end": 24.972
       }
      ]
     },
     {
      "show": "{y:allein} nach Hause.",
-     "start": 20.444,
-     "end": 21.284,
+     "start": 24.972,
+     "end": 26.005,
      "words": [
       {
        "text": "allein",
-       "start": 20.444,
-       "end": 20.767
+       "start": 24.972,
+       "end": 25.37
       },
       {
        "text": "nach",
-       "start": 20.767,
-       "end": 21.004
+       "start": 25.37,
+       "end": 25.661
       },
       {
        "text": "Hause.",
-       "start": 21.004,
-       "end": 21.284
+       "start": 25.661,
+       "end": 26.005
       }
      ]
     },
     {
      "show": "Und er {g:läuft!}",
-     "start": 21.524,
-     "end": 22.351,
+     "start": 26.151,
+     "end": 27.031,
      "words": [
       {
        "text": "Und",
-       "start": 21.524,
-       "end": 21.781
+       "start": 26.151,
+       "end": 26.424
       },
       {
        "text": "er",
-       "start": 21.781,
-       "end": 21.98
+       "start": 26.424,
+       "end": 26.636
       },
       {
        "text": "läuft!",
-       "start": 21.98,
-       "end": 22.351
+       "start": 26.636,
+       "end": 27.031
       }
      ]
     }
    ],
-   "start": 16.659,
-   "end": 22.351
+   "start": 20.723,
+   "end": 27.031
   },
   {
    "id": "bauarbeiter",
@@ -504,141 +573,141 @@
    "lines": [
     {
      "show": "Am Mittag",
-     "start": 22.632,
-     "end": 23.105,
+     "start": 27.206,
+     "end": 27.671,
      "words": [
       {
        "text": "Am",
-       "start": 22.632,
-       "end": 22.782
+       "start": 27.206,
+       "end": 27.354
       },
       {
        "text": "Mittag",
-       "start": 22.782,
-       "end": 23.105
+       "start": 27.354,
+       "end": 27.671
       }
      ]
     },
     {
      "show": "kommen die {y:Bauarbeiter}",
-     "start": 23.105,
-     "end": 23.984,
+     "start": 27.671,
+     "end": 28.533,
      "words": [
       {
        "text": "kommen",
-       "start": 23.105,
-       "end": 23.374
+       "start": 27.671,
+       "end": 27.935
       },
       {
        "text": "die",
-       "start": 23.374,
-       "end": 23.535
+       "start": 27.935,
+       "end": 28.093
       },
       {
        "text": "Bauarbeiter",
-       "start": 23.535,
-       "end": 23.984
+       "start": 28.093,
+       "end": 28.533
       }
      ]
     },
     {
      "show": "von der Baustelle.",
-     "start": 23.984,
-     "end": 24.727,
+     "start": 28.533,
+     "end": 29.263,
      "words": [
       {
        "text": "von",
-       "start": 23.984,
-       "end": 24.155
+       "start": 28.533,
+       "end": 28.701
       },
       {
        "text": "der",
-       "start": 24.155,
-       "end": 24.327
+       "start": 28.701,
+       "end": 28.87
       },
       {
        "text": "Baustelle.",
-       "start": 24.327,
-       "end": 24.727
+       "start": 28.87,
+       "end": 29.263
       }
      ]
     },
     {
      "show": "{y:Kalte Getränke}",
-     "start": 24.966,
-     "end": 26.011,
+     "start": 29.419,
+     "end": 30.443,
      "words": [
       {
        "text": "Kalte",
-       "start": 24.966,
-       "end": 25.391
+       "start": 29.419,
+       "end": 29.835
       },
       {
        "text": "Getränke",
-       "start": 25.391,
-       "end": 26.011
+       "start": 29.835,
+       "end": 30.443
       }
      ]
     },
     {
      "show": "bei {r:30 Grad?}",
-     "start": 26.011,
-     "end": 26.865,
+     "start": 30.443,
+     "end": 31.28,
      "words": [
       {
        "text": "bei",
-       "start": 26.011,
-       "end": 26.295
+       "start": 30.443,
+       "end": 30.722
       },
       {
        "text": "30",
-       "start": 26.295,
-       "end": 26.517
+       "start": 30.722,
+       "end": 30.939
       },
       {
        "text": "Grad?",
-       "start": 26.517,
-       "end": 26.865
+       "start": 30.939,
+       "end": 31.28
       }
      ]
     },
     {
      "show": "Kalle verdient",
-     "start": 27.103,
-     "end": 27.836,
+     "start": 31.449,
+     "end": 32.185,
      "words": [
       {
        "text": "Kalle",
-       "start": 27.103,
-       "end": 27.401
+       "start": 31.449,
+       "end": 31.748
       },
       {
        "text": "verdient",
-       "start": 27.401,
-       "end": 27.836
+       "start": 31.748,
+       "end": 32.185
       }
      ]
     },
     {
      "show": "{g:64 Euro.}",
-     "start": 27.836,
-     "end": 28.895,
+     "start": 32.185,
+     "end": 33.247,
      "words": [
       {
        "text": "64",
-       "start": 27.836,
-       "end": 28.248
+       "start": 32.185,
+       "end": 32.598
       },
       {
        "text": "Euro.",
-       "start": 28.248,
-       "end": 28.895
+       "start": 32.598,
+       "end": 33.247
       }
      ]
     }
    ],
-   "start": 22.632,
-   "end": 28.895
+   "start": 27.206,
+   "end": 33.247
   },
   {
    "id": "max",
@@ -646,161 +715,166 @@
    "lines": [
     {
      "show": "Und dann",
-     "start": 29.183,
-     "end": 29.643,
+     "start": 33.413,
+     "end": 33.845,
      "words": [
       {
        "text": "Und",
-       "start": 29.183,
-       "end": 29.39
+       "start": 33.413,
+       "end": 33.607
       },
       {
        "text": "dann",
-       "start": 29.39,
-       "end": 29.643
+       "start": 33.607,
+       "end": 33.845
       }
      ]
     },
     {
-     "show": "steht {y:Max} im Laden.",
-     "start": 29.643,
-     "end": 30.654,
+     "show": "steht {y:Maxim} im Laden.",
+     "start": 33.845,
+     "end": 34.97,
      "words": [
       {
        "text": "steht",
-       "start": 29.643,
-       "end": 29.956
+       "start": 33.845,
+       "end": 34.163
       },
       {
-       "text": "Max",
-       "start": 29.956,
-       "end": 30.172
+       "text": "Maxim",
+       "start": 34.163,
+       "end": 34.481
       },
       {
        "text": "im",
-       "start": 30.172,
-       "end": 30.341
+       "start": 34.481,
+       "end": 34.652
       },
       {
        "text": "Laden.",
-       "start": 30.341,
-       "end": 30.654
+       "start": 34.652,
+       "end": 34.97
       }
      ]
     },
     {
-     "show": "Er hat euer Video",
-     "start": 30.877,
-     "end": 31.609,
+     "show": "Ja, {y:der Maxim}",
+     "start": 35.095,
+     "end": 36.034,
+     "words": [
+      {
+       "text": "Ja,",
+       "start": 35.095,
+       "end": 35.322
+      },
+      {
+       "text": "der",
+       "start": 35.322,
+       "end": 35.613
+      },
+      {
+       "text": "Maxim",
+       "start": 35.613,
+       "end": 36.034
+      }
+     ]
+    },
+    {
+     "show": "aus euren {y:Kommentaren!}",
+     "start": 36.034,
+     "end": 37.392,
+     "words": [
+      {
+       "text": "aus",
+       "start": 36.034,
+       "end": 36.294
+      },
+      {
+       "text": "euren",
+       "start": 36.294,
+       "end": 36.67
+      },
+      {
+       "text": "Kommentaren!",
+       "start": 36.67,
+       "end": 37.392
+      }
+     ]
+    },
+    {
+     "show": "Er will helfen –",
+     "start": 37.54,
+     "end": 38.2,
      "words": [
       {
        "text": "Er",
-       "start": 30.877,
-       "end": 31.005
-      },
-      {
-       "text": "hat",
-       "start": 31.005,
-       "end": 31.169
-      },
-      {
-       "text": "euer",
-       "start": 31.169,
-       "end": 31.371
-      },
-      {
-       "text": "Video",
-       "start": 31.371,
-       "end": 31.609
-      }
-     ]
-    },
-    {
-     "show": "{y:gesehen}",
-     "start": 31.609,
-     "end": 32.075,
-     "words": [
-      {
-       "text": "gesehen",
-       "start": 31.609,
-       "end": 32.075
-      }
-     ]
-    },
-    {
-     "show": "und will helfen –",
-     "start": 32.075,
-     "end": 32.673,
-     "words": [
-      {
-       "text": "und",
-       "start": 32.075,
-       "end": 32.216
+       "start": 37.54,
+       "end": 37.668
       },
       {
        "text": "will",
-       "start": 32.216,
-       "end": 32.39
+       "start": 37.668,
+       "end": 37.87
       },
       {
        "text": "helfen",
-       "start": 32.39,
-       "end": 32.626
+       "start": 37.87,
+       "end": 38.145
       },
       {
        "text": "–",
-       "start": 32.626,
-       "end": 32.673
+       "start": 38.145,
+       "end": 38.2
       }
      ]
     },
     {
      "show": "{g:ehrenamtlich.}",
-     "start": 32.976,
-     "end": 33.687,
+     "start": 38.4,
+     "end": 39.13,
      "words": [
       {
        "text": "ehrenamtlich.",
-       "start": 32.976,
-       "end": 33.687
+       "start": 38.4,
+       "end": 39.13
       }
      ]
     },
     {
      "show": "Genau wie {y:viele von euch.}",
-     "start": 33.902,
-     "end": 35.162,
+     "start": 39.29,
+     "end": 40.54,
      "words": [
       {
        "text": "Genau",
-       "start": 33.902,
-       "end": 34.2
+       "start": 39.29,
+       "end": 39.585
       },
       {
        "text": "wie",
-       "start": 34.2,
-       "end": 34.406
+       "start": 39.585,
+       "end": 39.79
       },
       {
        "text": "viele",
-       "start": 34.406,
-       "end": 34.704
+       "start": 39.79,
+       "end": 40.085
       },
       {
        "text": "von",
-       "start": 34.704,
-       "end": 34.91
+       "start": 40.085,
+       "end": 40.29
       },
       {
        "text": "euch.",
-       "start": 34.91,
-       "end": 35.162
+       "start": 40.29,
+       "end": 40.54
       }
      ]
     }
    ],
-   "start": 29.183,
-   "end": 35.162
+   "start": 33.413,
+   "end": 40.54
   },
   {
    "id": "wendung",
@@ -808,141 +882,141 @@
    "lines": [
     {
      "show": "Doch gegenüber",
-     "start": 35.392,
-     "end": 36.249,
+     "start": 40.71,
+     "end": 41.5,
      "words": [
       {
        "text": "Doch",
-       "start": 35.392,
-       "end": 35.686
+       "start": 40.71,
+       "end": 40.982
       },
       {
        "text": "gegenüber",
-       "start": 35.686,
-       "end": 36.249
+       "start": 40.982,
+       "end": 41.5
       }
      ]
     },
     {
      "show": "schaut {y:Dennis} zu.",
-     "start": 36.249,
-     "end": 36.95,
+     "start": 41.5,
+     "end": 42.49,
      "words": [
       {
        "text": "schaut",
-       "start": 36.249,
-       "end": 36.533
+       "start": 41.5,
+       "end": 41.901
       },
       {
        "text": "Dennis",
-       "start": 36.533,
-       "end": 36.817
+       "start": 41.901,
+       "end": 42.303
       },
       {
        "text": "zu.",
-       "start": 36.817,
-       "end": 36.95
+       "start": 42.303,
+       "end": 42.49
       }
      ]
     },
     {
      "show": "Am Abend",
-     "start": 37.257,
-     "end": 37.817,
+     "start": 42.71,
+     "end": 43.29,
      "words": [
       {
        "text": "Am",
-       "start": 37.257,
-       "end": 37.453
+       "start": 42.71,
+       "end": 42.913
       },
       {
        "text": "Abend",
-       "start": 37.453,
-       "end": 37.817
+       "start": 42.913,
+       "end": 43.29
       }
      ]
     },
     {
      "show": "hängt bei ihm",
-     "start": 37.817,
-     "end": 38.377,
+     "start": 43.29,
+     "end": 43.87,
      "words": [
       {
        "text": "hängt",
-       "start": 37.817,
-       "end": 38.052
+       "start": 43.29,
+       "end": 43.533
       },
       {
        "text": "bei",
-       "start": 38.052,
-       "end": 38.214
+       "start": 43.533,
+       "end": 43.702
       },
       {
        "text": "ihm",
-       "start": 38.214,
-       "end": 38.377
+       "start": 43.702,
+       "end": 43.87
       }
      ]
     },
     {
      "show": "ein {y:neues Schild:}",
-     "start": 38.377,
-     "end": 38.936,
+     "start": 43.87,
+     "end": 44.64,
      "words": [
       {
        "text": "ein",
-       "start": 38.377,
-       "end": 38.513
+       "start": 43.87,
+       "end": 44.057
       },
       {
        "text": "neues",
-       "start": 38.513,
-       "end": 38.709
+       "start": 44.057,
+       "end": 44.328
       },
       {
        "text": "Schild:",
-       "start": 38.709,
-       "end": 38.936
+       "start": 44.328,
+       "end": 44.64
       }
      ]
     },
     {
      "show": "{r:Alle Getränke}",
-     "start": 39.158,
-     "end": 40.165,
+     "start": 44.64,
+     "end": 45.61,
      "words": [
       {
        "text": "Alle",
-       "start": 39.158,
-       "end": 39.528
+       "start": 44.64,
+       "end": 44.996
       },
       {
        "text": "Getränke",
-       "start": 39.528,
-       "end": 40.165
+       "start": 44.996,
+       "end": 45.61
       }
      ]
     },
     {
      "show": "{r:50 Cent!}",
-     "start": 40.165,
-     "end": 40.806,
+     "start": 45.61,
+     "end": 46.19,
      "words": [
       {
        "text": "50",
-       "start": 40.165,
-       "end": 40.415
+       "start": 45.61,
+       "end": 45.836
       },
       {
        "text": "Cent!",
-       "start": 40.415,
-       "end": 40.806
+       "start": 45.836,
+       "end": 46.19
       }
      ]
     }
    ],
-   "start": 35.392,
-   "end": 40.806
+   "start": 40.71,
+   "end": 46.19
   },
   {
    "id": "abstimmung",
@@ -950,139 +1024,139 @@
    "lines": [
     {
      "show": "Soll Kalle",
-     "start": 41.067,
-     "end": 41.609,
+     "start": 46.337,
+     "end": 46.971,
      "words": [
       {
        "text": "Soll",
-       "start": 41.067,
-       "end": 41.316
+       "start": 46.337,
+       "end": 46.628
       },
       {
        "text": "Kalle",
-       "start": 41.316,
-       "end": 41.609
+       "start": 46.628,
+       "end": 46.971
       }
      ]
     },
     {
      "show": "die {y:Preise} auch senken",
-     "start": 41.609,
-     "end": 42.616,
+     "start": 46.971,
+     "end": 48.147,
      "words": [
       {
        "text": "die",
-       "start": 41.609,
-       "end": 41.791
+       "start": 46.971,
+       "end": 47.182
       },
       {
        "text": "Preise",
-       "start": 41.791,
-       "end": 42.093
+       "start": 47.182,
+       "end": 47.535
       },
       {
        "text": "auch",
-       "start": 42.093,
-       "end": 42.314
+       "start": 47.535,
+       "end": 47.794
       },
       {
        "text": "senken",
-       "start": 42.314,
-       "end": 42.616
+       "start": 47.794,
+       "end": 48.147
       }
      ]
     },
     {
      "show": "oder was {y:Eigenes} wagen:",
-     "start": 42.616,
-     "end": 43.933,
+     "start": 48.147,
+     "end": 49.685,
      "words": [
       {
        "text": "oder",
-       "start": 42.616,
-       "end": 42.906
+       "start": 48.147,
+       "end": 48.485
       },
       {
        "text": "was",
-       "start": 42.906,
-       "end": 43.143
+       "start": 48.485,
+       "end": 48.762
       },
       {
        "text": "Eigenes",
-       "start": 43.143,
-       "end": 43.591
+       "start": 48.762,
+       "end": 49.285
       },
       {
        "text": "wagen:",
-       "start": 43.591,
-       "end": 43.933
+       "start": 49.285,
+       "end": 49.685
       }
      ]
     },
     {
      "show": "Omas {y:Geheimrezept-Kakao?}",
-     "start": 44.128,
-     "end": 45.673,
+     "start": 49.685,
+     "end": 51.223,
      "words": [
       {
        "text": "Omas",
-       "start": 44.128,
-       "end": 44.482
+       "start": 49.685,
+       "end": 50.037
       },
       {
        "text": "Geheimrezept-Kakao?",
-       "start": 44.482,
-       "end": 45.673
+       "start": 50.037,
+       "end": 51.223
       }
      ]
     },
     {
      "show": "{y:A} oder {y:B}?",
-     "start": 45.911,
-     "end": 46.781,
+     "start": 51.349,
+     "end": 52.104,
      "words": [
       {
        "text": "A",
-       "start": 45.911,
-       "end": 46.118
+       "start": 51.349,
+       "end": 51.529
       },
       {
        "text": "oder",
-       "start": 46.118,
-       "end": 46.574
+       "start": 51.529,
+       "end": 51.924
       },
       {
        "text": "B?",
-       "start": 46.574,
-       "end": 46.781
+       "start": 51.924,
+       "end": 52.104
       }
      ]
     },
     {
      "show": "Dein Kommentar {y:zählt.}",
-     "start": 47.05,
-     "end": 48.156,
+     "start": 52.248,
+     "end": 53.403,
      "words": [
       {
        "text": "Dein",
-       "start": 47.05,
-       "end": 47.32
+       "start": 52.248,
+       "end": 52.53
       },
       {
        "text": "Kommentar",
-       "start": 47.32,
-       "end": 47.836
+       "start": 52.53,
+       "end": 53.069
       },
       {
        "text": "zählt.",
-       "start": 47.836,
-       "end": 48.156
+       "start": 53.069,
+       "end": 53.403
       }
      ]
     }
    ],
-   "start": 41.067,
-   "end": 48.156
+   "start": 46.337,
+   "end": 53.403
   }
  ]
 }

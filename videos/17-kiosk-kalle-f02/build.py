@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Kiosk-Kalle – Folge 2. Abstimmung Folge 1: A „Konsole verkaufen“ 90 % / B „Kredit bei Dennis“ 10 % (41 Stimmen).
+"""Kiosk-Kalle – Folge 2 (Helfer Maxim – Zuschauer aus den Kommentaren, auf Wunsch des Creators). Abstimmung Folge 1: A „Konsole verkaufen“ 90 % / B „Kredit bei Dennis“ 10 % (41 Stimmen).
 
 1. python3 ../../tools/align.py . assets/source/take1.mp3
 2. python3 build.py
@@ -168,12 +168,20 @@ def s_recap(s0, s1):
     body += place(fg.geier("g", w=360, mund="smirk"), 820, 1680, z=3)
     body += lautmalerei("hook", "NOCH 29 TAGE", 70, 420, size=122, color=sk.YEL, rot=-4).replace("opacity:0", "opacity:1")
     body += '<div id="gb" class="bubble" style="left:420px;top:700px;opacity:0;font-size:44px;z-index:5">TICK, TACK.</div>'
+    body += kommentar("mk", "Maxim: „Darf ich Mitarbeiter sein?“", 90, 560).replace("font-size:36px", "font-size:44px")
+    body += lautmalerei("mklab", "AUS DEN KOMMENTAREN!", 150, 440, size=62, color=sk.YEL, rot=-4).replace("left:", "z-index:6;left:")
     js = breathe("#k", 0, s1 - s0)
     js += f'tl.fromTo("#hook",{{scale:1.25}},{{scale:1,duration:0.35,ease:"back.out(2)"}},0);\n'
     js += pop_out("#hook", r(L("recap", 1)) + 0.4)
     js += walk_in("#g", r(L("recap", 1)), 500, 0.5) + pop_in("#gb", r(L("recap", 2)))
     t = r(L("recap", 4))
     js += fg.face_js("k", "sad", t) + fg.eyes_js("k", "wide", t) + shake("#k", t, n=3, amp=6)
+    t5 = r(L("recap", 5))
+    js += pop_out("#gb", t5 - 0.1) + f'tl.to("#g",{{x:500,duration:0.4,ease:"power2.in"}},{t5});\n'
+    js += pop_in("#mk", r(L("recap", 6)), rot=-3) + fg.face_js("k", "grin", r(L("recap", 6))) + fg.eyes_js("k", "normal", r(L("recap", 6)))
+    js += hop("#k", r(L("recap", 6)) + 0.1, 50, n=2) + pop_in("#mklab", r(L("recap", 6)) + 0.25, rot=6)
+    sfx(L("recap", 6), "pop.mp3", 0.6)
+    sfx(L("recap", 6) + 0.25, "sparkle.mp3", 0.5)
     sfx(0.0, "impact-bass-2.mp3", 0.5)
     sfx(L("recap", 1), "whoosh-short.mp3", 0.45)
     sfx(L("recap", 2), "tick.wav", 0.6)
@@ -291,10 +299,10 @@ def s_bau(s0, s1):
 def s_max(s0, s1):
     r = lambda t: round(t - s0, 3)  # noqa: E731
     body = innen_basis("ki3", uhr="15:00", mund="open") + place(fg.max_helfer("mx", w=420, mund="grin"), 800, 1760, z=4)
-    body += '<div id="mb" class="bubble" style="left:430px;top:780px;opacity:0;z-index:6">ICH HELF DIR – UMSONST!</div>'
+    body += '<div id="mb" class="bubble" style="left:470px;top:780px;opacity:0;z-index:6">ICH BIN MAXIM – ICH HELF DIR!</div>'
     body += lautmalerei("eh", "EHRENAMTLICH!", 120, 470, size=110, color=sk.GRN, rot=-5)
-    body += (kommentar("c1", "Darf ich mitarbeiten?", 60, 420) + kommentar("c2", "Ich würd umsonst helfen!", 330, 545)
-             + kommentar("c3", "A – langfristig denken!", 120, 670))
+    body += (kommentar("c1", "Maxim: „Darf ich Mitarbeiter sein?“", 60, 420) + kommentar("c2", "„Ich würde ehrenamtlich arbeiten!“", 50, 545)
+             + kommentar("c3", "„A – man muss langfristig denken!“", 60, 670))
     body += "".join(herz(f"h{i}", x, y) for i, (x, y) in enumerate(((880, 560), (140, 900), (900, 1000), (620, 480))))
     t = r(L("max", 1))
     js = walk_in("#mx", t, 520, 0.6) + fg.face_js("k", "shock", t + 0.3) + fg.eyes_js("k", "wide", t + 0.3)

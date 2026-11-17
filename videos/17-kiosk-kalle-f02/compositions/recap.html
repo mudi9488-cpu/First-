@@ -109,17 +109,22 @@
   <ellipse cx="34" cy="-648" rx="14" ry="10" fill="#fff" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-width='4'/><circle cx="32" cy="-647" r="6" fill="#1B1530"/>
   <path d="M 0 -640 Q 34 -600 30 -580 Q 14 -566 -4 -584" fill="#EBC3A4" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
   <g id="recap-g-m-grin" opacity="0" transform="translate(0,-560)"><path d="M -34.5 0 Q 0 43.5 34.5 0 Z" fill="#7A2230" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /><path d="M -27.0 3.0 L 27.0 3.0 L 22.5 12.0 L -22.5 12.0 Z" fill="#fff"/></g><g id="recap-g-m-shock" opacity="0" transform="translate(0,-560)"><ellipse cx="0" cy="9.0" rx="22.5" ry="28.5" fill="#7A2230" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /><ellipse cx="0" cy="22.5" rx="12.0" ry="9.0" fill="#FF7A8A"/></g><g id="recap-g-m-sad" opacity="0" transform="translate(0,-560)"><path d="M -25.5 13.5 Q 0 -10.5 25.5 13.5" fill="none" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /></g><g id="recap-g-m-flat" opacity="0" transform="translate(0,-560)"><path d="M -19.5 4.5 L 19.5 4.5" fill="none" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /></g><g id="recap-g-m-smirk" opacity="1" transform="translate(0,-560)"><path d="M -22.5 3.0 Q 4.5 19.5 27.0 -6.0" fill="none" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /></g><g id="recap-g-m-open" opacity="0" transform="translate(0,-560)"><path d="M -25.5 0 Q 0 34.5 25.5 0 Q 0 9.0 -25.5 0 Z" fill="#7A2230" stroke="#1B1530" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" /></g>
-</svg><div id="recap-hook" class="pop" style="left:70px;top:420px;font-size:122px;color:#FFE14A;transform:rotate(-4deg);opacity:1">NOCH 29 TAGE</div><div id="recap-gb" class="bubble" style="left:420px;top:700px;opacity:0;font-size:44px;z-index:5">TICK, TACK.</div>
+</svg><div id="recap-hook" class="pop" style="left:70px;top:420px;font-size:122px;color:#FFE14A;transform:rotate(-4deg);opacity:1">NOCH 29 TAGE</div><div id="recap-gb" class="bubble" style="left:420px;top:700px;opacity:0;font-size:44px;z-index:5">TICK, TACK.</div><div id="recap-mk" class="abs" style="left:90px;top:560px;opacity:0;z-index:6;background:#fff;color:#1B1530;font-weight:800;font-size:44px;padding:16px 26px;border-radius:26px;border:5px solid #1B1530;display:flex;gap:14px;align-items:center;white-space:nowrap"><span style="width:44px;height:44px;border-radius:50%;background:#B05CF0;display:inline-block;flex:none"></span>Maxim: „Darf ich Mitarbeiter sein?“</div><div id="recap-mklab" class="pop" style="z-index:6;left:150px;top:440px;font-size:62px;color:#FFE14A;transform:rotate(-4deg);opacity:0">AUS DEN KOMMENTAREN!</div>
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-tl.fromTo("#recap-k",{scaleY:1,scaleX:1},{scaleY:1.025,scaleX:0.9875,duration:0.6,ease:"sine.inOut",yoyo:true,repeat:7,transformOrigin:"50% 100%"},0);
+tl.fromTo("#recap-k",{scaleY:1,scaleX:1},{scaleY:1.025,scaleX:0.9875,duration:0.6,ease:"sine.inOut",yoyo:true,repeat:9,transformOrigin:"50% 100%"},0);
 tl.fromTo("#recap-hook",{scale:1.25},{scale:1,duration:0.35,ease:"back.out(2)"},0);
-tl.to("#recap-hook",{scale:0,opacity:0,duration:0.18,ease:"back.in(2)"},1.969);
-tl.fromTo("#recap-g",{x:500},{x:0,duration:0.5,ease:"power2.out"},1.569);
-tl.fromTo("#recap-gb",{scale:0,opacity:0,rotation:-12},{scale:1.0,opacity:1,rotation:0,duration:0.32,ease:"back.out(2.6)"},2.51);
-tl.set("#recap-k-m-grin",{opacity:0},4.139);tl.set("#recap-k-m-shock",{opacity:0},4.139);tl.set("#recap-k-m-sad",{opacity:1},4.139);tl.set("#recap-k-m-flat",{opacity:0},4.139);tl.set("#recap-k-m-smirk",{opacity:0},4.139);tl.set("#recap-k-m-open",{opacity:0},4.139);tl.set("#recap-k-e-normal",{opacity:0},4.139);tl.set("#recap-k-e-wide",{opacity:1},4.139);tl.set("#recap-k-e-closed",{opacity:0},4.139);tl.fromTo("#recap-k",{x:-6},{x:6,duration:0.05,ease:"sine.inOut",yoyo:true,repeat:5},4.139);
-tl.set("#recap-k",{x:0},4.439);
+tl.to("#recap-hook",{scale:0,opacity:0,duration:0.18,ease:"back.in(2)"},1.429);
+tl.fromTo("#recap-g",{x:500},{x:0,duration:0.5,ease:"power2.out"},1.029);
+tl.fromTo("#recap-gb",{scale:0,opacity:0,rotation:-12},{scale:1.0,opacity:1,rotation:0,duration:0.32,ease:"back.out(2.6)"},1.646);
+tl.set("#recap-k-m-grin",{opacity:0},2.823);tl.set("#recap-k-m-shock",{opacity:0},2.823);tl.set("#recap-k-m-sad",{opacity:1},2.823);tl.set("#recap-k-m-flat",{opacity:0},2.823);tl.set("#recap-k-m-smirk",{opacity:0},2.823);tl.set("#recap-k-m-open",{opacity:0},2.823);tl.set("#recap-k-e-normal",{opacity:0},2.823);tl.set("#recap-k-e-wide",{opacity:1},2.823);tl.set("#recap-k-e-closed",{opacity:0},2.823);tl.fromTo("#recap-k",{x:-6},{x:6,duration:0.05,ease:"sine.inOut",yoyo:true,repeat:5},2.823);
+tl.set("#recap-k",{x:0},3.123);
+tl.to("#recap-gb",{scale:0,opacity:0,duration:0.18,ease:"back.in(2)"},4.1);
+tl.to("#recap-g",{x:500,duration:0.4,ease:"power2.in"},4.2);
+tl.fromTo("#recap-mk",{scale:0,opacity:0,rotation:-15},{scale:1.0,opacity:1,rotation:-3,duration:0.32,ease:"back.out(2.6)"},5.6);
+tl.set("#recap-k-m-grin",{opacity:1},5.6);tl.set("#recap-k-m-shock",{opacity:0},5.6);tl.set("#recap-k-m-sad",{opacity:0},5.6);tl.set("#recap-k-m-flat",{opacity:0},5.6);tl.set("#recap-k-m-smirk",{opacity:0},5.6);tl.set("#recap-k-m-open",{opacity:0},5.6);tl.set("#recap-k-e-normal",{opacity:1},5.6);tl.set("#recap-k-e-wide",{opacity:0},5.6);tl.set("#recap-k-e-closed",{opacity:0},5.6);tl.fromTo("#recap-k",{y:0},{y:-50,duration:0.16,ease:"power2.out",yoyo:true,repeat:3},5.7);
+tl.fromTo("#recap-mklab",{scale:0,opacity:0,rotation:-6},{scale:1.0,opacity:1,rotation:6,duration:0.32,ease:"back.out(2.6)"},5.85);
 
     window.__timelines["recap"] = tl;
   </script>

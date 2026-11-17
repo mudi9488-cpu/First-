@@ -23,7 +23,7 @@ und die Community entscheidet jeden Tag, wie er den Laden rettet.
 | **Dennis „Späti-King“** | Rivale gegenüber | Sonnenbrille, Goldkette, Ringlicht vor dem Laden, filmt alles für TikTok | Kopiert jede gute Idee von Kalle am nächsten Tag |
 | **Horst** (71) | Stammkunde | Schiebermütze, Schnauzer, Rollator mit Wimpel | Kauft jeden Tag Lotto + Zeitung + „ein Kurzer“ (Kalle gibt ihm Kaffee), erzählt „Früher bei Erika …“ |
 | **Jule** (23) | Paketbotin, Sympathieträgerin | Pferdeschwanz, gelbe Uniform-Jacke, Sackkarre | Bringt täglich Pakete für die Packstation, gibt Kalle ehrliche Tipps; leises Love-Interest, nie Hauptthema |
-| **Max** (ab F2) | ehrenamtlicher Helfer | blonde Locken, blauer Pulli, rote Schürze „KIOSK“ (`figuren.max_helfer`) | Übereifrig, will alles „wie im Fernsehen“ machen; steht für die Community, die mithelfen will |
+| **Maxim** (ab F2) | ehrenamtlicher Helfer, Zuschauer aus den Kommentaren | blonde Locken, blauer Pulli, rote Schürze „KIOSK“ (`figuren.max_helfer`) | Übereifrig, will alles „wie im Fernsehen“ machen; steht für die Community, die mithelfen will |
 | **Die Bauarbeiter** (ab F2) | Stammkunden mittags | gelber Helm, orange Warnweste (`figuren.bauarbeiter`) | Kaufen nur, wenn es eiskalt ist |
 | **Die Schulkids** | Kunden | 3 Kinder, Schulranzen | Kaufen nur 10-Cent-Süßigkeiten, zählen ewig Kleingeld |
 

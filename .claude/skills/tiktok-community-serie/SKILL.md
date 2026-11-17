@@ -54,6 +54,12 @@ Ordner: Serie `serien/<serien-slug>/` (Bibel, `state.json`, Figuren-SVGs), Folge
 3. **Stimme über das ElevenLabs-MCP** (`creative_generate_speech`, Modell `eleven_v4`, Stimme
    **„Timon – Energetic and Clear“, voice_id `0i5UT3fATBWphA0jBZug`** – feste Seriensstimme, nicht wechseln).
    Prompt = Sprechertext aller Beats (Zahlen ausgeschrieben, Absatz pro Beat), 2 Takes, den flüssigeren nehmen.
+   **Immer mit Betonung (Wunsch des Creators, sonst klingt es monoton):** Emotions-Tags von eleven_v4 vor die Sätze setzen –
+   `[dramatically]` Countdown/Cliffhanger, `[excited]` Ergebnis/Geld/Abstimmung, `[sad]`/`[sighs]` Pannen, `[mischievously]`
+   Gags, `[surprised]` Überraschungen, `[shouting]` Schock-Zahlen, `[warmly]` Community-Momente; 1–2 Schlüsselwörter pro Beat
+   in VERSALIEN, `…` für Spannungspausen. Tags nur im Prompt, nicht in script.json.
+   Nach `align.py` die Silbenrate jeder Zeile prüfen (> 8 Silben/s = falsch zugeordnet) und solche Zeilen in
+   `assets/timings.json` anhand der Pausen (`ffmpeg silencedetect`) von Hand korrigieren.
    MP3 per `curl` nach `assets/source/` laden → `python3 tools/align.py videos/<projekt> assets/source/take1.mp3`.
    **Musik:** `creative_generate_in_flow` (node_type `music`, Modell `eleven_music_v2_5`, 1 Take, „instrumental,
    playful quirky cartoon, pizzicato, ukulele, glockenspiel, 115 BPM, loopable“) → auf Videolänge kürzen,
@@ -74,6 +80,13 @@ Ordner: Serie `serien/<serien-slug>/` (Bibel, `state.json`, Figuren-SVGs), Folge
 6. `render -o renders/<slug>-f<NN>.mp4` (im Hintergrund), Lautheit −16…−14 LUFS.
 7. **State aktualisieren** (neue Stats, offene Abstimmung A/B mit Text), committen, MP4 an Creator schicken,
    dazu: Caption-Vorschlag + 3–5 Hashtags + angepinnter Kommentar („A = … / B = … – was soll Kalle tun?“).
+
+## Community einbinden
+
+- Zuschauer, die in den Kommentaren mitmachen wollen, werden zu Figuren (Folge 2: **Maxim** aus den Kommentaren
+  wird ehrenamtlicher Helfer). Nur Vornamen, nur wenn der Creator das will; am Anfang der Folge ankündigen
+  („heute kriegt er Hilfe – von Maxim aus den Kommentaren!“) und in der Szene den echten Kommentar zitieren.
+- Meistgelikte Kommentare als Kommentar-Karten einblenden (ohne Nutzernamen, außer der Creator wünscht es).
 
 ## Bekannte Grenzen
 

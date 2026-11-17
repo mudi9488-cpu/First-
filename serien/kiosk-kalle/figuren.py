@@ -278,7 +278,7 @@ def kind(prefix, w=180, shirt="#FF7A3D", hair="#5A3A22", bag="#3B6FF0"):
 
 
 def max_helfer(prefix="max", w=400, mund="grin", augen="normal", pose="down", item=None):
-    """Max – ehrenamtlicher Helfer (ab Folge 2): blonde Haare, blauer Pulli, rote Kiosk-Schürze."""
+    """Maxim – ehrenamtlicher Helfer aus den Kommentaren (ab Folge 2): blonde Haare, blauer Pulli, rote Kiosk-Schürze."""
     return kalle(prefix, w=w, mund=mund, augen=augen, pose=pose, item=item, hood="#3B6FF0", hood_sh="#2D56C2",
                  hair="#F2C14E", brows="#B58A1C", cap=False, fleck=False, schuerze=True)
 
