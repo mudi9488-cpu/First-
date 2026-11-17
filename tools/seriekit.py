@@ -349,3 +349,135 @@ def write_project(project: Path, title, scenes, sfx, hud, captions, total, music
 """
     (project / "index.html").write_text(index)
     (project / "assets" / "gsap.min.js").write_bytes((Path(__file__).parent / "vendor" / "gsap-3.14.2.min.js").read_bytes())
+
+
+# ---------------------------------------------------------------- HUD ab Folge 2 (Kasse läuft, Sterne)
+
+def _eur(v):
+    return f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def hud_serie(total, folge, tage, kasse0, kasse_events=(), sterne=None, tage_flip=None, ziel=3000, accent="#FF7A2F"):
+    """Wie hud_html, aber Kasse ist von Anfang an da und ändert sich.
+    kasse_events: [(zeit, neuer_betrag)] – zählt hoch/runter, Delta fliegt ein (+250 € grün / −180 € rot).
+    sterne: (zeit_einblenden, start, [(zeit, neuer_wert)]) – neue Zeile „KUNDEN ★“ (0–5)."""
+    key = ('<svg width="44" height="44" viewBox="0 0 44 44"><circle cx="14" cy="22" r="10" fill="none" stroke="#FFD23F" stroke-width="6"/>'
+           '<path d="M 24 22 L 40 22 M 34 22 L 34 30 M 40 22 L 40 28" stroke="#FFD23F" stroke-width="6" stroke-linecap="round"/></svg>')
+    zs = f"{ziel:,}".replace(",", ".")
+    js = [pop_in("#row1", 0.0, dur=0.4), pop_in("#row2", 0.1, dur=0.4)]
+    js.append('    const fe=(v)=>{let s=v.toFixed(2).replace(".",",");let [a,b]=s.split(",");a=a.replace(/\\B(?=(\\d{3})+(?!\\d))/g,".");return a+","+b+" €";};\n')
+    deltas = []
+    prev = kasse0
+    for i, (t, v) in enumerate(kasse_events):
+        d = v - prev
+        col = GRN if d >= 0 else RED
+        sign = "+" if d >= 0 else "−"
+        deltas.append(f'<div id="kd{i}" class="kd" style="color:{col};opacity:0">{sign}{_eur(abs(d))[:-3] if abs(d) == int(abs(d)) else _eur(abs(d))} €</div>')
+        js.append(f'    (function(){{const o={{v:{prev}}};const el=document.getElementById("kv");'
+                  f'tl.fromTo(o,{{v:{prev}}},{{v:{v},duration:0.8,ease:"power2.out",immediateRender:false,onUpdate:()=>{{el.textContent=fe(o.v);}}}},{fmt(t)});}})();\n')
+        js.append(f'tl.to("#kbar",{{width:"{max(1.5, v / ziel * 100):.1f}%",duration:0.8,ease:"power2.out"}},{fmt(t)});\n')
+        js.append(f'tl.fromTo("#kd{i}",{{y:30,opacity:0,scale:0.6}},{{y:0,opacity:1,scale:1,duration:0.3,ease:"back.out(2.5)"}},{fmt(t)});\n')
+        js.append(f'tl.to("#kd{i}",{{y:-30,opacity:0,duration:0.35,ease:"power1.in"}},{fmt(t + 1.6)});\n')
+        js.append(punch("#row2", t, 1.06, 0.14))
+        prev = v
+    sterne_html = ""
+    if sterne:
+        ts, s0, ev = sterne
+        stars = "".join(f'<svg class="st" width="34" height="34" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.8-6.2 3.8 1.6-7L2 9.2l7.1-.6z" '
+                        f'fill="#4A4370"/></svg>' for _ in range(5))
+        sterne_html = f"""
+    <div id="row3" class="row" style="top:306px;width:560px;margin-left:-280px;height:60px;opacity:0">
+      <div class="lab" style="margin-left:14px">KUNDEN</div><div class="stars"><div class="sb">{stars}</div>
+      <div id="sf" class="sf" style="width:{s0 / 5 * 100:.0f}%">{stars.replace('#4A4370', '#FFC233')}</div></div>
+      <div id="sv" class="kval">{f"{s0:.1f}".replace(".", ",")}</div></div>"""
+        js.append(pop_in("#row3", ts, dur=0.4))
+        for t, v in ev:
+            js.append(f'tl.to("#sf",{{width:"{v / 5 * 100:.0f}%",duration:0.7,ease:"power2.out"}},{fmt(t)});\n')
+            js.append(f'tl.set("#sv",{{innerText:"{f"{v:.1f}".replace(".", ",")}"}},{fmt(t + 0.35)});\n')
+            js.append(punch("#row3", t, 1.06, 0.14))
+    if tage_flip:
+        t, neu = tage_flip
+        js.append(f'tl.to("#tg",{{scaleY:0,duration:0.12,ease:"power2.in"}},{fmt(t)});\n')
+        js.append(f'tl.set("#tg",{{innerText:"{neu}"}},{fmt(t + 0.12)});\n')
+        js.append(f'tl.to("#tg",{{scaleY:1,duration:0.18,ease:"back.out(3)"}},{fmt(t + 0.12)});\n')
+    css = f"""
+#root {{ position:absolute; inset:0; font-family:{FONT}; }}
+.row {{ position:absolute; left:50%; background:#1E1838; border:4px solid #fff; border-radius:999px;
+  display:flex; align-items:center; gap:16px; padding:0 22px 0 10px; box-shadow:0 6px 0 rgba(0,0,0,0.25); }}
+#row1 {{ top:128px; height:84px; width:720px; margin-left:-360px; }}
+.folge {{ background:{accent}; color:#fff; font-weight:900; font-size:36px; border-radius:999px; padding:8px 26px; letter-spacing:0.02em; }}
+.tage {{ color:#FFD23F; font-weight:900; font-size:44px; display:flex; align-items:center; gap:10px; }}
+#tg {{ display:inline-block; }}
+.coin {{ width:46px; height:46px; border-radius:50%; background:#FFC233; color:{INK}; font-weight:900; font-size:30px;
+  display:flex; align-items:center; justify-content:center; border:3px solid {INK}; flex:none; }}
+.lab {{ color:#fff; font-weight:900; font-size:28px; letter-spacing:0.06em; }}
+.kval {{ margin-left:auto; color:#fff; font-weight:900; font-size:34px; white-space:nowrap; }}
+.kval small {{ color:#9A94B8; font-size:28px; }}
+.kbar {{ position:absolute; left:70px; right:24px; bottom:6px; height:6px; border-radius:3px; background:#3A3360; overflow:hidden; }}
+.kbar i {{ display:block; height:100%; background:{GRN}; }}
+.kd {{ position:absolute; right:-150px; top:4px; font-weight:900; font-size:46px; -webkit-text-stroke:9px {INK}; paint-order:stroke fill; white-space:nowrap; }}
+.stars {{ position:relative; height:34px; width:190px; }}
+.sb, .sf {{ position:absolute; left:0; top:0; height:34px; display:flex; gap:4px; overflow:hidden; white-space:nowrap; }}
+.st {{ flex:none; }}
+"""
+    return f"""<template>
+  <style>{css}</style>
+  <div id="root" data-composition-id="hud" data-width="{W}" data-height="{H}">
+    <div id="row1" class="row"><div class="folge">FOLGE {folge}</div>
+      <div class="tage">{key}<span>NOCH <span id="tg">{tage}</span> TAGE</span></div></div>
+    <div id="row2" class="row" style="top:226px;width:700px;margin-left:-350px;height:66px;opacity:0">
+      <div class="coin">€</div><div class="lab" style="white-space:nowrap">KALLES KASSE</div>
+      <div class="kval"><span id="kv">{_eur(kasse0)} €</span><small> / {zs} €</small></div>
+      <div class="kbar"><i id="kbar" style="width:{max(1.5, kasse0 / ziel * 100):.1f}%"></i></div>{''.join(deltas)}
+    </div>{sterne_html}
+  </div>
+  <script>
+    const tl = gsap.timeline({{ paused: true }});
+{''.join(js)}
+    window.__timelines["hud"] = tl;
+  </script>
+</template>
+"""
+
+
+# ---------------------------------------------------------------- Ergebnis der letzten Abstimmung
+
+RESULT_CSS = f"""
+.rt {{ position:absolute; left:60px; right:60px; top:420px; text-align:center; font-weight:900; text-transform:uppercase;
+  line-height:1.05; -webkit-text-stroke:10px {INK}; paint-order:stroke fill; }}
+.rt .l1 {{ font-size:58px; color:#fff; }} .rt .l2 {{ font-size:66px; color:{YEL}; }}
+.rc {{ position:absolute; left:110px; width:860px; height:150px; border-radius:30px; background:#1E1838; border:5px solid #5A5480;
+  display:flex; align-items:center; gap:24px; padding:0 30px; }}
+.rc.win {{ border:7px solid #FFC233; box-shadow:0 0 0 6px rgba(255,194,51,0.25); }}
+.rc .ic {{ width:90px; height:90px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex:none;
+  font-weight:900; font-size:52px; color:#fff; }}
+.rc .mid {{ flex:1; }}
+.rc .t {{ color:#fff; font-weight:900; font-size:42px; }}
+.rc .bar {{ height:18px; border-radius:9px; background:#3A3360; margin-top:12px; overflow:hidden; }}
+.rc .bar i {{ display:block; height:100%; width:0%; border-radius:9px; }}
+.rc .pc {{ color:#fff; font-weight:900; font-size:54px; width:150px; text-align:right; font-variant-numeric:tabular-nums; }}
+.badge {{ position:absolute; right:-24px; top:-34px; background:#3DDC84; color:{INK}; font-weight:900; font-size:30px; padding:8px 20px;
+  border-radius:14px; border:4px solid {INK}; transform:rotate(8deg); }}
+"""
+
+
+def result_cards(a, b, pa, pb, col_a="#3B6FF0", col_b="#FF4F8B", top=640):
+    """a/b: Titel der Optionen, pa/pb: Prozent (vom Creator!). Gewinner bekommt Goldrahmen + GEWONNEN!."""
+    def card(cid, letter, txt, p, col, y, win):
+        badge = f'<div id="{cid}-badge" class="badge" style="opacity:0">GEWONNEN!</div>' if win else ""
+        return (f'<div id="{cid}" class="rc" style="top:{y}px;opacity:0"><div class="ic" style="background:{col}">{letter}</div>'
+                f'<div class="mid"><div class="t">{txt}</div><div class="bar"><i id="{cid}-bar" style="background:{col}"></i></div></div>'
+                f'<div class="pc"><span id="{cid}-p">0</span>%</div>{badge}</div>')
+    return ('<div id="rt" class="rt" style="opacity:0"><div class="l1">LETZTE FOLGE</div><div class="l2">HABT IHR ENTSCHIEDEN</div></div>'
+            + card("ra", "A", a, pa, col_a, top, pa >= pb) + card("rb", "B", b, pb, col_b, top + 190, pb > pa))
+
+
+def result_js(at, pa, pb, dur=1.2):
+    js = pop_in("#rt", at) + pop_in("#ra", at + 0.15) + pop_in("#rb", at + 0.3)
+    for cid, p in (("ra", pa), ("rb", pb)):
+        js += f'tl.to("#{cid}-bar",{{width:"{p}%",duration:{dur},ease:"power2.out"}},{fmt(at + 0.5)});\n'
+        js += (f'(function(){{const o={{v:0}};const el=document.querySelector("#{cid}-p");'
+               f'tl.fromTo(o,{{v:0}},{{v:{p},duration:{dur},ease:"power2.out",onUpdate:()=>{{el.textContent=Math.round(o.v);}}}},{fmt(at + 0.5)});}})();\n')
+    win = "ra" if pa >= pb else "rb"
+    js += f'tl.set("#{win}",{{className:"rc win"}},{fmt(at + 0.5 + dur)});\n' + pop_in(f"#{win}-badge", at + 0.5 + dur, rot=8)
+    return js

@@ -79,10 +79,10 @@ def _svg(prefix, vb, w, inner, cls="fig"):
 
 # ------------------------------------------------------------------ Kalle
 
-def kalle(prefix="kalle", w=420, mund="grin", augen="normal", pose="down", item=None):
-    """pose: down | up | hold (Arme nach vorn, optional item: 'controller' | 'phone' | 'coins')."""
-    hood = "#3FA866"
-    hood_sh = "#2F8A52"
+def kalle(prefix="kalle", w=420, mund="grin", augen="normal", pose="down", item=None,
+          hood="#3FA866", hood_sh="#2F8A52", hair="#E8622C", brows="#B5461C", cap=True, fleck=True, schuerze=False):
+    """pose: down | up | hold (Arme nach vorn, optional item: 'controller' | 'phone' | 'coins').
+    Farben/cap/fleck/schuerze machen aus dem Körper auch andere Figuren (z. B. Helfer Max)."""
     arms = {
         "down": (f'<path d="M -112 -250 Q -165 -190 -150 -120" fill="none" stroke="{INK}" stroke-width="54" stroke-linecap="round"/>'
                  f'<path d="M -112 -250 Q -165 -190 -150 -120" fill="none" stroke="{hood}" stroke-width="40" stroke-linecap="round"/>'
@@ -124,19 +124,18 @@ def kalle(prefix="kalle", w=420, mund="grin", augen="normal", pose="down", item=
   <path d="M -92 -12 L -8 -12" stroke="#E04848" stroke-width="6"/><path d="M 8 -12 L 92 -12" stroke="#E04848" stroke-width="6"/>
   <ellipse cx="0" cy="-200" rx="128" ry="118" fill="{hood}" {_o()}/>
   <path d="M -60 -180 Q 0 -160 60 -180 L 52 -120 Q 0 -108 -52 -120 Z" fill="{hood_sh}" {_o('stroke-width=\'5\'')}/>
-  <path d="M 30 -236 q 18 -14 34 2 q 10 18 -6 30 q -20 12 -30 -6 q -8 -14 2 -26 Z" fill="#D8343A"/>
-  <circle cx="74" cy="-196" r="7" fill="#D8343A"/>
+  {'<path d="M 30 -236 q 18 -14 34 2 q 10 18 -6 30 q -20 12 -30 -6 q -8 -14 2 -26 Z" fill="#D8343A"/><circle cx="74" cy="-196" r="7" fill="#D8343A"/>' if fleck else ''}
+  {f'<path d="M -78 -268 L 78 -268 L 92 -110 Q 0 -92 -92 -110 Z" fill="#E8413A" {_o()}/><text x="0" y="-180" text-anchor="middle" font-family="Inter" font-weight="900" font-size="34" fill="#fff">KIOSK</text>' if schuerze else ''}
   <path d="M -24 -305 L -18 -250 M 24 -305 L 18 -250" stroke="#EDEDED" stroke-width="7" stroke-linecap="round"/>
   {arms}{held}
   <ellipse cx="-138" cy="-410" rx="22" ry="30" fill="{SKIN}" {_o()}/>
   <ellipse cx="138" cy="-410" rx="22" ry="30" fill="{SKIN}" {_o()}/>
   <circle cx="0" cy="-405" r="138" fill="{SKIN}" {_o()}/>
   <path d="M -150 -470 q -10 -50 30 -70 q -10 -40 40 -50 q 10 -40 60 -30 q 30 -30 70 -5 q 40 -10 55 30 q 45 10 35 60 q 30 30 5 60
-           q -40 -45 -100 -55 q -60 -10 -120 10 q -50 20 -75 50 Z" fill="#E8622C" {_o()}/>
-  <path d="M -120 -500 Q 0 -620 120 -500 Q 0 -540 -120 -500 Z" fill="#2E3A8C" {_o()}/>
-  <path d="M 70 -560 Q 150 -575 180 -540 Q 140 -530 100 -535 Z" fill="#2E3A8C" {_o()}/>
+           q -40 -45 -100 -55 q -60 -10 -120 10 q -50 20 -75 50 Z" fill="{hair}" {_o()}/>
+  {f'<path d="M -120 -500 Q 0 -620 120 -500 Q 0 -540 -120 -500 Z" fill="#2E3A8C" {_o()}/><path d="M 70 -560 Q 150 -575 180 -540 Q 140 -530 100 -535 Z" fill="#2E3A8C" {_o()}/>' if cap else ''}
   {_augen(prefix, (-52, 52), -410, 40, 46, 17, augen)}
-  <path d="M -88 -470 Q -55 -488 -22 -472 M 22 -472 Q 55 -488 88 -470" fill="none" stroke="#B5461C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M -88 -470 Q -55 -488 -22 -472 M 22 -472 Q 55 -488 88 -470" fill="none" stroke="{brows}" stroke-width="10" stroke-linecap="round"/>
   <ellipse cx="0" cy="-365" rx="16" ry="12" fill="{SKIN_SH}"/>
   <ellipse cx="-88" cy="-352" rx="24" ry="14" fill="#FF8A8A" opacity="0.75"/>
   <ellipse cx="88" cy="-352" rx="24" ry="14" fill="#FF8A8A" opacity="0.75"/>
@@ -276,3 +275,36 @@ def kind(prefix, w=180, shirt="#FF7A3D", hair="#5A3A22", bag="#3B6FF0"):
   <circle cx="58" cy="-110" r="14" fill="#FFD6B0" {_o('stroke-width=\'5\'')}/>
 """
     return _svg(prefix, (-80, -300, 160, 310), w, inner)
+
+
+def max_helfer(prefix="max", w=400, mund="grin", augen="normal", pose="down", item=None):
+    """Max – ehrenamtlicher Helfer (ab Folge 2): blonde Haare, blauer Pulli, rote Kiosk-Schürze."""
+    return kalle(prefix, w=w, mund=mund, augen=augen, pose=pose, item=item, hood="#3B6FF0", hood_sh="#2D56C2",
+                 hair="#F2C14E", brows="#B58A1C", cap=False, fleck=False, schuerze=True)
+
+
+def bauarbeiter(prefix, w=300, haut="#FFD6B0", bart=True, mund="grin"):
+    """Bauarbeiter (Stammkunden ab Folge 2): gelber Helm, orange Warnweste, Jeans."""
+    inner = f"""
+  <ellipse cx="0" cy="2" rx="100" ry="14" fill="rgba(0,0,0,0.18)"/>
+  <rect x="-56" y="-150" width="48" height="144" rx="16" fill="#3B5C9A" {_o()}/>
+  <rect x="8" y="-150" width="48" height="144" rx="16" fill="#3B5C9A" {_o()}/>
+  <ellipse cx="-36" cy="-8" rx="42" ry="16" fill="#5A4130" {_o()}/><ellipse cx="36" cy="-8" rx="42" ry="16" fill="#5A4130" {_o()}/>
+  <path d="M -105 -400 Q -115 -230 -85 -140 L 85 -140 Q 115 -230 105 -400 Q 0 -430 -105 -400 Z" fill="#8C90A6" {_o()}/>
+  <path d="M -100 -398 Q -108 -240 -82 -142 L -30 -142 L -30 -410 Z M 100 -398 Q 108 -240 82 -142 L 30 -142 L 30 -410 Z" fill="#FF7A2F" {_o()}/>
+  <path d="M -96 -300 L -30 -300 M 30 -300 L 96 -300 M -92 -240 L -30 -240 M 30 -240 L 92 -240" stroke="#F4F4F4" stroke-width="12"/>
+  <path d="M -100 -380 Q -150 -300 -125 -210" fill="none" stroke="{INK}" stroke-width="48" stroke-linecap="round"/>
+  <path d="M -100 -380 Q -150 -300 -125 -210" fill="none" stroke="#8C90A6" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="-125" cy="-200" r="22" fill="{haut}" {_o()}/>
+  <path d="M 100 -380 Q 150 -300 125 -210" fill="none" stroke="{INK}" stroke-width="48" stroke-linecap="round"/>
+  <path d="M 100 -380 Q 150 -300 125 -210" fill="none" stroke="#8C90A6" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="125" cy="-200" r="22" fill="{haut}" {_o()}/>
+  <circle cx="0" cy="-500" r="100" fill="{haut}" {_o()}/>
+  <path d="M -112 -520 Q -110 -630 0 -632 Q 110 -630 112 -520 Z" fill="#FFC233" {_o()}/>
+  <rect x="-130" y="-534" width="260" height="26" rx="12" fill="#FFC233" {_o()}/>
+  <ellipse cx="-34" cy="-482" rx="10" ry="12" fill="{INK}"/><ellipse cx="34" cy="-482" rx="10" ry="12" fill="{INK}"/>
+  <ellipse cx="0" cy="-455" rx="16" ry="12" fill="#F2A88A"/>
+  {f'<path d="M -70 -440 Q -40 -400 0 -405 Q 40 -400 70 -440 Q 70 -380 0 -385 Q -70 -380 -70 -440 Z" fill="#6B4F3A" {_o(chr(115)+"troke-width=" + chr(39) + "5" + chr(39))}/>' if bart else ''}
+  {_mund(prefix, 0, -425, 0.6, mund)}
+"""
+    return _svg(prefix, (-160, -650, 320, 670), w, inner)
