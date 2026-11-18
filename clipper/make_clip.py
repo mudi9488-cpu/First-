@@ -30,10 +30,12 @@ ass = ["[Script Info]", "ScriptType: v4.00+", "PlayResX: 1080", "PlayResY: 1920"
        "[V4+ Styles]",
        "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
        "Style: Sub,DejaVu Sans,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,7,3,5,60,60,0,1",
-       "Style: Hook,DejaVu Sans,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC0000000,-1,0,0,0,100,100,0,0,3,14,0,8,60,60,70,1",
+       "Style: Hook,DejaVu Sans,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,8,4,8,50,50,90,1",
        "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
 if hook:
-    ass.append("Dialogue: 1,%s,%s,Hook,,0,0,0,,%s" % (ts(0), ts(min(dur, 3.5)), esc(hook)))
+    # Pop-in (scale 70% -> 100%) and fade out, line breaks via "|".
+    pop = "{\\fad(0,300)\\fscx70\\fscy70\\t(0,180,\\fscx105\\fscy105)\\t(180,300,\\fscx100\\fscy100)}"
+    ass.append("Dialogue: 1,%s,%s,Hook,,0,0,0,,%s%s" % (ts(0), ts(min(dur, 6.0)), pop, esc(hook).replace("|", "\\N")))
 groups = [words[i:i + 3] for i in range(0, len(words), 3)]
 for g in groups:
     for j, w in enumerate(g):
@@ -46,10 +48,15 @@ for g in groups:
 assf = os.path.join(tmp, "s.ass")
 open(assf, "w").write("\n".join(ass) + "\n")
 
-# Layout: facecam 330x186 at (0,0) -> 1080x608 on top; gameplay crop 590x720 centered -> 1080x1312.
+# Layout: facecam box (x:y:w:h in the 1280x720 source) on top, gameplay crop below.
+cx, cy, cw, ch = (int(v) for v in (sys.argv[7] if len(sys.argv) > 7 else "0:0:330:186").split(":"))
+cam_h = round(1080 * ch / cw / 2) * 2
+game_h = 1920 - cam_h
+game_w = round(720 * 1080 / game_h / 2) * 2
+gx = int(sys.argv[8]) if len(sys.argv) > 8 else (1280 - game_w) // 2
 fc = ("[0:v]split[a][b];"
-      "[a]crop=330:186:0:0,scale=1080:608[cam];"
-      "[b]crop=590:720:345:0,scale=1080:1312[game];"
+      "[a]crop=%d:%d:%d:%d,scale=1080:%d[cam];"
+      "[b]crop=%d:720:%d:0,scale=1080:%d[game];" % (cw, ch, cx, cy, cam_h, game_w, gx, game_h) +
       "[cam][game]vstack,format=yuv420p,ass=%s[v]" % assf)
 subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", str(start), "-i", rec, "-t", str(dur),
                 "-filter_complex", fc, "-map", "[v]", "-map", "0:a",
