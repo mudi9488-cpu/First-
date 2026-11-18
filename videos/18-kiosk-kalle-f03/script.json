@@ -1,0 +1,328 @@
+{
+ "title": "Kiosk-Kalle – Folge 3",
+ "voice": "elevenlabs:Timon - Energetic and Clear (0i5UT3fATBWphA0jBZug)",
+ "serie": "kiosk-kalle",
+ "folge": 3,
+ "beats": [
+  {
+   "id": "recap",
+   "label": "",
+   "lines": [
+    {
+     "show": "Noch {y:28 Tage}",
+     "say": "Noch achtundzwanzig Tage"
+    },
+    {
+     "show": "bis zur {r:Räumung.}"
+    },
+    {
+     "show": "In der Kasse:"
+    },
+    {
+     "show": "{y:137 Euro 40.}",
+     "say": "hundertsiebenunddreißig Euro vierzig."
+    },
+    {
+     "show": "Und gegenüber"
+    },
+    {
+     "show": "verkauft {y:Dennis}"
+    },
+    {
+     "show": "alles für {r:50 Cent.}",
+     "say": "alles für fünfzig Cent."
+    }
+   ]
+  },
+  {
+   "id": "ergebnis",
+   "label": "",
+   "lines": [
+    {
+     "show": "Letzte Folge"
+    },
+    {
+     "show": "habt {y:ihr} entschieden:"
+    },
+    {
+     "show": "{y:88 Prozent} sagen:",
+     "say": "Achtundachtzig Prozent sagen:"
+    },
+    {
+     "show": "{y:Omas Kakao!}"
+    },
+    {
+     "show": "Einer von euch schreibt:"
+    },
+    {
+     "show": "„Hausgemacht –"
+    },
+    {
+     "show": "da kommen die Kunden"
+    },
+    {
+     "show": "{g:von allein!}“"
+    }
+   ]
+  },
+  {
+   "id": "rezept",
+   "label": "",
+   "lines": [
+    {
+     "show": "Doch es gibt"
+    },
+    {
+     "show": "ein {r:Problem:}"
+    },
+    {
+     "show": "Das Rezept"
+    },
+    {
+     "show": "ist {r:weg.}"
+    },
+    {
+     "show": "Kalle durchsucht"
+    },
+    {
+     "show": "den {y:ganzen Kiosk.}"
+    },
+    {
+     "show": "Unter der Kasse…"
+    },
+    {
+     "show": "im Kühlschrank…"
+    },
+    {
+     "show": "hinter {y:Omas Foto…}"
+    },
+    {
+     "show": "{g:Da!}"
+    },
+    {
+     "show": "Ein alter Zettel:"
+    },
+    {
+     "show": "{y:Omas Geheimrezept!}"
+    }
+   ]
+  },
+  {
+   "id": "einkauf",
+   "label": "",
+   "lines": [
+    {
+     "show": "Ab zum {y:Großmarkt!}"
+    },
+    {
+     "show": "Kakao, Milch,"
+    },
+    {
+     "show": "Zimt und Becher:"
+    },
+    {
+     "show": "{r:40 Euro.}",
+     "say": "vierzig Euro."
+    },
+    {
+     "show": "{y:Maxim} schiebt"
+    },
+    {
+     "show": "den Wagen –"
+    },
+    {
+     "show": "{r:direkt ins Regal.}"
+    },
+    {
+     "show": "An der Kasse"
+    },
+    {
+     "show": "fehlen {r:zwei Euro –}"
+    },
+    {
+     "show": "Maxim zahlt"
+    },
+    {
+     "show": "mit {y:Kleingeld.}"
+    }
+   ]
+  },
+  {
+   "id": "kochen",
+   "label": "",
+   "lines": [
+    {
+     "show": "Zurück im Kiosk"
+    },
+    {
+     "show": "wird gekocht."
+    },
+    {
+     "show": "Erster Versuch:"
+    },
+    {
+     "show": "{r:zu wässrig.}"
+    },
+    {
+     "show": "Zweiter Versuch:"
+    },
+    {
+     "show": "{r:angebrannt.}"
+    },
+    {
+     "show": "Der Rauchmelder"
+    },
+    {
+     "show": "dreht {r:durch.}"
+    },
+    {
+     "show": "Dritter Versuch…"
+    },
+    {
+     "show": "Kalle probiert…"
+    },
+    {
+     "show": "{g:LECKER!}"
+    }
+   ]
+  },
+  {
+   "id": "verkauf",
+   "label": "",
+   "lines": [
+    {
+     "show": "Am Nachmittag"
+    },
+    {
+     "show": "kommt {y:Horst.}"
+    },
+    {
+     "show": "Er probiert…"
+    },
+    {
+     "show": "und muss {y:weinen.}"
+    },
+    {
+     "show": "„Schmeckt wie"
+    },
+    {
+     "show": "bei {y:Erika!}“"
+    },
+    {
+     "show": "Danach kommen alle:"
+    },
+    {
+     "show": "Kinder, Bauarbeiter,"
+    },
+    {
+     "show": "sogar {y:Fremde.}"
+    },
+    {
+     "show": "Ein Kunde filmt"
+    },
+    {
+     "show": "den Kakao für {y:TikTok.}"
+    },
+    {
+     "show": "Plötzlich {g:steht die Schlange}"
+    },
+    {
+     "show": "bis zur Ecke."
+    },
+    {
+     "show": "{g:46 Becher!}",
+     "say": "Sechsundvierzig Becher!"
+    },
+    {
+     "show": "Und Dennis gegenüber?"
+    },
+    {
+     "show": "Verkauft {r:gar nichts.}"
+    }
+   ]
+  },
+  {
+   "id": "abend",
+   "label": "",
+   "lines": [
+    {
+     "show": "Abends zählt Kalle"
+    },
+    {
+     "show": "die Kasse:"
+    },
+    {
+     "show": "{g:189 Euro 40!}",
+     "say": "hundertneunundachtzig Euro vierzig!"
+    },
+    {
+     "show": "Kalle und Maxim"
+    },
+    {
+     "show": "{y:tanzen} durch den Laden."
+    }
+   ]
+  },
+  {
+   "id": "wendung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Doch dann"
+    },
+    {
+     "show": "steht {r:Herr Geier}"
+    },
+    {
+     "show": "im Laden."
+    },
+    {
+     "show": "„Kakao verkaufen"
+    },
+    {
+     "show": "steht {r:nicht} im Mietvertrag."
+    },
+    {
+     "show": "Ab morgen will ich"
+    },
+    {
+     "show": "{r:10 Prozent}",
+     "say": "zehn Prozent"
+    },
+    {
+     "show": "von jedem Becher.“"
+    },
+    {
+     "show": "Kalle wird {r:kreidebleich.}"
+    }
+   ]
+  },
+  {
+   "id": "abstimmung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Soll Kalle {y:zahlen}"
+    },
+    {
+     "show": "und Ärger vermeiden –"
+    },
+    {
+     "show": "oder sich {y:wehren}"
+    },
+    {
+     "show": "und den Mietvertrag"
+    },
+    {
+     "show": "{y:Zeile für Zeile} lesen?"
+    },
+    {
+     "show": "{y:A} oder {y:B}?"
+    },
+    {
+     "show": "Dein Kommentar {y:zählt.}"
+    }
+   ]
+  }
+ ]
+}

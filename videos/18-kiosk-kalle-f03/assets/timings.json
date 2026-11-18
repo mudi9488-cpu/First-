@@ -1,0 +1,1805 @@
+{
+ "duration": 89.08,
+ "source": "take1.mp3",
+ "beats": [
+  {
+   "id": "recap",
+   "label": "",
+   "lines": [
+    {
+     "show": "Noch {y:28 Tage}",
+     "start": 0.0,
+     "end": 1.529,
+     "words": [
+      {
+       "text": "Noch",
+       "start": 0.0,
+       "end": 0.58
+      },
+      {
+       "text": "28",
+       "start": 0.58,
+       "end": 0.949
+      },
+      {
+       "text": "Tage",
+       "start": 0.949,
+       "end": 1.529
+      }
+     ]
+    },
+    {
+     "show": "bis zur {r:Räumung.}",
+     "start": 1.529,
+     "end": 2.446,
+     "words": [
+      {
+       "text": "bis",
+       "start": 1.529,
+       "end": 1.764
+      },
+      {
+       "text": "zur",
+       "start": 1.764,
+       "end": 2.0
+      },
+      {
+       "text": "Räumung.",
+       "start": 2.0,
+       "end": 2.446
+      }
+     ]
+    },
+    {
+     "show": "In der Kasse:",
+     "start": 3.49,
+     "end": 4.11,
+     "words": [
+      {
+       "text": "In",
+       "start": 3.49,
+       "end": 3.64
+      },
+      {
+       "text": "der",
+       "start": 3.64,
+       "end": 3.832
+      },
+      {
+       "text": "Kasse:",
+       "start": 3.832,
+       "end": 4.11
+      }
+     ]
+    },
+    {
+     "show": "{y:137 Euro 40.}",
+     "start": 4.29,
+     "end": 6.1,
+     "words": [
+      {
+       "text": "137",
+       "start": 4.29,
+       "end": 4.893
+      },
+      {
+       "text": "Euro",
+       "start": 4.893,
+       "end": 5.631
+      },
+      {
+       "text": "40.",
+       "start": 5.631,
+       "end": 6.1
+      }
+     ]
+    },
+    {
+     "show": "Und gegenüber",
+     "start": 6.375,
+     "end": 7.363,
+     "words": [
+      {
+       "text": "Und",
+       "start": 6.375,
+       "end": 6.671
+      },
+      {
+       "text": "gegenüber",
+       "start": 6.671,
+       "end": 7.363
+      }
+     ]
+    },
+    {
+     "show": "verkauft {y:Dennis}",
+     "start": 7.363,
+     "end": 8.172,
+     "words": [
+      {
+       "text": "verkauft",
+       "start": 7.363,
+       "end": 7.815
+      },
+      {
+       "text": "Dennis",
+       "start": 7.815,
+       "end": 8.172
+      }
+     ]
+    },
+    {
+     "show": "alles für {r:50 Cent.}",
+     "start": 8.172,
+     "end": 9.34,
+     "words": [
+      {
+       "text": "alles",
+       "start": 8.172,
+       "end": 8.551
+      },
+      {
+       "text": "für",
+       "start": 8.551,
+       "end": 8.814
+      },
+      {
+       "text": "50",
+       "start": 8.814,
+       "end": 9.018
+      },
+      {
+       "text": "Cent.",
+       "start": 9.018,
+       "end": 9.34
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 9.34
+  },
+  {
+   "id": "ergebnis",
+   "label": "",
+   "lines": [
+    {
+     "show": "Letzte Folge",
+     "start": 9.563,
+     "end": 10.243,
+     "words": [
+      {
+       "text": "Letzte",
+       "start": 9.563,
+       "end": 9.927
+      },
+      {
+       "text": "Folge",
+       "start": 9.927,
+       "end": 10.243
+      }
+     ]
+    },
+    {
+     "show": "habt {y:ihr} entschieden:",
+     "start": 10.243,
+     "end": 11.073,
+     "words": [
+      {
+       "text": "habt",
+       "start": 10.243,
+       "end": 10.446
+      },
+      {
+       "text": "ihr",
+       "start": 10.446,
+       "end": 10.612
+      },
+      {
+       "text": "entschieden:",
+       "start": 10.612,
+       "end": 11.073
+      }
+     ]
+    },
+    {
+     "show": "{y:88 Prozent} sagen:",
+     "start": 11.205,
+     "end": 13.594,
+     "words": [
+      {
+       "text": "88",
+       "start": 11.205,
+       "end": 11.657
+      },
+      {
+       "text": "Prozent",
+       "start": 11.657,
+       "end": 12.755
+      },
+      {
+       "text": "sagen:",
+       "start": 12.755,
+       "end": 13.594
+      }
+     ]
+    },
+    {
+     "show": "{y:Omas Kakao!}",
+     "start": 13.812,
+     "end": 14.708,
+     "words": [
+      {
+       "text": "Omas",
+       "start": 13.812,
+       "end": 14.222
+      },
+      {
+       "text": "Kakao!",
+       "start": 14.222,
+       "end": 14.708
+      }
+     ]
+    },
+    {
+     "show": "Einer von euch schreibt:",
+     "start": 14.83,
+     "end": 15.95,
+     "words": [
+      {
+       "text": "Einer",
+       "start": 14.83,
+       "end": 15.11
+      },
+      {
+       "text": "von",
+       "start": 15.11,
+       "end": 15.304
+      },
+      {
+       "text": "euch",
+       "start": 15.304,
+       "end": 15.541
+      },
+      {
+       "text": "schreibt:",
+       "start": 15.541,
+       "end": 15.95
+      }
+     ]
+    },
+    {
+     "show": "„Hausgemacht –",
+     "start": 15.95,
+     "end": 16.96,
+     "words": [
+      {
+       "text": "„Hausgemacht",
+       "start": 15.95,
+       "end": 16.852
+      },
+      {
+       "text": "–",
+       "start": 16.852,
+       "end": 16.96
+      }
+     ]
+    },
+    {
+     "show": "da kommen die Kunden",
+     "start": 17.16,
+     "end": 17.85,
+     "words": [
+      {
+       "text": "da",
+       "start": 17.16,
+       "end": 17.265
+      },
+      {
+       "text": "kommen",
+       "start": 17.265,
+       "end": 17.49
+      },
+      {
+       "text": "die",
+       "start": 17.49,
+       "end": 17.625
+      },
+      {
+       "text": "Kunden",
+       "start": 17.625,
+       "end": 17.85
+      }
+     ]
+    },
+    {
+     "show": "{g:von allein!}“",
+     "start": 17.85,
+     "end": 18.34,
+     "words": [
+      {
+       "text": "von",
+       "start": 17.85,
+       "end": 18.034
+      },
+      {
+       "text": "allein!“",
+       "start": 18.034,
+       "end": 18.34
+      }
+     ]
+    }
+   ],
+   "start": 9.563,
+   "end": 18.34
+  },
+  {
+   "id": "rezept",
+   "label": "",
+   "lines": [
+    {
+     "show": "Doch es gibt",
+     "start": 18.58,
+     "end": 19.2,
+     "words": [
+      {
+       "text": "Doch",
+       "start": 18.58,
+       "end": 18.815
+      },
+      {
+       "text": "es",
+       "start": 18.815,
+       "end": 18.965
+      },
+      {
+       "text": "gibt",
+       "start": 18.965,
+       "end": 19.2
+      }
+     ]
+    },
+    {
+     "show": "ein {r:Problem:}",
+     "start": 19.2,
+     "end": 19.91,
+     "words": [
+      {
+       "text": "ein",
+       "start": 19.2,
+       "end": 19.446
+      },
+      {
+       "text": "Problem:",
+       "start": 19.446,
+       "end": 19.91
+      }
+     ]
+    },
+    {
+     "show": "Das Rezept",
+     "start": 20.16,
+     "end": 20.75,
+     "words": [
+      {
+       "text": "Das",
+       "start": 20.16,
+       "end": 20.381
+      },
+      {
+       "text": "Rezept",
+       "start": 20.381,
+       "end": 20.75
+      }
+     ]
+    },
+    {
+     "show": "ist {r:weg.}",
+     "start": 20.75,
+     "end": 21.4,
+     "words": [
+      {
+       "text": "ist",
+       "start": 20.75,
+       "end": 21.075
+      },
+      {
+       "text": "weg.",
+       "start": 21.075,
+       "end": 21.4
+      }
+     ]
+    },
+    {
+     "show": "Kalle durchsucht",
+     "start": 21.4,
+     "end": 22.3,
+     "words": [
+      {
+       "text": "Kalle",
+       "start": 21.4,
+       "end": 21.725
+      },
+      {
+       "text": "durchsucht",
+       "start": 21.725,
+       "end": 22.3
+      }
+     ]
+    },
+    {
+     "show": "den {y:ganzen Kiosk.}",
+     "start": 22.3,
+     "end": 23.2,
+     "words": [
+      {
+       "text": "den",
+       "start": 22.3,
+       "end": 22.519
+      },
+      {
+       "text": "ganzen",
+       "start": 22.519,
+       "end": 22.884
+      },
+      {
+       "text": "Kiosk.",
+       "start": 22.884,
+       "end": 23.2
+      }
+     ]
+    },
+    {
+     "show": "Unter der Kasse…",
+     "start": 23.2,
+     "end": 24.6,
+     "words": [
+      {
+       "text": "Unter",
+       "start": 23.2,
+       "end": 23.72
+      },
+      {
+       "text": "der",
+       "start": 23.72,
+       "end": 24.08
+      },
+      {
+       "text": "Kasse…",
+       "start": 24.08,
+       "end": 24.6
+      }
+     ]
+    },
+    {
+     "show": "im Kühlschrank…",
+     "start": 24.6,
+     "end": 25.86,
+     "words": [
+      {
+       "text": "im",
+       "start": 24.6,
+       "end": 24.876
+      },
+      {
+       "text": "Kühlschrank…",
+       "start": 24.876,
+       "end": 25.86
+      }
+     ]
+    },
+    {
+     "show": "hinter {y:Omas Foto…}",
+     "start": 26.07,
+     "end": 27.6,
+     "words": [
+      {
+       "text": "hinter",
+       "start": 26.07,
+       "end": 26.69
+      },
+      {
+       "text": "Omas",
+       "start": 26.69,
+       "end": 27.145
+      },
+      {
+       "text": "Foto…",
+       "start": 27.145,
+       "end": 27.6
+      }
+     ]
+    },
+    {
+     "show": "{g:Da!}",
+     "start": 27.6,
+     "end": 28.22,
+     "words": [
+      {
+       "text": "Da!",
+       "start": 27.6,
+       "end": 28.22
+      }
+     ]
+    },
+    {
+     "show": "Ein alter Zettel:",
+     "start": 28.4,
+     "end": 29.43,
+     "words": [
+      {
+       "text": "Ein",
+       "start": 28.4,
+       "end": 28.651
+      },
+      {
+       "text": "alter",
+       "start": 28.651,
+       "end": 29.012
+      },
+      {
+       "text": "Zettel:",
+       "start": 29.012,
+       "end": 29.43
+      }
+     ]
+    },
+    {
+     "show": "{y:Omas Geheimrezept!}",
+     "start": 29.64,
+     "end": 32.27,
+     "words": [
+      {
+       "text": "Omas",
+       "start": 29.64,
+       "end": 30.401
+      },
+      {
+       "text": "Geheimrezept!",
+       "start": 30.401,
+       "end": 32.27
+      }
+     ]
+    }
+   ],
+   "start": 18.58,
+   "end": 32.27
+  },
+  {
+   "id": "einkauf",
+   "label": "",
+   "lines": [
+    {
+     "show": "Ab zum {y:Großmarkt!}",
+     "start": 32.45,
+     "end": 33.04,
+     "words": [
+      {
+       "text": "Ab",
+       "start": 32.45,
+       "end": 32.562
+      },
+      {
+       "text": "zum",
+       "start": 32.562,
+       "end": 32.705
+      },
+      {
+       "text": "Großmarkt!",
+       "start": 32.705,
+       "end": 33.04
+      }
+     ]
+    },
+    {
+     "show": "Kakao, Milch,",
+     "start": 33.04,
+     "end": 33.498,
+     "words": [
+      {
+       "text": "Kakao,",
+       "start": 33.04,
+       "end": 33.269
+      },
+      {
+       "text": "Milch,",
+       "start": 33.269,
+       "end": 33.498
+      }
+     ]
+    },
+    {
+     "show": "Zimt und Becher:",
+     "start": 33.498,
+     "end": 34.281,
+     "words": [
+      {
+       "text": "Zimt",
+       "start": 33.498,
+       "end": 33.744
+      },
+      {
+       "text": "und",
+       "start": 33.744,
+       "end": 33.946
+      },
+      {
+       "text": "Becher:",
+       "start": 33.946,
+       "end": 34.281
+      }
+     ]
+    },
+    {
+     "show": "{r:40 Euro.}",
+     "start": 34.281,
+     "end": 34.609,
+     "words": [
+      {
+       "text": "40",
+       "start": 34.281,
+       "end": 34.409
+      },
+      {
+       "text": "Euro.",
+       "start": 34.409,
+       "end": 34.609
+      }
+     ]
+    },
+    {
+     "show": "{y:Maxim} schiebt",
+     "start": 34.609,
+     "end": 35.068,
+     "words": [
+      {
+       "text": "Maxim",
+       "start": 34.609,
+       "end": 34.808
+      },
+      {
+       "text": "schiebt",
+       "start": 34.808,
+       "end": 35.068
+      }
+     ]
+    },
+    {
+     "show": "den Wagen –",
+     "start": 35.068,
+     "end": 36.062,
+     "words": [
+      {
+       "text": "den",
+       "start": 35.068,
+       "end": 35.426
+      },
+      {
+       "text": "Wagen",
+       "start": 35.426,
+       "end": 35.943
+      },
+      {
+       "text": "–",
+       "start": 35.943,
+       "end": 36.062
+      }
+     ]
+    },
+    {
+     "show": "{r:direkt ins Regal.}",
+     "start": 36.062,
+     "end": 36.783,
+     "words": [
+      {
+       "text": "direkt",
+       "start": 36.062,
+       "end": 36.354
+      },
+      {
+       "text": "ins",
+       "start": 36.354,
+       "end": 36.53
+      },
+      {
+       "text": "Regal.",
+       "start": 36.53,
+       "end": 36.783
+      }
+     ]
+    },
+    {
+     "show": "An der Kasse",
+     "start": 36.783,
+     "end": 37.372,
+     "words": [
+      {
+       "text": "An",
+       "start": 36.783,
+       "end": 36.925
+      },
+      {
+       "text": "der",
+       "start": 36.925,
+       "end": 37.108
+      },
+      {
+       "text": "Kasse",
+       "start": 37.108,
+       "end": 37.372
+      }
+     ]
+    },
+    {
+     "show": "fehlen {r:zwei Euro –}",
+     "start": 37.372,
+     "end": 38.233,
+     "words": [
+      {
+       "text": "fehlen",
+       "start": 37.372,
+       "end": 37.695
+      },
+      {
+       "text": "zwei",
+       "start": 37.695,
+       "end": 37.932
+      },
+      {
+       "text": "Euro",
+       "start": 37.932,
+       "end": 38.168
+      },
+      {
+       "text": "–",
+       "start": 38.168,
+       "end": 38.233
+      }
+     ]
+    },
+    {
+     "show": "Maxim zahlt",
+     "start": 38.233,
+     "end": 38.691,
+     "words": [
+      {
+       "text": "Maxim",
+       "start": 38.233,
+       "end": 38.462
+      },
+      {
+       "text": "zahlt",
+       "start": 38.462,
+       "end": 38.691
+      }
+     ]
+    },
+    {
+     "show": "mit {y:Kleingeld.}",
+     "start": 38.691,
+     "end": 39.15,
+     "words": [
+      {
+       "text": "mit",
+       "start": 38.691,
+       "end": 38.829
+      },
+      {
+       "text": "Kleingeld.",
+       "start": 38.829,
+       "end": 39.15
+      }
+     ]
+    }
+   ],
+   "start": 32.45,
+   "end": 39.15
+  },
+  {
+   "id": "kochen",
+   "label": "",
+   "lines": [
+    {
+     "show": "Zurück im Kiosk",
+     "start": 39.373,
+     "end": 40.207,
+     "words": [
+      {
+       "text": "Zurück",
+       "start": 39.373,
+       "end": 39.73
+      },
+      {
+       "text": "im",
+       "start": 39.73,
+       "end": 39.897
+      },
+      {
+       "text": "Kiosk",
+       "start": 39.897,
+       "end": 40.207
+      }
+     ]
+    },
+    {
+     "show": "wird gekocht.",
+     "start": 40.207,
+     "end": 40.856,
+     "words": [
+      {
+       "text": "wird",
+       "start": 40.207,
+       "end": 40.462
+      },
+      {
+       "text": "gekocht.",
+       "start": 40.462,
+       "end": 40.856
+      }
+     ]
+    },
+    {
+     "show": "Erster Versuch:",
+     "start": 41.054,
+     "end": 42.002,
+     "words": [
+      {
+       "text": "Erster",
+       "start": 41.054,
+       "end": 41.498
+      },
+      {
+       "text": "Versuch:",
+       "start": 41.498,
+       "end": 42.002
+      }
+     ]
+    },
+    {
+     "show": "{r:zu wässrig.}",
+     "start": 42.002,
+     "end": 42.738,
+     "words": [
+      {
+       "text": "zu",
+       "start": 42.002,
+       "end": 42.216
+      },
+      {
+       "text": "wässrig.",
+       "start": 42.216,
+       "end": 42.738
+      }
+     ]
+    },
+    {
+     "show": "Zweiter Versuch:",
+     "start": 42.947,
+     "end": 43.747,
+     "words": [
+      {
+       "text": "Zweiter",
+       "start": 42.947,
+       "end": 43.347
+      },
+      {
+       "text": "Versuch:",
+       "start": 43.347,
+       "end": 43.747
+      }
+     ]
+    },
+    {
+     "show": "{r:angebrannt.}",
+     "start": 43.965,
+     "end": 44.548,
+     "words": [
+      {
+       "text": "angebrannt.",
+       "start": 43.965,
+       "end": 44.548
+      }
+     ]
+    },
+    {
+     "show": "Der Rauchmelder",
+     "start": 44.749,
+     "end": 45.724,
+     "words": [
+      {
+       "text": "Der",
+       "start": 44.749,
+       "end": 45.007
+      },
+      {
+       "text": "Rauchmelder",
+       "start": 45.007,
+       "end": 45.724
+      }
+     ]
+    },
+    {
+     "show": "dreht {r:durch.}",
+     "start": 45.724,
+     "end": 46.265,
+     "words": [
+      {
+       "text": "dreht",
+       "start": 45.724,
+       "end": 45.995
+      },
+      {
+       "text": "durch.",
+       "start": 45.995,
+       "end": 46.265
+      }
+     ]
+    },
+    {
+     "show": "Dritter Versuch…",
+     "start": 46.48,
+     "end": 47.653,
+     "words": [
+      {
+       "text": "Dritter",
+       "start": 46.48,
+       "end": 47.067
+      },
+      {
+       "text": "Versuch…",
+       "start": 47.067,
+       "end": 47.653
+      }
+     ]
+    },
+    {
+     "show": "Kalle probiert…",
+     "start": 48.027,
+     "end": 49.02,
+     "words": [
+      {
+       "text": "Kalle",
+       "start": 48.027,
+       "end": 48.43
+      },
+      {
+       "text": "probiert…",
+       "start": 48.43,
+       "end": 49.02
+      }
+     ]
+    },
+    {
+     "show": "{g:LECKER!}",
+     "start": 49.218,
+     "end": 49.875,
+     "words": [
+      {
+       "text": "LECKER!",
+       "start": 49.218,
+       "end": 49.875
+      }
+     ]
+    }
+   ],
+   "start": 39.373,
+   "end": 49.875
+  },
+  {
+   "id": "verkauf",
+   "label": "",
+   "lines": [
+    {
+     "show": "Am Nachmittag",
+     "start": 50.072,
+     "end": 50.9,
+     "words": [
+      {
+       "text": "Am",
+       "start": 50.072,
+       "end": 50.265
+      },
+      {
+       "text": "Nachmittag",
+       "start": 50.265,
+       "end": 50.9
+      }
+     ]
+    },
+    {
+     "show": "kommt {y:Horst.}",
+     "start": 50.9,
+     "end": 51.548,
+     "words": [
+      {
+       "text": "kommt",
+       "start": 50.9,
+       "end": 51.224
+      },
+      {
+       "text": "Horst.",
+       "start": 51.224,
+       "end": 51.548
+      }
+     ]
+    },
+    {
+     "show": "Er probiert…",
+     "start": 51.548,
+     "end": 52.386,
+     "words": [
+      {
+       "text": "Er",
+       "start": 51.548,
+       "end": 51.774
+      },
+      {
+       "text": "probiert…",
+       "start": 51.774,
+       "end": 52.386
+      }
+     ]
+    },
+    {
+     "show": "und muss {y:weinen.}",
+     "start": 52.386,
+     "end": 53.213,
+     "words": [
+      {
+       "text": "und",
+       "start": 52.386,
+       "end": 52.599
+      },
+      {
+       "text": "muss",
+       "start": 52.599,
+       "end": 52.859
+      },
+      {
+       "text": "weinen.",
+       "start": 52.859,
+       "end": 53.213
+      }
+     ]
+    },
+    {
+     "show": "„Schmeckt wie",
+     "start": 53.213,
+     "end": 53.891,
+     "words": [
+      {
+       "text": "„Schmeckt",
+       "start": 53.213,
+       "end": 53.673
+      },
+      {
+       "text": "wie",
+       "start": 53.673,
+       "end": 53.891
+      }
+     ]
+    },
+    {
+     "show": "bei {y:Erika!}“",
+     "start": 53.891,
+     "end": 54.718,
+     "words": [
+      {
+       "text": "bei",
+       "start": 53.891,
+       "end": 54.229
+      },
+      {
+       "text": "Erika!“",
+       "start": 54.229,
+       "end": 54.718
+      }
+     ]
+    },
+    {
+     "show": "Danach kommen alle:",
+     "start": 54.718,
+     "end": 56.084,
+     "words": [
+      {
+       "text": "Danach",
+       "start": 54.718,
+       "end": 55.218
+      },
+      {
+       "text": "kommen",
+       "start": 55.218,
+       "end": 55.717
+      },
+      {
+       "text": "alle:",
+       "start": 55.717,
+       "end": 56.084
+      }
+     ]
+    },
+    {
+     "show": "Kinder, Bauarbeiter,",
+     "start": 56.084,
+     "end": 57.276,
+     "words": [
+      {
+       "text": "Kinder,",
+       "start": 56.084,
+       "end": 56.531
+      },
+      {
+       "text": "Bauarbeiter,",
+       "start": 56.531,
+       "end": 57.276
+      }
+     ]
+    },
+    {
+     "show": "sogar {y:Fremde.}",
+     "start": 57.276,
+     "end": 58.104,
+     "words": [
+      {
+       "text": "sogar",
+       "start": 57.276,
+       "end": 57.66
+      },
+      {
+       "text": "Fremde.",
+       "start": 57.66,
+       "end": 58.104
+      }
+     ]
+    },
+    {
+     "show": "Ein Kunde filmt",
+     "start": 58.104,
+     "end": 59.109,
+     "words": [
+      {
+       "text": "Ein",
+       "start": 58.104,
+       "end": 58.362
+      },
+      {
+       "text": "Kunde",
+       "start": 58.362,
+       "end": 58.736
+      },
+      {
+       "text": "filmt",
+       "start": 58.736,
+       "end": 59.109
+      }
+     ]
+    },
+    {
+     "show": "den Kakao für {y:TikTok.}",
+     "start": 59.109,
+     "end": 60.304,
+     "words": [
+      {
+       "text": "den",
+       "start": 59.109,
+       "end": 59.343
+      },
+      {
+       "text": "Kakao",
+       "start": 59.343,
+       "end": 59.681
+      },
+      {
+       "text": "für",
+       "start": 59.681,
+       "end": 59.915
+      },
+      {
+       "text": "TikTok.",
+       "start": 59.915,
+       "end": 60.304
+      }
+     ]
+    },
+    {
+     "show": "Plötzlich {g:steht die Schlange}",
+     "start": 60.304,
+     "end": 61.674,
+     "words": [
+      {
+       "text": "Plötzlich",
+       "start": 60.304,
+       "end": 60.768
+      },
+      {
+       "text": "steht",
+       "start": 60.768,
+       "end": 61.056
+      },
+      {
+       "text": "die",
+       "start": 61.056,
+       "end": 61.255
+      },
+      {
+       "text": "Schlange",
+       "start": 61.255,
+       "end": 61.674
+      }
+     ]
+    },
+    {
+     "show": "bis zur Ecke.",
+     "start": 61.674,
+     "end": 62.502,
+     "words": [
+      {
+       "text": "bis",
+       "start": 61.674,
+       "end": 61.931
+      },
+      {
+       "text": "zur",
+       "start": 61.931,
+       "end": 62.188
+      },
+      {
+       "text": "Ecke.",
+       "start": 62.188,
+       "end": 62.502
+      }
+     ]
+    },
+    {
+     "show": "{g:46 Becher!}",
+     "start": 62.502,
+     "end": 63.097,
+     "words": [
+      {
+       "text": "46",
+       "start": 62.502,
+       "end": 62.691
+      },
+      {
+       "text": "Becher!",
+       "start": 62.691,
+       "end": 63.097
+      }
+     ]
+    },
+    {
+     "show": "Und Dennis gegenüber?",
+     "start": 63.097,
+     "end": 64.653,
+     "words": [
+      {
+       "text": "Und",
+       "start": 63.097,
+       "end": 63.408
+      },
+      {
+       "text": "Dennis",
+       "start": 63.408,
+       "end": 63.927
+      },
+      {
+       "text": "gegenüber?",
+       "start": 63.927,
+       "end": 64.653
+      }
+     ]
+    },
+    {
+     "show": "Verkauft {r:gar nichts.}",
+     "start": 64.653,
+     "end": 65.48,
+     "words": [
+      {
+       "text": "Verkauft",
+       "start": 64.653,
+       "end": 65.018
+      },
+      {
+       "text": "gar",
+       "start": 65.018,
+       "end": 65.191
+      },
+      {
+       "text": "nichts.",
+       "start": 65.191,
+       "end": 65.48
+      }
+     ]
+    }
+   ],
+   "start": 50.072,
+   "end": 65.48
+  },
+  {
+   "id": "abend",
+   "label": "",
+   "lines": [
+    {
+     "show": "Abends zählt Kalle",
+     "start": 65.71,
+     "end": 66.7,
+     "words": [
+      {
+       "text": "Abends",
+       "start": 65.71,
+       "end": 66.072
+      },
+      {
+       "text": "zählt",
+       "start": 66.072,
+       "end": 66.386
+      },
+      {
+       "text": "Kalle",
+       "start": 66.386,
+       "end": 66.7
+      }
+     ]
+    },
+    {
+     "show": "die Kasse:",
+     "start": 66.7,
+     "end": 67.519,
+     "words": [
+      {
+       "text": "die",
+       "start": 66.7,
+       "end": 67.035
+      },
+      {
+       "text": "Kasse:",
+       "start": 67.035,
+       "end": 67.519
+      }
+     ]
+    },
+    {
+     "show": "{g:189 Euro 40!}",
+     "start": 67.519,
+     "end": 67.969,
+     "words": [
+      {
+       "text": "189",
+       "start": 67.519,
+       "end": 67.669
+      },
+      {
+       "text": "Euro",
+       "start": 67.669,
+       "end": 67.852
+      },
+      {
+       "text": "40!",
+       "start": 67.852,
+       "end": 67.969
+      }
+     ]
+    },
+    {
+     "show": "Kalle und Maxim",
+     "start": 67.969,
+     "end": 69.126,
+     "words": [
+      {
+       "text": "Kalle",
+       "start": 67.969,
+       "end": 68.398
+      },
+      {
+       "text": "und",
+       "start": 68.398,
+       "end": 68.696
+      },
+      {
+       "text": "Maxim",
+       "start": 68.696,
+       "end": 69.126
+      }
+     ]
+    },
+    {
+     "show": "{y:tanzen} durch den Laden.",
+     "start": 69.126,
+     "end": 70.296,
+     "words": [
+      {
+       "text": "tanzen",
+       "start": 69.126,
+       "end": 69.477
+      },
+      {
+       "text": "durch",
+       "start": 69.477,
+       "end": 69.781
+      },
+      {
+       "text": "den",
+       "start": 69.781,
+       "end": 69.991
+      },
+      {
+       "text": "Laden.",
+       "start": 69.991,
+       "end": 70.295
+      }
+     ]
+    }
+   ],
+   "start": 65.71,
+   "end": 70.296
+  },
+  {
+   "id": "wendung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Doch dann",
+     "start": 70.458,
+     "end": 70.967,
+     "words": [
+      {
+       "text": "Doch",
+       "start": 70.458,
+       "end": 70.712
+      },
+      {
+       "text": "dann",
+       "start": 70.712,
+       "end": 70.967
+      }
+     ]
+    },
+    {
+     "show": "steht {r:Herr Geier}",
+     "start": 70.967,
+     "end": 71.68,
+     "words": [
+      {
+       "text": "steht",
+       "start": 70.967,
+       "end": 71.218
+      },
+      {
+       "text": "Herr",
+       "start": 71.218,
+       "end": 71.43
+      },
+      {
+       "text": "Geier",
+       "start": 71.43,
+       "end": 71.68
+      }
+     ]
+    },
+    {
+     "show": "im Laden.",
+     "start": 71.68,
+     "end": 72.393,
+     "words": [
+      {
+       "text": "im",
+       "start": 71.68,
+       "end": 71.93
+      },
+      {
+       "text": "Laden.",
+       "start": 71.93,
+       "end": 72.393
+      }
+     ]
+    },
+    {
+     "show": "„Kakao verkaufen",
+     "start": 72.565,
+     "end": 73.424,
+     "words": [
+      {
+       "text": "„Kakao",
+       "start": 72.565,
+       "end": 72.893
+      },
+      {
+       "text": "verkaufen",
+       "start": 72.893,
+       "end": 73.424
+      }
+     ]
+    },
+    {
+     "show": "steht {r:nicht} im Mietvertrag.",
+     "start": 73.424,
+     "end": 74.439,
+     "words": [
+      {
+       "text": "steht",
+       "start": 73.424,
+       "end": 73.651
+      },
+      {
+       "text": "nicht",
+       "start": 73.651,
+       "end": 73.879
+      },
+      {
+       "text": "im",
+       "start": 73.879,
+       "end": 74.001
+      },
+      {
+       "text": "Mietvertrag.",
+       "start": 74.001,
+       "end": 74.439
+      }
+     ]
+    },
+    {
+     "show": "Ab morgen will ich",
+     "start": 74.651,
+     "end": 75.88,
+     "words": [
+      {
+       "text": "Ab",
+       "start": 74.651,
+       "end": 74.856
+      },
+      {
+       "text": "morgen",
+       "start": 74.856,
+       "end": 75.295
+      },
+      {
+       "text": "will",
+       "start": 75.295,
+       "end": 75.617
+      },
+      {
+       "text": "ich",
+       "start": 75.617,
+       "end": 75.88
+      }
+     ]
+    },
+    {
+     "show": "{r:10 Prozent}",
+     "start": 75.88,
+     "end": 76.662,
+     "words": [
+      {
+       "text": "10",
+       "start": 75.88,
+       "end": 76.108
+      },
+      {
+       "text": "Prozent",
+       "start": 76.108,
+       "end": 76.662
+      }
+     ]
+    },
+    {
+     "show": "von jedem Becher.“",
+     "start": 76.662,
+     "end": 77.892,
+     "words": [
+      {
+       "text": "von",
+       "start": 76.662,
+       "end": 76.961
+      },
+      {
+       "text": "jedem",
+       "start": 76.961,
+       "end": 77.393
+      },
+      {
+       "text": "Becher.“",
+       "start": 77.393,
+       "end": 77.892
+      }
+     ]
+    },
+    {
+     "show": "Kalle wird {r:kreidebleich.}",
+     "start": 77.892,
+     "end": 79.345,
+     "words": [
+      {
+       "text": "Kalle",
+       "start": 77.892,
+       "end": 78.262
+      },
+      {
+       "text": "wird",
+       "start": 78.262,
+       "end": 78.576
+      },
+      {
+       "text": "kreidebleich.",
+       "start": 78.576,
+       "end": 79.345
+      }
+     ]
+    }
+   ],
+   "start": 70.458,
+   "end": 79.345
+  },
+  {
+   "id": "abstimmung",
+   "label": "",
+   "lines": [
+    {
+     "show": "Soll Kalle {y:zahlen}",
+     "start": 79.561,
+     "end": 80.953,
+     "words": [
+      {
+       "text": "Soll",
+       "start": 79.561,
+       "end": 79.954
+      },
+      {
+       "text": "Kalle",
+       "start": 79.954,
+       "end": 80.418
+      },
+      {
+       "text": "zahlen",
+       "start": 80.418,
+       "end": 80.953
+      }
+     ]
+    },
+    {
+     "show": "und Ärger vermeiden –",
+     "start": 81.172,
+     "end": 82.514,
+     "words": [
+      {
+       "text": "und",
+       "start": 81.172,
+       "end": 81.435
+      },
+      {
+       "text": "Ärger",
+       "start": 81.435,
+       "end": 81.814
+      },
+      {
+       "text": "vermeiden",
+       "start": 81.814,
+       "end": 82.427
+      },
+      {
+       "text": "–",
+       "start": 82.427,
+       "end": 82.514
+      }
+     ]
+    },
+    {
+     "show": "oder sich {y:wehren}",
+     "start": 82.514,
+     "end": 83.808,
+     "words": [
+      {
+       "text": "oder",
+       "start": 82.514,
+       "end": 82.899
+      },
+      {
+       "text": "sich",
+       "start": 82.899,
+       "end": 83.283
+      },
+      {
+       "text": "wehren",
+       "start": 83.283,
+       "end": 83.808
+      }
+     ]
+    },
+    {
+     "show": "und den Mietvertrag",
+     "start": 83.808,
+     "end": 84.943,
+     "words": [
+      {
+       "text": "und",
+       "start": 83.808,
+       "end": 84.046
+      },
+      {
+       "text": "den",
+       "start": 84.046,
+       "end": 84.283
+      },
+      {
+       "text": "Mietvertrag",
+       "start": 84.283,
+       "end": 84.943
+      }
+     ]
+    },
+    {
+     "show": "{y:Zeile für Zeile} lesen?",
+     "start": 84.943,
+     "end": 86.492,
+     "words": [
+      {
+       "text": "Zeile",
+       "start": 84.943,
+       "end": 85.363
+      },
+      {
+       "text": "für",
+       "start": 85.363,
+       "end": 85.653
+      },
+      {
+       "text": "Zeile",
+       "start": 85.653,
+       "end": 86.073
+      },
+      {
+       "text": "lesen?",
+       "start": 86.073,
+       "end": 86.492
+      }
+     ]
+    },
+    {
+     "show": "{y:A} oder {y:B}?",
+     "start": 86.698,
+     "end": 87.556,
+     "words": [
+      {
+       "text": "A",
+       "start": 86.698,
+       "end": 86.902
+      },
+      {
+       "text": "oder",
+       "start": 86.902,
+       "end": 87.352
+      },
+      {
+       "text": "B?",
+       "start": 87.352,
+       "end": 87.556
+      }
+     ]
+    },
+    {
+     "show": "Dein Kommentar {y:zählt.}",
+     "start": 87.765,
+     "end": 88.9,
+     "words": [
+      {
+       "text": "Dein",
+       "start": 87.765,
+       "end": 88.042
+      },
+      {
+       "text": "Kommentar",
+       "start": 88.042,
+       "end": 88.572
+      },
+      {
+       "text": "zählt.",
+       "start": 88.572,
+       "end": 88.9
+      }
+     ]
+    }
+   ],
+   "start": 79.561,
+   "end": 88.9
+  }
+ ]
+}

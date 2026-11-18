@@ -2,12 +2,12 @@
   "serie": "Kiosk-Kalle – 30 Tage bis zur Räumung",
   "slug": "kiosk-kalle",
   "ziel_euro": 3000,
-  "letzte_folge": 2,
+  "letzte_folge": 3,
   "naechste_folge": {
-    "folge": 3,
-    "noch_tage": 28,
-    "kunden_sterne": 1.8,
-    "kasse_euro": 137.4,
+    "folge": 4,
+    "noch_tage": 27,
+    "kunden_sterne": 2.6,
+    "kasse_euro": 189.4,
     "hud_elemente": [
       "folge",
       "countdown",
@@ -16,10 +16,10 @@
     ]
   },
   "offene_abstimmung": {
-    "folge": 2,
+    "folge": 3,
     "frage": "Was soll Kalle tun?",
-    "A": "Preise senken – Preiskampf mit Dennis",
-    "B": "Omas Kakao – Geheimrezept, 40 € Zutaten",
+    "A": "Zahlen – 10 % an Herrn Geier, kein Ärger",
+    "B": "Wehren – Mietvertrag Zeile für Zeile lesen, Risiko",
     "ergebnis": null
   },
   "abstimmungen": [
@@ -39,6 +39,22 @@
         "Mehrere Zuschauer wollen im Kiosk mitarbeiten – auch ehrenamtlich (→ Helfer Max ab Folge 2)",
         "Meistgelikter Kommentar: „A – man muss langfristig denken“"
       ]
+    },
+    {
+      "folge": 2,
+      "frage": "Was soll Kalle tun?",
+      "A": "Preise senken – Preiskampf mit Dennis",
+      "B": "Omas Kakao – Geheimrezept, 40 € Zutaten",
+      "ergebnis": {
+        "A": 12,
+        "B": 88,
+        "stimmen": 34,
+        "gewinner": "B",
+        "quelle": "TikTok-Umfrage (1 Tag nach Upload, lief noch 6 Tage)"
+      },
+      "community_notizen": [
+        "„B weil es was Hausgemachtes ist … A geht langfristig ins Minus“"
+      ]
     }
   ],
   "kanon": [
@@ -51,7 +67,11 @@
     "Folge 2: Konsole für 250 € verkauft, gebrauchter Kühlschrank für 180 € gekauft (läuft).",
     "Bauarbeiter von der Baustelle nebenan sind neue Stammkunden (kalte Getränke), +64 €.",
     "Maxim (blond, blauer Pulli, rote KIOSK-Schürze) hilft ehrenamtlich – Zuschauer Maxim aus den Kommentaren („Darf ich Mitarbeiter sein?“), auf Wunsch des Creators.",
-    "Dennis kontert abends: „Alle Getränke 50 Cent!“"
+    "Dennis kontert abends: „Alle Getränke 50 Cent!“",
+    "Folge 3: Omas Rezept-Zettel hinter ihrem Foto gefunden (1 L Milch, 4 EL Kakao, 1 Prise Zimt + eine verschmierte geheime Zutat!).",
+    "Großmarkt-Einkauf 40 €, Maxim fährt den Wagen ins Regal, zahlt 2 € mit Kleingeld.",
+    "Horst weint beim ersten Becher: „Schmeckt wie bei Erika!“ – 46 Becher à 2 €, ein Kunde filmt für TikTok.",
+    "Herr Geier verlangt 10 % von jedem Becher („steht nicht im Mietvertrag“)."
   ],
   "produktion": {
     "stimme": "ElevenLabs „Timon – Energetic and Clear“ (voice_id 0i5UT3fATBWphA0jBZug), Modell eleven_v4",

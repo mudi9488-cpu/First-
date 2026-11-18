@@ -211,3 +211,25 @@ def nahaufnahme(p="na", farbe="#E8F1F8"):
   <ellipse cx="540" cy="900" rx="396" ry="526" fill="none" stroke="{INK}" stroke-width="5"/>
 """
     return _svg(p, inner)
+
+
+# ------------------------------------------------------------------ Großmarkt (ab Folge 3)
+
+def grossmarkt(p="gm"):
+    regale = []
+    for col, x in enumerate((40, 400, 760)):
+        regale.append(f'<rect x="{x}" y="380" width="300" height="980" fill="#5E6B7A" {_o()}/>')
+        for k, y in enumerate((560, 800, 1040, 1280)):
+            regale.append(f'<rect x="{x}" y="{y}" width="300" height="20" fill="#F2A33A" {_o(5)}/>')
+            regale.append(_regal_ware(x, x + 300, y, col * 4 + k))
+    floor = "".join(f'<path d="M {k * 180} 1360 L {k * 180 - 120} 1920" stroke="#B9BFC8" stroke-width="5"/>' for k in range(8))
+    inner = f"""
+  <rect width="{W}" height="{H}" fill="#DDE3EA"/>
+  <rect x="0" y="300" width="{W}" height="40" fill="#9AA6B4"/>
+  <rect x="0" y="330" width="{W}" height="1040" fill="#C9D1DB"/>
+  {''.join(regale)}
+  <rect x="300" y="300" width="480" height="70" rx="12" fill="#E8413A" {_o(5)}/>
+  <text x="540" y="350" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="#fff">GROSSMARKT</text>
+  <rect x="0" y="1360" width="{W}" height="560" fill="#E9ECEF"/>{floor}
+"""
+    return _svg(p, inner)

@@ -21,7 +21,8 @@ Referenzvideos: `references/2026-11-serie/kevin-folge-NN.mp4` (+ `-uebersicht.jp
 
 - **Sprache Deutsch**, Erzähler in 3. Person Präsens, locker, schnell, leicht fies-humorvoll, nie verletzend
   (keine Witze über Behinderung, Herkunft, Religion; Figur ist liebenswerter Loser, kein Opfer).
-- **Format** 1080×1920, 30 fps, 60–90 s (Referenzen: 63–89 s, ~2,4 Wörter/s ≈ 150–200 Wörter).
+- **Format** 1080×1920, 30 fps, **85–90 s ab Folge 3** (Wunsch des Creators; Referenzen 63–89 s) ≈ 220–230 Wörter,
+  10–12 Szenen, Ortswechsel alle 5–9 s, pro Szene Panne → Gag → kleiner Erfolg. Vorlage: `videos/18-kiosk-kalle-f03/`.
 - **Eigene Figuren, eigene Welt, eigener Seriename.** Nichts von Kevin/Karla kopieren (Namen, Figuren-Design,
   Zahnspange-Gags, Hausmeister Brömmel, Logo). Nur Struktur und Mechanik übernehmen.
 - **Kein TikTok-Logo/Outro/Wasserzeichen** und kein „AI-generated“-Label einbauen – fügt TikTok selbst hinzu.

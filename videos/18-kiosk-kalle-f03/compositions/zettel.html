@@ -1,0 +1,27 @@
+<template>
+  <style>
+
+#root { position:absolute; inset:0; overflow:hidden; font-family:'Inter', sans-serif; color:#fff; }
+.abs { position:absolute; }
+.fig { position:absolute; }
+.pop { position:absolute; font-family:'Inter', sans-serif; font-weight:900; text-transform:uppercase; white-space:nowrap;
+  -webkit-text-stroke:12px #1B1530; paint-order:stroke fill; letter-spacing:0.01em; text-shadow:0 6px 0 #1B1530; }
+.bubble { position:absolute; background:#fff; color:#1B1530; font-weight:800; border:6px solid #1B1530;
+  border-radius:34px; padding:18px 30px; font-size:40px; white-space:nowrap; }
+.card { position:absolute; background:#fff; color:#1B1530; border:7px solid #1B1530; border-radius:30px; }
+
+#root { background:#3B2A1E; }
+
+  </style>
+  <div id="root" data-composition-id="zettel" data-width="1080" data-height="1920">
+<svg id="zettel-zbg" class="abs" style="left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920"><rect width="1080" height="1920" fill="#3B2A1E"/><g id="zettel-zbg-r"><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(0.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(22.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(45.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(67.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(90.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(112.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(135.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(157.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(180.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(202.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(225.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(247.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(270.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(292.5 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(315.0 540 1000)"/><path d="M 540 1000 L 280 -1400 L 800 -1400 Z" fill="#4A3626" transform="rotate(337.5 540 1000)"/></g></svg><div id="zettel-rz" class="abs" style="left:150px;top:420px;width:780px;opacity:0;z-index:5;background:#FFF9E6;border:7px solid #1B1530;border-radius:12px;padding:30px 40px;font-family:'Segoe Print','Comic Sans MS',cursive;font-size:50px;color:#2A3A8C;transform:rotate(-2deg);box-shadow:0 14px 0 rgba(0,0,0,0.2)"><div style="border-bottom:3px solid #C9D8F0;padding:10px 0;color:#C0202E;font-size:58px"><b>Omas Geheimrezept</b></div><div style="border-bottom:3px solid #C9D8F0;padding:10px 0;">1 Liter Milch</div><div style="border-bottom:3px solid #C9D8F0;padding:10px 0;">4 EL Kakao</div><div style="border-bottom:3px solid #C9D8F0;padding:10px 0;">1 Prise Zimt</div><div style="border-bottom:3px solid #C9D8F0;padding:10px 0;">+ <span style='background:#7A6A50;color:#7A6A50;border-radius:8px'>██████</span> ???</div></div><svg id="zettel-rr" class="abs" style="left:370px;top:915px;opacity:0" width="200" height="200"><circle cx="100" cy="100" r="90" fill="none" stroke="#FF4D5E" stroke-width="10" stroke-dasharray="26 14"/></svg>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+tl.fromTo("#zettel-zbg-r",{rotation:0},{rotation:15,duration:4.049999999999997,ease:"none",svgOrigin:"540 1000"},0);
+tl.fromTo("#zettel-rz",{y:700,rotation:-20,opacity:1},{y:0,rotation:-2,opacity:1,duration:0.45,ease:"back.out(1.6)"},0.05);
+tl.fromTo("#zettel-rr",{scale:0,opacity:0,rotation:-12},{scale:1.0,opacity:1,rotation:0,duration:0.32,ease:"back.out(2.6)"},1.92);
+
+    window.__timelines["zettel"] = tl;
+  </script>
+</template>
