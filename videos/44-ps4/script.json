@@ -1,0 +1,255 @@
+{
+ "title": "PS4 Kid",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "everybody has a PS5."
+    },
+    {
+     "show": "And everybody is playing {y:GTA 6.}"
+    },
+    {
+     "show": "Except me."
+    },
+    {
+     "show": "I still have a {r:PS4.}"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "On release day,"
+    },
+    {
+     "show": "the mayor made it a holiday."
+    },
+    {
+     "show": "School was cancelled."
+    },
+    {
+     "show": "Not because of the holiday."
+    },
+    {
+     "show": "Because the teachers were playing too."
+    },
+    {
+     "show": "Kevin hasn't left his room in a week."
+    },
+    {
+     "show": "His mom slides pizza under the door."
+    },
+    {
+     "show": "Grandma got every police car in the game"
+    },
+    {
+     "show": "chasing her in the first minute."
+    },
+    {
+     "show": "Even Linda's cat has a controller."
+    }
+   ]
+  },
+  {
+   "id": "try",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I tried to play GTA 6"
+    },
+    {
+     "show": "on my PS4."
+    },
+    {
+     "show": "It started making a sound"
+    },
+    {
+     "show": "like a helicopter."
+    },
+    {
+     "show": "Then the TV just said,"
+    },
+    {
+     "show": "{r:are you serious?}"
+    },
+    {
+     "show": "Then it started {r:smoking.}"
+    },
+    {
+     "show": "The fire department came."
+    },
+    {
+     "show": "And they laughed at me too."
+    }
+   ]
+  },
+  {
+   "id": "sad",
+   "label": "",
+   "lines": [
+    {
+     "show": "At school,"
+    },
+    {
+     "show": "everybody calls me"
+    },
+    {
+     "show": "{r:loading screen.}"
+    },
+    {
+     "show": "And every night,"
+    },
+    {
+     "show": "I sit alone in my room"
+    },
+    {
+     "show": "and watch everybody else play"
+    },
+    {
+     "show": "on my phone."
+    },
+    {
+     "show": "Kevin streams it."
+    },
+    {
+     "show": "Linda streams it."
+    },
+    {
+     "show": "Even grandma streams it."
+    },
+    {
+     "show": "She has more viewers than the mayor."
+    },
+    {
+     "show": "Sometimes they invite me to play."
+    },
+    {
+     "show": "Then they remember."
+    },
+    {
+     "show": "And they laugh again."
+    }
+   ]
+  },
+  {
+   "id": "money",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I tried to save money."
+    },
+    {
+     "show": "I opened a lemonade stand."
+    },
+    {
+     "show": "My only customer was grandma."
+    },
+    {
+     "show": "I washed cars."
+    },
+    {
+     "show": "They came back dirtier."
+    },
+    {
+     "show": "I tried to sell grandma's sweaters."
+    },
+    {
+     "show": "Nobody wanted them."
+    },
+    {
+     "show": "Not even grandma."
+    },
+    {
+     "show": "I even tried to trade my PS4 for a PS5."
+    },
+    {
+     "show": "The guy at the store fell over"
+    },
+    {
+     "show": "laughing."
+    },
+    {
+     "show": "My piggy bank"
+    },
+    {
+     "show": "is still almost {r:empty.}"
+    }
+   ]
+  },
+  {
+   "id": "you",
+   "label": "",
+   "lines": [
+    {
+     "show": "But then I had one last idea."
+    },
+    {
+     "show": "{y:You.}"
+    },
+    {
+     "show": "Right now,"
+    },
+    {
+     "show": "you're watching me."
+    },
+    {
+     "show": "And if this video goes viral,"
+    },
+    {
+     "show": "I can finally buy a PS5."
+    }
+   ]
+  },
+  {
+   "id": "deal",
+   "label": "",
+   "lines": [
+    {
+     "show": "So here's the deal."
+    },
+    {
+     "show": "Every like"
+    },
+    {
+     "show": "is one coin in my piggy bank."
+    },
+    {
+     "show": "Every follow"
+    },
+    {
+     "show": "makes Kevin stop laughing."
+    },
+    {
+     "show": "And if you share it,"
+    },
+    {
+     "show": "I can finally play GTA 6"
+    },
+    {
+     "show": "{y:with you.}"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Please."
+    },
+    {
+     "show": "My PS4 is {r:really tired.}"
+    }
+   ]
+  }
+ ]
+}

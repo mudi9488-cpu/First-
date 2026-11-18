@@ -1,0 +1,2013 @@
+{
+ "duration": 89.731,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.48,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "everybody has a PS5.",
+     "start": 0.88,
+     "end": 2.48,
+     "words": [
+      {
+       "text": "everybody",
+       "start": 0.88,
+       "end": 1.36
+      },
+      {
+       "text": "has",
+       "start": 1.44,
+       "end": 1.52
+      },
+      {
+       "text": "a",
+       "start": 1.56,
+       "end": 1.6
+      },
+      {
+       "text": "PS5.",
+       "start": 1.68,
+       "end": 2.48
+      }
+     ]
+    },
+    {
+     "show": "And everybody is playing {y:GTA 6.}",
+     "start": 2.6,
+     "end": 4.88,
+     "words": [
+      {
+       "text": "And",
+       "start": 2.6,
+       "end": 2.72
+      },
+      {
+       "text": "everybody",
+       "start": 2.8,
+       "end": 3.28
+      },
+      {
+       "text": "is",
+       "start": 3.36,
+       "end": 3.44
+      },
+      {
+       "text": "playing",
+       "start": 3.56,
+       "end": 3.68
+      },
+      {
+       "text": "GTA",
+       "start": 3.76,
+       "end": 4.24
+      },
+      {
+       "text": "6.",
+       "start": 4.32,
+       "end": 4.88
+      }
+     ]
+    },
+    {
+     "show": "Except me.",
+     "start": 5.04,
+     "end": 5.68,
+     "words": [
+      {
+       "text": "Except",
+       "start": 5.04,
+       "end": 5.2
+      },
+      {
+       "text": "me.",
+       "start": 5.28,
+       "end": 5.68
+      }
+     ]
+    },
+    {
+     "show": "I still have a {r:PS4.}",
+     "start": 5.76,
+     "end": 7.2,
+     "words": [
+      {
+       "text": "I",
+       "start": 5.76,
+       "end": 5.84
+      },
+      {
+       "text": "still",
+       "start": 5.92,
+       "end": 6.0
+      },
+      {
+       "text": "have",
+       "start": 6.08,
+       "end": 6.16
+      },
+      {
+       "text": "a",
+       "start": 6.2,
+       "end": 6.24
+      },
+      {
+       "text": "PS4.",
+       "start": 6.32,
+       "end": 7.2
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 7.2
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "On release day,",
+     "start": 7.28,
+     "end": 8.0,
+     "words": [
+      {
+       "text": "On",
+       "start": 7.28,
+       "end": 7.36
+      },
+      {
+       "text": "release",
+       "start": 7.52,
+       "end": 7.68
+      },
+      {
+       "text": "day,",
+       "start": 7.8,
+       "end": 8.0
+      }
+     ]
+    },
+    {
+     "show": "the mayor made it a holiday.",
+     "start": 8.08,
+     "end": 9.36,
+     "words": [
+      {
+       "text": "the",
+       "start": 8.08,
+       "end": 8.16
+      },
+      {
+       "text": "mayor",
+       "start": 8.24,
+       "end": 8.4
+      },
+      {
+       "text": "made",
+       "start": 8.48,
+       "end": 8.56
+      },
+      {
+       "text": "it",
+       "start": 8.6,
+       "end": 8.64
+      },
+      {
+       "text": "a",
+       "start": 8.72,
+       "end": 8.8
+      },
+      {
+       "text": "holiday.",
+       "start": 9.04,
+       "end": 9.36
+      }
+     ]
+    },
+    {
+     "show": "School was cancelled.",
+     "start": 9.44,
+     "end": 10.64,
+     "words": [
+      {
+       "text": "School",
+       "start": 9.44,
+       "end": 9.76
+      },
+      {
+       "text": "was",
+       "start": 9.88,
+       "end": 10.0
+      },
+      {
+       "text": "cancelled.",
+       "start": 10.08,
+       "end": 10.64
+      }
+     ]
+    },
+    {
+     "show": "Not because of the holiday.",
+     "start": 10.72,
+     "end": 11.72,
+     "words": [
+      {
+       "text": "Not",
+       "start": 10.72,
+       "end": 10.8
+      },
+      {
+       "text": "because",
+       "start": 10.92,
+       "end": 11.04
+      },
+      {
+       "text": "of",
+       "start": 11.08,
+       "end": 11.12
+      },
+      {
+       "text": "the",
+       "start": 11.16,
+       "end": 11.2
+      },
+      {
+       "text": "holiday.",
+       "start": 11.44,
+       "end": 11.72
+      }
+     ]
+    },
+    {
+     "show": "Because the teachers were playing too.",
+     "start": 11.76,
+     "end": 13.44,
+     "words": [
+      {
+       "text": "Because",
+       "start": 11.76,
+       "end": 11.92
+      },
+      {
+       "text": "the",
+       "start": 12.0,
+       "end": 12.08
+      },
+      {
+       "text": "teachers",
+       "start": 12.28,
+       "end": 12.48
+      },
+      {
+       "text": "were",
+       "start": 12.56,
+       "end": 12.64
+      },
+      {
+       "text": "playing",
+       "start": 12.8,
+       "end": 12.96
+      },
+      {
+       "text": "too.",
+       "start": 13.04,
+       "end": 13.44
+      }
+     ]
+    },
+    {
+     "show": "Kevin hasn't left his room in a week.",
+     "start": 13.52,
+     "end": 15.28,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 13.52,
+       "end": 13.76
+      },
+      {
+       "text": "hasn't",
+       "start": 13.84,
+       "end": 14.0
+      },
+      {
+       "text": "left",
+       "start": 14.08,
+       "end": 14.16
+      },
+      {
+       "text": "his",
+       "start": 14.24,
+       "end": 14.32
+      },
+      {
+       "text": "room",
+       "start": 14.44,
+       "end": 14.56
+      },
+      {
+       "text": "in",
+       "start": 14.6,
+       "end": 14.64
+      },
+      {
+       "text": "a",
+       "start": 14.72,
+       "end": 14.88
+      },
+      {
+       "text": "week.",
+       "start": 15.0,
+       "end": 15.28
+      }
+     ]
+    },
+    {
+     "show": "His mom slides pizza under the door.",
+     "start": 15.36,
+     "end": 17.2,
+     "words": [
+      {
+       "text": "His",
+       "start": 15.36,
+       "end": 15.44
+      },
+      {
+       "text": "mom",
+       "start": 15.56,
+       "end": 15.68
+      },
+      {
+       "text": "slides",
+       "start": 15.76,
+       "end": 16.08
+      },
+      {
+       "text": "pizza",
+       "start": 16.24,
+       "end": 16.4
+      },
+      {
+       "text": "under",
+       "start": 16.48,
+       "end": 16.64
+      },
+      {
+       "text": "the",
+       "start": 16.68,
+       "end": 16.72
+      },
+      {
+       "text": "door.",
+       "start": 16.84,
+       "end": 17.2
+      }
+     ]
+    },
+    {
+     "show": "Grandma got every police car in the game",
+     "start": 17.32,
+     "end": 19.12,
+     "words": [
+      {
+       "text": "Grandma",
+       "start": 17.32,
+       "end": 17.6
+      },
+      {
+       "text": "got",
+       "start": 17.72,
+       "end": 17.84
+      },
+      {
+       "text": "every",
+       "start": 17.92,
+       "end": 18.16
+      },
+      {
+       "text": "police",
+       "start": 18.2,
+       "end": 18.48
+      },
+      {
+       "text": "car",
+       "start": 18.56,
+       "end": 18.64
+      },
+      {
+       "text": "in",
+       "start": 18.68,
+       "end": 18.72
+      },
+      {
+       "text": "the",
+       "start": 18.76,
+       "end": 18.8
+      },
+      {
+       "text": "game",
+       "start": 18.88,
+       "end": 19.12
+      }
+     ]
+    },
+    {
+     "show": "chasing her in the first minute.",
+     "start": 19.2,
+     "end": 20.64,
+     "words": [
+      {
+       "text": "chasing",
+       "start": 19.2,
+       "end": 19.52
+      },
+      {
+       "text": "her",
+       "start": 19.56,
+       "end": 19.6
+      },
+      {
+       "text": "in",
+       "start": 19.68,
+       "end": 19.72
+      },
+      {
+       "text": "the",
+       "start": 19.76,
+       "end": 19.84
+      },
+      {
+       "text": "first",
+       "start": 19.92,
+       "end": 20.16
+      },
+      {
+       "text": "minute.",
+       "start": 20.24,
+       "end": 20.64
+      }
+     ]
+    },
+    {
+     "show": "Even Linda's cat has a controller.",
+     "start": 20.72,
+     "end": 22.48,
+     "words": [
+      {
+       "text": "Even",
+       "start": 20.72,
+       "end": 20.8
+      },
+      {
+       "text": "Linda's",
+       "start": 20.88,
+       "end": 21.2
+      },
+      {
+       "text": "cat",
+       "start": 21.36,
+       "end": 21.52
+      },
+      {
+       "text": "has",
+       "start": 21.56,
+       "end": 21.6
+      },
+      {
+       "text": "a",
+       "start": 21.68,
+       "end": 21.72
+      },
+      {
+       "text": "controller.",
+       "start": 21.76,
+       "end": 22.48
+      }
+     ]
+    }
+   ],
+   "start": 7.28,
+   "end": 22.48
+  },
+  {
+   "id": "try",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I tried to play GTA 6",
+     "start": 22.983,
+     "end": 24.64,
+     "words": [
+      {
+       "text": "So",
+       "start": 22.983,
+       "end": 23.04
+      },
+      {
+       "text": "I",
+       "start": 23.12,
+       "end": 23.28
+      },
+      {
+       "text": "tried",
+       "start": 23.32,
+       "end": 23.52
+      },
+      {
+       "text": "to",
+       "start": 23.56,
+       "end": 23.6
+      },
+      {
+       "text": "play",
+       "start": 23.68,
+       "end": 23.84
+      },
+      {
+       "text": "GTA",
+       "start": 23.92,
+       "end": 24.32
+      },
+      {
+       "text": "6",
+       "start": 24.4,
+       "end": 24.64
+      }
+     ]
+    },
+    {
+     "show": "on my PS4.",
+     "start": 24.68,
+     "end": 25.893,
+     "words": [
+      {
+       "text": "on",
+       "start": 24.68,
+       "end": 24.72
+      },
+      {
+       "text": "my",
+       "start": 24.8,
+       "end": 24.88
+      },
+      {
+       "text": "PS4.",
+       "start": 24.96,
+       "end": 25.893
+      }
+     ]
+    },
+    {
+     "show": "It started making a sound",
+     "start": 25.947,
+     "end": 26.96,
+     "words": [
+      {
+       "text": "It",
+       "start": 25.947,
+       "end": 26.0
+      },
+      {
+       "text": "started",
+       "start": 26.12,
+       "end": 26.24
+      },
+      {
+       "text": "making",
+       "start": 26.32,
+       "end": 26.48
+      },
+      {
+       "text": "a",
+       "start": 26.56,
+       "end": 26.64
+      },
+      {
+       "text": "sound",
+       "start": 26.72,
+       "end": 26.96
+      }
+     ]
+    },
+    {
+     "show": "like a helicopter.",
+     "start": 27.0,
+     "end": 27.96,
+     "words": [
+      {
+       "text": "like",
+       "start": 27.0,
+       "end": 27.04
+      },
+      {
+       "text": "a",
+       "start": 27.2,
+       "end": 27.253
+      },
+      {
+       "text": "helicopter.",
+       "start": 27.307,
+       "end": 27.96
+      }
+     ]
+    },
+    {
+     "show": "Then the TV just said,",
+     "start": 28.0,
+     "end": 29.12,
+     "words": [
+      {
+       "text": "Then",
+       "start": 28.0,
+       "end": 28.16
+      },
+      {
+       "text": "the",
+       "start": 28.2,
+       "end": 28.24
+      },
+      {
+       "text": "TV",
+       "start": 28.32,
+       "end": 28.64
+      },
+      {
+       "text": "just",
+       "start": 28.72,
+       "end": 28.8
+      },
+      {
+       "text": "said,",
+       "start": 28.88,
+       "end": 29.12
+      }
+     ]
+    },
+    {
+     "show": "{r:are you serious?}",
+     "start": 29.2,
+     "end": 30.2,
+     "words": [
+      {
+       "text": "are",
+       "start": 29.2,
+       "end": 29.28
+      },
+      {
+       "text": "you",
+       "start": 29.4,
+       "end": 29.52
+      },
+      {
+       "text": "serious?",
+       "start": 29.6,
+       "end": 30.2
+      }
+     ]
+    },
+    {
+     "show": "Then it started {r:smoking.}",
+     "start": 30.24,
+     "end": 31.733,
+     "words": [
+      {
+       "text": "Then",
+       "start": 30.24,
+       "end": 30.56
+      },
+      {
+       "text": "it",
+       "start": 30.64,
+       "end": 30.72
+      },
+      {
+       "text": "started",
+       "start": 30.88,
+       "end": 31.04
+      },
+      {
+       "text": "smoking.",
+       "start": 31.12,
+       "end": 31.733
+      }
+     ]
+    },
+    {
+     "show": "The fire department came.",
+     "start": 31.787,
+     "end": 32.987,
+     "words": [
+      {
+       "text": "The",
+       "start": 31.787,
+       "end": 31.84
+      },
+      {
+       "text": "fire",
+       "start": 31.96,
+       "end": 32.08
+      },
+      {
+       "text": "department",
+       "start": 32.28,
+       "end": 32.48
+      },
+      {
+       "text": "came.",
+       "start": 32.56,
+       "end": 32.987
+      }
+     ]
+    },
+    {
+     "show": "And they laughed at me too.",
+     "start": 33.013,
+     "end": 34.333,
+     "words": [
+      {
+       "text": "And",
+       "start": 33.013,
+       "end": 33.04
+      },
+      {
+       "text": "they",
+       "start": 33.12,
+       "end": 33.2
+      },
+      {
+       "text": "laughed",
+       "start": 33.28,
+       "end": 33.52
+      },
+      {
+       "text": "at",
+       "start": 33.56,
+       "end": 33.6
+      },
+      {
+       "text": "me",
+       "start": 33.68,
+       "end": 33.84
+      },
+      {
+       "text": "too.",
+       "start": 34.08,
+       "end": 34.333
+      }
+     ]
+    }
+   ],
+   "start": 22.983,
+   "end": 34.333
+  },
+  {
+   "id": "sad",
+   "label": "",
+   "lines": [
+    {
+     "show": "At school,",
+     "start": 34.4,
+     "end": 35.16,
+     "words": [
+      {
+       "text": "At",
+       "start": 34.4,
+       "end": 34.48
+      },
+      {
+       "text": "school,",
+       "start": 34.56,
+       "end": 35.16
+      }
+     ]
+    },
+    {
+     "show": "everybody calls me",
+     "start": 35.2,
+     "end": 36.0,
+     "words": [
+      {
+       "text": "everybody",
+       "start": 35.2,
+       "end": 35.52
+      },
+      {
+       "text": "calls",
+       "start": 35.6,
+       "end": 35.76
+      },
+      {
+       "text": "me",
+       "start": 35.84,
+       "end": 36.0
+      }
+     ]
+    },
+    {
+     "show": "{r:loading screen.}",
+     "start": 36.16,
+     "end": 36.933,
+     "words": [
+      {
+       "text": "loading",
+       "start": 36.16,
+       "end": 36.32
+      },
+      {
+       "text": "screen.",
+       "start": 36.4,
+       "end": 36.933
+      }
+     ]
+    },
+    {
+     "show": "And every night,",
+     "start": 36.987,
+     "end": 37.76,
+     "words": [
+      {
+       "text": "And",
+       "start": 36.987,
+       "end": 37.04
+      },
+      {
+       "text": "every",
+       "start": 37.12,
+       "end": 37.36
+      },
+      {
+       "text": "night,",
+       "start": 37.52,
+       "end": 37.76
+      }
+     ]
+    },
+    {
+     "show": "I sit alone in my room",
+     "start": 37.84,
+     "end": 38.96,
+     "words": [
+      {
+       "text": "I",
+       "start": 37.84,
+       "end": 37.88
+      },
+      {
+       "text": "sit",
+       "start": 37.92,
+       "end": 38.0
+      },
+      {
+       "text": "alone",
+       "start": 38.08,
+       "end": 38.32
+      },
+      {
+       "text": "in",
+       "start": 38.36,
+       "end": 38.4
+      },
+      {
+       "text": "my",
+       "start": 38.48,
+       "end": 38.56
+      },
+      {
+       "text": "room",
+       "start": 38.64,
+       "end": 38.96
+      }
+     ]
+    },
+    {
+     "show": "and watch everybody else play",
+     "start": 39.04,
+     "end": 40.24,
+     "words": [
+      {
+       "text": "and",
+       "start": 39.04,
+       "end": 39.12
+      },
+      {
+       "text": "watch",
+       "start": 39.24,
+       "end": 39.36
+      },
+      {
+       "text": "everybody",
+       "start": 39.44,
+       "end": 39.84
+      },
+      {
+       "text": "else",
+       "start": 39.96,
+       "end": 40.08
+      },
+      {
+       "text": "play",
+       "start": 40.16,
+       "end": 40.24
+      }
+     ]
+    },
+    {
+     "show": "on my phone.",
+     "start": 40.32,
+     "end": 41.227,
+     "words": [
+      {
+       "text": "on",
+       "start": 40.32,
+       "end": 40.4
+      },
+      {
+       "text": "my",
+       "start": 40.48,
+       "end": 40.56
+      },
+      {
+       "text": "phone.",
+       "start": 40.64,
+       "end": 41.227
+      }
+     ]
+    },
+    {
+     "show": "Kevin streams it.",
+     "start": 41.333,
+     "end": 42.08,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 41.333,
+       "end": 41.44
+      },
+      {
+       "text": "streams",
+       "start": 41.52,
+       "end": 41.76
+      },
+      {
+       "text": "it.",
+       "start": 41.84,
+       "end": 42.08
+      }
+     ]
+    },
+    {
+     "show": "Linda streams it.",
+     "start": 42.12,
+     "end": 43.0,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 42.12,
+       "end": 42.4
+      },
+      {
+       "text": "streams",
+       "start": 42.48,
+       "end": 42.8
+      },
+      {
+       "text": "it.",
+       "start": 42.88,
+       "end": 43.0
+      }
+     ]
+    },
+    {
+     "show": "Even grandma streams it.",
+     "start": 43.04,
+     "end": 44.36,
+     "words": [
+      {
+       "text": "Even",
+       "start": 43.04,
+       "end": 43.28
+      },
+      {
+       "text": "grandma",
+       "start": 43.36,
+       "end": 43.76
+      },
+      {
+       "text": "streams",
+       "start": 43.84,
+       "end": 44.08
+      },
+      {
+       "text": "it.",
+       "start": 44.16,
+       "end": 44.36
+      }
+     ]
+    },
+    {
+     "show": "She has more viewers than the mayor.",
+     "start": 44.4,
+     "end": 45.96,
+     "words": [
+      {
+       "text": "She",
+       "start": 44.4,
+       "end": 44.48
+      },
+      {
+       "text": "has",
+       "start": 44.56,
+       "end": 44.64
+      },
+      {
+       "text": "more",
+       "start": 44.72,
+       "end": 44.8
+      },
+      {
+       "text": "viewers",
+       "start": 44.88,
+       "end": 45.12
+      },
+      {
+       "text": "than",
+       "start": 45.2,
+       "end": 45.28
+      },
+      {
+       "text": "the",
+       "start": 45.36,
+       "end": 45.44
+      },
+      {
+       "text": "mayor.",
+       "start": 45.52,
+       "end": 45.96
+      }
+     ]
+    },
+    {
+     "show": "Sometimes they invite me to play.",
+     "start": 46.0,
+     "end": 47.64,
+     "words": [
+      {
+       "text": "Sometimes",
+       "start": 46.0,
+       "end": 46.48
+      },
+      {
+       "text": "they",
+       "start": 46.52,
+       "end": 46.56
+      },
+      {
+       "text": "invite",
+       "start": 46.72,
+       "end": 46.88
+      },
+      {
+       "text": "me",
+       "start": 46.907,
+       "end": 46.933
+      },
+      {
+       "text": "to",
+       "start": 46.96,
+       "end": 47.04
+      },
+      {
+       "text": "play.",
+       "start": 47.12,
+       "end": 47.64
+      }
+     ]
+    },
+    {
+     "show": "Then they remember.",
+     "start": 47.68,
+     "end": 48.76,
+     "words": [
+      {
+       "text": "Then",
+       "start": 47.68,
+       "end": 48.0
+      },
+      {
+       "text": "they",
+       "start": 48.04,
+       "end": 48.08
+      },
+      {
+       "text": "remember.",
+       "start": 48.16,
+       "end": 48.76
+      }
+     ]
+    },
+    {
+     "show": "And they laugh again.",
+     "start": 48.8,
+     "end": 49.851,
+     "words": [
+      {
+       "text": "And",
+       "start": 48.8,
+       "end": 48.88
+      },
+      {
+       "text": "they",
+       "start": 48.96,
+       "end": 49.04
+      },
+      {
+       "text": "laugh",
+       "start": 49.08,
+       "end": 49.28
+      },
+      {
+       "text": "again.",
+       "start": 49.56,
+       "end": 49.851
+      }
+     ]
+    }
+   ],
+   "start": 34.4,
+   "end": 49.851
+  },
+  {
+   "id": "money",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I tried to save money.",
+     "start": 49.909,
+     "end": 51.16,
+     "words": [
+      {
+       "text": "So",
+       "start": 49.909,
+       "end": 49.92
+      },
+      {
+       "text": "I",
+       "start": 50.08,
+       "end": 50.133
+      },
+      {
+       "text": "tried",
+       "start": 50.187,
+       "end": 50.32
+      },
+      {
+       "text": "to",
+       "start": 50.4,
+       "end": 50.48
+      },
+      {
+       "text": "save",
+       "start": 50.6,
+       "end": 50.72
+      },
+      {
+       "text": "money.",
+       "start": 50.8,
+       "end": 51.16
+      }
+     ]
+    },
+    {
+     "show": "I opened a lemonade stand.",
+     "start": 51.2,
+     "end": 52.44,
+     "words": [
+      {
+       "text": "I",
+       "start": 51.2,
+       "end": 51.24
+      },
+      {
+       "text": "opened",
+       "start": 51.28,
+       "end": 51.44
+      },
+      {
+       "text": "a",
+       "start": 51.52,
+       "end": 51.56
+      },
+      {
+       "text": "lemonade",
+       "start": 51.6,
+       "end": 52.0
+      },
+      {
+       "text": "stand.",
+       "start": 52.08,
+       "end": 52.44
+      }
+     ]
+    },
+    {
+     "show": "My only customer was grandma.",
+     "start": 52.48,
+     "end": 54.24,
+     "words": [
+      {
+       "text": "My",
+       "start": 52.48,
+       "end": 52.64
+      },
+      {
+       "text": "only",
+       "start": 52.76,
+       "end": 52.88
+      },
+      {
+       "text": "customer",
+       "start": 52.96,
+       "end": 53.36
+      },
+      {
+       "text": "was",
+       "start": 53.44,
+       "end": 53.6
+      },
+      {
+       "text": "grandma.",
+       "start": 53.72,
+       "end": 54.24
+      }
+     ]
+    },
+    {
+     "show": "I washed cars.",
+     "start": 54.32,
+     "end": 55.227,
+     "words": [
+      {
+       "text": "I",
+       "start": 54.32,
+       "end": 54.347
+      },
+      {
+       "text": "washed",
+       "start": 54.373,
+       "end": 54.64
+      },
+      {
+       "text": "cars.",
+       "start": 54.92,
+       "end": 55.227
+      }
+     ]
+    },
+    {
+     "show": "They came back dirtier.",
+     "start": 55.253,
+     "end": 56.4,
+     "words": [
+      {
+       "text": "They",
+       "start": 55.253,
+       "end": 55.28
+      },
+      {
+       "text": "came",
+       "start": 55.36,
+       "end": 55.52
+      },
+      {
+       "text": "back",
+       "start": 55.6,
+       "end": 55.76
+      },
+      {
+       "text": "dirtier.",
+       "start": 55.84,
+       "end": 56.4
+      }
+     ]
+    },
+    {
+     "show": "I tried to sell grandma's sweaters.",
+     "start": 56.48,
+     "end": 57.96,
+     "words": [
+      {
+       "text": "I",
+       "start": 56.48,
+       "end": 56.507
+      },
+      {
+       "text": "tried",
+       "start": 56.533,
+       "end": 56.64
+      },
+      {
+       "text": "to",
+       "start": 56.72,
+       "end": 56.8
+      },
+      {
+       "text": "sell",
+       "start": 56.88,
+       "end": 56.96
+      },
+      {
+       "text": "grandma's",
+       "start": 57.08,
+       "end": 57.36
+      },
+      {
+       "text": "sweaters.",
+       "start": 57.44,
+       "end": 57.96
+      }
+     ]
+    },
+    {
+     "show": "Nobody wanted them.",
+     "start": 58.0,
+     "end": 58.933,
+     "words": [
+      {
+       "text": "Nobody",
+       "start": 58.0,
+       "end": 58.32
+      },
+      {
+       "text": "wanted",
+       "start": 58.44,
+       "end": 58.56
+      },
+      {
+       "text": "them.",
+       "start": 58.72,
+       "end": 58.933
+      }
+     ]
+    },
+    {
+     "show": "Not even grandma.",
+     "start": 58.987,
+     "end": 59.92,
+     "words": [
+      {
+       "text": "Not",
+       "start": 58.987,
+       "end": 59.04
+      },
+      {
+       "text": "even",
+       "start": 59.16,
+       "end": 59.28
+      },
+      {
+       "text": "grandma.",
+       "start": 59.4,
+       "end": 59.92
+      }
+     ]
+    },
+    {
+     "show": "I even tried to trade my PS4 for a PS5.",
+     "start": 60.0,
+     "end": 62.827,
+     "words": [
+      {
+       "text": "I",
+       "start": 60.0,
+       "end": 60.04
+      },
+      {
+       "text": "even",
+       "start": 60.08,
+       "end": 60.24
+      },
+      {
+       "text": "tried",
+       "start": 60.32,
+       "end": 60.48
+      },
+      {
+       "text": "to",
+       "start": 60.52,
+       "end": 60.56
+      },
+      {
+       "text": "trade",
+       "start": 60.64,
+       "end": 60.8
+      },
+      {
+       "text": "my",
+       "start": 60.88,
+       "end": 60.96
+      },
+      {
+       "text": "PS4",
+       "start": 61.04,
+       "end": 61.68
+      },
+      {
+       "text": "for",
+       "start": 61.76,
+       "end": 61.84
+      },
+      {
+       "text": "a",
+       "start": 61.88,
+       "end": 61.92
+      },
+      {
+       "text": "PS5.",
+       "start": 62.0,
+       "end": 62.827
+      }
+     ]
+    },
+    {
+     "show": "The guy at the store fell over",
+     "start": 62.853,
+     "end": 64.24,
+     "words": [
+      {
+       "text": "The",
+       "start": 62.853,
+       "end": 62.88
+      },
+      {
+       "text": "guy",
+       "start": 62.96,
+       "end": 63.04
+      },
+      {
+       "text": "at",
+       "start": 63.12,
+       "end": 63.2
+      },
+      {
+       "text": "the",
+       "start": 63.28,
+       "end": 63.36
+      },
+      {
+       "text": "store",
+       "start": 63.44,
+       "end": 63.76
+      },
+      {
+       "text": "fell",
+       "start": 63.84,
+       "end": 63.92
+      },
+      {
+       "text": "over",
+       "start": 64.0,
+       "end": 64.24
+      }
+     ]
+    },
+    {
+     "show": "laughing.",
+     "start": 64.32,
+     "end": 64.84,
+     "words": [
+      {
+       "text": "laughing.",
+       "start": 64.32,
+       "end": 64.84
+      }
+     ]
+    },
+    {
+     "show": "My piggy bank",
+     "start": 64.88,
+     "end": 65.52,
+     "words": [
+      {
+       "text": "My",
+       "start": 64.88,
+       "end": 65.04
+      },
+      {
+       "text": "piggy",
+       "start": 65.12,
+       "end": 65.28
+      },
+      {
+       "text": "bank",
+       "start": 65.36,
+       "end": 65.52
+      }
+     ]
+    },
+    {
+     "show": "is still almost {r:empty.}",
+     "start": 65.6,
+     "end": 66.971,
+     "words": [
+      {
+       "text": "is",
+       "start": 65.6,
+       "end": 65.68
+      },
+      {
+       "text": "still",
+       "start": 65.76,
+       "end": 66.0
+      },
+      {
+       "text": "almost",
+       "start": 66.08,
+       "end": 66.4
+      },
+      {
+       "text": "empty.",
+       "start": 66.68,
+       "end": 66.971
+      }
+     ]
+    }
+   ],
+   "start": 49.909,
+   "end": 66.971
+  },
+  {
+   "id": "you",
+   "label": "",
+   "lines": [
+    {
+     "show": "But then I had one last idea.",
+     "start": 67.04,
+     "end": 69.16,
+     "words": [
+      {
+       "text": "But",
+       "start": 67.04,
+       "end": 67.12
+      },
+      {
+       "text": "then",
+       "start": 67.2,
+       "end": 67.52
+      },
+      {
+       "text": "I",
+       "start": 67.6,
+       "end": 67.64
+      },
+      {
+       "text": "had",
+       "start": 67.68,
+       "end": 67.92
+      },
+      {
+       "text": "one",
+       "start": 68.0,
+       "end": 68.16
+      },
+      {
+       "text": "last",
+       "start": 68.28,
+       "end": 68.4
+      },
+      {
+       "text": "idea.",
+       "start": 68.56,
+       "end": 69.16
+      }
+     ]
+    },
+    {
+     "show": "{y:You.}",
+     "start": 69.2,
+     "end": 69.68,
+     "words": [
+      {
+       "text": "You.",
+       "start": 69.2,
+       "end": 69.68
+      }
+     ]
+    },
+    {
+     "show": "Right now,",
+     "start": 69.76,
+     "end": 70.2,
+     "words": [
+      {
+       "text": "Right",
+       "start": 69.76,
+       "end": 69.84
+      },
+      {
+       "text": "now,",
+       "start": 69.92,
+       "end": 70.2
+      }
+     ]
+    },
+    {
+     "show": "you're watching me.",
+     "start": 70.24,
+     "end": 70.987,
+     "words": [
+      {
+       "text": "you're",
+       "start": 70.24,
+       "end": 70.4
+      },
+      {
+       "text": "watching",
+       "start": 70.52,
+       "end": 70.72
+      },
+      {
+       "text": "me.",
+       "start": 70.8,
+       "end": 70.987
+      }
+     ]
+    },
+    {
+     "show": "And if this video goes viral,",
+     "start": 71.013,
+     "end": 72.4,
+     "words": [
+      {
+       "text": "And",
+       "start": 71.013,
+       "end": 71.04
+      },
+      {
+       "text": "if",
+       "start": 71.12,
+       "end": 71.2
+      },
+      {
+       "text": "this",
+       "start": 71.28,
+       "end": 71.36
+      },
+      {
+       "text": "video",
+       "start": 71.44,
+       "end": 71.68
+      },
+      {
+       "text": "goes",
+       "start": 71.76,
+       "end": 71.92
+      },
+      {
+       "text": "viral,",
+       "start": 72.0,
+       "end": 72.4
+      }
+     ]
+    },
+    {
+     "show": "I can finally buy a PS5.",
+     "start": 72.48,
+     "end": 74.42,
+     "words": [
+      {
+       "text": "I",
+       "start": 72.48,
+       "end": 72.56
+      },
+      {
+       "text": "can",
+       "start": 72.64,
+       "end": 72.72
+      },
+      {
+       "text": "finally",
+       "start": 72.8,
+       "end": 73.12
+      },
+      {
+       "text": "buy",
+       "start": 73.2,
+       "end": 73.36
+      },
+      {
+       "text": "a",
+       "start": 73.52,
+       "end": 73.573
+      },
+      {
+       "text": "PS5.",
+       "start": 73.627,
+       "end": 74.42
+      }
+     ]
+    }
+   ],
+   "start": 67.04,
+   "end": 74.42
+  },
+  {
+   "id": "deal",
+   "label": "",
+   "lines": [
+    {
+     "show": "So here's the deal.",
+     "start": 74.54,
+     "end": 75.16,
+     "words": [
+      {
+       "text": "So",
+       "start": 74.54,
+       "end": 74.56
+      },
+      {
+       "text": "here's",
+       "start": 74.6,
+       "end": 74.72
+      },
+      {
+       "text": "the",
+       "start": 74.8,
+       "end": 74.88
+      },
+      {
+       "text": "deal.",
+       "start": 75.0,
+       "end": 75.16
+      }
+     ]
+    },
+    {
+     "show": "Every like",
+     "start": 75.2,
+     "end": 75.76,
+     "words": [
+      {
+       "text": "Every",
+       "start": 75.2,
+       "end": 75.52
+      },
+      {
+       "text": "like",
+       "start": 75.64,
+       "end": 75.76
+      }
+     ]
+    },
+    {
+     "show": "is one coin in my piggy bank.",
+     "start": 75.84,
+     "end": 77.36,
+     "words": [
+      {
+       "text": "is",
+       "start": 75.84,
+       "end": 76.0
+      },
+      {
+       "text": "one",
+       "start": 76.08,
+       "end": 76.24
+      },
+      {
+       "text": "coin",
+       "start": 76.32,
+       "end": 76.48
+      },
+      {
+       "text": "in",
+       "start": 76.56,
+       "end": 76.64
+      },
+      {
+       "text": "my",
+       "start": 76.72,
+       "end": 76.8
+      },
+      {
+       "text": "piggy",
+       "start": 76.84,
+       "end": 77.04
+      },
+      {
+       "text": "bank.",
+       "start": 77.16,
+       "end": 77.36
+      }
+     ]
+    },
+    {
+     "show": "Every follow",
+     "start": 77.44,
+     "end": 78.0,
+     "words": [
+      {
+       "text": "Every",
+       "start": 77.44,
+       "end": 77.68
+      },
+      {
+       "text": "follow",
+       "start": 77.76,
+       "end": 78.0
+      }
+     ]
+    },
+    {
+     "show": "makes Kevin stop laughing.",
+     "start": 78.08,
+     "end": 79.387,
+     "words": [
+      {
+       "text": "makes",
+       "start": 78.08,
+       "end": 78.32
+      },
+      {
+       "text": "Kevin",
+       "start": 78.48,
+       "end": 78.64
+      },
+      {
+       "text": "stop",
+       "start": 78.72,
+       "end": 78.88
+      },
+      {
+       "text": "laughing.",
+       "start": 78.96,
+       "end": 79.387
+      }
+     ]
+    },
+    {
+     "show": "And if you share it,",
+     "start": 79.413,
+     "end": 80.2,
+     "words": [
+      {
+       "text": "And",
+       "start": 79.413,
+       "end": 79.44
+      },
+      {
+       "text": "if",
+       "start": 79.52,
+       "end": 79.6
+      },
+      {
+       "text": "you",
+       "start": 79.68,
+       "end": 79.76
+      },
+      {
+       "text": "share",
+       "start": 79.84,
+       "end": 79.92
+      },
+      {
+       "text": "it,",
+       "start": 80.0,
+       "end": 80.2
+      }
+     ]
+    },
+    {
+     "show": "I can finally play GTA 6",
+     "start": 80.24,
+     "end": 81.92,
+     "words": [
+      {
+       "text": "I",
+       "start": 80.24,
+       "end": 80.32
+      },
+      {
+       "text": "can",
+       "start": 80.4,
+       "end": 80.48
+      },
+      {
+       "text": "finally",
+       "start": 80.56,
+       "end": 80.88
+      },
+      {
+       "text": "play",
+       "start": 80.96,
+       "end": 81.2
+      },
+      {
+       "text": "GTA",
+       "start": 81.28,
+       "end": 81.76
+      },
+      {
+       "text": "6",
+       "start": 81.84,
+       "end": 81.92
+      }
+     ]
+    },
+    {
+     "show": "{y:with you.}",
+     "start": 82.0,
+     "end": 82.44,
+     "words": [
+      {
+       "text": "with",
+       "start": 82.0,
+       "end": 82.08
+      },
+      {
+       "text": "you.",
+       "start": 82.16,
+       "end": 82.44
+      }
+     ]
+    }
+   ],
+   "start": 74.54,
+   "end": 82.44
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Please.",
+     "start": 83.08,
+     "end": 83.253,
+     "words": [
+      {
+       "text": "Please.",
+       "start": 83.08,
+       "end": 83.253
+      }
+     ]
+    },
+    {
+     "show": "My PS4 is {r:really tired.}",
+     "start": 83.307,
+     "end": 85.28,
+     "words": [
+      {
+       "text": "My",
+       "start": 83.307,
+       "end": 83.36
+      },
+      {
+       "text": "PS4",
+       "start": 83.44,
+       "end": 84.0
+      },
+      {
+       "text": "is",
+       "start": 84.12,
+       "end": 84.24
+      },
+      {
+       "text": "really",
+       "start": 84.32,
+       "end": 84.56
+      },
+      {
+       "text": "tired.",
+       "start": 84.64,
+       "end": 85.28
+      }
+     ]
+    }
+   ],
+   "start": 83.08,
+   "end": 85.28
+  }
+ ]
+}
