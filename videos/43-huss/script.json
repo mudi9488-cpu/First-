@@ -1,0 +1,222 @@
+{
+ "title": "Longest HUSS",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "everybody's out partying."
+    },
+    {
+     "show": "Except me."
+    },
+    {
+     "show": "{r:HUSS!}"
+    }
+   ]
+  },
+  {
+   "id": "r1",
+   "label": "",
+   "lines": [
+    {
+     "show": "While they were out partying, by the way,"
+    },
+    {
+     "show": "I was doing push ups."
+    },
+    {
+     "show": "{r:HUSS HUSS}"
+    }
+   ]
+  },
+  {
+   "id": "r2",
+   "label": "",
+   "lines": [
+    {
+     "show": "While they were out partying, by the way,"
+    },
+    {
+     "show": "I was lifting weights."
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS}"
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "label": "",
+   "lines": [
+    {
+     "show": "While they were out partying, by the way,"
+    },
+    {
+     "show": "I was running up every stair in the city."
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    }
+   ]
+  },
+  {
+   "id": "city",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now everybody in town does it."
+    },
+    {
+     "show": "The mailman does it"
+    },
+    {
+     "show": "when he drops a letter."
+    },
+    {
+     "show": "{r:HUSS!}"
+    },
+    {
+     "show": "Grandma does it"
+    },
+    {
+     "show": "after every push up."
+    },
+    {
+     "show": "{r:HUSS!}"
+    },
+    {
+     "show": "The mayor even made a phonk remix."
+    },
+    {
+     "show": "And everybody wants the {y:longest} HUSS chain in the world."
+    }
+   ]
+  },
+  {
+   "id": "contest",
+   "label": "",
+   "lines": [
+    {
+     "show": "So the mayor started a contest."
+    },
+    {
+     "show": "Kevin went first."
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS}"
+    },
+    {
+     "show": "Then he fainted."
+    },
+    {
+     "show": "Grandma went next."
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "The crowd went crazy."
+    },
+    {
+     "show": "Then it was my turn."
+    },
+    {
+     "show": "Everybody laughed."
+    },
+    {
+     "show": "They said,"
+    },
+    {
+     "show": "you're way too small."
+    }
+   ]
+  },
+  {
+   "id": "finale",
+   "label": "",
+   "lines": [
+    {
+     "show": "I took the biggest breath of my life."
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "When I finally stopped,"
+    },
+    {
+     "show": "the stadium was silent."
+    },
+    {
+     "show": "Every window in town was gone."
+    },
+    {
+     "show": "The birds had flown away."
+    },
+    {
+     "show": "And somewhere in space,"
+    },
+    {
+     "show": "an astronaut whispered,"
+    },
+    {
+     "show": "{r:HUSS!}"
+    },
+    {
+     "show": "Now I hold the world record."
+    },
+    {
+     "show": "And while they were out partying, by the way,"
+    },
+    {
+     "show": "I was already training"
+    },
+    {
+     "show": "for the {y:next one.}"
+    },
+    {
+     "show": "{r:HUSS!}"
+    }
+   ]
+  }
+ ]
+}

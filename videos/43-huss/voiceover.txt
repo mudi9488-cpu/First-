@@ -1,0 +1,8 @@
+hook|In this town,|everybody's out partying.|Except me.|{r:HUSS!}
+r1|While they were out partying, by the way,|I was doing push ups.|{r:HUSS HUSS}
+r2|While they were out partying, by the way,|I was lifting weights.|{r:HUSS HUSS HUSS HUSS}
+r3|While they were out partying, by the way,|I was running up every stair in the city.|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}
+city|Now everybody in town does it.|The mailman does it|when he drops a letter.|{r:HUSS!}|Grandma does it|after every push up.|{r:HUSS!}|The mayor even made a phonk remix.|And everybody wants the {y:longest} HUSS chain in the world.
+contest|So the mayor started a contest.|Kevin went first.|{r:HUSS HUSS HUSS}|Then he fainted.|Grandma went next.|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}|{r:HUSS HUSS HUSS HUSS}|The crowd went crazy.|Then it was my turn.|Everybody laughed.|They said,|you're way too small.
+finale|I took the biggest breath of my life.|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}|{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}
+end|When I finally stopped,|the stadium was silent.|Every window in town was gone.|The birds had flown away.|And somewhere in space,|an astronaut whispered,|{r:HUSS!}|Now I hold the world record.|And while they were out partying, by the way,|I was already training|for the {y:next one.}|{r:HUSS!}

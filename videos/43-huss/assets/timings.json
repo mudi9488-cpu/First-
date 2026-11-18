@@ -1,0 +1,1881 @@
+{
+ "duration": 70.661,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.08,
+     "end": 1.0,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.08,
+       "end": 0.24
+      },
+      {
+       "text": "this",
+       "start": 0.32,
+       "end": 0.48
+      },
+      {
+       "text": "town,",
+       "start": 0.56,
+       "end": 1.0
+      }
+     ]
+    },
+    {
+     "show": "everybody's out partying.",
+     "start": 1.12,
+     "end": 2.56,
+     "words": [
+      {
+       "text": "everybody's",
+       "start": 1.12,
+       "end": 1.6
+      },
+      {
+       "text": "out",
+       "start": 1.68,
+       "end": 1.84
+      },
+      {
+       "text": "partying.",
+       "start": 2.0,
+       "end": 2.56
+      }
+     ]
+    },
+    {
+     "show": "Except me.",
+     "start": 2.72,
+     "end": 3.4,
+     "words": [
+      {
+       "text": "Except",
+       "start": 2.72,
+       "end": 3.04
+      },
+      {
+       "text": "me.",
+       "start": 3.12,
+       "end": 3.4
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS!}",
+     "start": 3.857,
+     "end": 4.177,
+     "words": [
+      {
+       "text": "HUSS!",
+       "start": 3.857,
+       "end": 4.177
+      }
+     ]
+    }
+   ],
+   "start": 0.08,
+   "end": 4.177
+  },
+  {
+   "id": "r1",
+   "label": "",
+   "lines": [
+    {
+     "show": "While they were out partying, by the way,",
+     "start": 4.446,
+     "end": 5.966,
+     "words": [
+      {
+       "text": "While",
+       "start": 4.446,
+       "end": 4.526
+      },
+      {
+       "text": "they",
+       "start": 4.606,
+       "end": 4.686
+      },
+      {
+       "text": "were",
+       "start": 4.726,
+       "end": 4.766
+      },
+      {
+       "text": "out",
+       "start": 4.846,
+       "end": 4.926
+      },
+      {
+       "text": "partying,",
+       "start": 5.006,
+       "end": 5.433
+      },
+      {
+       "text": "by",
+       "start": 5.459,
+       "end": 5.486
+      },
+      {
+       "text": "the",
+       "start": 5.566,
+       "end": 5.646
+      },
+      {
+       "text": "way,",
+       "start": 5.726,
+       "end": 5.966
+      }
+     ]
+    },
+    {
+     "show": "I was doing push ups.",
+     "start": 6.126,
+     "end": 7.166,
+     "words": [
+      {
+       "text": "I",
+       "start": 6.126,
+       "end": 6.179
+      },
+      {
+       "text": "was",
+       "start": 6.233,
+       "end": 6.286
+      },
+      {
+       "text": "doing",
+       "start": 6.406,
+       "end": 6.526
+      },
+      {
+       "text": "push",
+       "start": 6.606,
+       "end": 6.686
+      },
+      {
+       "text": "ups.",
+       "start": 6.766,
+       "end": 7.166
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS}",
+     "start": 7.286,
+     "end": 8.034,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 7.286,
+       "end": 7.606
+      },
+      {
+       "text": "HUSS",
+       "start": 7.714,
+       "end": 8.034
+      }
+     ]
+    }
+   ],
+   "start": 4.446,
+   "end": 8.034
+  },
+  {
+   "id": "r2",
+   "label": "",
+   "lines": [
+    {
+     "show": "While they were out partying, by the way,",
+     "start": 8.303,
+     "end": 9.903,
+     "words": [
+      {
+       "text": "While",
+       "start": 8.303,
+       "end": 8.383
+      },
+      {
+       "text": "they",
+       "start": 8.463,
+       "end": 8.543
+      },
+      {
+       "text": "were",
+       "start": 8.583,
+       "end": 8.623
+      },
+      {
+       "text": "out",
+       "start": 8.703,
+       "end": 8.863
+      },
+      {
+       "text": "partying,",
+       "start": 8.983,
+       "end": 9.29
+      },
+      {
+       "text": "by",
+       "start": 9.316,
+       "end": 9.343
+      },
+      {
+       "text": "the",
+       "start": 9.423,
+       "end": 9.503
+      },
+      {
+       "text": "way,",
+       "start": 9.663,
+       "end": 9.903
+      }
+     ]
+    },
+    {
+     "show": "I was lifting weights.",
+     "start": 9.983,
+     "end": 10.943,
+     "words": [
+      {
+       "text": "I",
+       "start": 9.983,
+       "end": 10.036
+      },
+      {
+       "text": "was",
+       "start": 10.09,
+       "end": 10.143
+      },
+      {
+       "text": "lifting",
+       "start": 10.303,
+       "end": 10.463
+      },
+      {
+       "text": "weights.",
+       "start": 10.663,
+       "end": 10.943
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS}",
+     "start": 11.143,
+     "end": 11.989,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 11.143,
+       "end": 11.346
+      },
+      {
+       "text": "HUSS",
+       "start": 11.357,
+       "end": 11.561
+      },
+      {
+       "text": "HUSS",
+       "start": 11.571,
+       "end": 11.775
+      },
+      {
+       "text": "HUSS",
+       "start": 11.786,
+       "end": 11.989
+      }
+     ]
+    }
+   ],
+   "start": 8.303,
+   "end": 11.989
+  },
+  {
+   "id": "r3",
+   "label": "",
+   "lines": [
+    {
+     "show": "While they were out partying, by the way,",
+     "start": 12.094,
+     "end": 13.627,
+     "words": [
+      {
+       "text": "While",
+       "start": 12.094,
+       "end": 12.147
+      },
+      {
+       "text": "they",
+       "start": 12.227,
+       "end": 12.307
+      },
+      {
+       "text": "were",
+       "start": 12.347,
+       "end": 12.387
+      },
+      {
+       "text": "out",
+       "start": 12.467,
+       "end": 12.547
+      },
+      {
+       "text": "partying,",
+       "start": 12.627,
+       "end": 13.054
+      },
+      {
+       "text": "by",
+       "start": 13.08,
+       "end": 13.107
+      },
+      {
+       "text": "the",
+       "start": 13.187,
+       "end": 13.267
+      },
+      {
+       "text": "way,",
+       "start": 13.427,
+       "end": 13.627
+      }
+     ]
+    },
+    {
+     "show": "I was running up every stair in the city.",
+     "start": 13.667,
+     "end": 15.774,
+     "words": [
+      {
+       "text": "I",
+       "start": 13.667,
+       "end": 13.707
+      },
+      {
+       "text": "was",
+       "start": 13.747,
+       "end": 13.907
+      },
+      {
+       "text": "running",
+       "start": 13.987,
+       "end": 14.067
+      },
+      {
+       "text": "up",
+       "start": 14.147,
+       "end": 14.307
+      },
+      {
+       "text": "every",
+       "start": 14.387,
+       "end": 14.627
+      },
+      {
+       "text": "stair",
+       "start": 14.707,
+       "end": 14.947
+      },
+      {
+       "text": "in",
+       "start": 14.987,
+       "end": 15.027
+      },
+      {
+       "text": "the",
+       "start": 15.107,
+       "end": 15.187
+      },
+      {
+       "text": "city.",
+       "start": 15.427,
+       "end": 15.774
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 15.857,
+     "end": 17.561,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 15.857,
+       "end": 16.061
+      },
+      {
+       "text": "HUSS",
+       "start": 16.071,
+       "end": 16.275
+      },
+      {
+       "text": "HUSS",
+       "start": 16.286,
+       "end": 16.489
+      },
+      {
+       "text": "HUSS",
+       "start": 16.5,
+       "end": 16.704
+      },
+      {
+       "text": "HUSS",
+       "start": 16.714,
+       "end": 16.918
+      },
+      {
+       "text": "HUSS",
+       "start": 16.929,
+       "end": 17.132
+      },
+      {
+       "text": "HUSS",
+       "start": 17.143,
+       "end": 17.346
+      },
+      {
+       "text": "HUSS",
+       "start": 17.357,
+       "end": 17.561
+      }
+     ]
+    }
+   ],
+   "start": 12.094,
+   "end": 17.561
+  },
+  {
+   "id": "city",
+   "label": "",
+   "lines": [
+    {
+     "show": "Now everybody in town does it.",
+     "start": 17.651,
+     "end": 19.278,
+     "words": [
+      {
+       "text": "Now",
+       "start": 17.651,
+       "end": 17.971
+      },
+      {
+       "text": "everybody",
+       "start": 18.051,
+       "end": 18.451
+      },
+      {
+       "text": "in",
+       "start": 18.491,
+       "end": 18.531
+      },
+      {
+       "text": "town",
+       "start": 18.611,
+       "end": 18.771
+      },
+      {
+       "text": "does",
+       "start": 18.851,
+       "end": 19.011
+      },
+      {
+       "text": "it.",
+       "start": 19.131,
+       "end": 19.278
+      }
+     ]
+    },
+    {
+     "show": "The mailman does it",
+     "start": 19.304,
+     "end": 20.051,
+     "words": [
+      {
+       "text": "The",
+       "start": 19.304,
+       "end": 19.331
+      },
+      {
+       "text": "mailman",
+       "start": 19.411,
+       "end": 19.811
+      },
+      {
+       "text": "does",
+       "start": 19.851,
+       "end": 19.891
+      },
+      {
+       "text": "it",
+       "start": 19.971,
+       "end": 20.051
+      }
+     ]
+    },
+    {
+     "show": "when he drops a letter.",
+     "start": 20.091,
+     "end": 21.118,
+     "words": [
+      {
+       "text": "when",
+       "start": 20.091,
+       "end": 20.131
+      },
+      {
+       "text": "he",
+       "start": 20.171,
+       "end": 20.211
+      },
+      {
+       "text": "drops",
+       "start": 20.331,
+       "end": 20.451
+      },
+      {
+       "text": "a",
+       "start": 20.491,
+       "end": 20.531
+      },
+      {
+       "text": "letter.",
+       "start": 20.771,
+       "end": 21.118
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS!}",
+     "start": 21.214,
+     "end": 21.534,
+     "words": [
+      {
+       "text": "HUSS!",
+       "start": 21.214,
+       "end": 21.534
+      }
+     ]
+    },
+    {
+     "show": "Grandma does it",
+     "start": 21.803,
+     "end": 22.443,
+     "words": [
+      {
+       "text": "Grandma",
+       "start": 21.803,
+       "end": 22.203
+      },
+      {
+       "text": "does",
+       "start": 22.283,
+       "end": 22.363
+      },
+      {
+       "text": "it",
+       "start": 22.403,
+       "end": 22.443
+      }
+     ]
+    },
+    {
+     "show": "after every push up.",
+     "start": 22.523,
+     "end": 23.603,
+     "words": [
+      {
+       "text": "after",
+       "start": 22.523,
+       "end": 22.763
+      },
+      {
+       "text": "every",
+       "start": 22.923,
+       "end": 23.083
+      },
+      {
+       "text": "push",
+       "start": 23.163,
+       "end": 23.243
+      },
+      {
+       "text": "up.",
+       "start": 23.323,
+       "end": 23.603
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS!}",
+     "start": 23.786,
+     "end": 24.106,
+     "words": [
+      {
+       "text": "HUSS!",
+       "start": 23.786,
+       "end": 24.106
+      }
+     ]
+    },
+    {
+     "show": "The mayor even made a phonk remix.",
+     "start": 24.308,
+     "end": 26.121,
+     "words": [
+      {
+       "text": "The",
+       "start": 24.308,
+       "end": 24.361
+      },
+      {
+       "text": "mayor",
+       "start": 24.441,
+       "end": 24.681
+      },
+      {
+       "text": "even",
+       "start": 24.761,
+       "end": 24.921
+      },
+      {
+       "text": "made",
+       "start": 24.961,
+       "end": 25.001
+      },
+      {
+       "text": "a",
+       "start": 25.161,
+       "end": 25.201
+      },
+      {
+       "text": "phonk",
+       "start": 25.241,
+       "end": 25.481
+      },
+      {
+       "text": "remix.",
+       "start": 25.601,
+       "end": 26.121
+      }
+     ]
+    },
+    {
+     "show": "And everybody wants the {y:longest} HUSS chain in the world.",
+     "start": 26.201,
+     "end": 28.961,
+     "words": [
+      {
+       "text": "And",
+       "start": 26.201,
+       "end": 26.281
+      },
+      {
+       "text": "everybody",
+       "start": 26.361,
+       "end": 26.761
+      },
+      {
+       "text": "wants",
+       "start": 26.841,
+       "end": 27.001
+      },
+      {
+       "text": "the",
+       "start": 27.081,
+       "end": 27.241
+      },
+      {
+       "text": "longest",
+       "start": 27.361,
+       "end": 27.641
+      },
+      {
+       "text": "HUSS",
+       "start": 27.721,
+       "end": 27.961
+      },
+      {
+       "text": "chain",
+       "start": 28.081,
+       "end": 28.201
+      },
+      {
+       "text": "in",
+       "start": 28.241,
+       "end": 28.281
+      },
+      {
+       "text": "the",
+       "start": 28.361,
+       "end": 28.441
+      },
+      {
+       "text": "world.",
+       "start": 28.521,
+       "end": 28.961
+      }
+     ]
+    }
+   ],
+   "start": 17.651,
+   "end": 28.961
+  },
+  {
+   "id": "contest",
+   "label": "",
+   "lines": [
+    {
+     "show": "So the mayor started a contest.",
+     "start": 29.001,
+     "end": 30.481,
+     "words": [
+      {
+       "text": "So",
+       "start": 29.001,
+       "end": 29.081
+      },
+      {
+       "text": "the",
+       "start": 29.121,
+       "end": 29.161
+      },
+      {
+       "text": "mayor",
+       "start": 29.241,
+       "end": 29.481
+      },
+      {
+       "text": "started",
+       "start": 29.601,
+       "end": 29.721
+      },
+      {
+       "text": "a",
+       "start": 29.801,
+       "end": 29.841
+      },
+      {
+       "text": "contest.",
+       "start": 29.881,
+       "end": 30.481
+      }
+     ]
+    },
+    {
+     "show": "Kevin went first.",
+     "start": 30.521,
+     "end": 31.481,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 30.521,
+       "end": 30.761
+      },
+      {
+       "text": "went",
+       "start": 30.841,
+       "end": 30.921
+      },
+      {
+       "text": "first.",
+       "start": 31.001,
+       "end": 31.481
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS}",
+     "start": 31.714,
+     "end": 32.346,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 31.714,
+       "end": 31.918
+      },
+      {
+       "text": "HUSS",
+       "start": 31.929,
+       "end": 32.132
+      },
+      {
+       "text": "HUSS",
+       "start": 32.143,
+       "end": 32.346
+      }
+     ]
+    },
+    {
+     "show": "Then he fainted.",
+     "start": 32.437,
+     "end": 33.357,
+     "words": [
+      {
+       "text": "Then",
+       "start": 32.437,
+       "end": 32.677
+      },
+      {
+       "text": "he",
+       "start": 32.757,
+       "end": 32.837
+      },
+      {
+       "text": "fainted.",
+       "start": 32.877,
+       "end": 33.357
+      }
+     ]
+    },
+    {
+     "show": "Grandma went next.",
+     "start": 33.397,
+     "end": 34.437,
+     "words": [
+      {
+       "text": "Grandma",
+       "start": 33.397,
+       "end": 33.717
+      },
+      {
+       "text": "went",
+       "start": 33.797,
+       "end": 33.877
+      },
+      {
+       "text": "next.",
+       "start": 33.957,
+       "end": 34.437
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 34.714,
+     "end": 35.566,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 34.714,
+       "end": 34.816
+      },
+      {
+       "text": "HUSS",
+       "start": 34.821,
+       "end": 34.923
+      },
+      {
+       "text": "HUSS",
+       "start": 34.929,
+       "end": 35.03
+      },
+      {
+       "text": "HUSS",
+       "start": 35.036,
+       "end": 35.137
+      },
+      {
+       "text": "HUSS",
+       "start": 35.143,
+       "end": 35.245
+      },
+      {
+       "text": "HUSS",
+       "start": 35.25,
+       "end": 35.352
+      },
+      {
+       "text": "HUSS",
+       "start": 35.357,
+       "end": 35.459
+      },
+      {
+       "text": "HUSS",
+       "start": 35.464,
+       "end": 35.566
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS}",
+     "start": 35.571,
+     "end": 35.995,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 35.571,
+       "end": 35.673
+      },
+      {
+       "text": "HUSS",
+       "start": 35.679,
+       "end": 35.78
+      },
+      {
+       "text": "HUSS",
+       "start": 35.786,
+       "end": 35.887
+      },
+      {
+       "text": "HUSS",
+       "start": 35.893,
+       "end": 35.995
+      }
+     ]
+    },
+    {
+     "show": "The crowd went crazy.",
+     "start": 36.12,
+     "end": 37.747,
+     "words": [
+      {
+       "text": "The",
+       "start": 36.12,
+       "end": 36.2
+      },
+      {
+       "text": "crowd",
+       "start": 36.28,
+       "end": 36.6
+      },
+      {
+       "text": "went",
+       "start": 36.68,
+       "end": 36.92
+      },
+      {
+       "text": "crazy.",
+       "start": 37.0,
+       "end": 37.747
+      }
+     ]
+    },
+    {
+     "show": "Then it was my turn.",
+     "start": 37.853,
+     "end": 38.88,
+     "words": [
+      {
+       "text": "Then",
+       "start": 37.853,
+       "end": 37.96
+      },
+      {
+       "text": "it",
+       "start": 38.0,
+       "end": 38.04
+      },
+      {
+       "text": "was",
+       "start": 38.12,
+       "end": 38.28
+      },
+      {
+       "text": "my",
+       "start": 38.36,
+       "end": 38.44
+      },
+      {
+       "text": "turn.",
+       "start": 38.52,
+       "end": 38.88
+      }
+     ]
+    },
+    {
+     "show": "Everybody laughed.",
+     "start": 38.92,
+     "end": 39.933,
+     "words": [
+      {
+       "text": "Everybody",
+       "start": 38.92,
+       "end": 39.4
+      },
+      {
+       "text": "laughed.",
+       "start": 39.48,
+       "end": 39.933
+      }
+     ]
+    },
+    {
+     "show": "They said,",
+     "start": 39.987,
+     "end": 40.387,
+     "words": [
+      {
+       "text": "They",
+       "start": 39.987,
+       "end": 40.04
+      },
+      {
+       "text": "said,",
+       "start": 40.2,
+       "end": 40.387
+      }
+     ]
+    },
+    {
+     "show": "you're way too small.",
+     "start": 40.413,
+     "end": 41.56,
+     "words": [
+      {
+       "text": "you're",
+       "start": 40.413,
+       "end": 40.6
+      },
+      {
+       "text": "way",
+       "start": 40.68,
+       "end": 40.76
+      },
+      {
+       "text": "too",
+       "start": 40.84,
+       "end": 41.0
+      },
+      {
+       "text": "small.",
+       "start": 41.08,
+       "end": 41.56
+      }
+     ]
+    }
+   ],
+   "start": 29.001,
+   "end": 41.56
+  },
+  {
+   "id": "finale",
+   "label": "",
+   "lines": [
+    {
+     "show": "I took the biggest breath of my life.",
+     "start": 41.64,
+     "end": 43.72,
+     "words": [
+      {
+       "text": "I",
+       "start": 41.64,
+       "end": 41.68
+      },
+      {
+       "text": "took",
+       "start": 41.72,
+       "end": 41.88
+      },
+      {
+       "text": "the",
+       "start": 42.0,
+       "end": 42.12
+      },
+      {
+       "text": "biggest",
+       "start": 42.2,
+       "end": 42.52
+      },
+      {
+       "text": "breath",
+       "start": 42.56,
+       "end": 42.76
+      },
+      {
+       "text": "of",
+       "start": 42.8,
+       "end": 42.84
+      },
+      {
+       "text": "my",
+       "start": 42.92,
+       "end": 43.08
+      },
+      {
+       "text": "life.",
+       "start": 43.28,
+       "end": 43.72
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 43.929,
+     "end": 47.238,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 43.929,
+       "end": 44.249
+      },
+      {
+       "text": "HUSS",
+       "start": 44.357,
+       "end": 44.676
+      },
+      {
+       "text": "HUSS",
+       "start": 44.786,
+       "end": 45.103
+      },
+      {
+       "text": "HUSS",
+       "start": 45.214,
+       "end": 45.53
+      },
+      {
+       "text": "HUSS",
+       "start": 45.643,
+       "end": 45.957
+      },
+      {
+       "text": "HUSS",
+       "start": 46.071,
+       "end": 46.384
+      },
+      {
+       "text": "HUSS",
+       "start": 46.5,
+       "end": 46.811
+      },
+      {
+       "text": "HUSS",
+       "start": 46.929,
+       "end": 47.238
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 47.357,
+     "end": 49.061,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 47.357,
+       "end": 47.561
+      },
+      {
+       "text": "HUSS",
+       "start": 47.571,
+       "end": 47.775
+      },
+      {
+       "text": "HUSS",
+       "start": 47.786,
+       "end": 47.989
+      },
+      {
+       "text": "HUSS",
+       "start": 48.0,
+       "end": 48.204
+      },
+      {
+       "text": "HUSS",
+       "start": 48.214,
+       "end": 48.418
+      },
+      {
+       "text": "HUSS",
+       "start": 48.429,
+       "end": 48.632
+      },
+      {
+       "text": "HUSS",
+       "start": 48.643,
+       "end": 48.846
+      },
+      {
+       "text": "HUSS",
+       "start": 48.857,
+       "end": 49.061
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 49.071,
+     "end": 50.775,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 49.071,
+       "end": 49.275
+      },
+      {
+       "text": "HUSS",
+       "start": 49.286,
+       "end": 49.489
+      },
+      {
+       "text": "HUSS",
+       "start": 49.5,
+       "end": 49.704
+      },
+      {
+       "text": "HUSS",
+       "start": 49.714,
+       "end": 49.918
+      },
+      {
+       "text": "HUSS",
+       "start": 49.929,
+       "end": 50.132
+      },
+      {
+       "text": "HUSS",
+       "start": 50.143,
+       "end": 50.346
+      },
+      {
+       "text": "HUSS",
+       "start": 50.357,
+       "end": 50.561
+      },
+      {
+       "text": "HUSS",
+       "start": 50.571,
+       "end": 50.775
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 50.786,
+     "end": 51.637,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 50.786,
+       "end": 50.887
+      },
+      {
+       "text": "HUSS",
+       "start": 50.893,
+       "end": 50.995
+      },
+      {
+       "text": "HUSS",
+       "start": 51.0,
+       "end": 51.102
+      },
+      {
+       "text": "HUSS",
+       "start": 51.107,
+       "end": 51.209
+      },
+      {
+       "text": "HUSS",
+       "start": 51.214,
+       "end": 51.316
+      },
+      {
+       "text": "HUSS",
+       "start": 51.321,
+       "end": 51.423
+      },
+      {
+       "text": "HUSS",
+       "start": 51.429,
+       "end": 51.53
+      },
+      {
+       "text": "HUSS",
+       "start": 51.536,
+       "end": 51.637
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 51.643,
+     "end": 52.495,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 51.643,
+       "end": 51.745
+      },
+      {
+       "text": "HUSS",
+       "start": 51.75,
+       "end": 51.852
+      },
+      {
+       "text": "HUSS",
+       "start": 51.857,
+       "end": 51.959
+      },
+      {
+       "text": "HUSS",
+       "start": 51.964,
+       "end": 52.066
+      },
+      {
+       "text": "HUSS",
+       "start": 52.071,
+       "end": 52.173
+      },
+      {
+       "text": "HUSS",
+       "start": 52.179,
+       "end": 52.28
+      },
+      {
+       "text": "HUSS",
+       "start": 52.286,
+       "end": 52.387
+      },
+      {
+       "text": "HUSS",
+       "start": 52.393,
+       "end": 52.495
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 52.5,
+     "end": 53.352,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 52.5,
+       "end": 52.602
+      },
+      {
+       "text": "HUSS",
+       "start": 52.607,
+       "end": 52.709
+      },
+      {
+       "text": "HUSS",
+       "start": 52.714,
+       "end": 52.816
+      },
+      {
+       "text": "HUSS",
+       "start": 52.821,
+       "end": 52.923
+      },
+      {
+       "text": "HUSS",
+       "start": 52.929,
+       "end": 53.03
+      },
+      {
+       "text": "HUSS",
+       "start": 53.036,
+       "end": 53.137
+      },
+      {
+       "text": "HUSS",
+       "start": 53.143,
+       "end": 53.245
+      },
+      {
+       "text": "HUSS",
+       "start": 53.25,
+       "end": 53.352
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 53.357,
+     "end": 54.209,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 53.357,
+       "end": 53.459
+      },
+      {
+       "text": "HUSS",
+       "start": 53.464,
+       "end": 53.566
+      },
+      {
+       "text": "HUSS",
+       "start": 53.571,
+       "end": 53.673
+      },
+      {
+       "text": "HUSS",
+       "start": 53.679,
+       "end": 53.78
+      },
+      {
+       "text": "HUSS",
+       "start": 53.786,
+       "end": 53.887
+      },
+      {
+       "text": "HUSS",
+       "start": 53.893,
+       "end": 53.995
+      },
+      {
+       "text": "HUSS",
+       "start": 54.0,
+       "end": 54.102
+      },
+      {
+       "text": "HUSS",
+       "start": 54.107,
+       "end": 54.209
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 54.214,
+     "end": 55.066,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 54.214,
+       "end": 54.316
+      },
+      {
+       "text": "HUSS",
+       "start": 54.321,
+       "end": 54.423
+      },
+      {
+       "text": "HUSS",
+       "start": 54.429,
+       "end": 54.53
+      },
+      {
+       "text": "HUSS",
+       "start": 54.536,
+       "end": 54.637
+      },
+      {
+       "text": "HUSS",
+       "start": 54.643,
+       "end": 54.745
+      },
+      {
+       "text": "HUSS",
+       "start": 54.75,
+       "end": 54.852
+      },
+      {
+       "text": "HUSS",
+       "start": 54.857,
+       "end": 54.959
+      },
+      {
+       "text": "HUSS",
+       "start": 54.964,
+       "end": 55.066
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}",
+     "start": 55.071,
+     "end": 55.923,
+     "words": [
+      {
+       "text": "HUSS",
+       "start": 55.071,
+       "end": 55.173
+      },
+      {
+       "text": "HUSS",
+       "start": 55.179,
+       "end": 55.28
+      },
+      {
+       "text": "HUSS",
+       "start": 55.286,
+       "end": 55.387
+      },
+      {
+       "text": "HUSS",
+       "start": 55.393,
+       "end": 55.495
+      },
+      {
+       "text": "HUSS",
+       "start": 55.5,
+       "end": 55.602
+      },
+      {
+       "text": "HUSS",
+       "start": 55.607,
+       "end": 55.709
+      },
+      {
+       "text": "HUSS",
+       "start": 55.714,
+       "end": 55.816
+      },
+      {
+       "text": "HUSS",
+       "start": 55.821,
+       "end": 55.923
+      }
+     ]
+    }
+   ],
+   "start": 41.64,
+   "end": 55.923
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "When I finally stopped,",
+     "start": 55.995,
+     "end": 57.115,
+     "words": [
+      {
+       "text": "When",
+       "start": 55.995,
+       "end": 56.022
+      },
+      {
+       "text": "I",
+       "start": 56.182,
+       "end": 56.222
+      },
+      {
+       "text": "finally",
+       "start": 56.262,
+       "end": 56.582
+      },
+      {
+       "text": "stopped,",
+       "start": 56.662,
+       "end": 57.115
+      }
+     ]
+    },
+    {
+     "show": "the stadium was silent.",
+     "start": 57.169,
+     "end": 58.502,
+     "words": [
+      {
+       "text": "the",
+       "start": 57.169,
+       "end": 57.222
+      },
+      {
+       "text": "stadium",
+       "start": 57.302,
+       "end": 57.702
+      },
+      {
+       "text": "was",
+       "start": 57.822,
+       "end": 57.942
+      },
+      {
+       "text": "silent.",
+       "start": 58.182,
+       "end": 58.502
+      }
+     ]
+    },
+    {
+     "show": "Every window in town was gone.",
+     "start": 58.582,
+     "end": 60.315,
+     "words": [
+      {
+       "text": "Every",
+       "start": 58.582,
+       "end": 58.822
+      },
+      {
+       "text": "window",
+       "start": 58.982,
+       "end": 59.142
+      },
+      {
+       "text": "in",
+       "start": 59.222,
+       "end": 59.302
+      },
+      {
+       "text": "town",
+       "start": 59.462,
+       "end": 59.622
+      },
+      {
+       "text": "was",
+       "start": 59.702,
+       "end": 59.782
+      },
+      {
+       "text": "gone.",
+       "start": 59.862,
+       "end": 60.315
+      }
+     ]
+    },
+    {
+     "show": "The birds had flown away.",
+     "start": 60.369,
+     "end": 61.675,
+     "words": [
+      {
+       "text": "The",
+       "start": 60.369,
+       "end": 60.422
+      },
+      {
+       "text": "birds",
+       "start": 60.582,
+       "end": 60.742
+      },
+      {
+       "text": "had",
+       "start": 60.822,
+       "end": 60.902
+      },
+      {
+       "text": "flown",
+       "start": 60.942,
+       "end": 61.062
+      },
+      {
+       "text": "away.",
+       "start": 61.222,
+       "end": 61.675
+      }
+     ]
+    },
+    {
+     "show": "And somewhere in space,",
+     "start": 61.729,
+     "end": 62.875,
+     "words": [
+      {
+       "text": "And",
+       "start": 61.729,
+       "end": 61.782
+      },
+      {
+       "text": "somewhere",
+       "start": 61.862,
+       "end": 62.102
+      },
+      {
+       "text": "in",
+       "start": 62.182,
+       "end": 62.262
+      },
+      {
+       "text": "space,",
+       "start": 62.342,
+       "end": 62.875
+      }
+     ]
+    },
+    {
+     "show": "an astronaut whispered,",
+     "start": 62.929,
+     "end": 64.113,
+     "words": [
+      {
+       "text": "an",
+       "start": 62.929,
+       "end": 62.982
+      },
+      {
+       "text": "astronaut",
+       "start": 63.062,
+       "end": 63.462
+      },
+      {
+       "text": "whispered,",
+       "start": 63.542,
+       "end": 64.113
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS!}",
+     "start": 64.182,
+     "end": 64.972,
+     "words": [
+      {
+       "text": "HUSS!",
+       "start": 64.182,
+       "end": 64.972
+      }
+     ]
+    },
+    {
+     "show": "Now I hold the world record.",
+     "start": 64.982,
+     "end": 66.542,
+     "words": [
+      {
+       "text": "Now",
+       "start": 64.982,
+       "end": 65.302
+      },
+      {
+       "text": "I",
+       "start": 65.542,
+       "end": 65.595
+      },
+      {
+       "text": "hold",
+       "start": 65.649,
+       "end": 65.702
+      },
+      {
+       "text": "the",
+       "start": 65.782,
+       "end": 65.862
+      },
+      {
+       "text": "world",
+       "start": 65.982,
+       "end": 66.102
+      },
+      {
+       "text": "record.",
+       "start": 66.302,
+       "end": 66.542
+      }
+     ]
+    },
+    {
+     "show": "And while they were out partying, by the way,",
+     "start": 66.582,
+     "end": 68.262,
+     "words": [
+      {
+       "text": "And",
+       "start": 66.582,
+       "end": 66.662
+      },
+      {
+       "text": "while",
+       "start": 66.742,
+       "end": 66.822
+      },
+      {
+       "text": "they",
+       "start": 66.862,
+       "end": 66.902
+      },
+      {
+       "text": "were",
+       "start": 66.982,
+       "end": 67.062
+      },
+      {
+       "text": "out",
+       "start": 67.142,
+       "end": 67.222
+      },
+      {
+       "text": "partying,",
+       "start": 67.302,
+       "end": 67.675
+      },
+      {
+       "text": "by",
+       "start": 67.729,
+       "end": 67.782
+      },
+      {
+       "text": "the",
+       "start": 67.822,
+       "end": 67.862
+      },
+      {
+       "text": "way,",
+       "start": 68.022,
+       "end": 68.262
+      }
+     ]
+    },
+    {
+     "show": "I was already training",
+     "start": 68.342,
+     "end": 69.142,
+     "words": [
+      {
+       "text": "I",
+       "start": 68.342,
+       "end": 68.395
+      },
+      {
+       "text": "was",
+       "start": 68.449,
+       "end": 68.502
+      },
+      {
+       "text": "already",
+       "start": 68.662,
+       "end": 68.822
+      },
+      {
+       "text": "training",
+       "start": 68.982,
+       "end": 69.142
+      }
+     ]
+    },
+    {
+     "show": "for the {y:next one.}",
+     "start": 69.182,
+     "end": 69.902,
+     "words": [
+      {
+       "text": "for",
+       "start": 69.182,
+       "end": 69.222
+      },
+      {
+       "text": "the",
+       "start": 69.262,
+       "end": 69.302
+      },
+      {
+       "text": "next",
+       "start": 69.382,
+       "end": 69.542
+      },
+      {
+       "text": "one.",
+       "start": 69.622,
+       "end": 69.902
+      }
+     ]
+    },
+    {
+     "show": "{r:HUSS!}",
+     "start": 70.071,
+     "end": 70.391,
+     "words": [
+      {
+       "text": "HUSS!",
+       "start": 70.071,
+       "end": 70.391
+      }
+     ]
+    }
+   ],
+   "start": 55.995,
+   "end": 70.391
+  }
+ ]
+}
