@@ -1,0 +1,9 @@
+hook|In this town,|it rains something different every day.|And the weatherman|has never been {r:wrong.}
+world|On Monday,|it rained spaghetti.|Kevin ate his roof.|On Tuesday,|it rained rubber ducks.|The whole street turned yellow.|On Wednesday,|it rained cats.|Linda kept all of them.|She has way too many now.|And grandma's favorite day|was pancake rain.|She stood outside with a plate|for the whole day.
+rule|So every morning,|the whole town watches the forecast.|Because if you're not ready,|you're in {r:big trouble.}
+inciting|Then last night,|the weatherman looked straight into the camera.|His hands were shaking.|He said,|tomorrow,|it will rain|{r:Tung Tung Tung Sahur.}
+panic|The whole town panicked.|People boarded up their windows.|The mayor hid in his fridge.|Kevin dug a hole so deep,|he found another town.
+fall|At sunrise,|the sky went dark.|And then I heard it.|Tung.|Tung.|Tung.|{y:Millions} of them.|Falling from the clouds.|Landing on roofs,|in pools,|and right on top of the mayor's fridge.
+mystery|But they didn't attack.|They just walked to every house,|and knocked on every door.|Tung, tung, tung.|Everyone was too scared to open.|Except {y:me.}
+twist|I opened my door,|and a tiny Tung looked up at me.|He held out an empty plate.|That's when I understood.|Sahur.|The meal before sunrise.|They weren't here to scare us.|They were {y:hungry.}
+end|So I made pancakes.|Grandma made more pancakes.|And soon the whole town was cooking breakfast|for millions of Tungs.|Now they come back every year.|But last night,|the weatherman looked into the camera again.|And he said,|tomorrow,|it will rain|{r:Kevin.}

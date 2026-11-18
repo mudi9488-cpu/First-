@@ -1,0 +1,270 @@
+{
+ "title": "Tung Rain",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "it rains something different every day."
+    },
+    {
+     "show": "And the weatherman"
+    },
+    {
+     "show": "has never been {r:wrong.}"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "On Monday,"
+    },
+    {
+     "show": "it rained spaghetti."
+    },
+    {
+     "show": "Kevin ate his roof."
+    },
+    {
+     "show": "On Tuesday,"
+    },
+    {
+     "show": "it rained rubber ducks."
+    },
+    {
+     "show": "The whole street turned yellow."
+    },
+    {
+     "show": "On Wednesday,"
+    },
+    {
+     "show": "it rained cats."
+    },
+    {
+     "show": "Linda kept all of them."
+    },
+    {
+     "show": "She has way too many now."
+    },
+    {
+     "show": "And grandma's favorite day"
+    },
+    {
+     "show": "was pancake rain."
+    },
+    {
+     "show": "She stood outside with a plate"
+    },
+    {
+     "show": "for the whole day."
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "So every morning,"
+    },
+    {
+     "show": "the whole town watches the forecast."
+    },
+    {
+     "show": "Because if you're not ready,"
+    },
+    {
+     "show": "you're in {r:big trouble.}"
+    }
+   ]
+  },
+  {
+   "id": "inciting",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then last night,"
+    },
+    {
+     "show": "the weatherman looked straight into the camera."
+    },
+    {
+     "show": "His hands were shaking."
+    },
+    {
+     "show": "He said,"
+    },
+    {
+     "show": "tomorrow,"
+    },
+    {
+     "show": "it will rain"
+    },
+    {
+     "show": "{r:Tung Tung Tung Sahur.}"
+    }
+   ]
+  },
+  {
+   "id": "panic",
+   "label": "",
+   "lines": [
+    {
+     "show": "The whole town panicked."
+    },
+    {
+     "show": "People boarded up their windows."
+    },
+    {
+     "show": "The mayor hid in his fridge."
+    },
+    {
+     "show": "Kevin dug a hole so deep,"
+    },
+    {
+     "show": "he found another town."
+    }
+   ]
+  },
+  {
+   "id": "fall",
+   "label": "",
+   "lines": [
+    {
+     "show": "At sunrise,"
+    },
+    {
+     "show": "the sky went dark."
+    },
+    {
+     "show": "And then I heard it."
+    },
+    {
+     "show": "Tung."
+    },
+    {
+     "show": "Tung."
+    },
+    {
+     "show": "Tung."
+    },
+    {
+     "show": "{y:Millions} of them."
+    },
+    {
+     "show": "Falling from the clouds."
+    },
+    {
+     "show": "Landing on roofs,"
+    },
+    {
+     "show": "in pools,"
+    },
+    {
+     "show": "and right on top of the mayor's fridge."
+    }
+   ]
+  },
+  {
+   "id": "mystery",
+   "label": "",
+   "lines": [
+    {
+     "show": "But they didn't attack."
+    },
+    {
+     "show": "They just walked to every house,"
+    },
+    {
+     "show": "and knocked on every door."
+    },
+    {
+     "show": "Tung, tung, tung."
+    },
+    {
+     "show": "Everyone was too scared to open."
+    },
+    {
+     "show": "Except {y:me.}"
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "I opened my door,"
+    },
+    {
+     "show": "and a tiny Tung looked up at me."
+    },
+    {
+     "show": "He held out an empty plate."
+    },
+    {
+     "show": "That's when I understood."
+    },
+    {
+     "show": "Sahur."
+    },
+    {
+     "show": "The meal before sunrise."
+    },
+    {
+     "show": "They weren't here to scare us."
+    },
+    {
+     "show": "They were {y:hungry.}"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I made pancakes."
+    },
+    {
+     "show": "Grandma made more pancakes."
+    },
+    {
+     "show": "And soon the whole town was cooking breakfast"
+    },
+    {
+     "show": "for millions of Tungs."
+    },
+    {
+     "show": "Now they come back every year."
+    },
+    {
+     "show": "But last night,"
+    },
+    {
+     "show": "the weatherman looked into the camera again."
+    },
+    {
+     "show": "And he said,"
+    },
+    {
+     "show": "tomorrow,"
+    },
+    {
+     "show": "it will rain"
+    },
+    {
+     "show": "{r:Kevin.}"
+    }
+   ]
+  }
+ ]
+}
