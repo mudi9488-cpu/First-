@@ -1,0 +1,306 @@
+{
+ "title": "TV",
+ "voice": "ElevenLabs In This town (eleven_v4, 1 take)",
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,"
+    },
+    {
+     "show": "I'm watching TV."
+    },
+    {
+     "show": "And on the TV,"
+    },
+    {
+     "show": "there's me,"
+    },
+    {
+     "show": "watching TV."
+    },
+    {
+     "show": "And on that TV,"
+    },
+    {
+     "show": "there's another me,"
+    },
+    {
+     "show": "watching another TV."
+    },
+    {
+     "show": "Yep."
+    },
+    {
+     "show": "It never {r:ends.}"
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "Everybody in this town has one."
+    },
+    {
+     "show": "Kevin watches Kevin."
+    },
+    {
+     "show": "Grandma watches grandma."
+    },
+    {
+     "show": "And honestly,"
+    },
+    {
+     "show": "it's a {r:nightmare.}"
+    },
+    {
+     "show": "If I sneeze,"
+    },
+    {
+     "show": "every me in every TV sneezes."
+    },
+    {
+     "show": "A few TVs down,"
+    },
+    {
+     "show": "it's a hurricane."
+    },
+    {
+     "show": "Last week Kevin dropped his remote,"
+    },
+    {
+     "show": "and a whole Kevin city fell over."
+    },
+    {
+     "show": "Sorry, Kevin."
+    }
+   ]
+  },
+  {
+   "id": "discover",
+   "label": "",
+   "lines": [
+    {
+     "show": "But one night,"
+    },
+    {
+     "show": "I noticed something strange."
+    },
+    {
+     "show": "The me on TV was talking."
+    },
+    {
+     "show": "To nobody."
+    },
+    {
+     "show": "So I turned up the volume."
+    },
+    {
+     "show": "He was saying,"
+    },
+    {
+     "show": "in this town,"
+    },
+    {
+     "show": "I'm watching TV."
+    },
+    {
+     "show": "Wait."
+    },
+    {
+     "show": "That's {y:my line.}"
+    }
+   ]
+  },
+  {
+   "id": "deeper",
+   "label": "",
+   "lines": [
+    {
+     "show": "I zoomed in."
+    },
+    {
+     "show": "On his TV,"
+    },
+    {
+     "show": "another me was saying it too."
+    },
+    {
+     "show": "And another one."
+    },
+    {
+     "show": "Hundreds of me."
+    },
+    {
+     "show": "All saying the exact same thing."
+    }
+   ]
+  },
+  {
+   "id": "up",
+   "label": "",
+   "lines": [
+    {
+     "show": "That's when I slowly turned around."
+    },
+    {
+     "show": "Behind me,"
+    },
+    {
+     "show": "there was a giant glass screen."
+    },
+    {
+     "show": "And behind the glass,"
+    },
+    {
+     "show": "a {r:giant me.}"
+    },
+    {
+     "show": "Sitting on a giant couch."
+    },
+    {
+     "show": "Watching me."
+    },
+    {
+     "show": "I waved."
+    },
+    {
+     "show": "He waved."
+    },
+    {
+     "show": "At the exact same time."
+    }
+   ]
+  },
+  {
+   "id": "idea",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I had an idea."
+    },
+    {
+     "show": "I pushed a pizza into my TV."
+    },
+    {
+     "show": "One second later,"
+    },
+    {
+     "show": "{r:boom.}"
+    },
+    {
+     "show": "A giant pizza crashed through my ceiling."
+    },
+    {
+     "show": "Free pizza forever."
+    },
+    {
+     "show": "Then I tried a coin."
+    },
+    {
+     "show": "Boom."
+    },
+    {
+     "show": "It crushed the neighbor's car."
+    },
+    {
+     "show": "Sorry."
+    },
+    {
+     "show": "But I was {y:rich.}"
+    },
+    {
+     "show": "Just like every me."
+    }
+   ]
+  },
+  {
+   "id": "top",
+   "label": "",
+   "lines": [
+    {
+     "show": "But I had to know who was at the very top."
+    },
+    {
+     "show": "So I climbed out of my TV."
+    },
+    {
+     "show": "Into a bigger living room."
+    },
+    {
+     "show": "Then out of that TV."
+    },
+    {
+     "show": "Into an even bigger one."
+    },
+    {
+     "show": "After dozens of TVs,"
+    },
+    {
+     "show": "the couches were as big as mountains."
+    },
+    {
+     "show": "I needed a {y:helicopter.}"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Finally,"
+    },
+    {
+     "show": "I reached the last screen."
+    },
+    {
+     "show": "I pressed my face against the glass."
+    },
+    {
+     "show": "There was no me."
+    },
+    {
+     "show": "Just a glowing rectangle."
+    },
+    {
+     "show": "A phone."
+    },
+    {
+     "show": "And behind it,"
+    },
+    {
+     "show": "a face."
+    },
+    {
+     "show": "{r:Yours.}"
+    },
+    {
+     "show": "You're the one watching all of us."
+    },
+    {
+     "show": "Wait."
+    },
+    {
+     "show": "Don't scroll."
+    },
+    {
+     "show": "Okay."
+    },
+    {
+     "show": "Good."
+    },
+    {
+     "show": "Just one question."
+    },
+    {
+     "show": "Who's watching {y:you?}"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2217 @@
+{
+ "duration": 96.444,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "I'm watching TV.",
+     "start": 0.88,
+     "end": 1.92,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 0.88,
+       "end": 0.96
+      },
+      {
+       "text": "watching",
+       "start": 1.04,
+       "end": 1.28
+      },
+      {
+       "text": "TV.",
+       "start": 1.36,
+       "end": 1.92
+      }
+     ]
+    },
+    {
+     "show": "And on the TV,",
+     "start": 1.96,
+     "end": 2.88,
+     "words": [
+      {
+       "text": "And",
+       "start": 1.96,
+       "end": 2.0
+      },
+      {
+       "text": "on",
+       "start": 2.08,
+       "end": 2.16
+      },
+      {
+       "text": "the",
+       "start": 2.2,
+       "end": 2.24
+      },
+      {
+       "text": "TV,",
+       "start": 2.32,
+       "end": 2.88
+      }
+     ]
+    },
+    {
+     "show": "there's me,",
+     "start": 2.92,
+     "end": 3.44,
+     "words": [
+      {
+       "text": "there's",
+       "start": 2.92,
+       "end": 3.04
+      },
+      {
+       "text": "me,",
+       "start": 3.12,
+       "end": 3.44
+      }
+     ]
+    },
+    {
+     "show": "watching TV.",
+     "start": 3.56,
+     "end": 4.24,
+     "words": [
+      {
+       "text": "watching",
+       "start": 3.56,
+       "end": 3.76
+      },
+      {
+       "text": "TV.",
+       "start": 3.84,
+       "end": 4.24
+      }
+     ]
+    },
+    {
+     "show": "And on that TV,",
+     "start": 4.32,
+     "end": 5.36,
+     "words": [
+      {
+       "text": "And",
+       "start": 4.32,
+       "end": 4.4
+      },
+      {
+       "text": "on",
+       "start": 4.48,
+       "end": 4.56
+      },
+      {
+       "text": "that",
+       "start": 4.64,
+       "end": 4.8
+      },
+      {
+       "text": "TV,",
+       "start": 4.88,
+       "end": 5.36
+      }
+     ]
+    },
+    {
+     "show": "there's another me,",
+     "start": 5.4,
+     "end": 6.16,
+     "words": [
+      {
+       "text": "there's",
+       "start": 5.4,
+       "end": 5.52
+      },
+      {
+       "text": "another",
+       "start": 5.68,
+       "end": 5.84
+      },
+      {
+       "text": "me,",
+       "start": 5.92,
+       "end": 6.16
+      }
+     ]
+    },
+    {
+     "show": "watching another TV.",
+     "start": 6.28,
+     "end": 7.28,
+     "words": [
+      {
+       "text": "watching",
+       "start": 6.28,
+       "end": 6.48
+      },
+      {
+       "text": "another",
+       "start": 6.64,
+       "end": 6.8
+      },
+      {
+       "text": "TV.",
+       "start": 6.88,
+       "end": 7.28
+      }
+     ]
+    },
+    {
+     "show": "Yep.",
+     "start": 7.44,
+     "end": 7.84,
+     "words": [
+      {
+       "text": "Yep.",
+       "start": 7.44,
+       "end": 7.84
+      }
+     ]
+    },
+    {
+     "show": "It never {r:ends.}",
+     "start": 7.92,
+     "end": 8.8,
+     "words": [
+      {
+       "text": "It",
+       "start": 7.92,
+       "end": 8.0
+      },
+      {
+       "text": "never",
+       "start": 8.16,
+       "end": 8.32
+      },
+      {
+       "text": "ends.",
+       "start": 8.4,
+       "end": 8.8
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 8.8
+  },
+  {
+   "id": "rule",
+   "label": "",
+   "lines": [
+    {
+     "show": "Everybody in this town has one.",
+     "start": 8.88,
+     "end": 10.32,
+     "words": [
+      {
+       "text": "Everybody",
+       "start": 8.88,
+       "end": 9.28
+      },
+      {
+       "text": "in",
+       "start": 9.36,
+       "end": 9.4
+      },
+      {
+       "text": "this",
+       "start": 9.44,
+       "end": 9.52
+      },
+      {
+       "text": "town",
+       "start": 9.6,
+       "end": 9.76
+      },
+      {
+       "text": "has",
+       "start": 9.88,
+       "end": 10.0
+      },
+      {
+       "text": "one.",
+       "start": 10.08,
+       "end": 10.32
+      }
+     ]
+    },
+    {
+     "show": "Kevin watches Kevin.",
+     "start": 10.48,
+     "end": 11.36,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 10.48,
+       "end": 10.64
+      },
+      {
+       "text": "watches",
+       "start": 10.72,
+       "end": 10.96
+      },
+      {
+       "text": "Kevin.",
+       "start": 11.04,
+       "end": 11.36
+      }
+     ]
+    },
+    {
+     "show": "Grandma watches grandma.",
+     "start": 11.48,
+     "end": 12.64,
+     "words": [
+      {
+       "text": "Grandma",
+       "start": 11.48,
+       "end": 11.76
+      },
+      {
+       "text": "watches",
+       "start": 11.84,
+       "end": 12.08
+      },
+      {
+       "text": "grandma.",
+       "start": 12.16,
+       "end": 12.64
+      }
+     ]
+    },
+    {
+     "show": "And honestly,",
+     "start": 12.72,
+     "end": 13.36,
+     "words": [
+      {
+       "text": "And",
+       "start": 12.72,
+       "end": 12.8
+      },
+      {
+       "text": "honestly,",
+       "start": 12.84,
+       "end": 13.36
+      }
+     ]
+    },
+    {
+     "show": "it's a {r:nightmare.}",
+     "start": 13.44,
+     "end": 14.32,
+     "words": [
+      {
+       "text": "it's",
+       "start": 13.44,
+       "end": 13.52
+      },
+      {
+       "text": "a",
+       "start": 13.6,
+       "end": 13.68
+      },
+      {
+       "text": "nightmare.",
+       "start": 13.76,
+       "end": 14.32
+      }
+     ]
+    },
+    {
+     "show": "If I sneeze,",
+     "start": 14.36,
+     "end": 15.2,
+     "words": [
+      {
+       "text": "If",
+       "start": 14.36,
+       "end": 14.4
+      },
+      {
+       "text": "I",
+       "start": 14.56,
+       "end": 14.64
+      },
+      {
+       "text": "sneeze,",
+       "start": 14.68,
+       "end": 15.2
+      }
+     ]
+    },
+    {
+     "show": "every me in every TV sneezes.",
+     "start": 15.36,
+     "end": 17.44,
+     "words": [
+      {
+       "text": "every",
+       "start": 15.36,
+       "end": 15.52
+      },
+      {
+       "text": "me",
+       "start": 15.6,
+       "end": 15.84
+      },
+      {
+       "text": "in",
+       "start": 15.92,
+       "end": 16.0
+      },
+      {
+       "text": "every",
+       "start": 16.08,
+       "end": 16.32
+      },
+      {
+       "text": "TV",
+       "start": 16.4,
+       "end": 16.72
+      },
+      {
+       "text": "sneezes.",
+       "start": 16.88,
+       "end": 17.44
+      }
+     ]
+    },
+    {
+     "show": "A few TVs down,",
+     "start": 17.48,
+     "end": 18.48,
+     "words": [
+      {
+       "text": "A",
+       "start": 17.48,
+       "end": 17.52
+      },
+      {
+       "text": "few",
+       "start": 17.6,
+       "end": 17.68
+      },
+      {
+       "text": "TVs",
+       "start": 17.76,
+       "end": 18.08
+      },
+      {
+       "text": "down,",
+       "start": 18.24,
+       "end": 18.48
+      }
+     ]
+    },
+    {
+     "show": "it's a hurricane.",
+     "start": 18.52,
+     "end": 19.36,
+     "words": [
+      {
+       "text": "it's",
+       "start": 18.52,
+       "end": 18.64
+      },
+      {
+       "text": "a",
+       "start": 18.693,
+       "end": 18.747
+      },
+      {
+       "text": "hurricane.",
+       "start": 18.8,
+       "end": 19.36
+      }
+     ]
+    },
+    {
+     "show": "Last week Kevin dropped his remote,",
+     "start": 19.44,
+     "end": 20.92,
+     "words": [
+      {
+       "text": "Last",
+       "start": 19.44,
+       "end": 19.6
+      },
+      {
+       "text": "week",
+       "start": 19.68,
+       "end": 19.84
+      },
+      {
+       "text": "Kevin",
+       "start": 19.92,
+       "end": 20.16
+      },
+      {
+       "text": "dropped",
+       "start": 20.24,
+       "end": 20.4
+      },
+      {
+       "text": "his",
+       "start": 20.48,
+       "end": 20.56
+      },
+      {
+       "text": "remote,",
+       "start": 20.72,
+       "end": 20.92
+      }
+     ]
+    },
+    {
+     "show": "and a whole Kevin city fell over.",
+     "start": 20.96,
+     "end": 22.8,
+     "words": [
+      {
+       "text": "and",
+       "start": 20.96,
+       "end": 21.0
+      },
+      {
+       "text": "a",
+       "start": 21.04,
+       "end": 21.12
+      },
+      {
+       "text": "whole",
+       "start": 21.2,
+       "end": 21.36
+      },
+      {
+       "text": "Kevin",
+       "start": 21.52,
+       "end": 21.76
+      },
+      {
+       "text": "city",
+       "start": 21.92,
+       "end": 22.16
+      },
+      {
+       "text": "fell",
+       "start": 22.24,
+       "end": 22.4
+      },
+      {
+       "text": "over.",
+       "start": 22.48,
+       "end": 22.8
+      }
+     ]
+    },
+    {
+     "show": "Sorry, Kevin.",
+     "start": 22.88,
+     "end": 23.68,
+     "words": [
+      {
+       "text": "Sorry,",
+       "start": 22.88,
+       "end": 23.16
+      },
+      {
+       "text": "Kevin.",
+       "start": 23.2,
+       "end": 23.68
+      }
+     ]
+    }
+   ],
+   "start": 8.88,
+   "end": 23.68
+  },
+  {
+   "id": "discover",
+   "label": "",
+   "lines": [
+    {
+     "show": "But one night,",
+     "start": 23.76,
+     "end": 24.56,
+     "words": [
+      {
+       "text": "But",
+       "start": 23.76,
+       "end": 23.92
+      },
+      {
+       "text": "one",
+       "start": 24.0,
+       "end": 24.16
+      },
+      {
+       "text": "night,",
+       "start": 24.32,
+       "end": 24.56
+      }
+     ]
+    },
+    {
+     "show": "I noticed something strange.",
+     "start": 24.72,
+     "end": 26.24,
+     "words": [
+      {
+       "text": "I",
+       "start": 24.72,
+       "end": 24.827
+      },
+      {
+       "text": "noticed",
+       "start": 24.933,
+       "end": 25.04
+      },
+      {
+       "text": "something",
+       "start": 25.12,
+       "end": 25.44
+      },
+      {
+       "text": "strange.",
+       "start": 25.52,
+       "end": 26.24
+      }
+     ]
+    },
+    {
+     "show": "The me on TV was talking.",
+     "start": 26.32,
+     "end": 28.293,
+     "words": [
+      {
+       "text": "The",
+       "start": 26.32,
+       "end": 26.4
+      },
+      {
+       "text": "me",
+       "start": 26.52,
+       "end": 26.64
+      },
+      {
+       "text": "on",
+       "start": 26.72,
+       "end": 26.88
+      },
+      {
+       "text": "TV",
+       "start": 27.0,
+       "end": 27.36
+      },
+      {
+       "text": "was",
+       "start": 27.44,
+       "end": 27.68
+      },
+      {
+       "text": "talking.",
+       "start": 27.72,
+       "end": 28.293
+      }
+     ]
+    },
+    {
+     "show": "To nobody.",
+     "start": 28.347,
+     "end": 29.0,
+     "words": [
+      {
+       "text": "To",
+       "start": 28.347,
+       "end": 28.4
+      },
+      {
+       "text": "nobody.",
+       "start": 28.44,
+       "end": 29.0
+      }
+     ]
+    },
+    {
+     "show": "So I turned up the volume.",
+     "start": 29.04,
+     "end": 30.24,
+     "words": [
+      {
+       "text": "So",
+       "start": 29.04,
+       "end": 29.12
+      },
+      {
+       "text": "I",
+       "start": 29.28,
+       "end": 29.333
+      },
+      {
+       "text": "turned",
+       "start": 29.387,
+       "end": 29.44
+      },
+      {
+       "text": "up",
+       "start": 29.48,
+       "end": 29.52
+      },
+      {
+       "text": "the",
+       "start": 29.6,
+       "end": 29.68
+      },
+      {
+       "text": "volume.",
+       "start": 29.88,
+       "end": 30.24
+      }
+     ]
+    },
+    {
+     "show": "He was saying,",
+     "start": 30.28,
+     "end": 30.96,
+     "words": [
+      {
+       "text": "He",
+       "start": 30.28,
+       "end": 30.32
+      },
+      {
+       "text": "was",
+       "start": 30.4,
+       "end": 30.48
+      },
+      {
+       "text": "saying,",
+       "start": 30.56,
+       "end": 30.96
+      }
+     ]
+    },
+    {
+     "show": "in this town,",
+     "start": 31.04,
+     "end": 31.8,
+     "words": [
+      {
+       "text": "in",
+       "start": 31.04,
+       "end": 31.12
+      },
+      {
+       "text": "this",
+       "start": 31.2,
+       "end": 31.28
+      },
+      {
+       "text": "town,",
+       "start": 31.36,
+       "end": 31.8
+      }
+     ]
+    },
+    {
+     "show": "I'm watching TV.",
+     "start": 31.84,
+     "end": 33.04,
+     "words": [
+      {
+       "text": "I'm",
+       "start": 31.84,
+       "end": 32.0
+      },
+      {
+       "text": "watching",
+       "start": 32.12,
+       "end": 32.4
+      },
+      {
+       "text": "TV.",
+       "start": 32.52,
+       "end": 33.04
+      }
+     ]
+    },
+    {
+     "show": "Wait.",
+     "start": 33.16,
+     "end": 33.44,
+     "words": [
+      {
+       "text": "Wait.",
+       "start": 33.16,
+       "end": 33.44
+      }
+     ]
+    },
+    {
+     "show": "That's {y:my line.}",
+     "start": 33.48,
+     "end": 34.4,
+     "words": [
+      {
+       "text": "That's",
+       "start": 33.48,
+       "end": 33.68
+      },
+      {
+       "text": "my",
+       "start": 33.76,
+       "end": 33.84
+      },
+      {
+       "text": "line.",
+       "start": 33.92,
+       "end": 34.4
+      }
+     ]
+    }
+   ],
+   "start": 23.76,
+   "end": 34.4
+  },
+  {
+   "id": "deeper",
+   "label": "",
+   "lines": [
+    {
+     "show": "I zoomed in.",
+     "start": 34.537,
+     "end": 35.493,
+     "words": [
+      {
+       "text": "I",
+       "start": 34.537,
+       "end": 34.56
+      },
+      {
+       "text": "zoomed",
+       "start": 34.64,
+       "end": 34.96
+      },
+      {
+       "text": "in.",
+       "start": 35.04,
+       "end": 35.493
+      }
+     ]
+    },
+    {
+     "show": "On his TV,",
+     "start": 35.547,
+     "end": 36.4,
+     "words": [
+      {
+       "text": "On",
+       "start": 35.547,
+       "end": 35.6
+      },
+      {
+       "text": "his",
+       "start": 35.68,
+       "end": 35.84
+      },
+      {
+       "text": "TV,",
+       "start": 35.92,
+       "end": 36.4
+      }
+     ]
+    },
+    {
+     "show": "another me was saying it too.",
+     "start": 36.6,
+     "end": 38.027,
+     "words": [
+      {
+       "text": "another",
+       "start": 36.6,
+       "end": 36.8
+      },
+      {
+       "text": "me",
+       "start": 36.88,
+       "end": 36.96
+      },
+      {
+       "text": "was",
+       "start": 37.04,
+       "end": 37.12
+      },
+      {
+       "text": "saying",
+       "start": 37.2,
+       "end": 37.36
+      },
+      {
+       "text": "it",
+       "start": 37.44,
+       "end": 37.52
+      },
+      {
+       "text": "too.",
+       "start": 37.6,
+       "end": 38.027
+      }
+     ]
+    },
+    {
+     "show": "And another one.",
+     "start": 38.053,
+     "end": 38.96,
+     "words": [
+      {
+       "text": "And",
+       "start": 38.053,
+       "end": 38.08
+      },
+      {
+       "text": "another",
+       "start": 38.16,
+       "end": 38.56
+      },
+      {
+       "text": "one.",
+       "start": 38.64,
+       "end": 38.96
+      }
+     ]
+    },
+    {
+     "show": "Hundreds of me.",
+     "start": 39.2,
+     "end": 39.92,
+     "words": [
+      {
+       "text": "Hundreds",
+       "start": 39.2,
+       "end": 39.44
+      },
+      {
+       "text": "of",
+       "start": 39.48,
+       "end": 39.52
+      },
+      {
+       "text": "me.",
+       "start": 39.6,
+       "end": 39.92
+      }
+     ]
+    },
+    {
+     "show": "All saying the exact same thing.",
+     "start": 40.04,
+     "end": 42.0,
+     "words": [
+      {
+       "text": "All",
+       "start": 40.04,
+       "end": 40.16
+      },
+      {
+       "text": "saying",
+       "start": 40.24,
+       "end": 40.48
+      },
+      {
+       "text": "the",
+       "start": 40.56,
+       "end": 40.64
+      },
+      {
+       "text": "exact",
+       "start": 40.88,
+       "end": 41.12
+      },
+      {
+       "text": "same",
+       "start": 41.2,
+       "end": 41.52
+      },
+      {
+       "text": "thing.",
+       "start": 41.68,
+       "end": 42.0
+      }
+     ]
+    }
+   ],
+   "start": 34.537,
+   "end": 42.0
+  },
+  {
+   "id": "up",
+   "label": "",
+   "lines": [
+    {
+     "show": "That's when I slowly turned around.",
+     "start": 42.08,
+     "end": 44.08,
+     "words": [
+      {
+       "text": "That's",
+       "start": 42.08,
+       "end": 42.32
+      },
+      {
+       "text": "when",
+       "start": 42.4,
+       "end": 42.48
+      },
+      {
+       "text": "I",
+       "start": 42.64,
+       "end": 42.68
+      },
+      {
+       "text": "slowly",
+       "start": 42.72,
+       "end": 43.12
+      },
+      {
+       "text": "turned",
+       "start": 43.2,
+       "end": 43.36
+      },
+      {
+       "text": "around.",
+       "start": 43.44,
+       "end": 44.08
+      }
+     ]
+    },
+    {
+     "show": "Behind me,",
+     "start": 44.24,
+     "end": 44.64,
+     "words": [
+      {
+       "text": "Behind",
+       "start": 44.24,
+       "end": 44.4
+      },
+      {
+       "text": "me,",
+       "start": 44.48,
+       "end": 44.64
+      }
+     ]
+    },
+    {
+     "show": "there was a giant glass screen.",
+     "start": 44.72,
+     "end": 46.4,
+     "words": [
+      {
+       "text": "there",
+       "start": 44.72,
+       "end": 44.8
+      },
+      {
+       "text": "was",
+       "start": 44.84,
+       "end": 44.88
+      },
+      {
+       "text": "a",
+       "start": 44.96,
+       "end": 45.04
+      },
+      {
+       "text": "giant",
+       "start": 45.12,
+       "end": 45.44
+      },
+      {
+       "text": "glass",
+       "start": 45.52,
+       "end": 45.84
+      },
+      {
+       "text": "screen.",
+       "start": 46.08,
+       "end": 46.4
+      }
+     ]
+    },
+    {
+     "show": "And behind the glass,",
+     "start": 46.44,
+     "end": 47.44,
+     "words": [
+      {
+       "text": "And",
+       "start": 46.44,
+       "end": 46.48
+      },
+      {
+       "text": "behind",
+       "start": 46.56,
+       "end": 46.8
+      },
+      {
+       "text": "the",
+       "start": 46.84,
+       "end": 46.88
+      },
+      {
+       "text": "glass,",
+       "start": 46.96,
+       "end": 47.44
+      }
+     ]
+    },
+    {
+     "show": "a {r:giant me.}",
+     "start": 47.52,
+     "end": 48.72,
+     "words": [
+      {
+       "text": "a",
+       "start": 47.52,
+       "end": 47.6
+      },
+      {
+       "text": "giant",
+       "start": 47.68,
+       "end": 48.08
+      },
+      {
+       "text": "me.",
+       "start": 48.24,
+       "end": 48.72
+      }
+     ]
+    },
+    {
+     "show": "Sitting on a giant couch.",
+     "start": 48.76,
+     "end": 50.32,
+     "words": [
+      {
+       "text": "Sitting",
+       "start": 48.76,
+       "end": 48.96
+      },
+      {
+       "text": "on",
+       "start": 49.04,
+       "end": 49.12
+      },
+      {
+       "text": "a",
+       "start": 49.2,
+       "end": 49.28
+      },
+      {
+       "text": "giant",
+       "start": 49.36,
+       "end": 49.68
+      },
+      {
+       "text": "couch.",
+       "start": 49.76,
+       "end": 50.32
+      }
+     ]
+    },
+    {
+     "show": "Watching me.",
+     "start": 50.52,
+     "end": 51.12,
+     "words": [
+      {
+       "text": "Watching",
+       "start": 50.52,
+       "end": 50.72
+      },
+      {
+       "text": "me.",
+       "start": 50.8,
+       "end": 51.12
+      }
+     ]
+    },
+    {
+     "show": "I waved.",
+     "start": 51.2,
+     "end": 51.76,
+     "words": [
+      {
+       "text": "I",
+       "start": 51.2,
+       "end": 51.28
+      },
+      {
+       "text": "waved.",
+       "start": 51.413,
+       "end": 51.76
+      }
+     ]
+    },
+    {
+     "show": "He waved.",
+     "start": 51.84,
+     "end": 52.4,
+     "words": [
+      {
+       "text": "He",
+       "start": 51.84,
+       "end": 51.92
+      },
+      {
+       "text": "waved.",
+       "start": 52.0,
+       "end": 52.4
+      }
+     ]
+    },
+    {
+     "show": "At the exact same time.",
+     "start": 52.48,
+     "end": 54.16,
+     "words": [
+      {
+       "text": "At",
+       "start": 52.48,
+       "end": 52.56
+      },
+      {
+       "text": "the",
+       "start": 52.6,
+       "end": 52.64
+      },
+      {
+       "text": "exact",
+       "start": 52.72,
+       "end": 53.2
+      },
+      {
+       "text": "same",
+       "start": 53.28,
+       "end": 53.52
+      },
+      {
+       "text": "time.",
+       "start": 53.6,
+       "end": 54.16
+      }
+     ]
+    }
+   ],
+   "start": 42.08,
+   "end": 54.16
+  },
+  {
+   "id": "idea",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I had an idea.",
+     "start": 54.297,
+     "end": 55.28,
+     "words": [
+      {
+       "text": "So",
+       "start": 54.297,
+       "end": 54.32
+      },
+      {
+       "text": "I",
+       "start": 54.48,
+       "end": 54.52
+      },
+      {
+       "text": "had",
+       "start": 54.56,
+       "end": 54.6
+      },
+      {
+       "text": "an",
+       "start": 54.64,
+       "end": 54.72
+      },
+      {
+       "text": "idea.",
+       "start": 54.92,
+       "end": 55.28
+      }
+     ]
+    },
+    {
+     "show": "I pushed a pizza into my TV.",
+     "start": 55.36,
+     "end": 57.12,
+     "words": [
+      {
+       "text": "I",
+       "start": 55.36,
+       "end": 55.44
+      },
+      {
+       "text": "pushed",
+       "start": 55.52,
+       "end": 55.68
+      },
+      {
+       "text": "a",
+       "start": 55.72,
+       "end": 55.76
+      },
+      {
+       "text": "pizza",
+       "start": 55.84,
+       "end": 56.16
+      },
+      {
+       "text": "into",
+       "start": 56.24,
+       "end": 56.4
+      },
+      {
+       "text": "my",
+       "start": 56.48,
+       "end": 56.56
+      },
+      {
+       "text": "TV.",
+       "start": 56.64,
+       "end": 57.12
+      }
+     ]
+    },
+    {
+     "show": "One second later,",
+     "start": 57.2,
+     "end": 58.0,
+     "words": [
+      {
+       "text": "One",
+       "start": 57.2,
+       "end": 57.28
+      },
+      {
+       "text": "second",
+       "start": 57.36,
+       "end": 57.6
+      },
+      {
+       "text": "later,",
+       "start": 57.72,
+       "end": 58.0
+      }
+     ]
+    },
+    {
+     "show": "{r:boom.}",
+     "start": 58.2,
+     "end": 58.48,
+     "words": [
+      {
+       "text": "boom.",
+       "start": 58.2,
+       "end": 58.48
+      }
+     ]
+    },
+    {
+     "show": "A giant pizza crashed through my ceiling.",
+     "start": 58.52,
+     "end": 60.72,
+     "words": [
+      {
+       "text": "A",
+       "start": 58.52,
+       "end": 58.56
+      },
+      {
+       "text": "giant",
+       "start": 58.8,
+       "end": 59.12
+      },
+      {
+       "text": "pizza",
+       "start": 59.2,
+       "end": 59.52
+      },
+      {
+       "text": "crashed",
+       "start": 59.6,
+       "end": 59.92
+      },
+      {
+       "text": "through",
+       "start": 60.0,
+       "end": 60.08
+      },
+      {
+       "text": "my",
+       "start": 60.16,
+       "end": 60.24
+      },
+      {
+       "text": "ceiling.",
+       "start": 60.32,
+       "end": 60.72
+      }
+     ]
+    },
+    {
+     "show": "Free pizza forever.",
+     "start": 60.8,
+     "end": 62.16,
+     "words": [
+      {
+       "text": "Free",
+       "start": 60.8,
+       "end": 61.04
+      },
+      {
+       "text": "pizza",
+       "start": 61.12,
+       "end": 61.44
+      },
+      {
+       "text": "forever.",
+       "start": 61.52,
+       "end": 62.16
+      }
+     ]
+    },
+    {
+     "show": "Then I tried a coin.",
+     "start": 62.24,
+     "end": 63.2,
+     "words": [
+      {
+       "text": "Then",
+       "start": 62.24,
+       "end": 62.32
+      },
+      {
+       "text": "I",
+       "start": 62.4,
+       "end": 62.44
+      },
+      {
+       "text": "tried",
+       "start": 62.48,
+       "end": 62.64
+      },
+      {
+       "text": "a",
+       "start": 62.68,
+       "end": 62.72
+      },
+      {
+       "text": "coin.",
+       "start": 62.8,
+       "end": 63.2
+      }
+     ]
+    },
+    {
+     "show": "Boom.",
+     "start": 63.44,
+     "end": 63.76,
+     "words": [
+      {
+       "text": "Boom.",
+       "start": 63.44,
+       "end": 63.76
+      }
+     ]
+    },
+    {
+     "show": "It crushed the neighbor's car.",
+     "start": 63.84,
+     "end": 65.2,
+     "words": [
+      {
+       "text": "It",
+       "start": 63.84,
+       "end": 63.92
+      },
+      {
+       "text": "crushed",
+       "start": 64.0,
+       "end": 64.24
+      },
+      {
+       "text": "the",
+       "start": 64.28,
+       "end": 64.32
+      },
+      {
+       "text": "neighbor's",
+       "start": 64.44,
+       "end": 64.64
+      },
+      {
+       "text": "car.",
+       "start": 64.72,
+       "end": 65.2
+      }
+     ]
+    },
+    {
+     "show": "Sorry.",
+     "start": 65.44,
+     "end": 65.84,
+     "words": [
+      {
+       "text": "Sorry.",
+       "start": 65.44,
+       "end": 65.84
+      }
+     ]
+    },
+    {
+     "show": "But I was {y:rich.}",
+     "start": 65.88,
+     "end": 66.8,
+     "words": [
+      {
+       "text": "But",
+       "start": 65.88,
+       "end": 65.92
+      },
+      {
+       "text": "I",
+       "start": 66.08,
+       "end": 66.16
+      },
+      {
+       "text": "was",
+       "start": 66.24,
+       "end": 66.32
+      },
+      {
+       "text": "rich.",
+       "start": 66.4,
+       "end": 66.8
+      }
+     ]
+    },
+    {
+     "show": "Just like every me.",
+     "start": 66.88,
+     "end": 68.0,
+     "words": [
+      {
+       "text": "Just",
+       "start": 66.88,
+       "end": 67.04
+      },
+      {
+       "text": "like",
+       "start": 67.12,
+       "end": 67.36
+      },
+      {
+       "text": "every",
+       "start": 67.44,
+       "end": 67.68
+      },
+      {
+       "text": "me.",
+       "start": 67.8,
+       "end": 68.0
+      }
+     ]
+    }
+   ],
+   "start": 54.297,
+   "end": 68.0
+  },
+  {
+   "id": "top",
+   "label": "",
+   "lines": [
+    {
+     "show": "But I had to know who was at the very top.",
+     "start": 68.08,
+     "end": 70.32,
+     "words": [
+      {
+       "text": "But",
+       "start": 68.08,
+       "end": 68.16
+      },
+      {
+       "text": "I",
+       "start": 68.4,
+       "end": 68.44
+      },
+      {
+       "text": "had",
+       "start": 68.48,
+       "end": 68.64
+      },
+      {
+       "text": "to",
+       "start": 68.68,
+       "end": 68.72
+      },
+      {
+       "text": "know",
+       "start": 68.8,
+       "end": 69.04
+      },
+      {
+       "text": "who",
+       "start": 69.12,
+       "end": 69.2
+      },
+      {
+       "text": "was",
+       "start": 69.28,
+       "end": 69.36
+      },
+      {
+       "text": "at",
+       "start": 69.4,
+       "end": 69.44
+      },
+      {
+       "text": "the",
+       "start": 69.52,
+       "end": 69.6
+      },
+      {
+       "text": "very",
+       "start": 69.68,
+       "end": 69.92
+      },
+      {
+       "text": "top.",
+       "start": 70.08,
+       "end": 70.32
+      }
+     ]
+    },
+    {
+     "show": "So I climbed out of my TV.",
+     "start": 70.4,
+     "end": 71.84,
+     "words": [
+      {
+       "text": "So",
+       "start": 70.4,
+       "end": 70.48
+      },
+      {
+       "text": "I",
+       "start": 70.64,
+       "end": 70.667
+      },
+      {
+       "text": "climbed",
+       "start": 70.693,
+       "end": 70.96
+      },
+      {
+       "text": "out",
+       "start": 71.0,
+       "end": 71.04
+      },
+      {
+       "text": "of",
+       "start": 71.08,
+       "end": 71.12
+      },
+      {
+       "text": "my",
+       "start": 71.2,
+       "end": 71.28
+      },
+      {
+       "text": "TV.",
+       "start": 71.36,
+       "end": 71.84
+      }
+     ]
+    },
+    {
+     "show": "Into a bigger living room.",
+     "start": 71.92,
+     "end": 73.08,
+     "words": [
+      {
+       "text": "Into",
+       "start": 71.92,
+       "end": 72.0
+      },
+      {
+       "text": "a",
+       "start": 72.08,
+       "end": 72.24
+      },
+      {
+       "text": "bigger",
+       "start": 72.32,
+       "end": 72.48
+      },
+      {
+       "text": "living",
+       "start": 72.6,
+       "end": 72.72
+      },
+      {
+       "text": "room.",
+       "start": 72.88,
+       "end": 73.08
+      }
+     ]
+    },
+    {
+     "show": "Then out of that TV.",
+     "start": 73.12,
+     "end": 74.4,
+     "words": [
+      {
+       "text": "Then",
+       "start": 73.12,
+       "end": 73.36
+      },
+      {
+       "text": "out",
+       "start": 73.44,
+       "end": 73.52
+      },
+      {
+       "text": "of",
+       "start": 73.6,
+       "end": 73.68
+      },
+      {
+       "text": "that",
+       "start": 73.8,
+       "end": 73.92
+      },
+      {
+       "text": "TV.",
+       "start": 74.0,
+       "end": 74.4
+      }
+     ]
+    },
+    {
+     "show": "Into an even bigger one.",
+     "start": 74.48,
+     "end": 75.973,
+     "words": [
+      {
+       "text": "Into",
+       "start": 74.48,
+       "end": 74.64
+      },
+      {
+       "text": "an",
+       "start": 74.72,
+       "end": 74.8
+      },
+      {
+       "text": "even",
+       "start": 74.88,
+       "end": 75.2
+      },
+      {
+       "text": "bigger",
+       "start": 75.24,
+       "end": 75.52
+      },
+      {
+       "text": "one.",
+       "start": 75.6,
+       "end": 75.973
+      }
+     ]
+    },
+    {
+     "show": "After dozens of TVs,",
+     "start": 76.107,
+     "end": 77.28,
+     "words": [
+      {
+       "text": "After",
+       "start": 76.107,
+       "end": 76.24
+      },
+      {
+       "text": "dozens",
+       "start": 76.28,
+       "end": 76.56
+      },
+      {
+       "text": "of",
+       "start": 76.64,
+       "end": 76.72
+      },
+      {
+       "text": "TVs,",
+       "start": 76.84,
+       "end": 77.28
+      }
+     ]
+    },
+    {
+     "show": "the couches were as big as mountains.",
+     "start": 77.36,
+     "end": 79.32,
+     "words": [
+      {
+       "text": "the",
+       "start": 77.36,
+       "end": 77.44
+      },
+      {
+       "text": "couches",
+       "start": 77.48,
+       "end": 77.84
+      },
+      {
+       "text": "were",
+       "start": 77.88,
+       "end": 77.92
+      },
+      {
+       "text": "as",
+       "start": 78.0,
+       "end": 78.24
+      },
+      {
+       "text": "big",
+       "start": 78.32,
+       "end": 78.4
+      },
+      {
+       "text": "as",
+       "start": 78.52,
+       "end": 78.64
+      },
+      {
+       "text": "mountains.",
+       "start": 78.76,
+       "end": 79.32
+      }
+     ]
+    },
+    {
+     "show": "I needed a {y:helicopter.}",
+     "start": 79.44,
+     "end": 80.56,
+     "words": [
+      {
+       "text": "I",
+       "start": 79.44,
+       "end": 79.493
+      },
+      {
+       "text": "needed",
+       "start": 79.547,
+       "end": 79.6
+      },
+      {
+       "text": "a",
+       "start": 79.76,
+       "end": 79.813
+      },
+      {
+       "text": "helicopter.",
+       "start": 79.867,
+       "end": 80.56
+      }
+     ]
+    }
+   ],
+   "start": 68.08,
+   "end": 80.56
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "Finally,",
+     "start": 80.64,
+     "end": 81.28,
+     "words": [
+      {
+       "text": "Finally,",
+       "start": 80.64,
+       "end": 81.28
+      }
+     ]
+    },
+    {
+     "show": "I reached the last screen.",
+     "start": 81.36,
+     "end": 82.88,
+     "words": [
+      {
+       "text": "I",
+       "start": 81.36,
+       "end": 81.387
+      },
+      {
+       "text": "reached",
+       "start": 81.413,
+       "end": 81.68
+      },
+      {
+       "text": "the",
+       "start": 81.76,
+       "end": 81.84
+      },
+      {
+       "text": "last",
+       "start": 82.0,
+       "end": 82.16
+      },
+      {
+       "text": "screen.",
+       "start": 82.24,
+       "end": 82.88
+      }
+     ]
+    },
+    {
+     "show": "I pressed my face against the glass.",
+     "start": 82.96,
+     "end": 84.6,
+     "words": [
+      {
+       "text": "I",
+       "start": 82.96,
+       "end": 83.04
+      },
+      {
+       "text": "pressed",
+       "start": 83.12,
+       "end": 83.2
+      },
+      {
+       "text": "my",
+       "start": 83.32,
+       "end": 83.44
+      },
+      {
+       "text": "face",
+       "start": 83.56,
+       "end": 83.68
+      },
+      {
+       "text": "against",
+       "start": 83.8,
+       "end": 83.92
+      },
+      {
+       "text": "the",
+       "start": 83.96,
+       "end": 84.0
+      },
+      {
+       "text": "glass.",
+       "start": 84.08,
+       "end": 84.6
+      }
+     ]
+    },
+    {
+     "show": "There was no me.",
+     "start": 84.64,
+     "end": 85.573,
+     "words": [
+      {
+       "text": "There",
+       "start": 84.64,
+       "end": 84.72
+      },
+      {
+       "text": "was",
+       "start": 84.8,
+       "end": 84.88
+      },
+      {
+       "text": "no",
+       "start": 84.96,
+       "end": 85.04
+      },
+      {
+       "text": "me.",
+       "start": 85.12,
+       "end": 85.573
+      }
+     ]
+    },
+    {
+     "show": "Just a glowing rectangle.",
+     "start": 85.627,
+     "end": 86.96,
+     "words": [
+      {
+       "text": "Just",
+       "start": 85.627,
+       "end": 85.68
+      },
+      {
+       "text": "a",
+       "start": 85.76,
+       "end": 85.84
+      },
+      {
+       "text": "glowing",
+       "start": 85.92,
+       "end": 86.24
+      },
+      {
+       "text": "rectangle.",
+       "start": 86.32,
+       "end": 86.96
+      }
+     ]
+    },
+    {
+     "show": "A phone.",
+     "start": 87.04,
+     "end": 87.707,
+     "words": [
+      {
+       "text": "A",
+       "start": 87.04,
+       "end": 87.12
+      },
+      {
+       "text": "phone.",
+       "start": 87.2,
+       "end": 87.707
+      }
+     ]
+    },
+    {
+     "show": "And behind it,",
+     "start": 87.733,
+     "end": 88.533,
+     "words": [
+      {
+       "text": "And",
+       "start": 87.733,
+       "end": 87.76
+      },
+      {
+       "text": "behind",
+       "start": 87.84,
+       "end": 88.16
+      },
+      {
+       "text": "it,",
+       "start": 88.32,
+       "end": 88.533
+      }
+     ]
+    },
+    {
+     "show": "a face.",
+     "start": 88.587,
+     "end": 89.32,
+     "words": [
+      {
+       "text": "a",
+       "start": 88.587,
+       "end": 88.64
+      },
+      {
+       "text": "face.",
+       "start": 88.72,
+       "end": 89.32
+      }
+     ]
+    },
+    {
+     "show": "{r:Yours.}",
+     "start": 89.36,
+     "end": 90.04,
+     "words": [
+      {
+       "text": "Yours.",
+       "start": 89.36,
+       "end": 90.04
+      }
+     ]
+    },
+    {
+     "show": "You're the one watching all of us.",
+     "start": 90.08,
+     "end": 91.693,
+     "words": [
+      {
+       "text": "You're",
+       "start": 90.08,
+       "end": 90.24
+      },
+      {
+       "text": "the",
+       "start": 90.32,
+       "end": 90.4
+      },
+      {
+       "text": "one",
+       "start": 90.48,
+       "end": 90.64
+      },
+      {
+       "text": "watching",
+       "start": 90.72,
+       "end": 90.96
+      },
+      {
+       "text": "all",
+       "start": 91.04,
+       "end": 91.12
+      },
+      {
+       "text": "of",
+       "start": 91.2,
+       "end": 91.28
+      },
+      {
+       "text": "us.",
+       "start": 91.36,
+       "end": 91.693
+      }
+     ]
+    },
+    {
+     "show": "Wait.",
+     "start": 91.76,
+     "end": 92.04,
+     "words": [
+      {
+       "text": "Wait.",
+       "start": 91.76,
+       "end": 92.04
+      }
+     ]
+    },
+    {
+     "show": "Don't scroll.",
+     "start": 92.08,
+     "end": 92.76,
+     "words": [
+      {
+       "text": "Don't",
+       "start": 92.08,
+       "end": 92.24
+      },
+      {
+       "text": "scroll.",
+       "start": 92.32,
+       "end": 92.76
+      }
+     ]
+    },
+    {
+     "show": "Okay.",
+     "start": 92.8,
+     "end": 93.44,
+     "words": [
+      {
+       "text": "Okay.",
+       "start": 92.8,
+       "end": 93.44
+      }
+     ]
+    },
+    {
+     "show": "Good.",
+     "start": 93.6,
+     "end": 93.771,
+     "words": [
+      {
+       "text": "Good.",
+       "start": 93.6,
+       "end": 93.771
+      }
+     ]
+    },
+    {
+     "show": "Just one question.",
+     "start": 93.84,
+     "end": 95.0,
+     "words": [
+      {
+       "text": "Just",
+       "start": 93.84,
+       "end": 94.08
+      },
+      {
+       "text": "one",
+       "start": 94.16,
+       "end": 94.32
+      },
+      {
+       "text": "question.",
+       "start": 94.64,
+       "end": 95.0
+      }
+     ]
+    },
+    {
+     "show": "Who's watching {y:you?}",
+     "start": 95.04,
+     "end": 96.48,
+     "words": [
+      {
+       "text": "Who's",
+       "start": 95.04,
+       "end": 95.28
+      },
+      {
+       "text": "watching",
+       "start": 95.4,
+       "end": 95.76
+      },
+      {
+       "text": "you?",
+       "start": 95.84,
+       "end": 96.48
+      }
+     ]
+    }
+   ],
+   "start": 80.64,
+   "end": 96.48
+  }
+ ]
+}
