@@ -34,7 +34,7 @@ def wt(line, prefix, n=1):
     raise KeyError((line, prefix))
 
 
-KW = {"partying": wt(1, "partying"), "remix": wt(20, "remix"), "contest": wt(22, "contest"), "fainted": wt(25, "fainted"), "crazy": wt(29, "crazy"), "laughed": wt(31, "laughed"), "breath": wt(34, "breath"), "silent": wt(45, "silent"), "gone": wt(46, "gone"), "space": wt(48, "space"), "record": wt(51, "record")}
+KW = {"partying": wt(1, "partying"), "remix": wt(20, "remix"), "contest": wt(22, "contest"), "fainted": wt(25, "fainted"), "crazy": wt(29, "crazy"), "laughed": wt(31, "laughed"), "breath": wt(34, "breath"), "silent": wt(41, "silent"), "gone": wt(42, "gone"), "space": wt(44, "space"), "record": wt(47, "record")}
 
 WORLD_JS = r"""
 const LS = __LS__, DUR = __DUR__, KW = __KW__;
@@ -2283,42 +2283,38 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
     /* L17 */ { m: "room", cast: [["granny", RX, 0.0, 0, "up", "serious"]], pushup: ["granny"], cam: { p: [RX + 2.4, 1.8, 4.8], p2: [RX + 2.2, 1.7, 4.5], t: [RX, 0.6, 1.4], fov: 50 } },
     /* L18 */ { m: "room", cast: [["granny", RX, 0.0, 0, "up", "smirk"]], pushup: ["granny"], cam: { p: [RX - 2.0, 1.4, 4.6], p2: [RX - 1.9, 1.3, 4.4], t: [RX, 0.6, 1.6], fov: 50 } },
     /* L19 */ { m: "room", bfx: 1, cast: [["granny", RX, 0.5, 0, "cheer", "laugh"]], pops: [["HUSS!", RX, 3.4, 0.6, 0.0, 0.7, 0.8]], cam: { face: "granny", d: 2.0, fov: 46, orbit: -0.3 } },
-    /* L20 */ { m: "cityN", bfx: 0.6, dj: [C(-4), 0, -40, 90], cast: [["mayor", C(-5.2), -40, 90, "dance", "laugh"]], peds: [10, -36], cams: [{ p: [C(2), 2.8, -40], p2: [C(1), 3, -40.4], t: [C(-4.6), 2.2, -40], fov: 50 }, { p: [C(-1), 1.6, -36], p2: [C(-1.4), 1.6, -36.6], t: [C(-5), 2.4, -40], fov: 46 }] },
+    /* L20 */ { m: "cityN", bfx: 0.6, dj: [C(-4), 0, -40, 90], cast: [["mayor", C(-5.2), -40, 90, "dance", "laugh"]], peds: [10, -36], cams: [{ p: [C(2), 2.8, -40], p2: [C(1), 3, -40.4], t: [C(-4.6), 2.2, -40], fov: 50 }, { p: [C(-1), 1.6, -36], p2: [C(-1.4), 1.6, -36.6], t: [C(-5), 2.4, -40], fov: 46 }, { p: [C(0), 6, -26], p2: [C(0), 5, -30], t: [C(-4), 2, -40], fov: 54 }, { face: "mayor", d: 2.2, fov: 44, orbit: 0.4 }, { p: [C(8), 30, -10], p2: [C(4), 26, -20], t: [C(-4), 0, -40], fov: 56 }] },
     /* L21 */ { m: "city", peds: [16, -30], pops: [["LONGEST?", C(0), 6, -30, 0.2, 1.2, 1.4]], cam: { p: [C(4), 14, -10], p2: [C(3), 12, -16], t: [C(0), 2, -34], fov: 56 } },
     /* L22 */ Object.assign({ m: "stad", cast: [ONST("mayor", "point", "grin")], cam: { p: [ST(0), 12, 30], p2: [ST(0), 8, 18], t: [ST(0), 2, -6], fov: 56 } }, STAGE),
     /* L23 */ Object.assign({ m: "stad", cast: [ONST("kevin", "idle", "grin")], cam: STC }, STAGE),
     /* L24 */ Object.assign({ m: "stad", bfx: 1, cast: [ONST("kevin", "cheer", "laugh")], tags: [["kevin", [1, 3, 0.6], Y, 1.0]], cam: { face: "kevin", d: 2.6, dy: 0.4, fov: 46, orbit: 0.3 } }, STAGE),
     /* L25 */ Object.assign({ m: "stad", cast: [ONST("kevin", "idle", "sleep")], faint: "kevin", pops: [["FAINTED", ST(0), 2.6, -6, 0.3, 0.6, 1.2]], cam: { p: [ST(2.4), 2.2, -2.4], p2: [ST(2.2), 2.0, -2.8], t: [ST(0), 1.0, -6], fov: 48 } }, STAGE),
     /* L26 */ Object.assign({ m: "stad", cast: [ONST("granny", "idle", "smirk")], cam: STC }, STAGE),
-    /* L27 */ Object.assign({ m: "stad", bfx: 1, cast: [ONST("granny", "cheer", "laugh")], tags: [["granny", [1, 8, 0.9], Y, 1.0]], cam: { face: "granny", d: 2.6, dy: 0.4, fov: 46, orbit: 0.3 } }, STAGE),
-    /* L28 */ Object.assign({ m: "stad", bfx: 1, cast: [ONST("granny", "cheer", "laugh")], tags: [["granny", [8, 12, 0.45], Y, 1.0]], cam: { p: [ST(-2.6), 2.4, -2.0], p2: [ST(-2.4), 2.6, -2.4], t: [ST(0), 2.6, -6], fov: 50 } }, STAGE),
+    /* L27 */ Object.assign({ m: "stad", bfx: 1, cast: [ONST("granny", "cheer", "laugh")], tags: [["granny", [1, 8, 1.6], Y, 1.0]], cam: { face: "granny", d: 2.6, dy: 0.4, fov: 46, orbit: 0.3 } }, STAGE),
+    /* L28 */ Object.assign({ m: "stad", bfx: 1, cast: [ONST("granny", "cheer", "laugh")], tags: [["granny", [8, 12, 0.9], Y, 1.0]], cam: { p: [ST(-2.6), 2.4, -2.0], p2: [ST(-2.4), 2.6, -2.4], t: [ST(0), 2.6, -6], fov: 50 } }, STAGE),
     /* L29 */ Object.assign({ m: "stad", cast: [ONST("granny", "cheer", "grin")], cam: { p: [ST(0), 3, -2], p2: [ST(0), 6, 4], t: [ST(0), 6, 30], fov: 58 } }, STAGE),
     /* L30 */ Object.assign({ m: "stad", cast: [["me", ST(3), -6, -90, "walk", "serious", { y: 0.8, to: [ST(0), -6], dur: 1.0 }]], cam: STC }, STAGE, { choirP: "laughBig", choirEx: "laugh" }),
     /* L31 */ Object.assign({ m: "stad", cam: { p: [ST(0), 2.8, 0], p2: [ST(0.4), 2.8, 0.4], t: [ST(0), 2.4, 6], fov: 52 } }, STAGE, { choirP: "laughBig", choirEx: "laugh" }),
     /* L32 */ Object.assign({ m: "stad", cast: [ONST("me", "idle", "serious"), ["kevin", ST(-2.6), -4.6, 40, "laughBig", "laugh", { y: 0.8 }], ["mayor", ST(2.6), -4.6, -40, "point", "laugh", { y: 0.8 }]], cam: { p: [ST(0), 2.6, 1.6], p2: [ST(0), 2.6, 1.0], t: [ST(0), 2.0, -5], fov: 54 } }, STAGE),
     /* L33 */ Object.assign({ m: "stad", cast: [ONST("me", "idle", "serious"), ["mayor", ST(2.6), -4.6, -40, "point", "laugh", { y: 0.8 }]], pops: [["TOO SMALL", ST(2.6), 4.2, -4.6, 0.2, 0.7, 1.2]], cam: { face: "mayor", d: 2.4, fov: 46, orbit: 0.3 } }, STAGE),
     /* L34 */ Object.assign({ m: "stad", cast: [ONST("me", "idle", "holdin")], cam: { p: [ST(0), 3.0, -2.6], p2: [ST(0), 3.0, -4.2], t: [ST(0), 3.0, -6], fov: 44 } }, STAGE),
-    /* L35 */ FIN(0, 8, "cheer", [{ face: "me", d: 2.2, fov: 46, orbit: 0.3 }, { p: [ST(4), 2, -1], p2: [ST(3.6), 2.2, -1.4], t: [ST(0), 2.8, -6], fov: 50 }, { face: "me", d: 1.6, fov: 44, orbit: -0.4 }, { p: [ST(0), 1.6, 4], p2: [ST(0), 2.2, 2], t: [ST(0), 3, -6], fov: 52 }]),
+    /* L35 */ FIN(0, 8, "cheer", [{ face: "me", d: 2.2, fov: 46, orbit: 0.3 }, { p: [ST(4), 2, -1], p2: [ST(3.6), 2.2, -1.4], t: [ST(0), 2.8, -6], fov: 50 }]),
     /* L36 */ Object.assign(FIN(8, 16, "point", [{ p: [ST(-4), 2, -1], p2: [ST(-3.6), 2.2, -1.4], t: [ST(0), 2.8, -6], fov: 50 }, { p: [ST(0), 3, 0], p2: [ST(0), 6, 6], t: [ST(0), 5, 30], fov: 58 }]), { choirP: "cheer", choirEx: "shock" }),
-    /* L37 */ { m: "cityN", bfx: 1, peds: [14, 0], cast: [], pops: [["HUSS", C(0), 12, -10, 0.0, 2.0, 0.3], ["HUSS", C(0), 14, -10, 0.43, 2.0, 0.3]], cams: [{ p: [C(0), 40, 30], p2: [C(0), 36, 24], t: [C(0), 0, -40], fov: 56 }, { p: [C(9), 2, 6], p2: [C(9), 4, 2], t: [C(0), 20, -40], fov: 60 }] },
-    /* L38 */ FIN(24, 32, "cheer", [{ face: "me", d: 1.8, fov: 46, orbit: 0.6 }, { face: "me", d: 1.8, fov: 46, orbit: -0.6 }]),
-    /* L39 */ { m: "day", shatter: 0.0, bfx: 1, shake: 1, cast: [["linda", 0.4, 8, 0, "cover", "shock"]], pops: [["CRASH!", 0, 4, 4, 0.1, 1.0, 1.0]], cam: { p: [0.4, 2.4, 15], p2: [0.3, 2.2, 13.6], t: [0, 2.6, 6], fov: 54 } },
-    /* L40 */ FIN(40, 48, "point", [{ p: [ST(0), 1.2, -1], p2: [ST(0.2), 1.4, -1.6], t: [ST(0), 3.4, -6], fov: 56 }, { p: [ST(-6), 5, 6], p2: [ST(-4), 5, 4], t: [ST(0), 3, -6], fov: 50 }]),
-    /* L41 */ { m: "space", bfx: 0.6, cast: [["astro", SP(0), 0, 20, "lookUp", "shock"]], drift: "astro", pops: [["HUSS", SP(0), 4.2, 0, 0.0, 0.8, 0.4], ["HUSS", SP(0.6), 4.6, 0, 0.4, 0.8, 0.4]], cam: { p: [SP(1.6), 2.8, 6], p2: [SP(1.2), 2.6, 4.6], t: [SP(0), 1.8, 0], fov: 50 } },
-    /* L42 */ FIN(56, 64, "cheer", [{ face: "me", d: 1.4, fov: 44, orbit: 0.2 }, { p: [ST(0), 30, 30], p2: [ST(0), 50, 50], t: [ST(0), 0, -6], fov: 56 }]),
-    /* L43 */ FIN(64, 72, "cheer", [{ face: "me", d: 1.2, fov: 42, orbit: 0 }, { face: "me", d: 1.0, fov: 40, orbit: 0.2 }, { p: [ST(0), 60, 40], p2: [ST(0), 120, 80], t: [ST(0), 0, -6], fov: 56 }]),
-    /* L44 */ Object.assign({ m: "stad", cast: [ONST("me", "sad", "sleepy")], tags: [["me", "72", G, 1.1]], cam: { face: "me", d: 2.4, fov: 46, orbit: 0.3 } }, STAGE, { choirP: "idle", choirEx: "shock" }),
-    /* L45 */ Object.assign({ m: "stad", cam: { p: [ST(0), 3, -2], p2: [ST(0), 3.6, 0], t: [ST(0), 6, 30], fov: 58 } }, STAGE, { choirP: "frozen", choirEx: "shock" }),
-    /* L46 */ { m: "day", shatter: 0.15, cast: [["mailman", 0.4, 8, 0, "hands", "shock"]], cam: { p: [0.4, 2.4, 15], p2: [0.3, 2.4, 14], t: [-4, 3, 6], fov: 54 } },
-    /* L47 */ { m: "day", birdsAway: [2, 5, 6], cam: { p: [0.4, 2.0, 14], p2: [0.4, 2.4, 13], t: [0, 7, 0], fov: 56 } },
-    /* L48 */ { m: "space", cam: { p: [SP(0), 6, 40], p2: [SP(0), 4, 20], t: [SP(0), -10, -20], fov: 52 } },
-    /* L49 */ { m: "space", cast: [["astro", SP(0), 0, 20, "idle", "neutral"]], drift: "astro", cam: { p: [SP(1.2), 2.6, 4.6], p2: [SP(1.0), 2.6, 4.0], t: [SP(0), 2.2, 0], fov: 46 } },
-    /* L50 */ { m: "space", cast: [["astro", SP(0), 0, 20, "idle", "smirk"]], drift: "astro", pops: [["huss.", SP(0), 3.6, 0.2, 0.1, 0.4, 1.2]], cam: { face: "astro", d: 2.0, fov: 44, orbit: 0.3 } },
-    /* L51 */ Object.assign({ m: "stad", cast: [ONST("me", "holdUp", "laugh")], trophy: "me", pops: [["WORLD RECORD", ST(0), 6, -6, 0.2, 1.0, 1.4]], cam: { p: [ST(1.6), 2.4, -1], p2: [ST(1.2), 2.0, -2], t: [ST(0), 3.4, -6], fov: 52 } }, STAGE),
-    /* L52 */ PARTY({ p: [1.5, 7, 22], p2: [1.0, 5, 16], t: [0, 1.4, -5], fov: 54 }),
-    /* L53 */ Object.assign(PARTY({ p: [5.0, 1.3, 18.0], p2: [4.9, 1.2, 17.4], t: [4.8, 0.6, 14], fov: 46 }), { cast: [ME(0.6, 13, 0, "up", "serious")], pushup: ["me"], cam: { p: [-5.4, 1.6, 15.6], p2: [-5.2, 1.5, 15.4], t: [0.6, 0.6, 14.4], fov: 46 } }),
-    /* L54 */ Object.assign(PARTY({ face: "me", d: 1.8, fov: 44, orbit: 0.3 }), { cast: [ME(3.6, 14, 180, "idle", "smirk")] }),
-    /* L55 */ Object.assign(PARTY({ face: "me", d: 1.5, fov: 44, orbit: -0.3 }), { cast: [ME(3.6, 14, 180, "cheer", "laugh")], bfx: 1, pops: [["HUSS!", 3.6, 3.4, 14, 0.0, 0.9, 1.2]] }),
+    /* L37 */ { m: "cityN", peds: [14, 0], shake: 1, pops: [["HUSS", C(0), 12, -10, 0.0, 2.0, 0.4], ["HUSS", C(0), 14, -10, 0.6, 2.0, 0.4]], cams: [{ p: [C(0), 40, 30], p2: [C(0), 36, 24], t: [C(0), 0, -40], fov: 56 }, { p: [C(9), 2, 6], p2: [C(9), 4, 2], t: [C(0), 20, -40], fov: 60 }] },
+    /* L38 */ { m: "day", shatter: 0.0, shake: 1, cast: [["linda", 0.4, 8, 0, "cover", "shock"]], pops: [["CRASH!", 0, 4, 4, 0.1, 1.0, 1.0]], cam: { p: [0.4, 2.4, 15], p2: [0.3, 2.2, 13.6], t: [0, 2.6, 6], fov: 54 } },
+    /* L39 */ FIN(32, 40, "cheer", [{ face: "me", d: 1.4, fov: 44, orbit: 0.2 }, { p: [ST(0), 30, 30], p2: [ST(0), 50, 50], t: [ST(0), 0, -6], fov: 56 }, { face: "me", d: 1.0, fov: 40, orbit: -0.3 }, { p: [ST(0), 60, 40], p2: [ST(0), 120, 80], t: [ST(0), 0, -6], fov: 56 }]),
+    /* L40 */ Object.assign({ m: "stad", cast: [ONST("me", "sad", "sleepy")], tags: [["me", "40", G, 1.1]], cam: { face: "me", d: 2.4, fov: 46, orbit: 0.3 } }, STAGE, { choirP: "idle", choirEx: "shock" }),
+    /* L41 */ Object.assign({ m: "stad", cam: { p: [ST(0), 3, -2], p2: [ST(0), 3.6, 0], t: [ST(0), 6, 30], fov: 58 } }, STAGE, { choirP: "frozen", choirEx: "shock" }),
+    /* L42 */ { m: "day", shatter: 0.15, cast: [["mailman", 0.4, 8, 0, "hands", "shock"]], cam: { p: [0.4, 2.4, 15], p2: [0.3, 2.4, 14], t: [-4, 3, 6], fov: 54 } },
+    /* L43 */ { m: "day", birdsAway: [2, 5, 6], cam: { p: [0.4, 2.0, 14], p2: [0.4, 2.4, 13], t: [0, 7, 0], fov: 56 } },
+    /* L44 */ { m: "space", cam: { p: [SP(0), 6, 40], p2: [SP(0), 4, 20], t: [SP(0), -10, -20], fov: 52 } },
+    /* L45 */ { m: "space", cast: [["astro", SP(0), 0, 20, "idle", "neutral"]], drift: "astro", cam: { p: [SP(1.2), 2.6, 4.6], p2: [SP(1.0), 2.6, 4.0], t: [SP(0), 2.2, 0], fov: 46 } },
+    /* L46 */ { m: "space", cast: [["astro", SP(0), 0, 20, "idle", "smirk"]], drift: "astro", pops: [["huss.", SP(0), 3.6, 0.2, 0.1, 0.4, 1.2]], cam: { face: "astro", d: 2.0, fov: 44, orbit: 0.3 } },
+    /* L47 */ Object.assign({ m: "stad", cast: [ONST("me", "holdUp", "laugh")], trophy: "me", pops: [["WORLD RECORD", ST(0), 6, -6, 0.2, 1.0, 1.4]], cam: { p: [ST(1.6), 2.4, -1], p2: [ST(1.2), 2.0, -2], t: [ST(0), 3.4, -6], fov: 52 } }, STAGE),
+    /* L48 */ PARTY({ p: [1.5, 7, 22], p2: [1.0, 5, 16], t: [0, 1.4, -5], fov: 54 }),
+    /* L49 */ Object.assign(PARTY({ p: [5.0, 1.3, 18.0], p2: [4.9, 1.2, 17.4], t: [4.8, 0.6, 14], fov: 46 }), { cast: [ME(0.6, 13, 0, "up", "serious")], pushup: ["me"], cam: { p: [-5.4, 1.6, 15.6], p2: [-5.2, 1.5, 15.4], t: [0.6, 0.6, 14.4], fov: 46 } }),
+    /* L50 */ Object.assign(PARTY({ face: "me", d: 1.8, fov: 44, orbit: 0.3 }), { cast: [ME(3.6, 14, 180, "idle", "smirk")] }),
+    /* L51 */ Object.assign(PARTY({ face: "me", d: 1.5, fov: 44, orbit: -0.3 }), { cast: [ME(3.6, 14, 180, "cheer", "laugh")], bfx: 1, pops: [["HUSS!", 3.6, 3.4, 14, 0.0, 0.9, 1.2]] }),
   ];
   function LS0(i) { return LS[i]; }
 
@@ -2778,7 +2774,7 @@ window.__hf.buildReady.world = import("./assets/three.module.min.js").then((THRE
 
     // ---- Video 43: HUSS ----
     { babyW.visible = false; space43.visible = s.m === "space"; space43.userData.light.intensity = s.m === "space" ? 3 : 0; if (s.m === "space") space43.userData.earth.rotation.y = t * 0.05;
-      const beat = (t * 140 / 60) % 1; if (s.bfx) { renderer.toneMappingExposure += Math.exp(-beat * 7) * 0.55 * s.bfx; if (cityG.visible) CBUILD.forEach((m) => (m.emissiveIntensity = Math.exp(-beat * 5) * 1.6)); }
+      const beat = (t * 140 / 60) % 1; if (s.bfx && false) { renderer.toneMappingExposure += Math.exp(-beat * 7) * 0.55 * s.bfx; if (cityG.visible) CBUILD.forEach((m) => (m.emissiveIntensity = Math.exp(-beat * 5) * 1.6)); }
       barbell43.visible = false; if (s.barbell) { const ch = A[s.barbell]; if (ch && ch.root.visible) { const up = 0.5 + 0.5 * Math.abs(Math.sin(t * Math.PI * 140 / 60)); barbell43.visible = true; barbell43.position.set(ch.root.position.x, ch.root.position.y + 2.2 + up * 1.2, ch.root.position.z + 0.1); barbell43.rotation.y = ch.root.rotation.y; } }
       stairs43.visible = !!s.stairs; if (s.stairs) { stairs43.position.set(s.stairs[0], 0, s.stairs[1]); stairs43.rotation.y = (s.stairs[2] || 0) * D2R; }
       if (s.pushup) for (const nm of s.pushup) { const ch = A[nm]; if (!ch || !ch.root.visible) continue; const k = Math.abs(Math.sin(t * Math.PI * 140 / 120)); ch.root.rotation.set(Math.PI / 2 - 0.15, ch.root.rotation.y, 0, "YXZ"); ch.root.position.y = 0.35 + k * 0.35; }
@@ -2960,12 +2956,17 @@ def write():
     audio = []
     if (HERE / "assets" / "voice.wav").exists():
         audio.append('      <audio id="voice" class="clip" src="assets/voice.wav" data-start="0" data-track-index="10" data-volume="1"></audio>')
+    _pp = HERE / "assets" / "source" / "pauses.json"
+    MUTE = ""
+    if _pp.exists():
+        _ps = json.loads(_pp.read_text())
+        if _ps: MUTE = ",volume='if(" + "+".join(f"between(t,{a:.3f},{b:.3f})" for a, b in _ps) + ",0,1)':eval=frame"
     music = HERE / "assets" / "source" / "music-base.wav"
     if music.exists():
         fade = TOTAL - 2.5
         import subprocess
-        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(music), "-t", str(TOTAL), "-af",
-                        f"afade=t=in:d=0.2,afade=t=out:st={fade}:d=2.5,volume=0.5", "-ar", "44100", str(HERE / "assets" / "music.wav")], check=True)
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-stream_loop", "-1", "-i", str(music), "-t", str(TOTAL), "-af",
+                        f"afade=t=in:d=0.4,afade=t=out:st={fade}:d=2.5,loudnorm=I=-23:TP=-4:LRA=9" + MUTE, "-ar", "44100", str(HERE / "assets" / "music.wav")], check=True)
         audio.append(f'      <audio id="music" class="clip" src="assets/music.wav" data-start="0" data-duration="{fmt(TOTAL)}" data-track-index="9" data-volume="1"></audio>')
     for j, (t, f, vol) in enumerate(sorted(SFX)):
         (HERE / "assets" / "sfx" / f).write_bytes((SFX_ROOT / f).read_bytes())

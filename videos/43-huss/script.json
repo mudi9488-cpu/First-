@@ -16,7 +16,7 @@
      "show": "Except me."
     },
     {
-     "show": "{r:HUSS!}"
+     "show": "{r:HUSS}"
     }
    ]
   },
@@ -79,7 +79,7 @@
      "show": "when he drops a letter."
     },
     {
-     "show": "{r:HUSS!}"
+     "show": "{r:HUSS}"
     },
     {
      "show": "Grandma does it"
@@ -88,7 +88,7 @@
      "show": "after every push up."
     },
     {
-     "show": "{r:HUSS!}"
+     "show": "{r:HUSS}"
     },
     {
      "show": "The mayor even made a phonk remix."
@@ -161,18 +161,6 @@
     },
     {
      "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
-    },
-    {
-     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
-    },
-    {
-     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
-    },
-    {
-     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
-    },
-    {
-     "show": "{r:HUSS HUSS HUSS HUSS HUSS HUSS HUSS HUSS}"
     }
    ]
   },
@@ -199,7 +187,7 @@
      "show": "an astronaut whispered,"
     },
     {
-     "show": "{r:HUSS!}"
+     "show": "{r:HUSS}"
     },
     {
      "show": "Now I hold the world record."
@@ -214,7 +202,7 @@
      "show": "for the {y:next one.}"
     },
     {
-     "show": "{r:HUSS!}"
+     "show": "{r:HUSS}"
     }
    ]
   }
