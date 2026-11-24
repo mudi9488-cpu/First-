@@ -1,0 +1,10 @@
+hook|In this town,|dogs can talk.|But only kids can hear them.|The day you turn twelve,|it stops.|{r:Forever.}|My dog is called {y:Biscuit.}|And my birthday is on Friday.
+world|Every grown-up in this town|had a dog who talked to them once.|Mom says her dog sang to her every morning.|Dad says his dog told the worst jokes in the world.|Now they just hear {r:woof.}|Mom still cries a little|when the neighbor's dog barks.
+mon|Monday.|Biscuit told me where he hid my socks.|Under the bathtub.|All of them.|He said sorry.|Then he said he would do it again.
+tue|Tuesday.|Biscuit told me his biggest fear.|{r:The vacuum.}|He thinks it eats dogs.|When Mom turned it on,|he hid inside the washing machine.|He made me promise to protect him.|I promised.
+wed|Wednesday.|We sat on the roof and watched the sunset.|He said,|you're my best friend.|You know that, right?|I said, I know.|He said, no.|Say it back.|So I said it back.
+thu|Thursday.|Biscuit didn't eat his dinner.|He just looked at me.|Tomorrow you're gonna call my name,|and I'm gonna answer,|and you're just gonna hear {r:woof.}|So listen carefully today.|I have a lot to say.|He talked all night.|About the mailman.|About squirrels.|About me.|Then he fell asleep on my feet.
+fri|Friday.|I woke up.|I was twelve.|Biscuit was sitting at the end of my bed,|shaking.|He whispered,|can you still hear me?|And I could.|{y:Every word.}
+party|I ran downstairs.|Mom! I can still hear him!|Mom just smiled.|Everybody says that, sweetie.|At my party, everybody sang.|Biscuit sang the loudest.|Nobody heard him.|Only me.|I thought I was the only one in the world.
+twist|That night,|I brought Grandpa some birthday cake.|He was sitting on the porch|with his old dog, Pepper.|Grandpa was whispering to her.|And Pepper|was {y:whispering back.}|He saw me.|He put a finger on his lips.|Seventy years, he said.|Never told a soul.|Why not? I asked.|Because the day you tell them,|they make you a {r:grown-up.}
+end|So now there are two of us.|Every evening we sit on that porch.|Two dogs, an old man, and me.|And if you ever see a grown-up|whispering to their dog,|don't tell anyone.|Maybe they {y:never stopped listening.}

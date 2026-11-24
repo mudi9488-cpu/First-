@@ -1,0 +1,2715 @@
+{
+ "duration": 122.331,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.88,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.88
+      }
+     ]
+    },
+    {
+     "show": "dogs can talk.",
+     "start": 0.96,
+     "end": 2.08,
+     "words": [
+      {
+       "text": "dogs",
+       "start": 0.96,
+       "end": 1.28
+      },
+      {
+       "text": "can",
+       "start": 1.36,
+       "end": 1.44
+      },
+      {
+       "text": "talk.",
+       "start": 1.52,
+       "end": 2.08
+      }
+     ]
+    },
+    {
+     "show": "But only kids can hear them.",
+     "start": 2.16,
+     "end": 3.6,
+     "words": [
+      {
+       "text": "But",
+       "start": 2.16,
+       "end": 2.24
+      },
+      {
+       "text": "only",
+       "start": 2.32,
+       "end": 2.48
+      },
+      {
+       "text": "kids",
+       "start": 2.64,
+       "end": 2.88
+      },
+      {
+       "text": "can",
+       "start": 2.96,
+       "end": 3.04
+      },
+      {
+       "text": "hear",
+       "start": 3.12,
+       "end": 3.28
+      },
+      {
+       "text": "them.",
+       "start": 3.36,
+       "end": 3.6
+      }
+     ]
+    },
+    {
+     "show": "The day you turn twelve,",
+     "start": 3.64,
+     "end": 4.88,
+     "words": [
+      {
+       "text": "The",
+       "start": 3.64,
+       "end": 3.68
+      },
+      {
+       "text": "day",
+       "start": 3.76,
+       "end": 3.84
+      },
+      {
+       "text": "you",
+       "start": 3.92,
+       "end": 4.0
+      },
+      {
+       "text": "turn",
+       "start": 4.12,
+       "end": 4.24
+      },
+      {
+       "text": "twelve,",
+       "start": 4.32,
+       "end": 4.88
+      }
+     ]
+    },
+    {
+     "show": "it stops.",
+     "start": 4.96,
+     "end": 5.76,
+     "words": [
+      {
+       "text": "it",
+       "start": 4.96,
+       "end": 5.04
+      },
+      {
+       "text": "stops.",
+       "start": 5.12,
+       "end": 5.76
+      }
+     ]
+    },
+    {
+     "show": "{r:Forever.}",
+     "start": 6.0,
+     "end": 6.48,
+     "words": [
+      {
+       "text": "Forever.",
+       "start": 6.0,
+       "end": 6.48
+      }
+     ]
+    },
+    {
+     "show": "My dog is called {y:Biscuit.}",
+     "start": 6.56,
+     "end": 7.84,
+     "words": [
+      {
+       "text": "My",
+       "start": 6.56,
+       "end": 6.72
+      },
+      {
+       "text": "dog",
+       "start": 6.84,
+       "end": 6.96
+      },
+      {
+       "text": "is",
+       "start": 7.0,
+       "end": 7.04
+      },
+      {
+       "text": "called",
+       "start": 7.12,
+       "end": 7.28
+      },
+      {
+       "text": "Biscuit.",
+       "start": 7.36,
+       "end": 7.84
+      }
+     ]
+    },
+    {
+     "show": "And my birthday is on Friday.",
+     "start": 7.88,
+     "end": 9.36,
+     "words": [
+      {
+       "text": "And",
+       "start": 7.88,
+       "end": 7.92
+      },
+      {
+       "text": "my",
+       "start": 8.0,
+       "end": 8.08
+      },
+      {
+       "text": "birthday",
+       "start": 8.28,
+       "end": 8.48
+      },
+      {
+       "text": "is",
+       "start": 8.52,
+       "end": 8.56
+      },
+      {
+       "text": "on",
+       "start": 8.64,
+       "end": 8.72
+      },
+      {
+       "text": "Friday.",
+       "start": 8.8,
+       "end": 9.36
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 9.36
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "Every grown-up in this town",
+     "start": 9.44,
+     "end": 10.64,
+     "words": [
+      {
+       "text": "Every",
+       "start": 9.44,
+       "end": 9.68
+      },
+      {
+       "text": "grown-up",
+       "start": 9.76,
+       "end": 10.08
+      },
+      {
+       "text": "in",
+       "start": 10.12,
+       "end": 10.16
+      },
+      {
+       "text": "this",
+       "start": 10.24,
+       "end": 10.32
+      },
+      {
+       "text": "town",
+       "start": 10.4,
+       "end": 10.64
+      }
+     ]
+    },
+    {
+     "show": "had a dog who talked to them once.",
+     "start": 10.68,
+     "end": 12.24,
+     "words": [
+      {
+       "text": "had",
+       "start": 10.68,
+       "end": 10.72
+      },
+      {
+       "text": "a",
+       "start": 10.8,
+       "end": 10.88
+      },
+      {
+       "text": "dog",
+       "start": 11.0,
+       "end": 11.12
+      },
+      {
+       "text": "who",
+       "start": 11.2,
+       "end": 11.28
+      },
+      {
+       "text": "talked",
+       "start": 11.36,
+       "end": 11.52
+      },
+      {
+       "text": "to",
+       "start": 11.56,
+       "end": 11.6
+      },
+      {
+       "text": "them",
+       "start": 11.68,
+       "end": 11.76
+      },
+      {
+       "text": "once.",
+       "start": 11.84,
+       "end": 12.24
+      }
+     ]
+    },
+    {
+     "show": "Mom says her dog sang to her every morning.",
+     "start": 12.32,
+     "end": 14.56,
+     "words": [
+      {
+       "text": "Mom",
+       "start": 12.32,
+       "end": 12.56
+      },
+      {
+       "text": "says",
+       "start": 12.64,
+       "end": 12.72
+      },
+      {
+       "text": "her",
+       "start": 12.8,
+       "end": 12.88
+      },
+      {
+       "text": "dog",
+       "start": 12.96,
+       "end": 13.2
+      },
+      {
+       "text": "sang",
+       "start": 13.28,
+       "end": 13.52
+      },
+      {
+       "text": "to",
+       "start": 13.56,
+       "end": 13.6
+      },
+      {
+       "text": "her",
+       "start": 13.72,
+       "end": 13.84
+      },
+      {
+       "text": "every",
+       "start": 14.0,
+       "end": 14.16
+      },
+      {
+       "text": "morning.",
+       "start": 14.24,
+       "end": 14.56
+      }
+     ]
+    },
+    {
+     "show": "Dad says his dog told the worst jokes in the world.",
+     "start": 14.64,
+     "end": 17.36,
+     "words": [
+      {
+       "text": "Dad",
+       "start": 14.64,
+       "end": 14.8
+      },
+      {
+       "text": "says",
+       "start": 14.88,
+       "end": 15.04
+      },
+      {
+       "text": "his",
+       "start": 15.12,
+       "end": 15.28
+      },
+      {
+       "text": "dog",
+       "start": 15.36,
+       "end": 15.6
+      },
+      {
+       "text": "told",
+       "start": 15.653,
+       "end": 15.76
+      },
+      {
+       "text": "the",
+       "start": 15.84,
+       "end": 16.0
+      },
+      {
+       "text": "worst",
+       "start": 16.08,
+       "end": 16.32
+      },
+      {
+       "text": "jokes",
+       "start": 16.36,
+       "end": 16.56
+      },
+      {
+       "text": "in",
+       "start": 16.64,
+       "end": 16.68
+      },
+      {
+       "text": "the",
+       "start": 16.72,
+       "end": 16.8
+      },
+      {
+       "text": "world.",
+       "start": 16.88,
+       "end": 17.36
+      }
+     ]
+    },
+    {
+     "show": "Now they just hear {r:woof.}",
+     "start": 17.44,
+     "end": 18.88,
+     "words": [
+      {
+       "text": "Now",
+       "start": 17.44,
+       "end": 17.6
+      },
+      {
+       "text": "they",
+       "start": 17.68,
+       "end": 17.76
+      },
+      {
+       "text": "just",
+       "start": 17.84,
+       "end": 17.92
+      },
+      {
+       "text": "hear",
+       "start": 18.0,
+       "end": 18.16
+      },
+      {
+       "text": "woof.",
+       "start": 18.32,
+       "end": 18.88
+      }
+     ]
+    },
+    {
+     "show": "Mom still cries a little",
+     "start": 18.96,
+     "end": 20.0,
+     "words": [
+      {
+       "text": "Mom",
+       "start": 18.96,
+       "end": 19.2
+      },
+      {
+       "text": "still",
+       "start": 19.32,
+       "end": 19.44
+      },
+      {
+       "text": "cries",
+       "start": 19.52,
+       "end": 19.68
+      },
+      {
+       "text": "a",
+       "start": 19.76,
+       "end": 19.8
+      },
+      {
+       "text": "little",
+       "start": 19.84,
+       "end": 20.0
+      }
+     ]
+    },
+    {
+     "show": "when the neighbor's dog barks.",
+     "start": 20.08,
+     "end": 21.52,
+     "words": [
+      {
+       "text": "when",
+       "start": 20.08,
+       "end": 20.16
+      },
+      {
+       "text": "the",
+       "start": 20.2,
+       "end": 20.24
+      },
+      {
+       "text": "neighbor's",
+       "start": 20.36,
+       "end": 20.56
+      },
+      {
+       "text": "dog",
+       "start": 20.68,
+       "end": 20.8
+      },
+      {
+       "text": "barks.",
+       "start": 20.88,
+       "end": 21.52
+      }
+     ]
+    }
+   ],
+   "start": 9.44,
+   "end": 21.52
+  },
+  {
+   "id": "mon",
+   "label": "",
+   "lines": [
+    {
+     "show": "Monday.",
+     "start": 22.6,
+     "end": 23.24,
+     "words": [
+      {
+       "text": "Monday.",
+       "start": 22.6,
+       "end": 23.24
+      }
+     ]
+    },
+    {
+     "show": "Biscuit told me where he hid my socks.",
+     "start": 23.28,
+     "end": 25.08,
+     "words": [
+      {
+       "text": "Biscuit",
+       "start": 23.28,
+       "end": 23.56
+      },
+      {
+       "text": "told",
+       "start": 23.6,
+       "end": 23.72
+      },
+      {
+       "text": "me",
+       "start": 23.8,
+       "end": 23.88
+      },
+      {
+       "text": "where",
+       "start": 23.96,
+       "end": 24.04
+      },
+      {
+       "text": "he",
+       "start": 24.08,
+       "end": 24.12
+      },
+      {
+       "text": "hid",
+       "start": 24.2,
+       "end": 24.28
+      },
+      {
+       "text": "my",
+       "start": 24.36,
+       "end": 24.44
+      },
+      {
+       "text": "socks.",
+       "start": 24.52,
+       "end": 25.08
+      }
+     ]
+    },
+    {
+     "show": "Under the bathtub.",
+     "start": 25.16,
+     "end": 26.04,
+     "words": [
+      {
+       "text": "Under",
+       "start": 25.16,
+       "end": 25.24
+      },
+      {
+       "text": "the",
+       "start": 25.28,
+       "end": 25.32
+      },
+      {
+       "text": "bathtub.",
+       "start": 25.4,
+       "end": 26.04
+      }
+     ]
+    },
+    {
+     "show": "All of them.",
+     "start": 26.12,
+     "end": 26.68,
+     "words": [
+      {
+       "text": "All",
+       "start": 26.12,
+       "end": 26.2
+      },
+      {
+       "text": "of",
+       "start": 26.28,
+       "end": 26.36
+      },
+      {
+       "text": "them.",
+       "start": 26.44,
+       "end": 26.68
+      }
+     ]
+    },
+    {
+     "show": "He said sorry.",
+     "start": 26.76,
+     "end": 27.56,
+     "words": [
+      {
+       "text": "He",
+       "start": 26.76,
+       "end": 26.84
+      },
+      {
+       "text": "said",
+       "start": 26.92,
+       "end": 27.0
+      },
+      {
+       "text": "sorry.",
+       "start": 27.08,
+       "end": 27.56
+      }
+     ]
+    },
+    {
+     "show": "Then he said he would do it again.",
+     "start": 27.64,
+     "end": 28.88,
+     "words": [
+      {
+       "text": "Then",
+       "start": 27.64,
+       "end": 27.72
+      },
+      {
+       "text": "he",
+       "start": 27.76,
+       "end": 27.8
+      },
+      {
+       "text": "said",
+       "start": 27.88,
+       "end": 27.96
+      },
+      {
+       "text": "he",
+       "start": 28.0,
+       "end": 28.04
+      },
+      {
+       "text": "would",
+       "start": 28.12,
+       "end": 28.2
+      },
+      {
+       "text": "do",
+       "start": 28.24,
+       "end": 28.28
+      },
+      {
+       "text": "it",
+       "start": 28.32,
+       "end": 28.36
+      },
+      {
+       "text": "again.",
+       "start": 28.44,
+       "end": 28.88
+      }
+     ]
+    }
+   ],
+   "start": 22.6,
+   "end": 28.88
+  },
+  {
+   "id": "tue",
+   "label": "",
+   "lines": [
+    {
+     "show": "Tuesday.",
+     "start": 30.08,
+     "end": 30.72,
+     "words": [
+      {
+       "text": "Tuesday.",
+       "start": 30.08,
+       "end": 30.72
+      }
+     ]
+    },
+    {
+     "show": "Biscuit told me his biggest fear.",
+     "start": 30.76,
+     "end": 32.56,
+     "words": [
+      {
+       "text": "Biscuit",
+       "start": 30.76,
+       "end": 31.12
+      },
+      {
+       "text": "told",
+       "start": 31.16,
+       "end": 31.28
+      },
+      {
+       "text": "me",
+       "start": 31.36,
+       "end": 31.44
+      },
+      {
+       "text": "his",
+       "start": 31.56,
+       "end": 31.68
+      },
+      {
+       "text": "biggest",
+       "start": 31.76,
+       "end": 32.0
+      },
+      {
+       "text": "fear.",
+       "start": 32.08,
+       "end": 32.56
+      }
+     ]
+    },
+    {
+     "show": "{r:The vacuum.}",
+     "start": 32.6,
+     "end": 33.36,
+     "words": [
+      {
+       "text": "The",
+       "start": 32.6,
+       "end": 32.64
+      },
+      {
+       "text": "vacuum.",
+       "start": 32.8,
+       "end": 33.36
+      }
+     ]
+    },
+    {
+     "show": "He thinks it eats dogs.",
+     "start": 33.44,
+     "end": 34.8,
+     "words": [
+      {
+       "text": "He",
+       "start": 33.44,
+       "end": 33.52
+      },
+      {
+       "text": "thinks",
+       "start": 33.56,
+       "end": 33.68
+      },
+      {
+       "text": "it",
+       "start": 33.76,
+       "end": 33.84
+      },
+      {
+       "text": "eats",
+       "start": 33.92,
+       "end": 34.16
+      },
+      {
+       "text": "dogs.",
+       "start": 34.4,
+       "end": 34.8
+      }
+     ]
+    },
+    {
+     "show": "When Mom turned it on,",
+     "start": 34.84,
+     "end": 35.76,
+     "words": [
+      {
+       "text": "When",
+       "start": 34.84,
+       "end": 34.88
+      },
+      {
+       "text": "Mom",
+       "start": 34.96,
+       "end": 35.12
+      },
+      {
+       "text": "turned",
+       "start": 35.2,
+       "end": 35.36
+      },
+      {
+       "text": "it",
+       "start": 35.4,
+       "end": 35.44
+      },
+      {
+       "text": "on,",
+       "start": 35.52,
+       "end": 35.76
+      }
+     ]
+    },
+    {
+     "show": "he hid inside the washing machine.",
+     "start": 35.84,
+     "end": 37.44,
+     "words": [
+      {
+       "text": "he",
+       "start": 35.84,
+       "end": 36.0
+      },
+      {
+       "text": "hid",
+       "start": 36.08,
+       "end": 36.16
+      },
+      {
+       "text": "inside",
+       "start": 36.32,
+       "end": 36.48
+      },
+      {
+       "text": "the",
+       "start": 36.56,
+       "end": 36.64
+      },
+      {
+       "text": "washing",
+       "start": 36.8,
+       "end": 36.96
+      },
+      {
+       "text": "machine.",
+       "start": 37.16,
+       "end": 37.44
+      }
+     ]
+    },
+    {
+     "show": "He made me promise to protect him.",
+     "start": 37.52,
+     "end": 39.12,
+     "words": [
+      {
+       "text": "He",
+       "start": 37.52,
+       "end": 37.6
+      },
+      {
+       "text": "made",
+       "start": 37.68,
+       "end": 37.76
+      },
+      {
+       "text": "me",
+       "start": 37.84,
+       "end": 37.92
+      },
+      {
+       "text": "promise",
+       "start": 38.0,
+       "end": 38.32
+      },
+      {
+       "text": "to",
+       "start": 38.4,
+       "end": 38.48
+      },
+      {
+       "text": "protect",
+       "start": 38.64,
+       "end": 38.8
+      },
+      {
+       "text": "him.",
+       "start": 38.88,
+       "end": 39.12
+      }
+     ]
+    },
+    {
+     "show": "I promised.",
+     "start": 39.2,
+     "end": 40.0,
+     "words": [
+      {
+       "text": "I",
+       "start": 39.2,
+       "end": 39.28
+      },
+      {
+       "text": "promised.",
+       "start": 39.36,
+       "end": 40.0
+      }
+     ]
+    }
+   ],
+   "start": 30.08,
+   "end": 40.0
+  },
+  {
+   "id": "wed",
+   "label": "",
+   "lines": [
+    {
+     "show": "Wednesday.",
+     "start": 41.08,
+     "end": 41.8,
+     "words": [
+      {
+       "text": "Wednesday.",
+       "start": 41.08,
+       "end": 41.8
+      }
+     ]
+    },
+    {
+     "show": "We sat on the roof and watched the sunset.",
+     "start": 41.88,
+     "end": 43.88,
+     "words": [
+      {
+       "text": "We",
+       "start": 41.88,
+       "end": 41.96
+      },
+      {
+       "text": "sat",
+       "start": 42.04,
+       "end": 42.12
+      },
+      {
+       "text": "on",
+       "start": 42.2,
+       "end": 42.28
+      },
+      {
+       "text": "the",
+       "start": 42.32,
+       "end": 42.36
+      },
+      {
+       "text": "roof",
+       "start": 42.44,
+       "end": 42.68
+      },
+      {
+       "text": "and",
+       "start": 42.76,
+       "end": 42.84
+      },
+      {
+       "text": "watched",
+       "start": 42.96,
+       "end": 43.12
+      },
+      {
+       "text": "the",
+       "start": 43.16,
+       "end": 43.24
+      },
+      {
+       "text": "sunset.",
+       "start": 43.28,
+       "end": 43.88
+      }
+     ]
+    },
+    {
+     "show": "He said,",
+     "start": 43.96,
+     "end": 44.36,
+     "words": [
+      {
+       "text": "He",
+       "start": 43.96,
+       "end": 44.04
+      },
+      {
+       "text": "said,",
+       "start": 44.12,
+       "end": 44.36
+      }
+     ]
+    },
+    {
+     "show": "you're my best friend.",
+     "start": 44.44,
+     "end": 45.48,
+     "words": [
+      {
+       "text": "you're",
+       "start": 44.44,
+       "end": 44.52
+      },
+      {
+       "text": "my",
+       "start": 44.64,
+       "end": 44.76
+      },
+      {
+       "text": "best",
+       "start": 44.88,
+       "end": 45.0
+      },
+      {
+       "text": "friend.",
+       "start": 45.16,
+       "end": 45.48
+      }
+     ]
+    },
+    {
+     "show": "You know that, right?",
+     "start": 45.52,
+     "end": 46.36,
+     "words": [
+      {
+       "text": "You",
+       "start": 45.52,
+       "end": 45.56
+      },
+      {
+       "text": "know",
+       "start": 45.64,
+       "end": 45.72
+      },
+      {
+       "text": "that,",
+       "start": 45.8,
+       "end": 45.96
+      },
+      {
+       "text": "right?",
+       "start": 46.04,
+       "end": 46.36
+      }
+     ]
+    },
+    {
+     "show": "I said, I know.",
+     "start": 46.44,
+     "end": 47.48,
+     "words": [
+      {
+       "text": "I",
+       "start": 46.44,
+       "end": 46.52
+      },
+      {
+       "text": "said,",
+       "start": 46.6,
+       "end": 46.92
+      },
+      {
+       "text": "I",
+       "start": 47.0,
+       "end": 47.08
+      },
+      {
+       "text": "know.",
+       "start": 47.16,
+       "end": 47.48
+      }
+     ]
+    },
+    {
+     "show": "He said, no.",
+     "start": 47.56,
+     "end": 48.52,
+     "words": [
+      {
+       "text": "He",
+       "start": 47.56,
+       "end": 47.64
+      },
+      {
+       "text": "said,",
+       "start": 47.72,
+       "end": 47.96
+      },
+      {
+       "text": "no.",
+       "start": 48.04,
+       "end": 48.52
+      }
+     ]
+    },
+    {
+     "show": "Say it back.",
+     "start": 48.56,
+     "end": 49.32,
+     "words": [
+      {
+       "text": "Say",
+       "start": 48.56,
+       "end": 48.6
+      },
+      {
+       "text": "it",
+       "start": 48.68,
+       "end": 48.76
+      },
+      {
+       "text": "back.",
+       "start": 48.84,
+       "end": 49.32
+      }
+     ]
+    },
+    {
+     "show": "So I said it back.",
+     "start": 49.4,
+     "end": 50.32,
+     "words": [
+      {
+       "text": "So",
+       "start": 49.4,
+       "end": 49.48
+      },
+      {
+       "text": "I",
+       "start": 49.56,
+       "end": 49.64
+      },
+      {
+       "text": "said",
+       "start": 49.72,
+       "end": 49.8
+      },
+      {
+       "text": "it",
+       "start": 49.84,
+       "end": 49.88
+      },
+      {
+       "text": "back.",
+       "start": 49.96,
+       "end": 50.32
+      }
+     ]
+    }
+   ],
+   "start": 41.08,
+   "end": 50.32
+  },
+  {
+   "id": "thu",
+   "label": "",
+   "lines": [
+    {
+     "show": "Thursday.",
+     "start": 51.52,
+     "end": 52.24,
+     "words": [
+      {
+       "text": "Thursday.",
+       "start": 51.52,
+       "end": 52.24
+      }
+     ]
+    },
+    {
+     "show": "Biscuit didn't eat his dinner.",
+     "start": 52.32,
+     "end": 53.68,
+     "words": [
+      {
+       "text": "Biscuit",
+       "start": 52.32,
+       "end": 52.64
+      },
+      {
+       "text": "didn't",
+       "start": 52.72,
+       "end": 52.88
+      },
+      {
+       "text": "eat",
+       "start": 52.92,
+       "end": 52.96
+      },
+      {
+       "text": "his",
+       "start": 53.04,
+       "end": 53.12
+      },
+      {
+       "text": "dinner.",
+       "start": 53.2,
+       "end": 53.68
+      }
+     ]
+    },
+    {
+     "show": "He just looked at me.",
+     "start": 53.72,
+     "end": 54.8,
+     "words": [
+      {
+       "text": "He",
+       "start": 53.72,
+       "end": 53.76
+      },
+      {
+       "text": "just",
+       "start": 53.84,
+       "end": 54.0
+      },
+      {
+       "text": "looked",
+       "start": 54.08,
+       "end": 54.24
+      },
+      {
+       "text": "at",
+       "start": 54.32,
+       "end": 54.4
+      },
+      {
+       "text": "me.",
+       "start": 54.48,
+       "end": 54.8
+      }
+     ]
+    },
+    {
+     "show": "Tomorrow you're gonna call my name,",
+     "start": 55.04,
+     "end": 56.4,
+     "words": [
+      {
+       "text": "Tomorrow",
+       "start": 55.04,
+       "end": 55.28
+      },
+      {
+       "text": "you're",
+       "start": 55.36,
+       "end": 55.44
+      },
+      {
+       "text": "gonna",
+       "start": 55.48,
+       "end": 55.68
+      },
+      {
+       "text": "call",
+       "start": 55.76,
+       "end": 55.84
+      },
+      {
+       "text": "my",
+       "start": 55.92,
+       "end": 56.08
+      },
+      {
+       "text": "name,",
+       "start": 56.2,
+       "end": 56.4
+      }
+     ]
+    },
+    {
+     "show": "and I'm gonna answer,",
+     "start": 56.48,
+     "end": 57.36,
+     "words": [
+      {
+       "text": "and",
+       "start": 56.48,
+       "end": 56.56
+      },
+      {
+       "text": "I'm",
+       "start": 56.64,
+       "end": 56.72
+      },
+      {
+       "text": "gonna",
+       "start": 56.76,
+       "end": 56.88
+      },
+      {
+       "text": "answer,",
+       "start": 57.04,
+       "end": 57.36
+      }
+     ]
+    },
+    {
+     "show": "and you're just gonna hear {r:woof.}",
+     "start": 57.44,
+     "end": 58.96,
+     "words": [
+      {
+       "text": "and",
+       "start": 57.44,
+       "end": 57.52
+      },
+      {
+       "text": "you're",
+       "start": 57.56,
+       "end": 57.68
+      },
+      {
+       "text": "just",
+       "start": 57.76,
+       "end": 57.84
+      },
+      {
+       "text": "gonna",
+       "start": 57.88,
+       "end": 58.08
+      },
+      {
+       "text": "hear",
+       "start": 58.16,
+       "end": 58.24
+      },
+      {
+       "text": "woof.",
+       "start": 58.48,
+       "end": 58.96
+      }
+     ]
+    },
+    {
+     "show": "So listen carefully today.",
+     "start": 59.04,
+     "end": 60.347,
+     "words": [
+      {
+       "text": "So",
+       "start": 59.04,
+       "end": 59.12
+      },
+      {
+       "text": "listen",
+       "start": 59.2,
+       "end": 59.44
+      },
+      {
+       "text": "carefully",
+       "start": 59.52,
+       "end": 59.84
+      },
+      {
+       "text": "today.",
+       "start": 59.92,
+       "end": 60.347
+      }
+     ]
+    },
+    {
+     "show": "I have a lot to say.",
+     "start": 60.373,
+     "end": 61.6,
+     "words": [
+      {
+       "text": "I",
+       "start": 60.373,
+       "end": 60.4
+      },
+      {
+       "text": "have",
+       "start": 60.48,
+       "end": 60.56
+      },
+      {
+       "text": "a",
+       "start": 60.72,
+       "end": 60.8
+      },
+      {
+       "text": "lot",
+       "start": 60.88,
+       "end": 60.96
+      },
+      {
+       "text": "to",
+       "start": 61.04,
+       "end": 61.12
+      },
+      {
+       "text": "say.",
+       "start": 61.24,
+       "end": 61.6
+      }
+     ]
+    },
+    {
+     "show": "He talked all night.",
+     "start": 61.68,
+     "end": 62.92,
+     "words": [
+      {
+       "text": "He",
+       "start": 61.68,
+       "end": 61.76
+      },
+      {
+       "text": "talked",
+       "start": 61.84,
+       "end": 62.24
+      },
+      {
+       "text": "all",
+       "start": 62.32,
+       "end": 62.48
+      },
+      {
+       "text": "night.",
+       "start": 62.56,
+       "end": 62.92
+      }
+     ]
+    },
+    {
+     "show": "About the mailman.",
+     "start": 62.96,
+     "end": 63.96,
+     "words": [
+      {
+       "text": "About",
+       "start": 62.96,
+       "end": 63.12
+      },
+      {
+       "text": "the",
+       "start": 63.2,
+       "end": 63.28
+      },
+      {
+       "text": "mailman.",
+       "start": 63.4,
+       "end": 63.96
+      }
+     ]
+    },
+    {
+     "show": "About squirrels.",
+     "start": 64.0,
+     "end": 65.067,
+     "words": [
+      {
+       "text": "About",
+       "start": 64.0,
+       "end": 64.24
+      },
+      {
+       "text": "squirrels.",
+       "start": 64.32,
+       "end": 65.067
+      }
+     ]
+    },
+    {
+     "show": "About me.",
+     "start": 65.173,
+     "end": 65.8,
+     "words": [
+      {
+       "text": "About",
+       "start": 65.173,
+       "end": 65.28
+      },
+      {
+       "text": "me.",
+       "start": 65.52,
+       "end": 65.8
+      }
+     ]
+    },
+    {
+     "show": "Then he fell asleep on my feet.",
+     "start": 65.84,
+     "end": 67.52,
+     "words": [
+      {
+       "text": "Then",
+       "start": 65.84,
+       "end": 66.08
+      },
+      {
+       "text": "he",
+       "start": 66.16,
+       "end": 66.24
+      },
+      {
+       "text": "fell",
+       "start": 66.32,
+       "end": 66.4
+      },
+      {
+       "text": "asleep",
+       "start": 66.48,
+       "end": 66.72
+      },
+      {
+       "text": "on",
+       "start": 66.8,
+       "end": 66.88
+      },
+      {
+       "text": "my",
+       "start": 66.96,
+       "end": 67.04
+      },
+      {
+       "text": "feet.",
+       "start": 67.08,
+       "end": 67.52
+      }
+     ]
+    }
+   ],
+   "start": 51.52,
+   "end": 67.52
+  },
+  {
+   "id": "fri",
+   "label": "",
+   "lines": [
+    {
+     "show": "Friday.",
+     "start": 68.8,
+     "end": 69.44,
+     "words": [
+      {
+       "text": "Friday.",
+       "start": 68.8,
+       "end": 69.44
+      }
+     ]
+    },
+    {
+     "show": "I woke up.",
+     "start": 69.6,
+     "end": 70.2,
+     "words": [
+      {
+       "text": "I",
+       "start": 69.6,
+       "end": 69.653
+      },
+      {
+       "text": "woke",
+       "start": 69.707,
+       "end": 69.76
+      },
+      {
+       "text": "up.",
+       "start": 69.84,
+       "end": 70.2
+      }
+     ]
+    },
+    {
+     "show": "I was twelve.",
+     "start": 70.24,
+     "end": 71.147,
+     "words": [
+      {
+       "text": "I",
+       "start": 70.24,
+       "end": 70.28
+      },
+      {
+       "text": "was",
+       "start": 70.32,
+       "end": 70.48
+      },
+      {
+       "text": "twelve.",
+       "start": 70.56,
+       "end": 71.147
+      }
+     ]
+    },
+    {
+     "show": "Biscuit was sitting at the end of my bed,",
+     "start": 71.173,
+     "end": 72.84,
+     "words": [
+      {
+       "text": "Biscuit",
+       "start": 71.173,
+       "end": 71.44
+      },
+      {
+       "text": "was",
+       "start": 71.52,
+       "end": 71.6
+      },
+      {
+       "text": "sitting",
+       "start": 71.653,
+       "end": 71.76
+      },
+      {
+       "text": "at",
+       "start": 71.84,
+       "end": 71.92
+      },
+      {
+       "text": "the",
+       "start": 71.96,
+       "end": 72.0
+      },
+      {
+       "text": "end",
+       "start": 72.08,
+       "end": 72.16
+      },
+      {
+       "text": "of",
+       "start": 72.2,
+       "end": 72.24
+      },
+      {
+       "text": "my",
+       "start": 72.32,
+       "end": 72.4
+      },
+      {
+       "text": "bed,",
+       "start": 72.48,
+       "end": 72.84
+      }
+     ]
+    },
+    {
+     "show": "shaking.",
+     "start": 72.88,
+     "end": 73.4,
+     "words": [
+      {
+       "text": "shaking.",
+       "start": 72.88,
+       "end": 73.4
+      }
+     ]
+    },
+    {
+     "show": "He whispered,",
+     "start": 73.44,
+     "end": 74.0,
+     "words": [
+      {
+       "text": "He",
+       "start": 73.44,
+       "end": 73.52
+      },
+      {
+       "text": "whispered,",
+       "start": 73.56,
+       "end": 74.0
+      }
+     ]
+    },
+    {
+     "show": "can you still hear me?",
+     "start": 74.08,
+     "end": 75.173,
+     "words": [
+      {
+       "text": "can",
+       "start": 74.08,
+       "end": 74.16
+      },
+      {
+       "text": "you",
+       "start": 74.24,
+       "end": 74.32
+      },
+      {
+       "text": "still",
+       "start": 74.4,
+       "end": 74.56
+      },
+      {
+       "text": "hear",
+       "start": 74.64,
+       "end": 74.8
+      },
+      {
+       "text": "me?",
+       "start": 74.96,
+       "end": 75.173
+      }
+     ]
+    },
+    {
+     "show": "And I could.",
+     "start": 75.227,
+     "end": 75.96,
+     "words": [
+      {
+       "text": "And",
+       "start": 75.227,
+       "end": 75.28
+      },
+      {
+       "text": "I",
+       "start": 75.44,
+       "end": 75.48
+      },
+      {
+       "text": "could.",
+       "start": 75.52,
+       "end": 75.96
+      }
+     ]
+    },
+    {
+     "show": "{y:Every word.}",
+     "start": 76.0,
+     "end": 76.8,
+     "words": [
+      {
+       "text": "Every",
+       "start": 76.0,
+       "end": 76.32
+      },
+      {
+       "text": "word.",
+       "start": 76.48,
+       "end": 76.8
+      }
+     ]
+    }
+   ],
+   "start": 68.8,
+   "end": 76.8
+  },
+  {
+   "id": "party",
+   "label": "",
+   "lines": [
+    {
+     "show": "I ran downstairs.",
+     "start": 76.88,
+     "end": 78.08,
+     "words": [
+      {
+       "text": "I",
+       "start": 76.88,
+       "end": 77.04
+      },
+      {
+       "text": "ran",
+       "start": 77.16,
+       "end": 77.28
+      },
+      {
+       "text": "downstairs.",
+       "start": 77.4,
+       "end": 78.08
+      }
+     ]
+    },
+    {
+     "show": "Mom! I can still hear him!",
+     "start": 78.28,
+     "end": 79.6,
+     "words": [
+      {
+       "text": "Mom!",
+       "start": 78.28,
+       "end": 78.52
+      },
+      {
+       "text": "I",
+       "start": 78.56,
+       "end": 78.6
+      },
+      {
+       "text": "can",
+       "start": 78.64,
+       "end": 78.8
+      },
+      {
+       "text": "still",
+       "start": 78.88,
+       "end": 79.04
+      },
+      {
+       "text": "hear",
+       "start": 79.12,
+       "end": 79.28
+      },
+      {
+       "text": "him!",
+       "start": 79.36,
+       "end": 79.6
+      }
+     ]
+    },
+    {
+     "show": "Mom just smiled.",
+     "start": 79.68,
+     "end": 80.68,
+     "words": [
+      {
+       "text": "Mom",
+       "start": 79.68,
+       "end": 79.84
+      },
+      {
+       "text": "just",
+       "start": 79.92,
+       "end": 80.08
+      },
+      {
+       "text": "smiled.",
+       "start": 80.16,
+       "end": 80.68
+      }
+     ]
+    },
+    {
+     "show": "Everybody says that, sweetie.",
+     "start": 80.72,
+     "end": 82.12,
+     "words": [
+      {
+       "text": "Everybody",
+       "start": 80.72,
+       "end": 81.2
+      },
+      {
+       "text": "says",
+       "start": 81.28,
+       "end": 81.36
+      },
+      {
+       "text": "that,",
+       "start": 81.44,
+       "end": 81.68
+      },
+      {
+       "text": "sweetie.",
+       "start": 81.76,
+       "end": 82.12
+      }
+     ]
+    },
+    {
+     "show": "At my party, everybody sang.",
+     "start": 82.16,
+     "end": 83.88,
+     "words": [
+      {
+       "text": "At",
+       "start": 82.16,
+       "end": 82.24
+      },
+      {
+       "text": "my",
+       "start": 82.32,
+       "end": 82.4
+      },
+      {
+       "text": "party,",
+       "start": 82.6,
+       "end": 82.84
+      },
+      {
+       "text": "everybody",
+       "start": 82.88,
+       "end": 83.36
+      },
+      {
+       "text": "sang.",
+       "start": 83.44,
+       "end": 83.88
+      }
+     ]
+    },
+    {
+     "show": "Biscuit sang the loudest.",
+     "start": 83.92,
+     "end": 85.36,
+     "words": [
+      {
+       "text": "Biscuit",
+       "start": 83.92,
+       "end": 84.32
+      },
+      {
+       "text": "sang",
+       "start": 84.36,
+       "end": 84.48
+      },
+      {
+       "text": "the",
+       "start": 84.56,
+       "end": 84.72
+      },
+      {
+       "text": "loudest.",
+       "start": 84.76,
+       "end": 85.36
+      }
+     ]
+    },
+    {
+     "show": "Nobody heard him.",
+     "start": 85.52,
+     "end": 86.28,
+     "words": [
+      {
+       "text": "Nobody",
+       "start": 85.52,
+       "end": 85.68
+      },
+      {
+       "text": "heard",
+       "start": 85.76,
+       "end": 85.92
+      },
+      {
+       "text": "him.",
+       "start": 86.08,
+       "end": 86.28
+      }
+     ]
+    },
+    {
+     "show": "Only me.",
+     "start": 86.32,
+     "end": 87.08,
+     "words": [
+      {
+       "text": "Only",
+       "start": 86.32,
+       "end": 86.56
+      },
+      {
+       "text": "me.",
+       "start": 86.64,
+       "end": 87.08
+      }
+     ]
+    },
+    {
+     "show": "I thought I was the only one in the world.",
+     "start": 87.2,
+     "end": 89.14,
+     "words": [
+      {
+       "text": "I",
+       "start": 87.2,
+       "end": 87.253
+      },
+      {
+       "text": "thought",
+       "start": 87.307,
+       "end": 87.36
+      },
+      {
+       "text": "I",
+       "start": 87.44,
+       "end": 87.467
+      },
+      {
+       "text": "was",
+       "start": 87.493,
+       "end": 87.52
+      },
+      {
+       "text": "the",
+       "start": 87.6,
+       "end": 87.76
+      },
+      {
+       "text": "only",
+       "start": 87.84,
+       "end": 88.08
+      },
+      {
+       "text": "one",
+       "start": 88.16,
+       "end": 88.24
+      },
+      {
+       "text": "in",
+       "start": 88.28,
+       "end": 88.32
+      },
+      {
+       "text": "the",
+       "start": 88.4,
+       "end": 88.48
+      },
+      {
+       "text": "world.",
+       "start": 88.8,
+       "end": 89.14
+      }
+     ]
+    }
+   ],
+   "start": 76.88,
+   "end": 89.14
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "That night,",
+     "start": 90.56,
+     "end": 91.1,
+     "words": [
+      {
+       "text": "That",
+       "start": 90.56,
+       "end": 90.58
+      },
+      {
+       "text": "night,",
+       "start": 90.66,
+       "end": 91.1
+      }
+     ]
+    },
+    {
+     "show": "I brought Grandpa some birthday cake.",
+     "start": 91.14,
+     "end": 92.7,
+     "words": [
+      {
+       "text": "I",
+       "start": 91.14,
+       "end": 91.167
+      },
+      {
+       "text": "brought",
+       "start": 91.193,
+       "end": 91.38
+      },
+      {
+       "text": "Grandpa",
+       "start": 91.5,
+       "end": 91.7
+      },
+      {
+       "text": "some",
+       "start": 91.78,
+       "end": 91.86
+      },
+      {
+       "text": "birthday",
+       "start": 91.94,
+       "end": 92.26
+      },
+      {
+       "text": "cake.",
+       "start": 92.46,
+       "end": 92.7
+      }
+     ]
+    },
+    {
+     "show": "He was sitting on the porch",
+     "start": 92.74,
+     "end": 93.62,
+     "words": [
+      {
+       "text": "He",
+       "start": 92.74,
+       "end": 92.78
+      },
+      {
+       "text": "was",
+       "start": 92.82,
+       "end": 92.9
+      },
+      {
+       "text": "sitting",
+       "start": 92.94,
+       "end": 93.14
+      },
+      {
+       "text": "on",
+       "start": 93.18,
+       "end": 93.22
+      },
+      {
+       "text": "the",
+       "start": 93.3,
+       "end": 93.38
+      },
+      {
+       "text": "porch",
+       "start": 93.46,
+       "end": 93.62
+      }
+     ]
+    },
+    {
+     "show": "with his old dog, Pepper.",
+     "start": 93.7,
+     "end": 95.02,
+     "words": [
+      {
+       "text": "with",
+       "start": 93.7,
+       "end": 93.78
+      },
+      {
+       "text": "his",
+       "start": 93.86,
+       "end": 93.94
+      },
+      {
+       "text": "old",
+       "start": 94.02,
+       "end": 94.18
+      },
+      {
+       "text": "dog,",
+       "start": 94.3,
+       "end": 94.5
+      },
+      {
+       "text": "Pepper.",
+       "start": 94.58,
+       "end": 95.02
+      }
+     ]
+    },
+    {
+     "show": "Grandpa was whispering to her.",
+     "start": 95.06,
+     "end": 96.553,
+     "words": [
+      {
+       "text": "Grandpa",
+       "start": 95.06,
+       "end": 95.38
+      },
+      {
+       "text": "was",
+       "start": 95.46,
+       "end": 95.62
+      },
+      {
+       "text": "whispering",
+       "start": 95.66,
+       "end": 96.02
+      },
+      {
+       "text": "to",
+       "start": 96.1,
+       "end": 96.18
+      },
+      {
+       "text": "her.",
+       "start": 96.34,
+       "end": 96.553
+      }
+     ]
+    },
+    {
+     "show": "And Pepper",
+     "start": 96.607,
+     "end": 96.98,
+     "words": [
+      {
+       "text": "And",
+       "start": 96.607,
+       "end": 96.66
+      },
+      {
+       "text": "Pepper",
+       "start": 96.74,
+       "end": 96.98
+      }
+     ]
+    },
+    {
+     "show": "was {y:whispering back.}",
+     "start": 97.06,
+     "end": 98.153,
+     "words": [
+      {
+       "text": "was",
+       "start": 97.06,
+       "end": 97.14
+      },
+      {
+       "text": "whispering",
+       "start": 97.22,
+       "end": 97.62
+      },
+      {
+       "text": "back.",
+       "start": 97.86,
+       "end": 98.153
+      }
+     ]
+    },
+    {
+     "show": "He saw me.",
+     "start": 98.207,
+     "end": 98.78,
+     "words": [
+      {
+       "text": "He",
+       "start": 98.207,
+       "end": 98.26
+      },
+      {
+       "text": "saw",
+       "start": 98.34,
+       "end": 98.5
+      },
+      {
+       "text": "me.",
+       "start": 98.62,
+       "end": 98.78
+      }
+     ]
+    },
+    {
+     "show": "He put a finger on his lips.",
+     "start": 98.82,
+     "end": 100.34,
+     "words": [
+      {
+       "text": "He",
+       "start": 98.82,
+       "end": 98.9
+      },
+      {
+       "text": "put",
+       "start": 98.94,
+       "end": 98.98
+      },
+      {
+       "text": "a",
+       "start": 99.14,
+       "end": 99.22
+      },
+      {
+       "text": "finger",
+       "start": 99.3,
+       "end": 99.38
+      },
+      {
+       "text": "on",
+       "start": 99.46,
+       "end": 99.54
+      },
+      {
+       "text": "his",
+       "start": 99.58,
+       "end": 99.62
+      },
+      {
+       "text": "lips.",
+       "start": 99.7,
+       "end": 100.34
+      }
+     ]
+    },
+    {
+     "show": "Seventy years, he said.",
+     "start": 100.42,
+     "end": 101.94,
+     "words": [
+      {
+       "text": "Seventy",
+       "start": 100.42,
+       "end": 100.82
+      },
+      {
+       "text": "years,",
+       "start": 101.02,
+       "end": 101.3
+      },
+      {
+       "text": "he",
+       "start": 101.38,
+       "end": 101.46
+      },
+      {
+       "text": "said.",
+       "start": 101.54,
+       "end": 101.94
+      }
+     ]
+    },
+    {
+     "show": "Never told a soul.",
+     "start": 102.06,
+     "end": 103.1,
+     "words": [
+      {
+       "text": "Never",
+       "start": 102.06,
+       "end": 102.18
+      },
+      {
+       "text": "told",
+       "start": 102.26,
+       "end": 102.42
+      },
+      {
+       "text": "a",
+       "start": 102.5,
+       "end": 102.58
+      },
+      {
+       "text": "soul.",
+       "start": 102.62,
+       "end": 103.1
+      }
+     ]
+    },
+    {
+     "show": "Why not? I asked.",
+     "start": 103.14,
+     "end": 104.42,
+     "words": [
+      {
+       "text": "Why",
+       "start": 103.14,
+       "end": 103.3
+      },
+      {
+       "text": "not?",
+       "start": 103.5,
+       "end": 103.78
+      },
+      {
+       "text": "I",
+       "start": 103.86,
+       "end": 103.9
+      },
+      {
+       "text": "asked.",
+       "start": 103.94,
+       "end": 104.42
+      }
+     ]
+    },
+    {
+     "show": "Because the day you tell them,",
+     "start": 104.5,
+     "end": 105.673,
+     "words": [
+      {
+       "text": "Because",
+       "start": 104.5,
+       "end": 104.58
+      },
+      {
+       "text": "the",
+       "start": 104.66,
+       "end": 104.74
+      },
+      {
+       "text": "day",
+       "start": 104.82,
+       "end": 104.9
+      },
+      {
+       "text": "you",
+       "start": 104.98,
+       "end": 105.06
+      },
+      {
+       "text": "tell",
+       "start": 105.14,
+       "end": 105.22
+      },
+      {
+       "text": "them,",
+       "start": 105.3,
+       "end": 105.673
+      }
+     ]
+    },
+    {
+     "show": "they make you a {r:grown-up.}",
+     "start": 105.727,
+     "end": 106.847,
+     "words": [
+      {
+       "text": "they",
+       "start": 105.727,
+       "end": 105.78
+      },
+      {
+       "text": "make",
+       "start": 105.86,
+       "end": 105.94
+      },
+      {
+       "text": "you",
+       "start": 105.98,
+       "end": 106.02
+      },
+      {
+       "text": "a",
+       "start": 106.1,
+       "end": 106.18
+      },
+      {
+       "text": "grown-up.",
+       "start": 106.3,
+       "end": 106.847
+      }
+     ]
+    }
+   ],
+   "start": 90.56,
+   "end": 106.847
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "So now there are two of us.",
+     "start": 107.98,
+     "end": 109.527,
+     "words": [
+      {
+       "text": "So",
+       "start": 107.98,
+       "end": 108.06
+      },
+      {
+       "text": "now",
+       "start": 108.14,
+       "end": 108.38
+      },
+      {
+       "text": "there",
+       "start": 108.46,
+       "end": 108.54
+      },
+      {
+       "text": "are",
+       "start": 108.62,
+       "end": 108.7
+      },
+      {
+       "text": "two",
+       "start": 108.78,
+       "end": 108.86
+      },
+      {
+       "text": "of",
+       "start": 108.9,
+       "end": 108.94
+      },
+      {
+       "text": "us.",
+       "start": 109.02,
+       "end": 109.527
+      }
+     ]
+    },
+    {
+     "show": "Every evening we sit on that porch.",
+     "start": 109.633,
+     "end": 111.3,
+     "words": [
+      {
+       "text": "Every",
+       "start": 109.633,
+       "end": 109.74
+      },
+      {
+       "text": "evening",
+       "start": 109.82,
+       "end": 110.06
+      },
+      {
+       "text": "we",
+       "start": 110.14,
+       "end": 110.3
+      },
+      {
+       "text": "sit",
+       "start": 110.34,
+       "end": 110.38
+      },
+      {
+       "text": "on",
+       "start": 110.46,
+       "end": 110.54
+      },
+      {
+       "text": "that",
+       "start": 110.62,
+       "end": 110.7
+      },
+      {
+       "text": "porch.",
+       "start": 110.78,
+       "end": 111.3
+      }
+     ]
+    },
+    {
+     "show": "Two dogs, an old man, and me.",
+     "start": 111.34,
+     "end": 113.447,
+     "words": [
+      {
+       "text": "Two",
+       "start": 111.34,
+       "end": 111.42
+      },
+      {
+       "text": "dogs,",
+       "start": 111.5,
+       "end": 112.02
+      },
+      {
+       "text": "an",
+       "start": 112.06,
+       "end": 112.14
+      },
+      {
+       "text": "old",
+       "start": 112.22,
+       "end": 112.38
+      },
+      {
+       "text": "man,",
+       "start": 112.46,
+       "end": 112.913
+      },
+      {
+       "text": "and",
+       "start": 112.967,
+       "end": 113.02
+      },
+      {
+       "text": "me.",
+       "start": 113.1,
+       "end": 113.447
+      }
+     ]
+    },
+    {
+     "show": "And if you ever see a grown-up",
+     "start": 113.473,
+     "end": 114.78,
+     "words": [
+      {
+       "text": "And",
+       "start": 113.473,
+       "end": 113.5
+      },
+      {
+       "text": "if",
+       "start": 113.58,
+       "end": 113.66
+      },
+      {
+       "text": "you",
+       "start": 113.74,
+       "end": 113.82
+      },
+      {
+       "text": "ever",
+       "start": 113.9,
+       "end": 114.14
+      },
+      {
+       "text": "see",
+       "start": 114.18,
+       "end": 114.22
+      },
+      {
+       "text": "a",
+       "start": 114.38,
+       "end": 114.46
+      },
+      {
+       "text": "grown-up",
+       "start": 114.54,
+       "end": 114.78
+      }
+     ]
+    },
+    {
+     "show": "whispering to their dog,",
+     "start": 114.82,
+     "end": 116.007,
+     "words": [
+      {
+       "text": "whispering",
+       "start": 114.82,
+       "end": 115.18
+      },
+      {
+       "text": "to",
+       "start": 115.22,
+       "end": 115.26
+      },
+      {
+       "text": "their",
+       "start": 115.34,
+       "end": 115.5
+      },
+      {
+       "text": "dog,",
+       "start": 115.74,
+       "end": 116.007
+      }
+     ]
+    },
+    {
+     "show": "don't tell anyone.",
+     "start": 116.033,
+     "end": 117.18,
+     "words": [
+      {
+       "text": "don't",
+       "start": 116.033,
+       "end": 116.22
+      },
+      {
+       "text": "tell",
+       "start": 116.34,
+       "end": 116.46
+      },
+      {
+       "text": "anyone.",
+       "start": 116.54,
+       "end": 117.18
+      }
+     ]
+    },
+    {
+     "show": "Maybe they {y:never stopped listening.}",
+     "start": 117.26,
+     "end": 118.86,
+     "words": [
+      {
+       "text": "Maybe",
+       "start": 117.26,
+       "end": 117.34
+      },
+      {
+       "text": "they",
+       "start": 117.42,
+       "end": 117.5
+      },
+      {
+       "text": "never",
+       "start": 117.58,
+       "end": 117.82
+      },
+      {
+       "text": "stopped",
+       "start": 117.9,
+       "end": 118.06
+      },
+      {
+       "text": "listening.",
+       "start": 118.14,
+       "end": 118.86
+      }
+     ]
+    }
+   ],
+   "start": 107.98,
+   "end": 118.86
+  }
+ ]
+}
