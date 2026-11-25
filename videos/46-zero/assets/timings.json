@@ -1,0 +1,2314 @@
+{
+ "duration": 98.769,
+ "beats": [
+  {
+   "id": "hook",
+   "label": "",
+   "lines": [
+    {
+     "show": "In this town,",
+     "start": 0.0,
+     "end": 0.8,
+     "words": [
+      {
+       "text": "In",
+       "start": 0.0,
+       "end": 0.16
+      },
+      {
+       "text": "this",
+       "start": 0.24,
+       "end": 0.32
+      },
+      {
+       "text": "town,",
+       "start": 0.4,
+       "end": 0.8
+      }
+     ]
+    },
+    {
+     "show": "everybody has a number",
+     "start": 0.88,
+     "end": 1.84,
+     "words": [
+      {
+       "text": "everybody",
+       "start": 0.88,
+       "end": 1.36
+      },
+      {
+       "text": "has",
+       "start": 1.4,
+       "end": 1.44
+      },
+      {
+       "text": "a",
+       "start": 1.52,
+       "end": 1.56
+      },
+      {
+       "text": "number",
+       "start": 1.6,
+       "end": 1.84
+      }
+     ]
+    },
+    {
+     "show": "floating above their head.",
+     "start": 1.92,
+     "end": 2.96,
+     "words": [
+      {
+       "text": "floating",
+       "start": 1.92,
+       "end": 2.24
+      },
+      {
+       "text": "above",
+       "start": 2.36,
+       "end": 2.48
+      },
+      {
+       "text": "their",
+       "start": 2.56,
+       "end": 2.64
+      },
+      {
+       "text": "head.",
+       "start": 2.76,
+       "end": 2.96
+      }
+     ]
+    },
+    {
+     "show": "It shows how many people",
+     "start": 3.04,
+     "end": 3.92,
+     "words": [
+      {
+       "text": "It",
+       "start": 3.04,
+       "end": 3.12
+      },
+      {
+       "text": "shows",
+       "start": 3.24,
+       "end": 3.36
+      },
+      {
+       "text": "how",
+       "start": 3.4,
+       "end": 3.44
+      },
+      {
+       "text": "many",
+       "start": 3.52,
+       "end": 3.6
+      },
+      {
+       "text": "people",
+       "start": 3.68,
+       "end": 3.92
+      }
+     ]
+    },
+    {
+     "show": "are thinking about you",
+     "start": 4.0,
+     "end": 4.72,
+     "words": [
+      {
+       "text": "are",
+       "start": 4.0,
+       "end": 4.08
+      },
+      {
+       "text": "thinking",
+       "start": 4.2,
+       "end": 4.32
+      },
+      {
+       "text": "about",
+       "start": 4.4,
+       "end": 4.56
+      },
+      {
+       "text": "you",
+       "start": 4.64,
+       "end": 4.72
+      }
+     ]
+    },
+    {
+     "show": "{y:right now.}",
+     "start": 4.8,
+     "end": 5.36,
+     "words": [
+      {
+       "text": "right",
+       "start": 4.8,
+       "end": 4.88
+      },
+      {
+       "text": "now.",
+       "start": 4.96,
+       "end": 5.36
+      }
+     ]
+    },
+    {
+     "show": "Mine says {r:zero.}",
+     "start": 5.48,
+     "end": 6.4,
+     "words": [
+      {
+       "text": "Mine",
+       "start": 5.48,
+       "end": 5.6
+      },
+      {
+       "text": "says",
+       "start": 5.68,
+       "end": 5.84
+      },
+      {
+       "text": "zero.",
+       "start": 5.92,
+       "end": 6.4
+      }
+     ]
+    }
+   ],
+   "start": 0.0,
+   "end": 6.4
+  },
+  {
+   "id": "world",
+   "label": "",
+   "lines": [
+    {
+     "show": "The mayor's number is so long,",
+     "start": 6.48,
+     "end": 7.84,
+     "words": [
+      {
+       "text": "The",
+       "start": 6.48,
+       "end": 6.56
+      },
+      {
+       "text": "mayor's",
+       "start": 6.64,
+       "end": 6.88
+      },
+      {
+       "text": "number",
+       "start": 7.0,
+       "end": 7.12
+      },
+      {
+       "text": "is",
+       "start": 7.2,
+       "end": 7.28
+      },
+      {
+       "text": "so",
+       "start": 7.4,
+       "end": 7.52
+      },
+      {
+       "text": "long,",
+       "start": 7.64,
+       "end": 7.84
+      }
+     ]
+    },
+    {
+     "show": "it needs a second line.",
+     "start": 7.88,
+     "end": 9.04,
+     "words": [
+      {
+       "text": "it",
+       "start": 7.88,
+       "end": 7.92
+      },
+      {
+       "text": "needs",
+       "start": 8.0,
+       "end": 8.16
+      },
+      {
+       "text": "a",
+       "start": 8.24,
+       "end": 8.32
+      },
+      {
+       "text": "second",
+       "start": 8.44,
+       "end": 8.56
+      },
+      {
+       "text": "line.",
+       "start": 8.64,
+       "end": 9.04
+      }
+     ]
+    },
+    {
+     "show": "Linda from school has hundreds.",
+     "start": 9.12,
+     "end": 10.8,
+     "words": [
+      {
+       "text": "Linda",
+       "start": 9.12,
+       "end": 9.36
+      },
+      {
+       "text": "from",
+       "start": 9.44,
+       "end": 9.52
+      },
+      {
+       "text": "school",
+       "start": 9.6,
+       "end": 9.92
+      },
+      {
+       "text": "has",
+       "start": 10.04,
+       "end": 10.16
+      },
+      {
+       "text": "hundreds.",
+       "start": 10.24,
+       "end": 10.8
+      }
+     ]
+    },
+    {
+     "show": "Even Kevin's goldfish has more than me.",
+     "start": 10.92,
+     "end": 12.72,
+     "words": [
+      {
+       "text": "Even",
+       "start": 10.92,
+       "end": 11.04
+      },
+      {
+       "text": "Kevin's",
+       "start": 11.16,
+       "end": 11.44
+      },
+      {
+       "text": "goldfish",
+       "start": 11.6,
+       "end": 11.92
+      },
+      {
+       "text": "has",
+       "start": 12.0,
+       "end": 12.08
+      },
+      {
+       "text": "more",
+       "start": 12.16,
+       "end": 12.24
+      },
+      {
+       "text": "than",
+       "start": 12.32,
+       "end": 12.4
+      },
+      {
+       "text": "me.",
+       "start": 12.48,
+       "end": 12.72
+      }
+     ]
+    },
+    {
+     "show": "When someone thinks about you,",
+     "start": 12.8,
+     "end": 13.84,
+     "words": [
+      {
+       "text": "When",
+       "start": 12.8,
+       "end": 12.88
+      },
+      {
+       "text": "someone",
+       "start": 13.04,
+       "end": 13.2
+      },
+      {
+       "text": "thinks",
+       "start": 13.24,
+       "end": 13.36
+      },
+      {
+       "text": "about",
+       "start": 13.44,
+       "end": 13.68
+      },
+      {
+       "text": "you,",
+       "start": 13.72,
+       "end": 13.84
+      }
+     ]
+    },
+    {
+     "show": "your number goes up.",
+     "start": 13.92,
+     "end": 14.88,
+     "words": [
+      {
+       "text": "your",
+       "start": 13.92,
+       "end": 14.08
+      },
+      {
+       "text": "number",
+       "start": 14.2,
+       "end": 14.32
+      },
+      {
+       "text": "goes",
+       "start": 14.4,
+       "end": 14.56
+      },
+      {
+       "text": "up.",
+       "start": 14.64,
+       "end": 14.88
+      }
+     ]
+    },
+    {
+     "show": "When they forget you,",
+     "start": 14.92,
+     "end": 15.68,
+     "words": [
+      {
+       "text": "When",
+       "start": 14.92,
+       "end": 14.96
+      },
+      {
+       "text": "they",
+       "start": 15.04,
+       "end": 15.12
+      },
+      {
+       "text": "forget",
+       "start": 15.28,
+       "end": 15.44
+      },
+      {
+       "text": "you,",
+       "start": 15.52,
+       "end": 15.68
+      }
+     ]
+    },
+    {
+     "show": "it drops.",
+     "start": 15.76,
+     "end": 16.4,
+     "words": [
+      {
+       "text": "it",
+       "start": 15.76,
+       "end": 15.84
+      },
+      {
+       "text": "drops.",
+       "start": 16.08,
+       "end": 16.4
+      }
+     ]
+    },
+    {
+     "show": "People check their numbers",
+     "start": 16.56,
+     "end": 17.36,
+     "words": [
+      {
+       "text": "People",
+       "start": 16.56,
+       "end": 16.72
+      },
+      {
+       "text": "check",
+       "start": 16.8,
+       "end": 16.88
+      },
+      {
+       "text": "their",
+       "start": 16.96,
+       "end": 17.04
+      },
+      {
+       "text": "numbers",
+       "start": 17.12,
+       "end": 17.36
+      }
+     ]
+    },
+    {
+     "show": "like the weather.",
+     "start": 17.44,
+     "end": 18.16,
+     "words": [
+      {
+       "text": "like",
+       "start": 17.44,
+       "end": 17.52
+      },
+      {
+       "text": "the",
+       "start": 17.6,
+       "end": 17.68
+      },
+      {
+       "text": "weather.",
+       "start": 17.84,
+       "end": 18.16
+      }
+     ]
+    }
+   ],
+   "start": 6.48,
+   "end": 18.16
+  },
+  {
+   "id": "rules",
+   "label": "",
+   "lines": [
+    {
+     "show": "At school,",
+     "start": 18.24,
+     "end": 18.8,
+     "words": [
+      {
+       "text": "At",
+       "start": 18.24,
+       "end": 18.4
+      },
+      {
+       "text": "school,",
+       "start": 18.56,
+       "end": 18.8
+      }
+     ]
+    },
+    {
+     "show": "the teacher only calls on the kids",
+     "start": 18.88,
+     "end": 20.24,
+     "words": [
+      {
+       "text": "the",
+       "start": 18.88,
+       "end": 18.96
+      },
+      {
+       "text": "teacher",
+       "start": 19.12,
+       "end": 19.28
+      },
+      {
+       "text": "only",
+       "start": 19.36,
+       "end": 19.6
+      },
+      {
+       "text": "calls",
+       "start": 19.72,
+       "end": 19.84
+      },
+      {
+       "text": "on",
+       "start": 19.88,
+       "end": 19.92
+      },
+      {
+       "text": "the",
+       "start": 19.96,
+       "end": 20.0
+      },
+      {
+       "text": "kids",
+       "start": 20.08,
+       "end": 20.24
+      }
+     ]
+    },
+    {
+     "show": "with the biggest numbers.",
+     "start": 20.32,
+     "end": 21.52,
+     "words": [
+      {
+       "text": "with",
+       "start": 20.32,
+       "end": 20.4
+      },
+      {
+       "text": "the",
+       "start": 20.48,
+       "end": 20.56
+      },
+      {
+       "text": "biggest",
+       "start": 20.64,
+       "end": 20.88
+      },
+      {
+       "text": "numbers.",
+       "start": 20.96,
+       "end": 21.52
+      }
+     ]
+    },
+    {
+     "show": "Restaurants seat you by your number.",
+     "start": 21.64,
+     "end": 23.173,
+     "words": [
+      {
+       "text": "Restaurants",
+       "start": 21.64,
+       "end": 22.08
+      },
+      {
+       "text": "seat",
+       "start": 22.2,
+       "end": 22.32
+      },
+      {
+       "text": "you",
+       "start": 22.4,
+       "end": 22.48
+      },
+      {
+       "text": "by",
+       "start": 22.52,
+       "end": 22.56
+      },
+      {
+       "text": "your",
+       "start": 22.64,
+       "end": 22.72
+      },
+      {
+       "text": "number.",
+       "start": 22.8,
+       "end": 23.173
+      }
+     ]
+    },
+    {
+     "show": "They gave me a table",
+     "start": 23.227,
+     "end": 23.92,
+     "words": [
+      {
+       "text": "They",
+       "start": 23.227,
+       "end": 23.28
+      },
+      {
+       "text": "gave",
+       "start": 23.333,
+       "end": 23.44
+      },
+      {
+       "text": "me",
+       "start": 23.48,
+       "end": 23.52
+      },
+      {
+       "text": "a",
+       "start": 23.56,
+       "end": 23.6
+      },
+      {
+       "text": "table",
+       "start": 23.76,
+       "end": 23.92
+      }
+     ]
+    },
+    {
+     "show": "in the parking lot.",
+     "start": 23.96,
+     "end": 24.84,
+     "words": [
+      {
+       "text": "in",
+       "start": 23.96,
+       "end": 24.0
+      },
+      {
+       "text": "the",
+       "start": 24.08,
+       "end": 24.16
+      },
+      {
+       "text": "parking",
+       "start": 24.28,
+       "end": 24.48
+      },
+      {
+       "text": "lot.",
+       "start": 24.56,
+       "end": 24.84
+      }
+     ]
+    },
+    {
+     "show": "Couples break up",
+     "start": 24.88,
+     "end": 25.6,
+     "words": [
+      {
+       "text": "Couples",
+       "start": 24.88,
+       "end": 25.2
+      },
+      {
+       "text": "break",
+       "start": 25.32,
+       "end": 25.44
+      },
+      {
+       "text": "up",
+       "start": 25.52,
+       "end": 25.6
+      }
+     ]
+    },
+    {
+     "show": "when their numbers don't match.",
+     "start": 25.68,
+     "end": 26.853,
+     "words": [
+      {
+       "text": "when",
+       "start": 25.68,
+       "end": 25.76
+      },
+      {
+       "text": "their",
+       "start": 25.84,
+       "end": 25.92
+      },
+      {
+       "text": "numbers",
+       "start": 26.08,
+       "end": 26.24
+      },
+      {
+       "text": "don't",
+       "start": 26.28,
+       "end": 26.4
+      },
+      {
+       "text": "match.",
+       "start": 26.6,
+       "end": 26.853
+      }
+     ]
+    },
+    {
+     "show": "And when grandma's number hit four digits,",
+     "start": 26.907,
+     "end": 28.693,
+     "words": [
+      {
+       "text": "And",
+       "start": 26.907,
+       "end": 26.96
+      },
+      {
+       "text": "when",
+       "start": 27.0,
+       "end": 27.04
+      },
+      {
+       "text": "grandma's",
+       "start": 27.12,
+       "end": 27.52
+      },
+      {
+       "text": "number",
+       "start": 27.64,
+       "end": 27.76
+      },
+      {
+       "text": "hit",
+       "start": 27.88,
+       "end": 28.0
+      },
+      {
+       "text": "four",
+       "start": 28.12,
+       "end": 28.24
+      },
+      {
+       "text": "digits,",
+       "start": 28.44,
+       "end": 28.693
+      }
+     ]
+    },
+    {
+     "show": "the town threw her a parade.",
+     "start": 28.747,
+     "end": 30.24,
+     "words": [
+      {
+       "text": "the",
+       "start": 28.747,
+       "end": 28.8
+      },
+      {
+       "text": "town",
+       "start": 28.96,
+       "end": 29.12
+      },
+      {
+       "text": "threw",
+       "start": 29.16,
+       "end": 29.28
+      },
+      {
+       "text": "her",
+       "start": 29.36,
+       "end": 29.44
+      },
+      {
+       "text": "a",
+       "start": 29.48,
+       "end": 29.52
+      },
+      {
+       "text": "parade.",
+       "start": 29.6,
+       "end": 30.24
+      }
+     ]
+    }
+   ],
+   "start": 18.24,
+   "end": 30.24
+  },
+  {
+   "id": "try",
+   "label": "",
+   "lines": [
+    {
+     "show": "So I tried everything.",
+     "start": 30.973,
+     "end": 32.2,
+     "words": [
+      {
+       "text": "So",
+       "start": 30.973,
+       "end": 31.0
+      },
+      {
+       "text": "I",
+       "start": 31.16,
+       "end": 31.213
+      },
+      {
+       "text": "tried",
+       "start": 31.267,
+       "end": 31.56
+      },
+      {
+       "text": "everything.",
+       "start": 31.64,
+       "end": 32.2
+      }
+     ]
+    },
+    {
+     "show": "I wore a chicken costume to school.",
+     "start": 32.24,
+     "end": 33.88,
+     "words": [
+      {
+       "text": "I",
+       "start": 32.24,
+       "end": 32.28
+      },
+      {
+       "text": "wore",
+       "start": 32.32,
+       "end": 32.44
+      },
+      {
+       "text": "a",
+       "start": 32.48,
+       "end": 32.52
+      },
+      {
+       "text": "chicken",
+       "start": 32.6,
+       "end": 32.76
+      },
+      {
+       "text": "costume",
+       "start": 32.84,
+       "end": 33.16
+      },
+      {
+       "text": "to",
+       "start": 33.24,
+       "end": 33.32
+      },
+      {
+       "text": "school.",
+       "start": 33.48,
+       "end": 33.88
+      }
+     ]
+    },
+    {
+     "show": "{r:Zero.}",
+     "start": 34.04,
+     "end": 34.36,
+     "words": [
+      {
+       "text": "Zero.",
+       "start": 34.04,
+       "end": 34.36
+      }
+     ]
+    },
+    {
+     "show": "I sang in the cafeteria.",
+     "start": 34.44,
+     "end": 35.72,
+     "words": [
+      {
+       "text": "I",
+       "start": 34.44,
+       "end": 34.52
+      },
+      {
+       "text": "sang",
+       "start": 34.56,
+       "end": 34.76
+      },
+      {
+       "text": "in",
+       "start": 34.8,
+       "end": 34.84
+      },
+      {
+       "text": "the",
+       "start": 34.88,
+       "end": 34.92
+      },
+      {
+       "text": "cafeteria.",
+       "start": 35.0,
+       "end": 35.72
+      }
+     ]
+    },
+    {
+     "show": "{r:Still zero.}",
+     "start": 35.8,
+     "end": 36.68,
+     "words": [
+      {
+       "text": "Still",
+       "start": 35.8,
+       "end": 36.12
+      },
+      {
+       "text": "zero.",
+       "start": 36.2,
+       "end": 36.68
+      }
+     ]
+    },
+    {
+     "show": "I climbed the town hall",
+     "start": 36.72,
+     "end": 37.72,
+     "words": [
+      {
+       "text": "I",
+       "start": 36.72,
+       "end": 36.76
+      },
+      {
+       "text": "climbed",
+       "start": 36.84,
+       "end": 37.08
+      },
+      {
+       "text": "the",
+       "start": 37.12,
+       "end": 37.16
+      },
+      {
+       "text": "town",
+       "start": 37.24,
+       "end": 37.48
+      },
+      {
+       "text": "hall",
+       "start": 37.6,
+       "end": 37.72
+      }
+     ]
+    },
+    {
+     "show": "and screamed my own name.",
+     "start": 37.84,
+     "end": 39.32,
+     "words": [
+      {
+       "text": "and",
+       "start": 37.84,
+       "end": 37.96
+      },
+      {
+       "text": "screamed",
+       "start": 38.0,
+       "end": 38.36
+      },
+      {
+       "text": "my",
+       "start": 38.44,
+       "end": 38.6
+      },
+      {
+       "text": "own",
+       "start": 38.68,
+       "end": 38.84
+      },
+      {
+       "text": "name.",
+       "start": 39.0,
+       "end": 39.32
+      }
+     ]
+    },
+    {
+     "show": "My number went to {y:one.}",
+     "start": 39.4,
+     "end": 40.52,
+     "words": [
+      {
+       "text": "My",
+       "start": 39.4,
+       "end": 39.48
+      },
+      {
+       "text": "number",
+       "start": 39.6,
+       "end": 39.72
+      },
+      {
+       "text": "went",
+       "start": 39.8,
+       "end": 39.88
+      },
+      {
+       "text": "to",
+       "start": 39.96,
+       "end": 40.04
+      },
+      {
+       "text": "one.",
+       "start": 40.12,
+       "end": 40.52
+      }
+     ]
+    },
+    {
+     "show": "Then the police came.",
+     "start": 40.64,
+     "end": 41.8,
+     "words": [
+      {
+       "text": "Then",
+       "start": 40.64,
+       "end": 40.76
+      },
+      {
+       "text": "the",
+       "start": 40.92,
+       "end": 41.0
+      },
+      {
+       "text": "police",
+       "start": 41.08,
+       "end": 41.32
+      },
+      {
+       "text": "came.",
+       "start": 41.4,
+       "end": 41.8
+      }
+     ]
+    },
+    {
+     "show": "They were thinking about me",
+     "start": 41.84,
+     "end": 42.6,
+     "words": [
+      {
+       "text": "They",
+       "start": 41.84,
+       "end": 41.88
+      },
+      {
+       "text": "were",
+       "start": 41.96,
+       "end": 42.04
+      },
+      {
+       "text": "thinking",
+       "start": 42.16,
+       "end": 42.28
+      },
+      {
+       "text": "about",
+       "start": 42.36,
+       "end": 42.52
+      },
+      {
+       "text": "me",
+       "start": 42.56,
+       "end": 42.6
+      }
+     ]
+    },
+    {
+     "show": "for the wrong reasons.",
+     "start": 42.64,
+     "end": 43.8,
+     "words": [
+      {
+       "text": "for",
+       "start": 42.64,
+       "end": 42.68
+      },
+      {
+       "text": "the",
+       "start": 42.76,
+       "end": 42.84
+      },
+      {
+       "text": "wrong",
+       "start": 42.92,
+       "end": 43.16
+      },
+      {
+       "text": "reasons.",
+       "start": 43.36,
+       "end": 43.8
+      }
+     ]
+    },
+    {
+     "show": "{r:Back to zero.}",
+     "start": 43.88,
+     "end": 44.68,
+     "words": [
+      {
+       "text": "Back",
+       "start": 43.88,
+       "end": 43.96
+      },
+      {
+       "text": "to",
+       "start": 44.04,
+       "end": 44.12
+      },
+      {
+       "text": "zero.",
+       "start": 44.2,
+       "end": 44.68
+      }
+     ]
+    }
+   ],
+   "start": 30.973,
+   "end": 44.68
+  },
+  {
+   "id": "crisis",
+   "label": "",
+   "lines": [
+    {
+     "show": "Then Linda walked past me.",
+     "start": 45.76,
+     "end": 47.2,
+     "words": [
+      {
+       "text": "Then",
+       "start": 45.76,
+       "end": 45.92
+      },
+      {
+       "text": "Linda",
+       "start": 46.0,
+       "end": 46.24
+      },
+      {
+       "text": "walked",
+       "start": 46.32,
+       "end": 46.56
+      },
+      {
+       "text": "past",
+       "start": 46.72,
+       "end": 46.88
+      },
+      {
+       "text": "me.",
+       "start": 46.96,
+       "end": 47.2
+      }
+     ]
+    },
+    {
+     "show": "For one second,",
+     "start": 47.28,
+     "end": 48.16,
+     "words": [
+      {
+       "text": "For",
+       "start": 47.28,
+       "end": 47.36
+      },
+      {
+       "text": "one",
+       "start": 47.44,
+       "end": 47.6
+      },
+      {
+       "text": "second,",
+       "start": 47.76,
+       "end": 48.16
+      }
+     ]
+    },
+    {
+     "show": "she looked at me.",
+     "start": 48.24,
+     "end": 48.96,
+     "words": [
+      {
+       "text": "she",
+       "start": 48.24,
+       "end": 48.32
+      },
+      {
+       "text": "looked",
+       "start": 48.4,
+       "end": 48.56
+      },
+      {
+       "text": "at",
+       "start": 48.6,
+       "end": 48.64
+      },
+      {
+       "text": "me.",
+       "start": 48.72,
+       "end": 48.96
+      }
+     ]
+    },
+    {
+     "show": "My number didn't even flicker.",
+     "start": 49.04,
+     "end": 50.4,
+     "words": [
+      {
+       "text": "My",
+       "start": 49.04,
+       "end": 49.12
+      },
+      {
+       "text": "number",
+       "start": 49.24,
+       "end": 49.36
+      },
+      {
+       "text": "didn't",
+       "start": 49.44,
+       "end": 49.6
+      },
+      {
+       "text": "even",
+       "start": 49.68,
+       "end": 49.76
+      },
+      {
+       "text": "flicker.",
+       "start": 49.92,
+       "end": 50.4
+      }
+     ]
+    },
+    {
+     "show": "I wasn't in her head at all.",
+     "start": 50.44,
+     "end": 51.76,
+     "words": [
+      {
+       "text": "I",
+       "start": 50.44,
+       "end": 50.48
+      },
+      {
+       "text": "wasn't",
+       "start": 50.6,
+       "end": 50.8
+      },
+      {
+       "text": "in",
+       "start": 50.84,
+       "end": 50.88
+      },
+      {
+       "text": "her",
+       "start": 50.96,
+       "end": 51.04
+      },
+      {
+       "text": "head",
+       "start": 51.12,
+       "end": 51.2
+      },
+      {
+       "text": "at",
+       "start": 51.24,
+       "end": 51.28
+      },
+      {
+       "text": "all.",
+       "start": 51.36,
+       "end": 51.76
+      }
+     ]
+    },
+    {
+     "show": "That night,",
+     "start": 51.84,
+     "end": 52.32,
+     "words": [
+      {
+       "text": "That",
+       "start": 51.84,
+       "end": 51.92
+      },
+      {
+       "text": "night,",
+       "start": 52.0,
+       "end": 52.32
+      }
+     ]
+    },
+    {
+     "show": "I looked in the mirror",
+     "start": 52.4,
+     "end": 53.2,
+     "words": [
+      {
+       "text": "I",
+       "start": 52.4,
+       "end": 52.48
+      },
+      {
+       "text": "looked",
+       "start": 52.52,
+       "end": 52.64
+      },
+      {
+       "text": "in",
+       "start": 52.68,
+       "end": 52.72
+      },
+      {
+       "text": "the",
+       "start": 52.76,
+       "end": 52.8
+      },
+      {
+       "text": "mirror",
+       "start": 52.88,
+       "end": 53.2
+      }
+     ]
+    },
+    {
+     "show": "and wondered",
+     "start": 53.28,
+     "end": 53.72,
+     "words": [
+      {
+       "text": "and",
+       "start": 53.28,
+       "end": 53.44
+      },
+      {
+       "text": "wondered",
+       "start": 53.48,
+       "end": 53.72
+      }
+     ]
+    },
+    {
+     "show": "if I was even there.",
+     "start": 53.76,
+     "end": 54.8,
+     "words": [
+      {
+       "text": "if",
+       "start": 53.76,
+       "end": 53.84
+      },
+      {
+       "text": "I",
+       "start": 53.88,
+       "end": 53.92
+      },
+      {
+       "text": "was",
+       "start": 54.0,
+       "end": 54.08
+      },
+      {
+       "text": "even",
+       "start": 54.2,
+       "end": 54.32
+      },
+      {
+       "text": "there.",
+       "start": 54.48,
+       "end": 54.8
+      }
+     ]
+    }
+   ],
+   "start": 45.76,
+   "end": 54.8
+  },
+  {
+   "id": "viral",
+   "label": "",
+   "lines": [
+    {
+     "show": "The next morning,",
+     "start": 55.869,
+     "end": 56.52,
+     "words": [
+      {
+       "text": "The",
+       "start": 55.869,
+       "end": 55.88
+      },
+      {
+       "text": "next",
+       "start": 55.96,
+       "end": 56.12
+      },
+      {
+       "text": "morning,",
+       "start": 56.2,
+       "end": 56.52
+      }
+     ]
+    },
+    {
+     "show": "somebody posted a photo of me.",
+     "start": 56.6,
+     "end": 57.96,
+     "words": [
+      {
+       "text": "somebody",
+       "start": 56.6,
+       "end": 56.92
+      },
+      {
+       "text": "posted",
+       "start": 57.04,
+       "end": 57.16
+      },
+      {
+       "text": "a",
+       "start": 57.24,
+       "end": 57.32
+      },
+      {
+       "text": "photo",
+       "start": 57.44,
+       "end": 57.56
+      },
+      {
+       "text": "of",
+       "start": 57.64,
+       "end": 57.72
+      },
+      {
+       "text": "me.",
+       "start": 57.8,
+       "end": 57.96
+      }
+     ]
+    },
+    {
+     "show": "The only kid in town with zero.",
+     "start": 58.04,
+     "end": 59.96,
+     "words": [
+      {
+       "text": "The",
+       "start": 58.04,
+       "end": 58.12
+      },
+      {
+       "text": "only",
+       "start": 58.2,
+       "end": 58.44
+      },
+      {
+       "text": "kid",
+       "start": 58.52,
+       "end": 58.6
+      },
+      {
+       "text": "in",
+       "start": 58.68,
+       "end": 58.76
+      },
+      {
+       "text": "town",
+       "start": 58.84,
+       "end": 59.08
+      },
+      {
+       "text": "with",
+       "start": 59.16,
+       "end": 59.32
+      },
+      {
+       "text": "zero.",
+       "start": 59.48,
+       "end": 59.96
+      }
+     ]
+    },
+    {
+     "show": "By lunch,",
+     "start": 60.04,
+     "end": 60.52,
+     "words": [
+      {
+       "text": "By",
+       "start": 60.04,
+       "end": 60.12
+      },
+      {
+       "text": "lunch,",
+       "start": 60.2,
+       "end": 60.52
+      }
+     ]
+    },
+    {
+     "show": "my number had {y:five zeros.}",
+     "start": 60.6,
+     "end": 62.04,
+     "words": [
+      {
+       "text": "my",
+       "start": 60.6,
+       "end": 60.68
+      },
+      {
+       "text": "number",
+       "start": 60.76,
+       "end": 60.92
+      },
+      {
+       "text": "had",
+       "start": 61.04,
+       "end": 61.16
+      },
+      {
+       "text": "five",
+       "start": 61.24,
+       "end": 61.48
+      },
+      {
+       "text": "zeros.",
+       "start": 61.56,
+       "end": 62.04
+      }
+     ]
+    },
+    {
+     "show": "By dinner,",
+     "start": 62.08,
+     "end": 62.76,
+     "words": [
+      {
+       "text": "By",
+       "start": 62.08,
+       "end": 62.12
+      },
+      {
+       "text": "dinner,",
+       "start": 62.28,
+       "end": 62.76
+      }
+     ]
+    },
+    {
+     "show": "{y:seven.}",
+     "start": 62.96,
+     "end": 63.24,
+     "words": [
+      {
+       "text": "seven.",
+       "start": 62.96,
+       "end": 63.24
+      }
+     ]
+    },
+    {
+     "show": "The whole world was thinking about the boy",
+     "start": 63.32,
+     "end": 65.24,
+     "words": [
+      {
+       "text": "The",
+       "start": 63.32,
+       "end": 63.48
+      },
+      {
+       "text": "whole",
+       "start": 63.64,
+       "end": 63.8
+      },
+      {
+       "text": "world",
+       "start": 63.88,
+       "end": 64.12
+      },
+      {
+       "text": "was",
+       "start": 64.24,
+       "end": 64.36
+      },
+      {
+       "text": "thinking",
+       "start": 64.48,
+       "end": 64.6
+      },
+      {
+       "text": "about",
+       "start": 64.68,
+       "end": 64.84
+      },
+      {
+       "text": "the",
+       "start": 64.92,
+       "end": 65.0
+      },
+      {
+       "text": "boy",
+       "start": 65.12,
+       "end": 65.24
+      }
+     ]
+    },
+    {
+     "show": "that nobody thinks about.",
+     "start": 65.32,
+     "end": 66.52,
+     "words": [
+      {
+       "text": "that",
+       "start": 65.32,
+       "end": 65.48
+      },
+      {
+       "text": "nobody",
+       "start": 65.56,
+       "end": 65.88
+      },
+      {
+       "text": "thinks",
+       "start": 65.92,
+       "end": 66.12
+      },
+      {
+       "text": "about.",
+       "start": 66.2,
+       "end": 66.52
+      }
+     ]
+    },
+    {
+     "show": "The mayor wanted a selfie.",
+     "start": 66.6,
+     "end": 67.907,
+     "words": [
+      {
+       "text": "The",
+       "start": 66.6,
+       "end": 66.68
+      },
+      {
+       "text": "mayor",
+       "start": 66.76,
+       "end": 66.92
+      },
+      {
+       "text": "wanted",
+       "start": 67.0,
+       "end": 67.16
+      },
+      {
+       "text": "a",
+       "start": 67.24,
+       "end": 67.32
+      },
+      {
+       "text": "selfie.",
+       "start": 67.44,
+       "end": 67.907
+      }
+     ]
+    },
+    {
+     "show": "Kevin said we were best friends.",
+     "start": 68.013,
+     "end": 69.48,
+     "words": [
+      {
+       "text": "Kevin",
+       "start": 68.013,
+       "end": 68.12
+      },
+      {
+       "text": "said",
+       "start": 68.2,
+       "end": 68.36
+      },
+      {
+       "text": "we",
+       "start": 68.4,
+       "end": 68.44
+      },
+      {
+       "text": "were",
+       "start": 68.56,
+       "end": 68.68
+      },
+      {
+       "text": "best",
+       "start": 68.8,
+       "end": 68.92
+      },
+      {
+       "text": "friends.",
+       "start": 69.16,
+       "end": 69.48
+      }
+     ]
+    },
+    {
+     "show": "My number got so big,",
+     "start": 69.56,
+     "end": 70.76,
+     "words": [
+      {
+       "text": "My",
+       "start": 69.56,
+       "end": 69.64
+      },
+      {
+       "text": "number",
+       "start": 69.72,
+       "end": 69.88
+      },
+      {
+       "text": "got",
+       "start": 69.96,
+       "end": 70.2
+      },
+      {
+       "text": "so",
+       "start": 70.32,
+       "end": 70.44
+      },
+      {
+       "text": "big,",
+       "start": 70.56,
+       "end": 70.76
+      }
+     ]
+    },
+    {
+     "show": "it didn't fit above my head anymore.",
+     "start": 70.8,
+     "end": 72.45,
+     "words": [
+      {
+       "text": "it",
+       "start": 70.8,
+       "end": 70.84
+      },
+      {
+       "text": "didn't",
+       "start": 70.92,
+       "end": 71.16
+      },
+      {
+       "text": "fit",
+       "start": 71.2,
+       "end": 71.24
+      },
+      {
+       "text": "above",
+       "start": 71.32,
+       "end": 71.48
+      },
+      {
+       "text": "my",
+       "start": 71.56,
+       "end": 71.72
+      },
+      {
+       "text": "head",
+       "start": 71.8,
+       "end": 71.88
+      },
+      {
+       "text": "anymore.",
+       "start": 71.96,
+       "end": 72.45
+      }
+     ]
+    }
+   ],
+   "start": 55.869,
+   "end": 72.45
+  },
+  {
+   "id": "twist",
+   "label": "",
+   "lines": [
+    {
+     "show": "But a week later,",
+     "start": 73.71,
+     "end": 74.547,
+     "words": [
+      {
+       "text": "But",
+       "start": 73.71,
+       "end": 73.72
+      },
+      {
+       "text": "a",
+       "start": 73.8,
+       "end": 73.84
+      },
+      {
+       "text": "week",
+       "start": 73.88,
+       "end": 74.04
+      },
+      {
+       "text": "later,",
+       "start": 74.12,
+       "end": 74.547
+      }
+     ]
+    },
+    {
+     "show": "the world moved on.",
+     "start": 74.573,
+     "end": 75.6,
+     "words": [
+      {
+       "text": "the",
+       "start": 74.573,
+       "end": 74.6
+      },
+      {
+       "text": "world",
+       "start": 74.68,
+       "end": 74.92
+      },
+      {
+       "text": "moved",
+       "start": 75.04,
+       "end": 75.16
+      },
+      {
+       "text": "on.",
+       "start": 75.24,
+       "end": 75.6
+      }
+     ]
+    },
+    {
+     "show": "Everybody does.",
+     "start": 75.64,
+     "end": 76.52,
+     "words": [
+      {
+       "text": "Everybody",
+       "start": 75.64,
+       "end": 76.04
+      },
+      {
+       "text": "does.",
+       "start": 76.16,
+       "end": 76.52
+      }
+     ]
+    },
+    {
+     "show": "My number fell.",
+     "start": 76.6,
+     "end": 77.56,
+     "words": [
+      {
+       "text": "My",
+       "start": 76.6,
+       "end": 76.68
+      },
+      {
+       "text": "number",
+       "start": 76.84,
+       "end": 77.0
+      },
+      {
+       "text": "fell.",
+       "start": 77.24,
+       "end": 77.56
+      }
+     ]
+    },
+    {
+     "show": "And fell.",
+     "start": 77.64,
+     "end": 78.36,
+     "words": [
+      {
+       "text": "And",
+       "start": 77.64,
+       "end": 77.72
+      },
+      {
+       "text": "fell.",
+       "start": 78.0,
+       "end": 78.36
+      }
+     ]
+    },
+    {
+     "show": "And fell.",
+     "start": 78.44,
+     "end": 79.0,
+     "words": [
+      {
+       "text": "And",
+       "start": 78.44,
+       "end": 78.52
+      },
+      {
+       "text": "fell.",
+       "start": 78.64,
+       "end": 79.0
+      }
+     ]
+    },
+    {
+     "show": "I sat on the curb",
+     "start": 79.16,
+     "end": 79.88,
+     "words": [
+      {
+       "text": "I",
+       "start": 79.16,
+       "end": 79.213
+      },
+      {
+       "text": "sat",
+       "start": 79.267,
+       "end": 79.32
+      },
+      {
+       "text": "on",
+       "start": 79.36,
+       "end": 79.4
+      },
+      {
+       "text": "the",
+       "start": 79.48,
+       "end": 79.56
+      },
+      {
+       "text": "curb",
+       "start": 79.68,
+       "end": 79.88
+      }
+     ]
+    },
+    {
+     "show": "and watched it drop.",
+     "start": 79.96,
+     "end": 80.92,
+     "words": [
+      {
+       "text": "and",
+       "start": 79.96,
+       "end": 80.04
+      },
+      {
+       "text": "watched",
+       "start": 80.12,
+       "end": 80.28
+      },
+      {
+       "text": "it",
+       "start": 80.36,
+       "end": 80.44
+      },
+      {
+       "text": "drop.",
+       "start": 80.6,
+       "end": 80.92
+      }
+     ]
+    },
+    {
+     "show": "And then it stopped.",
+     "start": 81.76,
+     "end": 82.733,
+     "words": [
+      {
+       "text": "And",
+       "start": 81.76,
+       "end": 81.8
+      },
+      {
+       "text": "then",
+       "start": 81.88,
+       "end": 81.96
+      },
+      {
+       "text": "it",
+       "start": 82.04,
+       "end": 82.12
+      },
+      {
+       "text": "stopped.",
+       "start": 82.4,
+       "end": 82.733
+      }
+     ]
+    },
+    {
+     "show": "At {y:one.}",
+     "start": 83.387,
+     "end": 83.96,
+     "words": [
+      {
+       "text": "At",
+       "start": 83.387,
+       "end": 83.44
+      },
+      {
+       "text": "one.",
+       "start": 83.52,
+       "end": 83.96
+      }
+     ]
+    },
+    {
+     "show": "I looked around.",
+     "start": 84.0,
+     "end": 84.76,
+     "words": [
+      {
+       "text": "I",
+       "start": 84.0,
+       "end": 84.04
+      },
+      {
+       "text": "looked",
+       "start": 84.08,
+       "end": 84.2
+      },
+      {
+       "text": "around.",
+       "start": 84.24,
+       "end": 84.76
+      }
+     ]
+    },
+    {
+     "show": "Nobody was there.",
+     "start": 84.8,
+     "end": 85.813,
+     "words": [
+      {
+       "text": "Nobody",
+       "start": 84.8,
+       "end": 85.04
+      },
+      {
+       "text": "was",
+       "start": 85.12,
+       "end": 85.2
+      },
+      {
+       "text": "there.",
+       "start": 85.28,
+       "end": 85.813
+      }
+     ]
+    },
+    {
+     "show": "Then Linda sat down next to me.",
+     "start": 86.747,
+     "end": 88.347,
+     "words": [
+      {
+       "text": "Then",
+       "start": 86.747,
+       "end": 86.88
+      },
+      {
+       "text": "Linda",
+       "start": 86.96,
+       "end": 87.2
+      },
+      {
+       "text": "sat",
+       "start": 87.28,
+       "end": 87.44
+      },
+      {
+       "text": "down",
+       "start": 87.52,
+       "end": 87.68
+      },
+      {
+       "text": "next",
+       "start": 87.8,
+       "end": 87.92
+      },
+      {
+       "text": "to",
+       "start": 87.96,
+       "end": 88.0
+      },
+      {
+       "text": "me.",
+       "start": 88.16,
+       "end": 88.347
+      }
+     ]
+    },
+    {
+     "show": "She didn't say anything.",
+     "start": 88.373,
+     "end": 89.36,
+     "words": [
+      {
+       "text": "She",
+       "start": 88.373,
+       "end": 88.4
+      },
+      {
+       "text": "didn't",
+       "start": 88.44,
+       "end": 88.64
+      },
+      {
+       "text": "say",
+       "start": 88.72,
+       "end": 88.8
+      },
+      {
+       "text": "anything.",
+       "start": 89.04,
+       "end": 89.36
+      }
+     ]
+    },
+    {
+     "show": "She just looked at my number,",
+     "start": 89.4,
+     "end": 90.693,
+     "words": [
+      {
+       "text": "She",
+       "start": 89.4,
+       "end": 89.44
+      },
+      {
+       "text": "just",
+       "start": 89.52,
+       "end": 89.68
+      },
+      {
+       "text": "looked",
+       "start": 89.76,
+       "end": 89.88
+      },
+      {
+       "text": "at",
+       "start": 89.92,
+       "end": 90.0
+      },
+      {
+       "text": "my",
+       "start": 90.08,
+       "end": 90.16
+      },
+      {
+       "text": "number,",
+       "start": 90.4,
+       "end": 90.693
+      }
+     ]
+    },
+    {
+     "show": "and smiled.",
+     "start": 90.747,
+     "end": 91.44,
+     "words": [
+      {
+       "text": "and",
+       "start": 90.747,
+       "end": 90.8
+      },
+      {
+       "text": "smiled.",
+       "start": 90.88,
+       "end": 91.44
+      }
+     ]
+    }
+   ],
+   "start": 73.71,
+   "end": 91.44
+  },
+  {
+   "id": "end",
+   "label": "",
+   "lines": [
+    {
+     "show": "And for the first time,",
+     "start": 92.507,
+     "end": 93.56,
+     "words": [
+      {
+       "text": "And",
+       "start": 92.507,
+       "end": 92.52
+      },
+      {
+       "text": "for",
+       "start": 92.56,
+       "end": 92.6
+      },
+      {
+       "text": "the",
+       "start": 92.68,
+       "end": 92.76
+      },
+      {
+       "text": "first",
+       "start": 92.84,
+       "end": 93.08
+      },
+      {
+       "text": "time,",
+       "start": 93.24,
+       "end": 93.56
+      }
+     ]
+    },
+    {
+     "show": "I knew exactly",
+     "start": 93.64,
+     "end": 94.52,
+     "words": [
+      {
+       "text": "I",
+       "start": 93.64,
+       "end": 93.68
+      },
+      {
+       "text": "knew",
+       "start": 93.72,
+       "end": 93.8
+      },
+      {
+       "text": "exactly",
+       "start": 93.88,
+       "end": 94.52
+      }
+     ]
+    },
+    {
+     "show": "who the {y:one} was.",
+     "start": 94.6,
+     "end": 95.8,
+     "words": [
+      {
+       "text": "who",
+       "start": 94.6,
+       "end": 94.68
+      },
+      {
+       "text": "the",
+       "start": 94.76,
+       "end": 94.84
+      },
+      {
+       "text": "one",
+       "start": 94.92,
+       "end": 95.16
+      },
+      {
+       "text": "was.",
+       "start": 95.24,
+       "end": 95.8
+      }
+     ]
+    }
+   ],
+   "start": 92.507,
+   "end": 95.8
+  }
+ ]
+}
